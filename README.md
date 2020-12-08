@@ -12,3 +12,4 @@ Prince, Simon J. D. (????). [_Computer Vision: Models, Learning, and Inference_]
 Shalev-Shwartz, Shai & Shai Ben-David. (2014). [_Understanding Machine Learning: From Theory to Algorithms_](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/). Cambridge University Press.<br><br>
 Vershynin, Roman. (2018). _High-Dimensional Probability: An Introduction with Applications in Data Science_. Cambridge University Press.<br><br>
 Wainwright, Martin J. (2019). _High-Dimensional Statistics: A Non-Asymptotic Viewpoint_. Cambridge University Press.<br><br>
+Wasserman, Larry. (????). [_All of Statistics: A Concise Course in Statistical Inference_](http://www.stat.cmu.edu/~larry/all-of-statistics/index.html).<br><br>
