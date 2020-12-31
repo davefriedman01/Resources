@@ -12,6 +12,7 @@ Mohri, Mehryar, Afshin Rostamizadeh, & Ameet Talwalkar. (2018). [_Foundations of
 Murphy, Kevin Patrick. (2012). [_Machine Learning: A Probabilistic Perspective_](https://www.cs.ubc.ca/~murphyk/MLbook/). MIT Press.<br>
 Prince, Simon J. D. (????). [_Computer Vision: Models, Learning, and Inference_](http://www.computervisionmodels.com/). Cambridge University Press.<br>
 Shalev-Shwartz, Shai & Shai Ben-David. (2014). [_Understanding Machine Learning: From Theory to Algorithms_](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/). Cambridge University Press.<br>
+Tan, Pang-Ning et al. (2019). [_Introduction to Data Mining, 2nd Ed_](https://www-users.cs.umn.edu/~kumar001/dmbook/index.php).<br>
 Treil, Sergei. (2017). [_Linear Algebra Done Wrong_](https://www.math.brown.edu/streil/papers/LADW/LADW.html).<br>
 Vershynin, Roman. (2018). _High-Dimensional Probability: An Introduction with Applications in Data Science_. Cambridge University Press.<br>
 Wainwright, Martin J. (2019). _High-Dimensional Statistics: A Non-Asymptotic Viewpoint_. Cambridge University Press.<br>
