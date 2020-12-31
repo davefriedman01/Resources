@@ -4,6 +4,7 @@ Beck, Amir. (2017). _First-Order Methods in Optimization_.<br>
 Bishop, Christopher M. (2006). [_Pattern Recognition and Machine Learning_](https://www.microsoft.com/en-us/research/people/cmbishop/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Fcmbishop%2Fprml%2Findex.htm). Springer.<br>
 Deisenroth, Marc Peter, A. Aldo Faisal, & Cheng Soon Ong. (2020). [_Mathematics for Machine Learning_](https://deisenroth.cc/publication/deisenroth-2020/). Cambridge University Press.<br>
 Goodfellow, Ian, Yoshua Bengio, & Aaron Courville. (????). [_Deep Learning_](https://www.deeplearningbook.org). MIT Press.<br>
+Han, Jiawei, Micheline Kamber, & Jian Pei. (). [_Data Mining: Concepts and Techniques, 3rd Ed_](https://hanj.cs.illinois.edu/bk3/).<br>
 Hastie, Trevor, Robert Tibshirani, & Jerome Friedman. (2009). [_The Elements of Statistical Learning: Data Mining, Inference, and Prediction_](https://web.stanford.edu/~hastie/ElemStatLearn/). Springer.<br>
 Hastie, Trevor, Robert Tibshirani, & Martin Wainwright. (2015). [_Statistical Learning with Sparsity: The Lasso and Generalizations_](https://web.stanford.edu/~hastie/StatLearnSparsity/).<br>
 MacKay, David J. (2003). _Information Theory, Inference, and Learning Algorithms_. Cambridge University Press.<br>
