@@ -21,14 +21,35 @@ Vershynin, Roman. (2018). _High-Dimensional Probability: An Introduction with Ap
 Wainwright, Martin J. (2019). _High-Dimensional Statistics: A Non-Asymptotic Viewpoint_. Cambridge University Press.<br>
 Witten et al. (2016). _Data Mining: Practical Machine Learning Tools and Techniques, 4th Ed_.
 
+#### Computer Graphics
+
+Foley et al. (1996). _Computer Graphics: Principles and Practice, 2nd Ed_. Addison-Wesley.<br>
+Shirley, Peter et al. _Fundmentals of Computer Graphics, 4th Ed_.<br>
+Shreiner, Dave et al. _OpenGL Programming Guide: The Official Guide to Learning OpenGL, Version 4.5 with SPIR-V, 9th Ed_. Addison-Wesley.<br>
+Watt, Alan H. _3D Computer Graphics, 3rd Ed_.<br>
+
+[https://www.siggraph.org](https://www.siggraph.org).
+
 #### Computer Vision
 
+Forsyth, D. & J. Ponce. (2002). _Computer Vision: A Modern Approach_.<br>
 Prince, Simon J. D. [_Computer Vision: Models, Learning, and Inference_](http://www.computervisionmodels.com/). Cambridge University Press.<br>
+Szeliski, Rick. (2011). [_Computer Vision: ALgorithms and Applications_](http://szeliski.org/Book/). Springer.<br>
+Trucco, E. & A. Verri. (1998). _Introductory Techniques for 3D Computer Vision_.<br>
 
 #### DataViz
 
 Meeks, Elijah. (2017). _D3.js in Action, 2nd Ed_. Manning.<br>
 Munzner, Tamara. (2014). _Visualization Analysis and Design_.<br>
+
+#### Image Processing
+
+Bovik, A. C., ed. (2005). _Handbook of Image and Video Processing, 2nd Ed_.<br>
+Gonzalez, R. C. & R. E. Woods. (2018). [_Digital Image Processing, 4th Ed_](http://www.imageprocessingplace.com).<br>
+Gonzalez, R. C., R. E. Woods, & S. L. Eddins. _Digital Image Processing using MATLAB, 3rd Ed_.<br>
+Pratt, W. K. (2007). _Digital Image Processing, 4th Ed._ Wiley.<br>
+Russ, J. C. (2011). _The Image Processing Handbook, 6th Ed_.<br>
+Sonka, M., V. Hlavac, & R. Boyle. (2014). _Image Processing, Analysis, and Machine Vision, 4th Ed_.<br>
 
 #### Linear Algebra
 
