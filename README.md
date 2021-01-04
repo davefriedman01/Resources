@@ -27,8 +27,8 @@ Prince, Simon J. D. [_Computer Vision: Models, Learning, and Inference_](http://
 
 #### DataViz
 
-Munzner, Tamara. (2014). _Visualization Analysis and Design_.<br>
 Meeks, Elijah. (2017). _D3.js in Action, 2nd Ed_. Manning.<br>
+Munzner, Tamara. (2014). _Visualization Analysis and Design_.<br>
 
 #### Linear Algebra
 
