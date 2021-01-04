@@ -22,3 +22,8 @@ Vershynin, Roman. (2018). _High-Dimensional Probability: An Introduction with Ap
 Wainwright, Martin J. (2019). _High-Dimensional Statistics: A Non-Asymptotic Viewpoint_. Cambridge University Press.<br>
 Wasserman, Larry. (????). [_All of Statistics: A Concise Course in Statistical Inference_](http://www.stat.cmu.edu/~larry/all-of-statistics/index.html).<br>
 Witten et al. (2016). _Data Mining: Practical Machine Learning Tools and Techniques, 4th Ed_.
+
+#### DataViz
+
+Munzner, Tamara. (2014). _Visualization Analysis and Design_.
+Meeks, Elijah. (2017). _D3.js in Action, 2nd Ed_. Manning.
