@@ -21,6 +21,12 @@ Vershynin, Roman. (2018). _High-Dimensional Probability: An Introduction with Ap
 Wainwright, Martin J. (2019). _High-Dimensional Statistics: A Non-Asymptotic Viewpoint_. Cambridge University Press.<br>
 Witten et al. (2016). _Data Mining: Practical Machine Learning Tools and Techniques, 4th Ed_.
 
+#### Blockchain & Cryptocurrency
+
+Nakamoto, Satoshi. "Bitcoin: A Peer-to-Peer Electronic Cash System".<br>
+Narayanan, Arvind et al. (2016). _Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction_. Princeton University Press.<br>
+Shi, Elaine. [_Foundations of Consensus Protocols and Blockchains_](https://www.distributedconsensus.net).
+
 #### Computer Graphics
 
 Foley et al. (1996). _Computer Graphics: Principles and Practice, 2nd Ed_. Addison-Wesley.<br>
