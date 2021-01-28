@@ -63,11 +63,20 @@ Axler, Sheldon. (2014). _Linear Algebra Done Right_. Springer.<br>
 Strang, Gilbert. (2016). _Introduction to Linear Algebra, 5th Ed_.<br>
 Treil, Sergei. (2017). [_Linear Algebra Done Wrong_](https://www.math.brown.edu/streil/papers/LADW/LADW.html).<br>
 
-#### Optimization
+#### Mathematical Optimization
 
 Beck, Amir. (2017). _First-Order Methods in Optimization_.<br>
 
-#### Statistics
+#### Networking
 
+Keshav, Srinivasan. (2012). _Mathematical Foundations of Computer Networking_. Addison-Wesley Professional Computing Series.<br>
+Kurose, James & Keith Ross. (2016). _Computer Networking: A Top-Down Approach, 7th Ed_. Pearson.<br>
+
+#### Probability Theory and Statistics
+
+Forsyth, David. (2018). _Probability and Statistics for Computer Science_. Springer.<br>
 Wasserman, Larry. [_All of Statistics: A Concise Course in Statistical Inference_](http://www.stat.cmu.edu/~larry/all-of-statistics/index.html).<br>
 
+#### Signal Processing
+
+Lyons, Richard. (2010). _Understanding Digital Signal Processing, 3rd Ed_.<br>
