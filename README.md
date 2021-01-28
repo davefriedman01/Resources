@@ -59,6 +59,8 @@ Sonka, M., V. Hlavac, & R. Boyle. (2014). _Image Processing, Analysis, and Machi
 
 #### Linear Algebra
 
+Axler, Sheldon. (2014). _Linear Algebra Done Right_. Springer.<br>
+Strang, Gilbert. (2016). _Introduction to Linear Algebra, 5th Ed_.<br>
 Treil, Sergei. (2017). [_Linear Algebra Done Wrong_](https://www.math.brown.edu/streil/papers/LADW/LADW.html).<br>
 
 #### Optimization
