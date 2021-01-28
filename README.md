@@ -1,6 +1,6 @@
-# Resources
+## Resources
 
-#### AI, ML, DL
+### AI, ML, DL
 
 Bishop, Christopher M. (2006). [_Pattern Recognition and Machine Learning_](https://www.microsoft.com/en-us/research/people/cmbishop/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Fcmbishop%2Fprml%2Findex.htm). Springer.<br>
 Deisenroth, Marc Peter, A. Aldo Faisal, & Cheng Soon Ong. (2020). [_Mathematics for Machine Learning_](https://deisenroth.cc/publication/deisenroth-2020/). Cambridge University Press.<br>
@@ -21,13 +21,13 @@ Vershynin, Roman. (2018). _High-Dimensional Probability: An Introduction with Ap
 Wainwright, Martin J. (2019). _High-Dimensional Statistics: A Non-Asymptotic Viewpoint_. Cambridge University Press.<br>
 Witten et al. (2016). _Data Mining: Practical Machine Learning Tools and Techniques, 4th Ed_.
 
-#### Blockchain & Cryptocurrency
+### Blockchain & Cryptocurrency
 
 Nakamoto, Satoshi. "Bitcoin: A Peer-to-Peer Electronic Cash System".<br>
 Narayanan, Arvind et al. (2016). _Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction_. Princeton University Press.<br>
 Shi, Elaine. [_Foundations of Consensus Protocols and Blockchains_](https://www.distributedconsensus.net).
 
-#### Computer Graphics
+### Computer Graphics
 
 Foley et al. (1996). _Computer Graphics: Principles and Practice, 2nd Ed_. Addison-Wesley.<br>
 Shirley, Peter et al. _Fundmentals of Computer Graphics, 4th Ed_.<br>
@@ -36,19 +36,19 @@ Watt, Alan H. _3D Computer Graphics, 3rd Ed_.<br>
 
 [https://www.siggraph.org](https://www.siggraph.org).
 
-#### Computer Vision
+### Computer Vision
 
 Forsyth, D. & J. Ponce. (2002). _Computer Vision: A Modern Approach_.<br>
 Prince, Simon J. D. [_Computer Vision: Models, Learning, and Inference_](http://www.computervisionmodels.com/). Cambridge University Press.<br>
 Szeliski, Rick. (2011). [_Computer Vision: ALgorithms and Applications_](http://szeliski.org/Book/). Springer.<br>
 Trucco, E. & A. Verri. (1998). _Introductory Techniques for 3D Computer Vision_.<br>
 
-#### DataViz
+### DataViz
 
 Meeks, Elijah. (2017). _D3.js in Action, 2nd Ed_. Manning.<br>
 Munzner, Tamara. (2014). _Visualization Analysis and Design_.<br>
 
-#### Image Processing
+### Image Processing
 
 Bovik, A. C., ed. (2005). _Handbook of Image and Video Processing, 2nd Ed_.<br>
 Gonzalez, R. C. & R. E. Woods. (2018). [_Digital Image Processing, 4th Ed_](http://www.imageprocessingplace.com).<br>
@@ -57,26 +57,30 @@ Pratt, W. K. (2007). _Digital Image Processing, 4th Ed._ Wiley.<br>
 Russ, J. C. (2011). _The Image Processing Handbook, 6th Ed_.<br>
 Sonka, M., V. Hlavac, & R. Boyle. (2014). _Image Processing, Analysis, and Machine Vision, 4th Ed_.<br>
 
-#### Linear Algebra
+### Linear Algebra
 
 Axler, Sheldon. (2014). _Linear Algebra Done Right_. Springer.<br>
 Strang, Gilbert. (2016). _Introduction to Linear Algebra, 5th Ed_.<br>
 Treil, Sergei. (2017). [_Linear Algebra Done Wrong_](https://www.math.brown.edu/streil/papers/LADW/LADW.html).<br>
 
-#### Mathematical Optimization
+### Mathematical Optimization
 
 Beck, Amir. (2017). _First-Order Methods in Optimization_.<br>
 
-#### Networking
+### Networking
 
 Keshav, Srinivasan. (2012). _Mathematical Foundations of Computer Networking_. Addison-Wesley Professional Computing Series.<br>
 Kurose, James & Keith Ross. (2016). _Computer Networking: A Top-Down Approach, 7th Ed_. Pearson.<br>
 
-#### Probability Theory and Statistics
+### Probability Theory and Statistics
 
 Forsyth, David. (2018). _Probability and Statistics for Computer Science_. Springer.<br>
 Wasserman, Larry. [_All of Statistics: A Concise Course in Statistical Inference_](http://www.stat.cmu.edu/~larry/all-of-statistics/index.html).<br>
 
-#### Signal Processing
+### Security
+
+Van Oorschot, Paul C. (2020). _Computer Security and the Internet: Tools and Jewels_. Springer Information Security and Cryptography.<br>
+
+### Signal Processing
 
 Lyons, Richard. (2010). _Understanding Digital Signal Processing, 3rd Ed_.<br>
