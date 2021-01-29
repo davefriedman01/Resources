@@ -84,6 +84,7 @@ Katz, Jonathan & Yehuda Lindell. (2020). _Introduction to Modern Cryptography, 3
 Menezes, Alfred J., Paul C. van Oorschot, & Scott A. Vanstone. (1996). [_Handbook of Applied Cryptography_](http://cacr.uwaterloo.ca/hac/). CRC Press.<br>
 Van Oorschot, Paul C. (2020). _Computer Security and the Internet: Tools and Jewels_. Springer Information Security and Cryptography.<br>
 
+[Browser Security Handbook](https://code.google.com/archive/p/browsersec/wikis/Part2.wiki).<br>
 Neuman, B. Clifford & Theodore Ts'o. (1994). [Kerberos: An Authentication Service for Computer Networks](http://gost.isi.edu/publications/kerberos-neuman-tso.html).<br>
 [An Illustrated Guide to the Kaminsky DNS Vulnerability](http://unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html).<br>
 [Tenouk's C programming and buffer overflow programming flaw on Linux and Windows OS tutorial](https://www.tenouk.com/cncplusplusbufferoverflow.html).<br>
