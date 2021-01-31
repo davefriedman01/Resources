@@ -23,9 +23,12 @@ Witten et al. (2016). _Data Mining: Practical Machine Learning Tools and Techniq
 
 ### Blockchain & Cryptocurrency
 
+Lynch, Nancy A. (1996). _Distributed Algorithms_. Morgan-Kaufmann Series in Data Management Systems.<br>
 Nakamoto, Satoshi. "Bitcoin: A Peer-to-Peer Electronic Cash System".<br>
 Narayanan, Arvind et al. (2016). _Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction_. Princeton University Press.<br>
 Shi, Elaine. [_Foundations of Consensus Protocols and Blockchains_](https://www.distributedconsensus.net).
+
+[Spacemesh](https://spacemesh.io)<br>
 
 ### Computer Graphics
 
