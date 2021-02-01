@@ -38,6 +38,7 @@ Song, Jimmy. (2019). _Programming Bitcoin: Learn How to Program Bitcoin from Scr
 Werbach, Kevin. (2018). _The Blockchain and the New Architecture of Trust_. MIT Press.<br>
 Zand, Matt, Xun (Brian) Wu, & Mark Anthony Morris. (2021). _Hands-On Smart Contract Development with Hyperledger Fabric V2_. O'Reilly Media.<br>
 
+Investopedia's [Blockchain Explained](https://www.investopedia.com/terms/b/blockchain.asp).<br>
 [Spacemesh](https://spacemesh.io)<br>
 
 ### Computer Graphics
