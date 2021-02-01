@@ -21,7 +21,7 @@ Vershynin, Roman. (2018). _High-Dimensional Probability: An Introduction with Ap
 Wainwright, Martin J. (2019). _High-Dimensional Statistics: A Non-Asymptotic Viewpoint_. Cambridge University Press.<br>
 Witten et al. (2016). _Data Mining: Practical Machine Learning Tools and Techniques, 4th Ed_.
 
-### Blockchain & Cryptocurrency
+### Blockchain
 
 Antonopoulos, Andreas M. (2017). _Mastering Bitcoin: Programming the Open Blockchain, 2nd Ed_. O'Reilly Media.<br>
 Antonopoulos, Andreas M. & Gavin Wood. (2018). _Mastering Ethereum: Building Smart Contracts and DApps_. O'Reilly Media.<br>
