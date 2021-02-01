@@ -103,6 +103,7 @@ Neuman, B. Clifford & Theodore Ts'o. (1994). [Kerberos: An Authentication Servic
 [An Illustrated Guide to the Kaminsky DNS Vulnerability](http://unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html).<br>
 [Tenouk's C programming and buffer overflow programming flaw on Linux and Windows OS tutorial](https://www.tenouk.com/cncplusplusbufferoverflow.html).<br>
 Wheeler, David A. [Secure Programming HOWTO](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/index.html).<br>
+Wu, Wenliang. (2019). [_Computer & Internet Security: A Hands-On Approach, 2nd Ed_](https://seedsecuritylabs.org/index.html).<br>
 
 ### Signal Processing
 
