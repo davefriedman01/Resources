@@ -23,10 +23,19 @@ Witten et al. (2016). _Data Mining: Practical Machine Learning Tools and Techniq
 
 ### Blockchain & Cryptocurrency
 
+Antonopoulos, Andreas M. (2017). _Mastering Bitcoin: Programming the Open Blockchain, 2nd Ed_. O'Reilly Media.<br>
+Antonopoulos, Andreas M. & Gavin Wood. (2018). _Mastering Ethereum: Building Smart Contracts and DApps_. O'Reilly Media.<br>
+Infante, Roberto. (2019). _Building Ethereum Dapps_. Manning Publications.<br>
+Lamport, Leslie, Robert Shostak, & Marshall Pease. (1982). "The Byzantine Generals Problem".<br>
+Lantz, Lorne & Daniel Cawrey. (2020). _Mastering Blockchain: Unlocking the Power of Cryptocurrencies, Smart Contracts, and Decentralized Applications_. O'Reilly Media.<br>
 Lynch, Nancy A. (1996). _Distributed Algorithms_. Morgan-Kaufmann Series in Data Management Systems.<br>
 Nakamoto, Satoshi. "Bitcoin: A Peer-to-Peer Electronic Cash System".<br>
 Narayanan, Arvind et al. (2016). _Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction_. Princeton University Press.<br>
+Ramamurthy, Bina. (2020). _Blockchain in Action_. Manning Publications.<br>
 Shi, Elaine. [_Foundations of Consensus Protocols and Blockchains_](https://www.distributedconsensus.net).
+Solorio, Kevin, Randall Kanna, & David H. Hoover. (2019). _Hands-On Smart Contract Development with Solidity and Ethereum: From Fundamentals to Deployment_. O'Reilly Media.<br>
+Song, Jimmy. (2019). _Programming Bitcoin: Learn How to Program Bitcoin from Scratch_. O'Reilly Media.<br>
+Zand, Matt, Xun (Brian) Wu, & Mark Anthony Morris. (2021). _Hands-On Smart Contract Development with Hyperledger Fabric V2_. O'Reilly Media.<br>
 
 [Spacemesh](https://spacemesh.io)<br>
 
