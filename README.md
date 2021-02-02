@@ -29,8 +29,11 @@ Back, Adam. (2002). ["Hashcash: A Denial-of-Service Countermeasure"](http://www.
 Buterin, Vitalik. (2013). ["White Paper"](https://ethereum.org/whitepaper/).<br>
 Chaum, David. (1982). ["Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups"](https://www.chaum.com/publications/chaum_dissertation.pdf).<br>
 Dwork, Cynthia & Moni Naor. (1993). "Pricing via Processing or Combatting Junk Mail".<br>
+Dwork, Cynthia, Nancy Lynch, & Larry Stockmeyer. (1988). "Consensus in the Presence of Partial Synchrony".<br>
+Fischer, Michael J., Nancy A. Lynch, & Michael S. Paterson. (1985). "Impossibility of Distributed Consensus with One Faulty Process".<br>
 Haber, Stuart & W. Scott Stornetta. (1991). ["How to Time-Stamp a Digital Document"](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=C01131148AF17AF93F2655C091376AF4?doi=10.1.1.46.8740&rep=rep1&type=pdf).<br>
 Infante, Roberto. (2019). _Building Ethereum Dapps_. Manning Publications.<br>
+Lamport, Leslie. (2000). "The Part-Time Parliament".<br>
 Lamport, Leslie, Robert Shostak, & Marshall Pease. (1982). "The Byzantine Generals Problem".<br>
 Lantz, Lorne & Daniel Cawrey. (2020). _Mastering Blockchain: Unlocking the Power of Cryptocurrencies, Smart Contracts, and Decentralized Applications_. O'Reilly Media.<br>
 Lynch, Nancy A. (1996). _Distributed Algorithms_. Morgan-Kaufmann Series in Data Management Systems.<br>
@@ -38,6 +41,7 @@ Merkle, Ralph. (1980). ["Protocols for Public Key Cryptosystems"](http://www.mer
 Nakamoto, Satoshi. (2008). ["Bitcoin: A Peer-to-Peer Electronic Cash System"](https://bitcoin.org/bitcoin.pdf).<br>
 Narayanan, Arvind et al. (2016). _Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction_. Princeton University Press.<br>
 Ramamurthy, Bina. (2020). _Blockchain in Action_. Manning Publications.<br>
+Raynal, Michel. (2018). _Fault-Tolerant Message-Passing Distributed Systems: An Algorithmic Approach_. Springer.<br>
 Shi, Elaine. [_Foundations of Consensus Protocols and Blockchains_](https://www.distributedconsensus.net).
 Solorio, Kevin, Randall Kanna, & David H. Hoover. (2019). _Hands-On Smart Contract Development with Solidity and Ethereum: From Fundamentals to Deployment_. O'Reilly Media.<br>
 Song, Jimmy. (2019). _Programming Bitcoin: Learn How to Program Bitcoin from Scratch_. O'Reilly Media.<br>
