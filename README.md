@@ -1,6 +1,6 @@
 # Resources
 
-#### AI, ML, DL, RL, Statistical Learning, Data Mining, NLP, etc.
+### AI, ML, DL, RL, Statistical Learning, Data Mining, NLP, etc.
 
 [GPT-3 (Wikipedia)](https://en.wikipedia.org/wiki/GPT-3)<br>
 [OpenAI](https://openai.com)<br>
@@ -31,7 +31,7 @@ Wainwright, Martin J. (2019). _High-Dimensional Statistics: A Non-Asymptotic Vie
 Winder, Phil. (2020). _Reinforcement Learning: Industrial Applications of Intelligent Agents_. O'Reilly Media.<br>
 Witten et al. (2016). _Data Mining: Practical Machine Learning Tools and Techniques, 4th Ed_.
 
-#### Big Data
+### Big Data
 
 [MapReduce (Wikipedia)](https://en.wikipedia.org/wiki/MapReduce)<br>
 [PageRank (Wikipedia)](https://en.wikipedia.org/wiki/PageRank)<br>
@@ -42,7 +42,7 @@ Damji, Jules S. et al. (2020). _Learning Spark: Lightning-Fast Data Analytics, 2
 Karau, Holden & Rachel Warren. (2017). _High Performance Spark: Best Practices for Scaling and Optimizing Apache Spark_. O'Reilly Media.<br>
 Parsian, Mahmoud. (2021). _Data Algorithms with Spark: Recipes and Design Patterns for Scaling Up using PySpark_. O'Reilly Media.<br>
 
-#### Blockchain, Cryptocurrency, and DeFi
+### Blockchain, Cryptocurrency, and DeFi
 
 [Blockchain (Wikipedia)](https://en.wikipedia.org/wiki/Blockchain)<br>
 Blockchain 2.0<br>
@@ -89,7 +89,7 @@ Wei, Dai. (1998). ["b-money"](http://www.weidai.com/bmoney.txt).<br>
 Werbach, Kevin. (2018). _The Blockchain and the New Architecture of Trust_. MIT Press.<br>
 Zand, Matt, Xun (Brian) Wu, & Mark Anthony Morris. (2021). _Hands-On Smart Contract Development with Hyperledger Fabric V2: Building Enterprise Blockchain Applicat    ions_. O'Reilly Media.<br>
 
-#### Command Line
+### Command Line
 
 [Autocompletion (Wikipedia)](https://en.wikipedia.org/wiki/Autocomplete)<br>
 [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)<br>
@@ -101,7 +101,7 @@ Zand, Matt, Xun (Brian) Wu, & Mark Anthony Morris. (2021). _Hands-On Smart Contr
 [Terminal.app (Wikipedia)](https://en.wikipedia.org/wiki/Terminal_(macOS))<br>
 [Terminal Emulator (Wikipedia)](https://en.wikipedia.org/wiki/Terminal_emulator)<br>
 
-#### Computer Graphics
+### Computer Graphics
 
 Foley et al. (1996). _Computer Graphics: Principles and Practice, 2nd Ed_. Addison-Wesley.<br>
 Shirley, Peter et al. _Fundmentals of Computer Graphics, 4th Ed_.<br>
@@ -110,23 +110,23 @@ Watt, Alan H. _3D Computer Graphics, 3rd Ed_.<br>
 
 [https://www.siggraph.org](https://www.siggraph.org).
 
-#### Computer Networking
+### Computer Networking
 
 Keshav, Srinivasan. (2012). _Mathematical Foundations of Computer Networking_. Addison-Wesley Professional Computing Series.<br>
 Kurose, James & Keith Ross. (2016). _Computer Networking: A Top-Down Approach, 7th Ed_. Pearson.<br>
 
-#### Computer Vision
+### Computer Vision
 
 Forsyth, D. & J. Ponce. (2002). _Computer Vision: A Modern Approach_.<br>
 Prince, Simon J. D. [_Computer Vision: Models, Learning, and Inference_](http://www.computervisionmodels.com/). Cambridge University Press.<br>
 Szeliski, Rick. (2011). [_Computer Vision: ALgorithms and Applications_](http://szeliski.org/Book/). Springer.<br>
 Trucco, E. & A. Verri. (1998). _Introductory Techniques for 3D Computer Vision_.<br>
 
-#### Computing
+### Computing
 
 [Turing Completeness (Wikipedia)](https://en.wikipedia.org/wiki/Turing_completeness)<br>
 
-#### DataViz
+### DataViz
 
 [Altair](https://altair-viz.github.io)<br>
 [D3.js](https://d3js.org)<br>
@@ -141,20 +141,20 @@ Murray, Scott. (2017). _Interactive Data Visualization for the Web: An Introduct
 Thomas, Stephen A. (2015). _Data Visualization with JavaScript_. No Starch Press.<br>
 Wilke, Claus O. (2019). _Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures_. O'Reilly Media.<br>
 
-#### DevOps
+### DevOps
 
 Forsgren, Nicole, Jez Humble, & Gene Kim. (2018). _Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations_. IT Revolution Press.<br>
 Kim, Gene. (2019). _The Unicorn Project: A Novel about Developers, Digital Disruption, and Thriving in the Age of Data_. IT Revolution Press.<br>
 Kim, Gene et al. (2021). _The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations, 2nd Ed_. IT Revolution Press.<br>
 Kim, Gene, Kevin Behr, & George Spafford. (2013). _The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win_. IT Revolution Press.<br>
 
-#### Finance and FinTech
+### Finance and FinTech
 
 Hull, John C. (2020). [_Machine Learning in Business: An Introduction to the World of Data Science, 2nd Ed_](https://www-2.rotman.utoronto.ca/~hull/Second%20edition%20Online%20Files/index2ndEd.html). Self published.<br>
 Hull, John C. (2017). [_Options, Futures, and Other Derivatives, 10th Ed_](https://www-2.rotman.utoronto.ca/~hull/ofod/index.html). Pearson.<br>
 Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time Cloud Financial Management_. O'Reilly Media.<br>
 
-#### Image Processing
+### Image Processing
 
 Bovik, A. C., ed. (2005). _Handbook of Image and Video Processing, 2nd Ed_.<br>
 Gonzalez, R. C. & R. E. Woods. (2018). [_Digital Image Processing, 4th Ed_](http://www.imageprocessingplace.com).<br>
@@ -163,23 +163,25 @@ Pratt, W. K. (2007). _Digital Image Processing, 4th Ed._ Wiley.<br>
 Russ, J. C. (2011). _The Image Processing Handbook, 6th Ed_.<br>
 Sonka, M., V. Hlavac, & R. Boyle. (2014). _Image Processing, Analysis, and Machine Vision, 4th Ed_.<br>
 
-#### Linear Algebra
+### Linear Algebra
 
 Axler, Sheldon. (2014). _Linear Algebra Done Right_. Springer.<br>
 Strang, Gilbert. (2016). _Introduction to Linear Algebra, 5th Ed_.<br>
 Treil, Sergei. (2017). [_Linear Algebra Done Wrong_](https://www.math.brown.edu/streil/papers/LADW/LADW.html).<br>
 
-#### Mathematical Optimization
+### Mathematical Optimization and Linear Programming
+
+Keen, Ben Alex. [Linear Programming with Python and PuLP](https://benalexkeen.com/linear-programming-with-python-and-pulp-part-1/).<br>
+[Linear Programming (Wolfram)](https://reference.wolfram.com/language/tutorial/ConstrainedOptimizationLinearProgramming.html)<br>
 
 Beck, Amir. (2017). _First-Order Methods in Optimization_.<br>
 
-
-#### Probability Theory and Statistics
+### Probability Theory and Statistics
 
 Forsyth, David. (2018). _Probability and Statistics for Computer Science_. Springer.<br>
 Wasserman, Larry. [_All of Statistics: A Concise Course in Statistical Inference_](http://www.stat.cmu.edu/~larry/all-of-statistics/index.html).<br>
 
-#### Python
+### Python
 
 [Python](https://www.python.org)<br>
 [Anaconda](https://www.anaconda.com/open-source)<br>
@@ -197,7 +199,7 @@ Sweigart, Al. (2019). _Automate the Boring Stuff with Python: Practical Programm
 Viafore, Patrick. (2022). _Robust Python: Write Clean and Maintainable Code_. O'Reilly Media.<br>
 Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
 
-#### Python and Finance
+### Python and Finance
 
 [The Python Quants](https://home.tpq.io/hilpisch/)<br>
 
@@ -208,7 +210,7 @@ Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Model
 McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
 VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
 
-#### Security
+### Security
 
 Hoffstein, Jeffrey, Jill Pipher, & Joseph H. Silverman. (2014). _An Introduction to Mathematical Cryptography, 2nd Ed_. Springer Undergraduate Texts in Mathematics.<br>
 [Katz, Jonathan](http://www.cs.umd.edu/~jkatz/) & Yehuda Lindell. (2020). [_Introduction to Modern Cryptography, 3rd Ed_](http://www.cs.umd.edu/~jkatz/imc.html). Chapman & Hall CRC Cryptography and Network Security Series. [YouTube](https://youtube.com/playlist?list=PL2jykFOD1AWb07OLBdFI2QIHvPo3aTTeu)<br>
@@ -223,11 +225,11 @@ Neuman, B. Clifford & Theodore Ts'o. (1994). [Kerberos: An Authentication Servic
 [Tenouk's C programming and buffer overflow programming flaw on Linux and Windows OS tutorial](https://www.tenouk.com/cncplusplusbufferoverflow.html).<br>
 Wheeler, David A. [Secure Programming HOWTO](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/index.html).<br>
 
-#### Signal Processing
+### Signal Processing
 
 Lyons, Richard. (2010). _Understanding Digital Signal Processing, 3rd Ed_.<br>
 
-#### Version Control
+### Version Control
 
 [Version Control (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/version-control/)<br>
 [Git LFS Large File Storage (GitHub Training & Guides on YouTube)](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)<br>
