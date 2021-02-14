@@ -213,6 +213,7 @@ VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Wor
 Hoffstein, Jeffrey, Jill Pipher, & Joseph H. Silverman. (2014). _An Introduction to Mathematical Cryptography, 2nd Ed_. Springer Undergraduate Texts in Mathematics.<br>
 [Katz, Jonathan](http://www.cs.umd.edu/~jkatz/) & Yehuda Lindell. (2020). [_Introduction to Modern Cryptography, 3rd Ed_](http://www.cs.umd.edu/~jkatz/imc.html). Chapman & Hall CRC Cryptography and Network Security Series. [YouTube](https://youtube.com/playlist?list=PL2jykFOD1AWb07OLBdFI2QIHvPo3aTTeu)<br>
 Menezes, Alfred J., Paul C. van Oorschot, & Scott A. Vanstone. (1996). [_Handbook of Applied Cryptography_](http://cacr.uwaterloo.ca/hac/). CRC Press.<br>
+Ristic, Ivan. (2021). [_OpenSSL Cookbook: The Definitive Guide to the Most Useful Command Line Features_](https://www.feistyduck.com/books/openssl-cookbook/). Feisty Duck.<br>
 Van Oorschot, Paul C. (2020). _Computer Security and the Internet: Tools and Jewels_. Springer Information Security and Cryptography.<br>
 Wu, Wenliang. (2019). [_Computer & Internet Security: A Hands-On Approach, 2nd Ed_](https://seedsecuritylabs.org/index.html).<br>
 
