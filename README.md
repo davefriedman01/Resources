@@ -141,8 +141,10 @@ Murray, Scott. (2017). _Interactive Data Visualization for the Web: An Introduct
 Thomas, Stephen A. (2015). _Data Visualization with JavaScript_. No Starch Press.<br>
 Wilke, Claus O. (2019). _Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures_. O'Reilly Media.<br>
 
-#### FinTech
+#### Finance and inTech
 
+Hull, John C. (2020). [_Machine Learning in Business: An Introduction to the World of Data Science, 2nd Ed_](https://www-2.rotman.utoronto.ca/~hull/Second%20edition%20Online%20Files/index2ndEd.html). Self published.<br>
+Hull, John C. (2017). [_Options, Futures, and Other Derivatives, 10th Ed_](https://www-2.rotman.utoronto.ca/~hull/ofod/index.html). Pearson.<br>
 Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time Cloud Financial Management_. O'Reilly Media.<br>
 
 #### Image Processing
