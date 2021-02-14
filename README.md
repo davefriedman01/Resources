@@ -115,6 +115,21 @@ Watt, Alan H. _3D Computer Graphics, 3rd Ed_.<br>
 Keshav, Srinivasan. (2012). _Mathematical Foundations of Computer Networking_. Addison-Wesley Professional Computing Series.<br>
 Kurose, James & Keith Ross. (2016). _Computer Networking: A Top-Down Approach, 7th Ed_. Pearson.<br>
 
+### Computer Security
+
+Hoffstein, Jeffrey, Jill Pipher, & Joseph H. Silverman. (2014). _An Introduction to Mathematical Cryptography, 2nd Ed_. Springer Undergraduate Texts in Mathematics.<br>
+[Katz, Jonathan](http://www.cs.umd.edu/~jkatz/) & Yehuda Lindell. (2020). [_Introduction to Modern Cryptography, 3rd Ed_](http://www.cs.umd.edu/~jkatz/imc.html). Chapman & Hall CRC Cryptography and Network Security Series. [YouTube](https://youtube.com/playlist?list=PL2jykFOD1AWb07OLBdFI2QIHvPo3aTTeu)<br>
+Menezes, Alfred J., Paul C. van Oorschot, & Scott A. Vanstone. (1996). [_Handbook of Applied Cryptography_](http://cacr.uwaterloo.ca/hac/). CRC Press.<br>
+Ristic, Ivan. (2021). [_OpenSSL Cookbook: The Definitive Guide to the Most Useful Command Line Features_](https://www.feistyduck.com/books/openssl-cookbook/). Feisty Duck.<br>
+Van Oorschot, Paul C. (2020). _Computer Security and the Internet: Tools and Jewels_. Springer Information Security and Cryptography.<br>
+Wu, Wenliang. (2019). [_Computer & Internet Security: A Hands-On Approach, 2nd Ed_](https://seedsecuritylabs.org/index.html).<br>
+
+[Browser Security Handbook](https://code.google.com/archive/p/browsersec/wikis/Part2.wiki).<br>
+Neuman, B. Clifford & Theodore Ts'o. (1994). [Kerberos: An Authentication Service for Computer Networks](http://gost.isi.edu/publications/kerberos-neuman-tso.html).<br>
+[An Illustrated Guide to the Kaminsky DNS Vulnerability](http://unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html).<br>
+[Tenouk's C programming and buffer overflow programming flaw on Linux and Windows OS tutorial](https://www.tenouk.com/cncplusplusbufferoverflow.html).<br>
+Wheeler, David A. [Secure Programming HOWTO](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/index.html).<br>
+
 ### Computer Vision
 
 Forsyth, D. & J. Ponce. (2002). _Computer Vision: A Modern Approach_.<br>
@@ -124,7 +139,20 @@ Trucco, E. & A. Verri. (1998). _Introductory Techniques for 3D Computer Vision_.
 
 ### Computing
 
+Container<br>
+CPU Central Processing Unit<br>
+Hardware<br>
+HDD Hard Drive Disk<br>
+Hypervisor<br>
+Linux<br>
+OS Operating System<br>
+OS, Guest<br>
+OS, Host<br>
+RAM Random Access Memory<br>
+Software<br>
+SSD Solid State Drive<br>
 [Turing Completeness (Wikipedia)](https://en.wikipedia.org/wiki/Turing_completeness)<br>
+VM Virtual Machine<br>
 
 ### DataViz
 
@@ -227,21 +255,6 @@ Hilpisch, Yves. (2019). _Python for Finance: Mastering Data-Driven Finance, 2nd 
 Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Models, Simulation, Calibration and Hedging_. Wiley.<br>
 McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
 VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
-
-### Security
-
-Hoffstein, Jeffrey, Jill Pipher, & Joseph H. Silverman. (2014). _An Introduction to Mathematical Cryptography, 2nd Ed_. Springer Undergraduate Texts in Mathematics.<br>
-[Katz, Jonathan](http://www.cs.umd.edu/~jkatz/) & Yehuda Lindell. (2020). [_Introduction to Modern Cryptography, 3rd Ed_](http://www.cs.umd.edu/~jkatz/imc.html). Chapman & Hall CRC Cryptography and Network Security Series. [YouTube](https://youtube.com/playlist?list=PL2jykFOD1AWb07OLBdFI2QIHvPo3aTTeu)<br>
-Menezes, Alfred J., Paul C. van Oorschot, & Scott A. Vanstone. (1996). [_Handbook of Applied Cryptography_](http://cacr.uwaterloo.ca/hac/). CRC Press.<br>
-Ristic, Ivan. (2021). [_OpenSSL Cookbook: The Definitive Guide to the Most Useful Command Line Features_](https://www.feistyduck.com/books/openssl-cookbook/). Feisty Duck.<br>
-Van Oorschot, Paul C. (2020). _Computer Security and the Internet: Tools and Jewels_. Springer Information Security and Cryptography.<br>
-Wu, Wenliang. (2019). [_Computer & Internet Security: A Hands-On Approach, 2nd Ed_](https://seedsecuritylabs.org/index.html).<br>
-
-[Browser Security Handbook](https://code.google.com/archive/p/browsersec/wikis/Part2.wiki).<br>
-Neuman, B. Clifford & Theodore Ts'o. (1994). [Kerberos: An Authentication Service for Computer Networks](http://gost.isi.edu/publications/kerberos-neuman-tso.html).<br>
-[An Illustrated Guide to the Kaminsky DNS Vulnerability](http://unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html).<br>
-[Tenouk's C programming and buffer overflow programming flaw on Linux and Windows OS tutorial](https://www.tenouk.com/cncplusplusbufferoverflow.html).<br>
-Wheeler, David A. [Secure Programming HOWTO](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/index.html).<br>
 
 ### Signal Processing
 
