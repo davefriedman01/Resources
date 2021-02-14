@@ -148,7 +148,7 @@ Kim, Gene. (2019). _The Unicorn Project: A Novel about Developers, Digital Disru
 Kim, Gene et al. (2021). _The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations, 2nd Ed_. IT Revolution Press.<br>
 Kim, Gene, Kevin Behr, & George Spafford. (2013). _The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win_. IT Revolution Press.<br>
 
-#### Finance and inTech
+#### Finance and FinTech
 
 Hull, John C. (2020). [_Machine Learning in Business: An Introduction to the World of Data Science, 2nd Ed_](https://www-2.rotman.utoronto.ca/~hull/Second%20edition%20Online%20Files/index2ndEd.html). Self published.<br>
 Hull, John C. (2017). [_Options, Futures, and Other Derivatives, 10th Ed_](https://www-2.rotman.utoronto.ca/~hull/ofod/index.html). Pearson.<br>
