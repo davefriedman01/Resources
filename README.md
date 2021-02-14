@@ -150,6 +150,10 @@ Kim, Gene, Kevin Behr, & George Spafford. (2013). _The Phoenix Project: A Novel 
 
 ### Finance and FinTech
 
+[Corporate Finance Institute](https://corporatefinanceinstitute.com) [YouTube](https://www.youtube.com/c/Corporatefinanceinstitute-CFI/)<br>
+[The Finance Storyteller](https://www.youtube.com/c/TheFinanceStoryteller/)<br>
+[One Minute Economics](https://www.youtube.com/c/OneMinuteEconomics/)<br>
+
 Hull, John C. (2020). [_Machine Learning in Business: An Introduction to the World of Data Science, 2nd Ed_](https://www-2.rotman.utoronto.ca/~hull/Second%20edition%20Online%20Files/index2ndEd.html). Self published.<br>
 Hull, John C. (2017). [_Options, Futures, and Other Derivatives, 10th Ed_](https://www-2.rotman.utoronto.ca/~hull/ofod/index.html). Pearson.<br>
 Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time Cloud Financial Management_. O'Reilly Media.<br>
