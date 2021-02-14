@@ -183,6 +183,10 @@ Axler, Sheldon. (2014). _Linear Algebra Done Right_. Springer.<br>
 Strang, Gilbert. (2016). _Introduction to Linear Algebra, 5th Ed_.<br>
 Treil, Sergei. (2017). [_Linear Algebra Done Wrong_](https://www.math.brown.edu/streil/papers/LADW/LADW.html).<br>
 
+### Mathematical Logic
+
+Leary, Christopher & Lars Kristiansen. (2015). [_A Friendly Introduction to Mathematical Logic_](https://milneopentextbooks.org/a-friendly-introduction-to-mathematical-logic/). Milne Library.<br>
+
 ### Mathematical Optimization and Linear Programming
 
 Keen, Ben Alex. [Linear Programming with Python and PuLP](https://benalexkeen.com/linear-programming-with-python-and-pulp-part-1/).<br>
