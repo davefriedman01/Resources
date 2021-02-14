@@ -167,6 +167,16 @@ Pratt, W. K. (2007). _Digital Image Processing, 4th Ed._ Wiley.<br>
 Russ, J. C. (2011). _The Image Processing Handbook, 6th Ed_.<br>
 Sonka, M., V. Hlavac, & R. Boyle. (2014). _Image Processing, Analysis, and Machine Vision, 4th Ed_.<br>
 
+### JavaScript
+
+[How to Write Secure JavaScript Applications (YouTube)](https://www.youtube.com/watch?v=BeKMbTSm7x8)
+[Javascript.info](https://javascript.info)<br>
+
+Crockford, Douglas. (2018). [_How JavaScript Works_](https://howjavascriptworks.com).<br>
+Crockford, Douglas. (2008). _JavaScript: The Good Parts: Unearthing the Excellence in JavaScript_. O'Reilly Media.<br>
+Flanagan, David. (2020). _JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language, 7th Ed_. O'Reilly Media.<br>
+Haverbeke, Marijn. (2018). [_Eloquent JavaScript: A Modern Introduction to Programming, 3rd Ed_](https://eloquentjavascript.net). No Starch Press.<br>
+
 ### Linear Algebra
 
 Axler, Sheldon. (2014). _Linear Algebra Done Right_. Springer.<br>
@@ -238,3 +248,9 @@ Lyons, Richard. (2010). _Understanding Digital Signal Processing, 3rd Ed_.<br>
 [Version Control (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/version-control/)<br>
 [Git LFS Large File Storage (GitHub Training & Guides on YouTube)](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)<br>
 [Setting your username in Git (GitHub Docs)](https://docs.github.com/en/github/using-git/setting-your-username-in-git)<br>
+
+### Publishers
+
+No Starch Press<br>
+O'Reilly Media<br>
+[Sitepoint](https://www.sitepoint.com)<br>
