@@ -130,7 +130,7 @@ Keshav, Srinivasan. (2012). _Mathematical Foundations of Computer Networking_. A
 Kurose, James & Keith Ross. (2016). _Computer Networking: A Top-Down Approach, 7th Ed_. Pearson.<br>
 Ousterhout, Kay et al. (2013). "Sparrow: Distributed, Low Latency Scheduling".<br>
 Sharma, Prateek et al. (2016). "Containers and Virtual Machines at Scale: A Comparative Study".<br>
-Shen, Zhiming et al. (2017). "Supercloud: A Library Cloud for Exploiting Cloud Diversity".<br>.
+Shen, Zhiming et al. (2017). "Supercloud: A Library Cloud for Exploiting Cloud Diversity".<br>
 Sigelman, Benjamin H. et al. (2010). "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure".<br>
 Tan, Cheng et al. (2017). "The Efficient Server Audit Problem, Deduplicated Re-execution, and the Web".<br>
 Tumanov, Alexey et al. (2016). "TetriSched: global rescheduling with adaptive plan-ahead in dynamic heterogeneous clusters".<br>
