@@ -287,6 +287,7 @@ Mayer, Christian. (2020). _Python One-Liners: Write Concise, Eloquent Python lik
 Ramalho, Luciano. (2021). _Fluent Python: Clear, Concise, and Effective Programming, 2nd Ed_. O'Reilly Media.<br>
 Sweigart, Al. (2020). _Beyond the Basic Stuff with Python: Best Practices for Writing Clean Code_. O'Reilly Media.<br>
 Sweigart, Al. (2019). _Automate the Boring Stuff with Python: Practical Programming for Total Beginners, 2nd Ed_. No Starch Press.<br>
+Sweigart, Al. (2015). [_Automate the Boring Stuff with Python: Practical Programming for Total Beginners_](https://automatetheboringstuff.com). No Starch Press.<br>
 Viafore, Patrick. (2022). _Robust Python: Write Clean and Maintainable Code_. O'Reilly Media.<br>
 Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
 
