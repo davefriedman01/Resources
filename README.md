@@ -332,6 +332,13 @@ O'Reilly Media<br>
 or<br>
 `git push`<br>
 
+`git checkout -b <branch-name>` create a new branch<br>
+`git add -A`<br>
+`git commit -m "commit message"`<br>
+`git push origin <branch-name>`<br>
+`git checkout <branch-name>` switch to a branch<br>
+`git pull`<br>
+
 `git clone https://github.com/<github-username>/<github-repo-name>.git`<br>
 
 `git config --global init.defaultBranch <name-(e.g., main)>` once<br>
@@ -355,5 +362,9 @@ or<br>
 #### Anconda & Conda<br>
 `conda update conda`<br>
 `conda update anaconda`<br>
+
+`conda create -n <env-name> python=3.7 anaconda`<br>
+`conda activate <env-name>`<br>
+`conda list`<br>
 #### JupyterLab<br>
 `jupyter lab [--notebook-dir=.]`
