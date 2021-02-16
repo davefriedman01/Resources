@@ -316,3 +316,9 @@ Lyons, Richard. (2010). _Understanding Digital Signal Processing, 3rd Ed_.<br>
 No Starch Press<br>
 O'Reilly Media<br>
 [Sitepoint](https://www.sitepoint.com)<br>
+
+# Useful Commands
+
+Python<br>
+`python3 --version`<br>
+`py -3 --version`
