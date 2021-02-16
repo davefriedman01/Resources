@@ -323,9 +323,11 @@ O'Reilly Media<br>
 Run these commands in Terminal.app on macOS or in Git Bash on Windows.<br>
 
 #### Jupyter
-`jupyter lab` or `jupyter-lab`<br>
+`jupyter lab` or `jupyter-lab` Open Jupyter in the default directory<br>
+`jupyter lab --notebook-dir=.` Open Jupyter in the current working directory<br>
 [jupyter docs](https://jupyterlab.readthedocs.io/en/latest/)<br>
 [jupyter installation](https://jupyter.org/install)<br>
+Temporarily fall back to [jupyter online](https://jupyter.org/try) if you're having trouble with the local installation<br>
 
 Check which Jupyter installation is currently set as the default on your system.<br>
 `which jupyter` (macOS)<br>
@@ -354,6 +356,10 @@ and
 Check whether git is installed successfully on your system.<br>
 `git --version`<br>
 
+`git remote -v`<br>
+`git remote get-url --all origin`<br>
+`git remote set-url origin git@github.com:<github-username>/<github-repo-name>.git`<br>
+
 First time connecting to your new GitHub repo (assuming you're successfully linked via an ssh key).<br>
 `echo "# Repo Name" >> README.md`<br>
 `git init`<br>
@@ -364,9 +370,17 @@ First time connecting to your new GitHub repo (assuming you're successfully link
 `git push -u origin main`<br>
 
 Subsequent connections to your GitHub repo (assuming you're successfully linked via an ssh key).<br>
+`git status`<br>
 `git add .`<br>
 `git commit -m "your commit message"`<br>
 `git push`<br>
+
+Set your username.<br>
+`git config --global user.name "your name"`<br>
+Set your email.<br>
+`git config --global user.email your-email@your-email.com`<br>
+Get your configuration.<br>
+`git config --list`<br>
 
 `git lfs version`<br>
 `git lfs track [*.psd]`<br>
@@ -386,11 +400,38 @@ Check whether the conda installation of Python is in your PATH variable.<br>
 `echo %PATH%` (Windows)<br>
 
 #### SSH Keys
-`ssh-keygen -t rsa -b 4096 -C <email>` create a new ssh key<br>
-`eval "$(ssh-agent -s)"`<br>
+Create a new ssh key.<br>
+`ssh-keygen -t rsa -b 4096 -C <email>`<br>
+Check that ssh-agent is running on your system.<br>
+`eval "$(ssh-agent -s)"` Look for `Agent pid <number>` in the output<br>
 `ssh-add ~/.ssh/id_rsa`<br>
-`ssh -T git@github.com` add GitHub to your list of acceptable ssh hosts<br>
+Add GitHub to the list of acceptable ssh hosts.<br>
+`ssh -T git@github.com`<br>
 
 Copy the public key to your clipboard in order to paste it in an appropriate place later.<br>
 `pbcopy < ~/.ssh/id_rsa.pub` (macOS)<br>
 `clip < ~/.ssh/id_rsa.pub` (Windows)<br>
+
+#### VS Code
+Check whether VS Code is installed successfully on your system.<br>
+`code --version`<br>
+Launch VS Code from the current working directory.<br>
+`code .`<br>
+[vs code CLI](https://code.visualstudio.com/docs/editor/command-line)<br>
+[vs code integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal)<br>
+[vs installation](https://code.visualstudio.com/docs/setup/setup-overview)<br>
+installed under `C:\Program Files \(x86\)\Microsoft VS Code` (Windows 64-bit).<br>
+
+#### [Homebrew](https://brew.sh) (macOS)
+`brew upgrade`<br>
+`brew update`<br>
+`brew cleanup`<br>
+`brew doctor`<br>
+
+#### System
+General system settings.<br>
+`systeminfo` (Windows)<br>
+Check for virtualization capabilities on your system.<br>
+`sysctl -a | grep machdep.cpu.features` Look for `VMX` in the output (macOS)<br>
+Check BIOS settings (Windows)<br>
+
