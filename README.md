@@ -319,6 +319,41 @@ O'Reilly Media<br>
 
 # Useful Commands
 
-Python<br>
-`python3 --version`<br>
-`py -3 --version`
+#### Git and GitHub<br>
+`git --version`<br>
+
+`echo "# Repo Name" >> README.md`<br>
+`git init`<br>
+`git add .`<br>
+`git commit -m "your commit message"`<br>
+`git branch -M main`<br>
+`git remote add origin git@github.com:<github-username>/<github-repo-name>.git`<br>
+`git push -u origin main`<br>
+or<br>
+`git push`<br>
+
+`git clone https://github.com/<github-username>/<github-repo-name>.git`<br>
+
+`git config --global init.defaultBranch <name-(e.g., main)>` once<br>
+or<br>
+`git branch -M <name-(e.g., main)>` each time<br>
+#### Git LFS Large File Storage<br>
+`git lfs version`<br>
+`git lfs track [*.psd]`<br>
+`git lfs ls-files`<br>
+`git lfs clone --depth=1 https://github.com/<github-username>/<github-repo-name>.git`<br>
+#### SSH Keys<br>
+`ssh-keygen -t rsa -b 4096 -C <email>`<br>
+`eval "$(ssh-agent -s)"`<br>
+`ssh-add ~/.ssh/id_rsa`<br>
+`pbcopy < ~/.ssh/id_rsa.pub` (macOS)<br>
+`clip < ~/.ssh/id_rsa.pub` (Windows)<br>
+`ssh -T git@github.com` add GitHub to the list of acceptable SSH hosts<br>
+#### Check successful Python interpreter installation<br>
+`python3 --version` (macOS)<br>
+`py -3 --version` (Windows)<br>
+#### Anconda & Conda<br>
+`conda update conda`<br>
+`conda update anaconda`<br>
+#### JupyterLab<br>
+`jupyter lab [--notebook-dir=.]`
