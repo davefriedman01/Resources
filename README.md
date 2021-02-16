@@ -319,9 +319,41 @@ O'Reilly Media<br>
 
 # Useful Commands
 
-#### Git and GitHub<br>
+Run these commands in Terminal.app on macOS or in Git Bash on Windows.<br>
+
+#### Jupyter
+`jupyter lab` or `jupyter-lab`<br>
+[jupyter docs](https://jupyterlab.readthedocs.io/en/latest/)<br>
+[jupyter installation](https://jupyter.org/install)<br>
+
+Check which Jupyter installation is currently set as the default on your system.<br>
+`which jupyter` (macOS)<br>
+`where jupyter` (Windows)<br>
+
+#### Conda
+Conda is an open source package management system and environment management system for installing multiple version of software packages and their dependencies and switching easily between them.<br>
+`conda info` Verify if conda is installed, check version #<br>
+`conda update conda` Update conda package and environment manager to current version<br>
+`conda update anaconda` Update the anaconda meta package<br>
+`conda search -f python` Check versions of python available to install<br>
+`conda create -n dev python=3.7 anaconda` Create a new environment called *dev* using Python 3.7<br>
+`conda activate dev` Activate the environment called *dev*<br>
+`conda deactivate` Deactivate the active environment<br>
+`conda list` See which packages are installed in your current conda environment and their version numbers<br>
+[conda command cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)<br>
+[conda command reference](https://docs.conda.io/projects/conda/en/latest/commands.html)<br>
+[conda docs](https://conda.io/en/latest/)<br>
+[anaconda docs](https://docs.anaconda.com/anaconda/)<br>
+installation and uninstallation for
+[macOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html)
+and
+[Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html)<br>
+
+#### Git
+Check whether git is installed successfully on your system.<br>
 `git --version`<br>
 
+First time connecting to your new GitHub repo (assuming you're successfully linked via an ssh key).<br>
 `echo "# Repo Name" >> README.md`<br>
 `git init`<br>
 `git add .`<br>
@@ -329,42 +361,35 @@ O'Reilly Media<br>
 `git branch -M main`<br>
 `git remote add origin git@github.com:<github-username>/<github-repo-name>.git`<br>
 `git push -u origin main`<br>
-or<br>
+
+Subsequent connections to your GitHub repo (assuming you're successfully linked via an ssh key).<br>
+`git add .`<br>
+`git commit -m "your commit message"`<br>
 `git push`<br>
 
-`git checkout -b <branch-name>` create a new branch<br>
-`git add -A`<br>
-`git commit -m "commit message"`<br>
-`git push origin <branch-name>`<br>
-`git checkout <branch-name>` switch to a branch<br>
-`git pull`<br>
-
-`git clone https://github.com/<github-username>/<github-repo-name>.git`<br>
-
-`git config --global init.defaultBranch <name-(e.g., main)>` once<br>
-or<br>
-`git branch -M <name-(e.g., main)>` each time<br>
-#### Git LFS Large File Storage<br>
 `git lfs version`<br>
 `git lfs track [*.psd]`<br>
 `git lfs ls-files`<br>
 `git lfs clone --depth=1 https://github.com/<github-username>/<github-repo-name>.git`<br>
-#### SSH Keys<br>
-`ssh-keygen -t rsa -b 4096 -C <email>`<br>
-`eval "$(ssh-agent -s)"`<br>
-`ssh-add ~/.ssh/id_rsa`<br>
-`pbcopy < ~/.ssh/id_rsa.pub` (macOS)<br>
-`clip < ~/.ssh/id_rsa.pub` (Windows)<br>
-`ssh -T git@github.com` add GitHub to the list of acceptable SSH hosts<br>
-#### Check successful Python interpreter installation<br>
+
+#### Python
+[Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)<br>
+Check whether the CPython interpreter is installed successfully on your system.<br>
 `python3 --version` (macOS)<br>
 `py -3 --version` (Windows)<br>
-#### Anconda & Conda<br>
-`conda update conda`<br>
-`conda update anaconda`<br>
+Check which Python installation is currently set as the default on your system.<br>
+`which python` (macOS)<br>
+`where python` (Windows)<br>
+Check whether the conda installation of Python is in your PATH variable.<br>
+`echo $PATH` (macOS)<br>
+`echo %PATH%` (Windows)<br>
 
-`conda create -n <env-name> python=3.7 anaconda`<br>
-`conda activate <env-name>`<br>
-`conda list`<br>
-#### JupyterLab<br>
-`jupyter lab [--notebook-dir=.]`
+#### SSH Keys
+`ssh-keygen -t rsa -b 4096 -C <email>` create a new ssh key<br>
+`eval "$(ssh-agent -s)"`<br>
+`ssh-add ~/.ssh/id_rsa`<br>
+`ssh -T git@github.com` add GitHub to your list of acceptable ssh hosts<br>
+
+Copy the public key to your clipboard in order to paste it in an appropriate place later.<br>
+`pbcopy < ~/.ssh/id_rsa.pub` (macOS)<br>
+`clip < ~/.ssh/id_rsa.pub` (Windows)<br>
