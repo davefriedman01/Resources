@@ -318,120 +318,137 @@ No Starch Press<br>
 O'Reilly Media<br>
 [Sitepoint](https://www.sitepoint.com)<br>
 
-# Useful Commands
+
+
+## Useful Commands
 
 Run these commands in Terminal.app on macOS or in Git Bash on Windows.<br>
 
-#### Jupyter
-`jupyter lab` or `jupyter-lab` Open Jupyter in the default directory<br>
-`jupyter lab --notebook-dir=.` Open Jupyter in the current working directory<br>
-[jupyter docs](https://jupyterlab.readthedocs.io/en/latest/)<br>
-[jupyter installation](https://jupyter.org/install)<br>
-Temporarily fall back to [jupyter online](https://jupyter.org/try) if you're having trouble with the local installation<br>
 
-Check which Jupyter installation is currently set as the default on your system.<br>
-`which jupyter` (macOS)<br>
-`where jupyter` (Windows)<br>
 
-#### Conda
-Conda is an open source package management system and environment management system for installing multiple version of software packages and their dependencies and switching easily between them.<br>
-`conda info` Verify if conda is installed, check version #<br>
-`conda update conda` Update conda package and environment manager to current version<br>
-`conda update anaconda` Update the anaconda meta package<br>
-`conda search -f python` Check versions of python available to install<br>
-`conda create -n dev python=3.7 anaconda` Create a new environment called *dev* using Python 3.7<br>
-`conda activate dev` Activate the environment called *dev*<br>
+#### [Jupyter](https://jupyterlab.readthedocs.io/en/latest/)<br>
+`jupyter --version` Verify that Jupyter is successfully installed on your system<br>
+
+`jupyter lab` Open Jupyter in your web browser (Notebooks will be saved in the default directory)<br>
+[`jupyter lab --notebook-dir=.`](https://jupyterlab.readthedocs.io/en/latest/user/directories.html#jupyterlab-workspaces-directory) Open Jupyter in your web browser (Notebooks will be saved in the current working directory)<br>
+
+
+
+#### [Conda](https://conda.io/en/latest/)
+[Conda command cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)<br>
+[Conda command reference](https://docs.conda.io/projects/conda/en/latest/commands.html)<br>
+
+`conda -V` or `conda --version` Verify that conda is successfully installed on your system<br>
+`conda info`<br>
+
+**`conda activate dev` Activate the environment called *dev*<br>
 `conda deactivate` Deactivate the active environment<br>
-`conda list` See which packages are installed in your current conda environment and their version numbers<br>
-[conda command cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)<br>
-[conda command reference](https://docs.conda.io/projects/conda/en/latest/commands.html)<br>
-[conda docs](https://conda.io/en/latest/)<br>
-[anaconda docs](https://docs.anaconda.com/anaconda/)<br>
-installation and uninstallation for
-[macOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html)
-and
-[Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html)<br>
+`conda list` Check which packages are installed in your current conda environment and their version numbers<br>**
 
-#### Git
-Check whether git is installed successfully on your system.<br>
-`git --version`<br>
+`conda update conda` Update the conda package and environment manager<br>
+`conda update anaconda` Update the anaconda meta package<br>
 
-`git remote -v`<br>
-`git remote get-url --all origin`<br>
-`git remote set-url origin git@github.com:<github-username>/<github-repo-name>.git`<br>
+`conda create -n dev python=3.7 anaconda` Create a new environment called *dev* using Python 3.7<br>
+`conda search -f python` Check versions of python available to install<br>
 
-First time connecting to your new GitHub repo (assuming you're successfully linked via an ssh key).<br>
-`echo "# Repo Name" >> README.md`<br>
-`git init`<br>
+
+
+#### [Anaconda](https://docs.anaconda.com/anaconda/)
+[Anaconda command reference](https://docs.anaconda.com/anacondaorg/commandreference/)<br>
+
+`anaconda -V` or `anaconda --version` Verify that Anaconda is successfully installed on your system<br>
+
+
+
+#### [Git](https://git-scm.com/doc)
+`git --version` Verify that git is successfully installed on your system<br>
+
+**Run this command when you want to update your GitHub repo:<br>
+`git add . && git commit -m "your commit message" && git push`<br>
+or separately:<br>
 `git add .`<br>
 `git commit -m "your commit message"`<br>
-`git branch -M main`<br>
-`git remote add origin git@github.com:<github-username>/<github-repo-name>.git`<br>
-`git push -u origin main`<br>
+`git push`<br>**
 
-Subsequent connections to your GitHub repo (assuming you're successfully linked via an ssh key).<br>
-`git status`<br>
-`git add .`<br>
-`git commit -m "your commit message"`<br>
-`git push`<br>
+Check the status of files and folders in your local project directory (i.e., tracked or no, added or no, committed or no, pushed or no, etc.):<br>
+[`git status`](https://git-scm.com/docs/git-status)<br>
 
-Set your username.<br>
-`git config --global user.name "your name"`<br>
-Set your email.<br>
-`git config --global user.email your-email@your-email.com`<br>
-Get your configuration.<br>
-`git config --list`<br>
+Run this set of commands the first time you connect your local project directory to your new GitHub repo:<br>
+`echo "# Your Repo Name and Description, For Example" >> README.md`<br>
+[`git init`](https://git-scm.com/docs/git-init)<br>
+[`git add README.md`](https://git-scm.com/docs/git-add)<br>
+[`git commit -m "your commit message"`](https://git-scm.com/docs/git-commit)<br>
+[`git branch -M main`](https://git-scm.com/docs/git-branch)<br>
+[`git remote add origin git@github.com:<github-username>/<github-repo-name>.git`](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emaddem)<br>
+[`git push -u origin main`](https://git-scm.com/docs/git-push)<br>
+
+[`git remote`](https://git-scm.com/docs/git-remote) Gets the local name you assigned to your remote GitHub repo when you ran `git remote add...` (typically, `origin`)<br>
+[`git remote get-url origin`](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emget-urlem)<br>
+[`git remote set-url origin git@github.com:<github-username>/<github-repo-name>.git`](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emset-urlem) This is useful when you change the name of your GitHub repo and you also need to change its name in your local configuration to maintain a connection<br>
+
+[`git config -l` or `git config --list`](https://git-scm.com/docs/git-config#Documentation/git-config.txt--l)<br>
 
 `git lfs version`<br>
-`git lfs track [*.psd]`<br>
+`git lfs track`<br>
 `git lfs ls-files`<br>
 `git lfs clone --depth=1 https://github.com/<github-username>/<github-repo-name>.git`<br>
 
-#### Python
-[Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)<br>
-Check whether the CPython interpreter is installed successfully on your system.<br>
-`python3 --version` (macOS)<br>
-`py -3 --version` (Windows)<br>
-Check which Python installation is currently set as the default on your system.<br>
-`which python` (macOS)<br>
-`where python` (Windows)<br>
-Check whether the conda installation of Python is in your PATH variable.<br>
-`echo $PATH` (macOS)<br>
-`echo %PATH%` (Windows)<br>
 
-#### SSH Keys
-Create a new ssh key.<br>
-`ssh-keygen -t rsa -b 4096 -C <email>`<br>
-Check that ssh-agent is running on your system.<br>
-`eval "$(ssh-agent -s)"` Look for `Agent pid <number>` in the output<br>
+
+#### SSH Key
+`ssh-keygen -t rsa -b 4096 -C <email>` Create a new ssh key<br>
+`eval "$(ssh-agent -s)"` Check that the program `ssh-agent` is running on your system by looking for `Agent pid <number>` in the output<br>
 `ssh-add ~/.ssh/id_rsa`<br>
-Add GitHub to the list of acceptable ssh hosts.<br>
-`ssh -T git@github.com`<br>
+`ssh -T git@github.com` Add GitHub to the list of acceptable ssh hosts on your system<br>
+`pbcopy < ~/.ssh/id_rsa.pub` Copy the public key to your clipboard in order to paste it in an appropriate place later (macOS)<br>
+`clip < ~/.ssh/id_rsa.pub` Copy the public key to your clipboard in order to paste it in an appropriate place later (Windows)<br>
 
-Copy the public key to your clipboard in order to paste it in an appropriate place later.<br>
-`pbcopy < ~/.ssh/id_rsa.pub` (macOS)<br>
-`clip < ~/.ssh/id_rsa.pub` (Windows)<br>
+
+
+#### Python
+`python3 --version` Verify that the CPython interpreter is successfully installed on your system (macOS)<br>
+`py -3 --version` Verify that the CPython interpreter is siccessfully installed on your system (Windows)<br>
+
+
 
 #### VS Code
-Check whether VS Code is installed successfully on your system.<br>
-`code --version`<br>
-Launch VS Code from the current working directory.<br>
-`code .`<br>
-[vs code CLI](https://code.visualstudio.com/docs/editor/command-line)<br>
-[vs code integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal)<br>
-[vs installation](https://code.visualstudio.com/docs/setup/setup-overview)<br>
-installed under `C:\Program Files \(x86\)\Microsoft VS Code` (Windows 64-bit).<br>
+`code --version` Verify that VS Code is successfully installed on your system<br>
+`code .` Launch VS Code from the current working directory<br>
+[VS Code CLI](https://code.visualstudio.com/docs/editor/command-line)<br>
+[VS Code Terminal](https://code.visualstudio.com/docs/editor/integrated-terminal)<br>
+[Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)<br>
+
+
 
 #### [Homebrew](https://brew.sh) (macOS)
+`brew upgrade && brew update && brew cleanup && brew doctor`<br>
+or separately:<br>
 `brew upgrade`<br>
 `brew update`<br>
 `brew cleanup`<br>
 `brew doctor`<br>
 
-#### System
-General system settings.<br>
-`systeminfo` (Windows)<br>
-Check for virtualization capabilities on your system.<br>
-`sysctl -a | grep machdep.cpu.features` Look for `VMX` in the output (macOS)<br>
-Check BIOS settings (Windows)<br>
 
+
+#### System
+`systeminfo` General system settings (Windows)<br>
+`sysctl -a | grep machdep.cpu.features` Verify that your system is virtualization-capable by looking for `VMX` in the output (macOS)<br>
+
+`which <program>` Check which \<program\> installation is currently set as the default on your system (macOS)<br>
+`where <program>` Check which \<program\> installation is currently set as the default on your system (Windows)<br>
+
+
+
+## Installation
+
+Anaconda for
+[macOS](https://docs.anaconda.com/anaconda/install/mac-os/)
+and
+[Windows](https://docs.anaconda.com/anaconda/install/windows/)
+([Windows troubleshooting](https://docs.anaconda.com/anaconda/user-guide/faq/#))<br>
+Conda for
+[macOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html)
+and
+[Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html)<br>
+[Jupyter](https://jupyter.org/install) Note: Temporarily fall back to [Jupyter online](https://jupyter.org/try) if you're having trouble with your local installation.<br>
+[VS Code](https://code.visualstudio.com/docs/setup/setup-overview) installed under `C:\Program Files \(x86\)\Microsoft VS Code` (Windows 64-bit).<br>
