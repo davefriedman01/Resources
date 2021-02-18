@@ -385,7 +385,7 @@ Run these commands in Terminal.app on macOS or in Git Bash on Windows.<br>
 `jupyter --version` Verify that Jupyter is successfully installed on your system<br>
 
 `jupyter lab` Open Jupyter in your web browser (Notebooks will be saved in the default directory)<br>
-[`jupyter lab --notebook-dir=.`](https://jupyterlab.readthedocs.io/en/latest/user/directories.html#jupyterlab-workspaces-directory) Open Jupyter in your web browser (Notebooks will be saved in the current working directory)<br>
+`jupyter lab --notebook-dir=.` Open Jupyter in your web browser (Notebooks will be saved in the current working directory)<br>
 
 
 
@@ -460,13 +460,13 @@ Run this set of commands the first time you connect your local project directory
 
 
 
-#### Python
+#### [Python](https://www.python.org/doc/)
 `python3 --version` Verify that the CPython interpreter is successfully installed on your system (macOS)<br>
-`py -3 --version` Verify that the CPython interpreter is siccessfully installed on your system (Windows)<br>
+`py -3 --version` Verify that the CPython interpreter is successfully installed on your system (Windows)<br>
 
 
 
-#### VS Code
+#### [VS Code](https://code.visualstudio.com/docs)
 `code --version` Verify that VS Code is successfully installed on your system<br>
 `code .` Launch VS Code from the current working directory<br>
 [VS Code CLI](https://code.visualstudio.com/docs/editor/command-line)<br>
@@ -496,14 +496,23 @@ or separately:<br>
 
 ## Installation
 
-Anaconda for
+[Anaconda](https://docs.anaconda.com/anaconda/install/)
+for
 [macOS](https://docs.anaconda.com/anaconda/install/mac-os/)
 and
 [Windows](https://docs.anaconda.com/anaconda/install/windows/)
 ([Windows troubleshooting](https://docs.anaconda.com/anaconda/user-guide/faq/#))<br>
-Conda for
+
+[Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+for
 [macOS](https://conda.io/projects/conda/en/latest/user-guide/install/macos.html)
 and
 [Windows](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html)<br>
-[Jupyter](https://jupyter.org/install) Note: Temporarily fall back to [Jupyter online](https://jupyter.org/try) if you're having trouble with your local installation.<br>
-[VS Code](https://code.visualstudio.com/docs/setup/setup-overview) installed under `C:\Program Files \(x86\)\Microsoft VS Code` (Windows 64-bit).<br>
+
+[Jupyter](https://jupyter.org/install) (Note: Temporarily fall back to [Jupyter online](https://jupyter.org/try) if you're having trouble with your local installation.)<br>
+
+[VS Code](https://code.visualstudio.com/docs/setup/setup-overview)
+for
+[macOS](https://code.visualstudio.com/docs/setup/mac)
+and
+[Windows](https://code.visualstudio.com/docs/setup/windows)<br>
