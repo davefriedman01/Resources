@@ -1,6 +1,6 @@
 # Resources
 
-
+citation<sup>1</sup>
 
 ### AI, ML, DL, RL, Statistical Learning, Data Mining, NLP, etc.
 
