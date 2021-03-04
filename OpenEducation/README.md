@@ -1,6 +1,6 @@
 #
 
-[MIT OpenCourseWare](https://ocw.mit.edu/index.htm). [YouTube](https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw)<br>
+[MIT OpenCourseWare](https://ocw.mit.edu/index.htm). [YouTube](https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw).<br>
 
 # Learning to Code
 
