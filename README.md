@@ -282,29 +282,6 @@ Haverbeke, Marijn. (2018). [_Eloquent JavaScript: A Modern Introduction to Progr
 
 
 
-### Linear Algebra
-
-Axler, Sheldon. (2014). _Linear Algebra Done Right_. Springer.<br>
-Strang, Gilbert. (2016). _Introduction to Linear Algebra, 5th Ed_.<br>
-Treil, Sergei. (2017). [_Linear Algebra Done Wrong_](https://www.math.brown.edu/streil/papers/LADW/LADW.html).<br>
-
-
-
-### Mathematical Logic
-
-Leary, Christopher & Lars Kristiansen. (2015). [_A Friendly Introduction to Mathematical Logic_](https://milneopentextbooks.org/a-friendly-introduction-to-mathematical-logic/). Milne Library.<br>
-
-
-
-### Mathematical Optimization and Linear Programming
-
-Keen, Ben Alex. [Linear Programming with Python and PuLP](https://benalexkeen.com/linear-programming-with-python-and-pulp-part-1/).<br>
-[Linear Programming (Wolfram)](https://reference.wolfram.com/language/tutorial/ConstrainedOptimizationLinearProgramming.html)<br>
-
-Beck, Amir. (2017). _First-Order Methods in Optimization_.<br>
-
-
-
 ### Philosophy
 
 [Agler, David](http://davidagler.com). [Logic & Philosophy (YouTube)](https://www.youtube.com/user/davidagler).<br>
