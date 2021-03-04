@@ -1,14 +1,17 @@
 # Mathematics
 
+[IPAM The Institute for Pure and Applied Mathematics](http://www.ipam.ucla.edu). [YouTube](https://www.youtube.com/channel/UCGzuiiLdQZu9wxDNJHO_JnA).<br>
+
 
 
 ## Linear Algebra
 
 Aggarwal, Charu C. (2020). _Linear Algebra and Optimization for Machine Learning: A Textbook_. Springer.<br>
-Axler, Sheldon. (2014). _Linear Algebra Done Right, 3rd Ed_. Springer Undergraduate Texts in Mathematics.<br>
+Axler, Sheldon. (2014). [_Linear Algebra Done Right, 3rd Ed_](https://linear.axler.net). Springer Undergraduate Texts in Mathematics.<br>
 Cherney et al. (2016). [_Linear Algebra_](https://www.math.ucdavis.edu/~linear/).<br>
 Hefferon, Jim. [_Linear Algebra, 4th Ed_](http://joshua.smcvt.edu/linearalgebra/#current_version).<br>
 [Land on Vector Spaces: Practical Linear Algebra with Python](https://github.com/engineersCode/EngComp4_landlinear). George Washington University Online.<br>
+Morton, Jason. (2019). [Penn State's MATH 436 - Linear Algebra](http://jasonmorton.github.io/LinearAlgebra/). [YouTube](https://www.youtube.com/channel/UCCMgenf_ppIppEJZRBwbK_g).<br>
 Petersen, Kaare Brandt & Michael Syskind Pedersen. (2012). [_The Matrix Cookbook_](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf).<br>
 Sanderson, Grant. (2019). [3Blue1Brown's Essence of Linear Algebra (YouTube)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab).<br>
 Strang, Gilbert. (2016). _Introduction to Linear Algebra, 5th Ed_.<br>
@@ -39,3 +42,11 @@ Beck, Amir. (2017). _First-Order Methods in Optimization_.<br>
 
 Forsyth, David. (2018). _Probability and Statistics for Computer Science_. Springer.<br>
 Wasserman, Larry. [_All of Statistics: A Concise Course in Statistical Inference_](http://www.stat.cmu.edu/~larry/all-of-statistics/index.html).<br>
+
+
+
+## Statistical Learning
+
+Morton, Jason. (2015). [An Algebraic Perspective on Deep Learning, Part 1 (YouTube)](https://www.youtube.com/watch?v=tbFWvcZDpho).<br>
+Morton, Jason. (2015). [An Algebraic Perspective on Deep Learning, Part 2 (YouTube)](https://www.youtube.com/watch?v=FvV4aNujBWc).<br>
+Morton, Jason. (2015). [An Algebraic Perspective on Deep Learning, Part 3 (YouTube)](https://www.youtube.com/watch?v=GM7V7surX2E).<br>
