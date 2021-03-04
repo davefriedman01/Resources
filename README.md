@@ -103,23 +103,6 @@ VM Virtual Machine<br>
 
 
 
-### DataViz
-
-[Altair](https://altair-viz.github.io)<br>
-[D3.js](https://d3js.org)<br>
-[Matplotlib](https://matplotlib.org/stable/index.html)<br>
-[Seaborn](https://seaborn.pydata.org)<br>
-
-Dougherty, Jack & Ilya Ilyankou. (2021). _Hands-On Data Visualization: Interactive Storytelling from Spreadsheets to Code_. O'Reilly Media.<br>
-Fisher, Danyel & Miriah Meyer. (2018). _Making Data Visual: A Practical Guide to Using Visualization for Insight_. O'Reilly Media.<br>
-Meeks, Elijah. (2017). _D3.js in Action, 2nd Ed_. Manning.<br>
-Munzner, Tamara. (2014). _Visualization Analysis and Design_.<br>
-Murray, Scott. (2017). _Interactive Data Visualization for the Web: An Introduction to Designing with D3, 2nd Ed_. O'Reilly Media.<br>
-Thomas, Stephen A. (2015). _Data Visualization with JavaScript_. No Starch Press.<br>
-Wilke, Claus O. (2019). _Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures_. O'Reilly Media.<br>
-
-
-
 ### Image Processing
 
 Bovik, A. C., ed. (2005). _Handbook of Image and Video Processing, 2nd Ed_.<br>
@@ -140,47 +123,6 @@ Crockford, Douglas. (2018). [_How JavaScript Works_](https://howjavascriptworks.
 Crockford, Douglas. (2008). _JavaScript: The Good Parts: Unearthing the Excellence in JavaScript_. O'Reilly Media.<br>
 Flanagan, David. (2020). _JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language, 7th Ed_. O'Reilly Media.<br>
 Haverbeke, Marijn. (2018). [_Eloquent JavaScript: A Modern Introduction to Programming, 3rd Ed_](https://eloquentjavascript.net). No Starch Press.<br>
-
-
-
-### Probability Theory and Statistics
-
-Forsyth, David. (2018). _Probability and Statistics for Computer Science_. Springer.<br>
-Wasserman, Larry. [_All of Statistics: A Concise Course in Statistical Inference_](http://www.stat.cmu.edu/~larry/all-of-statistics/index.html).<br>
-
-
-
-### Python
-
-[Python](https://www.python.org)<br>
-[Anaconda](https://www.anaconda.com/open-source)<br>
-
-Danjou, Julien. (2018). _Serious Python: Black-Belt Advice on Deployment, Scalability, Testing, and More_. No Starch Press.<br>
-Goodrich, Micahel T. Roberto Tamassia, & Michael H. Goldwasser. (2013). _Data Structures and Algorithms in Python_. Wiley.<br>
-Gorelick, Micha & Ian Ozsvald. (2020). _High Performance Python: Practical Performant Programming for Humans, 2nd Ed_. O'Reilly Media.<br>
-Kopec, David. (2019). _Classic Computer Science Problems in Python_. Manning Publications.<br>
-Lubanovic, Bill. (2019). _Introducing Python: Modern Computing in Simple Packages, 2nd Ed_. O'Reilly Media.<br>
-Matthes, Eric. (2019). _Python Crash Course: A Hands-On, Project-Based Introduction to Programming_. O'Reilly Media.<br>
-Mayer, Christian. (2020). _Python One-Liners: Write Concise, Eloquent Python like a Professional_. No Starch Press.<br>
-Ramalho, Luciano. (2021). _Fluent Python: Clear, Concise, and Effective Programming, 2nd Ed_. O'Reilly Media.<br>
-Sweigart, Al. (2020). _Beyond the Basic Stuff with Python: Best Practices for Writing Clean Code_. O'Reilly Media.<br>
-Sweigart, Al. (2019). _Automate the Boring Stuff with Python: Practical Programming for Total Beginners, 2nd Ed_. No Starch Press.<br>
-Sweigart, Al. (2015). [_Automate the Boring Stuff with Python: Practical Programming for Total Beginners_](https://automatetheboringstuff.com). No Starch Press.<br>
-Viafore, Patrick. (2022). _Robust Python: Write Clean and Maintainable Code_. O'Reilly Media.<br>
-Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
-
-
-
-### Python and Finance
-
-[The Python Quants](https://home.tpq.io/hilpisch/)<br>
-
-Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
-Hilpisch, Yves. (2020). _Python for Algorithmic Trading: From Idea to Cloud Deployment_. O'Reilly Media.<br>
-Hilpisch, Yves. (2019). _Python for Finance: Mastering Data-Driven Finance, 2nd Ed_. O'Reilly Media.<br>
-Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Models, Simulation, Calibration and Hedging_. Wiley.<br>
-McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
-VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
 
 
 

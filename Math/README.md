@@ -32,3 +32,10 @@ Leary, Christopher & Lars Kristiansen. (2015). [_A Friendly Introduction to Math
 ## Mathematical Optimization
 
 Beck, Amir. (2017). _First-Order Methods in Optimization_.<br>
+
+
+
+## Probability Theory and Statistics
+
+Forsyth, David. (2018). _Probability and Statistics for Computer Science_. Springer.<br>
+Wasserman, Larry. [_All of Statistics: A Concise Course in Statistical Inference_](http://www.stat.cmu.edu/~larry/all-of-statistics/index.html).<br>
