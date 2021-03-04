@@ -46,6 +46,18 @@ Yan, Ying et al. (2016). "TR-Spark: Transient Computing for Big Data Analytics".
 Zhang, Qi et al. (2018). "A Comparative Study of Containers and Virtual Machines in Big Data Environment".<br>
 Zhu, Timothy, Michael A. Kozuch, & Mor Harchol-Balter. (2017). "WorkloadCompactor: Reducing datacenter cost while providing tail latency SLO guarantees".<br>
 
+## Computer Systems
+
+Alexandrescu, Andrei (D programming language).<br>
+[Harchol-Balter, Mor](http://www.cs.cmu.edu/~harchol/).<br>
+[Kernighan, Brian](https://www.cs.princeton.edu/~bwk/).<br>
+Matsakis, Niko (Rust programming language).<br>
+Pike, Rob (Go programming language).<br>
+Stroustrup, Bjarne (C++).<br>
+
+Bryant, Randal E. & David R. O'Hallaron. (2015). [_Computer Systems: A Programmer's Perspective, 3rd Ed_](https://csapp.cs.cmu.edu). Pearson.<br>
+Kernighan, Brian W. & Dennis M. Ritchie. (1988). _C Programming Language, 2nd Ed_. Pearson.<br>
+
 ## Terms
 
 [Bluepill](https://en.wikipedia.org/wiki/Blue_Pill_(software)).<br>
