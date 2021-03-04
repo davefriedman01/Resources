@@ -4,7 +4,7 @@
 
 ## CMD Windows Command Prompt
 
-Windows Command Prompt is not the same thing as Git Bash and does not replace Git Bash.
+Windows Command Prompt is not the same thing as Git Bash.
 
 ![](Images/cmd0.png)
 ![](Images/cmd1.png)
