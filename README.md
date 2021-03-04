@@ -82,15 +82,6 @@ Kernighan, Brian W. & Dennis M. Ritchie. (1988). _C Programming Language, 2nd Ed
 
 
 
-### Computer Vision
-
-Forsyth, D. & J. Ponce. (2002). _Computer Vision: A Modern Approach_.<br>
-Prince, Simon J. D. [_Computer Vision: Models, Learning, and Inference_](http://www.computervisionmodels.com/). Cambridge University Press.<br>
-Szeliski, Rick. (2011). [_Computer Vision: ALgorithms and Applications_](http://szeliski.org/Book/). Springer.<br>
-Trucco, E. & A. Verri. (1998). _Introductory Techniques for 3D Computer Vision_.<br>
-
-
-
 ### Computing
 
 Container<br>
@@ -126,27 +117,6 @@ Munzner, Tamara. (2014). _Visualization Analysis and Design_.<br>
 Murray, Scott. (2017). _Interactive Data Visualization for the Web: An Introduction to Designing with D3, 2nd Ed_. O'Reilly Media.<br>
 Thomas, Stephen A. (2015). _Data Visualization with JavaScript_. No Starch Press.<br>
 Wilke, Claus O. (2019). _Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures_. O'Reilly Media.<br>
-
-
-
-### DevOps
-
-Forsgren, Nicole, Jez Humble, & Gene Kim. (2018). _Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations_. IT Revolution Press.<br>
-Kim, Gene. (2019). _The Unicorn Project: A Novel about Developers, Digital Disruption, and Thriving in the Age of Data_. IT Revolution Press.<br>
-Kim, Gene et al. (2021). _The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations, 2nd Ed_. IT Revolution Press.<br>
-Kim, Gene, Kevin Behr, & George Spafford. (2013). _The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win_. IT Revolution Press.<br>
-
-
-
-### Finance and FinTech
-
-[Corporate Finance Institute](https://corporatefinanceinstitute.com) [YouTube](https://www.youtube.com/c/Corporatefinanceinstitute-CFI/)<br>
-[The Finance Storyteller](https://www.youtube.com/c/TheFinanceStoryteller/)<br>
-[One Minute Economics](https://www.youtube.com/c/OneMinuteEconomics/)<br>
-
-Hull, John C. (2020). [_Machine Learning in Business: An Introduction to the World of Data Science, 2nd Ed_](https://www-2.rotman.utoronto.ca/~hull/Second%20edition%20Online%20Files/index2ndEd.html). Self published.<br>
-Hull, John C. (2017). [_Options, Futures, and Other Derivatives, 10th Ed_](https://www-2.rotman.utoronto.ca/~hull/ofod/index.html). Pearson.<br>
-Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time Cloud Financial Management_. O'Reilly Media.<br>
 
 
 
