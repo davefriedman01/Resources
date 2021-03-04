@@ -18,6 +18,8 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 
 
 
+## Terms
+
 [Acceptance (Investopedia)](https://www.investopedia.com/terms/a/acceptance.asp)<br>
 [ATS Alternative Trading System (Investopedia)](https://www.investopedia.com/terms/a/alternative-trading-system.asp)<br>
 [Annualized Total Return (Investopedia)](https://www.investopedia.com/terms/a/annualized-total-return.asp)<br>
