@@ -1,0 +1,6 @@
+cd C:\Users\%USERNAME%\Desktop
+echo Baselining Report > report.txt
+echo Created by %USERNAME% >> report.txt
+echo %OS% system report created on %DATE% with logged in user, %USERNAME%. >> report.txt
+dir "%ProgramFiles%" >> report.txt
+dir "%ProgramFiles(x86)%" >> report.txt
