@@ -51,20 +51,6 @@ Zand, Matt, Xun (Brian) Wu, & Mark Anthony Morris. (2021). _Hands-On Smart Contr
 
 
 
-### Command Line
-
-[Autocompletion (Wikipedia)](https://en.wikipedia.org/wiki/Autocomplete)<br>
-[Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)<br>
-[Command Line Environment (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/command-line/)<br>
-[Editors (Vim) (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/editors/)<br>
-[Linux Survival](https://linuxsurvival.com)<br>
-[The Shell (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/course-shell/)<br>
-[Shell Tools and Scripting (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/shell-tools/)<br>
-[Terminal.app (Wikipedia)](https://en.wikipedia.org/wiki/Terminal_(macOS))<br>
-[Terminal Emulator (Wikipedia)](https://en.wikipedia.org/wiki/Terminal_emulator)<br>
-
-
-
 ### Computer Graphics
 
 Foley et al. (1996). _Computer Graphics: Principles and Practice, 2nd Ed_. Addison-Wesley.<br>
