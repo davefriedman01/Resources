@@ -187,11 +187,3 @@ VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Wor
 ### Signal Processing
 
 Lyons, Richard. (2010). _Understanding Digital Signal Processing, 3rd Ed_.<br>
-
-
-
-### Version Control
-
-[Version Control (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/version-control/)<br>
-[Git LFS Large File Storage (GitHub Training & Guides on YouTube)](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)<br>
-[Setting your username in Git (GitHub Docs)](https://docs.github.com/en/github/using-git/setting-your-username-in-git)<br>
