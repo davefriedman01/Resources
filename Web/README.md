@@ -18,11 +18,17 @@ Crockford, Douglas [(YouTube)](https://www.youtube.com/playlist?list=PLEzQf147-u
 
 [API Application Programming Interface (Wikipedia)](https://en.wikipedia.org/wiki/API)<br>
 [API Key (Wikipedia)](https://en.wikipedia.org/wiki/Application_programming_interface_key)<br>
+[Back-End (Wikipedia)](https://en.wikipedia.org/wiki/Front_end_and_back_end)<br>
+Back-End Web Development<br>
 [Client (Wikipedia)](https://en.wikipedia.org/wiki/Client_(computing))<br>
 [Client-Server Model (Wikipedia)](https://en.wikipedia.org/wiki/Client–server_model)<br>
 [Client-Side (Wikipedia)](https://en.wikipedia.org/wiki/Client-side)<br>
+[Client-Side Scripting (Wikipedia)](https://en.wikipedia.org/wiki/Dynamic_web_page#Client-side_scripting)<br>
 [CSS Cascading Style Sheets (Wikipedia)](https://en.wikipedia.org/wiki/CSS)<br>
 [XML Extensible Markup Language (Wikipedia)](https://en.wikipedia.org/wiki/XML)<br>
+[Front-End (Wikipedia)](https://en.wikipedia.org/wiki/Front_end_and_back_end)<br>
+[Front-End Web Development (Wikipedia)](https://en.wikipedia.org/wiki/Front-end_web_development)<br>
+Full-Stack Web Development<br>
 [Hyperlink (Wikipedia)](https://en.wikipedia.org/wiki/Hyperlink)<br>
 [Hypertext (Wikipedia)](https://en.wikipedia.org/wiki/Hypertext)<br>
 [HTML Hypertext Markup Language (Wikipedia)](https://en.wikipedia.org/wiki/HTML)<br>
@@ -40,6 +46,7 @@ Crockford, Douglas [(YouTube)](https://www.youtube.com/playlist?list=PLEzQf147-u
 [Secret Key or Cryptographic Key (Wikipedia)](https://en.wikipedia.org/wiki/Key_(cryptography))<br>
 [Semantic Web (Wikipedia)](https://en.wikipedia.org/wiki/Semantic_Web)<br>
 [Server-Side (Wikipedia)](https://en.wikipedia.org/wiki/Server-side)<br>
+[Server-Side Scripting (Wikipedia)](https://en.wikipedia.org/wiki/Server-side_scripting)<br>
 [Social Network (Wikipedia)](https://en.wikipedia.org/wiki/Social_network)<br>
 [URI Uniform Resource Identifier (Wikipedia)](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)<br>
 [URL Uniform Resource Locator (Wikipedia)](https://en.wikipedia.org/wiki/URL)<br>
@@ -50,8 +57,10 @@ Web 3.0<br>
 [Web Browser (Wikipedia)](https://en.wikipedia.org/wiki/Web_browser)<br>
 [Web Cookie (Wikipedia)](https://en.wikipedia.org/wiki/HTTP_cookie)<br>
 [Web Crawler (Wikipedia)](https://en.wikipedia.org/wiki/Web_crawler)<br>
+[Web Development (Wikipedia)](https://en.wikipedia.org/wiki/Web_development)<br>
 [Web Form (Wikipedia)](https://en.wikipedia.org/wiki/Form_(HTML))<br>
 [Web Page (Wikipedia)](https://en.wikipedia.org/wiki/Web_page)<br>
+Web Programming<br>
 [Web Scraping (Wikipedia)](https://en.wikipedia.org/wiki/Web_scraping)<br>
 [Web Server (Wikipedia)](https://en.wikipedia.org/wiki/Web_server)<br>
 [Web Service (Wikipedia)](https://en.wikipedia.org/wiki/Web_service)<br>
