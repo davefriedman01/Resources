@@ -8,7 +8,6 @@
 [Church-Turing Thesis (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/church-turing/)<br>
 [Computability and Complexity (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/computability/)<br>
 [Computational Complexity Theory (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/computational-complexity/)<br>
-[Information (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/information/)<br>
 [Logic and Artificial Intelligence (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/logic-ai/)<br>
 [Philosophy of Computer Science (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/computer-science/)<br>
 [Philosophy of Technology (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/technology/)<br>
