@@ -1,5 +1,22 @@
 # Version Control
 
+## Resources
+
+[Version Control (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/version-control/)<br>
+
+## Terms
+
+[Git (Wikipedia)](https://en.wikipedia.org/wiki/Git)<br>
+[Version Control (Wikipedia)](https://en.wikipedia.org/wiki/Version_control)<br>
+
+
+
+## [Git](https://git-scm.com/doc)
+
+Git is an implementation of a VCS Version Control System.
+
+Chacon, Scott & Ben Straub. (2014). [_Pro Git: Everything You Need to Know About Git, 2nd Ed_](https://git-scm.com/book/en/v2). Apress.<br>
+
 
 
 ## [GitHub](https://docs.github.com/en)
@@ -23,21 +40,3 @@ GitHub is a git hosting service.<br>
 GitLab is a git hosting service.<br>
 
 [GitLab and SSH Keys (GitLab Docs)](https://docs.gitlab.com/ee/ssh/README.html)<br>
-
-
-
-## [Git](https://git-scm.com/doc)
-
-Git is an implementation of a VCS Version Control System.
-
-[Git (Wikipedia)](https://en.wikipedia.org/wiki/Git)<br>
-
-Chacon, Scott & Ben Straub. (2014). [_Pro Git: Everything You Need to Know About Git, 2nd Ed_](https://git-scm.com/book/en/v2). Apress.<br>
-
-
-
-## Version Control
-
-[Version Control (Wikipedia)](https://en.wikipedia.org/wiki/Version_control)<br>
-
-[Version Control (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/version-control/)<br>
