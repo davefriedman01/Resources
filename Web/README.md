@@ -6,10 +6,13 @@
 
 [GET vs POST (StackOverflow)](https://stackoverflow.com/questions/3477333/what-is-the-difference-between-post-and-get)<br>
 
+[Introducing JSON](https://www.json.org/json-en.html)<br>
+
 ## Figures
 
 [Berners-Lee, Tim (Wikipedia)](https://en.wikipedia.org/wiki/Tim_Berners-Lee)<br>
 [Bush, Vannevar (Wikipedia)](https://en.wikipedia.org/wiki/Vannevar_Bush)<br>
+Crockford, Douglas [(YouTube)](https://www.youtube.com/playlist?list=PLEzQf147-uEoNCeDlRrXv6ClsLDN-HtNm)<br>
 
 ## Terms
 
