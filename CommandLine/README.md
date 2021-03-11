@@ -1,15 +1,20 @@
-# CL Command Line
+# Command Line
 
 
 
 ## Resources
 
-[Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)<br>
+[Command Line (Crash Course Computer Science on YouTube)](https://www.youtube.com/watch?v=4RPtJ9UyHS0&feature=emb_title)<br>
+[Command Line (freeCodeCamp on YouTube)](https://www.youtube.com/watch?v=yz7nYlnXLfE)<br>
+[Command Line (Geek's Lesson on YouTube)](https://www.youtube.com/watch?v=2PGnYjbYuUo)<br>
+
 [Command Line Environment (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/command-line/)<br>
 [Editors (Vim) (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/editors/)<br>
-[Linux Survival](https://linuxsurvival.com)<br>
 [The Shell (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/course-shell/)<br>
 [Shell Tools and Scripting (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/shell-tools/)<br>
+
+[Linux Survival](https://linuxsurvival.com)<br>
+[Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html)<br>
 
 
 
