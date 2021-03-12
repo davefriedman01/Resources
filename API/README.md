@@ -2,6 +2,10 @@
 [API Application Programming Interface (Wikipedia)](https://en.wikipedia.org/wiki/API)<br>
 
 
+## Resources
+
+[APIs for Beginners (freeCodeCamp on YouTube)](https://www.youtube.com/watch?v=GZvSYJDk-us)<br>
+
 
 ## API Development Environment
 
