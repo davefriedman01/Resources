@@ -2,6 +2,10 @@
 
 [The Simons Institute for the Theory of Computing](https://simons.berkeley.edu). [YouTube](https://www.youtube.com/user/SimonsInstitute).<br>
 
+## Resources
+
+[Time Complexity: Why Some Algorithms Run for Billions of Years (Interesting Engineering)](https://interestingengineering.com/time-complexity-why-some-algorithms-run-for-billions-of-years)<br>
+
 ## Terms
 
 [Algorithm (Wikipedia)](https://en.wikipedia.org/wiki/Algorithm)<br>
