@@ -13,6 +13,7 @@
 [Edabit](https://edabit.com)<br>
 [freeCodeCamp](https://www.freecodecamp.org)<br>
 [Mimo](https://getmimo.com)<br>
+[Pluralsight](https://www.pluralsight.com)<br>
 
 ## Publishers
 
