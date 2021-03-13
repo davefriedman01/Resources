@@ -1,10 +1,5 @@
 # API Application Programming Interface
-[API Application Programming Interface (Wikipedia)](https://en.wikipedia.org/wiki/API)<br>
 
-
-## Resources
-
-[APIs for Beginners (freeCodeCamp on YouTube)](https://www.youtube.com/watch?v=GZvSYJDk-us)<br>
 
 
 ## API Development Environment
@@ -53,3 +48,15 @@
 #### [Mapbox](https://docs.mapbox.com)
 #### [Plaid](https://plaid.com/docs/)
 #### [WrapAPI](https://wrapapi.com/docs/GettingStarted)
+
+
+
+## Terms
+
+[API Application Programming Interface (Wikipedia)](https://en.wikipedia.org/wiki/API)<br>
+
+
+
+## Resources
+
+[APIs for Beginners (freeCodeCamp on YouTube)](https://www.youtube.com/watch?v=GZvSYJDk-us)<br>
