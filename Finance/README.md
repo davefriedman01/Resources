@@ -21,6 +21,7 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 ## Terms
 
 [Acceptance (Investopedia)](https://www.investopedia.com/terms/a/acceptance.asp)<br>
+[Adjusted Closing Price (Investopedia)](https://www.investopedia.com/terms/a/adjusted_closing_price.asp)<br>
 [ATS Alternative Trading System (Investopedia)](https://www.investopedia.com/terms/a/alternative-trading-system.asp)<br>
 [Annualized Total Return (Investopedia)](https://www.investopedia.com/terms/a/annualized-total-return.asp)<br>
 [AP Accounts Payable (Investopedia)](https://www.investopedia.com/terms/a/accountspayable.asp)<br>
