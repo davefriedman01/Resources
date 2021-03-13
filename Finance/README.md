@@ -24,6 +24,7 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 [ATS Alternative Trading System (Investopedia)](https://www.investopedia.com/terms/a/alternative-trading-system.asp)<br>
 [Annualized Total Return (Investopedia)](https://www.investopedia.com/terms/a/annualized-total-return.asp)<br>
 [AP Accounts Payable (Investopedia)](https://www.investopedia.com/terms/a/accountspayable.asp)<br>
+[Arbitrage (Investopedia)](https://www.investopedia.com/terms/a/arbitrage.asp)<br>
 [Arithmetic Mean (Investopedia)](https://www.investopedia.com/terms/a/arithmeticmean.asp)<br>
 [Asset (Investopedia)](https://www.investopedia.com/terms/a/asset.asp)<br>
 [Asset Class (Investopedia)](https://www.investopedia.com/terms/a/assetclasses.asp)<br>
@@ -136,6 +137,7 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 [Liquidate (Investopedia)](https://www.investopedia.com/terms/l/liquidate.asp)<br>
 [Liquidation Value (Investopedia)](https://www.investopedia.com/terms/l/liquidation-value.asp)<br>
 [Lender (Investopedia)](https://www.investopedia.com/terms/l/lender.asp)<br>
+[Leverage (Investopedia)](https://www.investopedia.com/terms/l/leverage.asp)<br>
 [LTG Long-Term Growth (Investopedia)](https://www.investopedia.com/terms/l/longtermgrowth.asp)<br>
 [Market Capitalization (Investopedia)](https://www.investopedia.com/terms/m/marketcapitalization.asp)<br>
 [Market Depth (Investopedia)](https://www.investopedia.com/terms/m/marketdepth.asp)<br>
@@ -224,6 +226,7 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 [Tangible Asset (Investopedia)](https://www.investopedia.com/terms/t/tangibleasset.asp)<br>
 [Tax-Advantaged (Investopedia)](https://www.investopedia.com/terms/t/tax-advantaged.asp)<br>
 [Tax Selling (Investopedia)](https://www.investopedia.com/terms/t/tax_selling.asp)<br>
+[Technical Indicator (Investopedia)](https://www.investopedia.com/terms/t/technicalindicator.asp)<br>
 [Ticker Tape (Investopedia)](https://www.investopedia.com/terms/t/tickertape.asp)<br>
 [Time Horizon (Investopedia)](https://www.investopedia.com/terms/t/timehorizon.asp)<br>
 [Time In Force (Investopedia)](https://www.investopedia.com/terms/t/timeinforce.asp)<br>
@@ -247,9 +250,11 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 [Zero-Coupon Bond or Accrual Bond (Investopedia)](https://www.investopedia.com/terms/z/zero-couponbond.asp)<br>
 
 [401(k) Plans: The Complete Guide (Investopedia)](https://www.investopedia.com/terms/1/401kplan.asp)<br>
+[A Historical Guide to the Gold-Silver Ratio (Investopedia)](https://www.investopedia.com/articles/investing/080316/historical-guide-goldsilver-ratio.asp)<br>
 [An Introduction to Dark Pools (Investopedia)](https://www.investopedia.com/articles/markets/050614/introduction-dark-pools.asp)<br>
 [An Introduction to U.S. Stock Market Indexes (Investopedia)](https://www.investopedia.com/insights/introduction-to-stock-market-indices/)<br>
 [Best Brokers for Day Trading (Investopedia)](https://www.investopedia.com/best-brokers-for-day-trading-4587880)<br>
+[Best Online Brokers (Investopedia)](https://www.investopedia.com/best-online-brokers-4587872)<br>
 [Best Options Trading Platforms (Investopedia)](https://www.investopedia.com/best-brokers-for-options-trading-4587876)<br>
 [Breaking Down the Geometric Mean in Investing (Investopedia)](https://www.investopedia.com/articles/investing/071113/breaking-down-geometric-mean.asp)<br>
 [Bucket Strategy vs. Systematic Withdrawals: Knowing the Difference (Investopedia)](https://www.investopedia.com/articles/financial-advisors/060815/comparison-bucket-strategy-vs-systematic-withdrawals.asp)<br>
