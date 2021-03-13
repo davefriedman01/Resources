@@ -5,6 +5,7 @@
 ## Resources
 
 [Time Complexity: Why Some Algorithms Run for Billions of Years (Interesting Engineering)](https://interestingengineering.com/time-complexity-why-some-algorithms-run-for-billions-of-years)<br>
+[Khan Academy's Intro to Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms)<br>
 
 ## Terms
 
