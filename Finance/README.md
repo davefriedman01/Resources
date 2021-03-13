@@ -155,6 +155,7 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 [Middleman (Investopedia)](https://www.investopedia.com/terms/m/middleman.asp)<br>
 [MPT Modern Portfolio Theory (Investopedia)](https://www.investopedia.com/terms/m/modernportfoliotheory.asp)<br>
 [Money Market (Investopedia)](https://www.investopedia.com/terms/m/moneymarket.asp)<br>
+[Monte Carlo Simulation (Investopedia)](https://www.investopedia.com/terms/m/montecarlosimulation.asp)<br>
 [MA Moving Average or Rolling Average (Wikipedia)](https://en.wikipedia.org/wiki/Moving_average)<br>
 [MA Moving Average or Rolling Average (Investopedia)](https://www.investopedia.com/terms/m/movingaverage.asp)<br>
 [MTF Multilateral Trading Facility (Investopedia)](https://www.investopedia.com/terms/m/multilateral_trading_facility.asp)<br>
