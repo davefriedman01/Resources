@@ -43,14 +43,47 @@ Trucco, E. & A. Verri. (1998). _Introductory Techniques for 3D Computer Vision_.
 ## Terms
 
 [AI Artificial Intelligence (Wikipedia)](https://en.wikipedia.org/wiki/Artificial_intelligence)<br>
+[Anomaly Detection (Wikipedia)](https://en.wikipedia.org/wiki/Anomaly_detection)<br>
 [ANN Artificial Neural Network (Wikipedia)](https://en.wikipedia.org/wiki/Artificial_neural_network)<br>
+[Classification (Wikipedia)](https://en.wikipedia.org/wiki/Statistical_classification)<br>
+[Cluster Analysis (Wikipedia)](https://en.wikipedia.org/wiki/Cluster_analysis)<br>
 [Computer Vision (Wikipedia)](https://en.wikipedia.org/wiki/Computer_vision)<br>
+[Cross-Validation (Wikipedia)](https://en.wikipedia.org/wiki/Cross-validation_(statistics))<br>
+[Curse of Dimensionality (Wikipedia)](https://en.wikipedia.org/wiki/Curse_of_dimensionality)<br>
 [Data Mining (Wikipedia)](https://en.wikipedia.org/wiki/Data_mining)<br>
+[Decision Tree (Wikipedia)](https://en.wikipedia.org/wiki/Decision_tree_learning)<br>
 [DL Deep Learning (Wikipedia)](https://en.wikipedia.org/wiki/Deep_learning)<br>
+[Dimensionality Reduction (Wikipedia)](https://en.wikipedia.org/wiki/Dimensionality_reduction)<br>
+[Ensemble Learning (Wikipedia)](https://en.wikipedia.org/wiki/Ensemble_learning)<br>
+[Feature (Wikipedia)](https://en.wikipedia.org/wiki/Feature_(machine_learning))<br>
+Feature Engineering<br>
+[Feature Extraction (Wikipedia)](https://en.wikipedia.org/wiki/Feature_extraction)<br>
+[Feature Selection (Wikipedia)](https://en.wikipedia.org/wiki/Feature_selection)<br>
 [GPT-3 (Wikipedia)](https://en.wikipedia.org/wiki/GPT-3)<br>
+[GD Gradient Descent (Wikipedia)](https://en.wikipedia.org/wiki/Gradient_descent)<br>
+[Hyperparameter (Wikipedia)](https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning))<br>
+[kNN k Nearest Neighbors (Wikipedia)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)<br>
+[Labeled Data (Wikipedia)](https://en.wikipedia.org/wiki/Labeled_data)<br>
+[Linear Regression (Wikipedia)](https://en.wikipedia.org/wiki/Linear_regression)<br>
+[Logistic Regression (Wikipedia)](https://en.wikipedia.org/wiki/Logistic_regression)<br>
 [ML Machine Learning (Wikipedia)](https://en.wikipedia.org/wiki/Machine_learning)<br>
+[Model Selection (Wikipedia)](https://en.wikipedia.org/wiki/Model_selection)<br>
 [NLP Natural Language Processing (Wikipedia)](https://en.wikipedia.org/wiki/Natural_language_processing)<br>
 [OpenAI (Wikipedia)](https://en.wikipedia.org/wiki/OpenAI)<br>
+[Overfitting (Wikipedia)](https://en.wikipedia.org/wiki/Overfitting)<br>
+[Random Forest (Wikipedia)](https://en.wikipedia.org/wiki/Random_forest)<br>
+[Regression (Wikipedia)](https://en.wikipedia.org/wiki/Regression_analysis)<br>
+[Regularization (Wikipedia)](https://en.wikipedia.org/wiki/Regularization_(mathematics))<br>
 [RL Reinforcement Learning (Wikipedia)](https://en.wikipedia.org/wiki/Reinforcement_learning)<br>
 [RPA Robotic Process Automation (Wikipedia)](https://en.wikipedia.org/wiki/Robotic_process_automation)<br>
 [Statistical Learning (Wikipedia)](https://en.wikipedia.org/wiki/Statistical_learning_theory)<br>
+[Semi-Supervised Learning (Wikipedia)](https://en.wikipedia.org/wiki/Semi-supervised_learning)<br>
+[SGD Stochastic Gradient Descent (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_gradient_descent)<br>
+[Supervised Learning (Wikipedia)](https://en.wikipedia.org/wiki/Supervised_learning)<br>
+[SVM Support-Vector Machine (Wikipedia)](https://en.wikipedia.org/wiki/Support-vector_machine)<br>
+[Test Data (Wikipedia)](https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets#training_set)<br>
+[Training Data (Wikipedia)](https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets#training_set)<br>
+Underfitting<br>
+Unlabeled Data<br>
+[Unsupervised Learning (Wikipedia)](https://en.wikipedia.org/wiki/Unsupervised_learning)<br>
+[Validation Data (Wikipedia)](https://en.wikipedia.org/wiki/Training,_validation,_and_test_sets#training_set)<br>
