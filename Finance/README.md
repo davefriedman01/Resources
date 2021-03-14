@@ -91,6 +91,8 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 [DDM Divident Discount Model (Investopedia)](https://www.investopedia.com/terms/d/ddm.asp)<br>
 [Downside Risk (Investopedia)](https://www.investopedia.com/terms/d/downsiderisk.asp)<br>
 [Earned Income (Investopedia)](https://www.investopedia.com/terms/e/earnedincome.asp)<br>
+[Efficient Market (Investopedia)](https://www.investopedia.com/terms/m/marketefficiency.asp)<br>
+[EMH Efficient Market Hypothesis (Investopedia)](https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp)<br>
 [ECN Electronic Communication Network (Investopedia)](https://www.investopedia.com/terms/e/ecn.asp)<br>
 [Equity (Investopedia)](https://www.investopedia.com/terms/e/equity.asp)<br>
 [Equity Market (Investopedia)](https://www.investopedia.com/terms/e/equitymarket.asp)<br>
