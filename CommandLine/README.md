@@ -60,6 +60,10 @@ Run these commands in Terminal.app on macOS or in Git Bash on Windows.<br>
 `conda create -n dev python=3.7 anaconda` Create a new environment called *dev* using Python 3.7<br>
 `conda search -f python` Check versions of python available to install<br>
 
+`conda env list` List environments<br>
+`conda env remove -n dev` Remove the environment called *dev*<br>
+
+
 
 
 #### [Anaconda](https://docs.anaconda.com/anaconda/)
