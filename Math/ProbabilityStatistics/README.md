@@ -1,5 +1,9 @@
 # Probability and Statistics
 
+## Resources
+
+[StatQuest with Josh Starmer (YouTube)](https://www.youtube.com/c/joshstarmer/about)<br>
+
 ## Terms
 
 [68-95-99.7 Rule (Wikipedia)](https://en.wikipedia.org/wiki/68–95–99.7_rule)<br>
