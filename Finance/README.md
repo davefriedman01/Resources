@@ -68,6 +68,7 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 [Commission (Investopedia)](https://www.investopedia.com/terms/c/commission.asp)<br>
 [Commodity (Investopedia)](https://www.investopedia.com/terms/c/commodity.asp)<br>
 [Conditional Order (Investopedia)](https://www.investopedia.com/terms/c/conditionalorder.asp)<br>
+[Continuous Compounding (Investopedia)](https://www.investopedia.com/terms/c/continuouscompounding.asp)<br>
 [Correlation (Wikipedia)](https://en.wikipedia.org/wiki/Correlation_and_dependence)<br>
 [Correlation (Investopedia)](https://www.investopedia.com/terms/c/correlation.asp)<br>
 [Correlation Coefficient (Investopedia)](https://www.investopedia.com/terms/c/correlationcoefficient.asp)<br>
