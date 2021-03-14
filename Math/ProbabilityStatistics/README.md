@@ -2,7 +2,7 @@
 
 ## Resources
 
-[StatQuest with Josh Starmer (YouTube)](https://www.youtube.com/c/joshstarmer/about)<br>
+[StatQuest with Josh Starmer (YouTube)](https://www.youtube.com/c/joshstarmer)<br>
 
 ## Terms
 
