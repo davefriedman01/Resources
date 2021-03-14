@@ -2,6 +2,8 @@
 
 
 
+## Resources
+
 Bird, Steven, Ewan Klein, & Edward Loper. (2009). [_Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit_](http://www.nltk.org/book/). O'Reilly Media.<br>
 Bishop, Christopher M. (2006). [_Pattern Recognition and Machine Learning_](https://www.microsoft.com/en-us/research/people/cmbishop/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Fcmbishop%2Fprml%2Findex.htm). Springer.<br>
 Chollet, Francois. (2017). _Deep Learning with Python_. Manning Publications.<br>
@@ -26,7 +28,19 @@ Wainwright, Martin J. (2019). _High-Dimensional Statistics: A Non-Asymptotic Vie
 Winder, Phil. (2020). _Reinforcement Learning: Industrial Applications of Intelligent Agents_. O'Reilly Media.<br>
 Witten et al. (2016). _Data Mining: Practical Machine Learning Tools and Techniques, 4th Ed_.
 
+[Numerai](https://numer.ai)<br>
+[OpenAI](https://openai.com)<br>
 
+#### Computer Vision
+
+Forsyth, D. & J. Ponce. (2002). _Computer Vision: A Modern Approach_.<br>
+Prince, Simon J. D. [_Computer Vision: Models, Learning, and Inference_](http://www.computervisionmodels.com/). Cambridge University Press.<br>
+Szeliski, Rick. (2011). [_Computer Vision: ALgorithms and Applications_](http://szeliski.org/Book/). Springer.<br>
+Trucco, E. & A. Verri. (1998). _Introductory Techniques for 3D Computer Vision_.<br>
+
+
+
+## Terms
 
 [AI Artificial Intelligence (Wikipedia)](https://en.wikipedia.org/wiki/Artificial_intelligence)<br>
 [ANN Artificial Neural Network (Wikipedia)](https://en.wikipedia.org/wiki/Artificial_neural_network)<br>
@@ -40,17 +54,3 @@ Witten et al. (2016). _Data Mining: Practical Machine Learning Tools and Techniq
 [RL Reinforcement Learning (Wikipedia)](https://en.wikipedia.org/wiki/Reinforcement_learning)<br>
 [RPA Robotic Process Automation (Wikipedia)](https://en.wikipedia.org/wiki/Robotic_process_automation)<br>
 [Statistical Learning (Wikipedia)](https://en.wikipedia.org/wiki/Statistical_learning_theory)<br>
-
-
-
-[Numerai](https://numer.ai)<br>
-[OpenAI](https://openai.com)<br>
-
-
-
-## Computer Vision
-
-Forsyth, D. & J. Ponce. (2002). _Computer Vision: A Modern Approach_.<br>
-Prince, Simon J. D. [_Computer Vision: Models, Learning, and Inference_](http://www.computervisionmodels.com/). Cambridge University Press.<br>
-Szeliski, Rick. (2011). [_Computer Vision: ALgorithms and Applications_](http://szeliski.org/Book/). Springer.<br>
-Trucco, E. & A. Verri. (1998). _Introductory Techniques for 3D Computer Vision_.<br>
