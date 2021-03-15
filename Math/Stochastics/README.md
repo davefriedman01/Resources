@@ -15,16 +15,19 @@
 Geometric Random Walk<br>
 [HMM Hidden Markov Model (Wikipedia)](https://en.wikipedia.org/wiki/Hidden_Markov_model)<br>
 [Ito Calculus (Wikipedia)](https://en.wikipedia.org/wiki/Itô_calculus)<br>
+[Ito's Lemma (Wikipedia)](https://en.wikipedia.org/wiki/Itô%27s_lemma)<br>
 [MCMC Markov Chain Monte Carlo (Wikipedia)](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo)<br>
 [Markov Model (Wikipedia)](https://en.wikipedia.org/wiki/Markov_model)<br>
 [Markov Process (Wikipedia)](https://en.wikipedia.org/wiki/Markov_chain)<br>
 [Markov Property (Wikipedia)](https://en.wikipedia.org/wiki/Markov_property)<br>
 [Markov Random Field (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_cellular_automaton)<br>
 [Probabilistic Cellular Automaton (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_cellular_automaton)<br>
+[Pseudorandomness (Wikipedia)](https://en.wikipedia.org/wiki/Pseudorandomness)<br>
 [Random Cellular Automaton (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_cellular_automaton)<br>
 [Random Field (Wikipedia)](https://en.wikipedia.org/wiki/Random_field)<br>
 [Random Function (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_process)<br>
 [Random Process (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_process)<br>
+[Random Seed (Wikipedia)](https://en.wikipedia.org/wiki/Random_seed)<br>
 [Random Walk (Wikipedia)](https://en.wikipedia.org/wiki/Random_walk)<br>
 [Randomness (Wikipedia)](https://en.wikipedia.org/wiki/Randomness)<br>
 [Stochastic Cellular Automaton (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_cellular_automaton)<br>
