@@ -2,7 +2,9 @@
 
 ## Figures
 
+[Ito, Kiyoshi (Wikipedia)](https://en.wikipedia.org/wiki/Kiyosi_Itô)<br>
 [Markov, Andrey (Wikipedia)](https://en.wikipedia.org/wiki/Andrey_Markov)<br>
+[Wiener, Norbert (Wikipedia)](https://en.wikipedia.org/wiki/Norbert_Wiener)<br>
 
 ## Terms
 
@@ -12,6 +14,7 @@
 [GBM Geometric Brownian Motion (Wikipedia)](https://en.wikipedia.org/wiki/Geometric_Brownian_motion)<br>
 Geometric Random Walk<br>
 [HMM Hidden Markov Model (Wikipedia)](https://en.wikipedia.org/wiki/Hidden_Markov_model)<br>
+[Ito Calculus (Wikipedia)](https://en.wikipedia.org/wiki/Itô_calculus)<br>
 [MCMC Markov Chain Monte Carlo (Wikipedia)](https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo)<br>
 [Markov Model (Wikipedia)](https://en.wikipedia.org/wiki/Markov_model)<br>
 [Markov Process (Wikipedia)](https://en.wikipedia.org/wiki/Markov_chain)<br>
@@ -28,3 +31,4 @@ Geometric Random Walk<br>
 [Stochastic Differential Equation (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_differential_equation)<br>
 [Stochastic Process (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_process)<br>
 [Stochasticity (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic)<br>
+[Wiener Process (Wikipedia)](https://en.wikipedia.org/wiki/Wiener_process)<br>
