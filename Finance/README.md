@@ -112,6 +112,7 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 [FTSE Financial Times Stock Exchange Group (Investopedia)](https://www.investopedia.com/terms/f/ftse.asp)<br>
 [Financing (Investopedia)](https://www.investopedia.com/terms/f/financing.asp)<br>
 [Fixed Income (Investopedia)](https://www.investopedia.com/terms/f/fixedincome.asp)<br>
+[Forward P/E Price-to-Earnings (Investopedia)](https://www.investopedia.com/terms/f/forwardpe.asp)<br>
 [Fund (Investopedia)](https://www.investopedia.com/terms/f/fund.asp)<br>
 [FA Fundamental Analysis (Investopedia)](https://www.investopedia.com/terms/f/fundamentalanalysis.asp)<br>
 [Futures (Investopedia)](https://www.investopedia.com/terms/f/futures.asp)<br>
