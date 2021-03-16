@@ -13,6 +13,7 @@
 [DTMC Discrete-Time Markov Chain (Wikipedia)](https://en.wikipedia.org/wiki/Discrete-time_Markov_chain)<br>
 [GBM Geometric Brownian Motion (Wikipedia)](https://en.wikipedia.org/wiki/Geometric_Brownian_motion)<br>
 Geometric Random Walk<br>
+[Hardware Random Number Generator (Wikipedia)](https://en.wikipedia.org/wiki/Hardware_random_number_generator)<br>
 [HMM Hidden Markov Model (Wikipedia)](https://en.wikipedia.org/wiki/Hidden_Markov_model)<br>
 [Ito Calculus (Wikipedia)](https://en.wikipedia.org/wiki/Itô_calculus)<br>
 [Ito's Lemma (Wikipedia)](https://en.wikipedia.org/wiki/Itô%27s_lemma)<br>
@@ -22,6 +23,7 @@ Geometric Random Walk<br>
 [Markov Property (Wikipedia)](https://en.wikipedia.org/wiki/Markov_property)<br>
 [Markov Random Field (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_cellular_automaton)<br>
 [Probabilistic Cellular Automaton (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_cellular_automaton)<br>
+[PNG Pseudorandom Number Generator (Wikipedia)](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)<br>
 [Pseudorandomness (Wikipedia)](https://en.wikipedia.org/wiki/Pseudorandomness)<br>
 [Random Cellular Automaton (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_cellular_automaton)<br>
 [Random Field (Wikipedia)](https://en.wikipedia.org/wiki/Random_field)<br>
