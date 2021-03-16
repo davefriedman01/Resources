@@ -32,6 +32,7 @@ Geometric Random Walk<br>
 [Random Seed (Wikipedia)](https://en.wikipedia.org/wiki/Random_seed)<br>
 [Random Walk (Wikipedia)](https://en.wikipedia.org/wiki/Random_walk)<br>
 [Randomness (Wikipedia)](https://en.wikipedia.org/wiki/Randomness)<br>
+[Stochastic Calculus (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_calculus)<br>
 [Stochastic Cellular Automaton (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_cellular_automaton)<br>
 [Stochastic Differential Equation (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_differential_equation)<br>
 [Stochastic Process (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_process)<br>
