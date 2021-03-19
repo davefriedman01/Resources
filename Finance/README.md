@@ -1,16 +1,20 @@
 # Finance
 
+Benninga, Simon. (2014). _Financial Modeling, 4th Ed_. MIT Press.<br>
+Bodie, Zvi, Alex Kane, & Alan Marcus. (2018). _Essentials of Investments, 11th Ed_.<br>
+Fawcett, Tom & Foster Provost. (2013). _Data Science for Business: What You Need to Know About Data Mining and Data-Analytic Thinking_. O'Reilly.<br>
 Hull, John C. (2020). [_Machine Learning in Business: An Introduction to the World of Data Science, 2nd Ed_](https://www-2.rotman.utoronto.ca/~hull/Second%20edition%20Online%20Files/index2ndEd.html). Self published.<br>
 Hull, John C. (2017). [_Options, Futures, and Other Derivatives, 10th Ed_](https://www-2.rotman.utoronto.ca/~hull/ofod/index.html). Pearson.<br>
 Markowitz, Harry M. (1952). ["Portfolio Selection: Efficient Diversification of Investments"](https://cowles.yale.edu/sites/default/files/files/pub/mon/m16-all.pdf). Journal of Finance.<br>
-Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time Cloud Financial Management_. O'Reilly Media.<br>
+Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time Cloud Financial Management_. O'Reilly.<br>
+Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Introductory Text_.<br>
+
+
 
 [Cboe Chicago Board Options Exchange](https://www.cboe.com)<br>
 [CBOT Chicago Board of Trade (Wikipedia)](https://en.wikipedia.org/wiki/Chicago_Board_of_Trade)<br>
 [CME Chicago Mercantile Exchange (Wikipedia)](https://en.wikipedia.org/wiki/Chicago_Mercantile_Exchange)<br>
 [CME Group](https://www.cmegroup.com)
-
-[Penn State Statistics Online](https://online.stat.psu.edu/statprogram/)<br>
 
 [Corporate Finance Institute](https://corporatefinanceinstitute.com) [YouTube](https://www.youtube.com/c/Corporatefinanceinstitute-CFI/)<br>
 [The Finance Storyteller](https://www.youtube.com/c/TheFinanceStoryteller/)<br>
@@ -85,6 +89,8 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 [Debt (Investopedia)](https://www.investopedia.com/terms/d/debt.asp)<br>
 [Debtor (Investopedia)](https://www.investopedia.com/terms/d/debtor.asp)<br>
 [Depreciation (Investopedia)](https://www.investopedia.com/terms/d/depreciation.asp)<br>
+[DCF Discounted Cash Flow Analysis (Wikipedia)](https://en.wikipedia.org/wiki/Discounted_cash_flow)<br>
+[DCF Discounted Cash Flow (Investopedia)](https://www.investopedia.com/terms/d/dcf.asp)<br>
 [Dispersion (Investopedia)](https://www.investopedia.com/terms/d/dispersion.asp)<br>
 [Distribution Waterfall (Investopedia)](https://www.investopedia.com/terms/d/distribution-waterfall.asp)<br>
 [Diversification (Investopedia)](https://www.investopedia.com/terms/d/diversification.asp)<br>
@@ -152,6 +158,7 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 [Market Risk (Investopedia)](https://www.investopedia.com/terms/m/marketrisk.asp)<br>
 [Market Segment (Investopedia)](https://www.investopedia.com/terms/m/market-segment.asp)<br>
 [Market Value (Investopedia)](https://www.investopedia.com/terms/m/marketvalue.asp)<br>
+[Mathematical Finance (Wikipedia)](https://en.wikipedia.org/wiki/Mathematical_finance)<br>
 [MFL Maximum Foreseeable Loss (Investopedia)](https://www.investopedia.com/terms/m/maximum-foreseeable-loss.asp)<br>
 [Mean (Investopedia)](https://www.investopedia.com/terms/m/mean.asp)<br>
 [Medium of Exchange (Investopedia)](https://www.investopedia.com/terms/m/mediumofexchange.asp)<br>
