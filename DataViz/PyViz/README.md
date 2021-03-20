@@ -24,6 +24,9 @@
 ## [Node.js](https://nodejs.org/en/)
 [nodejs (Anaconda)](https://anaconda.org/conda-forge/nodejs)<br>
 
+## [Panel](https://panel.holoviz.org)
+[panel (PyPI)](https://pypi.org/project/panel/)<br>
+
 ## [Plotly](https://plotly.com/python/)
 [plotly (PyPI)](https://pypi.org/project/plotly/)<br>
 
@@ -31,3 +34,4 @@
 [seaborn (PyPI)](https://pypi.org/project/seaborn/)<br>
 
 ## [yt](https://yt-project.org)
+[yt (PyPI)](https://pypi.org/project/yt/)<br>
