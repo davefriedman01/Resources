@@ -2,6 +2,8 @@
 
 ## Resources
 
+Bruce, Peter, Andrew Bruce, & Peter Gedeck. (2020). _Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python, 2nd Ed_. O'Reilly.<br>
+
 [StatQuest with Josh Starmer (YouTube)](https://www.youtube.com/c/joshstarmer)<br>
 
 ## Terms
