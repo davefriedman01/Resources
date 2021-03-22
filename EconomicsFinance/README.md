@@ -27,6 +27,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [Acceptance (Investopedia)](https://www.investopedia.com/terms/a/acceptance.asp)<br>
 [Adjusted Closing Price (Investopedia)](https://www.investopedia.com/terms/a/adjusted_closing_price.asp)<br>
 [ATS Alternative Trading System (Investopedia)](https://www.investopedia.com/terms/a/alternative-trading-system.asp)<br>
+[Angel Investor (Investopedia)](https://www.investopedia.com/terms/a/angelinvestor.asp)<br>
 [Annualized Total Return (Investopedia)](https://www.investopedia.com/terms/a/annualized-total-return.asp)<br>
 [AP Accounts Payable (Investopedia)](https://www.investopedia.com/terms/a/accountspayable.asp)<br>
 [Arbitrage (Investopedia)](https://www.investopedia.com/terms/a/arbitrage.asp)<br>
@@ -38,6 +39,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [Bankruptcy (Investopedia)](https://www.investopedia.com/terms/b/bankruptcy.asp)<br>
 [Beta (Investopedia)](https://www.investopedia.com/terms/b/beta.asp)<br>
 [Black Scholes or BSM Black-Scholes-Merton Model (Investopedia)](https://www.investopedia.com/terms/b/blackscholes.asp)<br>
+[Blank Check Company (Investopedia)](https://www.investopedia.com/terms/b/blankcheckcompany.asp)<br>
 [Block Trade (Investopedia)](https://www.investopedia.com/terms/b/blocktrade.asp)<br>
 [Bond (Investopedia)](https://www.investopedia.com/terms/b/bond.asp)<br>
 [Book Value (Investopedia)](https://www.investopedia.com/terms/b/bookvalue.asp)<br>
@@ -48,6 +50,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [Business Activities (Investopedia)](https://www.investopedia.com/terms/b/business-activities.asp)<br>
 [Business Expenses (Investopedia)](https://www.investopedia.com/terms/b/businessexpenses.asp)<br>
 [Business Insurance (Investopedia)](https://www.investopedia.com/terms/b/business-insurance.asp)<br>
+[Business Plan (Investopedia)](https://www.investopedia.com/terms/b/business-plan.asp)<br>
 [Call (Investopedia)](https://www.investopedia.com/terms/c/call.asp)<br>
 [Call Market (Investopedia)](https://www.investopedia.com/terms/c/callmarket.asp)<br>
 [CapEx Capital Expenditure (Investopedia)](https://www.investopedia.com/terms/c/capitalexpenditure.asp)<br>
@@ -132,6 +135,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [Index (Investopedia)](https://www.investopedia.com/terms/i/index.asp)<br>
 [Index Fund (Investopedia)](https://www.investopedia.com/terms/i/indexfund.asp)<br>
 [Inflation (Investopedia)](https://www.investopedia.com/terms/i/inflation.asp)<br>
+[IPO Initial Public Offering (Investopedia)](https://www.investopedia.com/terms/i/ipo.asp)<br>
 [Insurance (Investopedia)](https://www.investopedia.com/terms/i/insurance.asp)<br>
 [Intrinsic Value (Investopedia)](https://www.investopedia.com/terms/i/intrinsicvalue.asp)<br>
 [Inventory (Investopedia)](https://www.investopedia.com/terms/i/inventory.asp)<br>
@@ -224,6 +228,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [Sharpe Ratio (Investopedia)](https://www.investopedia.com/terms/s/sharperatio.asp)<br>
 [Short Selling (Investopedia)](https://www.investopedia.com/terms/s/shortselling.asp)<br>
 [Short Term Asset (Investopedia)](https://www.investopedia.com/terms/s/shortterm.asp)<br>
+[SPAC Special Purpose Acquisition Company (Investopedia)](https://www.investopedia.com/terms/s/spac.asp)<br>
 [Speculation (Investopedia)](https://www.investopedia.com/terms/s/speculation.asp)<br>
 [Speculator (Investopedia)](https://www.investopedia.com/terms/s/speculator.asp)<br>
 [S&P Standard & Poor's 500 Index (Investopedia)](https://www.investopedia.com/terms/s/sp500.asp)<br>
@@ -254,6 +259,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [Variable Cose (Investopedia)](https://www.investopedia.com/terms/v/variablecost.asp)<br>
 [Variance (Investopedia)](https://www.investopedia.com/terms/v/variance.asp)<br>
 [Venture Capital (Investopedia)](https://www.investopedia.com/terms/v/venturecapital.asp)<br>
+[Venture Capitalist (Investopedia)](https://www.investopedia.com/terms/v/venturecapitalist.asp)<br>
 [Volatility (Investopedia)](https://www.investopedia.com/terms/v/volatility.asp)<br>
 [Wash Sale (Investopedia)](https://www.investopedia.com/ask/answers/09/wash-sale.asp)<br>
 [Wide Variety (Investopedia)](https://www.investopedia.com/terms/w/wide-variety.asp)<br>
@@ -261,6 +267,9 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [Wilshire 5000 Total Market Index (Invstopedia)](https://www.investopedia.com/terms/w/wilshire5000equityindex.asp)<br>
 [Writing an Option (Investopedia)](https://www.investopedia.com/terms/w/writing-an-option.asp)<br>
 [Zero-Coupon Bond or Accrual Bond (Investopedia)](https://www.investopedia.com/terms/z/zero-couponbond.asp)<br>
+
+[Technical Analysis (Investopedia)](https://www.investopedia.com/technical-analysis-4689657)<br>
+[Most Commonly-Used Periods in Creating Moving Average (MA) Lines](https://www.investopedia.com/ask/answers/122414/what-are-most-common-periods-used-creating-moving-average-ma-lines.asp)<br>
 
 [401(k) Plans: The Complete Guide (Investopedia)](https://www.investopedia.com/terms/1/401kplan.asp)<br>
 [A Historical Guide to the Gold-Silver Ratio (Investopedia)](https://www.investopedia.com/articles/investing/080316/historical-guide-goldsilver-ratio.asp)<br>
