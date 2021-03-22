@@ -6,6 +6,9 @@
 ## [Bokeh](https://bokeh.org)
 [bokeh (PyPI)](https://pypi.org/project/bokeh/)<br>
 
+## [Cufflinks](https://github.com/santosjorge/cufflinks)<br>
+`conda install -c conda-forge python-cufflinks`<br>
+
 ## [HoloViz](https://holoviz.org)
 [holoviz (PyPI)](https://pypi.org/project/holoviz/)<br>
 
