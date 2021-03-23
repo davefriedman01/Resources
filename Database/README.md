@@ -8,6 +8,12 @@ Molinaro, Anthony & Robert de Graaf. (2020). _SQL Cookbook: Query Solutions and 
 Tanimura, Cathy. (2021). _SQL for Data Analysis: Advanced Techniques for Transforming Data into Insights_. O'Reilly.<br>
 Zhao, Alice. (2021). _SQL Pocket Guide: A Guide to SQL Usage, 4th Ed_. O'Reilly.<br>
 
+[freeCodeCamp's SQL Tutorial (YouTube)](https://www.youtube.com/watch?v=HXV3zeQKqGY)<br>
+[freeCodeCamp's PostgreSQL Tutorial (YouTube)](https://www.youtube.com/watch?v=qw--VYLpxG4)<br>
+[freeCodeCamp's Database Design Tutorial (YouTube)](https://www.youtube.com/watch?v=ztHopE5Wnpc)<br>
+[Geek's Lesson's SQL Tutorial (YouTube)](https://www.youtube.com/watch?v=uGkIhx8KhbU)<br>
+[Geek's Lesson's Advanced SQL Tutorial (YouTube)](https://www.youtube.com/watch?v=2Fn0WAyZV0E)<br>
+
 ## Figures
 
 [Codd, Edgar (Wikipedia)](https://en.wikipedia.org/wiki/Edgar_F._Codd)<br>
