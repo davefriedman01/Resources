@@ -8,10 +8,15 @@ Molinaro, Anthony & Robert de Graaf. (2020). _SQL Cookbook: Query Solutions and 
 Tanimura, Cathy. (2021). _SQL for Data Analysis: Advanced Techniques for Transforming Data into Insights_. O'Reilly.<br>
 Zhao, Alice. (2021). _SQL Pocket Guide: A Guide to SQL Usage, 4th Ed_. O'Reilly.<br>
 
+## Figures
+
+[Codd, Edgar (Wikipedia)](https://en.wikipedia.org/wiki/Edgar_F._Codd)<br>
+[Peirce, Charles Sanders (Wikipedia)](https://en.wikipedia.org/wiki/Charles_Sanders_Peirce)<br>
+
 ## Terms
 
 [ACID Atomicity, Consistency, Isolation, Durability (Wikipedia)](https://en.wikipedia.org/wiki/ACID)<br>
-[Codd, Edgar (Wikipedia)](https://en.wikipedia.org/wiki/Edgar_F._Codd)<br>
+[Codd's Theorem (Wikipedia)](https://en.wikipedia.org/wiki/Codd%27s_theorem)<br>
 [Column (Wikipedia)](https://en.wikipedia.org/wiki/Column_(database))<br>
 [CRUD Create, Read, Update, Delete (Wikipedia)](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)<br>
 [Database (Wikipedia)](https://en.wikipedia.org/wiki/Database)<br>
@@ -21,7 +26,10 @@ Zhao, Alice. (2021). _SQL Pocket Guide: A Guide to SQL Usage, 4th Ed_. O'Reilly.
 [Primary Key (Wikipedia)](https://en.wikipedia.org/wiki/Primary_key)<br>
 [Query Language (Wikipedia)](https://en.wikipedia.org/wiki/Query_language)<br>
 [Relation (Wikipedia)](https://en.wikipedia.org/wiki/Relation_(database))<br>
+[Relational Algebra (Wikipedia)](https://en.wikipedia.org/wiki/Relational_algebra)<br>
+[Relational Calculus (Wikipedia)](https://en.wikipedia.org/wiki/Relational_calculus)<br>
 [Relational Database (Wikipedia)](https://en.wikipedia.org/wiki/Relational_database#RDBMS)<br>
+[Relational Logic (Wikipedia)](https://en.wikipedia.org/wiki/Charles_Sanders_Peirce#Mathematics_of_logic)<br>
 [Relational Model (Wikipedia)](https://en.wikipedia.org/wiki/Relational_model)<br>
 [RDBMS Relational Database Management System (Wikipedia)](https://en.wikipedia.org/wiki/Relational_database#RDBMS)<br>
 [Row (Wikipedia)](https://en.wikipedia.org/wiki/Row_(database))<br>
