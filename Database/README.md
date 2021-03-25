@@ -1,8 +1,10 @@
 # Database
 
-## [MongoDB](https://www.mongodb.com)<br>
-## [Neo4j](https://neo4j.com)<br>
-## [Redis](https://redis.io)<br>
+### [MongoDB](https://www.mongodb.com)<br>
+### [MySQL](https://www.mysql.com)<br>
+### [Neo4j](https://neo4j.com)<br>
+### [PostgreSQL](https://www.postgresql.org)<br>
+### [Redis](https://redis.io)<br>
 
 ## Resources
 
