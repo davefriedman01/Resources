@@ -27,12 +27,15 @@ Zhao, Alice. (2021). _SQL Pocket Guide: A Guide to SQL Usage, 4th Ed_. O'Reilly.
 [Codd's Theorem (Wikipedia)](https://en.wikipedia.org/wiki/Codd%27s_theorem)<br>
 [Column (Wikipedia)](https://en.wikipedia.org/wiki/Column_(database))<br>
 [CRUD Create, Read, Update, Delete (Wikipedia)](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)<br>
+[Data Integrity (Wikipedia)](https://en.wikipedia.org/wiki/Data_integrity)<br>
 [Database (Wikipedia)](https://en.wikipedia.org/wiki/Database)<br>
 [DBMS Database Management System (Wikipedia)](https://en.wikipedia.org/wiki/Database#Database_management_system)<br>
+[Database Normalization (Wikipedia)](https://en.wikipedia.org/wiki/Database_normalization)<br>
 [ER Entity-Relationship Model (Wikipedia)](https://en.wikipedia.org/wiki/Entity–relationship_model)<br>
 [NoSQL (Wikipedia)](https://en.wikipedia.org/wiki/NoSQL)<br>
 [Primary Key (Wikipedia)](https://en.wikipedia.org/wiki/Primary_key)<br>
 [Query Language (Wikipedia)](https://en.wikipedia.org/wiki/Query_language)<br>
+[Redundancy (Wikipedia)](https://en.wikipedia.org/wiki/Data_redundancy)<br>
 [Relation (Wikipedia)](https://en.wikipedia.org/wiki/Relation_(database))<br>
 [Relational Algebra (Wikipedia)](https://en.wikipedia.org/wiki/Relational_algebra)<br>
 [Relational Calculus (Wikipedia)](https://en.wikipedia.org/wiki/Relational_calculus)<br>
