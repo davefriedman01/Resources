@@ -4,7 +4,9 @@
 
 Beaulieu, Alan. (2020). _Learning SQL: Generate, Manipulate, and Retrieve Data, 3rd Ed_. O'Reilly.<br>
 DeBarros, Anthony. (2018). _Practical SQL: A Beginner's Guide to Storytelling with Data_. No Starch Presss.<br>
+Lemahieu, Wilfred, Seppe Vanden Broucke, & Bart Baesens. (2018). [_Principles of Database Management: The Practical Guide to Storing, Managing, and Analyzing Big and Small Data_](https://www.pdbmbook.com). Cambridge University Press.<br>
 Molinaro, Anthony & Robert de Graaf. (2020). _SQL Cookbook: Query Solutions and Techniques for All SQL Users, 2nd Ed_. O'Reilly.<br>
+Ramakrishnan, Raghu & Johannes Gehrke. (2003). [_Database Management Systems, 3rd Ed_](http://pages.cs.wisc.edu/~dbbook/index.html). McGraw-Hill.<br>
 Tanimura, Cathy. (2021). _SQL for Data Analysis: Advanced Techniques for Transforming Data into Insights_. O'Reilly.<br>
 Zhao, Alice. (2021). _SQL Pocket Guide: A Guide to SQL Usage, 4th Ed_. O'Reilly.<br>
 
