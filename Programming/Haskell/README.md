@@ -21,6 +21,9 @@ Curry, Haskell Brooks (1900-1982) [Wiki](https://en.wikipedia.org/wiki/Haskell_C
 
 ## Terms
 
-Curry's Paradox [SEP](https://plato.stanford.edu/entries/curry-paradox/)<br>
+Combinatory Logic [SEP](https://plato.stanford.edu/entries/logic-combinatory/) [Wiki](https://en.wikipedia.org/wiki/Combinatory_logic)<br>
+Curry [Wiki](https://en.wikipedia.org/wiki/Curry_(programming_language))<br>
+Curry's Paradox [SEP](https://plato.stanford.edu/entries/curry-paradox/) [Wiki](https://en.wikipedia.org/wiki/Curry%27s_paradox)<br> 
 Currying [Wiki](https://en.wikipedia.org/wiki/Currying)<br>
 Functional Programming [Wiki](https://en.wikipedia.org/wiki/Functional_programming)<br>
+Haskell [Wiki](https://en.wikipedia.org/wiki/Haskell_(programming_language))<br>
