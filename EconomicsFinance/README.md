@@ -6,6 +6,7 @@ Fawcett, Tom & Foster Provost. (2013). _Data Science for Business: What You Need
 Hull, John C. (2020). [_Machine Learning in Business: An Introduction to the World of Data Science, 2nd Ed_](https://www-2.rotman.utoronto.ca/~hull/Second%20edition%20Online%20Files/index2ndEd.html). Self published.<br>
 Hull, John C. (2017). [_Options, Futures, and Other Derivatives, 10th Ed_](https://www-2.rotman.utoronto.ca/~hull/ofod/index.html). Pearson.<br>
 Markowitz, Harry M. (1952). ["Portfolio Selection: Efficient Diversification of Investments"](https://cowles.yale.edu/sites/default/files/files/pub/mon/m16-all.pdf). Journal of Finance.<br>
+Silver, Nate. (2015). _The Signal and the Noise: Why So Many Predictions Fail--but Some Don't_. Penguin. <br>
 Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time Cloud Financial Management_. O'Reilly.<br>
 Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Introductory Text_.<br>
 
@@ -67,6 +68,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [Cash Equivalents (Investopedia)](https://www.investopedia.com/terms/c/cashequivalents.asp)<br>
 [Cboe Options Exchange (Investopedia)](https://www.investopedia.com/terms/c/cboe.asp)<br>
 [VIX Cboe Volatility Index (Investopedia)](https://www.investopedia.com/terms/v/vix.asp)<br>
+[Central Bank (Wikipedia)](https://en.wikipedia.org/wiki/Central_bank)<br>
 [CCP Central Counterparty Clearing House (Investopedia)](https://www.investopedia.com/terms/c/ccph.asp)<br>
 [CD Certificate of Deposit (Investopedia)](https://www.investopedia.com/terms/c/certificateofdeposit.asp)<br>
 [Closed-End Fund (Investopedia)](https://www.investopedia.com/terms/c/closed-endinvestment.asp)<br>
@@ -114,6 +116,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [Factor Market (Investopedia)](https://www.investopedia.com/terms/f/factor-market.asp)<br>
 [Factors of Production (Investopedia)](https://www.investopedia.com/terms/f/factors-production.asp)<br>
 [FMV Fair Market Value (Investopedia)](https://www.investopedia.com/terms/f/fairmarketvalue.asp)<br>
+[Fiat Money (Wikipedia)](https://en.wikipedia.org/wiki/Fiat_money)<br>
 [Financial Asset (Investopedia)](https://www.investopedia.com/terms/f/financialasset.asp)<br>
 [Financial Exposure (Investopedia)](https://www.investopedia.com/terms/f/financial-exposure.asp)<br>
 [FI Financial Institution (Investopedia)](https://www.investopedia.com/terms/f/financialinstitution.asp)<br>
@@ -129,6 +132,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [GAAP Generally Accepted Accounting Principles (Investopedia)](https://www.investopedia.com/terms/g/gaap.asp)<br>
 [General Ledger (Investopedia)](https://www.investopedia.com/terms/g/generalledger.asp)<br>
 [Geometric Mean (Investopedia)](https://www.investopedia.com/terms/g/geometricmean.asp)<br>
+[Gold Reserve (Wikipedia)](https://en.wikipedia.org/wiki/Gold_reserve)<br>
 [Harmonic Mean (Investopedia)](https://www.investopedia.com/terms/h/harmonicaverage.asp)<br>
 [Hedge (Investopedia)](https://www.investopedia.com/terms/h/hedge.asp)<br>
 [Hypothesis Testing (Investopedia)](https://www.investopedia.com/terms/h/hypothesistesting.asp)<br>
@@ -138,6 +142,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [IPO Initial Public Offering (Investopedia)](https://www.investopedia.com/terms/i/ipo.asp)<br>
 [Insurance (Investopedia)](https://www.investopedia.com/terms/i/insurance.asp)<br>
 [Intrinsic Value (Investopedia)](https://www.investopedia.com/terms/i/intrinsicvalue.asp)<br>
+[Intrinsic Value (Wikipedia)](https://en.wikipedia.org/wiki/Intrinsic_value_(numismatics))<br>
 [Inventory (Investopedia)](https://www.investopedia.com/terms/i/inventory.asp)<br>
 [Inventory Turnover (Investopedia)](https://www.investopedia.com/terms/i/inventoryturnover.asp)<br>
 [Investor (Investopedia)](https://www.investopedia.com/terms/i/investor.asp)<br>
@@ -179,6 +184,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [NPV Net Present Value (Investopedia)](https://www.investopedia.com/terms/n/npv.asp)<br>
 [Net Worth (Investopedia)](https://www.investopedia.com/terms/n/networth.asp)<br>
 [NYSE New York Stock Exchange (Investopedia)](https://www.investopedia.com/terms/n/nyse.asp)<br>
+[Numismatics (Wikipedia)](https://en.wikipedia.org/wiki/Numismatics)<br>
 [One-Tailed Test (Investopedia)](https://www.investopedia.com/terms/o/one-tailed-test.asp)<br>
 [Open Order (Investopedia)](https://www.investopedia.com/terms/o/openorder.asp)<br>
 [Operating Expense (Investopedia)](https://www.investopedia.com/terms/o/operating_expense.asp)<br>
@@ -207,6 +213,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [Real-Time Trade Reporting (Investopedia)](https://www.investopedia.com/terms/r/real-timetradereporting.asp)<br>
 [Realized Gain (Investopedia)](https://www.investopedia.com/terms/r/realizedprofit.asp)<br>
 [Rebalancing (Investopedia)](https://www.investopedia.com/terms/r/rebalancing.asp)<br>
+[Reserve Bank (Wikipedia)](https://en.wikipedia.org/wiki/Central_bank)<br>
 [Retail Sales (Investopedia)](https://www.investopedia.com/terms/r/retail-sales.asp)<br>
 [Return (Investopedia)](https://www.investopedia.com/terms/r/return.asp)<br>
 [Risk (Investopedia)](https://www.investopedia.com/terms/r/risk.asp)<br>
