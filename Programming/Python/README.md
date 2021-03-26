@@ -6,7 +6,7 @@
 
 Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
 
-[Apache Spark's MLLib](https://spark.apache.org/docs/3.0.0/ml-guide.html)<br>
+[Apache Spark's MLlib](https://spark.apache.org/docs/3.0.0/ml-guide.html)<br>
 [Keras](https://keras.io)<br>
 [NLTK Natural Language Toolkit](http://www.nltk.org)<br>
 [OpenCV](https://opencv.org)<br>
@@ -28,7 +28,7 @@ VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Wor
 
 
 
-### Financial Programming
+## Financial Programming
 
 [The Python Quants](https://home.tpq.io/hilpisch/)<br>
 
