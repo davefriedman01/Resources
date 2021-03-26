@@ -22,9 +22,29 @@ Grus, Joel. (2019). [_Data Science from Scratch: First Principles with Python_](
 McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
 VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
 
-[Pandas](https://pandas.pydata.org)<br>
+## Data
+
+Grus, Joel. (2019). [_Data Science from Scratch: First Principles with Python_](https://github.com/joelgrus/data-science-from-scratch). O'Reilly Media.<br>
+McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
+VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
+
+### [NumPy](https://numpy.org/learn/)<br>
+
+[Cheatsheet (Datacamp)](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)<br>
+[Cheatsheet (Dataquest)](https://www.dataquest.io/blog/numpy-cheat-sheet/)<br>
+
+### [Pandas](https://pandas.pydata.org/docs/user_guide/index.html)
+
+[Cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)<br>
+[Getting Started](https://pandas.pydata.org/docs/getting_started/index.html)<br>
 [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)<br>
-[Pandas Community Tutorials](https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html)<br>
+[Community Tutorials](https://pandas.pydata.org/docs/getting_started/tutorials.html#communitytutorials)<br>
+
+### [SciPy](https://www.scipy.org)
+
+[Cheatsheet (Datacamp)](https://www.datacamp.com/community/blog/python-scipy-cheat-sheet)<br>
+[SciPy Lecture Notes](https://scipy-lectures.org)<br>
+[SciPy Cookbook](https://scipy-cookbook.readthedocs.io/index.html)<br>
 
 
 
