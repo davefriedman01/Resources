@@ -5,7 +5,7 @@
 PS                                  |CMD                                 |Git Bash               |Description
 ------------------------------------|------------------------------------|-----------------------|-----------
 `Get-Location`                      |`cd`                                |`pwd`                  |
-`Set-Location <path>`               |`chdir {path}` or `cd <path>`       |`cd <path>`            |
+`Set-Location <path>`               |`chdir <path>` or `cd <path>`       |`cd <path>`            |
 .                                   |`cls`                               |`clear`                |
 `Get-Help <cmdlet> [-examples]`     |`cmd <command>`                     |`man <command>`        |
 `Get-Command -Noun <noun>`          |                                    |                       |
