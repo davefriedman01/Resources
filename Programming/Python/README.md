@@ -7,14 +7,13 @@ Python [Home]((https://www.python.org))
 Anaconda [YouTube](https://www.youtube.com/c/ContinuumIo/)
 
 #### ML
-<details>
-  <summary>Click here to view ML tools.</summary>
-    Keras [Home](https://keras.io)<br>
-    NLTK [Home](http://www.nltk.org)<br>
-    OpenCV [Home](https://opencv.org)<br>
-    PyTorch [Home](https://pytorch.org)<br>
-    scikit-learn [Home](https://scikit-learn.org/stable/index.html)<br>
-    TensorFlow [Home](https://www.tensorflow.org)<br>
+<details><summary>Click here to view ML tools.</summary>
+Keras [Home](https://keras.io)<br>
+NLTK [Home](http://www.nltk.org)<br>
+OpenCV [Home](https://opencv.org)<br>
+PyTorch [Home](https://pytorch.org)<br>
+scikit-learn [Home](https://scikit-learn.org/stable/index.html)<br>
+TensorFlow [Home](https://www.tensorflow.org)<br>
 </details>
 
 
