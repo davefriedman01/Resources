@@ -2,13 +2,6 @@
 
 [Version Control (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/version-control/)<br>
 
-<details><summary>Terms</summary>
-
-- Git [Wiki](https://en.wikipedia.org/wiki/Git)<br>
-- VC Version Control [Wiki](https://en.wikipedia.org/wiki/Version_control)<br>
-</details>
-
-
 ## [Git](https://git-scm.com/doc)
 
 Git is an implementation of a VCS Version Control System.
@@ -46,3 +39,12 @@ GitLab is a git hosting service.<br>
 "Git & GitHub Crash Course For Beginners". (2017). Traversy Media. [YouTube](https://www.youtube.com/watch?v=SWYqp7iY_Tc).<br>
 "Git and GitHub for Beginners - Crash Course". (2020). freeCodeCamp.org. [YouTube](https://www.youtube.com/watch?v=RGOj5yH7evk).<br>
 "Git Tutorial for Beginners: Command-Line Fundamentals". (2015). Corey Schafer. [YouTube](https://www.youtube.com/watch?v=HVsySz-h9r4).<br>
+
+## Terms
+<details><summary>View Terms</summary><br>
+
+- Git [Wiki](https://en.wikipedia.org/wiki/Git)<br>
+- GitHub [Wiki](https://en.wikipedia.org/wiki/GitHub)<br>
+- GitLab [Wiki](https://en.wikipedia.org/wiki/GitLab)<br>
+- VC Version Control [Wiki](https://en.wikipedia.org/wiki/Version_control)<br>
+</details>
