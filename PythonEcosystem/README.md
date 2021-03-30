@@ -4,8 +4,36 @@
 
 ### Python
 - Python [Home](https://www.python.org)<br>
+
+
+
+<details>
+  <summary>Python Constructs</summary><br>
+
+- `dir`<br>
+  - [`dir()`](https://docs.python.org/3/library/functions.html#dir) Displays the names in the current scope<br>
+  - `dir(__builtin__)` Displays the names of Python's builtin functions <br>
+  - `dir(object)` Displays the names of the attributes of the Python object called _object_<br>
+- f-String<br>
+  - "Python 3's f-Strings: An Improved String Formatting Syntax (Guide)". Real Python. [https://realpython.com/python-f-strings/](https://realpython.com/python-f-strings/).<br>
+- `help`<br>
+  - [`help`](https://docs.python.org/3/library/functions.html#help) "Type help() for interactive help, or help(object) for help about object."<br>
+  - `help()`<br>
+  - `help(object)`<br>
+- `if __name__ == '__main__'`<br>
+  - [`if __name__ == '__main__':`](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)<br>
+- pathlib
+  - "Python 3's pathlib Module: Taming the File System". Real Python. [https://realpython.com/python-pathlib/](https://realpython.com/python-pathlib/).<br>
+- `with`
+  - [`with`](https://stackoverflow.com/questions/3012488/what-is-the-python-with-statement-designed-for)<br>
+
+</details>
+
+
+
 <details><summary>Texts</summary><br>
 
+#### Python Programming
 - Danjou, Julien. (2018). _Serious Python: Black-Belt Advice on Deployment, Scalability, Testing, and More_. No Starch Press.<br>
 - Goodrich, Micahel T. Roberto Tamassia, & Michael H. Goldwasser. (2013). _Data Structures and Algorithms in Python_. Wiley.<br>
 - Gorelick, Micha & Ian Ozsvald. (2020). _High Performance Python: Practical Performant Programming for Humans, 2nd Ed_. O'Reilly Media.<br>
@@ -19,6 +47,25 @@
 - Sweigart, Al. (2015). [_Automate the Boring Stuff with Python: Practical Programming for Total Beginners_](https://automatetheboringstuff.com). No Starch Press.<br>
 - Viafore, Patrick. (2022). _Robust Python: Write Clean and Maintainable Code_. O'Reilly Media.<br>
 - Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
+
+#### Data
+Grus, Joel. (2019). [_Data Science from Scratch: First Principles with Python_](https://github.com/joelgrus/data-science-from-scratch). O'Reilly Media.<br>
+McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
+VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
+
+#### AI
+Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
+
+#### Financial Programming
+Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
+Hilpisch, Yves. (2020). _Python for Algorithmic Trading: From Idea to Cloud Deployment_. O'Reilly Media.<br>
+Hilpisch, Yves. (2019). _Python for Finance: Mastering Data-Driven Finance, 2nd Ed_. O'Reilly Media.<br>
+Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Models, Simulation, Calibration and Hedging_. Wiley.<br>
+[The Python Quants](https://home.tpq.io/hilpisch/)<br>
+</details>
+<details><summary>Web Resources</summary><br>
+
+- "Notes On Using Data Science & Machine Learning To Fight For Something That Matters". Chris Albon. <[https://chrisalbon.com](https://chrisalbon.com)>. [GitHub](https://github.com/chrisalbon/notes).<br>
 </details>
 
 ### IPython
@@ -47,54 +94,8 @@
 
 
 
-## Resources
-
-#### AI
-Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
-
-#### Data
-Grus, Joel. (2019). [_Data Science from Scratch: First Principles with Python_](https://github.com/joelgrus/data-science-from-scratch). O'Reilly Media.<br>
-McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
-VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
-
-#### Financial Programming
-Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
-Hilpisch, Yves. (2020). _Python for Algorithmic Trading: From Idea to Cloud Deployment_. O'Reilly Media.<br>
-Hilpisch, Yves. (2019). _Python for Finance: Mastering Data-Driven Finance, 2nd Ed_. O'Reilly Media.<br>
-Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Models, Simulation, Calibration and Hedging_. Wiley.<br>
-[The Python Quants](https://home.tpq.io/hilpisch/)<br>
-
-#### Other
-"Notes On Using Data Science & Machine Learning To Fight For Something That Matters". Chris Albon. <[https://chrisalbon.com](https://chrisalbon.com)>. [GitHub](https://github.com/chrisalbon/notes).<br>
-"Python 3's f-Strings: An Improved String Formatting Syntax (Guide)". Real Python. [https://realpython.com/python-f-strings/](https://realpython.com/python-f-strings/).<br>
-"Python 3's pathlib Module: Taming the File System". Real Python. [https://realpython.com/python-pathlib/](https://realpython.com/python-pathlib/).<br>
-
-
-
-
-## Constructs
-
-Utilize these functions in a Python environment.<br>
-
-[`dir()`](https://docs.python.org/3/library/functions.html#dir) Displays the names in the current scope<br>
-`dir(__builtin__)` Displays the names of Python's builtin functions <br>
-`dir(object)` Displays the names of the attributes of the Python object called _object_<br>
-[`help`](https://docs.python.org/3/library/functions.html#help) "Type help() for interactive help, or help(object) for help about object."<br>
-`help()`<br>
-`help(object)`<br>
-
 ---
-
-Utilize these patterns in a Python script.<br>
-
-[`if __name__ == '__main__':`](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)<br>
-[`with`](https://stackoverflow.com/questions/3012488/what-is-the-python-with-statement-designed-for)<br>
-
-
-
-
-
----
+# Python Packages
 
 ## PyData: Python for Data
 
