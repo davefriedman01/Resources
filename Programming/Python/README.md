@@ -1,6 +1,5 @@
 # Python Ecosystem
 
-## Tools
 ### Python Programming Langauge
 [Home](https://www.python.org)<br>
 ### Anaconda
