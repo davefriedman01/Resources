@@ -55,6 +55,9 @@
   - [PyPI](https://pypi.org/project/plotly/)<br>
 - PySpark<br>
   - [Apache Spark's MLlib](https://spark.apache.org/docs/3.0.0/ml-guide.html)<br>
+- Python-dotenv<br>
+  - [GitHub](https://github.com/theskumar/python-dotenv)<br>
+  - [PyPI](https://pypi.org/project/python-dotenv/)<br>
 - PyTorch<br>
   - [Home](https://pytorch.org)<br>
 - scikit-learn<br>
