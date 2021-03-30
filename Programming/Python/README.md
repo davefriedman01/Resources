@@ -1,15 +1,19 @@
 # Python Ecosystem
 
 ## Tools
-Python [Home](https://www.python.org)<br>
-Anaconda [YouTube](https://www.youtube.com/c/ContinuumIo/) [Wiki](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))<br>
+### Python Programming Langauge
+[Home](https://www.python.org)<br>
+### Anaconda
+[Home](https://www.anaconda.com/open-source)<br>
+[YouTube](https://www.youtube.com/c/ContinuumIo/)<br>
+[Wiki](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))<br>
 
 #### Keras
 [Home](https://keras.io)<br>
 #### NLTK
 [Home](http://www.nltk.org)<br>
 #### Numba
-"Accelerating Scientific Workloads with Numba - Siu Kwan Lam". (2018). Anaconda, Inc. [YouTube](https://www.youtube.com/watch?v=6oXedk2tGfk)<br>
+"Accelerating Scientific Workloads with Numba - Siu Kwan Lam". (2018). Anaconda, Inc. [YouTube](https://www.youtube.com/watch?v=6oXedk2tGfk).<br>
 #### NumPy
 [Learn](https://numpy.org/learn/)<br>
 [Cheatsheet (Datacamp)](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)<br>
