@@ -1,40 +1,13 @@
 # Python
 
-#### Python
-[Home](https://www.python.org)<br>
-####  Anaconda
-[Home](https://www.anaconda.com/open-source)<br>
-[YouTube](https://www.youtube.com/c/ContinuumIo/)<br>
-[Wiki](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))<br>
 
 
-
-## Useful Python
-
-[IPython](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#).<br>
-
-[`?` and `object?`](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#the-four-most-helpful-commands)<br>
-[`%magic`](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#magic-functions)<br>
-
----
-
-Utilize these functions in a Python environment.<br>
-
-[`dir()`](https://docs.python.org/3/library/functions.html#dir) Displays the names in the current scope<br>
-`dir(__builtin__)` Displays the names of Python's builtin functions <br>
-`dir(object)` Displays the names of the attributes of the Python object called _object_<br>
-[`help`](https://docs.python.org/3/library/functions.html#help) "Type help() for interactive help, or help(object) for help about object."<br>
-`help()`<br>
-`help(object)`<br>
-
----
-
-Utilize these patterns in a Python script.<br>
-
-[`if __name__ == '__main__':`](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)<br>
-[`with`](https://stackoverflow.com/questions/3012488/what-is-the-python-with-statement-designed-for)<br>
-
-[Apache Spark's MLlib](https://spark.apache.org/docs/3.0.0/ml-guide.html)<br>
+- Python
+  - [Home](https://www.python.org)<br>
+- Anaconda
+  - [Home](https://www.anaconda.com/open-source)<br>
+  - [YouTube](https://www.youtube.com/c/ContinuumIo/)<br>
+  - [Wiki](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))<br>
 
 
 
@@ -82,6 +55,7 @@ Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
 
 ## Packages
 
+- [Apache Spark's MLlib](https://spark.apache.org/docs/3.0.0/ml-guide.html)<br>
 - Keras [Home](https://keras.io)<br>
 - NLTK [Home](http://www.nltk.org)<br>
 - Numba<br>
@@ -105,3 +79,30 @@ Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
   - [SciPy Lecture Notes](https://scipy-lectures.org)<br>
   - [SciPy Cookbook](https://scipy-cookbook.readthedocs.io/index.html)<br>
 - TensorFlow [Home](https://www.tensorflow.org)<br>
+
+
+
+## Constructs
+
+[IPython](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#).<br>
+
+[`?` and `object?`](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#the-four-most-helpful-commands)<br>
+[`%magic`](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#magic-functions)<br>
+
+---
+
+Utilize these functions in a Python environment.<br>
+
+[`dir()`](https://docs.python.org/3/library/functions.html#dir) Displays the names in the current scope<br>
+`dir(__builtin__)` Displays the names of Python's builtin functions <br>
+`dir(object)` Displays the names of the attributes of the Python object called _object_<br>
+[`help`](https://docs.python.org/3/library/functions.html#help) "Type help() for interactive help, or help(object) for help about object."<br>
+`help()`<br>
+`help(object)`<br>
+
+---
+
+Utilize these patterns in a Python script.<br>
+
+[`if __name__ == '__main__':`](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)<br>
+[`with`](https://stackoverflow.com/questions/3012488/what-is-the-python-with-statement-designed-for)<br>
