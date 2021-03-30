@@ -26,22 +26,22 @@ GitHub is a git hosting service.<br>
 
 
 
-## [GitLab](https://docs.gitlab.com)
 
-GitLab is a git hosting service.<br>
+<details><summary>GitLab</summary><br>
 
-[GitLab and SSH Keys (GitLab Docs)](https://docs.gitlab.com/ee/ssh/README.html)<br>
+- [Home](https://about.gitlab.com)<br>
+- [Docs](https://docs.gitlab.com)<br>
+- GitLab and SSH Keys [Docs](https://docs.gitlab.com/ee/ssh/README.html)<br>
+</details>
 
-
-
-### YouTube
+<details><summary>YouTube</summary><br>
 
 "Git & GitHub Crash Course For Beginners". (2017). Traversy Media. [YouTube](https://www.youtube.com/watch?v=SWYqp7iY_Tc).<br>
 "Git and GitHub for Beginners - Crash Course". (2020). freeCodeCamp.org. [YouTube](https://www.youtube.com/watch?v=RGOj5yH7evk).<br>
 "Git Tutorial for Beginners: Command-Line Fundamentals". (2015). Corey Schafer. [YouTube](https://www.youtube.com/watch?v=HVsySz-h9r4).<br>
+</details>
 
-## Terms
-<details><summary>View Terms</summary><br>
+<details><summary>Terms</summary><br>
 
 - Git [Wiki](https://en.wikipedia.org/wiki/Git)<br>
 - GitHub [Wiki](https://en.wikipedia.org/wiki/GitHub)<br>
