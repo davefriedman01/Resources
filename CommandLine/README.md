@@ -73,43 +73,6 @@ Run these commands in Terminal.app on macOS or in Git Bash on Windows.<br>
 
 
 
-#### [Git](https://git-scm.com/doc)
-`git --version` Verify that git is successfully installed on your system<br>
-
-**Run this command when you want to update your GitHub repo:<br>
-`git add . && git commit -m "your commit message" && git push`<br>
-or separately:<br>
-`git add .`<br>
-`git commit -m "your commit message"`<br>
-`git push`<br>**
-
-Check the status of files and folders in your local project directory (i.e., tracked or no, added or no, committed or no, pushed or no, etc.):<br>
-[`git status`](https://git-scm.com/docs/git-status)<br>
-
-Run this set of commands the first time you connect your local project directory to your new GitHub repo:<br>
-`echo "# Your Repo Name and Description, For Example" >> README.md`<br>
-[`git init`](https://git-scm.com/docs/git-init)<br>
-[`git add README.md`](https://git-scm.com/docs/git-add)<br>
-[`git commit -m "your commit message"`](https://git-scm.com/docs/git-commit)<br>
-[`git branch -M main`](https://git-scm.com/docs/git-branch)<br>
-[`git remote add origin git@github.com:<github-username>/<github-repo-name>.git`](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emaddem)<br>
-[`git push -u origin main`](https://git-scm.com/docs/git-push)<br>
-
-[`git remote`](https://git-scm.com/docs/git-remote) Gets the local name you assigned to your remote GitHub repo when you ran `git remote add...` (typically, `origin`)<br>
-[`git remote get-url origin`](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emget-urlem)<br>
-[`git remote set-url origin git@github.com:<github-username>/<github-repo-name>.git`](https://git-scm.com/docs/git-remote#Documentation/git-remote.txt-emset-urlem) This is useful when you change the name of your GitHub repo and you also need to change its name in your local configuration to maintain a connection<br>
-
-[`git clone <url>`](https://www.git-scm.com/docs/git-clone)<br>
-
-[`git config -l` or `git config --list`](https://git-scm.com/docs/git-config#Documentation/git-config.txt--l)<br>
-
-`git lfs version`<br>
-`git lfs track`<br>
-`git lfs ls-files`<br>
-`git lfs clone --depth=1 https://github.com/<github-username>/<github-repo-name>.git`<br>
-
-
-
 #### SSH Key
 `ssh-keygen -t rsa -b 4096 -C <email>` Create a new ssh key<br>
 `eval "$(ssh-agent -s)"` Check that the program `ssh-agent` is running on your system by looking for `Agent pid <number>` in the output<br>
