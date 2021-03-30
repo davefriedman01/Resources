@@ -106,3 +106,10 @@ Utilize these patterns in a Python script.<br>
 
 [`if __name__ == '__main__':`](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)<br>
 [`with`](https://stackoverflow.com/questions/3012488/what-is-the-python-with-statement-designed-for)<br>
+
+
+
+## Debugging
+
+#### Unit Test
+"Python Tutorial: Unit Testing Your Code with the unittest Module". (2017). Corey Schafer. [YouTube](https://www.youtube.com/watch?v=6tNS--WetLI).<br>
