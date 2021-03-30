@@ -82,26 +82,26 @@ Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
 
 ## Packages
 
-Keras [Home](https://keras.io)<br>
-NLTK [Home](http://www.nltk.org)<br>
-Numba<br>
+- Keras [Home](https://keras.io)<br>
+- NLTK [Home](http://www.nltk.org)<br>
+- Numba<br>
   - "Accelerating Scientific Workloads with Numba - Siu Kwan Lam". (2018). Anaconda, Inc. [YouTube](https://www.youtube.com/watch?v=6oXedk2tGfk).<br>
-NumPy
+- NumPy
   - [Learn](https://numpy.org/learn/)<br>
   - [Cheatsheet (Datacamp)](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)<br>
   - [Cheatsheet (Dataquest)](https://www.dataquest.io/blog/numpy-cheat-sheet/)<br>
-OpenCV [Home](https://opencv.org)<br>
-Pandas
+- OpenCV [Home](https://opencv.org)<br>
+- Pandas
   - [Docs](https://pandas.pydata.org/docs/user_guide/index.html)
   - [Cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)<br>
   - [Getting Started](https://pandas.pydata.org/docs/getting_started/index.html)<br>
   - [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)<br>
   - [Community Tutorials](https://pandas.pydata.org/docs/getting_started/tutorials.html#communitytutorials)<br>
-PyTorch [Home](https://pytorch.org)<br>
-scikit-learn [Home](https://scikit-learn.org/stable/index.html)<br>
-SciPy
+- PyTorch [Home](https://pytorch.org)<br>
+- scikit-learn [Home](https://scikit-learn.org/stable/index.html)<br>
+- SciPy
   - [Home](https://www.scipy.org)
   - [Cheatsheet (Datacamp)](https://www.datacamp.com/community/blog/python-scipy-cheat-sheet)<br>
   - [SciPy Lecture Notes](https://scipy-lectures.org)<br>
   - [SciPy Cookbook](https://scipy-cookbook.readthedocs.io/index.html)<br>
-TensorFlow [Home](https://www.tensorflow.org)<br>
+- TensorFlow [Home](https://www.tensorflow.org)<br>
