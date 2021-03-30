@@ -62,7 +62,6 @@ Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
 - Altair [PyViz]<br>
   - [GitHub](https://altair-viz.github.io)<br>
   - [PyPI](https://pypi.org/project/altair/)<br>
-- [Apache Spark's MLlib](https://spark.apache.org/docs/3.0.0/ml-guide.html)<br>
 - Bokeh [PyViz]<br>
   - [Home](https://bokeh.org)<br>
   - [PyPI](https://pypi.org/project/bokeh/)<br>
@@ -72,43 +71,53 @@ Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
   - [Home](https://holoviews.org)<br>
   - [PyPI](https://pypi.org/project/holoviews/)<br>
 - HoloViz [PyViz]<br>
-  - [HoloViz](https://holoviz.org)<br>
+  - [Home](https://holoviz.org)<br>
   - [PyPI](https://pypi.org/project/holoviz/)<br>
 - hvPlot [PyViz]<br>
-  - [hvPlot](https://hvplot.holoviz.org)<br>
+  - [Home](https://hvplot.holoviz.org)<br>
   - [PyPI](https://pypi.org/project/hvplot/)<br>
 - ipywidgets<br>
   - [GitHub](https://github.com/jupyter-widgets/ipywidgets)<br>
   - [PyPI](https://pypi.org/project/jupyterlab-widgets/)<br>
-- Keras [Home](https://keras.io)<br>
+- Keras<br>
+  - [Home](https://keras.io)<br>
 - Matplotlib [PyViz]<br>
-  - [Matplotlib](https://matplotlib.org)<br>
+  - [Home](https://matplotlib.org)<br>
   - [PyPI](https://pypi.org/project/matplotlib/)<br>
-- NLTK [Home](http://www.nltk.org)<br>
+- NLTK<br>
+  - [Home](http://www.nltk.org)<br>
 - Node.js<br>
   - [Home](https://nodejs.org/en/)<br>
   - [Anaconda](https://anaconda.org/conda-forge/nodejs)<br>
 - Numba<br>
   - "Accelerating Scientific Workloads with Numba - Siu Kwan Lam". (2018). Anaconda, Inc. [YouTube](https://www.youtube.com/watch?v=6oXedk2tGfk).<br>
 - NumPy
+  - [Home](https://numpy.org)<br>
   - [Learn](https://numpy.org/learn/)<br>
   - [Cheatsheet (Datacamp)](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)<br>
   - [Cheatsheet (Dataquest)](https://www.dataquest.io/blog/numpy-cheat-sheet/)<br>
-- OpenCV [Home](https://opencv.org)<br>
+  - [PyPI](https://pypi.org/project/numpy/)<br>
+- OpenCV<br>
+  - [Home](https://opencv.org)<br>
 - Pandas
+  - [Home](https://pandas.pydata.org)<br>
   - [Docs](https://pandas.pydata.org/docs/user_guide/index.html)
-  - [Cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)<br>
   - [Getting Started](https://pandas.pydata.org/docs/getting_started/index.html)<br>
-  - [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)<br>
   - [Community Tutorials](https://pandas.pydata.org/docs/getting_started/tutorials.html#communitytutorials)<br>
+  - [Cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)<br>
+  - [PyPI](https://pypi.org/project/pandas/)<br>
 - Panel [PyViz]<br>
   - [Home](https://panel.holoviz.org)<br>
   - [PyPI](https://pypi.org/project/panel/)<br>
 - Plotly [PyViz]<br>
-  - [Plotly](https://plotly.com/python/)<br>
+  - [Home](https://plotly.com/python/)<br>
   - [PyPI](https://pypi.org/project/plotly/)<br>
-- PyTorch [Home](https://pytorch.org)<br>
-- scikit-learn [Home](https://scikit-learn.org/stable/index.html)<br>
+- PySpark<br>
+  - [Apache Spark's MLlib](https://spark.apache.org/docs/3.0.0/ml-guide.html)<br>
+- PyTorch<br>
+  - [Home](https://pytorch.org)<br>
+- scikit-learn<br>
+  - [Home](https://scikit-learn.org/stable/index.html)<br>
 - SciPy
   - [Home](https://www.scipy.org)
   - [Cheatsheet (Datacamp)](https://www.datacamp.com/community/blog/python-scipy-cheat-sheet)<br>
@@ -117,7 +126,8 @@ Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
 - Seaborn [PyViz]<br>
   - [Home](https://seaborn.pydata.org)<br>
   - [PyPI](https://pypi.org/project/seaborn/)<br>
-- TensorFlow [Home](https://www.tensorflow.org)<br>
+- TensorFlow<br>
+  - [Home](https://www.tensorflow.org)<br>
 - yt<br>
   - [Home](https://yt-project.org)<br>
   - [PyPI](https://pypi.org/project/yt/)<br>
