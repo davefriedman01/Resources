@@ -2,7 +2,7 @@
 
 GitHub<br>
 - GitHub [Home](https://docs.github.com/en)
-- GitHub[Git Guide](https://github.com/git-guides/)<br>
+- GitHub [Git Guide](https://github.com/git-guides/)<br>
 - GitHub [Learning Lab](https://lab.github.com)<br>
   - GitHub [Learning Lab: Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github)<br>
 - GitHub [Cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet/)<br>
