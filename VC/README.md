@@ -1,6 +1,6 @@
-# Version Control
+# VC Version Control
 
-## CL
+## CL Command Line
 `git --version` Verify that git is successfully installed on your system<br>
 
 **Run this command when you want to update your GitHub repo:<br>
