@@ -1,8 +1,8 @@
-# Python Ecosystem
+# Python
 
-### Python Programming Langauge
+#### Python
 [Home](https://www.python.org)<br>
-### Anaconda
+####  Anaconda
 [Home](https://www.anaconda.com/open-source)<br>
 [YouTube](https://www.youtube.com/c/ContinuumIo/)<br>
 [Wiki](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))<br>
@@ -37,41 +37,6 @@
 #### TensorFlow
 [Home](https://www.tensorflow.org)<br>
 
-## Resources
-#### AI
-Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
-### Data
-Grus, Joel. (2019). [_Data Science from Scratch: First Principles with Python_](https://github.com/joelgrus/data-science-from-scratch). O'Reilly Media.<br>
-McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
-VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
-### Financial Programming
-Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
-Hilpisch, Yves. (2020). _Python for Algorithmic Trading: From Idea to Cloud Deployment_. O'Reilly Media.<br>
-Hilpisch, Yves. (2019). _Python for Finance: Mastering Data-Driven Finance, 2nd Ed_. O'Reilly Media.<br>
-Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Models, Simulation, Calibration and Hedging_. Wiley.<br>
-[The Python Quants](https://home.tpq.io/hilpisch/)<br>
-## GUI Programming
-[tkinter](https://docs.python.org/3/library/tkinter.html)<br>
-#### Python Programming
-Danjou, Julien. (2018). _Serious Python: Black-Belt Advice on Deployment, Scalability, Testing, and More_. No Starch Press.<br>
-Goodrich, Micahel T. Roberto Tamassia, & Michael H. Goldwasser. (2013). _Data Structures and Algorithms in Python_. Wiley.<br>
-Gorelick, Micha & Ian Ozsvald. (2020). _High Performance Python: Practical Performant Programming for Humans, 2nd Ed_. O'Reilly Media.<br>
-Kopec, David. (2019). _Classic Computer Science Problems in Python_. Manning Publications.<br>
-Lubanovic, Bill. (2019). _Introducing Python: Modern Computing in Simple Packages, 2nd Ed_. O'Reilly Media.<br>
-Matthes, Eric. (2019). _Python Crash Course: A Hands-On, Project-Based Introduction to Programming_. O'Reilly Media.<br>
-Mayer, Christian. (2020). _Python One-Liners: Write Concise, Eloquent Python like a Professional_. No Starch Press.<br>
-Ramalho, Luciano. (2021). _Fluent Python: Clear, Concise, and Effective Programming, 2nd Ed_. O'Reilly Media.<br>
-Sweigart, Al. (2020). _Beyond the Basic Stuff with Python: Best Practices for Writing Clean Code_. O'Reilly Media.<br>
-Sweigart, Al. (2019). _Automate the Boring Stuff with Python: Practical Programming for Total Beginners, 2nd Ed_. No Starch Press.<br>
-Sweigart, Al. (2015). [_Automate the Boring Stuff with Python: Practical Programming for Total Beginners_](https://automatetheboringstuff.com). No Starch Press.<br>
-Viafore, Patrick. (2022). _Robust Python: Write Clean and Maintainable Code_. O'Reilly Media.<br>
-Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
-
-[Chris Albon's Data Science & Machine Learning](https://chrisalbon.com)<br>
-
-[f-String (Real Python)](https://realpython.com/python-f-strings/)<br>
-[pathlib (Real Python)](https://realpython.com/python-pathlib/)<br>
-
 
 
 ## Useful Python
@@ -100,3 +65,45 @@ Utilize these patterns in a Python script.<br>
 [`with`](https://stackoverflow.com/questions/3012488/what-is-the-python-with-statement-designed-for)<br>
 
 [Apache Spark's MLlib](https://spark.apache.org/docs/3.0.0/ml-guide.html)<br>
+
+
+
+## Resources
+
+#### AI
+Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
+
+#### Data
+Grus, Joel. (2019). [_Data Science from Scratch: First Principles with Python_](https://github.com/joelgrus/data-science-from-scratch). O'Reilly Media.<br>
+McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
+VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
+
+#### Financial Programming
+Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
+Hilpisch, Yves. (2020). _Python for Algorithmic Trading: From Idea to Cloud Deployment_. O'Reilly Media.<br>
+Hilpisch, Yves. (2019). _Python for Finance: Mastering Data-Driven Finance, 2nd Ed_. O'Reilly Media.<br>
+Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Models, Simulation, Calibration and Hedging_. Wiley.<br>
+[The Python Quants](https://home.tpq.io/hilpisch/)<br>
+
+#### GUI Programming
+[tkinter](https://docs.python.org/3/library/tkinter.html)<br>
+
+#### Python Programming
+Danjou, Julien. (2018). _Serious Python: Black-Belt Advice on Deployment, Scalability, Testing, and More_. No Starch Press.<br>
+Goodrich, Micahel T. Roberto Tamassia, & Michael H. Goldwasser. (2013). _Data Structures and Algorithms in Python_. Wiley.<br>
+Gorelick, Micha & Ian Ozsvald. (2020). _High Performance Python: Practical Performant Programming for Humans, 2nd Ed_. O'Reilly Media.<br>
+Kopec, David. (2019). _Classic Computer Science Problems in Python_. Manning Publications.<br>
+Lubanovic, Bill. (2019). _Introducing Python: Modern Computing in Simple Packages, 2nd Ed_. O'Reilly Media.<br>
+Matthes, Eric. (2019). _Python Crash Course: A Hands-On, Project-Based Introduction to Programming_. O'Reilly Media.<br>
+Mayer, Christian. (2020). _Python One-Liners: Write Concise, Eloquent Python like a Professional_. No Starch Press.<br>
+Ramalho, Luciano. (2021). _Fluent Python: Clear, Concise, and Effective Programming, 2nd Ed_. O'Reilly Media.<br>
+Sweigart, Al. (2020). _Beyond the Basic Stuff with Python: Best Practices for Writing Clean Code_. O'Reilly Media.<br>
+Sweigart, Al. (2019). _Automate the Boring Stuff with Python: Practical Programming for Total Beginners, 2nd Ed_. No Starch Press.<br>
+Sweigart, Al. (2015). [_Automate the Boring Stuff with Python: Practical Programming for Total Beginners_](https://automatetheboringstuff.com). No Starch Press.<br>
+Viafore, Patrick. (2022). _Robust Python: Write Clean and Maintainable Code_. O'Reilly Media.<br>
+Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
+
+#### Other
+"Notes On Using Data Science & Machine Learning To Fight For Something That Matters". Chris Albon. <[https://chrisalbon.com](https://chrisalbon.com)>. [GitHub](https://github.com/chrisalbon/notes).<br>
+"Python 3's f-Strings: An Improved String Formatting Syntax (Guide)". Real Python. [https://realpython.com/python-f-strings/](https://realpython.com/python-f-strings/).<br>
+"Python 3's pathlib Module: Taming the File System". Real Python. [https://realpython.com/python-pathlib/](https://realpython.com/python-pathlib/).<br>
