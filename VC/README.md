@@ -25,7 +25,8 @@
 - GitLab [Wiki](https://en.wikipedia.org/wiki/GitLab)<br>
 
 ### Git<br>
-- Git [Home](https://git-scm.com/doc)
+- Git [Home](https://git-scm.com)<br>
+- Git [Docs](https://git-scm.com/doc)<br>
 - Git [Wiki](https://en.wikipedia.org/wiki/Git)<br>
 - Chacon, Scott & Ben Straub. (2014). [_Pro Git: Everything You Need to Know About Git, 2nd Ed_](https://git-scm.com/book/en/v2). Apress.<br>
 <details><summary>Git CL</summary><br>
