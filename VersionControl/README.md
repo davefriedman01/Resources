@@ -1,6 +1,6 @@
 # Version Control
 
-GitHub<br>
+###### GitHub<br>
 - GitHub [Home](https://docs.github.com/en)
 - GitHub [Git Guide](https://github.com/git-guides/)<br>
 - GitHub [Learning Lab](https://lab.github.com)<br>
