@@ -1,21 +1,21 @@
-# [Python](https://www.python.org)
+# Python Ecosystem
 
+
+
+## Tools
+Python [Home]((https://www.python.org))
 Anaconda [YouTube](https://www.youtube.com/c/ContinuumIo/)
 
-
-
-## AI
-
-Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
-
-[Apache Spark's MLlib](https://spark.apache.org/docs/3.0.0/ml-guide.html)<br>
-[Keras](https://keras.io)<br>
-[NLTK Natural Language Toolkit](http://www.nltk.org)<br>
-[OpenCV](https://opencv.org)<br>
-[PyTorch](https://pytorch.org)<br>
-[scikit-learn](https://scikit-learn.org/stable/index.html)<br>
-[TensorFlow](https://www.tensorflow.org)<br>
-
+#### ML
+<details>
+  <summary>Click here to view ML tools.</summary>
+    Keras [Home](https://keras.io)<br>
+    NLTK [Home](http://www.nltk.org)<br>
+    OpenCV [Home](https://opencv.org)<br>
+    PyTorch [Home](https://pytorch.org)<br>
+    scikit-learn [Home](https://scikit-learn.org/stable/index.html)<br>
+    TensorFlow [Home](https://www.tensorflow.org)<br>
+</details>
 
 
 ## Data
@@ -69,6 +69,10 @@ Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Model
 
 ## Resources
 
+#### Python & AI
+Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
+
+#### Python Programming
 Danjou, Julien. (2018). _Serious Python: Black-Belt Advice on Deployment, Scalability, Testing, and More_. No Starch Press.<br>
 Goodrich, Micahel T. Roberto Tamassia, & Michael H. Goldwasser. (2013). _Data Structures and Algorithms in Python_. Wiley.<br>
 Gorelick, Micha & Ian Ozsvald. (2020). _High Performance Python: Practical Performant Programming for Humans, 2nd Ed_. O'Reilly Media.<br>
@@ -114,3 +118,5 @@ Utilize these patterns in a Python script.<br>
 
 [`if __name__ == '__main__':`](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)<br>
 [`with`](https://stackoverflow.com/questions/3012488/what-is-the-python-with-statement-designed-for)<br>
+
+[Apache Spark's MLlib](https://spark.apache.org/docs/3.0.0/ml-guide.html)<br>
