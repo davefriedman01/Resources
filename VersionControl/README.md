@@ -4,10 +4,8 @@
 
 <details><summary>Terms</summary>
 <br>
-
 - Git [Wiki](https://en.wikipedia.org/wiki/Git)<br>
 - VC Version Control [Wiki](https://en.wikipedia.org/wiki/Version_control)<br>
-
 </details>
 
 
