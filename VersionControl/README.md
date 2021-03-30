@@ -40,3 +40,11 @@ GitHub is a git hosting service.<br>
 GitLab is a git hosting service.<br>
 
 [GitLab and SSH Keys (GitLab Docs)](https://docs.gitlab.com/ee/ssh/README.html)<br>
+
+
+
+### YouTube
+
+"Git & GitHub Crash Course For Beginners". (2017). Traversy Media. [YouTube](https://www.youtube.com/watch?v=SWYqp7iY_Tc).<br>
+"Git and GitHub for Beginners - Crash Course". (2020). freeCodeCamp.org. [YouTube](https://www.youtube.com/watch?v=RGOj5yH7evk).<br>
+"Git Tutorial for Beginners: Command-Line Fundamentals". (2015). Corey Schafer. [YouTube](https://www.youtube.com/watch?v=HVsySz-h9r4).<br>
