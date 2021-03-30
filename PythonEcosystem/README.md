@@ -2,16 +2,48 @@
 
 
 
-- Python
-  - [Home](https://www.python.org)<br>
-- Anaconda
-  - [Home](https://www.anaconda.com/open-source)<br>
-  - [YouTube](https://www.youtube.com/c/ContinuumIo/)<br>
-  - [Wiki](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))<br>
-- PyViz
-  - [Home](https://pyviz.org)
-  - "PyViz: Dashboards for Visualizing 1 Billion Datapoints in 30 Lines of Python". (2018). Anaconda, Inc. [YouTube](https://www.youtube.com/watch?v=k27MJJLJNT4).<br>
+### Python
+- Python [Home](https://www.python.org)<br>
+<details><summary>Texts</summary><br>
 
+- Danjou, Julien. (2018). _Serious Python: Black-Belt Advice on Deployment, Scalability, Testing, and More_. No Starch Press.<br>
+- Goodrich, Micahel T. Roberto Tamassia, & Michael H. Goldwasser. (2013). _Data Structures and Algorithms in Python_. Wiley.<br>
+- Gorelick, Micha & Ian Ozsvald. (2020). _High Performance Python: Practical Performant Programming for Humans, 2nd Ed_. O'Reilly Media.<br>
+- Kopec, David. (2019). _Classic Computer Science Problems in Python_. Manning Publications.<br>
+- Lubanovic, Bill. (2019). _Introducing Python: Modern Computing in Simple Packages, 2nd Ed_. O'Reilly Media.<br>
+- Matthes, Eric. (2019). _Python Crash Course: A Hands-On, Project-Based Introduction to Programming_. O'Reilly Media.<br>
+- Mayer, Christian. (2020). _Python One-Liners: Write Concise, Eloquent Python like a Professional_. No Starch Press.<br>
+- Ramalho, Luciano. (2021). _Fluent Python: Clear, Concise, and Effective Programming, 2nd Ed_. O'Reilly Media.<br>
+- Sweigart, Al. (2020). _Beyond the Basic Stuff with Python: Best Practices for Writing Clean Code_. O'Reilly Media.<br>
+- Sweigart, Al. (2019). _Automate the Boring Stuff with Python: Practical Programming for Total Beginners, 2nd Ed_. No Starch Press.<br>
+- Sweigart, Al. (2015). [_Automate the Boring Stuff with Python: Practical Programming for Total Beginners_](https://automatetheboringstuff.com). No Starch Press.<br>
+- Viafore, Patrick. (2022). _Robust Python: Write Clean and Maintainable Code_. O'Reilly Media.<br>
+- Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
+</details>
+
+### IPython
+- IPython [Docs](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#).<br>
+  - IPython [Helpful Commands](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#the-four-most-helpful-commands)<br>
+  - IPython [Magic Functions](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#magic-functions)<br>
+<details><summary>IPython CL</summary><br>
+
+`?`<br>
+`object?`<br>
+`%magic`<br>
+</details>
+
+### Anaconda
+- Anaconda [Home](https://www.anaconda.com/open-source)<br>
+- Anaconda [Docs](https://docs.anaconda.com/anaconda/)<br>
+- Anaconda [YouTube](https://www.youtube.com/c/ContinuumIo/)<br>
+- Anaconda [Wiki](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))<br>
+
+### PyViz
+- PyViz [Home](https://pyviz.org)
+<details><summary>YouTube Talks, Tutorials, etc.</summary><br>
+
+- "PyViz: Dashboards for Visualizing 1 Billion Datapoints in 30 Lines of Python". (2018). Anaconda, Inc. [YouTube](https://www.youtube.com/watch?v=k27MJJLJNT4).<br>
+</details>
 
 
 
@@ -32,24 +64,6 @@ Hilpisch, Yves. (2019). _Python for Finance: Mastering Data-Driven Finance, 2nd 
 Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Models, Simulation, Calibration and Hedging_. Wiley.<br>
 [The Python Quants](https://home.tpq.io/hilpisch/)<br>
 
-#### GUI Programming
-[tkinter](https://docs.python.org/3/library/tkinter.html)<br>
-
-#### Python Programming
-Danjou, Julien. (2018). _Serious Python: Black-Belt Advice on Deployment, Scalability, Testing, and More_. No Starch Press.<br>
-Goodrich, Micahel T. Roberto Tamassia, & Michael H. Goldwasser. (2013). _Data Structures and Algorithms in Python_. Wiley.<br>
-Gorelick, Micha & Ian Ozsvald. (2020). _High Performance Python: Practical Performant Programming for Humans, 2nd Ed_. O'Reilly Media.<br>
-Kopec, David. (2019). _Classic Computer Science Problems in Python_. Manning Publications.<br>
-Lubanovic, Bill. (2019). _Introducing Python: Modern Computing in Simple Packages, 2nd Ed_. O'Reilly Media.<br>
-Matthes, Eric. (2019). _Python Crash Course: A Hands-On, Project-Based Introduction to Programming_. O'Reilly Media.<br>
-Mayer, Christian. (2020). _Python One-Liners: Write Concise, Eloquent Python like a Professional_. No Starch Press.<br>
-Ramalho, Luciano. (2021). _Fluent Python: Clear, Concise, and Effective Programming, 2nd Ed_. O'Reilly Media.<br>
-Sweigart, Al. (2020). _Beyond the Basic Stuff with Python: Best Practices for Writing Clean Code_. O'Reilly Media.<br>
-Sweigart, Al. (2019). _Automate the Boring Stuff with Python: Practical Programming for Total Beginners, 2nd Ed_. No Starch Press.<br>
-Sweigart, Al. (2015). [_Automate the Boring Stuff with Python: Practical Programming for Total Beginners_](https://automatetheboringstuff.com). No Starch Press.<br>
-Viafore, Patrick. (2022). _Robust Python: Write Clean and Maintainable Code_. O'Reilly Media.<br>
-Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
-
 #### Other
 "Notes On Using Data Science & Machine Learning To Fight For Something That Matters". Chris Albon. <[https://chrisalbon.com](https://chrisalbon.com)>. [GitHub](https://github.com/chrisalbon/notes).<br>
 "Python 3's f-Strings: An Improved String Formatting Syntax (Guide)". Real Python. [https://realpython.com/python-f-strings/](https://realpython.com/python-f-strings/).<br>
@@ -59,13 +73,6 @@ Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
 
 
 ## Constructs
-
-[IPython](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#).<br>
-
-[`?` and `object?`](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#the-four-most-helpful-commands)<br>
-[`%magic`](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#magic-functions)<br>
-
----
 
 Utilize these functions in a Python environment.<br>
 
@@ -189,6 +196,11 @@ Utilize these patterns in a Python script.<br>
 
 ### TensorFlow<br>
 - TensorFlow [Home](https://www.tensorflow.org)<br>
+
+
+
+### GUI Programming
+- tkinter [Docs](https://docs.python.org/3/library/tkinter.html)<br>
 
 
 
