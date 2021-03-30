@@ -32,7 +32,7 @@
 
 
 <details>
-  <summary>Texts</summary><br>
+  <summary>Texts</summary>
 
 #### Python Programming
 - Danjou, Julien. (2018). _Serious Python: Black-Belt Advice on Deployment, Scalability, Testing, and More_. No Starch Press.<br>
@@ -50,19 +50,18 @@
 - Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
 
 #### Data
-Grus, Joel. (2019). [_Data Science from Scratch: First Principles with Python_](https://github.com/joelgrus/data-science-from-scratch). O'Reilly Media.<br>
-McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
-VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
+- Grus, Joel. (2019). [_Data Science from Scratch: First Principles with Python_](https://github.com/joelgrus/data-science-from-scratch). O'Reilly Media.<br>
+- McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
+- VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
 
 #### AI
-Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
+- Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
 
 #### Financial Programming
-Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
-Hilpisch, Yves. (2020). _Python for Algorithmic Trading: From Idea to Cloud Deployment_. O'Reilly Media.<br>
-Hilpisch, Yves. (2019). _Python for Finance: Mastering Data-Driven Finance, 2nd Ed_. O'Reilly Media.<br>
-Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Models, Simulation, Calibration and Hedging_. Wiley.<br>
-[The Python Quants](https://home.tpq.io/hilpisch/)<br>
+- Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
+- Hilpisch, Yves. (2020). _Python for Algorithmic Trading: From Idea to Cloud Deployment_. O'Reilly Media.<br>
+- Hilpisch, Yves. (2019). _Python for Finance: Mastering Data-Driven Finance, 2nd Ed_. O'Reilly Media.<br>
+- Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Models, Simulation, Calibration and Hedging_. Wiley.<br>
 
 </details>
 
@@ -71,6 +70,7 @@ Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Model
 <details>
   <summary>Web Resources</summary><br>
 
+- [The Python Quants](https://home.tpq.io/hilpisch/)<br>
 - "Notes On Using Data Science & Machine Learning To Fight For Something That Matters". Chris Albon. <[https://chrisalbon.com](https://chrisalbon.com)>. [GitHub](https://github.com/chrisalbon/notes).<br>
 
 </details>
