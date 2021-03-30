@@ -6,69 +6,49 @@
 Python [Home](https://www.python.org)<br>
 Anaconda [YouTube](https://www.youtube.com/c/ContinuumIo/)<br>
 
-#### ML
-Keras [Home](https://keras.io)<br>
-NLTK [Home](http://www.nltk.org)<br>
-OpenCV [Home](https://opencv.org)<br>
-PyTorch [Home](https://pytorch.org)<br>
-scikit-learn [Home](https://scikit-learn.org/stable/index.html)<br>
-TensorFlow [Home](https://www.tensorflow.org)<br>
-
-
-## Data
-
-Grus, Joel. (2019). [_Data Science from Scratch: First Principles with Python_](https://github.com/joelgrus/data-science-from-scratch). O'Reilly Media.<br>
-McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
-VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
-
-## Data
-
-Grus, Joel. (2019). [_Data Science from Scratch: First Principles with Python_](https://github.com/joelgrus/data-science-from-scratch). O'Reilly Media.<br>
-McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
-VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
-
-### [NumPy](https://numpy.org/learn/)<br>
-
+#### Keras
+[Home](https://keras.io)<br>
+#### NLTK
+[Home](http://www.nltk.org)<br>
+#### NumPy
+[Learn](https://numpy.org/learn/)<br>
 [Cheatsheet (Datacamp)](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet)<br>
 [Cheatsheet (Dataquest)](https://www.dataquest.io/blog/numpy-cheat-sheet/)<br>
-
-### [Pandas](https://pandas.pydata.org/docs/user_guide/index.html)
-
+#### OpenCV
+[Home](https://opencv.org)<br>
+#### Pandas
+[Docs](https://pandas.pydata.org/docs/user_guide/index.html)
 [Cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)<br>
 [Getting Started](https://pandas.pydata.org/docs/getting_started/index.html)<br>
 [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)<br>
 [Community Tutorials](https://pandas.pydata.org/docs/getting_started/tutorials.html#communitytutorials)<br>
-
-### [SciPy](https://www.scipy.org)
-
+#### PyTorch
+[Home](https://pytorch.org)<br>
+#### scikit-learn
+[Home](https://scikit-learn.org/stable/index.html)<br>
+#### SciPy
+[Home](https://www.scipy.org)
 [Cheatsheet (Datacamp)](https://www.datacamp.com/community/blog/python-scipy-cheat-sheet)<br>
 [SciPy Lecture Notes](https://scipy-lectures.org)<br>
 [SciPy Cookbook](https://scipy-cookbook.readthedocs.io/index.html)<br>
+#### TensorFlow
+[Home](https://www.tensorflow.org)<br>
 
-
-
-## Financial Programming
-
-[The Python Quants](https://home.tpq.io/hilpisch/)<br>
-
+## Resources
+#### AI
+Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
+### Data
+Grus, Joel. (2019). [_Data Science from Scratch: First Principles with Python_](https://github.com/joelgrus/data-science-from-scratch). O'Reilly Media.<br>
+McKinney, Wes. (2017). _Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_. O'Reilly Media.<br>
+VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
+### Financial Programming
 Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
 Hilpisch, Yves. (2020). _Python for Algorithmic Trading: From Idea to Cloud Deployment_. O'Reilly Media.<br>
 Hilpisch, Yves. (2019). _Python for Finance: Mastering Data-Driven Finance, 2nd Ed_. O'Reilly Media.<br>
 Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Models, Simulation, Calibration and Hedging_. Wiley.<br>
-
-
-
+[The Python Quants](https://home.tpq.io/hilpisch/)<br>
 ## GUI Programming
-
 [tkinter](https://docs.python.org/3/library/tkinter.html)<br>
-
-
-
-## Resources
-
-#### Python & AI
-Hilpisch, Yves. (2021). _Artificial Intelligence in Finance: A Python-Based Guide_. O'Reilly Media.<br>
-
 #### Python Programming
 Danjou, Julien. (2018). _Serious Python: Black-Belt Advice on Deployment, Scalability, Testing, and More_. No Starch Press.<br>
 Goodrich, Micahel T. Roberto Tamassia, & Michael H. Goldwasser. (2013). _Data Structures and Algorithms in Python_. Wiley.<br>
