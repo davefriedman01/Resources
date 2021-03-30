@@ -76,6 +76,8 @@
 </details>
 
 
+---
+
 
 ### IPython
 - IPython [Docs](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#).<br>
