@@ -17,11 +17,13 @@ GitLab<br>
 - [Docs](https://docs.gitlab.com)<br>
 - [Wiki](https://en.wikipedia.org/wiki/GitLab)<br>
 - GitLab and SSH Keys [Docs](https://docs.gitlab.com/ee/ssh/README.html)<br>
+
 Git<br>
 - [Home](https://git-scm.com/doc)
 - [Wiki](https://en.wikipedia.org/wiki/Git)<br>
 - Chacon, Scott & Ben Straub. (2014). [_Pro Git: Everything You Need to Know About Git, 2nd Ed_](https://git-scm.com/book/en/v2). Apress.<br>
 - "Git Tutorial for Beginners: Command-Line Fundamentals". (2015). Corey Schafer. [YouTube](https://www.youtube.com/watch?v=HVsySz-h9r4).<br>
+
 VC Version Control<br>
 - [Wiki](https://en.wikipedia.org/wiki/Version_control)<br>
 - [Version Control (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/version-control/)<br>
