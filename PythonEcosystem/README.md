@@ -20,18 +20,19 @@
   - [`help`](https://docs.python.org/3/library/functions.html#help) "Type help() for interactive help, or help(object) for help about object."<br>
   - `help()`<br>
   - `help(object)`<br>
-- `if __name__ == '__main__'`<br>
-  - [`if __name__ == '__main__':`](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)<br>
+- `if __name__ == '__main__':`<br>
+  - `if __name__ == '__main__':` [StackOverflow](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)<br>
 - pathlib
   - "Python 3's pathlib Module: Taming the File System". Real Python. [https://realpython.com/python-pathlib/](https://realpython.com/python-pathlib/).<br>
 - `with`
-  - [`with`](https://stackoverflow.com/questions/3012488/what-is-the-python-with-statement-designed-for)<br>
+  - `with` [StackOverflow](https://stackoverflow.com/questions/3012488/what-is-the-python-with-statement-designed-for)<br>
 
 </details>
 
 
 
-<details><summary>Texts</summary><br>
+<details>
+  <summary>Texts</summary><br>
 
 #### Python Programming
 - Danjou, Julien. (2018). _Serious Python: Black-Belt Advice on Deployment, Scalability, Testing, and More_. No Starch Press.<br>
@@ -62,28 +63,47 @@ Hilpisch, Yves. (2020). _Python for Algorithmic Trading: From Idea to Cloud Depl
 Hilpisch, Yves. (2019). _Python for Finance: Mastering Data-Driven Finance, 2nd Ed_. O'Reilly Media.<br>
 Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Models, Simulation, Calibration and Hedging_. Wiley.<br>
 [The Python Quants](https://home.tpq.io/hilpisch/)<br>
+
 </details>
-<details><summary>Web Resources</summary><br>
+
+
+
+<details>
+  <summary>Web Resources</summary><br>
 
 - "Notes On Using Data Science & Machine Learning To Fight For Something That Matters". Chris Albon. <[https://chrisalbon.com](https://chrisalbon.com)>. [GitHub](https://github.com/chrisalbon/notes).<br>
+
 </details>
+
+
 
 ### IPython
 - IPython [Docs](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#).<br>
   - IPython [Helpful Commands](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#the-four-most-helpful-commands)<br>
   - IPython [Magic Functions](https://ipython.readthedocs.io/en/stable/interactive/tutorial.html#magic-functions)<br>
-<details><summary>IPython CL</summary><br>
+
+<details>
+  <summary>IPython Commands</summary><br>
 
 `?`<br>
 `object?`<br>
 `%magic`<br>
+
 </details>
+
+
+---
+
 
 ### Anaconda
 - Anaconda [Home](https://www.anaconda.com/open-source)<br>
 - Anaconda [Docs](https://docs.anaconda.com/anaconda/)<br>
 - Anaconda [YouTube](https://www.youtube.com/c/ContinuumIo/)<br>
 - Anaconda [Wiki](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))<br>
+
+
+---
+
 
 ### PyViz
 - PyViz [Home](https://pyviz.org)
@@ -93,8 +113,9 @@ Hilpisch, Yves. (2015). _Derivatives Analytics with Python: Data Analysis, Model
 </details>
 
 
-
 ---
+
+
 # Python Packages
 
 ## PyData: Python for Data
