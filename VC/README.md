@@ -1,7 +1,7 @@
 # VC Version Control
 
 ### GitHub<br>
-x- GitHub [Home](https://github.com)<br>
+- GitHub [Home](https://github.com)<br>
 - GitHub [Docs](https://docs.github.com/en)<br>
 - GitHub [Git Guide](https://github.com/git-guides/)<br>
 - GitHub [Learning Lab](https://lab.github.com)<br>
