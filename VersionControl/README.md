@@ -1,14 +1,11 @@
 # Version Control
 
-## Resources
-
 [Version Control (MIT's Missing Semester)](https://missing.csail.mit.edu/2020/version-control/)<br>
 
-## Terms
-
-[Git (Wikipedia)](https://en.wikipedia.org/wiki/Git)<br>
-[Version Control (Wikipedia)](https://en.wikipedia.org/wiki/Version_control)<br>
-
+<details><summary>Terms</summary>
+- Git [Wiki](https://en.wikipedia.org/wiki/Git)<br>
+- VC Version Control [Wiki](https://en.wikipedia.org/wiki/Version_control)<br>
+</details>
 
 
 ## [Git](https://git-scm.com/doc)
