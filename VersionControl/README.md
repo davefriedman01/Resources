@@ -1,16 +1,21 @@
 # Version Control
 
 GitHub<br>
-- [Home](https://docs.github.com/en)
-- [Git Guide (GitHub)](https://github.com/git-guides/)<br>
-- [GitHub Learning Lab: Introduction to GitHub (GitHub)](https://lab.github.com/githubtraining/introduction-to-github)<br>
-- [GitHub Learning Lab (GitHub)](https://lab.github.com)<br>
-- [Cheatsheet (GitHub)](https://training.github.com/downloads/github-git-cheat-sheet/)<br>
-- [Wiki](https://en.wikipedia.org/wiki/GitHub)<br>
+- GitHub [Home](https://docs.github.com/en)
+- GitHub[Git Guide](https://github.com/git-guides/)<br>
+- GitHub [Learning Lab](https://lab.github.com)<br>
+  - GitHub [Learning Lab: Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github)<br>
+- GitHub [Cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet/)<br>
+- GitHub [YouTube](https://www.youtube.com/channel/UC7c3Kb6jYCRj4JOHHZTxKsQ)
+- GitHub Training & Guides [YouTube](https://www.youtube.com/channel/UCP7RrmoueENv9TZts3HXXtw)<br>
+  - GitHub Training & Guides [Git LFS Large File Storage](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)<br>
+- GitHub [Wiki](https://en.wikipedia.org/wiki/GitHub)<br>
 - GitHub Pages [Home](https://pages.github.com)<br>
+<details><summary>YouTube Talks, Tutorials, etc.</summary><br>
+
 - "Git & GitHub Crash Course For Beginners". (2017). Traversy Media. [YouTube](https://www.youtube.com/watch?v=SWYqp7iY_Tc).<br>
 - "Git and GitHub for Beginners - Crash Course". (2020). freeCodeCamp.org. [YouTube](https://www.youtube.com/watch?v=RGOj5yH7evk).<br>
-- [Git LFS Large File Storage (GitHub Training & Guides on YouTube)](https://www.youtube.com/watch?v=uLR1RNqJ1Mw)<br>
+</details>
 
 GitLab<br>
 - [Home](https://about.gitlab.com)<br>
