@@ -19,6 +19,7 @@
 [Learn Code the Hard Way](https://learncodethehardway.org)<br>
 [Mimo](https://getmimo.com)<br>
 [Pluralsight](https://www.pluralsight.com)<br>
+[Programiz](https://www.programiz.com)<br>
 
 ## Publishers
 
