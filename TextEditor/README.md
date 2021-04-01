@@ -16,6 +16,16 @@ Emacs [Wiki](https://en.wikipedia.org/wiki/Emacs)<br>
 Spacemacs [Home](https://www.spacemacs.org)<br>
 Spacemacs [GitHub](https://github.com/syl20bnr/spacemacs)<br>
 
+## Nano
+
+GNU Nano [Home](https://www.nano-editor.org)<br>
+GNU Nano [Wiki](https://en.wikipedia.org/wiki/GNU_nano)<br>
+
+## Atom
+
+Atom [Home](https://atom.io)<br>
+Atom [Wiki](https://en.wikipedia.org/wiki/Atom_(text_editor))<br>
+
 ## Figures
 
 Joy, Bill [Wiki](https://en.wikipedia.org/wiki/Bill_Joy)<br>
