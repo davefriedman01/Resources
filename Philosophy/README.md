@@ -1,4 +1,5 @@
 # Philosophy
 
-[Agler, David](http://davidagler.com). [Logic & Philosophy (YouTube)](https://www.youtube.com/user/davidagler).<br>
-[Grosholz, Emily](http://emilygrosholz.com).<br>
+Agler, David [Home](http://davidagler.com) [YouTube](https://www.youtube.com/user/davidagler)<br>
+Grosholz, Emily [Home](http://emilygrosholz.com)<br>
+Moore, Christopher [Home](https://sites.psu.edu/moore/)<br>
