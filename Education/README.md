@@ -16,6 +16,7 @@
 [Data School](https://www.dataschool.io/start/)<br>
 [Edabit](https://edabit.com)<br>
 [freeCodeCamp](https://www.freecodecamp.org)<br>
+[Learn Code the Hard Way](https://learncodethehardway.org)<br>
 [Mimo](https://getmimo.com)<br>
 [Pluralsight](https://www.pluralsight.com)<br>
 
