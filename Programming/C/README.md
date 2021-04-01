@@ -1,6 +1,18 @@
 # C
 
+## C Compilers
 
+clang [Home](https://clang.llvm.org)<br> [Wiki](https://en.wikipedia.org/wiki/Clang)<br>
+`sudo apt-get install clang` Install Clang on Ubuntu, for example<br>
+`clang --version` Verificiation<br>
+
+gcc [Home](https://gcc.gnu.org) [Wiki](https://en.wikipedia.org/wiki/GNU_Compiler_Collection)<br>
+the standard Linux C compiler<br>
+`sudo apt-get install gcc-8` Install GCC 8 on Ubuntu, for example<br>
+`sudo dnf install gcc` Install GCC on Fedora, for example<br>
+`gcc --version` Verification<br>
+
+Microsoft Visual Studio [Home](https://visualstudio.microsoft.com) for Windows<br>
 
 ## Resources
 
