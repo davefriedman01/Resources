@@ -1,4 +1,8 @@
-# Economics & Finance
+# Finance, Economics, and Accounting
+
+
+
+## Resources
 
 Benninga, Simon. (2014). _Financial Modeling, 4th Ed_. MIT Press.<br>
 Bodie, Zvi, Alex Kane, & Alan Marcus. (2018). _Essentials of Investments, 11th Ed_.<br>
@@ -12,14 +16,45 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 
 
 
-[Cboe Chicago Board Options Exchange](https://www.cboe.com)<br>
-[CBOT Chicago Board of Trade (Wikipedia)](https://en.wikipedia.org/wiki/Chicago_Board_of_Trade)<br>
-[CME Chicago Mercantile Exchange (Wikipedia)](https://en.wikipedia.org/wiki/Chicago_Mercantile_Exchange)<br>
-[CME Group](https://www.cmegroup.com)
+## Exchanges
 
-[Corporate Finance Institute](https://corporatefinanceinstitute.com) [YouTube](https://www.youtube.com/c/Corporatefinanceinstitute-CFI/)<br>
-[The Finance Storyteller](https://www.youtube.com/c/TheFinanceStoryteller/)<br>
-[One Minute Economics](https://www.youtube.com/c/OneMinuteEconomics/)<br>
+B3 [Home](http://www.b3.com.br/en_us/) [Wiki](https://en.wikipedia.org/wiki/B3_(stock_exchange))<br>
+CBOE Chicago Board Options Exchange [Home](https://www.cboe.com) [Wiki](https://en.wikipedia.org/wiki/Chicago_Board_Options_Exchange)<br>
+CME Group [Home](https://www.cmegroup.com) [Wiki](https://en.wikipedia.org/wiki/CME_Group)<br>
+  CBOT Chicago Board of Trade [Wiki](https://en.wikipedia.org/wiki/Chicago_Board_of_Trade)<br>
+  CME Chicago Mercantile Exchange [Wiki](https://en.wikipedia.org/wiki/Chicago_Mercantile_Exchange)<br>
+  NYMEX New York Mercantile Exchange [Wiki](https://en.wikipedia.org/wiki/New_York_Mercantile_Exchange)<br>
+Eurex [Home](https://www.eurex.com/ex-en/) [Wiki](https://en.wikipedia.org/wiki/Eurex_Exchange)<br>
+ICE Intercontinental Exchange [Home](https://www.theice.com/index) [Wiki](https://en.wikipedia.org/wiki/Intercontinental_Exchange)<br>
+Tokyo Financial Exchange [Home](https://www.tfx.co.jp/en/) [Wiki](https://en.wikipedia.org/wiki/Tokyo_Financial_Exchange)<br>
+
+
+
+## Brokerages
+
+Fidelity [Home](https://www.fidelity.com) [Wiki](https://en.wikipedia.org/wiki/Fidelity_Investments)<br>
+Robinhood [Home](https://robinhood.com/us/en/) [Wiki](https://en.wikipedia.org/wiki/Robinhood_(company))<br>
+Vanguard [Home](https://investor.vanguard.com/corporate-portal/) [Wiki](https://en.wikipedia.org/wiki/The_Vanguard_Group)<br>
+
+
+
+## Government and Regulation
+
+CFTC Commodity Futures Trading Commission [Home](https://www.cftc.gov) [Wiki](https://en.wikipedia.org/wiki/Commodity_Futures_Trading_Commission)<br>
+NFA National Futures Association [Home](https://www.nfa.futures.org) [Wiki](https://en.wikipedia.org/wiki/National_Futures_Association)<br>
+SEC Securities and Exchange Commission [Home](https://www.sec.gov) [Wiki](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)<br>
+
+
+
+## Online Resources
+
+Yahoo Finance [Home](https://finance.yahoo.com)<br>
+Bloomberg [Home](https://www.bloomberg.com)<br>
+The Wall Street Journal [Home](https://www.wsj.com)<br>
+
+Corporate Finance Institute [Home](https://corporatefinanceinstitute.com) [YouTube](https://www.youtube.com/c/Corporatefinanceinstitute-CFI/)<br>
+The Finance Storyteller [YouTube](https://www.youtube.com/c/TheFinanceStoryteller/)<br>
+One Minute Economics [YouTube](https://www.youtube.com/c/OneMinuteEconomics/)<br>
 
 
 
@@ -71,6 +106,7 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 [Central Bank (Wikipedia)](https://en.wikipedia.org/wiki/Central_bank)<br>
 [CCP Central Counterparty Clearing House (Investopedia)](https://www.investopedia.com/terms/c/ccph.asp)<br>
 [CD Certificate of Deposit (Investopedia)](https://www.investopedia.com/terms/c/certificateofdeposit.asp)<br>
+Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.asp)<br>
 [Closed-End Fund (Investopedia)](https://www.investopedia.com/terms/c/closed-endinvestment.asp)<br>
 [Closing Price (Investopedia)](https://www.investopedia.com/terms/c/closingprice.asp)<br>
 [Commercial Paper (Investopedia)](https://www.investopedia.com/terms/c/commercialpaper.asp)<br>
