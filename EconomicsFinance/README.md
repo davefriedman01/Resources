@@ -4,8 +4,9 @@
 
 ## Resources
 
-Benninga, Simon. (2014). _Financial Modeling, 4th Ed_. MIT Press.<br>
+[Benninga, Simon](http://simonbenninga.com). (2014). _Financial Modeling, 4th Ed_. [MIT Press](https://mitpress.mit.edu/books/financial-modeling-fourth-edition).<br>
 Bodie, Zvi, Alex Kane, & Alan Marcus. (2018). _Essentials of Investments, 11th Ed_.<br>
+Duffie, D. & H. Zhu. (2011). "Does a Central Clearing Counterparty Reduce Counterparty Risk?". Review of Asset Pricing Studies.<br>
 Fawcett, Tom & Foster Provost. (2013). _Data Science for Business: What You Need to Know About Data Mining and Data-Analytic Thinking_. O'Reilly.<br>
 Hull, John C. (2020). [_Machine Learning in Business: An Introduction to the World of Data Science, 2nd Ed_](https://www-2.rotman.utoronto.ca/~hull/Second%20edition%20Online%20Files/index2ndEd.html). Self published.<br>
 Hull, John C. (2017). [_Options, Futures, and Other Derivatives, 10th Ed_](https://www-2.rotman.utoronto.ca/~hull/ofod/index.html). Pearson.<br>
