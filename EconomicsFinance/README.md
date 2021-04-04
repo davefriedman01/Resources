@@ -44,6 +44,8 @@ CFTC Commodity Futures Trading Commission [Home](https://www.cftc.gov) [Wiki](ht
 NFA National Futures Association [Home](https://www.nfa.futures.org) [Wiki](https://en.wikipedia.org/wiki/National_Futures_Association)<br>
 SEC Securities and Exchange Commission [Home](https://www.sec.gov) [Wiki](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)<br>
 
+Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 [Wiki](https://en.wikipedia.org/wiki/Dodd–Frank_Wall_Street_Reform_and_Consumer_Protection_Act)<br>
+
 
 
 ## Online Resources
