@@ -145,13 +145,18 @@
 
 
 
-## Performance Python
+### Performance Python
 
-### Numba<br>
+Cython [Home](https://cython.org) [Wiki](https://en.wikipedia.org/wiki/Cython)<br>
+Numba [Home](https://numba.pydata.org) [GitHub](https://github.com/numba/numba) [PyPI](https://pypi.org/project/numba/) [Wiki](https://en.wikipedia.org/wiki/Numba)<br>
+NumExpr [Home/GitHub](https://github.com/pydata/numexpr) [Docs](https://numexpr.readthedocs.io/en/latest/) [PyPI](https://pypi.org/project/numexpr/2.6.1/)<br>
+Numba<br>
 <details><summary>YouTube Talks, Tutorials, etc.</summary><br>
 
 - "Accelerating Scientific Workloads with Numba - Siu Kwan Lam". (2018). Anaconda, Inc. [YouTube](https://www.youtube.com/watch?v=6oXedk2tGfk).<br>
 </details>
+
+
 
 ### PySpark<br>
 - Apache Spark [MLlib](https://spark.apache.org/docs/3.0.0/ml-guide.html)<br>
