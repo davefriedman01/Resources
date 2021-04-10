@@ -1,12 +1,29 @@
 # Education
 
+
+
 ## Open Education
 
 [MIT OpenCourseWare](https://ocw.mit.edu/index.htm). [YouTube](https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw).<br>
 
+
+
+## Hackathoning
+
+Devpost [Home](https://devpost.com)<br>
+
+
+
+## Learn Cybersecurity & CTF
+
+Hackthebox [Home](https://www.hackthebox.eu)<br>
+Pentester Academy [Home](https://www.pentesteracademy.com)<br>
+
 ## General Services
 
 [Brilliant](https://brilliant.org/premium/)<br>
+
+
 
 ## Learning to Code Services
 
@@ -20,6 +37,8 @@
 [Mimo](https://getmimo.com)<br>
 [Pluralsight](https://www.pluralsight.com)<br>
 [Programiz](https://www.programiz.com)<br>
+
+
 
 ## Publishers
 
