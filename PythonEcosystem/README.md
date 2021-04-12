@@ -129,6 +129,8 @@
 - NumPy [Cheatsheet (Dataquest)](https://www.dataquest.io/blog/numpy-cheat-sheet/)<br>
 - NumPy [PyPI](https://pypi.org/project/numpy/)<br>
 
+NumPy Financial [Home](https://numpy.org/numpy-financial/) [GitHub](https://github.com/numpy/numpy-financial) [PyPI](https://pypi.org/project/numpy-financial/)<br>
+
 ### Pandas<br>
 - Pandas [Home](https://pandas.pydata.org)<br>
 - Pandas [Docs](https://pandas.pydata.org/docs/user_guide/index.html)
@@ -161,6 +163,7 @@ Numba<br>
 ### PySpark<br>
 - Apache Spark [MLlib](https://spark.apache.org/docs/3.0.0/ml-guide.html)<br>
 
+rpy2 [Home](https://rpy2.github.io) [PyPI](https://pypi.org/project/rpy2/)<br>
 
 
 ## PyViz: Python for DataViz
