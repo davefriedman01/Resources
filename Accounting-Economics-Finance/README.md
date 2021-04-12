@@ -51,6 +51,7 @@ Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 [Wiki](https:/
 
 ## Online Resources
 
+Wolfram Finance Platform [Home](https://www.wolfram.com/finance-platform/?source=nav)<br>
 Yahoo Finance [Home](https://finance.yahoo.com)<br>
 Bloomberg [Home](https://www.bloomberg.com)<br>
 The Wall Street Journal [Home](https://www.wsj.com)<br>
