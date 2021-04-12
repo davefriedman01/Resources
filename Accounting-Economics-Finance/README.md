@@ -80,6 +80,7 @@ One Minute Economics [YouTube](https://www.youtube.com/c/OneMinuteEconomics/)<br
 [Black Scholes or BSM Black-Scholes-Merton Model (Investopedia)](https://www.investopedia.com/terms/b/blackscholes.asp)<br>
 [Blank Check Company (Investopedia)](https://www.investopedia.com/terms/b/blankcheckcompany.asp)<br>
 [Block Trade (Investopedia)](https://www.investopedia.com/terms/b/blocktrade.asp)<br>
+[AGG Bloomberg Barclays Aggregate Bond Index](https://www.investopedia.com/terms/l/lehmanaggregatebondindex.asp)<br>
 [Bond (Investopedia)](https://www.investopedia.com/terms/b/bond.asp)<br>
 [Book Value (Investopedia)](https://www.investopedia.com/terms/b/bookvalue.asp)<br>
 [Broad-Based Index (Investopedia)](https://www.investopedia.com/terms/b/broad-basedindex.asp)<br>
@@ -277,6 +278,7 @@ Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.
 [SPAC Special Purpose Acquisition Company (Investopedia)](https://www.investopedia.com/terms/s/spac.asp)<br>
 [Speculation (Investopedia)](https://www.investopedia.com/terms/s/speculation.asp)<br>
 [Speculator (Investopedia)](https://www.investopedia.com/terms/s/speculator.asp)<br>
+[SPY: SPDR S&P 500 Trust ETF](https://www.investopedia.com/articles/investing/122215/spy-spdr-sp-500-trust-etf.asp)<br>
 [S&P Standard & Poor's 500 Index (Investopedia)](https://www.investopedia.com/terms/s/sp500.asp)<br>
 [Standard Deviation (Investopedia)](https://www.investopedia.com/terms/s/standarddeviation.asp)<br>
 [Startup (Investopedia)](https://www.investopedia.com/terms/s/startup.asp)<br>
