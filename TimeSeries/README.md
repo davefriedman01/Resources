@@ -5,6 +5,7 @@
 Hyndman, Rob J. & George Athanasopoulos. (2021). _Forecasting: Principles and Practice, 3rd Ed_. OTexts. <https://otexts.com/fpp3/>.<br>
 Investopedia. (2020). "An Introduction to Stationary and Non-Stationary Processes". <https://www.investopedia.com/articles/trading/07/stationary.asp>.<br>
 Nau, Robert. (2020). "Statistical forecasting: notes on regression and time series analysis". <http://people.duke.edu/~rnau/411home.htm>.<br>
+Nielsen, Aileen. (2019). _Practical Time Series Analysis: Prediction with Statistics and Machine Learning_. O'Reilly.<br>
 
 ## Figures
 
