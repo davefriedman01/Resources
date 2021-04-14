@@ -2,10 +2,14 @@
 
 ## Resources
 
+Brockwell, Peter J. & Richard A. Davis. (2016). _Introduction to Time Series and Forecasting, 3rd Ed_. Springer Texts in Statistics.<br>
+Hamilton, James Douglas. (1994). _Time Series Analysis_. Princeton University Press.<br>
 Hyndman, Rob J. & George Athanasopoulos. (2021). _Forecasting: Principles and Practice, 3rd Ed_. OTexts. <https://otexts.com/fpp3/>.<br>
 Investopedia. (2020). "An Introduction to Stationary and Non-Stationary Processes". <https://www.investopedia.com/articles/trading/07/stationary.asp>.<br>
 Nau, Robert. (2020). "Statistical forecasting: notes on regression and time series analysis". <http://people.duke.edu/~rnau/411home.htm>.<br>
 Nielsen, Aileen. (2019). _Practical Time Series Analysis: Prediction with Statistics and Machine Learning_. O'Reilly.<br>
+Shumway, Robert H. & David S. Stoffer. (2017). _Time Series Analysis and Its Applications: With R Examples_. Springer Texts in Statistics.<br>
+Tsay, Ruey S. (2010). _Analysis of Financial Time Series, 3rd Ed_. Wiley.<br>
 
 ## Figures
 
