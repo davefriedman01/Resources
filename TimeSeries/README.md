@@ -30,7 +30,7 @@ Backshift Operator [Wiki](https://en.wikipedia.org/wiki/Lag_operator)<br>
 BIC Bayesian Information Criterion [Wiki](https://en.wikipedia.org/wiki/Bayesian_information_criterion)<br>
 Box-Jenkins Method [Investopedia](https://www.investopedia.com/terms/b/box-jenkins-model.asp) [Wiki](https://en.wikipedia.org/wiki/Box–Jenkins_method)<br>
 Comparative Time Series Design<br>
-Condtional Variance [Wiki](https://en.wikipedia.org/wiki/Conditional_variance)<br>
+Conditional Variance [Wiki](https://en.wikipedia.org/wiki/Conditional_variance)<br>
 Correlogram [Wiki](https://en.wikipedia.org/wiki/Correlogram)<br>
 Dickey-Fuller Test [Wiki](https://en.wikipedia.org/wiki/Dickey–Fuller_test)<br>
 FIR Finite Impulse Response [Wiki](https://en.wikipedia.org/wiki/Finite_impulse_response)<br>
