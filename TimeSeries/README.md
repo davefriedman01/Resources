@@ -8,7 +8,7 @@ Nau, Robert. (2020). "Statistical forecasting: notes on regression and time seri
 
 ## Figures
 
-Akaike, Hirotugu (1927-2009) [Wiki](https://en.wikipedia.org/wiki/Hirotugu_Akaike)<br>
+Akaike, Hirotsugu (1927-2009) [Wiki](https://en.wikipedia.org/wiki/Hirotugu_Akaike)<br>
 Box, George (1919-2013) [Wiki](https://en.wikipedia.org/wiki/George_E._P._Box)<br>
 Dickey, David [Wiki](https://en.wikipedia.org/wiki/David_Dickey)<br>
 Fuller, Wayne [Wiki](https://en.wikipedia.org/wiki/Wayne_Fuller)<br>
