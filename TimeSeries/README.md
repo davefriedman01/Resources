@@ -35,6 +35,7 @@ Comparative Time Series Design<br>
 Conditional Variance [Wiki](https://en.wikipedia.org/wiki/Conditional_variance)<br>
 Correlogram [Wiki](https://en.wikipedia.org/wiki/Correlogram)<br>
 Dickey-Fuller Test [Wiki](https://en.wikipedia.org/wiki/Dickey–Fuller_test)<br>
+EGARCH Exponential Generalized Autoregressive Conditional Heteroskedasticity [Wiki](https://en.wikipedia.org/wiki/Autoregressive_conditional_heteroskedasticity#EGARCH)<br>
 EMA Exponential Moving Average [Wiki](https://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average)<br>
 EWMA Exponentially Weighted Moving Average [Wiki](https://en.wikipedia.org/wiki/Moving_average#Exponential_moving_average)<br>
 FIR Finite Impulse Response [Wiki](https://en.wikipedia.org/wiki/Finite_impulse_response)<br>
