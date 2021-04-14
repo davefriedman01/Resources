@@ -33,6 +33,7 @@ Comparative Time Series Design<br>
 Condtional Variance [Wiki](https://en.wikipedia.org/wiki/Conditional_variance)<br>
 Correlogram [Wiki](https://en.wikipedia.org/wiki/Correlogram)<br>
 Dickey-Fuller Test [Wiki](https://en.wikipedia.org/wiki/Dickey–Fuller_test)<br>
+FIR Finite Impulse Response [Wiki](https://en.wikipedia.org/wiki/Finite_impulse_response)<br>
 Forecasting [Investopedia](https://www.investopedia.com/terms/f/forecasting.asp)<br>
 GARCH Generalized Autoregressive Conditional Heteroskedasticity [Investopedia](https://www.investopedia.com/terms/g/garch.asp) [Wiki](https://en.wikipedia.org/wiki/Autoregressive_conditional_heteroskedasticity)<br>
 GARCH Process [Investopedia](https://www.investopedia.com/terms/g/generalalizedautogregressiveconditionalheteroskedasticity.asp)<br>
