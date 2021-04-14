@@ -1,5 +1,10 @@
 # Time Series
 
+## Resources
+
+Hyndman, Rob J. & George Athanasopoulos. (2021). _Forecasting: Principles and Practice, 3rd Ed_. OTexts. <https://otexts.com/fpp3/>.<br>
+Nau, Robert. (2020). "Statistical forecasting: notes on regression and time series analysis". <http://people.duke.edu/~rnau/411home.htm>.<br>
+
 ## Figures
 
 Akaike, Hirotugu (1927-2009) [Wiki](https://en.wikipedia.org/wiki/Hirotugu_Akaike)<br>
@@ -14,7 +19,7 @@ Autocorrelation [Wiki](https://en.wikipedia.org/wiki/Autocorrelation)<br>
 Autocorrelogram<br>
 Autocovariance [Wiki](https://en.wikipedia.org/wiki/Autocovariance)<br>
 AR Autoregressive Model [Wiki](https://en.wikipedia.org/wiki/Autoregressive_model)<br>
-ARIME Autoregressive Integrated Moving Average [Wiki](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average)<br>
+ARIMA Autoregressive Integrated Moving Average Model [Investopedia](https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp) [Wiki](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average)<br>
 ARMA Autoregressive Moving Average Model [Wiki](https://en.wikipedia.org/wiki/Autoregressive–moving-average_model)<br>
 Backshift Operator [Wiki](https://en.wikipedia.org/wiki/Lag_operator)<br>
 BIC Bayesian Information Criterion [Wiki](https://en.wikipedia.org/wiki/Bayesian_information_criterion)<br>
