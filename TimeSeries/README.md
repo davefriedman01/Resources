@@ -33,8 +33,10 @@ Comparative Time Series Design<br>
 Condtional Variance [Wiki](https://en.wikipedia.org/wiki/Conditional_variance)<br>
 Correlogram [Wiki](https://en.wikipedia.org/wiki/Correlogram)<br>
 Dickey-Fuller Test [Wiki](https://en.wikipedia.org/wiki/Dickey–Fuller_test)<br>
+Forecasting [Investopedia](https://www.investopedia.com/terms/f/forecasting.asp)<br>
 GARCH Generalized Autoregressive Conditional Heteroskedasticity [Investopedia](https://www.investopedia.com/terms/g/garch.asp) [Wiki](https://en.wikipedia.org/wiki/Autoregressive_conditional_heteroskedasticity)<br>
 GARCH Process [Investopedia](https://www.investopedia.com/terms/g/generalalizedautogregressiveconditionalheteroskedasticity.asp)<br>
+Heteroskedasticity [Investopedia](https://www.investopedia.com/terms/h/heteroskedasticity.asp)<br>
 ITS Interrupted/Quasi-Experimental Time Series (Analysis) [Wiki](https://en.wikipedia.org/wiki/Interrupted_time_series)<br>
 Lag Operator [Wiki](https://en.wikipedia.org/wiki/Lag_operator)<br>
 MA Moving Average Model [Wiki](https://en.wikipedia.org/wiki/Moving-average_model)<br>
