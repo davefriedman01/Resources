@@ -85,6 +85,7 @@ Backtesting [Investopedia](https://www.investopedia.com/terms/b/backtesting.asp)
 [AGG Bloomberg Barclays Aggregate Bond Index](https://www.investopedia.com/terms/l/lehmanaggregatebondindex.asp)<br>
 [Bond (Investopedia)](https://www.investopedia.com/terms/b/bond.asp)<br>
 [Book Value (Investopedia)](https://www.investopedia.com/terms/b/bookvalue.asp)<br>
+Bottom [Wiki](https://en.wikipedia.org/wiki/Bottom_(technical_analysis))<br>
 [Broad-Based Index (Investopedia)](https://www.investopedia.com/terms/b/broad-basedindex.asp)<br>
 [Broker (Investopedia)](https://www.investopedia.com/terms/b/broker.asp)<br>
 [Bucket (Investopedia)](https://www.investopedia.com/terms/b/bucket.asp)<br>
@@ -259,6 +260,7 @@ Model [Investopedia](https://www.investopedia.com/terms/f/financialmodeling.asp)
 [Realized Gain (Investopedia)](https://www.investopedia.com/terms/r/realizedprofit.asp)<br>
 [Rebalancing (Investopedia)](https://www.investopedia.com/terms/r/rebalancing.asp)<br>
 [Reserve Bank (Wikipedia)](https://en.wikipedia.org/wiki/Central_bank)<br>
+Resistance [Wiki](https://en.wikipedia.org/wiki/Support_and_resistance)<br>
 [Retail Sales (Investopedia)](https://www.investopedia.com/terms/r/retail-sales.asp)<br>
 [Return (Investopedia)](https://www.investopedia.com/terms/r/return.asp)<br>
 [Risk (Investopedia)](https://www.investopedia.com/terms/r/risk.asp)<br>
@@ -294,21 +296,25 @@ Sensitivity Analysis [Investopedia](https://www.investopedia.com/terms/s/sensiti
 [Stock Symbol or Ticker (Investopedia)](https://www.investopedia.com/terms/s/stocksymbol.asp)<br>
 [Store Of Value (Investopedia)](https://www.investopedia.com/terms/s/storeofvalue.asp)<br>
 [Strike Price (Investopedia)](https://www.investopedia.com/terms/s/strikeprice.asp)<br>
+Support [Wiki](https://en.wikipedia.org/wiki/Support_and_resistance)<br>
 Survivorship Bias [Investopedia](https://www.investopedia.com/terms/s/survivorshipbias.asp)<br>
 [Systematic Risk (Investopedia)](https://www.investopedia.com/terms/s/systematicrisk.asp)<br>
 [SWP Systematic Withdrawal Plan (Investopedia)](https://www.investopedia.com/terms/s/systematicwithdrawalplan.asp)<br>
 [Tangible Asset (Investopedia)](https://www.investopedia.com/terms/t/tangibleasset.asp)<br>
 [Tax-Advantaged (Investopedia)](https://www.investopedia.com/terms/t/tax-advantaged.asp)<br>
 [Tax Selling (Investopedia)](https://www.investopedia.com/terms/t/tax_selling.asp)<br>
+TA Technical Analysis [Wiki](https://en.wikipedia.org/wiki/Technical_analysis)<br>
 [Technical Indicator (Investopedia)](https://www.investopedia.com/terms/t/technicalindicator.asp)<br>
 [Ticker Tape (Investopedia)](https://www.investopedia.com/terms/t/tickertape.asp)<br>
 [Time Horizon (Investopedia)](https://www.investopedia.com/terms/t/timehorizon.asp)<br>
 [Time In Force (Investopedia)](https://www.investopedia.com/terms/t/timeinforce.asp)<br>
 [TVM Time Value of Money or Present Discounted Value (Investopedia)](https://www.investopedia.com/terms/t/timevalueofmoney.asp)<br>
+Top [Wiki](https://en.wikipedia.org/wiki/Top_(technical_analysis))<br>
 Trading Strategy [Investopedia](https://www.investopedia.com/terms/t/trading-strategy.asp)<br>
 Trailing P/E Price-to-Earnings Ratio [Investopedia](https://www.investopedia.com/terms/t/trailingpe.asp)<br>
 [Transparency (Investopedia)](https://www.investopedia.com/terms/t/transparency.asp)<br>
 [T-Bills Treasure Bills (Investopedia)](https://www.investopedia.com/terms/t/treasurybill.asp)<br>
+Trend Line [Wiki](https://en.wikipedia.org/wiki/Trend_line_(technical_analysis))<br>
 [Two-Tailed Test (Investopedia)](https://www.investopedia.com/terms/t/two-tailed-test.asp)<br>
 [Unit Cost (Investopedia)](https://www.investopedia.com/terms/u/unitcost.asp)<br>
 [Unrealized Gain (Investopedia)](https://www.investopedia.com/terms/u/unrealizedgain.asp)<br>
