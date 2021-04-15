@@ -74,6 +74,7 @@ One Minute Economics [YouTube](https://www.youtube.com/c/OneMinuteEconomics/)<br
 [Arithmetic Mean (Investopedia)](https://www.investopedia.com/terms/a/arithmeticmean.asp)<br>
 [Asset (Investopedia)](https://www.investopedia.com/terms/a/asset.asp)<br>
 [Asset Class (Investopedia)](https://www.investopedia.com/terms/a/assetclasses.asp)<br>
+Backtesting [Investopedia](https://www.investopedia.com/terms/b/backtesting.asp)<br>
 [Balance Sheet or Statement of Financial Position (Investopedia)](https://www.investopedia.com/terms/b/balancesheet.asp)<br>
 [Bank Capital (Investopedia)](https://www.investopedia.com/terms/b/bank-capital.asp)<br>
 [Bankruptcy (Investopedia)](https://www.investopedia.com/terms/b/bankruptcy.asp)<br>
@@ -162,10 +163,11 @@ Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.
 [Financial Exposure (Investopedia)](https://www.investopedia.com/terms/f/financial-exposure.asp)<br>
 [FI Financial Institution (Investopedia)](https://www.investopedia.com/terms/f/financialinstitution.asp)<br>
 [Financial Instrument (Investopedia)](https://www.investopedia.com/terms/f/financialinstrument.asp)<br>
+Financial Model [Investopedia](https://www.investopedia.com/terms/f/financialmodeling.asp)<br>
 [FTSE Financial Times Stock Exchange Group (Investopedia)](https://www.investopedia.com/terms/f/ftse.asp)<br>
 [Financing (Investopedia)](https://www.investopedia.com/terms/f/financing.asp)<br>
 [Fixed Income (Investopedia)](https://www.investopedia.com/terms/f/fixedincome.asp)<br>
-[Forward P/E Price-to-Earnings (Investopedia)](https://www.investopedia.com/terms/f/forwardpe.asp)<br>
+Forward P/E Price-to-Earnings Ratio [Investopedia](https://www.investopedia.com/terms/f/forwardpe.asp)<br>
 [Fund (Investopedia)](https://www.investopedia.com/terms/f/fund.asp)<br>
 [FA Fundamental Analysis (Investopedia)](https://www.investopedia.com/terms/f/fundamentalanalysis.asp)<br>
 [Futures (Investopedia)](https://www.investopedia.com/terms/f/futures.asp)<br>
@@ -200,6 +202,7 @@ Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.
 [Lender (Investopedia)](https://www.investopedia.com/terms/l/lender.asp)<br>
 [Leverage (Investopedia)](https://www.investopedia.com/terms/l/leverage.asp)<br>
 [LTG Long-Term Growth (Investopedia)](https://www.investopedia.com/terms/l/longtermgrowth.asp)<br>
+Look-Ahead Bias [Investopedia](https://www.investopedia.com/terms/l/lookaheadbias.asp)<br>
 [Market Capitalization (Investopedia)](https://www.investopedia.com/terms/m/marketcapitalization.asp)<br>
 [Market Depth (Investopedia)](https://www.investopedia.com/terms/m/marketdepth.asp)<br>
 [Market Index (Investopedia)](https://www.investopedia.com/terms/m/marketindex.asp)<br>
@@ -214,6 +217,7 @@ Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.
 [Medium of Exchange (Investopedia)](https://www.investopedia.com/terms/m/mediumofexchange.asp)<br>
 [Merchandising (Investopedia)](https://www.investopedia.com/terms/m/merchandising.asp)<br>
 [Middleman (Investopedia)](https://www.investopedia.com/terms/m/middleman.asp)<br>
+Model [Investopedia](https://www.investopedia.com/terms/f/financialmodeling.asp)<br>
 [MPT Modern Portfolio Theory (Investopedia)](https://www.investopedia.com/terms/m/modernportfoliotheory.asp)<br>
 [Money Market (Investopedia)](https://www.investopedia.com/terms/m/moneymarket.asp)<br>
 [Monte Carlo Simulation (Investopedia)](https://www.investopedia.com/terms/m/montecarlosimulation.asp)<br>
@@ -269,8 +273,10 @@ Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.
 [Roy's SFRatio Safety-First Criterion](https://www.investopedia.com/terms/r/roys-safety-first-criterion.asp)<br>
 [Russell 2000 Index (Investopedia)](https://www.investopedia.com/terms/r/russell2000.asp)<br>
 [Russell 3000 Index (Investopedia)](https://www.investopedia.com/terms/r/russell_3000.asp)<br>
+Sample Selection Bias [Investopedia](https://www.investopedia.com/terms/s/sample_selection_basis.asp)<br>
 [Scarcity (Investopedia)](https://www.investopedia.com/terms/s/scarcity.asp)<br>
 [Security (Investopedia)](https://www.investopedia.com/terms/s/security.asp)<br>
+Sensitivity Analysis [Investopedia](https://www.investopedia.com/terms/s/sensitivityanalysis.asp)<br>
 [Shareholder (Investopedia)](https://www.investopedia.com/terms/s/shareholder.asp)<br>
 [Shares (Investopedia)](https://www.investopedia.com/terms/s/shares.asp)<br>
 [Sharpe Ratio (Investopedia)](https://www.investopedia.com/terms/s/sharperatio.asp)<br>
@@ -288,6 +294,7 @@ Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.
 [Stock Symbol or Ticker (Investopedia)](https://www.investopedia.com/terms/s/stocksymbol.asp)<br>
 [Store Of Value (Investopedia)](https://www.investopedia.com/terms/s/storeofvalue.asp)<br>
 [Strike Price (Investopedia)](https://www.investopedia.com/terms/s/strikeprice.asp)<br>
+Survivorship Bias [Investopedia](https://www.investopedia.com/terms/s/survivorshipbias.asp)<br>
 [Systematic Risk (Investopedia)](https://www.investopedia.com/terms/s/systematicrisk.asp)<br>
 [SWP Systematic Withdrawal Plan (Investopedia)](https://www.investopedia.com/terms/s/systematicwithdrawalplan.asp)<br>
 [Tangible Asset (Investopedia)](https://www.investopedia.com/terms/t/tangibleasset.asp)<br>
@@ -298,6 +305,8 @@ Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.
 [Time Horizon (Investopedia)](https://www.investopedia.com/terms/t/timehorizon.asp)<br>
 [Time In Force (Investopedia)](https://www.investopedia.com/terms/t/timeinforce.asp)<br>
 [TVM Time Value of Money or Present Discounted Value (Investopedia)](https://www.investopedia.com/terms/t/timevalueofmoney.asp)<br>
+Trading Strategy [Investopedia](https://www.investopedia.com/terms/t/trading-strategy.asp)<br>
+Trailing P/E Price-to-Earnings Ratio [Investopedia](https://www.investopedia.com/terms/t/trailingpe.asp)<br>
 [Transparency (Investopedia)](https://www.investopedia.com/terms/t/transparency.asp)<br>
 [T-Bills Treasure Bills (Investopedia)](https://www.investopedia.com/terms/t/treasurybill.asp)<br>
 [Two-Tailed Test (Investopedia)](https://www.investopedia.com/terms/t/two-tailed-test.asp)<br>
