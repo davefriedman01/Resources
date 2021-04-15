@@ -233,6 +233,7 @@ Market Trend [Wiki](https://en.wikipedia.org/wiki/Market_trend)<br>
 [Mathematical Finance (Wikipedia)](https://en.wikipedia.org/wiki/Mathematical_finance)<br>
 [MFL Maximum Foreseeable Loss (Investopedia)](https://www.investopedia.com/terms/m/maximum-foreseeable-loss.asp)<br>
 [Mean (Investopedia)](https://www.investopedia.com/terms/m/mean.asp)<br>
+Mean Reversion [Wiki](https://en.wikipedia.org/wiki/Mean_reversion_(finance))<br>
 [Medium of Exchange (Investopedia)](https://www.investopedia.com/terms/m/mediumofexchange.asp)<br>
 [Merchandising (Investopedia)](https://www.investopedia.com/terms/m/merchandising.asp)<br>
 [Middleman (Investopedia)](https://www.investopedia.com/terms/m/middleman.asp)<br>
