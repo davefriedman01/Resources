@@ -159,7 +159,7 @@ Double Bottom [Wiki](https://en.wikipedia.org/wiki/Double_top_and_double_bottom)
 Double Top [Wiki](https://en.wikipedia.org/wiki/Double_top_and_double_bottom)<br>
 [Downside Risk (Investopedia)](https://www.investopedia.com/terms/d/downsiderisk.asp)<br>
 [Earned Income (Investopedia)](https://www.investopedia.com/terms/e/earnedincome.asp)<br>
-Econometrics [Wiki](https://en.wikipedia.org/wiki/Econometrics)<br>
+Econometrics [Investopedia](https://www.investopedia.com/terms/e/econometrics.asp) [Wiki](https://en.wikipedia.org/wiki/Econometrics)<br>
 [Efficient Market (Investopedia)](https://www.investopedia.com/terms/m/marketefficiency.asp)<br>
 EMH Efficient-Market Hypothesis [Investopedia](https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp) [Wiki](https://en.wikipedia.org/wiki/Efficient-market_hypothesis)<br>
 [ECN Electronic Communication Network (Investopedia)](https://www.investopedia.com/terms/e/ecn.asp)<br>
@@ -195,6 +195,7 @@ Game Theory [Wiki](https://en.wikipedia.org/wiki/Game_theory)<br>
 [Harmonic Mean (Investopedia)](https://www.investopedia.com/terms/h/harmonicaverage.asp)<br>
 Head-and-Shoulders [Wiki](https://en.wikipedia.org/wiki/Head_and_shoulders_(chart_pattern))<br>
 [Hedge (Investopedia)](https://www.investopedia.com/terms/h/hedge.asp)<br>
+Heteroskedasticity [Investopedia](https://www.investopedia.com/terms/h/heteroskedasticity.asp)<br>
 [Hypothesis Testing (Investopedia)](https://www.investopedia.com/terms/h/hypothesistesting.asp)<br>
 [Index (Investopedia)](https://www.investopedia.com/terms/i/index.asp)<br>
 [Index Fund (Investopedia)](https://www.investopedia.com/terms/i/indexfund.asp)<br>
