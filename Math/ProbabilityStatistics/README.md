@@ -56,5 +56,6 @@ Bruce, Peter, Andrew Bruce, & Peter Gedeck. (2020). _Practical Statistics for Da
 [Statistics (Wikipedia)](https://en.wikipedia.org/wiki/Statistics)<br>
 [Stochastic Process (Wikipedia)](https://en.wikipedia.org/wiki/Stochastic_process)<br>
 [Summary Statistics (Wikipedia)](https://en.wikipedia.org/wiki/Summary_statistics)<br>
+Survival Analysis [Wiki](https://en.wikipedia.org/wiki/Survival_analysis)<br>
 [Variability (Wikipedia)](https://en.wikipedia.org/wiki/Statistical_dispersion)<br>
 [Variance (Wikipedia)](https://en.wikipedia.org/wiki/Variance)<br>
