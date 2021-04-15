@@ -65,6 +65,9 @@ One Minute Economics [YouTube](https://www.youtube.com/c/OneMinuteEconomics/)<br
 ## Terms
 
 [Acceptance (Investopedia)](https://www.investopedia.com/terms/a/acceptance.asp)<br>
+Active Investing [Wiki](https://en.wikipedia.org/wiki/Active_management)<br>
+Active Management [Wiki](https://en.wikipedia.org/wiki/Active_management)<br>
+Adaptive Market Hypothesis [Wiki](https://en.wikipedia.org/wiki/Adaptive_market_hypothesis)<br>
 [Adjusted Closing Price (Investopedia)](https://www.investopedia.com/terms/a/adjusted_closing_price.asp)<br>
 [ATS Alternative Trading System (Investopedia)](https://www.investopedia.com/terms/a/alternative-trading-system.asp)<br>
 [Angel Investor (Investopedia)](https://www.investopedia.com/terms/a/angelinvestor.asp)<br>
@@ -78,6 +81,7 @@ Backtesting [Investopedia](https://www.investopedia.com/terms/b/backtesting.asp)
 [Balance Sheet or Statement of Financial Position (Investopedia)](https://www.investopedia.com/terms/b/balancesheet.asp)<br>
 [Bank Capital (Investopedia)](https://www.investopedia.com/terms/b/bank-capital.asp)<br>
 [Bankruptcy (Investopedia)](https://www.investopedia.com/terms/b/bankruptcy.asp)<br>
+Behavioral Economics [Wiki](https://en.wikipedia.org/wiki/Behavioral_economics)<br>
 [Beta (Investopedia)](https://www.investopedia.com/terms/b/beta.asp)<br>
 [Black Scholes or BSM Black-Scholes-Merton Model (Investopedia)](https://www.investopedia.com/terms/b/blackscholes.asp)<br>
 [Blank Check Company (Investopedia)](https://www.investopedia.com/terms/b/blankcheckcompany.asp)<br>
@@ -89,6 +93,8 @@ Bottom [Wiki](https://en.wikipedia.org/wiki/Bottom_(technical_analysis))<br>
 [Broad-Based Index (Investopedia)](https://www.investopedia.com/terms/b/broad-basedindex.asp)<br>
 [Broker (Investopedia)](https://www.investopedia.com/terms/b/broker.asp)<br>
 [Bucket (Investopedia)](https://www.investopedia.com/terms/b/bucket.asp)<br>
+Bull [Wiki](https://en.wikipedia.org/wiki/Bull_(stock_market_speculator))<br>
+Bull-Bear Line [Wiki](https://en.wikipedia.org/wiki/Bull–bear_line)<br>
 [Business (Investopedia)](https://www.investopedia.com/terms/b/business.asp)<br>
 [Business Activities (Investopedia)](https://www.investopedia.com/terms/b/business-activities.asp)<br>
 [Business Expenses (Investopedia)](https://www.investopedia.com/terms/b/businessexpenses.asp)<br>
@@ -96,6 +102,7 @@ Bottom [Wiki](https://en.wikipedia.org/wiki/Bottom_(technical_analysis))<br>
 [Business Plan (Investopedia)](https://www.investopedia.com/terms/b/business-plan.asp)<br>
 [Call (Investopedia)](https://www.investopedia.com/terms/c/call.asp)<br>
 [Call Market (Investopedia)](https://www.investopedia.com/terms/c/callmarket.asp)<br>
+Candlestick [Wiki](https://en.wikipedia.org/wiki/Candlestick_chart)<br>
 [CapEx Capital Expenditure (Investopedia)](https://www.investopedia.com/terms/c/capitalexpenditure.asp)<br>
 [Capital (Investopedia)](https://www.investopedia.com/terms/c/capital.asp)<br>
 [Capital Asset (Investopedia)](https://www.investopedia.com/terms/c/capitalasset.asp)<br>
@@ -113,6 +120,7 @@ Bottom [Wiki](https://en.wikipedia.org/wiki/Bottom_(technical_analysis))<br>
 [Central Bank (Wikipedia)](https://en.wikipedia.org/wiki/Central_bank)<br>
 [CCP Central Counterparty Clearing House (Investopedia)](https://www.investopedia.com/terms/c/ccph.asp)<br>
 [CD Certificate of Deposit (Investopedia)](https://www.investopedia.com/terms/c/certificateofdeposit.asp)<br>
+Classical Economics [Wiki](https://en.wikipedia.org/wiki/Classical_economics)<br>
 Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.asp)<br>
 [Closed-End Fund (Investopedia)](https://www.investopedia.com/terms/c/closed-endinvestment.asp)<br>
 [Closing Price (Investopedia)](https://www.investopedia.com/terms/c/closingprice.asp)<br>
@@ -132,10 +140,13 @@ Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.
 [Creditor (Investopedia)](https://www.investopedia.com/terms/c/creditor.asp)<br>
 [Cross-Sell (Investopedia)](https://www.investopedia.com/terms/c/cross-sell.asp)<br>
 [Cumulative Return (Investopedia)](https://www.investopedia.com/terms/c/cumulativereturn.asp)<br>
+Cup and Handle [Wiki](https://en.wikipedia.org/wiki/Cup_and_handle)<br>
 [Currency (Investopedia)](https://www.investopedia.com/terms/c/currency.asp)<br>
 [Dark Pool (Investopedia)](https://www.investopedia.com/terms/d/dark-pool.asp)<br>
 [Debt (Investopedia)](https://www.investopedia.com/terms/d/debt.asp)<br>
 [Debtor (Investopedia)](https://www.investopedia.com/terms/d/debtor.asp)<br>
+Decision Making [Wiki](https://en.wikipedia.org/wiki/Decision-making)<br>
+Decision Theory [Wiki](https://en.wikipedia.org/wiki/Decision_theory)<br>
 [Depreciation (Investopedia)](https://www.investopedia.com/terms/d/depreciation.asp)<br>
 [DCF Discounted Cash Flow Analysis (Wikipedia)](https://en.wikipedia.org/wiki/Discounted_cash_flow)<br>
 [DCF Discounted Cash Flow (Investopedia)](https://www.investopedia.com/terms/d/dcf.asp)<br>
@@ -144,10 +155,13 @@ Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.
 [Diversification (Investopedia)](https://www.investopedia.com/terms/d/diversification.asp)<br>
 [Dividend (Investopedia)](https://www.investopedia.com/terms/d/dividend.asp)<br>
 [DDM Divident Discount Model (Investopedia)](https://www.investopedia.com/terms/d/ddm.asp)<br>
+Double Bottom [Wiki](https://en.wikipedia.org/wiki/Double_top_and_double_bottom)<br>
+Double Top [Wiki](https://en.wikipedia.org/wiki/Double_top_and_double_bottom)<br>
 [Downside Risk (Investopedia)](https://www.investopedia.com/terms/d/downsiderisk.asp)<br>
 [Earned Income (Investopedia)](https://www.investopedia.com/terms/e/earnedincome.asp)<br>
+Econometrics [Wiki](https://en.wikipedia.org/wiki/Econometrics)<br>
 [Efficient Market (Investopedia)](https://www.investopedia.com/terms/m/marketefficiency.asp)<br>
-[EMH Efficient Market Hypothesis (Investopedia)](https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp)<br>
+EMH Efficient-Market Hypothesis [Investopedia](https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp) [Wiki](https://en.wikipedia.org/wiki/Efficient-market_hypothesis)<br>
 [ECN Electronic Communication Network (Investopedia)](https://www.investopedia.com/terms/e/ecn.asp)<br>
 [Equity (Investopedia)](https://www.investopedia.com/terms/e/equity.asp)<br>
 [Equity Market (Investopedia)](https://www.investopedia.com/terms/e/equitymarket.asp)<br>
@@ -170,14 +184,16 @@ Financial Model [Investopedia](https://www.investopedia.com/terms/f/financialmod
 [Fixed Income (Investopedia)](https://www.investopedia.com/terms/f/fixedincome.asp)<br>
 Forward P/E Price-to-Earnings Ratio [Investopedia](https://www.investopedia.com/terms/f/forwardpe.asp)<br>
 [Fund (Investopedia)](https://www.investopedia.com/terms/f/fund.asp)<br>
-[FA Fundamental Analysis (Investopedia)](https://www.investopedia.com/terms/f/fundamentalanalysis.asp)<br>
+FA Fundamental Analysis [Investopedia](https://www.investopedia.com/terms/f/fundamentalanalysis.asp) [Wiki](https://en.wikipedia.org/wiki/Fundamental_analysis)<br>
 [Futures (Investopedia)](https://www.investopedia.com/terms/f/futures.asp)<br>
+Game Theory [Wiki](https://en.wikipedia.org/wiki/Game_theory)<br>
 [General and Administrative Expenses (Investopedia)](https://www.investopedia.com/ask/answers/073115/what-are-some-examples-general-and-administrative-expenses.asp)<br>
 [GAAP Generally Accepted Accounting Principles (Investopedia)](https://www.investopedia.com/terms/g/gaap.asp)<br>
 [General Ledger (Investopedia)](https://www.investopedia.com/terms/g/generalledger.asp)<br>
 [Geometric Mean (Investopedia)](https://www.investopedia.com/terms/g/geometricmean.asp)<br>
 [Gold Reserve (Wikipedia)](https://en.wikipedia.org/wiki/Gold_reserve)<br>
 [Harmonic Mean (Investopedia)](https://www.investopedia.com/terms/h/harmonicaverage.asp)<br>
+Head-and-Shoulders [Wiki](https://en.wikipedia.org/wiki/Head_and_shoulders_(chart_pattern))<br>
 [Hedge (Investopedia)](https://www.investopedia.com/terms/h/hedge.asp)<br>
 [Hypothesis Testing (Investopedia)](https://www.investopedia.com/terms/h/hypothesistesting.asp)<br>
 [Index (Investopedia)](https://www.investopedia.com/terms/i/index.asp)<br>
@@ -190,6 +206,7 @@ Forward P/E Price-to-Earnings Ratio [Investopedia](https://www.investopedia.com/
 [Inventory (Investopedia)](https://www.investopedia.com/terms/i/inventory.asp)<br>
 [Inventory Turnover (Investopedia)](https://www.investopedia.com/terms/i/inventoryturnover.asp)<br>
 [Investor (Investopedia)](https://www.investopedia.com/terms/i/investor.asp)<br>
+Investment Management [Wiki](https://en.wikipedia.org/wiki/Investment_management)<br>
 [Investment Vehicle (Investopedia)](https://www.investopedia.com/terms/i/investmentvehicle.asp)<br>
 [IRS Internal Revenue Service (Investopedia)](https://www.investopedia.com/terms/i/irs.asp)<br>
 [ISM Institute for Supply Management Manufacturing Index (Investopedia)](https://www.investopedia.com/terms/i/ism-mfg.asp)<br>
@@ -211,6 +228,7 @@ Look-Ahead Bias [Investopedia](https://www.investopedia.com/terms/l/lookaheadbia
 [Market Order (Investopedia)](https://www.investopedia.com/terms/m/marketorder.asp)<br>
 [Market Risk (Investopedia)](https://www.investopedia.com/terms/m/marketrisk.asp)<br>
 [Market Segment (Investopedia)](https://www.investopedia.com/terms/m/market-segment.asp)<br>
+Market Trend [Wiki](https://en.wikipedia.org/wiki/Market_trend)<br>
 [Market Value (Investopedia)](https://www.investopedia.com/terms/m/marketvalue.asp)<br>
 [Mathematical Finance (Wikipedia)](https://en.wikipedia.org/wiki/Mathematical_finance)<br>
 [MFL Maximum Foreseeable Loss (Investopedia)](https://www.investopedia.com/terms/m/maximum-foreseeable-loss.asp)<br>
@@ -219,7 +237,7 @@ Look-Ahead Bias [Investopedia](https://www.investopedia.com/terms/l/lookaheadbia
 [Merchandising (Investopedia)](https://www.investopedia.com/terms/m/merchandising.asp)<br>
 [Middleman (Investopedia)](https://www.investopedia.com/terms/m/middleman.asp)<br>
 Model [Investopedia](https://www.investopedia.com/terms/f/financialmodeling.asp)<br>
-[MPT Modern Portfolio Theory (Investopedia)](https://www.investopedia.com/terms/m/modernportfoliotheory.asp)<br>
+MPT Modern (Mean-Variance) Portfolio Theory [Investopedia](https://www.investopedia.com/terms/m/modernportfoliotheory.asp) [Wiki](https://en.wikipedia.org/wiki/Modern_portfolio_theory)<br>
 [Money Market (Investopedia)](https://www.investopedia.com/terms/m/moneymarket.asp)<br>
 [Monte Carlo Simulation (Investopedia)](https://www.investopedia.com/terms/m/montecarlosimulation.asp)<br>
 [MA Moving Average or Rolling Average (Wikipedia)](https://en.wikipedia.org/wiki/Moving_average)<br>
@@ -238,17 +256,21 @@ Model [Investopedia](https://www.investopedia.com/terms/f/financialmodeling.asp)
 [Ordinary Income (Investopedia)](https://www.investopedia.com/terms/o/ordinaryincome.asp)<br>
 [Outperform (Investopedia)](https://www.investopedia.com/terms/o/outperform.asp)<br>
 [OTC Over-the-Counter (Investopedia)](https://www.investopedia.com/terms/o/otc.asp)<br>
+Passive Investing [Wiki](https://en.wikipedia.org/wiki/Passive_management)<br>
+Passive Management [Wiki](https://en.wikipedia.org/wiki/Passive_management)<br>
 [Perfect Hedge (Investopedia)](https://www.investopedia.com/terms/p/perfecthedge.asp)<br>
 [Personal-Service Activity (Investopedia)](https://www.investopedia.com/terms/p/personal-service-activity.asp)<br>
 [Portfolio (Investopedia)](https://www.investopedia.com/terms/p/portfolio.asp)<br>
-[Portfolio Management (Investopedia)](https://www.investopedia.com/terms/p/portfoliomanagement.asp)<br>
+Portfolio Management [Investopedia](https://www.investopedia.com/terms/p/portfoliomanagement.asp) [Wiki](https://en.wikipedia.org/wiki/Investment_management)<br>
 [Position Sizing (Investopedia)](https://www.investopedia.com/terms/p/positionsizing.asp)<br>
 [Positive Correlation (Investopedia)](https://www.investopedia.com/terms/p/positive-correlation.asp)<br>
 [Precious Metals (Investopedia)](https://www.investopedia.com/terms/p/preciousmetal.asp)<br>
 [PP&E Property, Plant, and Equipment (Investopedia)](https://www.investopedia.com/terms/p/ppe.asp)<br>
 [Purchase Price (Investopedia)](https://www.investopedia.com/terms/p/purchaseprice.asp)<br>
 [Put Option (Investopedia)](https://www.investopedia.com/terms/p/putoption.asp)<br>
+Quantitative Analysis [Wiki](https://en.wikipedia.org/wiki/Quantitative_analysis_(finance))<br>
 [R-Squared (Investopedia)](https://www.investopedia.com/terms/r/r-squared.asp)<br>
+Random Walk Hypothesis [Wiki](https://en.wikipedia.org/wiki/Random_walk_hypothesis)<br>
 [RoR Rate of Return (Investopedia)](https://www.investopedia.com/terms/r/rateofreturn.asp)<br>
 [Raw Materials (Investopedia)](https://www.investopedia.com/terms/r/rawmaterials.asp)<br>
 [Real Asset (Investopedia)](https://www.investopedia.com/terms/r/realasset.asp)<br>
@@ -305,6 +327,7 @@ Survivorship Bias [Investopedia](https://www.investopedia.com/terms/s/survivorsh
 [Tax Selling (Investopedia)](https://www.investopedia.com/terms/t/tax_selling.asp)<br>
 TA Technical Analysis [Wiki](https://en.wikipedia.org/wiki/Technical_analysis)<br>
 [Technical Indicator (Investopedia)](https://www.investopedia.com/terms/t/technicalindicator.asp)<br>
+Theory of Choice [Wiki](https://en.wikipedia.org/wiki/Decision_theory)<br>
 [Ticker Tape (Investopedia)](https://www.investopedia.com/terms/t/tickertape.asp)<br>
 [Time Horizon (Investopedia)](https://www.investopedia.com/terms/t/timehorizon.asp)<br>
 [Time In Force (Investopedia)](https://www.investopedia.com/terms/t/timeinforce.asp)<br>
