@@ -27,6 +27,7 @@ Dynamical System [Wiki](https://en.wikipedia.org/wiki/Dynamical_system)<br>
 Electrical Engineering [Wiki](https://en.wikipedia.org/wiki/Electrical_engineering)<br>
 Electronic Circuit [Wiki](https://en.wikipedia.org/wiki/Electronic_circuit)<br>
 Electronic Filter [Wiki](https://en.wikipedia.org/wiki/Electronic_filter)<br>
+FFT Fast Fourier Transform<br>
 Filter, mathematical [Wiki](https://en.wikipedia.org/wiki/Filter_(mathematics))<br> 
 Filter [Wiki](https://en.wikipedia.org/wiki/Filter_(signal_processing))<br>
 Filter Design [Wiki](https://en.wikipedia.org/wiki/Filter_design)<br>
@@ -40,6 +41,7 @@ IIR Infinite Impulse Response [Wiki](https://en.wikipedia.org/wiki/Infinite_impu
 Information Theory [Wiki](https://en.wikipedia.org/wiki/Information_theory)<br>
 Integrated Circuit [Wiki](https://en.wikipedia.org/wiki/Integrated_circuit)<br>
 Kronecker Delta Function [Wiki](https://en.wikipedia.org/wiki/Kronecker_delta)<br>
+Laplace Transform [Wiki](https://en.wikipedia.org/wiki/Laplace_transform)<br>
 Linear Phase [Wiki](https://en.wikipedia.org/wiki/Linear_phase)<br>
 LTI Linear Time-Invariant System [Wiki](https://en.wikipedia.org/wiki/Linear_time-invariant_system)<br>
 LPF Low-Pass Filter [Wiki](https://en.wikipedia.org/wiki/Low-pass_filter)<br>
@@ -53,9 +55,12 @@ Recursive Filter [Wiki](https://en.wikipedia.org/wiki/Recursive_filter)<br>
 Signal [Wiki](https://en.wikipedia.org/wiki/Signal)<br>
 Signal Processing [Wiki](https://en.wikipedia.org/wiki/Signal_processing)<br>
 Signaling [Wiki](https://en.wikipedia.org/wiki/Signaling_(telecommunications))<br>
+Spectral Analysis<br>
 System Analysis [Wiki](https://en.wikipedia.org/wiki/System_analysis)<br>
 Telecommunication [Wiki](https://en.wikipedia.org/wiki/Telecommunication)<br>
 TIV Time-Invariant System [Wiki](https://en.wikipedia.org/wiki/Time-invariant_system)<br>
+Time-Scale Calculus [Wiki](https://en.wikipedia.org/wiki/Time-scale_calculus)<br>
 Time Domain [Wiki](https://en.wikipedia.org/wiki/Time_domain)<br>
 Transfer Function [Wiki](https://en.wikipedia.org/wiki/Transfer_function)<br>
 Unit Impulse [Wiki](https://en.wikipedia.org/wiki/Dirac_delta_function)<br>
+Z-Transform [Wiki](https://en.wikipedia.org/wiki/Z-transform)<br>
