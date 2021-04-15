@@ -12,6 +12,11 @@ Mainzer, Klaus & Leon Chua. (2012). _The Universe as Automaton: From Simplicity 
 Mainzer, Klaus. (2007). _Thinking in Complexity: The Computational Dynamics of Matter, Mind, and Mankind_. Springer.<br>
 
 
+
+## Resources
+
+Savage, John E. (1998). _Models of Computation: Exploring the Power of Computing_. Addison-Wesley.<br>
+
 The Simons Institute for the Theory of Computing [Home](https://simons.berkeley.edu) [YouTube](https://www.youtube.com/user/SimonsInstitute).<br>
 
 [Time Complexity: Why Some Algorithms Run for Billions of Years (Interesting Engineering)](https://interestingengineering.com/time-complexity-why-some-algorithms-run-for-billions-of-years)<br>
