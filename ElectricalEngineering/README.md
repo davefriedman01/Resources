@@ -13,6 +13,8 @@ Analog Signal [Wiki](https://en.wikipedia.org/wiki/Analog_signal)<br>
 ASIC Application-Specific Integrated Circuit [Wiki](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit)<br>
 Bandwidth [Wiki](https://en.wikipedia.org/wiki/Bandwidth_(signal_processing))<br>
 BPF Bandpass Filter [Wiki](https://en.wikipedia.org/wiki/Band-pass_filter)<br>
+Causal Filter [Wiki](https://en.wikipedia.org/wiki/Causal_filter)<br>
+Causal System [Wiki](https://en.wikipedia.org/wiki/Causal_system)<br>
 Continuous Time [Wiki](https://en.wikipedia.org/wiki/Discrete_time_and_continuous_time)<br>
 Control Theory [Wiki](https://en.wikipedia.org/wiki/Control_theory)<br>
 Convolution [Wiki](https://en.wikipedia.org/wiki/Convolution)<br>
@@ -31,13 +33,14 @@ FFT Fast Fourier Transform<br>
 Filter, mathematical [Wiki](https://en.wikipedia.org/wiki/Filter_(mathematics))<br> 
 Filter [Wiki](https://en.wikipedia.org/wiki/Filter_(signal_processing))<br>
 Filter Design [Wiki](https://en.wikipedia.org/wiki/Filter_design)<br>
+FIR Finite Impulse Response Filter [Wiki](https://en.wikipedia.org/wiki/Finite_impulse_response)<br>
 FPGA Field-Programmable Gate Array [Wiki](https://en.wikipedia.org/wiki/Field-programmable_gate_array)<br>
 Fourier Analysis [Wiki](https://en.wikipedia.org/wiki/Fourier_analysis)<br>
 Frequency Domain [Wiki](https://en.wikipedia.org/wiki/Frequency_domain)<br>
 Frequency Response [Wiki](https://en.wikipedia.org/wiki/Frequency_response)<br>
 HPF High-Pass Filter [Wiki](https://en.wikipedia.org/wiki/High-pass_filter)<br>
 IRF Impulse Response (Function) [Wiki](https://en.wikipedia.org/wiki/Impulse_response)<br>
-IIR Infinite Impulse Response [Wiki](https://en.wikipedia.org/wiki/Infinite_impulse_response)<br>
+IIR Infinite Impulse Response Filter [Wiki](https://en.wikipedia.org/wiki/Infinite_impulse_response)<br>
 Information Theory [Wiki](https://en.wikipedia.org/wiki/Information_theory)<br>
 Integrated Circuit [Wiki](https://en.wikipedia.org/wiki/Integrated_circuit)<br>
 Kronecker Delta Function [Wiki](https://en.wikipedia.org/wiki/Kronecker_delta)<br>
@@ -63,4 +66,5 @@ Time-Scale Calculus [Wiki](https://en.wikipedia.org/wiki/Time-scale_calculus)<br
 Time Domain [Wiki](https://en.wikipedia.org/wiki/Time_domain)<br>
 Transfer Function [Wiki](https://en.wikipedia.org/wiki/Transfer_function)<br>
 Unit Impulse [Wiki](https://en.wikipedia.org/wiki/Dirac_delta_function)<br>
+Window Function [Wiki](https://en.wikipedia.org/wiki/Window_function)<br>
 Z-Transform [Wiki](https://en.wikipedia.org/wiki/Z-transform)<br>
