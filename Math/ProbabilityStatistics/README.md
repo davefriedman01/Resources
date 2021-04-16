@@ -3,6 +3,13 @@
 ## Resources
 
 Bruce, Peter, Andrew Bruce, & Peter Gedeck. (2020). _Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python, 2nd Ed_. O'Reilly.<br>
+Givens, Geof H. & Jennifer A. Hoeting. (2012). _Computational Statistics, 2nd Ed_. Wiley.<br>
+Kurt, Will. (2019). _Bayesian Statistics the Fun Way: Understanding Statistics and Probability with Star Wars, LEGO, and Rubber Ducks_. No Starch Press.<br>
+Mitzenmacher, Michael & Eli Upfal. (2017). _Probability and Computing: Randomization and Probabilistic Techniques in Algorithms and Data Analysis, 2nd Ed_. Cambridge University Press.<br>
+Reinhart, Alex. (2015). _Statistics Done Wrong: The Woefully Complete Guide_. No Starch Press.<br>
+Rizzo, Maria L. (2007). _Statistical Computing with R_.<br>
+Ross, Sheldon M. (2019). _Introduction to Probability Models, 12th Ed_.<br>
+Ross, Sheldon M. (2018). _A First Course in Probability, 10th Ed_. Pearson.<br>
 
 [StatQuest with Josh Starmer (YouTube)](https://www.youtube.com/c/joshstarmer)<br>
 
