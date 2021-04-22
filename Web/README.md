@@ -1,18 +1,27 @@
 # The Web
 
+
+
 ## Resources
 
-[The World Wide Web (Crash Course Computer Science on YouTube)](https://www.youtube.com/watch?v=guvsH5OFizE)<br>
+CSS-Tricks [Home](https://css-tricks.com)<br>
+Introducing JSON [Home](https://www.json.org/json-en.html)<br>
+W3C World Wide Web Consortium [Home](https://www.w3.org)<br>
+W3C's Web Accessibility Tutorials [Home](https://www.w3.org/WAI/tutorials/)<br>
 
+
+[The World Wide Web (Crash Course Computer Science on YouTube)](https://www.youtube.com/watch?v=guvsH5OFizE)<br>
 [GET vs POST (StackOverflow)](https://stackoverflow.com/questions/3477333/what-is-the-difference-between-post-and-get)<br>
 
-[Introducing JSON](https://www.json.org/json-en.html)<br>
+
 
 ## Figures
 
 [Berners-Lee, Tim (Wikipedia)](https://en.wikipedia.org/wiki/Tim_Berners-Lee)<br>
 [Bush, Vannevar (Wikipedia)](https://en.wikipedia.org/wiki/Vannevar_Bush)<br>
 Crockford, Douglas [(YouTube)](https://www.youtube.com/playlist?list=PLEzQf147-uEoNCeDlRrXv6ClsLDN-HtNm)<br>
+
+
 
 ## Terms
 
