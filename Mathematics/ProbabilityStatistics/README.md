@@ -28,6 +28,7 @@ Ross, Sheldon M. (2018). _A First Course in Probability, 10th Ed_. Pearson.<br>
 [Expected Value (Wikipedia)](https://en.wikipedia.org/wiki/Expected_value)<br>
 [Histogram (Wikipedia)](https://en.wikipedia.org/wiki/Histogram)<br>
 [Independence (Wikipedia)](https://en.wikipedia.org/wiki/Independence_(probability_theory))<br>
+IID Independent and Identically Distributed Random Variable [Wiki](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables)<br>
 [IQR Interquartile Range (Wikipedia)](https://en.wikipedia.org/wiki/Interquartile_range)<br>
 [Interval Estimation (Wikipedia)](https://en.wikipedia.org/wiki/Interval_estimation)<br>
 [Mean (Wikipedia)](https://en.wikipedia.org/wiki/Arithmetic_mean)<br>
