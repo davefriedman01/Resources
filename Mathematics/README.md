@@ -1,5 +1,7 @@
 # Mathematics
 
+Steve Brunton's YouTube Channel [YouTube](https://www.youtube.com/channel/UCm5mt-A4w61lknZ9lCsZtBw)<br>
+
 [IPAM The Institute for Pure and Applied Mathematics](http://www.ipam.ucla.edu). [YouTube](https://www.youtube.com/channel/UCGzuiiLdQZu9wxDNJHO_JnA).<br>
 
 
