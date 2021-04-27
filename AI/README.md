@@ -4,8 +4,8 @@
 
 ## Resources
 
-Bird, Steven, Ewan Klein, & Edward Loper. (2009). [_Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit_](http://www.nltk.org/book/). O'Reilly Media.<br>
 Bishop, Christopher M. (2006). [_Pattern Recognition and Machine Learning_](https://www.microsoft.com/en-us/research/people/cmbishop/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Fcmbishop%2Fprml%2Findex.htm). Springer.<br>
+Charniak, Eugene. (2019). _Introduction to Deep Learning_. MIT Press. [Home](https://cs.brown.edu/courses/csci1460/assets/files/deep-learning.pdf).<br>
 Chollet, Francois. (2017). _Deep Learning with Python_. Manning Publications.<br>
 Deisenroth, Marc Peter, A. Aldo Faisal, & Cheng Soon Ong. (2020). [_Mathematics for Machine Learning_](https://deisenroth.cc/publication/deisenroth-2020/). Cambridge University Press.<br>
 Daume III, Hal. (2017). [_A Course in Machine Learning_](http://ciml.info). Self-published.<br>
