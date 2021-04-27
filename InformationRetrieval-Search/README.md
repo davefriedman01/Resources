@@ -2,8 +2,6 @@
 
 
 
-## Figures
-
 Giles, C. Lee [Home](http://clgiles.ist.psu.edu)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;
 PSU's IST 441 [Home](http://clgiles.ist.psu.edu/IST441/)<br>
