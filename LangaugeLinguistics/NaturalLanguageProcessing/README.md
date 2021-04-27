@@ -9,6 +9,7 @@ Bird, Steven, Ewan Klein, & Edward Loper. (2009). _Natural Language Processing w
 Deng, Li & Yang Liu. (2018). _Deep Learning in Natural Language Processing_. Springer.<br>
 Eisenstein, Jacob. (2019). _Introduction to Natural Language Processing_. MIT Press Adaptive Computation and Machine Learning Series.<br>
 Gomez-Perez, Jose Manuel, Ronald Denaux, & Andres Garcia-Silva. (2020). _A Practical Guide to Hybrid Natural Language Processing: Combining Neural Models and Knowledge Graphs for NLP_. Springer.<br>
+Huang, Chu-Ren et al. (eds.) (2010). _Ontology and the Lexicon: A Natural Language Processing Perspective_. Cambridge University Press Studies in Natural Language Processing.<br>
 Kamath, Uday, John Liu, & James Whitaker. (2019). _Deep Learning for NLP and Speech Recognition_. Springer.<br>
 Lane, Hobson, Cole Howard, & Hannes Max Hapke. (2019). _Natural Language Processing in Action: Understanding, Analyzing, and Generating Text with Python_. O'Reilly.<br>
 Liu, Zhiyuan, Yankai Lin, & Maosong Sun. (2020). _Representation Learning for Natural Language Processing_. Springer.<br>
