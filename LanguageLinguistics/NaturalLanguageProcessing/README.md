@@ -22,5 +22,57 @@ Thomas, Alex. (2020). _Natural Language Processing with Spark NLP: Learning to U
 Tunstall, Lewis, Leandro von Werra, & Thomas Wolf. (2022). _Natural Language Processing with Transformers: Building Language Applications with HuggingFace_. O'Reilly.<br>
 Vajjala, Sowmya et al. (2020). _Practical Natural Language Processing: A Comprehensive Guide to Building Real-World NLP Systems_. O'Reilly.<br>
 
+IBM's Tone Analyzer [Home](https://www.ibm.com/watson/services/tone-analyzer/)<br>
 spaCy [Home](https://spacy.io)<br>
 SparkNLP [Home](https://nlp.johnsnowlabs.com)<br>
+Unicode [Home](https://home.unicode.org)<br>
+
+
+
+## Terms
+
+ASCII [Wiki](https://en.wikipedia.org/wiki/ASCII)<br>
+Alphanumeric Character [Wiki](https://en.wikipedia.org/wiki/Alphanumeric)<br>
+Character [Wiki](https://en.wikipedia.org/wiki/Character_(symbol))<br>
+Character Encoding [Wiki](https://en.wikipedia.org/wiki/Character_encoding)<br>
+Corpus [Wiki](https://en.wikipedia.org/wiki/Text_corpus)<br>
+Document [Wiki](https://en.wikipedia.org/wiki/Document)<br>
+Grammar Induction/Inference [Wiki](https://en.wikipedia.org/wiki/Grammar_induction)<br>
+Information Extraction [Wiki](https://en.wikipedia.org/wiki/Information_extraction)<br>
+Knowledge Extraction [Wiki](https://en.wikipedia.org/wiki/Knowledge_extraction)<br>
+Lemma [Wiki](https://en.wikipedia.org/wiki/Lemma_(morphology))<br>
+Lemmatization [Wiki](https://en.wikipedia.org/wiki/Lemmatisation)<br>
+Lexeme [Wiki](https://en.wikipedia.org/wiki/Lexeme)<br>
+Lexical Analysis [Wiki](https://en.wikipedia.org/wiki/Lexical_analysis)<br>
+Machine Translation [Wiki](https://en.wikipedia.org/wiki/Machine_translation)<br>
+N-Gram [Wiki](https://en.wikipedia.org/wiki/N-gram)<br>
+Named Entity [Wiki](https://en.wikipedia.org/wiki/Named_entity)<br>
+NER Named-Entity Recognition [Wiki](https://en.wikipedia.org/wiki/Named-entity_recognition)<br>
+NLG Natural Language Generation [Wiki](https://en.wikipedia.org/wiki/Natural-language_generation)<br>
+NLP Natural Language Processing [Wiki](https://en.wikipedia.org/wiki/Natural_language_processing)<br>
+NLU Natural Language Understanding [Wiki](https://en.wikipedia.org/wiki/Natural-language_understanding)<br>
+Parsing [Wiki](https://en.wikipedia.org/wiki/Parsing)<br>
+Part of Speech [Wiki](https://en.wikipedia.org/wiki/Part_of_speech)<br>
+Plain Text [Wiki](https://en.wikipedia.org/wiki/Plain_text)<br>
+PoS Part-of-Speech Tagging [Wiki](https://en.wikipedia.org/wiki/Part-of-speech_tagging)<br>
+Punctuation [Wiki](https://en.wikipedia.org/wiki/Punctuation)<br>
+Sentence Segmentation or SBD Sentence Boundary Disambiguation [Wiki](https://en.wikipedia.org/wiki/Sentence_boundary_disambiguation)<br>
+Sentiment Analysis [Wiki](https://en.wikipedia.org/wiki/Sentiment_analysis)<br>
+Stem [Wiki](https://en.wikipedia.org/wiki/Word_stem)<br>
+Stemming [Wiki](https://en.wikipedia.org/wiki/Stemming)<br>
+Stop Word [Wiki](https://en.wikipedia.org/wiki/Stop_word)<br>
+String [Wiki](https://en.wikipedia.org/wiki/String_(computer_science))<br>
+Tag [Wiki](https://en.wikipedia.org/wiki/Tag_(metadata))<br>
+Tag Cloud [Wiki](https://en.wikipedia.org/wiki/Tag_cloud)<br>
+Text [Wiki](https://en.wikipedia.org/wiki/Text_(literary_theory))<br>
+Text Mining [Wiki](https://en.wikipedia.org/wiki/Text_mining)<br>
+Text Segmentation [Wiki](https://en.wikipedia.org/wiki/Text_segmentation)<br>
+TFIDF Term Frequency Inverse Document Frequency [Wiki](https://en.wikipedia.org/wiki/Tf–idf)<br>
+Token [Wiki](https://en.wikipedia.org/wiki/Lexical_analysis#Token)<br>
+Tokenization [Wiki](https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization)<br>
+Tone Analysis<br>
+Unicode [Home](https://en.wikipedia.org/wiki/Unicode)<br>
+Word [Wiki](https://en.wikipedia.org/wiki/Word)<br>
+Word Embedding [Wiki](https://en.wikipedia.org/wiki/Word_embedding)<br>
+Word Cloud [Wiki](https://en.wikipedia.org/wiki/Tag_cloud)<br>
+Word Segmentation [Wiki](https://en.wikipedia.org/wiki/Text_segmentation#Word_segmentation)<br>
