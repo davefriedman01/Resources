@@ -22,6 +22,9 @@ Thomas, Alex. (2020). _Natural Language Processing with Spark NLP: Learning to U
 Tunstall, Lewis, Leandro von Werra, & Thomas Wolf. (2022). _Natural Language Processing with Transformers: Building Language Applications with HuggingFace_. O'Reilly.<br>
 Vajjala, Sowmya et al. (2020). _Practical Natural Language Processing: A Comprehensive Guide to Building Real-World NLP Systems_. O'Reilly.<br>
 
+Google Books Ngram Viewer [Home](https://books.google.com/ngrams/)<br>
+HuggingFace [Home](https://huggingface.co)<br>
+Hunspell [Home](http://hunspell.github.io)<br>
 IBM's Tone Analyzer [Home](https://www.ibm.com/watson/services/tone-analyzer/)<br>
 spaCy [Home](https://spacy.io)<br>
 SparkNLP [Home](https://nlp.johnsnowlabs.com)<br>
