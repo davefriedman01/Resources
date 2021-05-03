@@ -1,6 +1,7 @@
 # AWS Amazon Web Services
 
 Boto3 Python SDK [Docs](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)<br>
+Botocore [Docs](https://botocore.amazonaws.com/v1/documentation/api/latest/index.html)<br>
 
 ## Resources
 
@@ -18,6 +19,19 @@ S3 [Home](https://aws.amazon.com/s3/)<br>
 SageMaker [Home](https://aws.amazon.com/sagemaker/)<br>
 
 Free Tier [Docs](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)<br>
+Regional Services [Doc](https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/)<br>
+
+## Lambda
+
+Lambda Function Input Event and Response Format [Doc](https://docs.aws.amazon.com/lex/latest/dg/lambda-input-response-format.html)<br>
+Python packages available on Lambda [GitHub](https://gist.github.com/gene1wood/4a052f39490fae00e0c3)<br>
+
+## Lex
+
+Amazon Lex and AWS Lambda Blueprints [Doc](https://docs.aws.amazon.com/lex/latest/dg/lex-lambda-blueprints.html)<br>
+Amazon Lex Pricing [Doc](https://aws.amazon.com/lex/pricing/)<br>
+Sentiment Analysis [Doc](https://docs.aws.amazon.com/lex/latest/dg/sentiment-analysis.html)<br>
+What is Amazon Comprehend? [Doc](https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html)<br>
 
 ## S3
 
