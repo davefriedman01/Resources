@@ -3,6 +3,7 @@
 ## Resources
 
 Curry, Haskell B. (1944). ["The Method of Steepest Descent for Non-Linear Minimization Problems"](https://www.ams.org/journals/qam/1944-02-03/S0033-569X-1944-10667-3/S0033-569X-1944-10667-3.pdf).<br>
+Fausett, Laurene. (1994). _Fundamentals of Neural Networks: Architectures, Algorithms, and Applications_. Prentice Hall.<br>
 Goofellow, Ian, Yoshua Bengio, & Aaron Courville. _Deep Learning_. MIT Press.<br>
 Minsky, Marvin & Seymour Papert. (1969). _Perceptrons: An Introduction to Computational Geometry_. [Wiki](https://en.wikipedia.org/wiki/Perceptrons_(book))<br>
 Rao, Delip & Brian McMahon. _Natural Language Processing with PyTorch_. O'Reilly.<br>
