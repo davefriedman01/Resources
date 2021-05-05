@@ -23,6 +23,7 @@ Tunstall, Lewis, Leandro von Werra, & Thomas Wolf. (2022). _Natural Language Pro
 Vajjala, Sowmya et al. (2020). _Practical Natural Language Processing: A Comprehensive Guide to Building Real-World NLP Systems_. O'Reilly.<br>
 
 Gensim [Home](https://radimrehurek.com/gensim/)<br>
+GloVe [Home](https://nlp.stanford.edu/projects/glove/)<br>
 Google Books Ngram Viewer [Home](https://books.google.com/ngrams/)<br>
 HuggingFace [Home](https://huggingface.co)<br>
 Hunspell [Home](http://hunspell.github.io)<br>
@@ -76,7 +77,8 @@ TFIDF Term Frequency Inverse Document Frequency [Wiki](https://en.wikipedia.org/
 Token [Wiki](https://en.wikipedia.org/wiki/Lexical_analysis#Token)<br>
 Tokenization [Wiki](https://en.wikipedia.org/wiki/Lexical_analysis#Tokenization)<br>
 Tone Analysis<br>
-Unicode [Home](https://en.wikipedia.org/wiki/Unicode)<br>
+Topic Model [Wiki](https://en.wikipedia.org/wiki/Topic_model)<br>
+Unicode [Wiki](https://en.wikipedia.org/wiki/Unicode)<br>
 Word [Wiki](https://en.wikipedia.org/wiki/Word)<br>
 Word Embedding [Wiki](https://en.wikipedia.org/wiki/Word_embedding)<br>
 Word Cloud [Wiki](https://en.wikipedia.org/wiki/Tag_cloud)<br>
