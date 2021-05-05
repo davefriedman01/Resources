@@ -36,12 +36,25 @@ Prince, Simon J. D. [_Computer Vision: Models, Learning, and Inference_](http://
 Szeliski, Rick. (2011). [_Computer Vision: ALgorithms and Applications_](http://szeliski.org/Book/). Springer.<br>
 Trucco, E. & A. Verri. (1998). _Introductory Techniques for 3D Computer Vision_.<br>
 
+## Figures
+
+Turing, Alan (1912-1954) [Wiki](https://en.wikipedia.org/wiki/Alan_Turing)<br>
+
 ## Terms
 
 AI Artificial Intelligence [Investopedia](https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp) [Wiki](https://en.wikipedia.org/wiki/Artificial_intelligence)<br>
-AI Winter [Investopedia](https://www.investopedia.com/terms/a/ai-winter.asp)<br>
+AI Progress [Wiki](https://en.wikipedia.org/wiki/Progress_in_artificial_intelligence)<br>
+AI Timeline [Wiki](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence)<br>
+AI Winter [Investopedia](https://www.investopedia.com/terms/a/ai-winter.asp) [Wiki](https://en.wikipedia.org/wiki/AI_winter)<br>
 Computational Learning Theory [Wiki](https://en.wikipedia.org/wiki/Computational_learning_theory)<br>
+Connectionism [Wiki](https://en.wikipedia.org/wiki/Connectionism)<br>
 Data Mining [Investopedia](https://www.investopedia.com/terms/d/datamining.asp)<br>
+EA Evolutionary Algorithm [Wiki](https://en.wikipedia.org/wiki/Evolutionary_algorithm)<br>
+Evolutionary Computation [Wiki](https://en.wikipedia.org/wiki/Evolutionary_computation)<br>
+Expert System [Wiki](https://en.wikipedia.org/wiki/Expert_system)<br>
+GA Genetic Algorithm [Wiki](https://en.wikipedia.org/wiki/Genetic_algorithm)<br>
+History of AI [Wiki](https://en.wikipedia.org/wiki/History_of_artificial_intelligence)<br>
+Inference Engine [Wiki](https://en.wikipedia.org/wiki/Inference_engine)<br>
 Knowledge Engineering [Investopedia](https://www.investopedia.com/terms/k/knowledge-engineering.asp)<br>
 Strong AI [Investopedia](https://www.investopedia.com/terms/s/strong-ai.asp)<br>
 Turing Test [Investopedia](https://www.investopedia.com/terms/t/turing-test.asp)<br>
