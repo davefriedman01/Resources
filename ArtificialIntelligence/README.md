@@ -41,6 +41,7 @@ Trucco, E. & A. Verri. (1998). _Introductory Techniques for 3D Computer Vision_.
 AI Artificial Intelligence [Investopedia](https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp) [Wiki](https://en.wikipedia.org/wiki/Artificial_intelligence)<br>
 AI Winter [Investopedia](https://www.investopedia.com/terms/a/ai-winter.asp)<br>
 Data Mining [Investopedia](https://www.investopedia.com/terms/d/datamining.asp)<br>
+Knowledge Engineering [Investopedia](https://www.investopedia.com/terms/k/knowledge-engineering.asp)<br>
 Strong AI [Investopedia](https://www.investopedia.com/terms/s/strong-ai.asp)<br>
 Turing Test [Investopedia](https://www.investopedia.com/terms/t/turing-test.asp)<br>
 Weak AI [Investopedia](https://www.investopedia.com/terms/w/weak-ai.asp)<br>
