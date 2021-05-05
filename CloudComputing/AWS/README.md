@@ -11,6 +11,7 @@ Fregly, Chris & Antje Barth. (2021). _Data Science on AWS: Implementing End-to-E
 
 Blockchain [Home](https://aws.amazon.com/blockchain/)<br>
 ECR Elastic Container Registry [Home](https://aws.amazon.com/ecr/)<br>
+EMR Elastic MapReduce [Home](https://docs.aws.amazon.com/emr/index.html)<br>
 Lambda [Home](https://aws.amazon.com/lambda/)<br>
 Lex [Home](https://aws.amazon.com/lex/)<br>
 Managed Blockchain [Home](https://aws.amazon.com/managed-blockchain/)<br>
