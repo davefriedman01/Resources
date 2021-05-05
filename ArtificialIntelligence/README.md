@@ -1,7 +1,5 @@
 # AI Artificial Intelligence
 
-
-
 ## Resources
 
 Bishop, Christopher M. (2006). [_Pattern Recognition and Machine Learning_](https://www.microsoft.com/en-us/research/people/cmbishop/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Fcmbishop%2Fprml%2Findex.htm). Springer.<br>
@@ -38,16 +36,14 @@ Prince, Simon J. D. [_Computer Vision: Models, Learning, and Inference_](http://
 Szeliski, Rick. (2011). [_Computer Vision: ALgorithms and Applications_](http://szeliski.org/Book/). Springer.<br>
 Trucco, E. & A. Verri. (1998). _Introductory Techniques for 3D Computer Vision_.<br>
 
-
-
 ## Terms
 
 AI Artificial Intelligence [Investopedia](https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp) [Wiki](https://en.wikipedia.org/wiki/Artificial_intelligence)<br>
 AI Winter [Investopedia](https://www.investopedia.com/terms/a/ai-winter.asp)<br>
+Data Mining [Investopedia](https://www.investopedia.com/terms/d/datamining.asp)<br>
 Strong AI [Investopedia](https://www.investopedia.com/terms/s/strong-ai.asp)<br>
 Turing Test [Investopedia](https://www.investopedia.com/terms/t/turing-test.asp)<br>
 Weak AI [Investopedia](https://www.investopedia.com/terms/w/weak-ai.asp)<br>
-
 
 [Anomaly Detection (Wikipedia)](https://en.wikipedia.org/wiki/Anomaly_detection)<br>
 [ANN Artificial Neural Network (Wikipedia)](https://en.wikipedia.org/wiki/Artificial_neural_network)<br>
