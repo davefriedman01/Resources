@@ -26,7 +26,7 @@ Widrow, Bernard [Wiki](https://en.wikipedia.org/wiki/Bernard_Widrow)<br>
 
 ## Terms
 
-Activation Function [Wiki](https://en.wikipedia.org/wiki/Activation_function)
+Activation Function [Wiki](https://en.wikipedia.org/wiki/Activation_function)<br>
 ADALINE Adaptive Linear Neuron [Wiki](https://en.wikipedia.org/wiki/ADALINE)<br>
 ANN Artificial Neural Network [Investopedia](https://www.investopedia.com/terms/a/artificial-neural-networks-ann.asp) [Wiki](https://en.wikipedia.org/wiki/Artificial_neural_network)<br>
 Artificial Neuron [Wiki](https://en.wikipedia.org/wiki/Artificial_neuron)<br>
@@ -35,6 +35,7 @@ CNN Convolutional Neural Network [Wiki](https://en.wikipedia.org/wiki/Convolutio
 Delta Rule [Wiki](https://en.wikipedia.org/wiki/Delta_rule)<br>
 DL Deep Learning [Wiki](https://en.wikipedia.org/wiki/Deep_learning)<br>
 DNN Deep Neural Network [Wiki](https://en.wikipedia.org/wiki/Deep_learning#Deep_neural_networks)<br>
+XOR Exclusive Disjunction [Wiki](https://en.wikipedia.org/wiki/Exclusive_or)
 Feedforward Neural Network [Wiki](https://en.wikipedia.org/wiki/Feedforward_neural_network)<br>
 Gradient Descent [Wiki](https://en.wikipedia.org/wiki/Gradient_descent)<br>
 Heaviside Step Function [Wiki](https://en.wikipedia.org/wiki/Heaviside_step_function)<br>
@@ -53,4 +54,3 @@ SGD Stochastic Gradient Descent [Wiki](https://en.wikipedia.org/wiki/Stochastic_
 Transfer Function [Wiki](https://en.wikipedia.org/wiki/Transfer_function)<br>
 Universal Approximation Theorem [Wiki](https://en.wikipedia.org/wiki/Universal_approximation_theorem)<br>
 Unorganized Machine [Wiki](https://en.wikipedia.org/wiki/Unorganized_machine)<br>
-XOR Exclusive Disjunction [Wiki](https://en.wikipedia.org/wiki/Exclusive_or)
