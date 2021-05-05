@@ -55,7 +55,7 @@ N-Gram [Wiki](https://en.wikipedia.org/wiki/N-gram)<br>
 Named Entity [Wiki](https://en.wikipedia.org/wiki/Named_entity)<br>
 NER Named-Entity Recognition [Wiki](https://en.wikipedia.org/wiki/Named-entity_recognition)<br>
 NLG Natural Language Generation [Wiki](https://en.wikipedia.org/wiki/Natural-language_generation)<br>
-NLP Natural Language Processing [Wiki](https://en.wikipedia.org/wiki/Natural_language_processing)<br>
+NLP Natural Language Processing [Investopedia](https://www.investopedia.com/terms/n/natural-language-processing-nlp.asp) [Wiki](https://en.wikipedia.org/wiki/Natural_language_processing)<br>
 NLU Natural Language Understanding [Wiki](https://en.wikipedia.org/wiki/Natural-language_understanding)<br>
 Parsing [Wiki](https://en.wikipedia.org/wiki/Parsing)<br>
 Part of Speech [Wiki](https://en.wikipedia.org/wiki/Part_of_speech)<br>

@@ -42,7 +42,13 @@ Trucco, E. & A. Verri. (1998). _Introductory Techniques for 3D Computer Vision_.
 
 ## Terms
 
-[AI Artificial Intelligence (Wikipedia)](https://en.wikipedia.org/wiki/Artificial_intelligence)<br>
+AI Artificial Intelligence [Investopedia](https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp) [Wiki](https://en.wikipedia.org/wiki/Artificial_intelligence)<br>
+AI Winter [Investopedia](https://www.investopedia.com/terms/a/ai-winter.asp)<br>
+Strong AI [Investopedia](https://www.investopedia.com/terms/s/strong-ai.asp)<br>
+Turing Test [Investopedia](https://www.investopedia.com/terms/t/turing-test.asp)<br>
+Weak AI [Investopedia](https://www.investopedia.com/terms/w/weak-ai.asp)<br>
+
+
 [Anomaly Detection (Wikipedia)](https://en.wikipedia.org/wiki/Anomaly_detection)<br>
 [ANN Artificial Neural Network (Wikipedia)](https://en.wikipedia.org/wiki/Artificial_neural_network)<br>
 [Classification (Wikipedia)](https://en.wikipedia.org/wiki/Statistical_classification)<br>
