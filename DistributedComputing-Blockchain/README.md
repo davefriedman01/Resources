@@ -1,13 +1,19 @@
 # Distributed Computing, Big Data, Blockchain, and Cryptocurrency
 
+
+
 ## Courses
+Boneh, Dan & Benedikt Bunz. (2020). CS251: Bitcoin and Cryptocurrencies. Stanford. [Home](https://cs251.stanford.edu).<br>
 Gensler, Gary. (2018). 15.S12: Blockchain and Money. MIT. [Home](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/).<br>
+Gramoli, Vincent. Blockchain Scalability and its Foundations in Distributed Computing. University of Sydney. [Coursera](https://www.coursera.org/learn/blockchain-scalability).<br>
 Narayanan, Arvind. Bitcoin and Cryptocurrency Technologies. Princeton. [Coursera](https://www.coursera.org/learn/cryptocurrency).<br>
 Tang, Yuzhe. CIS600/FIN600: Blockchain and Cryptocurrecny. Syracuse University. [GitHub](https://tristartom.github.io/teaching/20f-fin600/).<br>
 
+
+
 ## Resources
 
-
+Abraham, Ittai & Gilad Stern. (2020). ["Information Theoretic HotStuff"](https://arxiv.org/pdf/2009.12828.pdf).<br>
 Antonopoulos, Andreas M. (2017). [_Mastering Bitcoin: Programming the Open Blockchain, 2nd Ed_](https://github.com/bitcoinbook/bitcoinbook). O'Reilly.<br>
 Antonopoulos, Andreas M. & Gavin Wood. (2018). [_Mastering Ethereum: Building Smart Contracts and DApps_](https://github.com/ethereumbook/ethereumbook.git). O'Reilly.<br>
 Back, Adam. (2002). ["Hashcash: A Denial-of-Service Countermeasure"](http://www.hashcash.org/papers/hashcash.pdf).<br>
@@ -15,13 +21,18 @@ Bar-Zur, Roi, Ittay Eyal, & Aviv Tamar. (2020). ["Efficient MDP Analysis for Sel
 Bech, Morten & Rodney Garratt. (2017). ["Central bank cryptocurrencies"](https://www.bis.org/publ/qtrpdf/r_qt1709f.pdf).<br>
 Buterin, Vitalik. (2013). ["Ethereum White Paper"](https://ethereum.org/whitepaper/).<br>
 Chaum, David. (1982). ["Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups"](https://www.chaum.com/publications/chaum_dissertation.pdf).<br>
+Cohen, Bram & Krzysztof Pietrzak. (2019). ["The Chia Network Blockchain"](https://www.chia.net/assets/ChiaGreenPaper.pdf).<br>
 Dembo, Amir et al. (2020). ["Everything is a Race and Nakamoto Always Wins"](https://arxiv.org/pdf/2005.10484.pdf).<br>
 Dwork, Cynthia & Moni Naor. (1993). "Pricing via Processing or Combatting Junk Mail".<br>
 Dwork, Cynthia, Nancy Lynch, & Larry Stockmeyer. (1988). "Consensus in the Presence of Partial Synchrony".<br>
+Eyal, Ittay et al. (2016). ["Bitcoin-NG: A Scalable Blockchain Protocol"](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf).<br>
 Fischer, Michael J., Nancy A. Lynch, & Michael S. Paterson. (1985). "Impossibility of Distributed Consensus with One Faulty Process".<br>
 Fokkink, Wan. (2018). _Distributed Algorithms: An Intuitive Approach, 2nd Ed_. MIT Press.<br>
+Gilad, Yossi et al. (2017). ["Algorand: Scaling Byzantine Agreements for Cryptocurrencies"](https://dl.acm.org/doi/pdf/10.1145/3132747.3132757).<br>
 Haber, Stuart & W. Scott Stornetta. (1991). ["How to Time-Stamp a Digital Document"](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=C01131148AF17AF93F2655C091376AF4?doi=10.1.1.46.8740&rep=rep1&type=pdf).<br>
 Infante, Roberto. (2019). _Building Ethereum Dapps_. Manning.<br>
+Jalalzai, Mohammad M. et al. (2021). ["Fast-HotStuff: A Fast and Robust BFT Protocol for Blockchains"](https://arxiv.org/pdf/2010.11454.pdf).<br>
+Kelkar, Mahimna et al. (2020). ["Order-Fairness for Byzantine Consensus"](https://eprint.iacr.org/2020/269.pdf).<br>
 Keshav, Srinivasan. (2012). _Mathematical Foundations of Computer Networking_. Addison-Wesley Professional Computing Series.<br>
 Kurose, Jim & Keith Ross. (2020). [_Computer Networking: A Top-Down Approach, 8th Ed_](https://gaia.cs.umass.edu/kurose_ross/index.html). Pearson.<br>
 Lamport, Leslie. (2000). "The Part-Time Parliament".<br>
@@ -40,25 +51,14 @@ Szabo, Nick. (2005). ["Bit Gold"](https://nakamotoinstitute.org/bit-gold/).<br>
 Szabo, Nick. (1997). "The Idea of Smart Contracts".<br>
 Wei, Dai. (1998). ["b-money"](http://www.weidai.com/bmoney.txt).<br>
 Werbach, Kevin. (2018). _The Blockchain and the New Architecture of Trust_. MIT Press.<br>
+Yang, Lei et al. (2020). ["Prism: Scaling Bitcoin by 10,000x"](https://arxiv.org/pdf/1909.11261.pdf).<br>
+Yu, Mingchao et al. (2019). ["Coded Merkle Tree: Solving Data Availability Attacks in Blockchains"](https://arxiv.org/pdf/1910.01247.pdf).<br>
 Zand, Matt, Xun (Brian) Wu, & Mark Anthony Morris. (2021). _Hands-On Smart Contract Development with Hyperledger Fabric V2: Building Enterprise Blockchain Applications_. O'Reilly.<br>
 
-#### Algorand
-Gilad, Yossi et al. (2017). ["Algorand: Scaling Byzantine Agreements for Cryptocurrencies"](https://dl.acm.org/doi/pdf/10.1145/3132747.3132757).<br>
-
-#### Byzantine Consensus
-Kelkar, Mahimna et al. (2020). ["Order-Fairness for Byzantine Consensus"](https://eprint.iacr.org/2020/269.pdf).<br>
-
-#### Chia
-Cohen, Bram & Krzysztof Pietrzak. (2019). ["The Chia Network Blockchain"](https://www.chia.net/assets/ChiaGreenPaper.pdf).<br>
-
-#### HotStuff
-Abraham, Ittai & Gilad Stern. (2020). ["Information Theoretic HotStuff"](https://arxiv.org/pdf/2009.12828.pdf).<br>
-Jalalzai, Mohammad M. et al. (2021). ["Fast-HotStuff: A Fast and Robust BFT Protocol for Blockchains"](https://arxiv.org/pdf/2010.11454.pdf).<br>
-
-#### Merkle Tree
-Yu, Mingchao et al. (2019). ["Coded Merkle Tree: Solving Data Availability Attacks in Blockchains"](https://arxiv.org/pdf/1910.01247.pdf).<br>
-
+Algorand [Home](https://www.algorand.com)<br>
 Bitcoin [Wiki](https://en.wikipedia.org/wiki/Bitcoin)<br>
+Burstcoin [Investopedia](https://www.investopedia.com/terms/b/burstcoin.asp)<br>
+Chia [Home](https://www.chia.net)<br>
 Coinbase [Home](https://www.coinbase.com) [Wiki](https://en.wikipedia.org/wiki/Coinbase)<br>
 Coindesk [Home](https://www.coindesk.com)<br>
 Cointelegraph [Home](https://cointelegraph.com)<br>
@@ -66,14 +66,19 @@ Crypto.com [Home](https://crypto.com/en/index.html)<br>
 Cryptocurrency List [Wiki](https://en.wikipedia.org/wiki/List_of_cryptocurrencies)<br>
 CryptoZombies [Home](https://cryptozombies.io)<br>
 Decentraland [Home](https://decentraland.org)<br>
+Diem [Whitepaper](https://www.diem.com/en-us/white-paper/) [Wiki](https://en.wikipedia.org/wiki/Diem_(digital_currency))<br>
 Ethereum [Wiki](https://en.wikipedia.org/wiki/Ethereum)<br>
 ENS Ethereum Name Service [Home](https://ens.domains)<br>
+Flare Networks [Home](https://flare.ghost.io)<br>
 H.R.6154 - Crypto-Currency Act of 2020 [congress.gov](https://www.congress.gov/bill/116th-congress/house-bill/6154)<br>
 Hashcash [Wiki](https://en.wikipedia.org/wiki/Hashcash)<br>
 Hyperledger (The Linux Foundation) [Home](https://www.hyperledger.org) [Wiki](https://en.wikipedia.org/wiki/Hyperledger)<br>
+Ripple [Home](https://ripple.com)<br>
 Seed Labs: Blockchain [GitHub](https://github.com/seed-labs/seed-labs)<br>
 Spacemesh [Home](https://spacemesh.io)<br>
+Stanford Blockchain Conference [Home](https://cbr.stanford.edu/sbc20/)<br>
 Unstoppable Domains [Home](https://unstoppabledomains.com)<br>
+XRP [Home](https://ripple.com/xrp/)<br>
 
 "Advanced Blockchain Concepts for Beginners" [Medium](https://mycoralhealth.medium.com/advanced-blockchain-concepts-for-beginners-32887202afad)<br>
 "What is DeFi?" [Coinbase](https://www.coinbase.com/learn/crypto-basics/what-is-defi)<br>
@@ -89,9 +94,13 @@ Buterin, Vitalik [Wiki](https://en.wikipedia.org/wiki/Vitalik_Buterin)<br>
 Chaum, David [Wiki](https://en.wikipedia.org/wiki/David_Chaum)<br>
 Dijkstra, Edsger (1930-2002) [Wiki](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)<br>
 Dwork, Cynthia [Wiki](https://en.wikipedia.org/wiki/Cynthia_Dwork)<br>
+Fischer, Michael [Wiki](https://en.wikipedia.org/wiki/Michael_J._Fischer)<br>
 Hoare, Tony [Wiki](https://en.wikipedia.org/wiki/Tony_Hoare)<br>
+Lamport, Leslie [Wiki](https://en.wikipedia.org/wiki/Leslie_Lamport)<br>
+Lynch, Nancy [Wiki](https://en.wikipedia.org/wiki/Nancy_Lynch)<br>
 Merkle, Ralph [Wiki](https://en.wikipedia.org/wiki/Ralph_Merkle)<br>
 Nakamoto, Satoshi [Wiki](https://en.wikipedia.org/wiki/Satoshi_Nakamoto)<br>
+Paterson, Mike [Wiki](https://en.wikipedia.org/wiki/Mike_Paterson)<br>
 Szabo, Nick [Wiki](https://en.wikipedia.org/wiki/Nick_Szabo)<br>
 
 
@@ -106,6 +115,7 @@ Blockchain [Investopedia](https://www.investopedia.com/terms/b/blockchain.asp) [
 Blockchain 2.0<br>
 Blockchain 3.0<br>
 Blockchain Analysis [Wiki](https://en.wikipedia.org/wiki/Blockchain_analysis)<br>
+Blockchain Consensus<br>
 Broadcast [Wiki](https://en.wikipedia.org/wiki/Broadcasting_(networking))<br>
 Byzantine Broadcast<br>
 Byzantine Fault [Wiki](https://en.wikipedia.org/wiki/Byzantine_fault)<br>
@@ -115,7 +125,7 @@ Clock Synchronization [Wiki](https://en.wikipedia.org/wiki/Clock_synchronization
 Communication Protocol [Wiki](https://en.wikipedia.org/wiki/Communication_protocol)<br>
 Computer Network [Wiki](https://en.wikipedia.org/wiki/Computer_network)<br>
 Connectionism [Wiki](https://en.wikipedia.org/wiki/Connectionism)<br>
-Consensus [Wiki](https://en.wikipedia.org/wiki/Consensus_(computer_science))<br>
+Consensus [Investopedia](https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp) [Wiki](https://en.wikipedia.org/wiki/Consensus_(computer_science))<br>
 Cryptocurrency [Wiki](https://en.wikipedia.org/wiki/Cryptocurrency)<br>
 Cryptographic Primitive<br>
 Cypherpunk [Wiki](https://en.wikipedia.org/wiki/Cypherpunk)<br>
@@ -132,30 +142,45 @@ DLT Distributed Ledger Technology [Wiki](https://en.wikipedia.org/wiki/Distribut
 Distributed Memory [Wiki](https://en.wikipedia.org/wiki/Distributed_memory)<br>
 Distributed Networking [Wiki](https://en.wikipedia.org/wiki/Distributed_networking)<br>
 Distributed OS [Wiki](https://en.wikipedia.org/wiki/Distributed_operating_system)<br>
+Dolev-Strong Protocol<br>
 Double-Spending [Wiki](https://en.wikipedia.org/wiki/Double-spending)<br>
 DeFi Decentralized Finance [Wiki](https://en.wikipedia.org/wiki/Decentralized_finance)<br>
+FLP Impossibility<br>
+Ghost Protocol<br>
+HotStuff Protocol<br>
 Leader Election [Wiki](https://en.wikipedia.org/wiki/Leader_election)<br>
 Load Balancing [Wiki](https://en.wikipedia.org/wiki/Load_balancing_(computing))<br>
 Merkle Tree [Wiki](https://en.wikipedia.org/wiki/Merkle_tree)<br>
 Message Passing [Wiki](https://en.wikipedia.org/wiki/Message_passing)<br>
 MOM Message-Oriented Middleware [Wiki](https://en.wikipedia.org/wiki/Message-oriented_middleware)<br>
-Mining [Wiki](https://en.wikipedia.org/wiki/Cryptocurrency#Mining)<br>
+Mining [Investopedia](https://www.investopedia.com/tech/how-does-bitcoin-mining-work/) [Wiki](https://en.wikipedia.org/wiki/Cryptocurrency#Mining)<br>
 Mining Pool [Wiki](https://en.wikipedia.org/wiki/Mining_pool)<br>
+Nakamoto Consensus<br>
 NFT Non Fungible Token [Wiki](https://en.wikipedia.org/wiki/Non-fungible_token)<br>
+Obelisk Consensus [Investopedia](https://www.investopedia.com/terms/o/obelisk-consensus-algorithm.asp)<br>
 P2P Lending [Wiki](https://en.wikipedia.org/wiki/Peer-to-peer_lending)<br>
 Payment Rail [Wiki](https://en.wikipedia.org/wiki/Payment_rail)<br>
 PDP Parallel Distributed Processing [Wiki](https://en.wikipedia.org/wiki/Connectionism)<br>
 P2P Peer-to-Peer [Wiki](https://en.wikipedia.org/wiki/Peer-to-peer)<br>
 Permissioned<br>
 Permissionless<br>
-PoS Proof-of-Stake [Wiki](https://en.wikipedia.org/wiki/Proof_of_stake)<br>
-PoW Proof-of-Work [Wiki](https://en.wikipedia.org/wiki/Proof_of_work)<br>
+PoA Proof of Activity [Investopedia](https://www.investopedia.com/terms/p/proof-activity-cryptocurrency.asp)<br>
+PoA Proof of Assignment [Investopedia](https://www.investopedia.com/terms/p/proof-assignment-poa.asp)<br>
+PoA Proof of Authority [Wiki](https://en.wikipedia.org/wiki/Proof_of_authority)<br>
+PoC Proof of Capacity [Investopedia](https://www.investopedia.com/terms/p/proof-capacity-cryptocurrency.asp)<br>
+PoP Proof of Personhood [Wiki](https://en.wikipedia.org/wiki/Proof_of_personhood)<br>
+PoS Proof of Space [Wiki](https://en.wikipedia.org/wiki/Proof_of_space)<br>
+PoS Proof of Stake [Investopedia](https://www.investopedia.com/terms/p/proof-stake-pos.asp) [Wiki](https://en.wikipedia.org/wiki/Proof_of_stake)<br>
+PoW Proof of Work [Investopedia](https://www.investopedia.com/terms/p/proof-work.asp) [Wiki](https://en.wikipedia.org/wiki/Proof_of_work)<br>
+Quantum Byzantine Agreement [Wiki](https://en.wikipedia.org/wiki/Quantum_Byzantine_agreement)<br>
 Shard [Wiki](https://en.wikipedia.org/wiki/Shard_(database_architecture))<br>
 State Machine Replication [Wiki](https://en.wikipedia.org/wiki/State_machine_replication)<br>
+Streamlet Protocol<br>
 Smart Contract [Wiki](https://en.wikipedia.org/wiki/Smart_contract)<br>
 Synchronization [Wiki](https://en.wikipedia.org/wiki/Synchronization_(computer_science))<br>
 Synchronizer [Wiki](https://en.wikipedia.org/wiki/Synchronizer_(algorithm))<br>
 Synchronous Network<br>
+Unbounded Nondeterminism [Wiki](https://en.wikipedia.org/wiki/Unbounded_nondeterminism)<br>
 Validator [Wiki](https://en.wikipedia.org/wiki/Validator)<br>
 Virtual Currency [Wiki](https://en.wikipedia.org/wiki/Virtual_currency)<br>
 Wallet [Wiki](https://en.wikipedia.org/wiki/Cryptocurrency_wallet)<br>
