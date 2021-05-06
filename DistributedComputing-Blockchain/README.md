@@ -1,4 +1,4 @@
-# Distributed Computing, Blockchain, and Cryptocurrency
+# Distributed Computing, Big Data, Blockchain, and Cryptocurrency
 
 ## Courses
 Gensler, Gary. (2018). 15.S12: Blockchain and Money. MIT. [Home](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/).<br>
@@ -54,15 +54,19 @@ Jalalzai, Mohammad M. et al. (2021). ["Fast-HotStuff: A Fast and Robust BFT Prot
 #### Merkle Tree
 Yu, Mingchao et al. (2019). ["Coded Merkle Tree: Solving Data Availability Attacks in Blockchains"](https://arxiv.org/pdf/1910.01247.pdf).<br>
 
-Coinbase [Home](https://www.coinbase.com)<br>
+Bitcoin [Wiki](https://en.wikipedia.org/wiki/Bitcoin)<br>
+Coinbase [Home](https://www.coinbase.com) [Wiki](https://en.wikipedia.org/wiki/Coinbase)<br>
 Coindesk [Home](https://www.coindesk.com)<br>
 Cointelegraph [Home](https://cointelegraph.com)<br>
 Crypto.com [Home](https://crypto.com/en/index.html)<br>
+Cryptocurrency List [Wiki](https://en.wikipedia.org/wiki/List_of_cryptocurrencies)<br>
 CryptoZombies [Home](https://cryptozombies.io)<br>
 Decentraland [Home](https://decentraland.org)<br>
+Ethereum [Wiki](https://en.wikipedia.org/wiki/Ethereum)<br>
 ENS Ethereum Name Service [Home](https://ens.domains)<br>
 H.R.6154 - Crypto-Currency Act of 2020 [congress.gov](https://www.congress.gov/bill/116th-congress/house-bill/6154)<br>
-Hyperledger (The Linux Foundation) [Home](https://www.hyperledger.org)<br>
+Hashcash [Wiki](https://en.wikipedia.org/wiki/Hashcash)<br>
+Hyperledger (The Linux Foundation) [Home](https://www.hyperledger.org) [Wiki](https://en.wikipedia.org/wiki/Hyperledger)<br>
 Seed Labs: Blockchain [GitHub](https://github.com/seed-labs/seed-labs)<br>
 Spacemesh [Home](https://spacemesh.io)<br>
 Unstoppable Domains [Home](https://unstoppabledomains.com)<br>
@@ -76,8 +80,14 @@ Unstoppable Domains [Home](https://unstoppabledomains.com)<br>
 
 ## Figures
 
+Back, Adam [Wiki](https://en.wikipedia.org/wiki/Adam_Back)<br>
+Buterin, Vitalik [Wiki](https://en.wikipedia.org/wiki/Vitalik_Buterin)<br>
 Dijkstra, Edsger (1930-2002) [Wiki](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)<br>
+Dwork, Cynthia [Wiki](https://en.wikipedia.org/wiki/Cynthia_Dwork)<br>
 Hoare, Tony [Wiki](https://en.wikipedia.org/wiki/Tony_Hoare)<br>
+Merkle, Ralph [Wiki](https://en.wikipedia.org/wiki/Ralph_Merkle)<br>
+Nakamoto, Satoshi [Wiki](https://en.wikipedia.org/wiki/Satoshi_Nakamoto)<br>
+Szabo, Nick [Wiki](https://en.wikipedia.org/wiki/Nick_Szabo)<br>
 
 
 
@@ -86,34 +96,61 @@ Hoare, Tony [Wiki](https://en.wikipedia.org/wiki/Tony_Hoare)<br>
 Asynchronous Network [Wiki](https://en.wikipedia.org/wiki/Load_balancing_(computing))<br>
 Asynchronous System [Wiki](https://en.wikipedia.org/wiki/Asynchronous_system)<br>
 Atomic Broadcast [Wiki](https://en.wikipedia.org/wiki/Atomic_broadcast)<br>
+Bitcoin Network [Wiki](https://en.wikipedia.org/wiki/Bitcoin_network)<br>
 Blockchain [Investopedia](https://www.investopedia.com/terms/b/blockchain.asp) [Wiki](https://en.wikipedia.org/wiki/Blockchain)<br>
 Blockchain 2.0<br>
 Blockchain 3.0<br>
+Blockchain Analysis [Wiki](https://en.wikipedia.org/wiki/Blockchain_analysis)<br>
 Broadcast [Wiki](https://en.wikipedia.org/wiki/Broadcasting_(networking))<br>
 Byzantine Broadcast<br>
 Byzantine Fault [Wiki](https://en.wikipedia.org/wiki/Byzantine_fault)<br>
 Byzantine Fault Tolerance<br>
+CPP Client Puzzle Protocol [Wiki](https://en.wikipedia.org/wiki/Client_Puzzle_Protocol)<br>
 Clock Synchronization [Wiki](https://en.wikipedia.org/wiki/Clock_synchronization)<br>
+Communication Protocol [Wiki](https://en.wikipedia.org/wiki/Communication_protocol)<br>
 Computer Network [Wiki](https://en.wikipedia.org/wiki/Computer_network)<br>
 Connectionism [Wiki](https://en.wikipedia.org/wiki/Connectionism)<br>
 Consensus [Wiki](https://en.wikipedia.org/wiki/Consensus_(computer_science))<br>
+Cryptocurrency [Wiki](https://en.wikipedia.org/wiki/Cryptocurrency)<br>
 Cryptographic Primitive<br>
+Cypherpunk [Wiki](https://en.wikipedia.org/wiki/Cypherpunk)<br>
+Decentralization [Wiki](https://en.wikipedia.org/wiki/Decentralization)<br>
+Dapp Decentralized Application [Wiki](https://en.wikipedia.org/wiki/Decentralized_application)<br>
+Digital Asset [Wiki](https://en.wikipedia.org/wiki/Digital_asset)<br>
+Digital Currency [Wiki](https://en.wikipedia.org/wiki/Digital_currency)<br>
+Digital Token [Wiki](https://en.wikipedia.org/wiki/Token_money)<br>
 Dining Philosophers Problem [Wiki](https://en.wikipedia.org/wiki/Dining_philosophers_problem)<br>
 Distributed Algorithm [Wiki](https://en.wikipedia.org/wiki/Distributed_algorithm)<br>
 Distributed Computing [Wiki](https://en.wikipedia.org/wiki/Distributed_computing)<br>
+Distributed Database [Wiki](https://en.wikipedia.org/wiki/Distributed_database)<br>
+DLT Distributed Ledger Technology [Wiki](https://en.wikipedia.org/wiki/Distributed_ledger)<br>
 Distributed Memory [Wiki](https://en.wikipedia.org/wiki/Distributed_memory)<br>
 Distributed Networking [Wiki](https://en.wikipedia.org/wiki/Distributed_networking)<br>
 Distributed OS [Wiki](https://en.wikipedia.org/wiki/Distributed_operating_system)<br>
+Double-Spending [Wiki](https://en.wikipedia.org/wiki/Double-spending)<br>
 DeFi Decentralized Finance [Wiki](https://en.wikipedia.org/wiki/Decentralized_finance)<br>
 Leader Election [Wiki](https://en.wikipedia.org/wiki/Leader_election)<br>
 Load Balancing [Wiki](https://en.wikipedia.org/wiki/Load_balancing_(computing))<br>
 Merkle Tree [Wiki](https://en.wikipedia.org/wiki/Merkle_tree)<br>
 Message Passing [Wiki](https://en.wikipedia.org/wiki/Message_passing)<br>
 MOM Message-Oriented Middleware [Wiki](https://en.wikipedia.org/wiki/Message-oriented_middleware)<br>
-P2P Peer-to-Peer [Wiki](https://en.wikipedia.org/wiki/Peer-to-peer)<br>
+Mining [Wiki](https://en.wikipedia.org/wiki/Cryptocurrency#Mining)<br>
+Mining Pool [Wiki](https://en.wikipedia.org/wiki/Mining_pool)<br>
+NFT Non Fungible Token [Wiki](https://en.wikipedia.org/wiki/Non-fungible_token)<br>
 P2P Lending [Wiki](https://en.wikipedia.org/wiki/Peer-to-peer_lending)<br>
+Payment Rail [Wiki](https://en.wikipedia.org/wiki/Payment_rail)<br>
 PDP Parallel Distributed Processing [Wiki](https://en.wikipedia.org/wiki/Connectionism)<br>
+P2P Peer-to-Peer [Wiki](https://en.wikipedia.org/wiki/Peer-to-peer)<br>
+Permissioned<br>
+Permissionless<br>
+PoS Proof-of-Stake [Wiki](https://en.wikipedia.org/wiki/Proof_of_stake)<br>
+PoW Proof-of-Work [Wiki](https://en.wikipedia.org/wiki/Proof_of_work)<br>
+Shard [Wiki](https://en.wikipedia.org/wiki/Shard_(database_architecture))<br>
 State Machine Replication [Wiki](https://en.wikipedia.org/wiki/State_machine_replication)<br>
+Smart Contract [Wiki](https://en.wikipedia.org/wiki/Smart_contract)<br>
 Synchronization [Wiki](https://en.wikipedia.org/wiki/Synchronization_(computer_science))<br>
 Synchronizer [Wiki](https://en.wikipedia.org/wiki/Synchronizer_(algorithm))<br>
 Synchronous Network<br>
+Validator [Wiki](https://en.wikipedia.org/wiki/Validator)<br>
+Virtual Currency [Wiki](https://en.wikipedia.org/wiki/Virtual_currency)<br>
+Wallet [Wiki](https://en.wikipedia.org/wiki/Cryptocurrency_wallet)<br>
