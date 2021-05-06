@@ -58,6 +58,7 @@ Recursive Filter [Wiki](https://en.wikipedia.org/wiki/Recursive_filter)<br>
 Signal [Wiki](https://en.wikipedia.org/wiki/Signal)<br>
 Signal Processing [Wiki](https://en.wikipedia.org/wiki/Signal_processing)<br>
 Signaling [Wiki](https://en.wikipedia.org/wiki/Signaling_(telecommunications))<br>
+Smart Grid [Wiki](https://en.wikipedia.org/wiki/Smart_grid)<br>
 Spectral Analysis<br>
 State Estimator/Observer [Wiki](https://en.wikipedia.org/wiki/State_observer)<br>
 System Analysis [Wiki](https://en.wikipedia.org/wiki/System_analysis)<br>
