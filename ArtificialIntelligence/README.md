@@ -35,7 +35,7 @@ Turing, Alan (1912-1954) [Wiki](https://en.wikipedia.org/wiki/Alan_Turing)<br>
 
 ## Terms
 
-AI Artificial Intelligence [Investopedia](https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp) [Wiki](https://en.wikipedia.org/wiki/Artificial_intelligence)<br>
+AI Artificial Intelligence [Investopedia](https://www.investopedia.com/terms/a/artificial-intelligence-ai.asp) [SEP](https://plato.stanford.edu/entries/artificial-intelligence/) [Wiki](https://en.wikipedia.org/wiki/Artificial_intelligence)<br>
 AI Progress [Wiki](https://en.wikipedia.org/wiki/Progress_in_artificial_intelligence)<br>
 AI Timeline [Wiki](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence)<br>
 AI Winter [Investopedia](https://www.investopedia.com/terms/a/ai-winter.asp) [Wiki](https://en.wikipedia.org/wiki/AI_winter)<br>
@@ -49,8 +49,9 @@ GA Genetic Algorithm [Wiki](https://en.wikipedia.org/wiki/Genetic_algorithm)<br>
 History of AI [Wiki](https://en.wikipedia.org/wiki/History_of_artificial_intelligence)<br>
 Inference Engine [Wiki](https://en.wikipedia.org/wiki/Inference_engine)<br>
 Knowledge Engineering [Investopedia](https://www.investopedia.com/terms/k/knowledge-engineering.asp)<br>
+Logic-based AI [SEP](https://plato.stanford.edu/entries/logic-ai/)<br>
 Strong AI [Investopedia](https://www.investopedia.com/terms/s/strong-ai.asp)<br>
-Turing Test [Investopedia](https://www.investopedia.com/terms/t/turing-test.asp)<br>
+Turing Test [Investopedia](https://www.investopedia.com/terms/t/turing-test.asp) [SEP](https://plato.stanford.edu/entries/turing-test/)<br>
 Weak AI [Investopedia](https://www.investopedia.com/terms/w/weak-ai.asp)<br>
 
 [Anomaly Detection (Wikipedia)](https://en.wikipedia.org/wiki/Anomaly_detection)<br>
