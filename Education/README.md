@@ -44,8 +44,10 @@ Pentester Academy [Home](https://www.pentesteracademy.com)<br>
 ## Publishers
 
 ACM Digital Library [Home](https://dl.acm.org)<br>
+Addison-Wesley Professional Computing Series [Home](https://www.pearson.com/us/higher-education/series/Addison-Wesley-Professional-Computing-Series/334583.html)<br>
 [Apress](https://www.apress.com)<br>
 [Dover](https://store.doverpublications.com/by-subject-mathematics.html)<br>
+Green Lion Press [Home](https://greenlion.com)<br>
 [Manning](https://www.manning.com)<br>
 [No Starch Press](https://nostarch.com)<br>
 [O'Reilly](https://www.oreilly.com)<br>
