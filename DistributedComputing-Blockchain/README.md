@@ -11,7 +11,22 @@ Tang, Yuzhe. CIS600/FIN600: Blockchain and Cryptocurrecny. Syracuse University. 
 
 
 
-## Resources
+## Big Data Resources
+
+Chambers, Bill & Matei Zaharia. (2018). _Spark: The Definitive Guide: Big Data Processing Made Simple_. O'Reilly. [GitHub](https://github.com/databricks/Spark-The-Definitive-Guide).<br>
+Dean, Jeffrey & Sanjay Ghemawat. (2004). "MapReduce: Simplified Data Processing on Large Clusters".<br>
+Damji, Jules S. et al. (2020). _Learning Spark: Lightning-Fast Data Analytics, 2nd Ed_. O'Reilly.<br>
+Karau, Holden & Rachel Warren. (2017). _High Performance Spark: Best Practices for Scaling and Optimizing Apache Spark_. O'Reilly.<br>
+Parsian, Mahmoud. (2021). _Data Algorithms with Spark: Recipes and Design Patterns for Scaling Up using PySpark_. O'Reilly. [GitHub](https://github.com/mahmoudparsian/data-algorithms-with-spark).<br>
+Thomas, Alex. (2020). _Natural Language Processing with Spark NLP: Learning to Understand Text at Scale_. O'Reilly. [GitHub](https://github.com/alexander-n-thomas/spark-nlp-book).<br>
+
+Apache Spark [Home](https://spark.apache.org)<br>
+Dask [Home](https://dask.org)<br>
+Rapids [Home](https://rapids.ai)<br>
+
+
+
+## Distributed Computing, Blockchain, and Cryptocurrency Resources
 
 Abraham, Ittai & Gilad Stern. (2020). ["Information Theoretic HotStuff"](https://arxiv.org/pdf/2009.12828.pdf).<br>
 Antonopoulos, Andreas M. (2017). [_Mastering Bitcoin: Programming the Open Blockchain, 2nd Ed_](https://github.com/bitcoinbook/bitcoinbook). O'Reilly.<br>
@@ -110,6 +125,7 @@ Szabo, Nick [Wiki](https://en.wikipedia.org/wiki/Nick_Szabo)<br>
 Asynchronous Network<br>
 Asynchronous System [Wiki](https://en.wikipedia.org/wiki/Asynchronous_system)<br>
 Atomic Broadcast [Wiki](https://en.wikipedia.org/wiki/Atomic_broadcast)<br>
+Big Data [Investopedia](https://www.investopedia.com/terms/b/big-data.asp) [Wiki](https://en.wikipedia.org/wiki/Big_data)<br>
 Bitcoin Network [Wiki](https://en.wikipedia.org/wiki/Bitcoin_network)<br>
 Blockchain [Investopedia](https://www.investopedia.com/terms/b/blockchain.asp) [Wiki](https://en.wikipedia.org/wiki/Blockchain)<br>
 Blockchain 2.0<br>
@@ -123,6 +139,7 @@ Byzantine Fault Tolerance<br>
 CPP Client Puzzle Protocol [Wiki](https://en.wikipedia.org/wiki/Client_Puzzle_Protocol)<br>
 Clock Synchronization [Wiki](https://en.wikipedia.org/wiki/Clock_synchronization)<br>
 Communication Protocol [Wiki](https://en.wikipedia.org/wiki/Communication_protocol)<br>
+Computer Cluster [Wiki](https://en.wikipedia.org/wiki/Computer_cluster)<br>
 Computer Network [Wiki](https://en.wikipedia.org/wiki/Computer_network)<br>
 Connectionism [Wiki](https://en.wikipedia.org/wiki/Connectionism)<br>
 Consensus [Investopedia](https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp) [Wiki](https://en.wikipedia.org/wiki/Consensus_(computer_science))<br>
@@ -136,7 +153,7 @@ Digital Currency [Wiki](https://en.wikipedia.org/wiki/Digital_currency)<br>
 Digital Token [Wiki](https://en.wikipedia.org/wiki/Token_money)<br>
 Dining Philosophers Problem [Wiki](https://en.wikipedia.org/wiki/Dining_philosophers_problem)<br>
 Distributed Algorithm [Wiki](https://en.wikipedia.org/wiki/Distributed_algorithm)<br>
-Distributed Computing [Wiki](https://en.wikipedia.org/wiki/Distributed_computing)<br>
+Distributed Computation [Wiki](https://en.wikipedia.org/wiki/Distributed_computing)<br>
 Distributed Database [Wiki](https://en.wikipedia.org/wiki/Distributed_database)<br>
 DLT Distributed Ledger Technology [Wiki](https://en.wikipedia.org/wiki/Distributed_ledger)<br>
 Distributed Memory [Wiki](https://en.wikipedia.org/wiki/Distributed_memory)<br>
@@ -147,6 +164,7 @@ Double-Spending [Wiki](https://en.wikipedia.org/wiki/Double-spending)<br>
 DeFi Decentralized Finance [Wiki](https://en.wikipedia.org/wiki/Decentralized_finance)<br>
 FLP Impossibility<br>
 Ghost Protocol<br>
+High-Performance Computation [Wiki](https://en.wikipedia.org/wiki/Supercomputer)<br>
 HotStuff Protocol<br>
 Leader Election [Wiki](https://en.wikipedia.org/wiki/Leader_election)<br>
 Load Balancing [Wiki](https://en.wikipedia.org/wiki/Load_balancing_(computing))<br>
@@ -156,9 +174,12 @@ MOM Message-Oriented Middleware [Wiki](https://en.wikipedia.org/wiki/Message-ori
 Mining [Investopedia](https://www.investopedia.com/tech/how-does-bitcoin-mining-work/) [Wiki](https://en.wikipedia.org/wiki/Cryptocurrency#Mining)<br>
 Mining Pool [Wiki](https://en.wikipedia.org/wiki/Mining_pool)<br>
 Nakamoto Consensus<br>
+MapReduce [Wiki](https://en.wikipedia.org/wiki/MapReduce)<br>
 NFT Non Fungible Token [Wiki](https://en.wikipedia.org/wiki/Non-fungible_token)<br>
 Obelisk Consensus [Investopedia](https://www.investopedia.com/terms/o/obelisk-consensus-algorithm.asp)<br>
 P2P Lending [Wiki](https://en.wikipedia.org/wiki/Peer-to-peer_lending)<br>
+PageRank [Wiki](https://en.wikipedia.org/wiki/PageRank)<br>
+Parallel Computation [Wiki](https://en.wikipedia.org/wiki/Parallel_computing)<br>
 Payment Rail [Wiki](https://en.wikipedia.org/wiki/Payment_rail)<br>
 PDP Parallel Distributed Processing [Wiki](https://en.wikipedia.org/wiki/Connectionism)<br>
 P2P Peer-to-Peer [Wiki](https://en.wikipedia.org/wiki/Peer-to-peer)<br>
