@@ -1,6 +1,8 @@
 # Python Ecosystem
 
-
+CircuitPython [Home](https://circuitpython.org)<br>
+Python for Hardware Design [Home](https://gogul.dev/hardware/python-for-hardware-design)<br>
+SchemDraw [Home](https://schemdraw.readthedocs.io/en/latest/index.html)<br>
 
 ### Python
 - Python [Home](https://www.python.org)<br>
