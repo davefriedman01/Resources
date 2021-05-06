@@ -1,6 +1,9 @@
 # Distributed Computing, Blockchain, and Cryptocurrency
 
-
+## Courses
+Gensler, Gary. (2018). 15.S12: Blockchain and Money. MIT. [Home](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/).<br>
+Narayanan, Arvind. Bitcoin and Cryptocurrency Technologies. Princeton. [Coursera](https://www.coursera.org/learn/cryptocurrency).<br>
+Tang, Yuzhe. CIS600/FIN600: Blockchain and Cryptocurrecny. Syracuse University. [GitHub](https://tristartom.github.io/teaching/20f-fin600/).<br>
 
 ## Resources
 
@@ -60,6 +63,7 @@ Decentraland [Home](https://decentraland.org)<br>
 ENS Ethereum Name Service [Home](https://ens.domains)<br>
 H.R.6154 - Crypto-Currency Act of 2020 [congress.gov](https://www.congress.gov/bill/116th-congress/house-bill/6154)<br>
 Hyperledger (The Linux Foundation) [Home](https://www.hyperledger.org)<br>
+Seed Labs: Blockchain [GitHub](https://github.com/seed-labs/seed-labs)<br>
 Spacemesh [Home](https://spacemesh.io)<br>
 Unstoppable Domains [Home](https://unstoppabledomains.com)<br>
 
@@ -79,13 +83,16 @@ Hoare, Tony [Wiki](https://en.wikipedia.org/wiki/Tony_Hoare)<br>
 
 ## Terms
 
+Asynchronous Network [Wiki](https://en.wikipedia.org/wiki/Load_balancing_(computing))<br>
 Asynchronous System [Wiki](https://en.wikipedia.org/wiki/Asynchronous_system)<br>
 Atomic Broadcast [Wiki](https://en.wikipedia.org/wiki/Atomic_broadcast)<br>
 Blockchain [Investopedia](https://www.investopedia.com/terms/b/blockchain.asp) [Wiki](https://en.wikipedia.org/wiki/Blockchain)<br>
 Blockchain 2.0<br>
 Blockchain 3.0<br>
 Broadcast [Wiki](https://en.wikipedia.org/wiki/Broadcasting_(networking))<br>
+Byzantine Broadcast<br>
 Byzantine Fault [Wiki](https://en.wikipedia.org/wiki/Byzantine_fault)<br>
+Byzantine Fault Tolerance<br>
 Clock Synchronization [Wiki](https://en.wikipedia.org/wiki/Clock_synchronization)<br>
 Computer Network [Wiki](https://en.wikipedia.org/wiki/Computer_network)<br>
 Connectionism [Wiki](https://en.wikipedia.org/wiki/Connectionism)<br>
@@ -99,6 +106,8 @@ Distributed Networking [Wiki](https://en.wikipedia.org/wiki/Distributed_networki
 Distributed OS [Wiki](https://en.wikipedia.org/wiki/Distributed_operating_system)<br>
 DeFi Decentralized Finance [Wiki](https://en.wikipedia.org/wiki/Decentralized_finance)<br>
 Leader Election [Wiki](https://en.wikipedia.org/wiki/Leader_election)<br>
+Load Balancing [Wiki](https://en.wikipedia.org/wiki/Load_balancing_(computing))<br>
+Merkle Tree [Wiki](https://en.wikipedia.org/wiki/Merkle_tree)<br>
 Message Passing [Wiki](https://en.wikipedia.org/wiki/Message_passing)<br>
 MOM Message-Oriented Middleware [Wiki](https://en.wikipedia.org/wiki/Message-oriented_middleware)<br>
 P2P Peer-to-Peer [Wiki](https://en.wikipedia.org/wiki/Peer-to-peer)<br>
@@ -107,3 +116,4 @@ PDP Parallel Distributed Processing [Wiki](https://en.wikipedia.org/wiki/Connect
 State Machine Replication [Wiki](https://en.wikipedia.org/wiki/State_machine_replication)<br>
 Synchronization [Wiki](https://en.wikipedia.org/wiki/Synchronization_(computer_science))<br>
 Synchronizer [Wiki](https://en.wikipedia.org/wiki/Synchronizer_(algorithm))<br>
+Synchronous Network<br>
