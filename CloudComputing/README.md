@@ -2,6 +2,14 @@
 
 
 
+
+## Courses
+
+Birman, Ken. (2021). CS5412: Topics in Cloud Computing: Using the Cloud to Create Smart IoT Systems. [Home](http://www.cs.cornell.edu/courses/cs5412/2021sp/).<br>
+Birman, Ken. (2014). CS5412: Cloud Computing. [Home](http://www.cs.cornell.edu/courses/cs5412/2014sp/).<br>
+
+
+
 ## Resources
 
 Alipourfard, Omid et al. (2017). "CherryPick: Adaptively Unearthing the Best Cloud Configurations for Big Data Analytics".<br>
