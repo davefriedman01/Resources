@@ -59,6 +59,7 @@ Signal [Wiki](https://en.wikipedia.org/wiki/Signal)<br>
 Signal Processing [Wiki](https://en.wikipedia.org/wiki/Signal_processing)<br>
 Signaling [Wiki](https://en.wikipedia.org/wiki/Signaling_(telecommunications))<br>
 Spectral Analysis<br>
+State Estimator/Observer [Wiki](https://en.wikipedia.org/wiki/State_observer)<br>
 System Analysis [Wiki](https://en.wikipedia.org/wiki/System_analysis)<br>
 Telecommunication [Wiki](https://en.wikipedia.org/wiki/Telecommunication)<br>
 TIV Time-Invariant System [Wiki](https://en.wikipedia.org/wiki/Time-invariant_system)<br>
