@@ -93,7 +93,7 @@ Szabo, Nick [Wiki](https://en.wikipedia.org/wiki/Nick_Szabo)<br>
 
 ## Terms
 
-Asynchronous Network [Wiki](https://en.wikipedia.org/wiki/Load_balancing_(computing))<br>
+Asynchronous Network<br>
 Asynchronous System [Wiki](https://en.wikipedia.org/wiki/Asynchronous_system)<br>
 Atomic Broadcast [Wiki](https://en.wikipedia.org/wiki/Atomic_broadcast)<br>
 Bitcoin Network [Wiki](https://en.wikipedia.org/wiki/Bitcoin_network)<br>
