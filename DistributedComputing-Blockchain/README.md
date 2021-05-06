@@ -7,6 +7,7 @@ Tang, Yuzhe. CIS600/FIN600: Blockchain and Cryptocurrecny. Syracuse University. 
 
 ## Resources
 
+
 Antonopoulos, Andreas M. (2017). [_Mastering Bitcoin: Programming the Open Blockchain, 2nd Ed_](https://github.com/bitcoinbook/bitcoinbook). O'Reilly.<br>
 Antonopoulos, Andreas M. & Gavin Wood. (2018). [_Mastering Ethereum: Building Smart Contracts and DApps_](https://github.com/ethereumbook/ethereumbook.git). O'Reilly.<br>
 Back, Adam. (2002). ["Hashcash: A Denial-of-Service Countermeasure"](http://www.hashcash.org/papers/hashcash.pdf).<br>
@@ -21,6 +22,7 @@ Fischer, Michael J., Nancy A. Lynch, & Michael S. Paterson. (1985). "Impossibili
 Fokkink, Wan. (2018). _Distributed Algorithms: An Intuitive Approach, 2nd Ed_. MIT Press.<br>
 Haber, Stuart & W. Scott Stornetta. (1991). ["How to Time-Stamp a Digital Document"](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=C01131148AF17AF93F2655C091376AF4?doi=10.1.1.46.8740&rep=rep1&type=pdf).<br>
 Infante, Roberto. (2019). _Building Ethereum Dapps_. Manning.<br>
+Keshav, Srinivasan. (2012). _Mathematical Foundations of Computer Networking_. Addison-Wesley Professional Computing Series.<br>
 Kurose, Jim & Keith Ross. (2020). [_Computer Networking: A Top-Down Approach, 8th Ed_](https://gaia.cs.umass.edu/kurose_ross/index.html). Pearson.<br>
 Lamport, Leslie. (2000). "The Part-Time Parliament".<br>
 Lamport, Leslie, Robert Shostak, & Marshall Pease. (1982). "The Byzantine Generals Problem".<br>
