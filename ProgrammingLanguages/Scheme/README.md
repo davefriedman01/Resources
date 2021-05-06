@@ -1,6 +1,15 @@
 # Scheme
 
+
+
+Scheme [Home](https://www.scheme.com)<br>
+
+
+
+## Resources
+
 Abelson, Harold, Gerald Jay Sussman, & Julie Sussman. (1996). _Structure and Interpretation of Computer Programs, 2nd Ed_. MIT Press. [Home](https://mitpress.mit.edu/sicp). [Wiki](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs). [JS Adaptation Home](https://source-academy.github.io/sicp/). [JS Adaptation Wiki](https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs,_JavaScript_Adaptation).<br>
+Dybvig, R. Kent. (2009). [_The Scheme Programming Language, 4th Ed_](https://www.scheme.com/tspl4/). MIT Press.<br>
 Felleisen, Matthias et al. (2018). _How to Design Programs_. MIT Press. [Home](http://htdp.org). [Wiki](https://en.wikipedia.org/wiki/How_to_Design_Programs).<br>
 Friedman, Daniel P. & Carl Eastlund. (2015). _The Little Prover_. MIT Press.<br>
 Friedman, Daniel P. & David Thrane Christiansen. (2018). _The Little Typer_. MIT Press.<br>
