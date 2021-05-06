@@ -11,12 +11,14 @@ Antonopoulos, Andreas M. (2017). [_Mastering Bitcoin: Programming the Open Block
 Antonopoulos, Andreas M. & Gavin Wood. (2018). [_Mastering Ethereum: Building Smart Contracts and DApps_](https://github.com/ethereumbook/ethereumbook.git). O'Reilly.<br>
 Back, Adam. (2002). ["Hashcash: A Denial-of-Service Countermeasure"](http://www.hashcash.org/papers/hashcash.pdf).<br>
 Bar-Zur, Roi, Ittay Eyal, & Aviv Tamar. (2020). ["Efficient MDP Analysis for Selfish-Mining in Blockchains"](https://arxiv.org/pdf/2007.05614.pdf).<br>
+Bech, Morten & Rodney Garratt. (2017). ["Central bank cryptocurrencies"](https://www.bis.org/publ/qtrpdf/r_qt1709f.pdf).<br>
 Buterin, Vitalik. (2013). ["Ethereum White Paper"](https://ethereum.org/whitepaper/).<br>
 Chaum, David. (1982). ["Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups"](https://www.chaum.com/publications/chaum_dissertation.pdf).<br>
 Dembo, Amir et al. (2020). ["Everything is a Race and Nakamoto Always Wins"](https://arxiv.org/pdf/2005.10484.pdf).<br>
 Dwork, Cynthia & Moni Naor. (1993). "Pricing via Processing or Combatting Junk Mail".<br>
 Dwork, Cynthia, Nancy Lynch, & Larry Stockmeyer. (1988). "Consensus in the Presence of Partial Synchrony".<br>
 Fischer, Michael J., Nancy A. Lynch, & Michael S. Paterson. (1985). "Impossibility of Distributed Consensus with One Faulty Process".<br>
+Fokkink, Wan. (2018). _Distributed Algorithms: An Intuitive Approach, 2nd Ed_. MIT Press.<br>
 Haber, Stuart & W. Scott Stornetta. (1991). ["How to Time-Stamp a Digital Document"](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=C01131148AF17AF93F2655C091376AF4?doi=10.1.1.46.8740&rep=rep1&type=pdf).<br>
 Infante, Roberto. (2019). _Building Ethereum Dapps_. Manning.<br>
 Kurose, Jim & Keith Ross. (2020). [_Computer Networking: A Top-Down Approach, 8th Ed_](https://gaia.cs.umass.edu/kurose_ross/index.html). Pearson.<br>
@@ -82,6 +84,7 @@ Unstoppable Domains [Home](https://unstoppabledomains.com)<br>
 
 Back, Adam [Wiki](https://en.wikipedia.org/wiki/Adam_Back)<br>
 Buterin, Vitalik [Wiki](https://en.wikipedia.org/wiki/Vitalik_Buterin)<br>
+Chaum, David [Wiki](https://en.wikipedia.org/wiki/David_Chaum)<br>
 Dijkstra, Edsger (1930-2002) [Wiki](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra)<br>
 Dwork, Cynthia [Wiki](https://en.wikipedia.org/wiki/Cynthia_Dwork)<br>
 Hoare, Tony [Wiki](https://en.wikipedia.org/wiki/Tony_Hoare)<br>
