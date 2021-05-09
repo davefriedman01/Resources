@@ -26,6 +26,12 @@ Rapids [Home](https://rapids.ai)<br>
 
 
 
+## DeFi Decentralized Finance Resources
+
+
+
+
+
 ## Distributed Computing, Blockchain, and Cryptocurrency Resources
 
 Abraham, Ittai & Gilad Stern. (2020). ["Information Theoretic HotStuff"](https://arxiv.org/pdf/2009.12828.pdf).<br>
@@ -148,6 +154,7 @@ Cryptographic Primitive<br>
 Cypherpunk [Wiki](https://en.wikipedia.org/wiki/Cypherpunk)<br>
 Decentralization [Wiki](https://en.wikipedia.org/wiki/Decentralization)<br>
 Dapp Decentralized Application [Wiki](https://en.wikipedia.org/wiki/Decentralized_application)<br>
+DEX Decentralized Exchange [Binance](https://academy.binance.com/en/articles/what-is-a-decentralized-exchange-dex)<br>
 Digital Asset [Wiki](https://en.wikipedia.org/wiki/Digital_asset)<br>
 Digital Currency [Wiki](https://en.wikipedia.org/wiki/Digital_currency)<br>
 Digital Token [Wiki](https://en.wikipedia.org/wiki/Token_money)<br>
