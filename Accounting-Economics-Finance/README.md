@@ -56,6 +56,7 @@ Yahoo Finance [Home](https://finance.yahoo.com)<br>
 Bloomberg [Home](https://www.bloomberg.com)<br>
 The Wall Street Journal [Home](https://www.wsj.com)<br>
 
+AlgoTrading101 [Home](https://algotrading101.com/learn/)<br>
 Corporate Finance Institute [Home](https://corporatefinanceinstitute.com) [YouTube](https://www.youtube.com/c/Corporatefinanceinstitute-CFI/)<br>
 The Finance Storyteller [YouTube](https://www.youtube.com/c/TheFinanceStoryteller/)<br>
 One Minute Economics [YouTube](https://www.youtube.com/c/OneMinuteEconomics/)<br>
