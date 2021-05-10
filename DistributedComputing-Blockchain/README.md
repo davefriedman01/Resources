@@ -2,12 +2,22 @@
 
 
 
+## Flare
+Flare [Home](https://flare.xyz)<br>
+FCP Flare Consensus Protocol [Paper](https://flare.xyz/app/uploads/2019/11/FCP.pdf)<br>
+FXRP [Paper](https://flare.xyz/app/uploads/2020/08/FXRP_Version_1.0.pdf)<br>
+Flare Network and Spark Token [Paper](https://flare.xyz/app/uploads/2020/08/flare_v1.1.pdf)<br>
+
+
+
 ## Courses
 Boneh, Dan & Benedikt Bunz. (2020). CS251: Bitcoin and Cryptocurrencies. Stanford. [Home](https://cs251.stanford.edu).<br>
 Gensler, Gary. (2018). 15.S12: Blockchain and Money. MIT. [Home](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/).<br>
+Gibbons, Phil. (2021). 15-712: Advanced Operating Systems and Distributed Systems. Carnegie Mellon. [Home](https://www.cs.cmu.edu/~15712/).<br>
 Gramoli, Vincent. Blockchain Scalability and its Foundations in Distributed Computing. University of Sydney. [Coursera](https://www.coursera.org/learn/blockchain-scalability).<br>
 Narayanan, Arvind. Bitcoin and Cryptocurrency Technologies. Princeton. [Coursera](https://www.coursera.org/learn/cryptocurrency).<br>
 Tang, Yuzhe. CIS600/FIN600: Blockchain and Cryptocurrecny. Syracuse University. [GitHub](https://tristartom.github.io/teaching/20f-fin600/).<br>
+IBM Blockchain Foundation Developer [Home](https://cognitiveclass.ai/courses/ibm-blockchain-foundation-dev/)<br>
 
 
 
@@ -39,7 +49,9 @@ Buterin, Vitalik. (2013). ["Ethereum White Paper"](https://ethereum.org/whitepap
 Castro, Miguel & Barbara Liskov. (1999). ["Practical Byzantine Fault Tolerance"](http://pmg.csail.mit.edu/papers/osdi99.pdf).<br>
 Chaum, David. (1982). ["Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups"](https://www.chaum.com/publications/chaum_dissertation.pdf).<br>
 Cohen, Bram & Krzysztof Pietrzak. (2019). ["The Chia Network Blockchain"](https://www.chia.net/assets/ChiaGreenPaper.pdf).<br>
+Danezis, George & David Hrycyszyn. (2018). ["Blockmania: from Block DAGs to Consensus"](https://arxiv.org/pdf/1809.01620.pdf).<br>
 Dembo, Amir et al. (2020). ["Everything is a Race and Nakamoto Always Wins"](https://arxiv.org/pdf/2005.10484.pdf).<br>
+Douceur, John R. (2002). ["The Sybil Attack"](https://www.microsoft.com/en-us/research/wp-content/uploads/2002/01/IPTPS2002.pdf).<br>
 Dwork, Cynthia & Moni Naor. (1993). "Pricing via Processing or Combatting Junk Mail".<br>
 Dwork, Cynthia, Nancy Lynch, & Larry Stockmeyer. (1988). "Consensus in the Presence of Partial Synchrony".<br>
 Eyal, Ittay et al. (2016). ["Bitcoin-NG: A Scalable Blockchain Protocol"](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf).<br>
@@ -75,6 +87,7 @@ Yu, Mingchao et al. (2019). ["Coded Merkle Tree: Solving Data Availability Attac
 Zand, Matt, Xun (Brian) Wu, & Mark Anthony Morris. (2021). _Hands-On Smart Contract Development with Hyperledger Fabric V2: Building Enterprise Blockchain Applications_. O'Reilly.<br>
 
 Algorand [Home](https://www.algorand.com)<br>
+Avalanche Consensus [Home](https://docs.avax.network/learn/platform-overview/avalanche-consensus)<br>
 Bitcoin [Binance](https://academy.binance.com/en/articles/what-is-bitcoin) [Wiki](https://en.wikipedia.org/wiki/Bitcoin)<br>
 Burstcoin [Investopedia](https://www.investopedia.com/terms/b/burstcoin.asp)<br>
 Chia [Home](https://www.chia.net)<br>
@@ -96,12 +109,24 @@ Ripple [Home](https://ripple.com)<br>
 Seed Labs: Blockchain [GitHub](https://github.com/seed-labs/seed-labs)<br>
 Spacemesh [Home](https://spacemesh.io)<br>
 Stanford Blockchain Conference [Home](https://cbr.stanford.edu/sbc20/)<br>
+Stellar Consensus Protocol [Paper](https://www.stellar.org/papers/stellar-consensus-protocol)<br>
 SushiSwap [Home](https://www.sushi.com)<br>
 Uniswap [Home](https://uniswap.org)<br>
 Unstoppable Domains [Home](https://unstoppabledomains.com)<br>
 XRP [Home](https://ripple.com/xrp/)<br>
 
+DigiCash (David Chaum, 1989)<br>
+Mondex (National Westminster Bank, 1993)<br>
+CyberCash (Lynch, Melton, Crocker, & Wilson, 1994)<br>
+E-gold (Gold & Silver Reserve, 1996)<br>
+Hashcash (Adam Back, 1997)<br>
+Bit Gold (Nick Szabo, 1998)<br>
+B-Money (Wei Dai, 1998)<br>
+Lucre (Ben Laurie, 1999)<br>
+
 "Advanced Blockchain Concepts for Beginners" [Medium](https://mycoralhealth.medium.com/advanced-blockchain-concepts-for-beginners-32887202afad)<br>
+"How does a blockchain prevent double-spending of Bitcoins?" [Investopedia](https://www.investopedia.com/ask/answers/061915/how-does-block-chain-prevent-doublespending-bitcoins.asp)<br>
+"Public, Private, Permissioned Blockchains Compared" [Investopedia](https://www.investopedia.com/news/public-private-permissioned-blockchains-compared/)<br>
 "What is DeFi?" [Coinbase](https://www.coinbase.com/learn/crypto-basics/what-is-defi)<br>
 "The Wired Guide to Blockchain" [Wired)](https://www.wired.com/story/guide-blockchain/)<br>
 "Turing Completeness and Cryptocurrency" [Binance Academy](https://academy.binance.com/en/glossary/turing-complete)<br>
@@ -131,6 +156,7 @@ Szabo, Nick [Wiki](https://en.wikipedia.org/wiki/Nick_Szabo)<br>
 Asynchronous Network<br>
 Asynchronous System [Wiki](https://en.wikipedia.org/wiki/Asynchronous_system)<br>
 Atomic Broadcast [Wiki](https://en.wikipedia.org/wiki/Atomic_broadcast)<br>
+B-Money [Investopedia](https://www.investopedia.com/terms/b/bmoney.asp)<br>
 Big Data [Investopedia](https://www.investopedia.com/terms/b/big-data.asp) [Wiki](https://en.wikipedia.org/wiki/Big_data)<br>
 BSC Binance Smart Chain [Binance](https://academy.binance.com/en/articles/an-introduction-to-binance-smart-chain-bsc)<br>
 Bitcoin Network [Wiki](https://en.wikipedia.org/wiki/Bitcoin_network)<br>
