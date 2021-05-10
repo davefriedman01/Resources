@@ -26,12 +26,6 @@ Rapids [Home](https://rapids.ai)<br>
 
 
 
-## DeFi Decentralized Finance Resources
-
-
-
-
-
 ## Distributed Computing, Blockchain, and Cryptocurrency Resources
 
 Abraham, Ittai & Gilad Stern. (2020). ["Information Theoretic HotStuff"](https://arxiv.org/pdf/2009.12828.pdf).<br>
@@ -77,7 +71,7 @@ Yu, Mingchao et al. (2019). ["Coded Merkle Tree: Solving Data Availability Attac
 Zand, Matt, Xun (Brian) Wu, & Mark Anthony Morris. (2021). _Hands-On Smart Contract Development with Hyperledger Fabric V2: Building Enterprise Blockchain Applications_. O'Reilly.<br>
 
 Algorand [Home](https://www.algorand.com)<br>
-Bitcoin [Wiki](https://en.wikipedia.org/wiki/Bitcoin)<br>
+Bitcoin [Binance](https://academy.binance.com/en/articles/what-is-bitcoin) [Wiki](https://en.wikipedia.org/wiki/Bitcoin)<br>
 Burstcoin [Investopedia](https://www.investopedia.com/terms/b/burstcoin.asp)<br>
 Chia [Home](https://www.chia.net)<br>
 Coinbase [Home](https://www.coinbase.com) [Wiki](https://en.wikipedia.org/wiki/Coinbase)<br>
@@ -88,7 +82,7 @@ Cryptocurrency List [Wiki](https://en.wikipedia.org/wiki/List_of_cryptocurrencie
 CryptoZombies [Home](https://cryptozombies.io)<br>
 Decentraland [Home](https://decentraland.org)<br>
 Diem [Whitepaper](https://www.diem.com/en-us/white-paper/) [Wiki](https://en.wikipedia.org/wiki/Diem_(digital_currency))<br>
-Ethereum [Wiki](https://en.wikipedia.org/wiki/Ethereum)<br>
+Ethereum [Binance](https://academy.binance.com/en/articles/what-is-ethereum) [Wiki](https://en.wikipedia.org/wiki/Ethereum)<br>
 ENS Ethereum Name Service [Home](https://ens.domains)<br>
 Flare Networks [Home](https://flare.ghost.io)<br>
 H.R.6154 - Crypto-Currency Act of 2020 [congress.gov](https://www.congress.gov/bill/116th-congress/house-bill/6154)<br>
@@ -98,6 +92,8 @@ Ripple [Home](https://ripple.com)<br>
 Seed Labs: Blockchain [GitHub](https://github.com/seed-labs/seed-labs)<br>
 Spacemesh [Home](https://spacemesh.io)<br>
 Stanford Blockchain Conference [Home](https://cbr.stanford.edu/sbc20/)<br>
+SushiSwap [Home](https://www.sushi.com)<br>
+Uniswap [Home](https://uniswap.org)<br>
 Unstoppable Domains [Home](https://unstoppabledomains.com)<br>
 XRP [Home](https://ripple.com/xrp/)<br>
 
@@ -132,6 +128,7 @@ Asynchronous Network<br>
 Asynchronous System [Wiki](https://en.wikipedia.org/wiki/Asynchronous_system)<br>
 Atomic Broadcast [Wiki](https://en.wikipedia.org/wiki/Atomic_broadcast)<br>
 Big Data [Investopedia](https://www.investopedia.com/terms/b/big-data.asp) [Wiki](https://en.wikipedia.org/wiki/Big_data)<br>
+BSC Binance Smart Chain [Binance](https://academy.binance.com/en/articles/an-introduction-to-binance-smart-chain-bsc)<br>
 Bitcoin Network [Wiki](https://en.wikipedia.org/wiki/Bitcoin_network)<br>
 Blockchain [Investopedia](https://www.investopedia.com/terms/b/blockchain.asp) [Wiki](https://en.wikipedia.org/wiki/Blockchain)<br>
 Blockchain 2.0<br>
@@ -169,6 +166,8 @@ Distributed OS [Wiki](https://en.wikipedia.org/wiki/Distributed_operating_system
 Dolev-Strong Protocol<br>
 Double-Spending [Wiki](https://en.wikipedia.org/wiki/Double-spending)<br>
 DeFi Decentralized Finance [Wiki](https://en.wikipedia.org/wiki/Decentralized_finance)<br>
+ERC-721 [Binance](https://academy.binance.com/en/glossary/erc-721)<br>
+ERC-1155 [Ethereum](https://eips.ethereum.org/EIPS/eip-1155)<br>
 FLP Impossibility<br>
 Ghost Protocol<br>
 High-Performance Computation [Wiki](https://en.wikipedia.org/wiki/Supercomputer)<br>
@@ -182,7 +181,7 @@ Mining [Investopedia](https://www.investopedia.com/tech/how-does-bitcoin-mining-
 Mining Pool [Wiki](https://en.wikipedia.org/wiki/Mining_pool)<br>
 Nakamoto Consensus<br>
 MapReduce [Wiki](https://en.wikipedia.org/wiki/MapReduce)<br>
-NFT Non Fungible Token [Wiki](https://en.wikipedia.org/wiki/Non-fungible_token)<br>
+NFT Non-Fungible Token or Cryptocollectible [Binance](https://academy.binance.com/en/glossary/non-fungible-token-nft) [Wiki](https://en.wikipedia.org/wiki/Non-fungible_token)<br>
 Obelisk Consensus [Investopedia](https://www.investopedia.com/terms/o/obelisk-consensus-algorithm.asp)<br>
 P2P Lending [Wiki](https://en.wikipedia.org/wiki/Peer-to-peer_lending)<br>
 PageRank [Wiki](https://en.wikipedia.org/wiki/PageRank)<br>
@@ -202,9 +201,10 @@ PoS Proof of Stake [Investopedia](https://www.investopedia.com/terms/p/proof-sta
 PoW Proof of Work [Investopedia](https://www.investopedia.com/terms/p/proof-work.asp) [Wiki](https://en.wikipedia.org/wiki/Proof_of_work)<br>
 Quantum Byzantine Agreement [Wiki](https://en.wikipedia.org/wiki/Quantum_Byzantine_agreement)<br>
 Shard [Wiki](https://en.wikipedia.org/wiki/Shard_(database_architecture))<br>
+Smart Contract [Binance](https://academy.binance.com/en/articles/what-are-smart-contracts) [Wiki](https://en.wikipedia.org/wiki/Smart_contract)<br>
 State Machine Replication [Wiki](https://en.wikipedia.org/wiki/State_machine_replication)<br>
 Streamlet Protocol<br>
-Smart Contract [Wiki](https://en.wikipedia.org/wiki/Smart_contract)<br>
+SushiSwap [Binance](https://academy.binance.com/en/articles/your-guide-to-sushiswap)<br>
 Synchronization [Wiki](https://en.wikipedia.org/wiki/Synchronization_(computer_science))<br>
 Synchronizer [Wiki](https://en.wikipedia.org/wiki/Synchronizer_(algorithm))<br>
 Synchronous Network<br>
