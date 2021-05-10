@@ -34,7 +34,9 @@ Antonopoulos, Andreas M. & Gavin Wood. (2018). [_Mastering Ethereum: Building Sm
 Back, Adam. (2002). ["Hashcash: A Denial-of-Service Countermeasure"](http://www.hashcash.org/papers/hashcash.pdf).<br>
 Bar-Zur, Roi, Ittay Eyal, & Aviv Tamar. (2020). ["Efficient MDP Analysis for Selfish-Mining in Blockchains"](https://arxiv.org/pdf/2007.05614.pdf).<br>
 Bech, Morten & Rodney Garratt. (2017). ["Central bank cryptocurrencies"](https://www.bis.org/publ/qtrpdf/r_qt1709f.pdf).<br>
+Bracha, G. (1987). "Asynchronous Byzantine agreement protocols".<br>
 Buterin, Vitalik. (2013). ["Ethereum White Paper"](https://ethereum.org/whitepaper/).<br>
+Castro, Miguel & Barbara Liskov. (1999). ["Practical Byzantine Fault Tolerance"](http://pmg.csail.mit.edu/papers/osdi99.pdf).<br>
 Chaum, David. (1982). ["Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups"](https://www.chaum.com/publications/chaum_dissertation.pdf).<br>
 Cohen, Bram & Krzysztof Pietrzak. (2019). ["The Chia Network Blockchain"](https://www.chia.net/assets/ChiaGreenPaper.pdf).<br>
 Dembo, Amir et al. (2020). ["Everything is a Race and Nakamoto Always Wins"](https://arxiv.org/pdf/2005.10484.pdf).<br>
@@ -61,12 +63,14 @@ Shi, Elaine. (2020). [_Foundations of Distributed Consensus and Blockchains_](ht
 Ramamurthy, Bina. (2020). _Blockchain in Action_. Manning.<br>
 Raynal, Michel. (2018). _Fault-Tolerant Message-Passing Distributed Systems: An Algorithmic Approach_. Springer.<br>
 Solorio, Kevin, Randall Kanna, & David H. Hoover. (2019). _Hands-On Smart Contract Development with Solidity and Ethereum: From Fundamentals to Deployment_. O'Reilly.<br>
+Sonnino, Alberto & George Danezis. (2019). ["SybilQuorum: open Distributed Ledgers Through Trust Networks"](https://arxiv.org/pdf/1906.12237.pdf).<br>
 Song, Jimmy. (2019). _Programming Bitcoin: Learn How to Program Bitcoin from Scratch_. O'Reilly.<br>
 Szabo, Nick. (2005). ["Bit Gold"](https://nakamotoinstitute.org/bit-gold/).<br>
 Szabo, Nick. (1997). "The Idea of Smart Contracts".<br>
 Wei, Dai. (1998). ["b-money"](http://www.weidai.com/bmoney.txt).<br>
 Werbach, Kevin. (2018). _The Blockchain and the New Architecture of Trust_. MIT Press.<br>
 Yang, Lei et al. (2020). ["Prism: Scaling Bitcoin by 10,000x"](https://arxiv.org/pdf/1909.11261.pdf).<br>
+Yin, Maofan et al. (2020). ["Scalable and Probabilistic Leaderless BFT Consensus through Metastability"](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf).<br>
 Yu, Mingchao et al. (2019). ["Coded Merkle Tree: Solving Data Availability Attacks in Blockchains"](https://arxiv.org/pdf/1910.01247.pdf).<br>
 Zand, Matt, Xun (Brian) Wu, & Mark Anthony Morris. (2021). _Hands-On Smart Contract Development with Hyperledger Fabric V2: Building Enterprise Blockchain Applications_. O'Reilly.<br>
 
