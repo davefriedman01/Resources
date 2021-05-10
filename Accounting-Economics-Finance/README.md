@@ -156,6 +156,7 @@ Decision Theory [Wiki](https://en.wikipedia.org/wiki/Decision_theory)<br>
 [Diversification (Investopedia)](https://www.investopedia.com/terms/d/diversification.asp)<br>
 [Dividend (Investopedia)](https://www.investopedia.com/terms/d/dividend.asp)<br>
 [DDM Divident Discount Model (Investopedia)](https://www.investopedia.com/terms/d/ddm.asp)<br>
+Double-Entry Bookkeeping [Wiki](https://en.wikipedia.org/wiki/Double-entry_bookkeeping)<br>
 Double Bottom [Wiki](https://en.wikipedia.org/wiki/Double_top_and_double_bottom)<br>
 Double Top [Wiki](https://en.wikipedia.org/wiki/Double_top_and_double_bottom)<br>
 [Downside Risk (Investopedia)](https://www.investopedia.com/terms/d/downsiderisk.asp)<br>
