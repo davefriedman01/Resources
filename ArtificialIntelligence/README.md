@@ -2,6 +2,7 @@
 
 ## Resources
 
+Abu-Mostafa, Yaser S. [_Learning from Data_](https://work.caltech.edu/textbook.html).<br>
 Bishop, Christopher M. (2006). [_Pattern Recognition and Machine Learning_](https://www.microsoft.com/en-us/research/people/cmbishop/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Fcmbishop%2Fprml%2Findex.htm). Springer.<br>
 Charniak, Eugene. (2019). _Introduction to Deep Learning_. MIT Press. [Home](https://cs.brown.edu/courses/csci1460/assets/files/deep-learning.pdf).<br>
 Chollet, Francois. (2017). _Deep Learning with Python_. Manning Publications.<br>
@@ -12,6 +13,7 @@ Goodfellow, Ian, Yoshua Bengio, & Aaron Courville. (2016). [_Deep Learning_](htt
 Han, Jiawei, Micheline Kamber, & Jian Pei. (2011). [_Data Mining: Concepts and Techniques, 3rd Ed_](https://hanj.cs.illinois.edu/bk3/).<br>
 Hastie, Trevor, Robert Tibshirani, & Jerome Friedman. (2009). [_The Elements of Statistical Learning: Data Mining, Inference, and Prediction, 2nd Ed_](https://web.stanford.edu/~hastie/ElemStatLearn/). Springer.<br>
 Hastie, Trevor, Robert Tibshirani, & Martin Wainwright. (2015). [_Statistical Learning with Sparsity: The Lasso and Generalizations_](https://web.stanford.edu/~hastie/StatLearnSparsity/).<br>
+James, Gareth et al. (2021). [_An Introduction to Statistical Learning with Applications in R, 2nd Ed_](https://www.statlearning.com). Springer.<br>
 Leskovec, Jure, Anand Rajaraman, & Jeff Ullman. (2016). [_Mining of Massive Datasets, 3rd Ed_](http://www.mmds.org). Stanford University Press.<br>
 MacKay, David J. (2003). _Information Theory, Inference, and Learning Algorithms_. Cambridge University Press.<br>
 Mitchell, Tom M. (1997). _Machine Learning_.<br>
@@ -39,6 +41,7 @@ AI Artificial Intelligence [Investopedia](https://www.investopedia.com/terms/a/a
 AI Progress [Wiki](https://en.wikipedia.org/wiki/Progress_in_artificial_intelligence)<br>
 AI Timeline [Wiki](https://en.wikipedia.org/wiki/Timeline_of_artificial_intelligence)<br>
 AI Winter [Investopedia](https://www.investopedia.com/terms/a/ai-winter.asp) [Wiki](https://en.wikipedia.org/wiki/AI_winter)<br>
+Computational Graph<br>
 Computational Learning Theory [Wiki](https://en.wikipedia.org/wiki/Computational_learning_theory)<br>
 Connectionism [Wiki](https://en.wikipedia.org/wiki/Connectionism)<br>
 Data Mining [Investopedia](https://www.investopedia.com/terms/d/datamining.asp)<br>
