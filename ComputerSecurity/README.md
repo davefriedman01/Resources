@@ -19,6 +19,47 @@ Neuman, B. Clifford & Theodore Ts'o. (1994). [Kerberos: An Authentication Servic
 [Tenouk's C programming and buffer overflow programming flaw on Linux and Windows OS tutorial](https://www.tenouk.com/cncplusplusbufferoverflow.html).<br>
 Wheeler, David A. [Secure Programming HOWTO](https://dwheeler.com/secure-programs/Secure-Programs-HOWTO/index.html).<br>
 
+FlareVM [GitHub](https://github.com/fireeye/flare-vm)<br>
+Ghidra [Home](https://ghidra-sre.org)<br>
+
+
+
+## Terms
+
+ASLR Address Space Layout Randomization [Wiki](https://en.wikipedia.org/wiki/Address_space_layout_randomization)<br>
+Agobot [Wiki](https://en.wikipedia.org/wiki/Agobot)<br>
+Attack Surface [Wiki](https://en.wikipedia.org/wiki/Attack_surface)<br>
+Attack Vector [Wiki](https://en.wikipedia.org/wiki/Vector_(malware))<br>
+Blaster Worm [Wiki](https://en.wikipedia.org/wiki/Blaster_(computer_worm))<br>
+Bluepill [Wiki](https://en.wikipedia.org/wiki/Blue_Pill_(software))<br>
+Botnet [Wiki](https://en.wikipedia.org/wiki/Botnet)<br>
+Buffer Overflow [Wiki](https://en.wikipedia.org/wiki/Buffer_overflow)<br>
+Bug [Wiki](https://en.wikipedia.org/wiki/Software_bug)<br>
+Computer Security [Wiki](https://en.wikipedia.org/wiki/Computer_security)<br>
+Cryptovirology [Wiki](https://en.wikipedia.org/wiki/Cryptovirology)<br>
+Disassembly [Wiki](https://en.wikipedia.org/wiki/Disassembler)<br>
+DoS Denial-of-Service [Wiki](https://en.wikipedia.org/wiki/Denial-of-service_attack)<br>
+DDoS Distributed Denial-of-Service [Wiki](https://en.wikipedia.org/wiki/Denial-of-service_attack#Distributed_DoS_attack)<br>
+Exploit [Wiki](https://en.wikipedia.org/wiki/Exploit_(computer_security))<br>
+ILOVEYOU Virus [Wiki](https://en.wikipedia.org/wiki/ILOVEYOU)<br>
+Kournikova Virus [Wiki](https://en.wikipedia.org/wiki/Anna_Kournikova_(computer_virus))<br>
+Malware [Wiki](https://en.wikipedia.org/wiki/Malware)<br>
+Memory Corruption [Wiki](https://en.wikipedia.org/wiki/Memory_corruption)<br>
+Memory Safety [Wiki](https://en.wikipedia.org/wiki/Memory_safety)<br>
+Morris Worm [Wiki](https://en.wikipedia.org/wiki/Morris_worm)<br>
+Ransomware [Wiki](https://en.wikipedia.org/wiki/Ransomware)<br>
+Reverse Engineering [Wiki](https://en.wikipedia.org/wiki/Reverse_engineering)<br>
+Rootkit [Wiki](https://en.wikipedia.org/wiki/Rootkit)<br>
+Slammer Worm [Wiki](https://en.wikipedia.org/wiki/SQL_Slammer)<br>
+Storm Botnet [Wiki](https://en.wikipedia.org/wiki/Storm_botnet)<br>
+Threat Actor [Wiki](https://en.wikipedia.org/wiki/Threat_actor)<br>
+Virus [Wiki](https://en.wikipedia.org/wiki/Computer_virus)<br>
+Vulnerability [Wiki](https://en.wikipedia.org/wiki/Vulnerability_(computing))<br>
+Worm [Wiki](https://en.wikipedia.org/wiki/Computer_worm)<br>
+Zero-Day [Wiki](https://en.wikipedia.org/wiki/Zero-day_(computing))<br>
+
+
+
 ## Computer Systems
 
 Alexandrescu, Andrei (D programming language).<br>
@@ -30,8 +71,3 @@ Stroustrup, Bjarne (C++).<br>
 
 Bryant, Randal E. & David R. O'Hallaron. (2015). [_Computer Systems: A Programmer's Perspective, 3rd Ed_](https://csapp.cs.cmu.edu). Pearson.<br>
 Kernighan, Brian W. & Dennis M. Ritchie. (1988). _C Programming Language, 2nd Ed_. Pearson.<br>
-
-## Terms
-
-[Bluepill](https://en.wikipedia.org/wiki/Blue_Pill_(software)).<br>
-[Rootkit](https://en.wikipedia.org/wiki/Rootkit).<br>
