@@ -1,0 +1,7 @@
+Financial Analysis
+-------------------------
+Num Months          86.00
+Net Profit    38382578.00
+Avg Change       -2315.12
+Max Gain       1926159.00
+Max Loss      -2196167.00
