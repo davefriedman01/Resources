@@ -1,0 +1,59 @@
+Regions (8)                   地方　　　　ちほう　　　　　　chihou
+Prefectures (47)              都道府県　　とどうふけん　　　todoufuken
+
+Hokkaido (island/region)      北海道　　　ほっかいどう　　　hokkaidou
+    Hokkaido                  北海道　　　ほっかいどう　　　hokkaidou
+Honshu (island)               本州　　　　ほんしゅう　　　　honshuu
+  Tohoku (region)             東北地方　　とうほくちほう　　touhoku chihou
+    Akita                     秋田県　　　あきたけん　　　　akita ken
+    Aomori                    青森県　　　あおもりけん　　　aomori ken
+    Fukushima                 福島県　　　ふくしまけん　　　fukushima ken
+    Iwate                     岩手県　　　いわてけん　　　　iwate ken
+    Miyagi                    宮城県　　　みやぎけん　　　　miyagi ken
+    Yamagata                  山形県　　　やまがたけん　　　yamagata ken
+  Kanto (region)              関東地方　　かんとうちほう　　kantou chihou
+    Chiba                     千葉県　　　ちばけん　　　　　chiba ken
+    Gunma                     群馬県　　　ぐんまけん　　　　gunma ken
+    Ibaraki                   茨城県　　　いばらきけん　　　ibaraki ken
+    Kanagawa                  神奈川県　　かながわけん　　　kanagawa ken
+    Saitama                   埼玉県　　　さいたまけん　　　saitama ken
+    Tochigi                   栃木県　　　とちぎけん　　　　tochigi ken
+    Tokyo metropolitan area   東京都　　　とうきょうと　　　toukyouto
+  Chubu (region)              中部地方　　ちゅうぶちほう　　chuubu chihou
+    Aichi                     愛知県　　　あいちけん　　　　aichi ken
+    Fukui                     福井県　　　ふくいけん　　　　fukui ken
+    Gifu                      岐阜県　　　ぎふけん　　　　　gifu ken
+    Ishikawa                  石川県　　　いしかわけん　　　ishikawa ken
+    Nagano                    長野県　　　ながのけん　　　　nagano ken
+    Nigata                    新潟県　　　にいがたけん　　　niigata ken
+    Shizuoka                  静岡県　　　しずおかけん　　　shizuoka ken
+    Toyama                    富山県　　　とやまけん　　　　toyama ken
+    Yamanashi                 山梨県　　　やまなしけん　　　yamanashi ken
+  Kansai (region)             関西地方　　かんさいちほう　　kansai chihou
+    Hyogo                     兵庫県　　　ひょうごけん　　　hyougo ken
+    Kyoto                     京都府　　　きょうとふ　　　　kyouto fu
+    Mie                       三重県　　　みえけん　　　　　mie ken
+    Nara                      奈良県　　　ならけん　　　　　nara ken
+    Osaka                     大阪府　　　おおさかふ　　　　oosaka fu
+    Shiga                     滋賀県　　　しがけん　　　　　shiga ken
+    Wakayama                  和歌山県　　わかやまけん　　　wakayama ken
+  Chugoku (region)            中国地方　　ちゅうごくちほう　chuugoku chihou
+    Hiroshima                 広島県　　　ひろしまけん　　　hiroshima ken
+    Okayama                   岡山県　　　おかやまけん　　　okayama ken
+    Shimane                   島根県　　　しまねけん　　　　shimane ken
+    Tottori                   鳥取県　　　とっとりけん　　　tottori ken
+    Yamaguchi                 山口県　　　やまぐちけん　　　yamaguchi ken
+Shikoku (island/region)       四国　　　　しこく　　　　　　shikoku
+    Ehime                     愛媛県　　　えひめけん　　　　ehime ken
+    Kagawa                    香川県　　　かがわけん　　　　kagawa ken
+    Kochi                     高知県　　　こうちけん　　　　kouchi ken
+    Tokushima                 徳島県　　　とくしまけん　　　tokushima ken
+Kyushu (island/region)        九州　　　　きゅうしゅう　　　kyuushuu
+    Fukuoka                   福岡県　　　ふくおかけん　　　fukuoka ken
+    Kagoshima                 鹿児島県　　かごしまけん　　　kagoshima ken
+    Kumamoto                  熊本県　　　くまもとけん　　　kumamoto ken
+    Miyazaki                  宮崎県　　　みやざきけん　　　kiyazaki ken
+    Nagasaki                  長崎県　　　ながさきけん　　　nagasaki ken
+    Oita                      大分県　　　おおいたけん　　　ooita ken
+    Okinawa                   沖縄県　　　おきなわけん　　　okinawa ken
+    Saga                      佐賀県　　　さがけん　　　　　saga ken

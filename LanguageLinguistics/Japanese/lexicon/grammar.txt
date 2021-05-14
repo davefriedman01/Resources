@@ -1,0 +1,71 @@
+grammar                文法　　　　　ぶんぽう　　　　　bunpou
+
+part of speech         品詞　　　　　ひんし　　　　　　hinshi
+noun                   名詞　　　　　めいし　　　　　　meishi
+verb                   動詞　　　　　どうし　　　　　　doushi
+irregular verb         不規則動詞　　ふきそくどうし　　fukisokudoushi
+one-step ru-verb       一段動詞　　　いちだんどうし　　ichidandoushi
+five-step u-verb       五段動詞　　　ごだんどうし　　　godandoushi
+transitive verb        他動詞　　　　たどうし　　　　　tadoushi
+intransitive verb      自動詞　　　　じどうし　　　　　jidoushi
+i-adjective            形容詞　　　　けいようし　　　　keiyoushi
+na-adjective           形容動詞　　　けいようどうし　　keiyoudoushi
+adverb                 副詞　　　　　ふくし　　　　　　fukushi
+interrogative          疑問詞　　　　ぎもんし　　　　　gimonshi
+particle/postposition  助詞　　　　　じょし　　　　　　joshi
+conjunction            接続詞　　　　せつぞくし　　　　setsuzokushi
+
+given name             人名　　　　　じんめい　　　　　jinmei
+place name             地名　　　　　ちめい　　　　　　chimei
+
+subject                主語　　　　　しゅご　　　　　　shugo
+predicate              述語　　　　　じゅつご　　　　　jutsugo
+object                 目的語　　　　もくてきご　　　　mokutekigo
+
+demonstrative          指示語　　　　しじご　　　　　　shijigo
+loanword               外来語　　　　がいらいご　　　　gairaigo
+
+nonpast form           現在形　　　　げんざいけい　　　genzaikei
+past form              過去形　　　　かこけい　　　　　kakokei
+
+dictionary form        辞書形　　　　じしょけい　　　　jishokei
+plain form             普通形　　　　ふつうけい　　　　futsuukei
+negative form          否定形　　　　ひていけい　　　　hiteikei
+te form                て形　　　　　てけい　　　　　　tekei
+potential form         可能形　　　　かのうけい　　　　kanoukei
+passive form           受身形　　　　うけみけい　　　　ukemikei
+causative form         使役形　　　　しえきけい　　　　shiekikei
+causative-passive      使役受身形　　しえきうけみけい　shiekiukemikei
+
+respectful form        尊敬　　　　　そんけい　　　　　sonkei
+imperative form        命令形　　　　めいれいけい　　　meireikei
+volitional form        意向形　　　　いこうけい　　　　ikoukei
+prohibitive form       禁止形　　　　きんしけい　　　　kinshikei
+i-/coninuous form      連用形　　　　れにょうけい　　　renyoukei
+euphonic form          音便形　　　　おんびんけい　　　onbinkei
+
+radical                部首　　　　　ぶしゅ　　　　　　bushu
+
+letter; character      文字　　　　　もじ　　　　　　　moji
+Chinese character      漢字　　　　　かんじ　　　　　　kanji
+common kanji           常用漢字　　　じょうようかんじ　jouyou kanji
+numeral                数字　　　　　すうじ　　　　　　suuji
+
+kana                   仮名　　　　　かな　　　　　　　kana
+hiragana               平仮名　　　　ひらがな　　　　　hiragana
+katakana               片仮名　　　　カタカナ　　　　　katakana
+furigana               振り仮名　　　ふりがな　　　　　furigana
+okurigana              送り仮名　　　おくりがな　　　　okurigana
+
+native Japanese read   訓読み　　　　くんよみ　　　　　kunyomi
+Sino-Japanese reading  音読み　　　　おんよみ　　　　　onyomi
+
+linguistics            言語学　　　　げんごがく　　　　gengogaku
+phonetics              音声学　　　　おんせいがく　　　onseigaku
+phonology              音韻学　　　　おんいんがく　　　oningaku
+morphology             形態学　　　　けいたいがく　　　keitaigaku
+syntax                 構文学　　　　こうぶんがく　　　koubungaku
+semantics              意味学　　　　いみがく　　　　　imigaku
+
+orthography; notation  表記　　　　　ひょうき　　　　　hyouki
+punctuation            句読点　　　　くとうてん　　　　kutouten

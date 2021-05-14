@@ -1,0 +1,61 @@
+beef                                      牛肉　　　　ぎゅうにく　　　　gyuuniku
+beef bowl                                 牛丼　　　　ぎゅうどん　　　　gyuudon
+bitter                                    苦い　　　　にがい　　　　　　nigai (i-adj.)
+cabbage                               　    　　　　　キャベツ　　　　　kyabetsu
+chain restaurant                          チェーン店　チェーンてん　　　cheenten
+chicken                                   鶏肉　　　　とりにく　　　　　toriniku
+coffee                                    　　　　　　コーヒー　　　　　koohii
+conveyor-belt sushi bar                   回転寿司　　かいてんずし　　　kaitenzushi
+delicious                                 　　　　　　おいしい　　　　　oishii (i-adj.)
+drink                                     飲み物　　　のみもの　　　　　nomimono
+dumpling wrapped in bamboo leaf           粽　　　　　ちまき　　　　　　chimaki
+egg                                       卵　　　　　たまご　　　　　　tamago
+fast food                             　    　　　　　ファストフード　　fasutofuudo
+fish                                      魚　　　　　さかな　　　　　　sakana
+food                                      食べ物　　　たべもの　　　　　tabemono
+fried shrimp                                          エビフライ　　　　ebifurai
+good; tasty                               　　　　　　うまい　　　　　　umai (i-adj.)
+herushii na                               　　　　　　ヘルシーな　　　　healthy (na-adj.)
+meal                                      食事　　　　しょくじ　　　　　shokuji
+meat                                      肉　　　　　にく　　　　　　　niku
+noodle                                    麺　　　　　めん　　　　　　　men
+octopus                               　    　　　　　タコ　　　　　　　tako
+okonomiyaki                               お好み焼き　おこのみやき　　　okonomiyaki
+onion                                     玉ねぎ　　　たまねぎ　　　　　tamanegi
+pizza                                 　    　　　　　ピザ　　　　　　　piza
+potato                                                じゃがいも　　　　jagaimo
+ramen                                     　　　　　　ラーメン　　　　　raamen
+raw                                       生　　　　　なま　　　　　　　nama
+red bean paste                            　　　　　　あん　　　　　　　an
+rice; meal                                ご飯　　　　ごはん　　　　　　gohan
+rice                                      お米　　　　おこめ　　　　　　okome
+rice ball                                 　　　　　　おにぎり　　　　　onigiri
+rice bowl topped with chicken and eggs    親子丼　　　おやこどん　　　　oyakodon
+rice bowl topped with deep-fried prawns   天丼　　　　てんどん　　　　　tendon
+rice bowl topped with food                丼もの　　　どんぶりもの　　　donburimono
+rice bowl topped with pork cutlet         カツ丼　　　カツどん　　　　　katsudon
+rice grain                                ご飯粒　　　ごはんつぶ　　　　gohantsubu
+rice seed                                 　　　　　　もみ　　　　　　　momi
+sake                                      お酒　　　　おさけ　　　　　　osake
+salty                                     塩辛い　　　しおからい　　　　shiokarai (i-adj.)
+sea bream                                 鯛　　　　　たい　　　　　　　tai
+seed                                      種　　　　　たね　　　　　　　tane
+sembei (rice cracker)                     　　　　　　せんべい　　　　　senbei
+shrimp                                    　　　　　　えび　　　　　　　ebi
+soba                                      　　　　　　そば　　　　　　　soba
+soup                                      　　　　　　スープ　　　　　　suupu
+sour                                      酸っぱい　　すっぱい　　　　　suppai (i-adi.)
+spicy; hot                                辛い　　　　からい　　　　　　karai (i-adj.)
+staple food                               主食　　　　しゅしょく　　　　shushoku
+sweet                                     甘い　　　　あまい　　　　　　amai (i-adj.)
+sweets; candy; confection                 お菓子　　　おかし　　　　　　okashi
+sticky rice cake                          餅　　　　　もち　　　　　　　mochi
+sticky rice cake wrapped in oak leaf      柏餅　　　　かしわもち　　　　kashiwa mochi
+sushi                                     寿司　　　　すし　　　　　　　sushi
+takoyaki                                  蛸焼　　　　たこやき　　　　　takoyaki
+taiyaki                                   鯛焼き　　　たいやき　　　　　taiyaki
+taste                                     味　　　　　あじ　　　　　　　aji
+tea                                       お茶　　　　おちゃ　　　　　　ocha
+tofu; bean curd                           豆腐　　　　とうふ　　　　　　toufu
+udon (thick white noodle)                 　　　　　　うどん　　　　　　udon
+vegetable                                 野菜　　　　やさい　　　　　　yasai
