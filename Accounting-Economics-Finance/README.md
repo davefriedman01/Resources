@@ -17,6 +17,27 @@ Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Intr
 
 
 
+## Data
+
+AEA American Economic Association [Home](https://www.aeaweb.org/resources/data/us-macro-regional)<br>
+AssetMacro [Home](https://www.assetmacro.com/macroeconomic-indicators/)<br>
+CIA's World Fact Book [Home](https://www.cia.gov/the-world-factbook/)<br>
+Data.gov [Home](https://catalog.data.gov/dataset)<br>
+DataHub [GitHub](https://github.com/datasets)<br>
+Dow Jones Index Data Set [Home](http://archive.ics.uci.edu/ml/datasets/Dow+Jones+Index)<br>
+EU Open Data Portal [Home](https://data.europa.eu/data/datasets?locale=en&minScoring=0)<br>
+Eurostat [Home](http://epp.eurostat.ec.europa.eu/newxtweb/mainxtnet.do)<br>
+Financial Times [Home](https://markets.ft.com/data/)<br>
+Google Trends [Home](https://trends.google.com/trends/)<br>
+Inforum [Home](http://inforumweb.umd.edu/econdata/econdata.html)<br>
+IMF International Monetary Fund [Home](https://www.imf.org/en/Data)<br>
+Kaggle<br>
+Quandl [Home](https://www.quandl.com)<br>
+SimFin [Home](https://simfin.com)<br>
+The World Bank: Open Data [Home](https://data.worldbank.org)<br>
+
+
+
 ## Exchanges
 
 B3 [Home](http://www.b3.com.br/en_us/) [Wiki](https://en.wikipedia.org/wiki/B3_(stock_exchange))<br>
