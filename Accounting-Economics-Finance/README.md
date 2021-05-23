@@ -14,11 +14,13 @@ Markowitz, Harry M. (1952). ["Portfolio Selection: Efficient Diversification of 
 Silver, Nate. (2015). _The Signal and the Noise: Why So Many Predictions Fail--but Some Don't_. Penguin. <br>
 Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time Cloud Financial Management_. O'Reilly.<br>
 Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Introductory Text_.<br>
+Zumstein, Felix. (2021). [_Python for Excel: A Modern Environment for Automation and Data Analysis_](https://www.xlwings.org/book). O'Reilly. [GitHub](https://github.com/fzumstein/python-for-excel).<br>
 
 AlgoTrading101 [Home](https://algotrading101.com/learn/)<br>
 Corporate Finance Institute [Home](https://corporatefinanceinstitute.com) [YouTube](https://www.youtube.com/c/Corporatefinanceinstitute-CFI/)<br>
 The Finance Storyteller [YouTube](https://www.youtube.com/c/TheFinanceStoryteller/)<br>
 One Minute Economics [YouTube](https://www.youtube.com/c/OneMinuteEconomics/)<br>
+Part Time Larry [YouTube](https://www.youtube.com/c/parttimelarry/)<br>
 
 
 
@@ -37,11 +39,14 @@ Oanda [Home](https://www.oanda.com/us-en/)<br>
 
 Quandl [Home](https://www.quandl.com) [Python](https://www.quandl.com/tools/python) [GitHub](https://github.com/quandl/quandl-python)<br>
 
-Refinitiv<br>
+Refinitiv [Wiki](https://en.wikipedia.org/wiki/Refinitiv)<br>
+Refinitiv Eikon [Tutorial](https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api/tutorials) [GitHub](https://github.com/yhilpisch/eikondataapi) [Wiki](https://en.wikipedia.org/wiki/Eikon)<br>
 
 The Wall Street Journal [Home](https://www.wsj.com)<br>
 
 Wolfram Finance Platform [Home](https://www.wolfram.com/finance-platform/?source=nav)<br>
+
+xlwings [Home](https://www.xlwings.org) [PyPI](https://pypi.org/project/xlwings/)<br>
 
 Yahoo Finance [Home](https://finance.yahoo.com)<br>
 
@@ -94,8 +99,9 @@ Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 [Wiki](https:/
 
 
 
-## Online Resources
+## Figures
 
+Lynch, Peter [Wiki](https://en.wikipedia.org/wiki/Peter_Lynch)<br>
 
 
 
@@ -106,6 +112,7 @@ Active Investing [Wiki](https://en.wikipedia.org/wiki/Active_management)<br>
 Active Management [Wiki](https://en.wikipedia.org/wiki/Active_management)<br>
 Adaptive Market Hypothesis [Wiki](https://en.wikipedia.org/wiki/Adaptive_market_hypothesis)<br>
 [Adjusted Closing Price (Investopedia)](https://www.investopedia.com/terms/a/adjusted_closing_price.asp)<br>
+Alpha [Investopedia](https://www.investopedia.com/terms/a/alpha.asp)<br>
 [ATS Alternative Trading System (Investopedia)](https://www.investopedia.com/terms/a/alternative-trading-system.asp)<br>
 [Angel Investor (Investopedia)](https://www.investopedia.com/terms/a/angelinvestor.asp)<br>
 [Annualized Total Return (Investopedia)](https://www.investopedia.com/terms/a/annualized-total-return.asp)<br>
@@ -117,6 +124,7 @@ Adaptive Market Hypothesis [Wiki](https://en.wikipedia.org/wiki/Adaptive_market_
 Backtesting [Investopedia](https://www.investopedia.com/terms/b/backtesting.asp)<br>
 [Balance Sheet or Statement of Financial Position (Investopedia)](https://www.investopedia.com/terms/b/balancesheet.asp)<br>
 [Bank Capital (Investopedia)](https://www.investopedia.com/terms/b/bank-capital.asp)<br>
+Bank of America [Wiki](https://en.wikipedia.org/wiki/Bank_of_America_Private_Bank)<br>
 [Bankruptcy (Investopedia)](https://www.investopedia.com/terms/b/bankruptcy.asp)<br>
 Behavioral Economics [Wiki](https://en.wikipedia.org/wiki/Behavioral_economics)<br>
 [Beta (Investopedia)](https://www.investopedia.com/terms/b/beta.asp)<br>
@@ -384,6 +392,7 @@ Trailing P/E Price-to-Earnings Ratio [Investopedia](https://www.investopedia.com
 [T-Bills Treasure Bills (Investopedia)](https://www.investopedia.com/terms/t/treasurybill.asp)<br>
 Trend Line [Wiki](https://en.wikipedia.org/wiki/Trend_line_(technical_analysis))<br>
 [Two-Tailed Test (Investopedia)](https://www.investopedia.com/terms/t/two-tailed-test.asp)<br>
+U.S. Trust (now Bank of America) [Wiki](https://en.wikipedia.org/wiki/Bank_of_America_Private_Bank)<br>
 [Unit Cost (Investopedia)](https://www.investopedia.com/terms/u/unitcost.asp)<br>
 [Unrealized Gain (Investopedia)](https://www.investopedia.com/terms/u/unrealizedgain.asp)<br>
 [Useful Life (Investopedia)](https://www.investopedia.com/terms/u/usefullife.asp)<br>
