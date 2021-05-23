@@ -124,6 +124,11 @@ Bit Gold (Nick Szabo, 1998)<br>
 B-Money (Wei Dai, 1998)<br>
 Lucre (Ben Laurie, 1999)<br>
 
+Cryptovoxels<br>
+Decentraland<br>
+SomniumSpace<br>
+Webaverse<br>
+
 "Advanced Blockchain Concepts for Beginners" [Medium](https://mycoralhealth.medium.com/advanced-blockchain-concepts-for-beginners-32887202afad)<br>
 "How does a blockchain prevent double-spending of Bitcoins?" [Investopedia](https://www.investopedia.com/ask/answers/061915/how-does-block-chain-prevent-doublespending-bitcoins.asp)<br>
 "Public, Private, Permissioned Blockchains Compared" [Investopedia](https://www.investopedia.com/news/public-private-permissioned-blockchains-compared/)<br>
