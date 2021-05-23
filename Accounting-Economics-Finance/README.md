@@ -119,6 +119,7 @@ Active Investing [Wiki](https://en.wikipedia.org/wiki/Active_management)<br>
 Active Management [Wiki](https://en.wikipedia.org/wiki/Active_management)<br>
 Adaptive Market Hypothesis [Wiki](https://en.wikipedia.org/wiki/Adaptive_market_hypothesis)<br>
 [Adjusted Closing Price (Investopedia)](https://www.investopedia.com/terms/a/adjusted_closing_price.asp)<br>
+Algorithmic Trading [Investopedia](https://www.investopedia.com/terms/a/algorithmictrading.asp)<br>
 Alpha [Investopedia](https://www.investopedia.com/terms/a/alpha.asp)<br>
 [ATS Alternative Trading System (Investopedia)](https://www.investopedia.com/terms/a/alternative-trading-system.asp)<br>
 [Angel Investor (Investopedia)](https://www.investopedia.com/terms/a/angelinvestor.asp)<br>
@@ -128,6 +129,7 @@ Alpha [Investopedia](https://www.investopedia.com/terms/a/alpha.asp)<br>
 [Arithmetic Mean (Investopedia)](https://www.investopedia.com/terms/a/arithmeticmean.asp)<br>
 [Asset (Investopedia)](https://www.investopedia.com/terms/a/asset.asp)<br>
 [Asset Class (Investopedia)](https://www.investopedia.com/terms/a/assetclasses.asp)<br>
+Automated Trading System [Investopedia](https://www.investopedia.com/articles/trading/11/automated-trading-systems.asp)<br>
 Backtesting [Investopedia](https://www.investopedia.com/terms/b/backtesting.asp)<br>
 [Balance Sheet or Statement of Financial Position (Investopedia)](https://www.investopedia.com/terms/b/balancesheet.asp)<br>
 [Bank Capital (Investopedia)](https://www.investopedia.com/terms/b/bank-capital.asp)<br>
@@ -252,6 +254,7 @@ Game Theory [Wiki](https://en.wikipedia.org/wiki/Game_theory)<br>
 Head-and-Shoulders [Wiki](https://en.wikipedia.org/wiki/Head_and_shoulders_(chart_pattern))<br>
 [Hedge (Investopedia)](https://www.investopedia.com/terms/h/hedge.asp)<br>
 Heteroskedasticity [Investopedia](https://www.investopedia.com/terms/h/heteroskedasticity.asp)<br>
+HFT High-Frequency Trading [Investopedia](https://www.investopedia.com/terms/h/high-frequency-trading.asp)<br>
 [Hypothesis Testing (Investopedia)](https://www.investopedia.com/terms/h/hypothesistesting.asp)<br>
 [Index (Investopedia)](https://www.investopedia.com/terms/i/index.asp)<br>
 [Index Fund (Investopedia)](https://www.investopedia.com/terms/i/indexfund.asp)<br>
