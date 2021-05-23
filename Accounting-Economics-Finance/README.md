@@ -90,7 +90,7 @@ Google Trends [Home](https://trends.google.com/trends/)<br>
 Inforum [Home](http://inforumweb.umd.edu/econdata/econdata.html)<br>
 IMF International Monetary Fund [Home](https://www.imf.org/en/Data)<br>
 SimFin [Home](https://simfin.com)<br>
-[Twelve Data](https://twelvedata.com/docs#getting-started)
+Twelve Data [Docs](https://twelvedata.com/docs#getting-started)<br>
 The World Bank: Open Data [Home](https://data.worldbank.org) [Page](https://datahelpdesk.worldbank.org/knowledgebase/articles/889386-developer-information-overview)<br>
 
 
