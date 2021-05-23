@@ -11,7 +11,8 @@ Rizzo, Maria L. (2007). _Statistical Computing with R_.<br>
 Ross, Sheldon M. (2019). _Introduction to Probability Models, 12th Ed_.<br>
 Ross, Sheldon M. (2018). _A First Course in Probability, 10th Ed_. Pearson.<br>
 
-[StatQuest with Josh Starmer (YouTube)](https://www.youtube.com/c/joshstarmer)<br>
+StatQuest with Josh Starmer [YouTube](https://www.youtube.com/c/joshstarmer)<br>
+Kenneth Tay's Statistical Odds & Ends [Home](https://statisticaloddsandends.wordpress.com)<br>
 
 ## Terms
 
