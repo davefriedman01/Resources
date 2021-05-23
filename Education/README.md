@@ -4,25 +4,21 @@
 
 ## Open Education
 
-[MIT OpenCourseWare](https://ocw.mit.edu/index.htm). [YouTube](https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw).<br>
+MIT OpenCourseWare [Home](https://ocw.mit.edu/index.htm). [YouTube](https://www.youtube.com/channel/UCEBb1b_L6zDS3xTUrIALZOw).<br>
 Stanford Online [Home](https://online.stanford.edu)<br>
+
+
+
+Brilliant [Home](https://brilliant.org/premium/)<br>
+Hackthebox [Home](https://www.hackthebox.eu)<br>
+Pentester Academy [Home](https://www.pentesteracademy.com)<br>
+The Python Quants [Home](https://home.tpq.io)<br>
 
 
 
 ## Hackathoning
 
 Devpost [Home](https://devpost.com)<br>
-
-
-
-## Learn Cybersecurity & CTF
-
-Hackthebox [Home](https://www.hackthebox.eu)<br>
-Pentester Academy [Home](https://www.pentesteracademy.com)<br>
-
-## General Services
-
-[Brilliant](https://brilliant.org/premium/)<br>
 
 
 
