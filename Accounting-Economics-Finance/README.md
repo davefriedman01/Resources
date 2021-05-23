@@ -31,6 +31,8 @@ Bloomberg [Home](https://www.bloomberg.com)<br>
 Data.world [Home](https://data.world)<br>
 Data.world Finance [Page](https://data.world/datasets/finance)<br>
 
+financial modeling prep API [Page](https://financialmodelingprep.com/developer/docs/)<br>
+
 FXCM [Home](https://www.fxcm.com/uk/)<br>
 
 Kaggle Datasets [Page](https://www.kaggle.com/data)<br>
@@ -43,6 +45,8 @@ Quandl [Home](https://www.quandl.com) [Python](https://www.quandl.com/tools/pyth
 
 Refinitiv [Wiki](https://en.wikipedia.org/wiki/Refinitiv)<br>
 Refinitiv Eikon [Tutorial](https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api/tutorials) [GitHub](https://github.com/yhilpisch/eikondataapi) [Wiki](https://en.wikipedia.org/wiki/Eikon)<br>
+
+TradingView [Home](https://www.tradingview.com)<br>
 
 The Wall Street Journal [Home](https://www.wsj.com)<br>
 
