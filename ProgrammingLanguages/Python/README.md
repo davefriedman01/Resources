@@ -1,5 +1,13 @@
 # Python Ecosystem
 
+
+
+## Resources
+
+McKinney, Wes. (2017). [_Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_](https://github.com/wesm/pydata-book). O'Reilly.<br>
+
+
+
 CircuitPython [Home](https://circuitpython.org)<br>
 Python for Hardware Design [Home](https://gogul.dev/hardware/python-for-hardware-design)<br>
 SchemDraw [Home](https://schemdraw.readthedocs.io/en/latest/index.html)<br>
