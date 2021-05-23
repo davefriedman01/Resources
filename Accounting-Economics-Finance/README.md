@@ -476,3 +476,8 @@ U.S. Trust (now Bank of America) [Wiki](https://en.wikipedia.org/wiki/Bank_of_Am
 [What Is the Ideal Number of Stocks to Have in a Portfolio? (Investopedia)](https://www.investopedia.com/ask/answers/05/optimalportfoliosize.asp)<br>
 [What Owning a Stock Actually Means (Investopedia)](https://www.investopedia.com/investing/what-owning-stock-actually-means/)<br>
 [Will a Systematic Withdrawal Plan Work for You? (Investopedia)](https://www.investopedia.com/articles/retirement/09/systematic-withdrawal-plan-work-for-you.asp)<br>
+
+
+
+
+Blackstone [Home](https://www.blackstone.com) [Wiki](https://en.wikipedia.org/wiki/The_Blackstone_Group)<br>
