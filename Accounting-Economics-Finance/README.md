@@ -37,6 +37,8 @@ Kaggle Datasets [Page](https://www.kaggle.com/data)<br>
 
 Oanda [Home](https://www.oanda.com/us-en/)<br>
 
+pandas-datareader [Home](https://pydata.github.io/pandas-datareader/index.html) [PyPI](https://pypi.org/project/pandas-datareader/)<br>
+
 Quandl [Home](https://www.quandl.com) [Python](https://www.quandl.com/tools/python) [GitHub](https://github.com/quandl/quandl-python)<br>
 
 Refinitiv [Wiki](https://en.wikipedia.org/wiki/Refinitiv)<br>
@@ -49,6 +51,7 @@ Wolfram Finance Platform [Home](https://www.wolfram.com/finance-platform/?source
 xlwings [Home](https://www.xlwings.org) [PyPI](https://pypi.org/project/xlwings/)<br>
 
 Yahoo Finance [Home](https://finance.yahoo.com)<br>
+yfinance [GitHub](https://github.com/ranaroussi/yfinance) [PyPI](https://pypi.org/project/yfinance/)<br>
 
 AEA American Economic Association [Home](https://www.aeaweb.org/resources/data/us-macro-regional)<br>
 AssetMacro [Home](https://www.assetmacro.com/macroeconomic-indicators/)<br>
