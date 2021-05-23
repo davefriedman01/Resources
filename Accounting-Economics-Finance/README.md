@@ -73,6 +73,7 @@ Wolfram Finance Platform [Home](https://www.wolfram.com/finance-platform/?source
 WrapAPI [Home](https://wrapapi.com/docs/GettingStarted)
 
 xlwings [Home](https://www.xlwings.org) [PyPI](https://pypi.org/project/xlwings/)<br>
+openpyxl [PyPI](https://pypi.org/project/openpyxl/)<br>
 
 Yahoo Finance [Home](https://finance.yahoo.com)<br>
 yfinance [GitHub](https://github.com/ranaroussi/yfinance) [PyPI](https://pypi.org/project/yfinance/)<br>
