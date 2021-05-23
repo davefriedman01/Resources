@@ -16,6 +16,8 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Introductory Text_.<br>
 Zumstein, Felix. (2021). [_Python for Excel: A Modern Environment for Automation and Data Analysis_](https://www.xlwings.org/book). O'Reilly. [GitHub](https://github.com/fzumstein/python-for-excel).<br>
 
+freeCodeCamp's APIs for Beginners [YouTube](https://www.youtube.com/watch?v=GZvSYJDk-us)<br>
+
 AlgoTrading101 [Home](https://algotrading101.com/learn/)<br>
 Corporate Finance Institute [Home](https://corporatefinanceinstitute.com) [YouTube](https://www.youtube.com/c/Corporatefinanceinstitute-CFI/)<br>
 The Finance Storyteller [YouTube](https://www.youtube.com/c/TheFinanceStoryteller/)<br>
@@ -26,7 +28,14 @@ Part Time Larry [YouTube](https://www.youtube.com/c/parttimelarry/)<br>
 
 ## APIs and Platforms
 
+Alpaca [Docs](https://alpaca.markets/docs/)
+
+Alpha Vantage [Docs](https://www.alphavantage.co/documentation/) [PyPI](https://pypi.org/project/alpha-vantage/)<br>
+
 Bloomberg [Home](https://www.bloomberg.com)<br>
+Bloomberg's OpenFIGI [Home](https://www.openfigi.com)<br>
+
+Coinbase [Home](https://developers.coinbase.com)
 
 Data.world [Home](https://data.world)<br>
 Data.world Finance [Page](https://data.world/datasets/finance)<br>
@@ -35,13 +44,22 @@ financial modeling prep API [Page](https://financialmodelingprep.com/developer/d
 
 FXCM [Home](https://www.fxcm.com/uk/)<br>
 
+IEX Cloud [Docs](https://iexcloud.io/docs/api/) [PyPI](https://pypi.org/project/iexfinance/)<br>
+
 Kaggle Datasets [Page](https://www.kaggle.com/data)<br>
+
+Mapbox [Home](https://docs.mapbox.com)
 
 Oanda [Home](https://www.oanda.com/us-en/)<br>
 
 pandas-datareader [Home](https://pydata.github.io/pandas-datareader/index.html) [PyPI](https://pypi.org/project/pandas-datareader/)<br>
 
-Quandl [Home](https://www.quandl.com) [Python](https://www.quandl.com/tools/python) [GitHub](https://github.com/quandl/quandl-python)<br>
+Plaid [Home](https://plaid.com/docs/)
+
+Postman [Home](https://learning.postman.com)
+
+Quandl [Home](https://www.quandl.com) [Docs](https://docs.quandl.com/docs) [Python](https://www.quandl.com/tools/python) [GitHub](https://github.com/quandl/quandl-python)<br>
+AlgoTrading101's Quandl: A Step-by-Step Guide [Page](https://algotrading101.com/learn/quandl-guide/)<br>
 
 Refinitiv [Wiki](https://en.wikipedia.org/wiki/Refinitiv)<br>
 Refinitiv Eikon [Tutorial](https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api/tutorials) [GitHub](https://github.com/yhilpisch/eikondataapi) [Wiki](https://en.wikipedia.org/wiki/Eikon)<br>
@@ -51,6 +69,8 @@ TradingView [Home](https://www.tradingview.com)<br>
 The Wall Street Journal [Home](https://www.wsj.com)<br>
 
 Wolfram Finance Platform [Home](https://www.wolfram.com/finance-platform/?source=nav)<br>
+
+WrapAPI [Home](https://wrapapi.com/docs/GettingStarted)
 
 xlwings [Home](https://www.xlwings.org) [PyPI](https://pypi.org/project/xlwings/)<br>
 
@@ -70,7 +90,8 @@ Google Trends [Home](https://trends.google.com/trends/)<br>
 Inforum [Home](http://inforumweb.umd.edu/econdata/econdata.html)<br>
 IMF International Monetary Fund [Home](https://www.imf.org/en/Data)<br>
 SimFin [Home](https://simfin.com)<br>
-The World Bank: Open Data [Home](https://data.worldbank.org)<br>
+[Twelve Data](https://twelvedata.com/docs#getting-started)
+The World Bank: Open Data [Home](https://data.worldbank.org) [Page](https://datahelpdesk.worldbank.org/knowledgebase/articles/889386-developer-information-overview)<br>
 
 
 
@@ -91,7 +112,13 @@ Tokyo Financial Exchange [Home](https://www.tfx.co.jp/en/) [Wiki](https://en.wik
 ## Brokerages
 
 Fidelity [Home](https://www.fidelity.com) [Wiki](https://en.wikipedia.org/wiki/Fidelity_Investments)<br>
+
+IB Interactive Brokers<br>
+Investopedia's Review of Interactive Brokers [Page](https://www.investopedia.com/interactive-brokers-review-4587904)<br>
+AlgoTrading101's Guide to Interactive Brokers Python API [Page](https://algotrading101.com/learn/interactive-brokers-python-api-native-guide/)<br>
+
 Robinhood [Home](https://robinhood.com/us/en/) [Wiki](https://en.wikipedia.org/wiki/Robinhood_(company))<br>
+
 Vanguard [Home](https://investor.vanguard.com/corporate-portal/) [Wiki](https://en.wikipedia.org/wiki/The_Vanguard_Group)<br>
 
 
