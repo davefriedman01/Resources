@@ -15,9 +15,35 @@ Silver, Nate. (2015). _The Signal and the Noise: Why So Many Predictions Fail--b
 Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time Cloud Financial Management_. O'Reilly.<br>
 Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Introductory Text_.<br>
 
+AlgoTrading101 [Home](https://algotrading101.com/learn/)<br>
+Corporate Finance Institute [Home](https://corporatefinanceinstitute.com) [YouTube](https://www.youtube.com/c/Corporatefinanceinstitute-CFI/)<br>
+The Finance Storyteller [YouTube](https://www.youtube.com/c/TheFinanceStoryteller/)<br>
+One Minute Economics [YouTube](https://www.youtube.com/c/OneMinuteEconomics/)<br>
 
 
-## Data
+
+## APIs and Platforms
+
+Bloomberg [Home](https://www.bloomberg.com)<br>
+
+Data.world [Home](https://data.world)<br>
+Data.world Finance [Page](https://data.world/datasets/finance)<br>
+
+FXCM [Home](https://www.fxcm.com/uk/)<br>
+
+Kaggle Datasets [Page](https://www.kaggle.com/data)<br>
+
+Oanda [Home](https://www.oanda.com/us-en/)<br>
+
+Quandl [Home](https://www.quandl.com) [Python](https://www.quandl.com/tools/python) [GitHub](https://github.com/quandl/quandl-python)<br>
+
+Refinitiv<br>
+
+The Wall Street Journal [Home](https://www.wsj.com)<br>
+
+Wolfram Finance Platform [Home](https://www.wolfram.com/finance-platform/?source=nav)<br>
+
+Yahoo Finance [Home](https://finance.yahoo.com)<br>
 
 AEA American Economic Association [Home](https://www.aeaweb.org/resources/data/us-macro-regional)<br>
 AssetMacro [Home](https://www.assetmacro.com/macroeconomic-indicators/)<br>
@@ -31,8 +57,6 @@ Financial Times [Home](https://markets.ft.com/data/)<br>
 Google Trends [Home](https://trends.google.com/trends/)<br>
 Inforum [Home](http://inforumweb.umd.edu/econdata/econdata.html)<br>
 IMF International Monetary Fund [Home](https://www.imf.org/en/Data)<br>
-Kaggle<br>
-Quandl [Home](https://www.quandl.com)<br>
 SimFin [Home](https://simfin.com)<br>
 The World Bank: Open Data [Home](https://data.worldbank.org)<br>
 
@@ -72,15 +96,6 @@ Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 [Wiki](https:/
 
 ## Online Resources
 
-Wolfram Finance Platform [Home](https://www.wolfram.com/finance-platform/?source=nav)<br>
-Yahoo Finance [Home](https://finance.yahoo.com)<br>
-Bloomberg [Home](https://www.bloomberg.com)<br>
-The Wall Street Journal [Home](https://www.wsj.com)<br>
-
-AlgoTrading101 [Home](https://algotrading101.com/learn/)<br>
-Corporate Finance Institute [Home](https://corporatefinanceinstitute.com) [YouTube](https://www.youtube.com/c/Corporatefinanceinstitute-CFI/)<br>
-The Finance Storyteller [YouTube](https://www.youtube.com/c/TheFinanceStoryteller/)<br>
-One Minute Economics [YouTube](https://www.youtube.com/c/OneMinuteEconomics/)<br>
 
 
 
@@ -124,6 +139,7 @@ Bull-Bear Line [Wiki](https://en.wikipedia.org/wiki/Bull–bear_line)<br>
 [Business Plan (Investopedia)](https://www.investopedia.com/terms/b/business-plan.asp)<br>
 [Call (Investopedia)](https://www.investopedia.com/terms/c/call.asp)<br>
 [Call Market (Investopedia)](https://www.investopedia.com/terms/c/callmarket.asp)<br>
+Call Option [Investopedia](https://www.investopedia.com/terms/c/calloption.asp)<br>
 Candlestick [Wiki](https://en.wikipedia.org/wiki/Candlestick_chart)<br>
 [CapEx Capital Expenditure (Investopedia)](https://www.investopedia.com/terms/c/capitalexpenditure.asp)<br>
 [Capital (Investopedia)](https://www.investopedia.com/terms/c/capital.asp)<br>
@@ -148,6 +164,7 @@ Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.
 [Closing Price (Investopedia)](https://www.investopedia.com/terms/c/closingprice.asp)<br>
 [Commercial Paper (Investopedia)](https://www.investopedia.com/terms/c/commercialpaper.asp)<br>
 [Commission (Investopedia)](https://www.investopedia.com/terms/c/commission.asp)<br>
+CUSIP Committee on Uniform Securities Identification Procedures [Investopedia](https://www.investopedia.com/terms/c/cusipnumber.asp)<br>
 [Commodity (Investopedia)](https://www.investopedia.com/terms/c/commodity.asp)<br>
 [Conditional Order (Investopedia)](https://www.investopedia.com/terms/c/conditionalorder.asp)<br>
 [Continuous Compounding (Investopedia)](https://www.investopedia.com/terms/c/continuouscompounding.asp)<br>
@@ -159,6 +176,7 @@ Clearinghouse [Investopedia](https://www.investopedia.com/terms/c/clearinghouse.
 [COGS Cost of Goods Sold (Investopedia)](https://www.investopedia.com/terms/c/cogs.asp)<br>
 [Cost of Labor (Investopedia)](https://www.investopedia.com/terms/c/cost-of-labor.asp)<br>
 [Counterparty (Investopedia)](https://www.investopedia.com/terms/c/counterparty.asp)<br>
+Covered Call [Investopedia](https://www.investopedia.com/terms/c/coveredcall.asp)<br>
 [Creditor (Investopedia)](https://www.investopedia.com/terms/c/creditor.asp)<br>
 [Cross-Sell (Investopedia)](https://www.investopedia.com/terms/c/cross-sell.asp)<br>
 [Cumulative Return (Investopedia)](https://www.investopedia.com/terms/c/cumulativereturn.asp)<br>
@@ -225,6 +243,7 @@ Heteroskedasticity [Investopedia](https://www.investopedia.com/terms/h/heteroske
 [Inflation (Investopedia)](https://www.investopedia.com/terms/i/inflation.asp)<br>
 [IPO Initial Public Offering (Investopedia)](https://www.investopedia.com/terms/i/ipo.asp)<br>
 [Insurance (Investopedia)](https://www.investopedia.com/terms/i/insurance.asp)<br>
+ISIN International Securities Identification Number [Investopedia](https://www.investopedia.com/terms/i/isin.asp)<br>
 [Intrinsic Value (Investopedia)](https://www.investopedia.com/terms/i/intrinsicvalue.asp)<br>
 [Intrinsic Value (Wikipedia)](https://en.wikipedia.org/wiki/Intrinsic_value_(numismatics))<br>
 [Inventory (Investopedia)](https://www.investopedia.com/terms/i/inventory.asp)<br>
@@ -320,6 +339,7 @@ Resistance [Wiki](https://en.wikipedia.org/wiki/Support_and_resistance)<br>
 [ROI Return On Investment (Investopedia)](https://www.investopedia.com/terms/r/returnoninvestment.asp)<br>
 [Roth 401(k) (Investopedia)](https://www.investopedia.com/terms/r/roth401k.asp)<br>
 [Roy's SFRatio Safety-First Criterion](https://www.investopedia.com/terms/r/roys-safety-first-criterion.asp)<br>
+Rule of 72 [Investopedia](https://www.investopedia.com/terms/r/ruleof72.asp)<br>
 [Russell 2000 Index (Investopedia)](https://www.investopedia.com/terms/r/russell2000.asp)<br>
 [Russell 3000 Index (Investopedia)](https://www.investopedia.com/terms/r/russell_3000.asp)<br>
 Sample Selection Bias [Investopedia](https://www.investopedia.com/terms/s/sample_selection_basis.asp)<br>
