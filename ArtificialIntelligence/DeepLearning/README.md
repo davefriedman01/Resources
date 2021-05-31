@@ -2,11 +2,16 @@
 
 ## Resources
 
+Buduma, Nikhil. (2017). [_Fundamentals of Deep Learning: Designing Next-Generation Machine Intelligence Algorithms_](https://github.com/darksigma/Fundamentals-of-Deep-Learning-Book). O'Reilly.<br>
 Curry, Haskell B. (1944). ["The Method of Steepest Descent for Non-Linear Minimization Problems"](https://www.ams.org/journals/qam/1944-02-03/S0033-569X-1944-10667-3/S0033-569X-1944-10667-3.pdf).<br>
 Fausett, Laurene. (1994). _Fundamentals of Neural Networks: Architectures, Algorithms, and Applications_. Prentice Hall.<br>
 Goofellow, Ian, Yoshua Bengio, & Aaron Courville. _Deep Learning_. MIT Press.<br>
+Howard, Jeremy & Sylvain Gugger. (2020). [_Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD_](https://github.com/fastai/fastbook). O'Reilly.<br>
 Minsky, Marvin & Seymour Papert. (1969). _Perceptrons: An Introduction to Computational Geometry_. [Wiki](https://en.wikipedia.org/wiki/Perceptrons_(book))<br>
+Osinga, Douwe. (2018). [_Deep Learning Cookbook: Practical Recipes to Get Started Quickly_](https://github.com/DOsinga/deep_learning_cookbook). O'Reilly.<br>
+Pointer, Ian. (2019). [_Programming PyTorch for Deep Learning: Creating and Deploying Deep Learning Algorithms_](https://github.com/falloutdurham/beginners-pytorch-deep-learning). O'Reilly.<br>
 Rao, Delip & Brian McMahon. _Natural Language Processing with PyTorch_. O'Reilly.<br>
+Warr, katy. (2019). [_Strengthening Deep Neural Networks: Making AI Less Susceptible to Adversarial Trickery_](https://github.com/katywarr/strengthening-dnns). O'Reilly.<br>
 
 DeepLearning.AI [Home](https://www.deeplearning.ai)<br>
 TensorFlow Tutorials [Home](https://www.tensorflow.org/tutorials)<br>
