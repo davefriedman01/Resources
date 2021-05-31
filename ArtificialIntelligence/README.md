@@ -18,6 +18,7 @@ Leskovec, Jure, Anand Rajaraman, & Jeff Ullman. (2016). [_Mining of Massive Data
 MacKay, David J. (2003). _Information Theory, Inference, and Learning Algorithms_. Cambridge University Press.<br>
 Mitchell, Tom M. (1997). _Machine Learning_.<br>
 Mohri, Mehryar, Afshin Rostamizadeh, & Ameet Talwalkar. (2018). [_Foundations of Machine Learning_](https://cs.nyu.edu/~mohri/mlbook/). MIT Press.<br>
+Moroney, Laurence. (2020). [_AI and Machine Learning for Coders: A Programmer's Guide to Artificial Intelligence_](https://github.com/lmoroney/tfbook). O'Reilly.<br>
 Muller, Andreas C. & Sarah Guido. (2016). _Introduction to Machine Learning with Python: A Guide for Data Scientists_. O'Reilly Media.<br>
 Murphy, Kevin Patrick. (2012). [_Machine Learning: A Probabilistic Perspective_](https://www.cs.ubc.ca/~murphyk/MLbook/). MIT Press.<br>
 Russell, Stuart & Peter Norvig. (2020). [_Artificial Intelligence: A Modern Approach, 4th Ed_](http://aima.cs.berkeley.edu). Pearson.<br>
