@@ -15,7 +15,7 @@ Kamath, Uday, John Liu, & James Whitaker. (2019). _Deep Learning for NLP and Spe
 Lane, Hobson, Cole Howard, & Hannes Max Hapke. (2019). _Natural Language Processing in Action: Understanding, Analyzing, and Generating Text with Python_. O'Reilly.<br>
 Liu, Zhiyuan, Yankai Lin, & Maosong Sun. (2020). _Representation Learning for Natural Language Processing_. Springer.<br>
 Manning, Christopher D. & Hinrich Schutze. (1999). _Foundations of Statistical Natural Language Processing_. MIT Press.<br>
-Patel, Ankur A. & Ajay Uppili Arasanipalai. (2021). _Applied Natural Language Processing in the Enterprise: Teaching Machines to Read, Write, and Understand_. O'Reilly.<br>
+Patel, Ankur A. & Ajay Uppili Arasanipalai. (2021). [_Applied Natural Language Processing in the Enterprise: Teaching Machines to Read, Write, and Understand_](https://github.com/nlpbook/nlpbook). O'Reilly.<br>
 Poibeau, Thierry. (2017). _Machine Translation_. MIT Press Essential Knowledge Series.<br>
 Raaijmakers, Stephan. (2020). _Deep Learning for Natural Language Processing_. Manning.<br>
 Rao, Delip, & Brian McMahon. (2019). _Natural Language Processing with PyTorch: Build Intelligent Language Applications Using Deep Learning_. O'Reilly.<br>
