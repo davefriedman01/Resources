@@ -143,6 +143,7 @@ Adposition [Wiki](https://en.wikipedia.org/wiki/Preposition_and_postposition)<br
 Alphabet [Wiki](https://en.wikipedia.org/wiki/Alphabet)<br>
 Allomorph [Wiki](https://en.wikipedia.org/wiki/Allomorph)<br>
 Allophone [Wiki](https://en.wikipedia.org/wiki/Allophone)<br>
+Amplitude [Wiki](https://en.wikipedia.org/wiki/Amplitude)<br>
 Articulation [Wiki](https://en.wikipedia.org/wiki/Articulatory_phonetics)<br>
 Artificial Language or Constructed Language [Wiki](https://en.wikipedia.org/wiki/Constructed_language)<br>
 Aspect [Wiki](https://en.wikipedia.org/wiki/Grammatical_aspect)<br>
@@ -173,8 +174,10 @@ Discourse Marker [Wiki](https://en.wikipedia.org/wiki/Discourse_marker)<br>
 Etymology [Wiki](https://en.wikipedia.org/wiki/Etymology)<br>
 Evolutionary Linguistics [Wiki](https://en.wikipedia.org/wiki/Evolutionary_linguistics)<br>
 Figure of Speech [Wiki](https://en.wikipedia.org/wiki/Figure_of_speech)<br>
+First Harmonic [Wiki](https://en.wikipedia.org/wiki/Fundamental_frequency)<br>
 Formal Linguistics or Formalism [Wiki](https://en.wikipedia.org/wiki/Formalism_(linguistics))<br>
 Functional Linguistics or Functionalism [Wiki](https://en.wikipedia.org/wiki/Functional_linguistics)<br>
+F0 Fundamental Frequency [Wiki](https://en.wikipedia.org/wiki/Fundamental_frequency)<br>
 Genealogy [Wiki](https://en.wikipedia.org/wiki/Genetic_relationship_(linguistics))<br>
 Generative Linguistics or Generativism [Wiki](https://en.wikipedia.org/wiki/Generative_grammar)<br>
 Gerund [Wiki](https://en.wikipedia.org/wiki/Gerund)<br>
@@ -183,6 +186,10 @@ Grammar [Wiki](https://en.wikipedia.org/wiki/Grammar)<br>
 Grapheme [Wiki](https://en.wikipedia.org/wiki/Grapheme)<br>
 Grassmann's Law [Wiki](https://en.wikipedia.org/wiki/Grassmann%27s_law)<br>
 Grimm's Law [Wiki](https://en.wikipedia.org/wiki/Grimm%27s_law)<br>
+Harmonic [Wiki](https://en.wikipedia.org/wiki/Harmonic)<br>
+Harmonic, Mathematical [Wiki](https://en.wikipedia.org/wiki/Harmonic_(mathematics))<br>
+Harmonic Analysis [Wiki](https://en.wikipedia.org/wiki/Harmonic_analysis)<br>
+Harmonic Spectrum [Wiki](https://en.wikipedia.org/wiki/Harmonic_spectrum)<br>
 Hieroglyph [Wiki](https://en.wikipedia.org/wiki/Egyptian_hieroglyphs)<br>
 Historical Linguistics [Wiki](https://en.wikipedia.org/wiki/Historical_linguistics)<br>
 Ideogram or Ideograph [Wiki](https://en.wikipedia.org/wiki/Ideogram)<br>
@@ -217,6 +224,7 @@ Loanword [Wiki](https://en.wikipedia.org/wiki/Loanword)<br>
 Locution [Wiki](https://en.wikipedia.org/wiki/Locutionary_act)<br>
 Logogram or Logograph [Wiki](https://en.wikipedia.org/wiki/Logogram)<br>
 Manner of Articulation [Wiki](https://en.wikipedia.org/wiki/Manner_of_articulation)<br>
+Mathematical Spectrum [Wiki](https://en.wikipedia.org/wiki/Spectrum_(functional_analysis))<br>
 Metaphor [Wiki](https://en.wikipedia.org/wiki/Metaphor)<br>
 Modality [Wiki](https://en.wikipedia.org/wiki/Modality_(natural_language))
 Mood [Wiki](https://en.wikipedia.org/wiki/Grammatical_mood)<br>
@@ -246,7 +254,7 @@ Petroglyph [Wiki](https://en.wikipedia.org/wiki/Petroglyph)<br>
 Phatic Expression [Wiki](https://en.wikipedia.org/wiki/Phatic_expression)<br>
 Philology [Wiki](https://en.wikipedia.org/wiki/Philology)<br>
 Philosophy of Language [Wiki](https://en.wikipedia.org/wiki/Philosophy_of_language)<br>
-Philosophy of Linguistics (Stanford Encyclopedia of Philosophy)](https://plato.stanford.edu/entries/linguistics/)<br>
+Philosophy of Linguistics [SEP](https://plato.stanford.edu/entries/linguistics/)<br>
 Phone or Speech Sound [Wiki](https://en.wikipedia.org/wiki/Phone_(phonetics))<br>
 Phoneme [Wiki](https://en.wikipedia.org/wiki/Phoneme)<br>
 Phonetics [Wiki](https://en.wikipedia.org/wiki/Phonetics)<br>
@@ -255,6 +263,7 @@ Phonetics, Articulatory [Wiki](https://en.wikipedia.org/wiki/Articulatory_phonet
 Phonetics, Auditory [Wiki](https://en.wikipedia.org/wiki/Auditory_phonetics)<br>
 Phonogram or Phonograph [Wiki](https://en.wikipedia.org/wiki/Phonogram_(linguistics))<br>
 Phonology [Wiki](https://en.wikipedia.org/wiki/Phonology)<br>
+Pitch [Wiki](https://en.wikipedia.org/wiki/Pitch_(music))<br>
 Pictogram or Pictograph [Wiki](https://en.wikipedia.org/wiki/Pictogram)<br>
 Postposition [Wiki](https://en.wikipedia.org/wiki/Preposition_and_postposition)<br>
 Pragmatics [Wiki](https://en.wikipedia.org/wiki/Pragmatics)<br>
@@ -266,6 +275,8 @@ Prosody [Wiki](https://en.wikipedia.org/wiki/Prosody_%28linguistics%29)<br>
 Proto Language [Wiki](https://en.wikipedia.org/wiki/Proto-language)<br>
 Psycholinguistics [Wiki](https://en.wikipedia.org/wiki/Psycholinguistics)<br>
 Punctuation [Wiki](https://en.wikipedia.org/wiki/Punctuation)<br>
+Resonance [Wiki](https://en.wikipedia.org/wiki/Resonance)<br>
+Resonant Frequency [Wiki](https://en.wikipedia.org/wiki/Resonance)<br>
 Rheme [Wiki](https://en.wikipedia.org/wiki/Topic_and_comment)<br>
 Rhetoric [Wiki](https://en.wikipedia.org/wiki/Rhetoric)<br>
 Rhetorical Device [Wiki](https://en.wikipedia.org/wiki/Rhetorical_device)<br>
@@ -277,10 +288,13 @@ Semiotics [Wiki](https://en.wikipedia.org/wiki/Semiotics)<br>
 Sentence [Wiki](https://en.wikipedia.org/wiki/Sentence_(linguistics))<br>
 Shorthand [Wiki](https://en.wikipedia.org/wiki/Shorthand)<br>
 Sign [Wiki](https://en.wikipedia.org/wiki/Sign_(semiotics))<br>
+Sine Wave [Wiki](https://en.wikipedia.org/wiki/Sine_wave)<br>
+Sinusoid [Wiki](https://en.wikipedia.org/wiki/Sine_wave)<br>
 Sister Language [Wiki](https://en.wikipedia.org/wiki/Sister_language)<br>
 Sociolect [Wiki](https://en.wikipedia.org/wiki/Sociolect)<br>
 Sociolinguistics [Wiki](https://en.wikipedia.org/wiki/Sociolinguistics)<br>
 Sound Change [Wiki](https://en.wikipedia.org/wiki/Sound_change)<br>
+Spectrum, Mathematical [Wiki](https://en.wikipedia.org/wiki/Spectrum_(functional_analysis))<br>
 Speech [Wiki](https://en.wikipedia.org/wiki/Speech)<br>
 Speech Act [Wiki](https://en.wikipedia.org/wiki/Speech_act)<br>
 Speech Perception [Wiki](https://en.wikipedia.org/wiki/Speech_perception)<br>
@@ -315,6 +329,7 @@ Verner's Law [Wiki](https://en.wikipedia.org/wiki/Verner%27s_law)<br>
 Vocabulary [Wiki](https://en.wikipedia.org/wiki/Vocabulary)<br>
 Vowel [Wiki](https://en.wikipedia.org/wiki/Vowel)<br>
 Wave Model [Wiki](https://en.wikipedia.org/wiki/Wave_model)<br>
+Waveform [Wiki](https://en.wikipedia.org/wiki/Waveform)<br>
 Word [Wiki](https://en.wikipedia.org/wiki/Word)<br>
 Word Order [Wiki](https://en.wikipedia.org/wiki/Word_order)<br>
 Writing System [Wiki](https://en.wikipedia.org/wiki/Writing_system)<br>
