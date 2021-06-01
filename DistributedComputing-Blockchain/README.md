@@ -68,6 +68,7 @@ Kurose, Jim & Keith Ross. (2020). [_Computer Networking: A Top-Down Approach, 8t
 Lamport, Leslie. (2000). "The Part-Time Parliament".<br>
 Lamport, Leslie, Robert Shostak, & Marshall Pease. (1982). "The Byzantine Generals Problem".<br>
 Lantz, Lorne & Daniel Cawrey. (2020). _Mastering Blockchain: Unlocking the Power of Cryptocurrencies, Smart Contracts, and Decentralized Applications_. O'Reilly.<br>
+Le Boudec, Jean-Yves & Patrick Thiran. (2020). [_Network Calculus: A Theory of Deterministic Queueing Systems for the Internet_](https://ica1www.epfl.ch/PS_files/netCalBookv4.pdf). Springer.<br>
 Lynch, Nancy A. (1996). _Distributed Algorithms_. Morgan-Kaufmann Series in Data Management Systems.<br>
 Merkle, Ralph. (1980). ["Protocols for Public Key Cryptosystems"](http://www.merkle.com/papers/Protocols.pdf).<br>
 Nakamoto, Satoshi. (2008). ["Bitcoin: A Peer-to-Peer Electronic Cash System"](https://bitcoin.org/bitcoin.pdf).<br>
@@ -217,6 +218,7 @@ Mining [Investopedia](https://www.investopedia.com/tech/how-does-bitcoin-mining-
 Mining Pool [Wiki](https://en.wikipedia.org/wiki/Mining_pool)<br>
 Nakamoto Consensus<br>
 MapReduce [Wiki](https://en.wikipedia.org/wiki/MapReduce)<br>
+Network Calculus [Wiki](https://en.wikipedia.org/wiki/Network_calculus)<br>
 NFT Non-Fungible Token or Cryptocollectible [Binance](https://academy.binance.com/en/glossary/non-fungible-token-nft) [Wiki](https://en.wikipedia.org/wiki/Non-fungible_token)<br>
 Obelisk Consensus [Investopedia](https://www.investopedia.com/terms/o/obelisk-consensus-algorithm.asp)<br>
 P2P Lending [Wiki](https://en.wikipedia.org/wiki/Peer-to-peer_lending)<br>
@@ -236,6 +238,7 @@ PoS Proof of Space [Wiki](https://en.wikipedia.org/wiki/Proof_of_space)<br>
 PoS Proof of Stake [Investopedia](https://www.investopedia.com/terms/p/proof-stake-pos.asp) [Wiki](https://en.wikipedia.org/wiki/Proof_of_stake)<br>
 PoW Proof of Work [Investopedia](https://www.investopedia.com/terms/p/proof-work.asp) [Wiki](https://en.wikipedia.org/wiki/Proof_of_work)<br>
 Quantum Byzantine Agreement [Wiki](https://en.wikipedia.org/wiki/Quantum_Byzantine_agreement)<br>
+Queueing Theory [Wiki](https://en.wikipedia.org/wiki/Queueing_theory)<br>
 Shard [Wiki](https://en.wikipedia.org/wiki/Shard_(database_architecture))<br>
 Smart Contract [Binance](https://academy.binance.com/en/articles/what-are-smart-contracts) [Wiki](https://en.wikipedia.org/wiki/Smart_contract)<br>
 State Machine Replication [Wiki](https://en.wikipedia.org/wiki/State_machine_replication)<br>
