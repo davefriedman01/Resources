@@ -53,6 +53,7 @@ Lemmatization [Wiki](https://en.wikipedia.org/wiki/Lemmatisation)<br>
 Lexeme [Wiki](https://en.wikipedia.org/wiki/Lexeme)<br>
 Lexical Analysis [Wiki](https://en.wikipedia.org/wiki/Lexical_analysis)<br>
 Machine Translation [Wiki](https://en.wikipedia.org/wiki/Machine_translation)<br>
+Morphological Parsing [Wiki](https://en.wikipedia.org/wiki/Morphological_parsing)<br>
 N-Gram [Wiki](https://en.wikipedia.org/wiki/N-gram)<br>
 Named Entity [Wiki](https://en.wikipedia.org/wiki/Named_entity)<br>
 NER Named-Entity Recognition [Wiki](https://en.wikipedia.org/wiki/Named-entity_recognition)<br>
