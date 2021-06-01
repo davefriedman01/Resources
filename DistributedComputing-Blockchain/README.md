@@ -59,6 +59,7 @@ Fischer, Michael J., Nancy A. Lynch, & Michael S. Paterson. (1985). "Impossibili
 Fokkink, Wan. (2018). _Distributed Algorithms: An Intuitive Approach, 2nd Ed_. MIT Press.<br>
 Gilad, Yossi et al. (2017). ["Algorand: Scaling Byzantine Agreements for Cryptocurrencies"](https://dl.acm.org/doi/pdf/10.1145/3132747.3132757).<br>
 Haber, Stuart & W. Scott Stornetta. (1991). ["How to Time-Stamp a Digital Document"](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=C01131148AF17AF93F2655C091376AF4?doi=10.1.1.46.8740&rep=rep1&type=pdf).<br>
+Harchol-Balter, Mor. (2013). [_Performance Modeling and Design of Computer Systems: Queueing Theory in Action_](http://www.cs.cmu.edu/~harchol/PerformanceModeling/book.html). Cambridge University Press.<br>
 Infante, Roberto. (2019). _Building Ethereum Dapps_. Manning.<br>
 Jalalzai, Mohammad M. et al. (2021). ["Fast-HotStuff: A Fast and Robust BFT Protocol for Blockchains"](https://arxiv.org/pdf/2010.11454.pdf).<br>
 Kelkar, Mahimna et al. (2020). ["Order-Fairness for Byzantine Consensus"](https://eprint.iacr.org/2020/269.pdf).<br>
