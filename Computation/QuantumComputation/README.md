@@ -8,7 +8,10 @@ Bernstein, Daniel J., Johannes Buchmann, & Erik Dahmen. (2009). _Post-Quantum Cr
 Chang, Weng-Long & Athanasios V. Vasilakos. (2021). _Fundamentals of Quantum Programming in IBM's Quantum Computers_. Springer Studies in Big Data.<br>
 Dyakonov, Mikhail I. (2020). _Will We Ever Have a Quantum Computer?_. Springer Briefs in Physics.<br>
 Hirvensalo, Mika. (2003). _Quantum Computing, 2nd Ed_. Springer Natural Computing Series.<br>
+Hughes, Ciaran et al. (2021). _Quantum Computing for the Quantum Curious_ Springer.<br>.
 Kurgalin, Sergei & Sergei Borzunov. (2021). _Concise Guide to Quantum Computing: Algorithms, Exercises, and Implementations_. Springer Texts in Computer Science.<br>
+La Guardia, Giuliano Gadioli. (2020). _Quantum Error Correction: Symmetric, Asymmetric, Synchronizable, and Convolutional Codes_. Springer Quantum Science and Technology.<br>
+Manouchehri, Kia & Jingbo Wang. (2014). _Physical Implementation of Quantum Walks_. Springer Quantum Science and Technology.<br>
 Schuld, Maria & Francesco Petruccione. (2018). _Supervised Learning with Quantum Computers_. Springer Quantum Science and Technology.<br>
 Yan, Song Y. (2015). _Quantum Computational Number Theory_. Springer.<br>
 Zulehner, Alwin & Robert Wille. (2020). _Introducing Design Automation for Quantum Computation_. Springer.<br>
