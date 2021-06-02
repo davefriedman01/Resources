@@ -7,7 +7,7 @@ cd<br>
 cp (Granlund, MacKenzie, & Meyering 2012)<br>
 csvkit [Docs](https://csvkit.readthedocs.io/en/latest/)<br>
 csvlook<br>
-curl<br>
+curl [Docs](https://everything.curl.dev)<br>
 cut<br>
 date<br>
 echo<br>
@@ -22,12 +22,14 @@ man (Eaton & Watson 2014)<br>
 mkdir (MacKenzie 2012)<br>
 mv (Parker, MacKenzie, & Meyering 2012)<br>
 paste (Ihnat & MacKenzie 2012)<br>
+pup<br>
 pwd (Meyering 2012b)<br>
 rm (Rubin et al 2012)<br>
 sed [Wiki](https://en.wikipedia.org/wiki/Sed)<br>
 seq (Drepper 2012)<br>
 sort (Haertel & Eggert 2012)<br>
 tar<br>
+trim<br>
 type<br>
 xsv [GitHub](https://github.com/BurntSushi/xsv)<br>
 wc (Rubin & MacKenzie 2012)<br>
