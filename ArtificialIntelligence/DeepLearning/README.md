@@ -2,6 +2,7 @@
 
 ## Resources
 
+Aggarwal, Charu C. (2018). _Neural Networks and Deep Learning: A Textbook_. Springer.<br>
 Buduma, Nikhil. (2017). [_Fundamentals of Deep Learning: Designing Next-Generation Machine Intelligence Algorithms_](https://github.com/darksigma/Fundamentals-of-Deep-Learning-Book). O'Reilly.<br>
 Charniak, Eugene. (2019). [_Introduction to Deep Learning_](https://cs.brown.edu/courses/csci1460/assets/files/deep-learning.pdf). MIT Press.<br>
 Chollet, Francois. (2017). [_Deep Learning with Python_](https://github.com/fchollet/deep-learning-with-python-notebooks). Manning.<br>
