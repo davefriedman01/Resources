@@ -4,6 +4,7 @@
 
 ## Resources
 
+Aggarwal, Charu C. (2018). _Machine Learning for Text_. Springer.<br>
 Bengfort, Benjamin, Rebecca Bilbro, & Tony Ojeda. (2018). _Applied Text Analysis with Python: Enabling Language-Aware Data Products with Machine Learning_. O'Reilly.<br>
 Bird, Steven, Ewan Klein, & Edward Loper. (2009). _Natural Language Processing with Python: Analyzing Text with the Natural Language Toolkit_. O'Reilly. [Home](http://www.nltk.org/book/).<br>
 Deng, Li & Yang Liu. (2018). _Deep Learning in Natural Language Processing_. Springer.<br>
