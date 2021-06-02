@@ -13,6 +13,8 @@ Menezes, Alfred J., Paul C. van Oorschot, & Scott A. Vanstone. (1996). [_Handboo
 Ristic, Ivan. (2021). [_OpenSSL Cookbook: The Definitive Guide to the Most Useful Command Line Features_](https://www.feistyduck.com/books/openssl-cookbook/). Feisty Duck.<br>
 Schneider, Fred B. (2000). ["Enforceable Security Policies"](https://www.cs.cornell.edu/fbs/publications/EnfSecPols.pdf).<br>
 ["Smashing the Stack for Fun and Profit"](https://insecure.org/stf/smashstack.html).<br>
+Stallings, William & Lawrie Brown. (2017). _Computer Security: Principles and Practice, 4th Ed_. Pearson.<br>
+Stamp, Mark. (2021). _Information Security: Principles and Practice, 3rd Ed_. Wiley.<br>
 Tan, Gang. (2017). ["Principles and Implementation Techniques of Software-Based Fault Isolation"](http://www.cse.psu.edu/~gxt29/papers/sfi-final.pdf).<br>
 Thompson, Ken. (1984). ["Reflections on Trusting Trust"](https://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf).<br>
 Van Oorschot, Paul C. (2020). _Computer Security and the Internet: Tools and Jewels_. Springer Information Security and Cryptography.<br>
