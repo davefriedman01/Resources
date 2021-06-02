@@ -28,6 +28,7 @@ Dean, Jeffrey & Sanjay Ghemawat. (2004). "MapReduce: Simplified Data Processing 
 Damji, Jules S. et al. (2020). _Learning Spark: Lightning-Fast Data Analytics, 2nd Ed_. O'Reilly.<br>
 Karau, Holden & Rachel Warren. (2017). _High Performance Spark: Best Practices for Scaling and Optimizing Apache Spark_. O'Reilly.<br>
 Parsian, Mahmoud. (2021). [_Data Algorithms with Spark: Recipes and Design Patterns for Scaling Up using PySpark_](https://github.com/mahmoudparsian/data-algorithms-with-spark). O'Reilly.<br>
+Ryza, Sandy et al. (2017). [_Advanced Analytics with Spark: Patterns for Learning from Data at Scale, 2nd Ed_](https://github.com/sryza/aas). O'Reilly.<br>
 Thomas, Alex. (2020). _Natural Language Processing with Spark NLP: Learning to Understand Text at Scale_. O'Reilly. [GitHub](https://github.com/alexander-n-thomas/spark-nlp-book).<br>
 
 Apache Spark [Home](https://spark.apache.org)<br>
