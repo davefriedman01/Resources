@@ -14,6 +14,7 @@ Hapke, Hannes & Catherine Nelson. (2020). _Building Machine Learning Pipelines: 
 Hastie, Trevor, Robert Tibshirani, & Jerome Friedman. (2009). [_The Elements of Statistical Learning: Data Mining, Inference, and Prediction, 2nd Ed_](https://web.stanford.edu/~hastie/ElemStatLearn/). Springer.<br>
 Hastie, Trevor, Robert Tibshirani, & Martin Wainwright. (2015). [_Statistical Learning with Sparsity: The Lasso and Generalizations_](https://web.stanford.edu/~hastie/StatLearnSparsity/).<br>
 James, Gareth et al. (2021). [_An Introduction to Statistical Learning with Applications in R, 2nd Ed_](https://www.statlearning.com). Springer.<br>
+Lakshmanan, Valliappa. (2018). [_Data Science on the Google Cloud Platform: Implementing End-to-End Real-Time Data Pipelines: From Ingest to Machine Learning_](https://github.com/GoogleCloudPlatform/data-science-on-gcp). O'Reilly.<br>
 Lakshmanan, Valliappa, Sara Robinson, & Michael Munn. (2020). [_Machine Learning Design Patterns: Solutions to Common Challenges in Data Preparation, Model Building, and MLOps_](https://github.com/GoogleCloudPlatform/ml-design-patterns). O'Reilly.<br>
 Leskovec, Jure, Anand Rajaraman, & Jeff Ullman. (2016). [_Mining of Massive Datasets, 3rd Ed_](http://www.mmds.org). Stanford University Press.<br>
 MacKay, David J. (2003). _Information Theory, Inference, and Learning Algorithms_. Cambridge University Press.<br>
