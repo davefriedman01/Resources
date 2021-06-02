@@ -5,6 +5,7 @@
 ## Resources
 
 McKinney, Wes. (2017). [_Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_](https://github.com/wesm/pydata-book). O'Reilly.<br>
+Nunez-Iglesias, Juan, Stefan van der Walt, & Harriet Dashnow. (2017). [_Elegant SciPy: The Art of Scientific Python_](https://github.com/elegant-scipy/elegant-scipy). O'Reilly.<br>
 
 
 
