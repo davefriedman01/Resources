@@ -9,6 +9,7 @@ Curry, Haskell B. (1944). ["The Method of Steepest Descent for Non-Linear Minimi
 Fausett, Laurene. (1994). _Fundamentals of Neural Networks: Architectures, Algorithms, and Applications_. Prentice Hall.<br>
 Goodfellow, Ian, Yoshua Bengio, & Aaron Courville. (2016). [_Deep Learning_](https://www.deeplearningbook.org). MIT Press.<br>
 Howard, Jeremy & Sylvain Gugger. (2020). [_Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD_](https://github.com/fastai/fastbook). O'Reilly.<br>
+Koul, Anirudh, Siddha Ganju, & Meher Kasam. (2019). [_Practical Deep Learning for Cloud, Mobile, and Edge: Real-World AI and Computer Vision Projects Using Python, Keras, and TensorFlow_](https://github.com/practicalDL/Practical-Deep-Learning-Book/). O'Reilly.<br>
 Minsky, Marvin & Seymour Papert. (1969). _Perceptrons: An Introduction to Computational Geometry_. [Wiki](https://en.wikipedia.org/wiki/Perceptrons_(book))<br>
 Osinga, Douwe. (2018). [_Deep Learning Cookbook: Practical Recipes to Get Started Quickly_](https://github.com/DOsinga/deep_learning_cookbook). O'Reilly.<br>
 Pointer, Ian. (2019). [_Programming PyTorch for Deep Learning: Creating and Deploying Deep Learning Algorithms_](https://github.com/falloutdurham/beginners-pytorch-deep-learning). O'Reilly.<br>

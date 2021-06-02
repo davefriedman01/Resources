@@ -29,3 +29,4 @@ Tung, KC. (2021). _TensorFlow 2 Pocket Reference: Building and Deploying Machine
 Vershynin, Roman. (2018). _High-Dimensional Probability: An Introduction with Applications in Data Science_. Cambridge University Press.<br>
 Wainwright, Martin J. (2019). _High-Dimensional Statistics: A Non-Asymptotic Viewpoint_. Cambridge University Press.<br>
 Witten et al. (2016). [_Data Mining: Practical Machine Learning Tools and Techniques, 4th Ed_](https://waikato.github.io/weka-site/book.html). Morgan Kaufmann.<br>
+Zheng, Alice & Amanda Casari. (2018). [_Feature Engineering for Machine Learning: Principles and Techniques for Data Scientists_](https://github.com/alicezheng/feature-engineering-book). O'Reilly.<br>

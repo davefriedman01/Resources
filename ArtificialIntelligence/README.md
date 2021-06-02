@@ -2,6 +2,7 @@
 
 ## Resources
 
+Lanham, Michael. (2020). [_Practical AI on the Google Cloud Platform: Utilizing Google's State-of-the-Art AI Cloud Services_](https://github.com/cxbxmxcx/Practical_AI_on_GCP). O'Reilly.<br>
 Russell, Stuart & Peter Norvig. (2020). [_Artificial Intelligence: A Modern Approach, 4th Ed_](http://aima.cs.berkeley.edu). Pearson.<br>
 
 [Numerai](https://numer.ai)<br>
