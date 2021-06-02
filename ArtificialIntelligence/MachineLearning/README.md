@@ -4,6 +4,7 @@
 
 Abu-Mostafa, Yaser S. [_Learning from Data_](https://work.caltech.edu/textbook.html).<br>
 Bishop, Christopher M. (2006). [_Pattern Recognition and Machine Learning_](https://www.microsoft.com/en-us/research/people/cmbishop/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Fcmbishop%2Fprml%2Findex.htm). Springer.<br>
+Chio, Clarence & David Freeman. (2018). [_Machine Learning and Security: Protecting Systems with Data and Algorithms_](https://github.com/oreilly-mlsec/book-resources). O'Reilly.<br>
 Daume III, Hal. (2017). [_A Course in Machine Learning_](http://ciml.info). Self-published.<br>
 Deisenroth, Marc Peter, A. Aldo Faisal, & Cheng Soon Ong. (2020). [_Mathematics for Machine Learning_](https://deisenroth.cc/publication/deisenroth-2020/). Cambridge University Press.<br>
 Flach, Peter. (2012). [_Machine Learning: The Art and Science of Algorithms that Make Sense of Data_](http://people.cs.bris.ac.uk/~flach/mlbook/). Cambridge University Press.<br>
