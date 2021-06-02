@@ -6,6 +6,7 @@ Bubeck, Sebastien. (2015). [_Convex Optimization: Algorithms and Complexity_](ht
 Chong, Edwin K. P. & Stanislaw H. Zak. (2001). _An Introduction to Optimization, 2nd Ed_. Wiley.<br>
 Nesterov, Yurii. (2018). _Lectures on Convex Optimization, 2nd Ed_. Springer Optimization and Its Applications.<br>
 Nocedal, Jorge & Stephen Wright. (1999). _Numerical Optimization_. Springer.<br>
+Pardalos, Panos M., Varvara Rasskazova, & Michael N. Vrahatis. (2021). _Black Box Optimization, Machine Learning, and No-Free Lunch Theorem_. Springer Optimization and Its Applications.<br>
 
 ## Figures
 
