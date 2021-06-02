@@ -4,6 +4,8 @@
 
 Abu-Mostafa, Yaser S. [_Learning from Data_](https://work.caltech.edu/textbook.html).<br>
 Aggarwal, Charu C. (2020). _Linear Algebra and Optimization for Machine Learning: A Textbook_. Springer.<br>
+Aggarwal, Charu C. (2017). _Outlier Analysis, 2nd Ed_. Springer.<br>
+Aggarwal, Charu C. (2016). _Recommender Systems: The Textbook_. Springer.<br>
 Aggarwal, Charu C. (2015). _Data Mining: The Textbook_. Springer.<br>
 Bishop, Christopher M. (2006). [_Pattern Recognition and Machine Learning_](https://www.microsoft.com/en-us/research/people/cmbishop/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fpeople%2Fcmbishop%2Fprml%2Findex.htm). Springer.<br>
 Chio, Clarence & David Freeman. (2018). [_Machine Learning and Security: Protecting Systems with Data and Algorithms_](https://github.com/oreilly-mlsec/book-resources). O'Reilly.<br>
