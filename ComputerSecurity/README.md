@@ -19,6 +19,10 @@ Tan, Gang. (2017). ["Principles and Implementation Techniques of Software-Based 
 Thompson, Ken. (1984). ["Reflections on Trusting Trust"](https://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf).<br>
 Van Oorschot, Paul C. (2020). _Computer Security and the Internet: Tools and Jewels_. Springer Information Security and Cryptography.<br>
 
+Chio, Clarence & David Freeman. (2018). [_Machine Learning and Security: Protecting Systems with Data and Algorithms_](https://github.com/oreilly-mlsec/book-resources). O'Reilly.<br>
+Papernot, Nicolas. (2019). [_ECE1784H: Trustworthy Machine Learning_](https://www.papernot.fr/teaching/f19-trustworthy-ml).<br>
+Warr, katy. (2019). [_Strengthening Deep Neural Networks: Making AI Less Susceptible to Adversarial Trickery_](https://github.com/katywarr/strengthening-dnns). O'Reilly.<br>
+
 [Browser Security Handbook](https://code.google.com/archive/p/browsersec/wikis/Part2.wiki).<br>
 Neuman, B. Clifford & Theodore Ts'o. (1994). [Kerberos: An Authentication Service for Computer Networks](http://gost.isi.edu/publications/kerberos-neuman-tso.html).<br>
 [An Illustrated Guide to the Kaminsky DNS Vulnerability](http://unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html).<br>
