@@ -6,6 +6,7 @@
 
 Barthe, Gilles, Pedro R. D'Argenio, & Tamara Rezk. ["Secure Information Flow by Self-Composition"](https://www-sop.inria.fr/lemme/Tamara.Rezk/publication/Barthe-DArgenio-Rezk.pdf).<br>
 Du, Wenliang. (2019). [_Computer & Internet Security: A Hands-On Approach, 2nd Ed_](https://seedsecuritylabs.org/index.html).<br>
+Dykstra, Josiah. (2016). _Essential Cybersecurity Science: Build, Test, and Evaluate Secure Systems_. O'Reilly.<br>
 ["Exploiting Format String Vulnerabilities"](https://julianor.tripod.com/bc/formatstring-1.2.pdf).<br>
 Hoffstein, Jeffrey, Jill Pipher, & Joseph H. Silverman. (2014). _An Introduction to Mathematical Cryptography, 2nd Ed_. Springer Undergraduate Texts in Mathematics.<br>
 [Katz, Jonathan](http://www.cs.umd.edu/~jkatz/) & Yehuda Lindell. (2020). [_Introduction to Modern Cryptography, 3rd Ed_](http://www.cs.umd.edu/~jkatz/imc.html). Chapman & Hall CRC Cryptography and Network Security Series. [YouTube](https://youtube.com/playlist?list=PL2jykFOD1AWb07OLBdFI2QIHvPo3aTTeu)<br>
@@ -17,6 +18,7 @@ Stallings, William & Lawrie Brown. (2017). _Computer Security: Principles and Pr
 Stamp, Mark. (2021). _Information Security: Principles and Practice, 3rd Ed_. Wiley.<br>
 Tan, Gang. (2017). ["Principles and Implementation Techniques of Software-Based Fault Isolation"](http://www.cse.psu.edu/~gxt29/papers/sfi-final.pdf).<br>
 Thompson, Ken. (1984). ["Reflections on Trusting Trust"](https://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf).<br>
+Troncone, Paul & Carl Albing. (2019). [_Cybersecurity Ops with bash: Attack, Defend, and Analyze from the Command Line_](https://github.com/cybersecurityops/cyber-ops-with-bash). O'Reilly.<br>
 Van Oorschot, Paul C. (2020). _Computer Security and the Internet: Tools and Jewels_. Springer Information Security and Cryptography.<br>
 
 Chio, Clarence & David Freeman. (2018). [_Machine Learning and Security: Protecting Systems with Data and Algorithms_](https://github.com/oreilly-mlsec/book-resources). O'Reilly.<br>
