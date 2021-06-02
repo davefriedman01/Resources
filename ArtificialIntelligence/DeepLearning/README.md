@@ -3,9 +3,11 @@
 ## Resources
 
 Buduma, Nikhil. (2017). [_Fundamentals of Deep Learning: Designing Next-Generation Machine Intelligence Algorithms_](https://github.com/darksigma/Fundamentals-of-Deep-Learning-Book). O'Reilly.<br>
+Charniak, Eugene. (2019). _Introduction to Deep Learning_. MIT Press. [Home](https://cs.brown.edu/courses/csci1460/assets/files/deep-learning.pdf).<br>
+Chollet, Francois. (2017). _Deep Learning with Python_. Manning Publications.<br>
 Curry, Haskell B. (1944). ["The Method of Steepest Descent for Non-Linear Minimization Problems"](https://www.ams.org/journals/qam/1944-02-03/S0033-569X-1944-10667-3/S0033-569X-1944-10667-3.pdf).<br>
 Fausett, Laurene. (1994). _Fundamentals of Neural Networks: Architectures, Algorithms, and Applications_. Prentice Hall.<br>
-Goofellow, Ian, Yoshua Bengio, & Aaron Courville. _Deep Learning_. MIT Press.<br>
+Goodfellow, Ian, Yoshua Bengio, & Aaron Courville. (2016). [_Deep Learning_](https://www.deeplearningbook.org). MIT Press.<br>
 Howard, Jeremy & Sylvain Gugger. (2020). [_Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD_](https://github.com/fastai/fastbook). O'Reilly.<br>
 Minsky, Marvin & Seymour Papert. (1969). _Perceptrons: An Introduction to Computational Geometry_. [Wiki](https://en.wikipedia.org/wiki/Perceptrons_(book))<br>
 Osinga, Douwe. (2018). [_Deep Learning Cookbook: Practical Recipes to Get Started Quickly_](https://github.com/DOsinga/deep_learning_cookbook). O'Reilly.<br>
