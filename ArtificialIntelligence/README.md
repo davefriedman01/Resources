@@ -5,6 +5,7 @@
 Lanham, Michael. (2020). [_Practical AI on the Google Cloud Platform: Utilizing Google's State-of-the-Art AI Cloud Services_](https://github.com/cxbxmxcx/Practical_AI_on_GCP). O'Reilly.<br>
 Russell, Stuart & Peter Norvig. (2020). [_Artificial Intelligence: A Modern Approach, 4th Ed_](http://aima.cs.berkeley.edu). Pearson.<br>
 Vaughan, Daniel. (2020). [_Analytical Skills for AI and Data Science: Building Skills for an AI-Driven Enterprise_](https://github.com/dvaughan79/analyticalskillsbook). O'Reilly.<br>
+Zhang, Xian-Da. (2020). _A Matrix Algebra Approach to Artificial Intelligence_. Springer.<br>
 
 [Numerai](https://numer.ai)<br>
 [OpenAI](https://openai.com)<br>
