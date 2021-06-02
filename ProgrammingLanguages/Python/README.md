@@ -4,6 +4,8 @@
 
 ## Resources
 
+Downey, Allen. (2015). [_Think Python, 2nd Ed_](https://github.com/AllenDowney/ThinkPython2). O'Reilly.<br>
+Gift, Noah et al. (2019). [_Python for DevOps: Learn Ruthlessly Effective Automation_](https://github.com/paiml/python_devops_book). O'Reilly.<br>
 Gorelick, Micha & Ian Ozsvald. (2020). [_High Performance Python: Practical Performant Programming for Humans, 2nd Ed_](https://github.com/mynameisfiber/high_performance_python_2e). O'Reilly.<br>
 McKinney, Wes. (2017). [_Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_](https://github.com/wesm/pydata-book). O'Reilly.<br>
 Nunez-Iglesias, Juan, Stefan van der Walt, & Harriet Dashnow. (2017). [_Elegant SciPy: The Art of Scientific Python_](https://github.com/elegant-scipy/elegant-scipy). O'Reilly.<br>
