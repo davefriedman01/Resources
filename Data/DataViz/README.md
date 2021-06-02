@@ -7,4 +7,4 @@ Murray, Scott. (2017). [_Interactive Data Visualization for the Web: An Introduc
 Thomas, Stephen A. (2015). [_Data Visualization with JavaScript_](https://github.com/sathomas/jsDataV.is-source). No Starch Press.<br>
 Wilke, Claus O. (2019). [_Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures_](https://github.com/clauswilke/dataviz). O'Reilly.<br>
 
-[D3.js](https://d3js.org)<br>
+D3.js [Home](https://d3js.org)<br>
