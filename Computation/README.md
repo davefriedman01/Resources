@@ -15,6 +15,7 @@ Mainzer, Klaus. (2007). _Thinking in Complexity: The Computational Dynamics of M
 
 ## Resources
 
+Feynman, Richard P. _Feynman Lectures on Computation_.<br>
 MacCormick, John. (2018). _What Can Be Computed?: A Practical Guide to the Theory of Computation_. Princeton University Press. [Home](https://whatcanbecomputed.com).<br>
 Savage, John E. (1998). _Models of Computation: Exploring the Power of Computing_. Addison-Wesley.<br>
 
