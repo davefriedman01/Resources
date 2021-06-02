@@ -41,18 +41,18 @@ Devpost [Home](https://devpost.com)<br>
 
 ACM Digital Library [Home](https://dl.acm.org)<br>
 Addison-Wesley Professional Computing Series [Home](https://www.pearson.com/us/higher-education/series/Addison-Wesley-Professional-Computing-Series/334583.html)<br>
-[Apress](https://www.apress.com)<br>
-[Dover](https://store.doverpublications.com/by-subject-mathematics.html)<br>
+Apress [Home](https://www.apress.com)<br>
+Dover [Math](https://store.doverpublications.com/by-subject-mathematics.html)<br>
 Folio Society [Home](https://www.foliosociety.com/usa)<br>
 Green Lion Press [Home](https://greenlion.com)<br>
 Hackett<br>
-[Manning](https://www.manning.com)<br>
-[No Starch Press](https://nostarch.com)<br>
-[O'Reilly](https://www.oreilly.com)<br>
-[Packt](https://www.packtpub.com)<br>
+Manning [Home](https://www.manning.com)<br>
+No Starch Press [Home](https://nostarch.com)<br>
+O'Reilly [Home](https://www.oreilly.com)<br>
+Packt [Home](https://www.packtpub.com) [GitHub](https://github.com/PacktPublishing)<br>
 Pearson<br>
 Penguin Classics [Home](https://www.penguinrandomhouse.com/series/254/penguin-classics-deluxe-edition)<br>
 Princeton University Press [Home](https://press.princeton.edu)<br>
-[Sitepoint](https://www.sitepoint.com)<br>
+Sitepoint [Home](https://www.sitepoint.com)<br>
 Springer<br>
 Wiley<br>
