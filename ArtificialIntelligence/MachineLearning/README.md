@@ -7,7 +7,7 @@ Bishop, Christopher M. (2006). [_Pattern Recognition and Machine Learning_](http
 Daume III, Hal. (2017). [_A Course in Machine Learning_](http://ciml.info). Self-published.<br>
 Deisenroth, Marc Peter, A. Aldo Faisal, & Cheng Soon Ong. (2020). [_Mathematics for Machine Learning_](https://deisenroth.cc/publication/deisenroth-2020/). Cambridge University Press.<br>
 Flach, Peter. (2012). [_Machine Learning: The Art and Science of Algorithms that Make Sense of Data_](http://people.cs.bris.ac.uk/~flach/mlbook/). Cambridge University Press.<br>
-Geron, Aurelion. _Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow_. O'Reilly.<br>
+Geron, Aurelion. [_Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems, 2nd Ed_](https://github.com/ageron/handson-ml2). O'Reilly.<br>
 Han, Jiawei, Micheline Kamber, & Jian Pei. (2011). [_Data Mining: Concepts and Techniques, 3rd Ed_](https://hanj.cs.illinois.edu/bk3/).<br>
 Hapke, Hannes & Catherine Nelson. (2020). _Building Machine Learning Pipelines: Automating Model Life Cycles with TensorFlow_. O'Reilly.<br>
 Hastie, Trevor, Robert Tibshirani, & Jerome Friedman. (2009). [_The Elements of Statistical Learning: Data Mining, Inference, and Prediction, 2nd Ed_](https://web.stanford.edu/~hastie/ElemStatLearn/). Springer.<br>
