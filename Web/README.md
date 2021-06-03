@@ -5,6 +5,7 @@
 ## Resources
 
 CSS-Tricks [Home](https://css-tricks.com)<br>
+HTTP Status Codes [Wiki](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)<br>
 Introducing JSON [Home](https://www.json.org/json-en.html)<br>
 W3C World Wide Web Consortium [Home](https://www.w3.org)<br>
 W3C's Web Accessibility Tutorials [Home](https://www.w3.org/WAI/tutorials/)<br>
