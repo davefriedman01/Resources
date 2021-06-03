@@ -48,6 +48,7 @@ sed [Wiki](https://en.wikipedia.org/wiki/Sed)<br>
 seq (Drepper 2012)<br>
 sort (Haertel & Eggert 2012)<br>
 tar<br>
+tee<br>
 time<br>
 tr<br>
 trim<br>
