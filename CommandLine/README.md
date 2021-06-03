@@ -32,12 +32,15 @@ paste (Ihnat & MacKenzie 2012)<br>
 pup<br>
 pwd (Meyering 2012b)<br>
 rm (Rubin et al 2012)<br>
+sample<br>
 sed [Wiki](https://en.wikipedia.org/wiki/Sed)<br>
 seq (Drepper 2012)<br>
 sort (Haertel & Eggert 2012)<br>
 tar<br>
+tr<br>
 trim<br>
 type<br>
+uniq<br>
 unrar<br>
 unzip<br>
 xsv [GitHub](https://github.com/BurntSushi/xsv)<br>
