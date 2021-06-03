@@ -1,9 +1,18 @@
-# Command Line Tools
+# Shells and the Command Line
+
+## Resources
+
+Powers, Shelley et al. (2002). [_Unix Power Tools, 3rd Ed_](https://resources.oreilly.com/examples/9780596003302/). O'Reilly.<br>
+Robbins, Arnold & Nelson H. F. Beebe. (2005). [_Classic Shell Scripting_](https://resources.oreilly.com/examples/9780596005955/). O'Reilly.<br>
+
+## Command Line Tools
 
 awk [Wiki](https://en.wikipedia.org/wiki/AWK)<br>
 bc [Docs](https://www.gnu.org/software/bc/) (Nelson 2006)<br>
 cat (Granlund & Stallman 2012)<br>
 cd<br>
+chmod<br>
+chown<br>
 cp (Granlund, MacKenzie, & Meyering 2012)<br>
 csvkit [Docs](https://csvkit.readthedocs.io/en/latest/)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -18,6 +27,7 @@ curl [Docs](https://everything.curl.dev)<br>
 cut<br>
 date<br>
 echo<br>
+export<br>
 fold<br>
 git (Torvalds and Hamano 2014)<br>
 grep [Wiki](https://en.wikipedia.org/wiki/Grep) (Meyering 2012a)<br>
@@ -37,6 +47,7 @@ sed [Wiki](https://en.wikipedia.org/wiki/Sed)<br>
 seq (Drepper 2012)<br>
 sort (Haertel & Eggert 2012)<br>
 tar<br>
+time<br>
 tr<br>
 trim<br>
 type<br>
