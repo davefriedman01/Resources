@@ -8,6 +8,7 @@ Robbins, Arnold & Nelson H. F. Beebe. (2005). [_Classic Shell Scripting_](https:
 ## Command Line Tools
 
 awk [Wiki](https://en.wikipedia.org/wiki/AWK)<br>
+bat<br>
 bc [Docs](https://www.gnu.org/software/bc/) (Nelson 2006)<br>
 cat (Granlund & Stallman 2012)<br>
 cd<br>
@@ -39,7 +40,7 @@ man (Eaton & Watson 2014)<br>
 mkdir (MacKenzie 2012)<br>
 mv (Parker, MacKenzie, & Meyering 2012)<br>
 paste (Ihnat & MacKenzie 2012)<br>
-pup<br>
+pup [GitHub](https://github.com/EricChiang/pup)<br>
 pwd (Meyering 2012b)<br>
 rm (Rubin et al 2012)<br>
 sample<br>
