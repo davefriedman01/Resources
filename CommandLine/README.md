@@ -6,7 +6,14 @@ cat (Granlund & Stallman 2012)<br>
 cd<br>
 cp (Granlund, MacKenzie, & Meyering 2012)<br>
 csvkit [Docs](https://csvkit.readthedocs.io/en/latest/)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+csvgrep<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
 csvlook<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+in2csv<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
+sql2csv<br>
 curl [Docs](https://everything.curl.dev)<br>
 cut<br>
 date<br>
@@ -31,6 +38,8 @@ sort (Haertel & Eggert 2012)<br>
 tar<br>
 trim<br>
 type<br>
+unrar<br>
+unzip<br>
 xsv [GitHub](https://github.com/BurntSushi/xsv)<br>
 wc (Rubin & MacKenzie 2012)<br>
 whoami<br>
