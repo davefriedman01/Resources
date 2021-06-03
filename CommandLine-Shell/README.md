@@ -43,6 +43,7 @@ paste (Ihnat & MacKenzie 2012)<br>
 pup [GitHub](https://github.com/EricChiang/pup)<br>
 pwd (Meyering 2012b)<br>
 rm (Rubin et al 2012)<br>
+rush [GitHub](https://github.com/jeroenjanssens/rush)<br>
 sample<br>
 sed [Wiki](https://en.wikipedia.org/wiki/Sed)<br>
 seq (Drepper 2012)<br>
