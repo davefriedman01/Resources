@@ -80,13 +80,16 @@ Mitre Corp. [Wiki](https://en.wikipedia.org/wiki/Mitre_Corporation)<br>
 Morris Worm [Wiki](https://en.wikipedia.org/wiki/Morris_worm)<br>
 Padding Oracle Attack [Wiki](https://en.wikipedia.org/wiki/Padding_oracle_attack)<br>
 POODLE Bug [Wiki](https://en.wikipedia.org/wiki/POODLE)<br>
+PCC Proof-Carrying Code [Wiki](https://en.wikipedia.org/wiki/Proof-carrying_code)<br>
 Ransomware [Wiki](https://en.wikipedia.org/wiki/Ransomware)<br>
 Reverse Engineering [Wiki](https://en.wikipedia.org/wiki/Reverse_engineering)<br>
 Rootkit [Wiki](https://en.wikipedia.org/wiki/Rootkit)<br>
+Sandbox [Wiki](https://en.wikipedia.org/wiki/Sandbox_(computer_security))<br>
 Shellshock Bug [Wiki](https://en.wikipedia.org/wiki/Shellshock_%28software_bug%29)<br>
 Side-Channel Attack [Wiki](https://en.wikipedia.org/wiki/Side-channel_attack)<br>
 Slammer Worm [Wiki](https://en.wikipedia.org/wiki/SQL_Slammer)<br>
 Software Bug [Wiki](https://en.wikipedia.org/wiki/Software_bug)<br>
+SGX Software Guard Extensions [Wiki](https://en.wikipedia.org/wiki/Software_Guard_Extensions)<br>
 Spectre [Wiki](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))<br>
 Storm Botnet [Wiki](https://en.wikipedia.org/wiki/Storm_botnet)<br>
 Stuxnet [Wiki](https://en.wikipedia.org/wiki/Stuxnet)<br>
