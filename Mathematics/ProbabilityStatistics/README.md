@@ -2,7 +2,8 @@
 
 ## Resources
 
-Bruce, Peter, Andrew Bruce, & Peter Gedeck. (2020). _Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python, 2nd Ed_. O'Reilly.<br>
+Bruce, Peter, Andrew Bruce, & Peter Gedeck. (2020). [_Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python, 2nd Ed_](https://github.com/gedeck/practical-statistics-for-data-scientists). O'Reilly.<br>
+[Forsyth, David](http://luthuli.cs.uiuc.edu/~daf/). (2019). _Probability and Statistics for Computer Science_. Springer.<br>
 Givens, Geof H. & Jennifer A. Hoeting. (2012). _Computational Statistics, 2nd Ed_. Wiley.<br>
 Kurt, Will. (2019). _Bayesian Statistics the Fun Way: Understanding Statistics and Probability with Star Wars, LEGO, and Rubber Ducks_. No Starch Press.<br>
 Mitzenmacher, Michael & Eli Upfal. (2017). _Probability and Computing: Randomization and Probabilistic Techniques in Algorithms and Data Analysis, 2nd Ed_. Cambridge University Press.<br>
