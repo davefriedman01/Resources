@@ -8,6 +8,7 @@ Harper, Robert. (2016). [_Practical Foundations for Programming Languages_](http
 Mitchell, John C. (1996). _Foundations of Programming Languages_. MIT Press.<br>
 Peirce, Benjamin C. _Advanced Topics in Types and Programming Languages_.<br>
 Peirce, Benjamin C. _Types and Programming Languages_.<br>
+Scott, Michael. _Programming Language Pragmatics_.<br>
 Winskel, Glynn. _The Formal Semantics of Programming Languages: An Introduction_.<br>
 
 Arbuckle, Luk & Khaled El Emam. (2020). _Building an Anonymization Pipeline: Creating Safe Data_. O'Reilly.<br>
