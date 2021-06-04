@@ -27,6 +27,7 @@ sql2csv<br>
 curl [Docs](https://everything.curl.dev)<br>
 cut<br>
 date<br>
+dsniff (Song, Dug)<br>
 echo<br>
 export<br>
 fold<br>
@@ -49,6 +50,7 @@ sed [Wiki](https://en.wikipedia.org/wiki/Sed)<br>
 seq (Drepper 2012)<br>
 sort (Haertel & Eggert 2012)<br>
 tar<br>
+tcpdump<br>
 tee<br>
 time<br>
 tr<br>
