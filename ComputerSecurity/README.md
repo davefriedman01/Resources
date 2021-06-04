@@ -4,9 +4,15 @@
 
 ## Resources
 
+Harper, Robert. (2016). [_Practical Foundations for Programming Languages_](https://www.cs.cmu.edu/~rwh/pfpl/). Cambridge University Press.<br>
+Mitchell, John C. (1996). _Foundations of Programming Languages_. MIT Press.<br>
+Peirce, Benjamin C. _Advanced Topics in Types and Programming Languages_.<br>
+Peirce, Benjamin C. _Types and Programming Languages_.<br>
+Winskel, Glynn. _The Formal Semantics of Programming Languages: An Introduction_.<br>
+
 Arbuckle, Luk & Khaled El Emam. (2020). _Building an Anonymization Pipeline: Creating Safe Data_. O'Reilly.<br>
 Barthe, Gilles, Pedro R. D'Argenio, & Tamara Rezk. ["Secure Information Flow by Self-Composition"](https://www-sop.inria.fr/lemme/Tamara.Rezk/publication/Barthe-DArgenio-Rezk.pdf).<br>
-Bowman, Courtney et al. (2015). _The Architecture of Privacy: On ENgineering Technologies that can Deliver Trustworthy Safeguards_. O'Reilly.<br>
+Bowman, Courtney et al. (2015). _The Architecture of Privacy: On Engineering Technologies that can Deliver Trustworthy Safeguards_. O'Reilly.<br>
 Du, Wenliang. (2019). [_Computer & Internet Security: A Hands-On Approach, 2nd Ed_](https://seedsecuritylabs.org/index.html).<br>
 Dotson, Chris. (2019). _Practical Cloud Security: A Guide for Secure Design and Deployment_. O'Reilly.<br>
 Dykstra, Josiah. (2016). _Essential Cybersecurity Science: Build, Test, and Evaluate Secure Systems_. O'Reilly.<br>
