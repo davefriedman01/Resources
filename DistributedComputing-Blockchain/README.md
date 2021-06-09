@@ -2,20 +2,11 @@
 
 
 
-## Flare
-Flare [Home](https://flare.xyz)<br>
-FCP Flare Consensus Protocol [Paper](https://flare.xyz/app/uploads/2019/11/FCP.pdf)<br>
-FXRP [Paper](https://flare.xyz/app/uploads/2020/08/FXRP_Version_1.0.pdf)<br>
-Flare Network and Spark Token [Paper](https://flare.xyz/app/uploads/2020/08/flare_v1.1.pdf)<br>
-
-
-
 ## Courses
 Boneh, Dan & Benedikt Bunz. (2020). CS251: Bitcoin and Cryptocurrencies. Stanford. [Home](https://cs251.stanford.edu).<br>
 Gensler, Gary. (2018). 15.S12: Blockchain and Money. MIT. [Home](https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/).<br>
 Gibbons, Phil. (2021). 15-712: Advanced Operating Systems and Distributed Systems. Carnegie Mellon. [Home](https://www.cs.cmu.edu/~15712/).<br>
 Gramoli, Vincent. Blockchain Scalability and its Foundations in Distributed Computing. University of Sydney. [Coursera](https://www.coursera.org/learn/blockchain-scalability).<br>
-Narayanan, Arvind. Bitcoin and Cryptocurrency Technologies. Princeton. [Coursera](https://www.coursera.org/learn/cryptocurrency).<br>
 Tang, Yuzhe. CIS600/FIN600: Blockchain and Cryptocurrecny. Syracuse University. [GitHub](https://tristartom.github.io/teaching/20f-fin600/).<br>
 IBM Blockchain Foundation Developer [Home](https://cognitiveclass.ai/courses/ibm-blockchain-foundation-dev/)<br>
 
@@ -40,13 +31,10 @@ Rapids [Home](https://rapids.ai)<br>
 ## Distributed Computing, Blockchain, and Cryptocurrency Resources
 
 Abraham, Ittai & Gilad Stern. (2020). ["Information Theoretic HotStuff"](https://arxiv.org/pdf/2009.12828.pdf).<br>
-Antonopoulos, Andreas M. (2017). [_Mastering Bitcoin: Programming the Open Blockchain, 2nd Ed_](https://github.com/bitcoinbook/bitcoinbook). O'Reilly.<br>
-Antonopoulos, Andreas M. & Gavin Wood. (2018). [_Mastering Ethereum: Building Smart Contracts and DApps_](https://github.com/ethereumbook/ethereumbook.git). O'Reilly.<br>
 Back, Adam. (2002). ["Hashcash: A Denial-of-Service Countermeasure"](http://www.hashcash.org/papers/hashcash.pdf).<br>
 Bar-Zur, Roi, Ittay Eyal, & Aviv Tamar. (2020). ["Efficient MDP Analysis for Selfish-Mining in Blockchains"](https://arxiv.org/pdf/2007.05614.pdf).<br>
 Bech, Morten & Rodney Garratt. (2017). ["Central bank cryptocurrencies"](https://www.bis.org/publ/qtrpdf/r_qt1709f.pdf).<br>
 Bracha, G. (1987). "Asynchronous Byzantine agreement protocols".<br>
-Buterin, Vitalik. (2013). ["Ethereum White Paper"](https://ethereum.org/whitepaper/).<br>
 Castro, Miguel & Barbara Liskov. (1999). ["Practical Byzantine Fault Tolerance"](http://pmg.csail.mit.edu/papers/osdi99.pdf).<br>
 Chaum, David. (1982). ["Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups"](https://www.chaum.com/publications/chaum_dissertation.pdf).<br>
 Cohen, Bram & Krzysztof Pietrzak. (2019). ["The Chia Network Blockchain"](https://www.chia.net/assets/ChiaGreenPaper.pdf).<br>
@@ -61,7 +49,6 @@ Fokkink, Wan. (2018). _Distributed Algorithms: An Intuitive Approach, 2nd Ed_. M
 Gilad, Yossi et al. (2017). ["Algorand: Scaling Byzantine Agreements for Cryptocurrencies"](https://dl.acm.org/doi/pdf/10.1145/3132747.3132757).<br>
 Haber, Stuart & W. Scott Stornetta. (1991). ["How to Time-Stamp a Digital Document"](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=C01131148AF17AF93F2655C091376AF4?doi=10.1.1.46.8740&rep=rep1&type=pdf).<br>
 Harchol-Balter, Mor. (2013). [_Performance Modeling and Design of Computer Systems: Queueing Theory in Action_](http://www.cs.cmu.edu/~harchol/PerformanceModeling/book.html). Cambridge University Press.<br>
-Infante, Roberto. (2019). _Building Ethereum Dapps_. Manning.<br>
 Jalalzai, Mohammad M. et al. (2021). ["Fast-HotStuff: A Fast and Robust BFT Protocol for Blockchains"](https://arxiv.org/pdf/2010.11454.pdf).<br>
 Kelkar, Mahimna et al. (2020). ["Order-Fairness for Byzantine Consensus"](https://eprint.iacr.org/2020/269.pdf).<br>
 Keshav, Srinivasan. (2012). _Mathematical Foundations of Computer Networking_. Addison-Wesley Professional Computing Series.<br>
@@ -72,12 +59,9 @@ Lantz, Lorne & Daniel Cawrey. (2020). _Mastering Blockchain: Unlocking the Power
 Le Boudec, Jean-Yves & Patrick Thiran. (2020). [_Network Calculus: A Theory of Deterministic Queueing Systems for the Internet_](https://ica1www.epfl.ch/PS_files/netCalBookv4.pdf). Springer.<br>
 Lynch, Nancy A. (1996). _Distributed Algorithms_. Morgan-Kaufmann Series in Data Management Systems.<br>
 Merkle, Ralph. (1980). ["Protocols for Public Key Cryptosystems"](http://www.merkle.com/papers/Protocols.pdf).<br>
-Nakamoto, Satoshi. (2008). ["Bitcoin: A Peer-to-Peer Electronic Cash System"](https://bitcoin.org/bitcoin.pdf).<br>
-Narayanan, Arvind et al. (2016). _Bitcoin and Cryptocurrency Technologies: A Comprehensive Introduction_. Princeton University Press.<br>
 Shi, Elaine. (2020). [_Foundations of Distributed Consensus and Blockchains_](https://www.distributedconsensus.net).<br>
 Ramamurthy, Bina. (2020). _Blockchain in Action_. Manning.<br>
 Raynal, Michel. (2018). _Fault-Tolerant Message-Passing Distributed Systems: An Algorithmic Approach_. Springer.<br>
-Solorio, Kevin, Randall Kanna, & David H. Hoover. (2019). _Hands-On Smart Contract Development with Solidity and Ethereum: From Fundamentals to Deployment_. O'Reilly.<br>
 Sonnino, Alberto & George Danezis. (2019). ["SybilQuorum: open Distributed Ledgers Through Trust Networks"](https://arxiv.org/pdf/1906.12237.pdf).<br>
 Song, Jimmy. (2019). _Programming Bitcoin: Learn How to Program Bitcoin from Scratch_. O'Reilly.<br>
 Szabo, Nick. (2005). ["Bit Gold"](https://nakamotoinstitute.org/bit-gold/).<br>
@@ -91,7 +75,6 @@ Zand, Matt, Xun (Brian) Wu, & Mark Anthony Morris. (2021). _Hands-On Smart Contr
 
 Algorand [Home](https://www.algorand.com)<br>
 Avalanche Consensus [Home](https://docs.avax.network/learn/platform-overview/avalanche-consensus)<br>
-Bitcoin [Binance](https://academy.binance.com/en/articles/what-is-bitcoin) [Wiki](https://en.wikipedia.org/wiki/Bitcoin)<br>
 Burstcoin [Investopedia](https://www.investopedia.com/terms/b/burstcoin.asp)<br>
 Chia [Home](https://www.chia.net)<br>
 Coinbase [Home](https://www.coinbase.com) [Wiki](https://en.wikipedia.org/wiki/Coinbase)<br>
@@ -102,9 +85,6 @@ Cryptocurrency List [Wiki](https://en.wikipedia.org/wiki/List_of_cryptocurrencie
 CryptoZombies [Home](https://cryptozombies.io)<br>
 Decentraland [Home](https://decentraland.org)<br>
 Diem [Whitepaper](https://www.diem.com/en-us/white-paper/) [Wiki](https://en.wikipedia.org/wiki/Diem_(digital_currency))<br>
-Ethereum [Binance](https://academy.binance.com/en/articles/what-is-ethereum) [Wiki](https://en.wikipedia.org/wiki/Ethereum)<br>
-ENS Ethereum Name Service [Home](https://ens.domains)<br>
-Flare Networks [Home](https://flare.ghost.io)<br>
 H.R.6154 - Crypto-Currency Act of 2020 [congress.gov](https://www.congress.gov/bill/116th-congress/house-bill/6154)<br>
 Hashcash [Wiki](https://en.wikipedia.org/wiki/Hashcash)<br>
 Hyperledger (The Linux Foundation) [Home](https://www.hyperledger.org) [Wiki](https://en.wikipedia.org/wiki/Hyperledger)<br>
@@ -153,7 +133,6 @@ Hoare, Tony [Wiki](https://en.wikipedia.org/wiki/Tony_Hoare)<br>
 Lamport, Leslie [Wiki](https://en.wikipedia.org/wiki/Leslie_Lamport)<br>
 Lynch, Nancy [Wiki](https://en.wikipedia.org/wiki/Nancy_Lynch)<br>
 Merkle, Ralph [Wiki](https://en.wikipedia.org/wiki/Ralph_Merkle)<br>
-Nakamoto, Satoshi [Wiki](https://en.wikipedia.org/wiki/Satoshi_Nakamoto)<br>
 Paterson, Mike [Wiki](https://en.wikipedia.org/wiki/Mike_Paterson)<br>
 Szabo, Nick [Wiki](https://en.wikipedia.org/wiki/Nick_Szabo)<br>
 
@@ -167,7 +146,6 @@ Atomic Broadcast [Wiki](https://en.wikipedia.org/wiki/Atomic_broadcast)<br>
 B-Money [Investopedia](https://www.investopedia.com/terms/b/bmoney.asp)<br>
 Big Data [Investopedia](https://www.investopedia.com/terms/b/big-data.asp) [Wiki](https://en.wikipedia.org/wiki/Big_data)<br>
 BSC Binance Smart Chain [Binance](https://academy.binance.com/en/articles/an-introduction-to-binance-smart-chain-bsc)<br>
-Bitcoin Network [Wiki](https://en.wikipedia.org/wiki/Bitcoin_network)<br>
 Blockchain [Investopedia](https://www.investopedia.com/terms/b/blockchain.asp) [Wiki](https://en.wikipedia.org/wiki/Blockchain)<br>
 Blockchain 2.0<br>
 Blockchain 3.0<br>
