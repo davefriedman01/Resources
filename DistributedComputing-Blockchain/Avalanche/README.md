@@ -4,6 +4,7 @@
 
 ## Resources
 
+Chitra, Tarun & Uthsav Chitra. (2019). ["Committee Selection is More Similar Than You Think: Evidence from Avalanche and Stellar"](https://arxiv.org/pdf/1904.09839.pdf).<br>
 Tanana, Dmitry. (2019). "Avalanche blockchain protocol for distributed computing security".<br>
 Team Rocket. (2018). ["Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies"](https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYwrRVGV).<br>
 Team Rocket et al. (2020). ["Scalable and Probabilistic Leaderless BFT Consensus through Metastability"](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf).<br>
