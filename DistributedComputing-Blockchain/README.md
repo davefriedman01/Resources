@@ -77,7 +77,6 @@ Shi, Elaine. (2020). [_Foundations of Distributed Consensus and Blockchains_](ht
 Ramamurthy, Bina. (2020). _Blockchain in Action_. Manning.<br>
 Raynal, Michel. (2018). _Fault-Tolerant Message-Passing Distributed Systems: An Algorithmic Approach_. Springer.<br>
 Sonnino, Alberto & George Danezis. (2019). ["SybilQuorum: open Distributed Ledgers Through Trust Networks"](https://arxiv.org/pdf/1906.12237.pdf).<br>
-Song, Jimmy. (2019). _Programming Bitcoin: Learn How to Program Bitcoin from Scratch_. O'Reilly.<br>
 Szabo, Nick. (2005). ["Bit Gold"](https://nakamotoinstitute.org/bit-gold/).<br>
 Szabo, Nick. (1997). "The Idea of Smart Contracts".<br>
 Wei, Dai. (1998). ["b-money"](http://www.weidai.com/bmoney.txt).<br>
