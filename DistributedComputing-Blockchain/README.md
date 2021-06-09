@@ -68,22 +68,17 @@ Keshav, Srinivasan. (2012). _Mathematical Foundations of Computer Networking_. A
 Kurose, Jim & Keith Ross. (2020). [_Computer Networking: A Top-Down Approach, 8th Ed_](https://gaia.cs.umass.edu/kurose_ross/index.html). Pearson.<br>
 Lamport, Leslie, Dahlia Malkhi, & Lidong Zhou. (2008). ["Reconfiguring a State Machine"](https://www.microsoft.com/en-us/research/wp-content/uploads/2008/02/rpgc.pdf).<br>
 Lamport, Leslie, Robert Shostak, & Marshall Pease. (1982). "The Byzantine Generals Problem".<br>
-Lantz, Lorne & Daniel Cawrey. (2020). _Mastering Blockchain: Unlocking the Power of Cryptocurrencies, Smart Contracts, and Decentralized Applications_. O'Reilly.<br>
 Le Boudec, Jean-Yves & Patrick Thiran. (2020). [_Network Calculus: A Theory of Deterministic Queueing Systems for the Internet_](https://ica1www.epfl.ch/PS_files/netCalBookv4.pdf). Springer.<br>
 Lynch, Nancy A. (1996). _Distributed Algorithms_. Morgan-Kaufmann Series in Data Management Systems.<br>
 Merkle, Ralph. (1980). ["Protocols for Public Key Cryptosystems"](http://www.merkle.com/papers/Protocols.pdf).<br>
 Oki, Brian M. & Barbara H. Liskov. (1988). ["Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems"](http://www.pmg.csail.mit.edu/papers/vr.pdf).<br>
-Shi, Elaine. (2020). [_Foundations of Distributed Consensus and Blockchains_](https://www.distributedconsensus.net).<br>
-Ramamurthy, Bina. (2020). _Blockchain in Action_. Manning.<br>
 Raynal, Michel. (2018). _Fault-Tolerant Message-Passing Distributed Systems: An Algorithmic Approach_. Springer.<br>
 Sonnino, Alberto & George Danezis. (2019). ["SybilQuorum: open Distributed Ledgers Through Trust Networks"](https://arxiv.org/pdf/1906.12237.pdf).<br>
 Szabo, Nick. (2005). ["Bit Gold"](https://nakamotoinstitute.org/bit-gold/).<br>
 Szabo, Nick. (1997). "The Idea of Smart Contracts".<br>
 Wei, Dai. (1998). ["b-money"](http://www.weidai.com/bmoney.txt).<br>
-Werbach, Kevin. (2018). _The Blockchain and the New Architecture of Trust_. MIT Press.<br>
 Yang, Lei et al. (2020). ["Prism: Scaling Bitcoin by 10,000x"](https://arxiv.org/pdf/1909.11261.pdf).<br>
 Yu, Mingchao et al. (2019). ["Coded Merkle Tree: Solving Data Availability Attacks in Blockchains"](https://arxiv.org/pdf/1910.01247.pdf).<br>
-Zand, Matt, Xun (Brian) Wu, & Mark Anthony Morris. (2021). _Hands-On Smart Contract Development with Hyperledger Fabric V2: Building Enterprise Blockchain Applications_. O'Reilly.<br>
 
 Burstcoin [Investopedia](https://www.investopedia.com/terms/b/burstcoin.asp)<br>
 Chia [Home](https://www.chia.net)<br>
