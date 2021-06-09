@@ -28,37 +28,51 @@ Rapids [Home](https://rapids.ai)<br>
 
 
 
+## Classical Consensus
+
+Castro, Miguel & Barbara Liskov. (1999). ["Practical Byzantine Fault Tolerance"](http://pmg.csail.mit.edu/papers/osdi99.pdf).<br>
+
+### Paxos [Wiki](https://en.wikipedia.org/wiki/Paxos_(computer_science))
+
+Lamport, Leslie. (1998). ["The Part-Time Parliament"](http://lamport.azurewebsites.net/pubs/lamport-paxos.pdf).<br>
+Lamport, Leslie. (1978). ["Time, Clocks, and the Ordering of Events in a Distributed System"](https://www.microsoft.com/en-us/research/uploads/prod/2016/12/Time-Clocks-and-the-Ordering-of-Events-in-a-Distributed-System.pdf).<br>
+Schneider, Fred B. (1990). ["Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial"](http://www.cs.cornell.edu/fbs/publications/SMSurvey.pdf).<br>
+
+
+
 ## Distributed Computing, Blockchain, and Cryptocurrency Resources
 
 Abraham, Ittai & Gilad Stern. (2020). ["Information Theoretic HotStuff"](https://arxiv.org/pdf/2009.12828.pdf).<br>
 Back, Adam. (2002). ["Hashcash: A Denial-of-Service Countermeasure"](http://www.hashcash.org/papers/hashcash.pdf).<br>
 Bar-Zur, Roi, Ittay Eyal, & Aviv Tamar. (2020). ["Efficient MDP Analysis for Selfish-Mining in Blockchains"](https://arxiv.org/pdf/2007.05614.pdf).<br>
 Bech, Morten & Rodney Garratt. (2017). ["Central bank cryptocurrencies"](https://www.bis.org/publ/qtrpdf/r_qt1709f.pdf).<br>
+Birman, Kenneth P. & Thomas A. Joseph. (1987). ["Reliable Communication in the Presence of Failures"](http://pages.cs.wisc.edu/~bart/739/papers/isis2.pdf).<br>
 Bracha, G. (1987). "Asynchronous Byzantine agreement protocols".<br>
-Castro, Miguel & Barbara Liskov. (1999). ["Practical Byzantine Fault Tolerance"](http://pmg.csail.mit.edu/papers/osdi99.pdf).<br>
 Chaum, David. (1982). ["Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups"](https://www.chaum.com/publications/chaum_dissertation.pdf).<br>
 Cohen, Bram & Krzysztof Pietrzak. (2019). ["The Chia Network Blockchain"](https://www.chia.net/assets/ChiaGreenPaper.pdf).<br>
 Danezis, George & David Hrycyszyn. (2018). ["Blockmania: from Block DAGs to Consensus"](https://arxiv.org/pdf/1809.01620.pdf).<br>
 Dembo, Amir et al. (2020). ["Everything is a Race and Nakamoto Always Wins"](https://arxiv.org/pdf/2005.10484.pdf).<br>
 Douceur, John R. (2002). ["The Sybil Attack"](https://www.microsoft.com/en-us/research/wp-content/uploads/2002/01/IPTPS2002.pdf).<br>
 Dwork, Cynthia & Moni Naor. (1993). "Pricing via Processing or Combatting Junk Mail".<br>
-Dwork, Cynthia, Nancy Lynch, & Larry Stockmeyer. (1988). "Consensus in the Presence of Partial Synchrony".<br>
+Dwork, Cynthia, Nancy Lynch, & Larry Stockmeyer. (1988). ["Consensus in the Presence of Partial Synchrony"](http://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf).<br>
 Eyal, Ittay et al. (2016). ["Bitcoin-NG: A Scalable Blockchain Protocol"](https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf).<br>
-Fischer, Michael J., Nancy A. Lynch, & Michael S. Paterson. (1985). "Impossibility of Distributed Consensus with One Faulty Process".<br>
+Fischer, Michael J., Nancy A. Lynch, & Michael S. Paterson. (1985). ["Impossibility of Distributed Consensus with One Faulty Process"](http://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf).<br>
 Fokkink, Wan. (2018). _Distributed Algorithms: An Intuitive Approach, 2nd Ed_. MIT Press.<br>
 Gilad, Yossi et al. (2017). ["Algorand: Scaling Byzantine Agreements for Cryptocurrencies"](https://dl.acm.org/doi/pdf/10.1145/3132747.3132757).<br>
 Haber, Stuart & W. Scott Stornetta. (1991). ["How to Time-Stamp a Digital Document"](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=C01131148AF17AF93F2655C091376AF4?doi=10.1.1.46.8740&rep=rep1&type=pdf).<br>
 Harchol-Balter, Mor. (2013). [_Performance Modeling and Design of Computer Systems: Queueing Theory in Action_](http://www.cs.cmu.edu/~harchol/PerformanceModeling/book.html). Cambridge University Press.<br>
 Jalalzai, Mohammad M. et al. (2021). ["Fast-HotStuff: A Fast and Robust BFT Protocol for Blockchains"](https://arxiv.org/pdf/2010.11454.pdf).<br>
+Keidar, Idit & Alexander Shraer. (2006). ["Timeliness, Failure-Detectors, and Consensus Performance"](http://people.csail.mit.edu/idish/ftp/GIRAF-TR-Feb06.pdf)<br>
 Kelkar, Mahimna et al. (2020). ["Order-Fairness for Byzantine Consensus"](https://eprint.iacr.org/2020/269.pdf).<br>
 Keshav, Srinivasan. (2012). _Mathematical Foundations of Computer Networking_. Addison-Wesley Professional Computing Series.<br>
 Kurose, Jim & Keith Ross. (2020). [_Computer Networking: A Top-Down Approach, 8th Ed_](https://gaia.cs.umass.edu/kurose_ross/index.html). Pearson.<br>
-Lamport, Leslie. (2000). "The Part-Time Parliament".<br>
+Lamport, Leslie, Dahlia Malkhi, & Lidong Zhou. (2008). ["Reconfiguring a State Machine"](https://www.microsoft.com/en-us/research/wp-content/uploads/2008/02/rpgc.pdf).<br>
 Lamport, Leslie, Robert Shostak, & Marshall Pease. (1982). "The Byzantine Generals Problem".<br>
 Lantz, Lorne & Daniel Cawrey. (2020). _Mastering Blockchain: Unlocking the Power of Cryptocurrencies, Smart Contracts, and Decentralized Applications_. O'Reilly.<br>
 Le Boudec, Jean-Yves & Patrick Thiran. (2020). [_Network Calculus: A Theory of Deterministic Queueing Systems for the Internet_](https://ica1www.epfl.ch/PS_files/netCalBookv4.pdf). Springer.<br>
 Lynch, Nancy A. (1996). _Distributed Algorithms_. Morgan-Kaufmann Series in Data Management Systems.<br>
 Merkle, Ralph. (1980). ["Protocols for Public Key Cryptosystems"](http://www.merkle.com/papers/Protocols.pdf).<br>
+Oki, Brian M. & Barbara H. Liskov. (1988). ["Viewstamped Replication: A New Primary Copy Method to Support Highly-Available Distributed Systems"](http://www.pmg.csail.mit.edu/papers/vr.pdf).<br>
 Shi, Elaine. (2020). [_Foundations of Distributed Consensus and Blockchains_](https://www.distributedconsensus.net).<br>
 Ramamurthy, Bina. (2020). _Blockchain in Action_. Manning.<br>
 Raynal, Michel. (2018). _Fault-Tolerant Message-Passing Distributed Systems: An Algorithmic Approach_. Springer.<br>
@@ -127,7 +141,7 @@ Dijkstra, Edsger (1930-2002) [Wiki](https://en.wikipedia.org/wiki/Edsger_W._Dijk
 Dwork, Cynthia [Wiki](https://en.wikipedia.org/wiki/Cynthia_Dwork)<br>
 Fischer, Michael [Wiki](https://en.wikipedia.org/wiki/Michael_J._Fischer)<br>
 Hoare, Tony [Wiki](https://en.wikipedia.org/wiki/Tony_Hoare)<br>
-Lamport, Leslie [Wiki](https://en.wikipedia.org/wiki/Leslie_Lamport)<br>
+Lamport, Leslie [Home](http://www.lamport.org) [Wiki](https://en.wikipedia.org/wiki/Leslie_Lamport)<br>
 Lynch, Nancy [Wiki](https://en.wikipedia.org/wiki/Nancy_Lynch)<br>
 Merkle, Ralph [Wiki](https://en.wikipedia.org/wiki/Ralph_Merkle)<br>
 Paterson, Mike [Wiki](https://en.wikipedia.org/wiki/Mike_Paterson)<br>
@@ -202,6 +216,7 @@ PageRank [Wiki](https://en.wikipedia.org/wiki/PageRank)<br>
 Parallel Computation [Wiki](https://en.wikipedia.org/wiki/Parallel_computing)<br>
 Payment Rail [Wiki](https://en.wikipedia.org/wiki/Payment_rail)<br>
 PDP Parallel Distributed Processing [Wiki](https://en.wikipedia.org/wiki/Connectionism)<br>
+Paxos [Wiki](https://en.wikipedia.org/wiki/Paxos_(computer_science))<br>
 P2P Peer-to-Peer [Wiki](https://en.wikipedia.org/wiki/Peer-to-peer)<br>
 Permissioned<br>
 Permissionless<br>
