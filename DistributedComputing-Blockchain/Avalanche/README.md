@@ -13,6 +13,12 @@ ACP Avalanche Consensus Protocol [Whitepaper](https://assets.website-files.com/5
 
 
 
+## Figures
+
+Sirer, Emin Gün [Blog](https://hackingdistributed.com) [Wiki](https://en.wikipedia.org/wiki/Emin_Gün_Sirer)<br>
+
+
+
 ## Terms
 
 IPFS InterPlanetary File System [Wiki](https://en.wikipedia.org/wiki/InterPlanetary_File_System)<br>
