@@ -69,12 +69,9 @@ Szabo, Nick. (1997). "The Idea of Smart Contracts".<br>
 Wei, Dai. (1998). ["b-money"](http://www.weidai.com/bmoney.txt).<br>
 Werbach, Kevin. (2018). _The Blockchain and the New Architecture of Trust_. MIT Press.<br>
 Yang, Lei et al. (2020). ["Prism: Scaling Bitcoin by 10,000x"](https://arxiv.org/pdf/1909.11261.pdf).<br>
-Yin, Maofan et al. (2020). ["Scalable and Probabilistic Leaderless BFT Consensus through Metastability"](https://assets.website-files.com/5d80307810123f5ffbb34d6e/6009805681b416f34dcae012_Avalanche%20Consensus%20Whitepaper.pdf).<br>
 Yu, Mingchao et al. (2019). ["Coded Merkle Tree: Solving Data Availability Attacks in Blockchains"](https://arxiv.org/pdf/1910.01247.pdf).<br>
 Zand, Matt, Xun (Brian) Wu, & Mark Anthony Morris. (2021). _Hands-On Smart Contract Development with Hyperledger Fabric V2: Building Enterprise Blockchain Applications_. O'Reilly.<br>
 
-Algorand [Home](https://www.algorand.com)<br>
-Avalanche Consensus [Home](https://docs.avax.network/learn/platform-overview/avalanche-consensus)<br>
 Burstcoin [Investopedia](https://www.investopedia.com/terms/b/burstcoin.asp)<br>
 Chia [Home](https://www.chia.net)<br>
 Coinbase [Home](https://www.coinbase.com) [Wiki](https://en.wikipedia.org/wiki/Coinbase)<br>
