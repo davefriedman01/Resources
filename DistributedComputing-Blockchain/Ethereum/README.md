@@ -9,6 +9,8 @@ Buterin, Vitalik. (2013). ["Ethereum White Paper"](https://ethereum.org/whitepap
 Infante, Roberto. (2019). _Building Ethereum Dapps_. Manning.<br>
 Solorio, Kevin, Randall Kanna, & David H. Hoover. (2019). _Hands-On Smart Contract Development with Solidity and Ethereum: From Fundamentals to Deployment_. O'Reilly.<br>
 
+Truffle Suite [Home](https://www.trufflesuite.com)<br>
+
 
 
 ## Terms
