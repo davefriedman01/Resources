@@ -81,6 +81,7 @@ Plaintext [Wiki](https://en.wikipedia.org/wiki/Plaintext)<br>
 PGP Pretty Good Privacy [Wiki](https://en.wikipedia.org/wiki/Pretty_Good_Privacy)<br>
 Randomized Algorithm [Wiki](https://en.wikipedia.org/wiki/Randomized_algorithm)<br>
 Secret Sharing [Wiki](https://en.wikipedia.org/wiki/Secret_sharing)<br>
+Secure Multiparty Computation [Wiki](https://en.wikipedia.org/wiki/Secure_multi-party_computation)<br>
 Standard Model [Wiki](https://en.wikipedia.org/wiki/Standard_model_(cryptography))<br>
 Strong Cryptography [Wiki](https://en.wikipedia.org/wiki/Strong_cryptography)<br>
 Substitution Cipher [Wiki](https://en.wikipedia.org/wiki/Substitution_cipher)<br>

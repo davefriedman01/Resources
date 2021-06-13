@@ -43,17 +43,36 @@ Turing, Alan [Wiki](https://en.wikipedia.org/wiki/Alan_Turing)<br>
 Algorithm [Wiki](https://en.wikipedia.org/wiki/Algorithm)<br>
 Automata Theory [Wiki](https://en.wikipedia.org/wiki/Automata_theory)<br>
 Automaton [Wiki](https://en.wikipedia.org/wiki/Automaton)<br>
+Boolean Circuit [Wiki](https://en.wikipedia.org/wiki/Boolean_circuit)<br>
+Boolean Function [Wiki](https://en.wikipedia.org/wiki/Boolean_function)<br>
 Church-Turing Thesis [SEP](https://plato.stanford.edu/entries/church-turing/)<br>
 Cellular Automaton [Wiki](https://en.wikipedia.org/wiki/Cellular_automaton)<br>
+Circuit [Wiki](https://en.wikipedia.org/wiki/Circuit_(computer_science))<br>
+Circuit Complexity [Wiki](https://en.wikipedia.org/wiki/Circuit_complexity)<br>
 Combinational Logic [Wiki](https://en.wikipedia.org/wiki/Combinational_logic)<br>
 Computability and Complexity [SEP](https://plato.stanford.edu/entries/computability/)<br>
-Computational Complexity Theory [SEP](https://plato.stanford.edu/entries/computational-complexity/)<br>
+Computability Theory [Wiki](https://en.wikipedia.org/wiki/Computability_theory)<br>
+Computational Complexity Theory [SEP](https://plato.stanford.edu/entries/computational-complexity/) [Wiki](https://en.wikipedia.org/wiki/Computational_complexity_theory)<br>
 Conway's Game of Life [Wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)<br>
+Decider [Wiki](https://en.wikipedia.org/wiki/Machine_that_always_halts)<br>
+Decision Problem [Wiki](https://en.wikipedia.org/wiki/Decision_problem)<br>
+FSA Finite-State Automaton [Wiki](https://en.wikipedia.org/wiki/Finite-state_machine)<br>
+FSM Finite-State Machine [Wiki](https://en.wikipedia.org/wiki/Finite-state_machine)<br>
 Greenberg-Hastings Cellular Automaton [Wiki](https://en.wikipedia.org/wiki/Greenberg–Hastings_cellular_automaton)<br>
+Halting Problem [Wiki](https://en.wikipedia.org/wiki/Halting_problem)<br>
 Lambda Calculus [Wiki](https://en.wikipedia.org/wiki/Lambda_calculus)<br>
+Model of Computation [Wiki](https://en.wikipedia.org/wiki/Model_of_computation)<br>
+Recursion Theory [Wiki](https://en.wikipedia.org/wiki/Computability_theory)<br>
+Recursive Language [Wiki](https://en.wikipedia.org/wiki/Recursive_language)<br>
 Richardson's Theorem [Wiki](https://en.wikipedia.org/wiki/Richardson%27s_theorem)<br>
 Sequential Logic [Wiki](https://en.wikipedia.org/wiki/Sequential_logic)<br>
+State [Wiki](https://en.wikipedia.org/wiki/State_(computer_science))<br>
+State Machine [Wiki](https://en.wikipedia.org/wiki/Finite-state_machine)<br>
+Theoretical Computer Science [Wiki](https://en.wikipedia.org/wiki/Theoretical_computer_science)<br>
+Theory of Computation [Wiki](https://en.wikipedia.org/wiki/Theory_of_computation)<br>
 Tessellation [Wiki](https://en.wikipedia.org/wiki/Tessellation)<br>
+Total TM Turing Machine [Wiki](https://en.wikipedia.org/wiki/Machine_that_always_halts)
 Turing Completeness [Wiki](https://en.wikipedia.org/wiki/Turing_completeness)<br>
 Turing Machine [SEP](https://plato.stanford.edu/entries/turing-machine/)<br>
+Undecidable Problem [Wiki](https://en.wikipedia.org/wiki/Undecidable_problem)<br>
 Von Neumann Universal COnstructor [Wiki](https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor)<br>
