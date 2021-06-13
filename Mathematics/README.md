@@ -40,6 +40,12 @@ Morton, Jason. (2015). [An Algebraic Perspective on Deep Learning, Part 3 (YouTu
 
 
 
+## Figures
+
+Fourier, Jean-Baptiste Joseph (1768-1830)<br>
+
+
+
 ## Terms
 
 Symbolic Dynamics [Wiki](https://en.wikipedia.org/wiki/Symbolic_dynamics)<br>
