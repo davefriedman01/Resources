@@ -76,6 +76,7 @@ Integer [Wiki](https://en.wikipedia.org/wiki/Integer_%28computer_science%29)<br>
 [Programming Language (Wikipedia)](https://en.wikipedia.org/wiki/Programming_language)<br>
 [Programming Language Generation (Wikipedia)](https://en.wikipedia.org/wiki/Programming_language_generations)<br>
 [Programming Paradigm (Wikipedia)](https://en.wikipedia.org/wiki/Programming_paradigm)<br>
+Pure Function [Wiki](https://en.wikipedia.org/wiki/Pure_function)<br>
 [Run Time (Wikipedia)](https://en.wikipedia.org/wiki/Runtime_(program_lifecycle_phase))<br>
 [Runtime Environment (Wikipedia)](https://en.wikipedia.org/wiki/Runtime_system)<br>
 [Scope (Wikipedia)](https://en.wikipedia.org/wiki/Scope_(computer_science)) This has to do with what to name your variable and where<br>

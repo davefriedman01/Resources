@@ -41,13 +41,18 @@ Turing, Alan [Wiki](https://en.wikipedia.org/wiki/Alan_Turing)<br>
 ## Terms
 
 Algorithm [Wiki](https://en.wikipedia.org/wiki/Algorithm)<br>
+Automata Theory [Wiki](https://en.wikipedia.org/wiki/Automata_theory)<br>
+Automaton [Wiki](https://en.wikipedia.org/wiki/Automaton)<br>
 Church-Turing Thesis [SEP](https://plato.stanford.edu/entries/church-turing/)<br>
 Cellular Automaton [Wiki](https://en.wikipedia.org/wiki/Cellular_automaton)<br>
+Combinational Logic [Wiki](https://en.wikipedia.org/wiki/Combinational_logic)<br>
 Computability and Complexity [SEP](https://plato.stanford.edu/entries/computability/)<br>
 Computational Complexity Theory [SEP](https://plato.stanford.edu/entries/computational-complexity/)<br>
 Conway's Game of Life [Wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)<br>
 Greenberg-Hastings Cellular Automaton [Wiki](https://en.wikipedia.org/wiki/Greenberg–Hastings_cellular_automaton)<br>
+Lambda Calculus [Wiki](https://en.wikipedia.org/wiki/Lambda_calculus)<br>
 Richardson's Theorem [Wiki](https://en.wikipedia.org/wiki/Richardson%27s_theorem)<br>
+Sequential Logic [Wiki](https://en.wikipedia.org/wiki/Sequential_logic)<br>
 Tessellation [Wiki](https://en.wikipedia.org/wiki/Tessellation)<br>
 Turing Completeness [Wiki](https://en.wikipedia.org/wiki/Turing_completeness)<br>
 Turing Machine [SEP](https://plato.stanford.edu/entries/turing-machine/)<br>

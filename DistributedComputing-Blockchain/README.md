@@ -232,6 +232,7 @@ SushiSwap [Binance](https://academy.binance.com/en/articles/your-guide-to-sushis
 Synchronization [Wiki](https://en.wikipedia.org/wiki/Synchronization_(computer_science))<br>
 Synchronizer [Wiki](https://en.wikipedia.org/wiki/Synchronizer_(algorithm))<br>
 Synchronous Network<br>
+Time Server [Wiki](https://en.wikipedia.org/wiki/Time_server)<br>
 Unbounded Nondeterminism [Wiki](https://en.wikipedia.org/wiki/Unbounded_nondeterminism)<br>
 Validator [Wiki](https://en.wikipedia.org/wiki/Validator)<br>
 Virtual Currency [Wiki](https://en.wikipedia.org/wiki/Virtual_currency)<br>

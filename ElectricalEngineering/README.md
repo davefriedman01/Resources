@@ -66,6 +66,7 @@ Telecommunication [Wiki](https://en.wikipedia.org/wiki/Telecommunication)<br>
 TIV Time-Invariant System [Wiki](https://en.wikipedia.org/wiki/Time-invariant_system)<br>
 Time-Scale Calculus [Wiki](https://en.wikipedia.org/wiki/Time-scale_calculus)<br>
 Time Domain [Wiki](https://en.wikipedia.org/wiki/Time_domain)<br>
+Time Signal [Wiki](https://en.wikipedia.org/wiki/Time_signal)<br>
 Transfer Function [Wiki](https://en.wikipedia.org/wiki/Transfer_function)<br>
 Unit Impulse [Wiki](https://en.wikipedia.org/wiki/Dirac_delta_function)<br>
 Window Function [Wiki](https://en.wikipedia.org/wiki/Window_function)<br>
