@@ -19,10 +19,12 @@ Feynman, Richard P. _Feynman Lectures on Computation_.<br>
 MacCormick, John. (2018). _What Can Be Computed?: A Practical Guide to the Theory of Computation_. Princeton University Press. [Home](https://whatcanbecomputed.com).<br>
 Savage, John E. (1998). _Models of Computation: Exploring the Power of Computing_. Addison-Wesley.<br>
 
+Talks at Google. (2012). ["Think Complexity | Allen B. Downey | Talks at Google"](https://www.youtube.com/watch?v=iZuhWo0Nv7o). YouTube.<br>
+
 The Simons Institute for the Theory of Computing [Home](https://simons.berkeley.edu) [YouTube](https://www.youtube.com/user/SimonsInstitute).<br>
 
-[Time Complexity: Why Some Algorithms Run for Billions of Years (Interesting Engineering)](https://interestingengineering.com/time-complexity-why-some-algorithms-run-for-billions-of-years)<br>
-[Khan Academy's Intro to Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms)<br>
+Khan Academy's Intro to Algorithms [Page](https://www.khanacademy.org/computing/computer-science/algorithms)<br>
+"Time Complexity: Why Some Algorithms Run for Billions of Years" [Page](https://interestingengineering.com/time-complexity-why-some-algorithms-run-for-billions-of-years)<br>
 
 
 
@@ -40,6 +42,7 @@ Turing, Alan [Wiki](https://en.wikipedia.org/wiki/Alan_Turing)<br>
 
 ## Terms
 
+256 Rules [SEP](https://plato.stanford.edu/entries/cellular-automata/supplement.html)<br>
 Algorithm [Wiki](https://en.wikipedia.org/wiki/Algorithm)<br>
 Automata Theory [Wiki](https://en.wikipedia.org/wiki/Automata_theory)<br>
 Automaton [Wiki](https://en.wikipedia.org/wiki/Automaton)<br>
