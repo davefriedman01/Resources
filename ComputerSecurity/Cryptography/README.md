@@ -65,6 +65,8 @@ Cryptanalysis [Wiki](https://en.wikipedia.org/wiki/Cryptanalysis)<br>
 CHF Cryptographic Hash Function [Wiki](https://en.wikipedia.org/wiki/Cryptographic_hash_function)<br>
 Cryptography<br>
 Cryptology<br>
+Digital Signature [Wiki](https://en.wikipedia.org/wiki/Digital_signature)<br>
+PGP Pretty Good Privacy [Wiki](https://en.wikipedia.org/wiki/Pretty_Good_Privacy)<br>
 Secret Sharing [Wiki](https://en.wikipedia.org/wiki/Secret_sharing)<br>
 Strong Cryptography [Wiki](https://en.wikipedia.org/wiki/Strong_cryptography)<br>
 Sybil Attack [Wiki](https://en.wikipedia.org/wiki/Sybil_attack)<br>

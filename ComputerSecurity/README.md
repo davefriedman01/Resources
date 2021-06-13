@@ -77,6 +77,7 @@ Disassembly [Wiki](https://en.wikipedia.org/wiki/Disassembler)<br>
 DoS Denial-of-Service [Wiki](https://en.wikipedia.org/wiki/Denial-of-service_attack)<br>
 DDoS Distributed Denial-of-Service [Wiki](https://en.wikipedia.org/wiki/Denial-of-service_attack#Distributed_DoS_attack)<br>
 Exploit [Wiki](https://en.wikipedia.org/wiki/Exploit_(computer_security))<br>
+FIPS Federal Information Processing Standards [Wiki](https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards)<br>
 Hardware Bug [Wiki](https://en.wikipedia.org/wiki/Hardware_bug)<br>
 Hardware Security Bug [Wiki](https://en.wikipedia.org/wiki/Hardware_security_bug)<br>
 Heartbleed Bug [Home](https://heartbleed.com) [Wiki](https://en.wikipedia.org/wiki/Heartbleed)<br>
