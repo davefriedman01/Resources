@@ -64,6 +64,7 @@ Data-Oriented Design [Wiki](https://en.wikipedia.org/wiki/Data-oriented_design)<
 [High-Level Programming Language (Wikipedia)](https://en.wikipedia.org/wiki/High-level_programming_language)<br>
 [Imperative Programming (Wikipedia)](https://en.wikipedia.org/wiki/Imperative_programming)<br>
 [I/O Input/Output (Wikipedia)](https://en.wikipedia.org/wiki/Input/output)<br>
+Integer [Wiki](https://en.wikipedia.org/wiki/Integer_%28computer_science%29)<br>
 [IDE Integrated Development Environment (Wikipedia)](https://en.wikipedia.org/wiki/Integrated_development_environment)<br>
 [Interpreted Programming Language (Wikipedia)](https://en.wikipedia.org/wiki/Interpreter_(computing))<br>
 [Logical Programming (Wikipedia)](https://en.wikipedia.org/wiki/Logic_programming)<br>

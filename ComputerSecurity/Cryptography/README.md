@@ -60,15 +60,30 @@ Naor, Moni [Wiki](https://en.wikipedia.org/wiki/Moni_Naor)<br>
 
 ## Terms
 
+Adversary [Wiki](https://en.wikipedia.org/wiki/Adversary_(cryptography))<br>
 Blind Signature [Wiki](https://en.wikipedia.org/wiki/Blind_signature)<br>
+Ciphertext [Wiki](https://en.wikipedia.org/wiki/Ciphertext)<br>
+Code [Wiki](https://en.wikipedia.org/wiki/Code_(cryptography))<br>
 Cryptanalysis [Wiki](https://en.wikipedia.org/wiki/Cryptanalysis)<br>
 CHF Cryptographic Hash Function [Wiki](https://en.wikipedia.org/wiki/Cryptographic_hash_function)<br>
 Cryptographic Primitive [Wiki](https://en.wikipedia.org/wiki/Cryptographic_primitive)<br>
 Cryptography<br>
 Cryptology<br>
+Cryptosystem [Wiki](https://en.wikipedia.org/wiki/Cryptosystem)<br>
 Digital Signature [Wiki](https://en.wikipedia.org/wiki/Digital_signature)<br>
+Encryption [Wiki](https://en.wikipedia.org/wiki/Encryption)<br>
+Fundamental Theorem of Arithmetic [Wiki](https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic)<br>
+Mersenne Twister [Wiki](https://en.wikipedia.org/wiki/Mersenne_Twister)<br>
+Multiple Encryption [Wiki](https://en.wikipedia.org/wiki/Multiple_encryption)<br>
+Negligible Function [Wiki](https://en.wikipedia.org/wiki/Negligible_function)<br>
+Permutation [Wiki](https://en.wikipedia.org/wiki/Permutation)<br>
+Plaintext [Wiki](https://en.wikipedia.org/wiki/Plaintext)<br>
 PGP Pretty Good Privacy [Wiki](https://en.wikipedia.org/wiki/Pretty_Good_Privacy)<br>
+Randomized Algorithm [Wiki](https://en.wikipedia.org/wiki/Randomized_algorithm)<br>
 Secret Sharing [Wiki](https://en.wikipedia.org/wiki/Secret_sharing)<br>
+Standard Model [Wiki](https://en.wikipedia.org/wiki/Standard_model_(cryptography))<br>
 Strong Cryptography [Wiki](https://en.wikipedia.org/wiki/Strong_cryptography)<br>
+Substitution Cipher [Wiki](https://en.wikipedia.org/wiki/Substitution_cipher)<br>
 Sybil Attack [Wiki](https://en.wikipedia.org/wiki/Sybil_attack)<br>
-ZKP [Wiki](https://en.wikipedia.org/wiki/Zero-knowledge_proof)<br>
+Transposition Cipher [Wiki](https://en.wikipedia.org/wiki/Transposition_cipher)<br>
+ZKP Zero Knowledge Proof [Wiki](https://en.wikipedia.org/wiki/Zero-knowledge_proof)<br>

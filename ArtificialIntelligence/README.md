@@ -24,6 +24,7 @@ Computational Graph<br>
 Computational Learning Theory [Wiki](https://en.wikipedia.org/wiki/Computational_learning_theory)<br>
 Connectionism [Wiki](https://en.wikipedia.org/wiki/Connectionism)<br>
 Data Mining [Investopedia](https://www.investopedia.com/terms/d/datamining.asp)<br>
+DFS Depth-First Search [Wiki](https://en.wikipedia.org/wiki/Depth-first_search)<br>
 EA Evolutionary Algorithm [Wiki](https://en.wikipedia.org/wiki/Evolutionary_algorithm)<br>
 Evolutionary Computation [Wiki](https://en.wikipedia.org/wiki/Evolutionary_computation)<br>
 Expert System [Wiki](https://en.wikipedia.org/wiki/Expert_system)<br>

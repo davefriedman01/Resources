@@ -40,3 +40,17 @@ Yadwadkar, Neeraja J. et al. (2017). "Selecting the Best VM across Multiple Publ
 Yan, Ying et al. (2016). "TR-Spark: Transient Computing for Big Data Analytics".<br>
 Zhang, Qi et al. (2018). "A Comparative Study of Containers and Virtual Machines in Big Data Environment".<br>
 Zhu, Timothy, Michael A. Kozuch, & Mor Harchol-Balter. (2017). "WorkloadCompactor: Reducing datacenter cost while providing tail latency SLO guarantees".<br>
+
+
+
+## Terms
+
+DaaS Data as a Service [Wiki](https://en.wikipedia.org/wiki/Data_as_a_service)<br>
+DaaS Desktop as a Service [Wiki](https://en.wikipedia.org/wiki/Desktop_virtualization#Desktop_as_a_service)<br>
+FaaS Function as a Service [Wiki](https://en.wikipedia.org/wiki/Function_as_a_service)<br>
+IaaS Infrastructure as a Service [Wiki](https://en.wikipedia.org/wiki/Infrastructure_as_a_service)<br>
+MBaaS Mobile Backend as a Service [Wiki](https://en.wikipedia.org/wiki/Mobile_backend_as_a_service)<br>
+NaaS Network as a Service [Wiki](https://en.wikipedia.org/wiki/Network_as_a_service)<br>
+PaaS Platform as a Service [Wiki](https://en.wikipedia.org/wiki/Platform_as_a_service)<br>
+SaaS Software as a Service [Wiki](https://en.wikipedia.org/wiki/Software_as_a_service)<br>
+XaaS Anything as a Service [Wiki](https://en.wikipedia.org/wiki/As_a_service)<br>

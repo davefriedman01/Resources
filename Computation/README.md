@@ -46,5 +46,6 @@ Cellular Automaton [Wiki](https://en.wikipedia.org/wiki/Cellular_automaton)<br>
 Computability and Complexity [SEP](https://plato.stanford.edu/entries/computability/)<br>
 Computational Complexity Theory [SEP](https://plato.stanford.edu/entries/computational-complexity/)<br>
 Conway's Game of Life [Wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)<br>
+Greenberg-Hastings Cellular Automaton [Wiki](https://en.wikipedia.org/wiki/Greenberg–Hastings_cellular_automaton)<br>
 Turing Completeness [Wiki](https://en.wikipedia.org/wiki/Turing_completeness)<br>
 Turing Machine [SEP](https://plato.stanford.edu/entries/turing-machine/)<br>

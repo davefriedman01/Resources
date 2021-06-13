@@ -66,6 +66,7 @@ Zhao, Alice. (2021). _SQL Pocket Guide: A Guide to SQL Usage, 4th Ed_. O'Reilly.
 [HDB Heterogeneous Database System (Wikipedia)](https://en.wikipedia.org/wiki/Heterogeneous_database_system)<br>
 [Hierarchical Database Model (Wikipedia)](https://en.wikipedia.org/wiki/Hierarchical_database_model)<br>
 [Logical Data Model (Wikipedia)](https://en.wikipedia.org/wiki/Logical_schema)<br>
+MUMPS [Wiki](https://en.wikipedia.org/wiki/MUMPS)<br>
 [NoSQL (Wikipedia)](https://en.wikipedia.org/wiki/NoSQL)<br>
 [Object Database (Wikipedia)](https://en.wikipedia.org/wiki/Object_database)<br>
 OODBMS Object-Oriented Database Management System<br>
