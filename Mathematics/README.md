@@ -37,3 +37,9 @@ Wasserman, Larry. [_All of Statistics: A Concise Course in Statistical Inference
 Morton, Jason. (2015). [An Algebraic Perspective on Deep Learning, Part 1 (YouTube)](https://www.youtube.com/watch?v=tbFWvcZDpho).<br>
 Morton, Jason. (2015). [An Algebraic Perspective on Deep Learning, Part 2 (YouTube)](https://www.youtube.com/watch?v=FvV4aNujBWc).<br>
 Morton, Jason. (2015). [An Algebraic Perspective on Deep Learning, Part 3 (YouTube)](https://www.youtube.com/watch?v=GM7V7surX2E).<br>
+
+
+
+## Terms
+
+Symbolic Dynamics [Wiki](https://en.wikipedia.org/wiki/Symbolic_dynamics)<br>
