@@ -41,3 +41,4 @@ Zheng, Alice & Amanda Casari. (2018). [_Feature Engineering for Machine Learning
 ## Terms
 
 Bayes' Theorem [Wiki](https://en.wikipedia.org/wiki/Bayes%27_theorem)<br>
+PCA Principal Component Analysis [Wiki](https://en.wikipedia.org/wiki/Principal_component_analysis)<br>

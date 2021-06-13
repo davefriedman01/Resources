@@ -47,5 +47,8 @@ Computability and Complexity [SEP](https://plato.stanford.edu/entries/computabil
 Computational Complexity Theory [SEP](https://plato.stanford.edu/entries/computational-complexity/)<br>
 Conway's Game of Life [Wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)<br>
 Greenberg-Hastings Cellular Automaton [Wiki](https://en.wikipedia.org/wiki/Greenberg–Hastings_cellular_automaton)<br>
+Richardson's Theorem [Wiki](https://en.wikipedia.org/wiki/Richardson%27s_theorem)<br>
+Tessellation [Wiki](https://en.wikipedia.org/wiki/Tessellation)<br>
 Turing Completeness [Wiki](https://en.wikipedia.org/wiki/Turing_completeness)<br>
 Turing Machine [SEP](https://plato.stanford.edu/entries/turing-machine/)<br>
+Von Neumann Universal COnstructor [Wiki](https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor)<br>
