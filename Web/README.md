@@ -48,12 +48,14 @@ Full-Stack Web Development<br>
 [JSON JavaScript Object Notation (Wikipedia)](https://en.wikipedia.org/wiki/JSON)<br>
 [Markup Language (Wikipedia)](https://en.wikipedia.org/wiki/Markup_language)<br>
 [POST (HTTP Request Method) (Wikipedia)](https://en.wikipedia.org/wiki/POST_(HTTP))<br>
+Progressive Enhancement [Wiki](https://en.wikipedia.org/wiki/Progressive_enhancement)<br>
 [Query String (Wikipedia)](https://en.wikipedia.org/wiki/Query_string)<br>
 [REST REpresentational State Transfer (Wikipedia)](https://en.wikipedia.org/wiki/Representational_state_transfer)<br>
 [SVG Scalable Vector Graphics (Wikipedia)](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)<br>
 [Search Engine (Wikipedia)](https://en.wikipedia.org/wiki/Search_engine)<br>
 [Search Query (Wikipedia)](https://en.wikipedia.org/wiki/Web_search_query)<br>
 [Secret Key or Cryptographic Key (Wikipedia)](https://en.wikipedia.org/wiki/Key_(cryptography))<br>
+Semantic HTML [Wiki](https://en.wikipedia.org/wiki/Semantic_HTML)<br>
 [Semantic Web (Wikipedia)](https://en.wikipedia.org/wiki/Semantic_Web)<br>
 [Server-Side (Wikipedia)](https://en.wikipedia.org/wiki/Server-side)<br>
 [Server-Side Scripting (Wikipedia)](https://en.wikipedia.org/wiki/Server-side_scripting)<br>
