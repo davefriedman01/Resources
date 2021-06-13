@@ -66,3 +66,4 @@ Sequential Logic [Wiki](https://en.wikipedia.org/wiki/Sequential_logic)<br>
 SoC System on a Chip [Wiki](https://en.wikipedia.org/wiki/System_on_a_chip)<br>
 SoC Prototyping [Wiki](https://en.wikipedia.org/wiki/FPGA_prototyping)<br>
 Transistor [Wiki](https://en.wikipedia.org/wiki/Transistor)<br>
+Two's Complement [Wiki](https://en.wikipedia.org/wiki/Two%27s_complement)<br>
