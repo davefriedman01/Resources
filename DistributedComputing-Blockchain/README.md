@@ -10,6 +10,8 @@ Gramoli, Vincent. Blockchain Scalability and its Foundations in Distributed Comp
 Tang, Yuzhe. CIS600/FIN600: Blockchain and Cryptocurrecny. Syracuse University. [GitHub](https://tristartom.github.io/teaching/20f-fin600/).<br>
 IBM Blockchain Foundation Developer [Home](https://cognitiveclass.ai/courses/ibm-blockchain-foundation-dev/)<br>
 
+Geek's Lesson. (2019). ["Computer Networking Complete Course - Beginner to Advanced"](https://www.youtube.com/watch?v=QKfk7YFILws). YouTube.<br>
+
 
 
 ## Big Data Resources
