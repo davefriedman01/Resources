@@ -44,6 +44,7 @@ IID Independent and Identically Distributed Random Variable [Wiki](https://en.wi
 [Point Estimation (Wikipedia)](https://en.wikipedia.org/wiki/Point_estimation)<br>
 [Population (Wikipedia)](https://en.wikipedia.org/wiki/Statistical_population)<br>
 [Probability (Wikipedia)](https://en.wikipedia.org/wiki/Probability)<br>
+Probability, Classical Definition [Wiki](https://en.wikipedia.org/wiki/Classical_definition_of_probability)<br>
 [PDF Probability Density Function (Wikipedia)](https://en.wikipedia.org/wiki/Probability_density_function)<br>
 [Probability Distribution (Wikipedia)](https://en.wikipedia.org/wiki/Probability_distribution)<br>
 [Probability Theory (Wikipedia)](https://en.wikipedia.org/wiki/Probability_theory)<br>

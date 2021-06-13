@@ -54,6 +54,7 @@ Programming vs Scripting<br>
 [Compile Time (Wikipedia)](https://en.wikipedia.org/wiki/Compile_time)<br>
 [Computer Language (Wikipedia)](https://en.wikipedia.org/wiki/Computer_language)<br>
 [Constraint Programming (Wikipedia)](https://en.wikipedia.org/wiki/Constraint_programming)<br>
+Data-Oriented Design [Wiki](https://en.wikipedia.org/wiki/Data-oriented_design)<br>
 [Data Structure (Wikipedia)](https://en.wikipedia.org/wiki/Data_structure)<br>
 [Declarative Programming (Wikipedia)](https://en.wikipedia.org/wiki/Declarative_programming)<br>
 [Dynamically Typed Programming Language (Wikipedia)](https://en.wikipedia.org/wiki/Dynamic_programming_language)<br>

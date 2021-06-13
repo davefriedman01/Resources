@@ -63,6 +63,7 @@ Naor, Moni [Wiki](https://en.wikipedia.org/wiki/Moni_Naor)<br>
 Blind Signature [Wiki](https://en.wikipedia.org/wiki/Blind_signature)<br>
 Cryptanalysis [Wiki](https://en.wikipedia.org/wiki/Cryptanalysis)<br>
 CHF Cryptographic Hash Function [Wiki](https://en.wikipedia.org/wiki/Cryptographic_hash_function)<br>
+Cryptographic Primitive [Wiki](https://en.wikipedia.org/wiki/Cryptographic_primitive)<br>
 Cryptography<br>
 Cryptology<br>
 Digital Signature [Wiki](https://en.wikipedia.org/wiki/Digital_signature)<br>
