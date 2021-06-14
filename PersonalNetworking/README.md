@@ -28,6 +28,8 @@ Upverter [Home](https://upverter.com)<br>
 
 Pi-hole [Home](https://pi-hole.net) [Docs](https://docs.pi-hole.net) [GitHub](https://github.com/pi-hole)<br>
 Pi-hole on UDM [run-pihole](https://github.com/boostchicken/udm-utilities/tree/master/run-pihole) [on-boot-script](https://github.com/boostchicken/udm-utilities/tree/master/on-boot-script)<br>
+"Pi-hole Ad-Blocking with Failover on UniFi" [Article](https://jekhokie.github.io/unifi/pihole/networking/2020/12/15/unifi-pihole-ad-blocking-with-failover.html)<br>
+"WireGuard for UDM series routers" [Article](https://reposhub.com/linux/system-utilities/tusc-wireguard-kmod.html)<br>
 
 `podman exec -it pihole pihole ...` Run a `pihole ...` command<br>
 `podman exec -it pihole sudo sqlite3 /etc/pihole/gravity.db "select * from domain_audit;"` Interact with the gravity.db database<br>
@@ -75,6 +77,8 @@ Synology [Home](https://www.synology.com/en-us)<br>
 
 UniFi [Home](https://ui.com/consoles/)<br>
 Podman [Docs](http://docs.podman.io/en/latest/markdown/podman-ps.1.html)<br>
+
+"UniFi - Repairing Database Issues on the UniFi Network Application" [Article](https://help.ui.com/hc/en-us/articles/360006634094-UniFi-Repairing-Database-Issues-on-the-UniFi-Network-Application)<br>
 
 ## Terms
 
