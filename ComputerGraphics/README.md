@@ -17,3 +17,11 @@ Gonzalez, R. C., R. E. Woods, & S. L. Eddins. _Digital Image Processing using MA
 Pratt, W. K. (2007). _Digital Image Processing, 4th Ed._ Wiley.<br>
 Russ, J. C. (2011). _The Image Processing Handbook, 6th Ed_.<br>
 Sonka, M., V. Hlavac, & R. Boyle. (2014). _Image Processing, Analysis, and Machine Vision, 4th Ed_.<br>
+
+## 3D Animation, Modeling, & Rendering
+
+Autodesk Maya [Home](https://www.autodesk.com/products/maya/overview?term=1-YEAR)<br>
+Blender [Home](https://www.blender.org)<br>
+Houdini [Home](https://www.sidefx.com/buy/#houdini-free)<br>
+Unity [Home](https://unity.com)<br>
+Unreal [Home](https://www.unrealengine.com)<br>
