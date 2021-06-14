@@ -41,6 +41,9 @@ Yan, Ying et al. (2016). "TR-Spark: Transient Computing for Big Data Analytics".
 Zhang, Qi et al. (2018). "A Comparative Study of Containers and Virtual Machines in Big Data Environment".<br>
 Zhu, Timothy, Michael A. Kozuch, & Mor Harchol-Balter. (2017). "WorkloadCompactor: Reducing datacenter cost while providing tail latency SLO guarantees".<br>
 
+Docker Compose [Docs](https://docs.docker.com/compose/gettingstarted/)<br>
+Podman [Docs](http://docs.podman.io/en/latest/markdown/podman-ps.1.html)<br>
+
 
 
 ## Terms
