@@ -26,6 +26,8 @@ Zhao, Alice. (2021). _SQL Pocket Guide: A Guide to SQL Usage, 4th Ed_. O'Reilly.
 [Geek's Lesson's SQL Tutorial (YouTube)](https://www.youtube.com/watch?v=uGkIhx8KhbU)<br>
 [Geek's Lesson's Advanced SQL Tutorial (YouTube)](https://www.youtube.com/watch?v=2Fn0WAyZV0E)<br>
 
+DataDirect Networks [Home](https://www.ddn.com) [Wiki](https://en.wikipedia.org/wiki/DataDirect_Networks)<br>
+
 ## Figures
 
 [Codd, Edgar (Wikipedia)](https://en.wikipedia.org/wiki/Edgar_F._Codd)<br>
