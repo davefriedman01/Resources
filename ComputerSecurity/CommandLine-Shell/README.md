@@ -29,10 +29,13 @@ sql2csv<br>
 curl [Docs](https://everything.curl.dev)<br>
 cut<br>
 date<br>
+df<br>
 dsniff (Song, Dug)<br>
+du<br>
 echo<br>
 export<br>
 figlet [Home](http://www.figlet.org)<br>
+fortune [Wiki](https://en.wikipedia.org/wiki/Fortune_%28Unix%29)<br>
 fold<br>
 git (Torvalds and Hamano 2014)<br>
 grep [Wiki](https://en.wikipedia.org/wiki/Grep) (Meyering 2012a)<br>
@@ -65,6 +68,7 @@ unrar<br>
 unzip<br>
 xsv [GitHub](https://github.com/BurntSushi/xsv)<br>
 wc (Rubin & MacKenzie 2012)<br>
+watch<br>
 whoami<br>
 
 GNU core utils [page](https://www.gnu.org/software/coreutils/)<br>
