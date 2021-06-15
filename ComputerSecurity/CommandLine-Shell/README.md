@@ -10,10 +10,12 @@ Robbins, Arnold & Nelson H. F. Beebe. (2005). [_Classic Shell Scripting_](https:
 awk [Wiki](https://en.wikipedia.org/wiki/AWK)<br>
 bat<br>
 bc [Docs](https://www.gnu.org/software/bc/) (Nelson 2006)<br>
+boxes [Home](https://boxes.thomasjensen.com) [GitHub](https://github.com/ascii-boxes/boxes/)<br>
 cat (Granlund & Stallman 2012)<br>
 cd<br>
 chmod<br>
 chown<br>
+cowsay [Wiki](https://en.wikipedia.org/wiki/Cowsay)<br>
 cp (Granlund, MacKenzie, & Meyering 2012)<br>
 csvkit [Docs](https://csvkit.readthedocs.io/en/latest/)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -30,6 +32,7 @@ date<br>
 dsniff (Song, Dug)<br>
 echo<br>
 export<br>
+figlet [Home](http://www.figlet.org)<br>
 fold<br>
 git (Torvalds and Hamano 2014)<br>
 grep [Wiki](https://en.wikipedia.org/wiki/Grep) (Meyering 2012a)<br>
@@ -41,6 +44,7 @@ man (Eaton & Watson 2014)<br>
 mkdir (MacKenzie 2012)<br>
 mv (Parker, MacKenzie, & Meyering 2012)<br>
 paste (Ihnat & MacKenzie 2012)<br>
+pipx [GitHub](https://github.com/pypa/pipx)<br>
 pup [GitHub](https://github.com/EricChiang/pup)<br>
 pwd (Meyering 2012b)<br>
 rm (Rubin et al 2012)<br>
