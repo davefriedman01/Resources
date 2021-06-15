@@ -2,6 +2,15 @@
 
 
 
+## Templating
+
+Django Templates [Docs](https://docs.djangoproject.com/en/3.2/topics/templates/)<br>
+ERB [GitHub](https://github.com/ruby/erb)<br>
+Jinja2 [Home](https://jinja2docs.readthedocs.io/en/stable/)<br>
+Mustache [Home](https://mustache.github.io) [Wiki](https://en.wikipedia.org/wiki/Mustache_%28template_system%29)<br>
+
+
+
 ## Resources
 
 CSS-Tricks [Home](https://css-tricks.com)<br>
