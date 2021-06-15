@@ -1,5 +1,10 @@
-# Cloud Computing
+# Cloud
 
+
+
+## Configuration Management
+
+Hochstein, Lorin & René Moser. (2017). [_Ansible Up and Running: Automating Configuration Management and Deployment the Easy Way_](https://github.com/ansiblebook/ansiblebook). O'Reilly. [GitHub QuickRef](https://github.com/lorin/ansible-quickref)<br>
 
 
 
