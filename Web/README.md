@@ -13,6 +13,7 @@ Mustache [Home](https://mustache.github.io) [Wiki](https://en.wikipedia.org/wiki
 
 ## Resources
 
+BrowserStack [Home](https://www.browserstack.com)<br>
 CSS-Tricks [Home](https://css-tricks.com)<br>
 HTTP Status Codes [Wiki](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)<br>
 Introducing JSON [Home](https://www.json.org/json-en.html)<br>
