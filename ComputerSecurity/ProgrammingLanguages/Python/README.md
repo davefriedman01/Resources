@@ -1,4 +1,27 @@
-# Python Ecosystem
+# Python
+
+Python [Home](https://www.python.org)<br>
+
+## Interpreters
+
+CircuitPython [Home](https://circuitpython.org) [GitHub](https://github.com/Adafruit/CircuitPython) [Wiki](https://en.wikipedia.org/wiki/CircuitPython)<br>
+CPython [GitHub](https://github.com/python/cpython) [Wiki](https://en.wikipedia.org/wiki/CPython)<br>
+IronPython [Wiki](https://en.wikipedia.org/wiki/IronPython)<br>
+Jython [Wiki](https://en.wikipedia.org/wiki/Jython)<br>
+MicroPython [Home](https://micropython.org) [GitHub](https://github.com/micropython/micropython) [Wiki](https://en.wikipedia.org/wiki/MicroPython)<br>
+PyPy [Home](https://www.pypy.org) [Docs](https://doc.pypy.org/en/latest/) [Wiki](https://en.wikipedia.org/wiki/PyPy)<br>
+Stackless [Home](https://github.com/stackless-dev/stackless/wiki) [GitHub](https://github.com/stackless-dev/stackless)<br>
+
+## Transpilers
+
+Cython [Home](https://cython.org) [GitHub](https://github.com/cython) [Wiki](https://en.wikipedia.org/wiki/Cython)<br>
+Numba [Home](https://numba.pydata.org) [Docs](https://numba.readthedocs.io/en/stable/index.html) [Wiki](https://en.wikipedia.org/wiki/Numba)<br>
+
+## Packages
+
+### Performance Analysis
+
+Dis<br>
 
 
 
@@ -13,12 +36,10 @@ Nunez-Iglesias, Juan, Stefan van der Walt, & Harriet Dashnow. (2017). [_Elegant 
 
 
 
-CircuitPython [Home](https://circuitpython.org)<br>
 Python for Hardware Design [Home](https://gogul.dev/hardware/python-for-hardware-design)<br>
 SchemDraw [Home](https://schemdraw.readthedocs.io/en/latest/index.html)<br>
 
 ### Python
-- Python [Home](https://www.python.org)<br>
 
 
 
