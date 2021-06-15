@@ -22,7 +22,7 @@ Numba [Home](https://numba.pydata.org) [Docs](https://numba.readthedocs.io/en/st
 
 
 
-## Packages
+## Modules and Packages
 
 ### Performance
 
@@ -30,7 +30,7 @@ NumExpr [Docs](https://numexpr.readthedocs.io/en/latest/) [GitHub](https://githu
 
 ### Performance Analysis
 
-Dis<br>
+Dis [Docs](https://docs.python.org/3/library/dis.html)<br>
 
 ### PyData
 
@@ -39,8 +39,10 @@ NumPy Financial [Home](https://numpy.org/numpy-financial/) [GitHub](https://gith
 Pandas [Home](https://pandas.pydata.org) [Docs](https://pandas.pydata.org/docs/user_guide/index.html) [Getting Started](https://pandas.pydata.org/docs/getting_started/index.html) [Community Tutorials](https://pandas.pydata.org/docs/getting_started/tutorials.html#communitytutorials) [Cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)<br>
 SciPy [Home](https://www.scipy.org) [Lecture Notes](https://scipy-lectures.org) [Cookbook](https://scipy-cookbook.readthedocs.io/index.html) [Cheatsheet (Datacamp)](https://www.datacamp.com/community/blog/python-scipy-cheat-sheet)<br>
 
+### Python utilities
 
-
+operator [Docs](https://docs.python.org/3/library/operator.html)<br>
+typing [Docs](https://docs.python.org/3/library/typing.html)<br>
 
 ### Python for AI
 
