@@ -1,5 +1,10 @@
 # Computer Engineering
 
+## CAD
+
+Autodesk<br>
+FreeCAD [Home](https://www.freecadweb.org) [Wiki](https://en.wikipedia.org/wiki/FreeCAD)<br>
+
 ## Terms
 
 Adder [Wiki](https://en.wikipedia.org/wiki/Adder_(electronics))<br>

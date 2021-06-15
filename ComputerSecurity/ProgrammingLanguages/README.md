@@ -53,6 +53,7 @@ Programming vs Scripting<br>
 [Compiled Programming Language (Wikipedia)](https://en.wikipedia.org/wiki/Compiled_language)<br>
 [Compile Time (Wikipedia)](https://en.wikipedia.org/wiki/Compile_time)<br>
 [Computer Language (Wikipedia)](https://en.wikipedia.org/wiki/Computer_language)<br>
+The Computer Language Benchmarks Game [Wiki](https://en.wikipedia.org/wiki/The_Computer_Language_Benchmarks_Game)<br>
 [Constraint Programming (Wikipedia)](https://en.wikipedia.org/wiki/Constraint_programming)<br>
 Data-Oriented Design [Wiki](https://en.wikipedia.org/wiki/Data-oriented_design)<br>
 [Data Structure (Wikipedia)](https://en.wikipedia.org/wiki/Data_structure)<br>
@@ -86,5 +87,6 @@ Pure Function [Wiki](https://en.wikipedia.org/wiki/Pure_function)<br>
 [SDK Software Development Kit (Wikipedia)](https://en.wikipedia.org/wiki/Software_development_kit)<br>
 Statically Typed Programming Language<br>
 [Structured Data or Tabular Data (Wikipedia)](https://en.wikipedia.org/wiki/Data_model)<br>
+Transpiler [Wiki](https://en.wikipedia.org/wiki/Source-to-source_compiler)<br>
 [Type System (Wikipedia)](https://en.wikipedia.org/wiki/Type_system)<br>
 [Unstructured Data (Wikipedia)](https://en.wikipedia.org/wiki/Unstructured_data)<br>
