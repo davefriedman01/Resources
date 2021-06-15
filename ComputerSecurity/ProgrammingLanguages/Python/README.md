@@ -49,6 +49,7 @@ typing [Docs](https://docs.python.org/3/library/typing.html)<br>
 Keras [Home](https://keras.io)<br>
 NLTK [Home](http://www.nltk.org)<br>
 OpenCV [Home](https://opencv.org)<br>
+PyCaret [Home](https://pycaret.org)<br>
 PyTorch [Home](https://pytorch.org)<br>
 scikit-Learn [Home](https://scikit-learn.org/stable/index.html)<br>
 TensorFlow [Home](https://www.tensorflow.org)<br>
