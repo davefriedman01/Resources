@@ -10,6 +10,7 @@ Infante, Roberto. (2019). _Building Ethereum Dapps_. Manning.<br>
 Solorio, Kevin, Randall Kanna, & David H. Hoover. (2019). _Hands-On Smart Contract Development with Solidity and Ethereum: From Fundamentals to Deployment_. O'Reilly.<br>
 
 Enterprise Ethereum Alliance [Wiki](https://entethalliance.org)<br>
+Go Ethereum [Home](https://geth.ethereum.org)<br>
 Truffle Suite [Home](https://www.trufflesuite.com)<br>
 
 Dapp University. (2018). ["Create an ICO Presale with Smart Contracts - #9 Real World ICO on Ethereum"](https://www.youtube.com/watch?v=uPeRwDvkuCs). YouTube.<br>
