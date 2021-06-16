@@ -24,6 +24,7 @@ Numba [Home](https://numba.pydata.org) [Docs](https://numba.readthedocs.io/en/st
 
 ## Modules and Packages
 
+
 ### Performance
 
 NumExpr [Docs](https://numexpr.readthedocs.io/en/latest/) [GitHub](https://github.com/pydata/numexpr)<br>
@@ -66,6 +67,10 @@ Matplotlib [Home](https://matplotlib.org)<br>
 Panel [Home](https://panel.holoviz.org)<br>
 Plotly [Home](https://plotly.com/python/)<br>
 Seaborn [Home](https://seaborn.pydata.org)<br>
+
+### Web Development and CMS Content Managmenet System
+
+Mezzanine [Home](http://mezzanine.jupo.org)<br>
 
 
 
