@@ -68,8 +68,13 @@ Panel [Home](https://panel.holoviz.org)<br>
 Plotly [Home](https://plotly.com/python/)<br>
 Seaborn [Home](https://seaborn.pydata.org)<br>
 
+### SSH
+
+Fabric [Home](http://www.fabfile.org)<br>
+
 ### Web Development and CMS Content Managmenet System
 
+Django [Home](https://www.djangoproject.com)<br>
 Mezzanine [Home](http://mezzanine.jupo.org)<br>
 
 
