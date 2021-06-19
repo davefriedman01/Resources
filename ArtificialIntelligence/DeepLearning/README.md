@@ -9,6 +9,7 @@ Charniak, Eugene. (2019). [_Introduction to Deep Learning_](https://cs.brown.edu
 Chollet, Francois. (2017). [_Deep Learning with Python_](https://github.com/fchollet/deep-learning-with-python-notebooks). Manning.<br>
 Curry, Haskell B. (1944). ["The Method of Steepest Descent for Non-Linear Minimization Problems"](https://www.ams.org/journals/qam/1944-02-03/S0033-569X-1944-10667-3/S0033-569X-1944-10667-3.pdf).<br>
 Fausett, Laurene. (1994). _Fundamentals of Neural Networks: Architectures, Algorithms, and Applications_. Prentice Hall.<br>
+Glassner, Andrew. (2021). _Deep Learning: A Visual Approach_. No Starch Press.<br>
 Goodfellow, Ian, Yoshua Bengio, & Aaron Courville. (2016). [_Deep Learning_](https://www.deeplearningbook.org). MIT Press.<br>
 Howard, Jeremy & Sylvain Gugger. (2020). [_Deep Learning for Coders with fastai and PyTorch: AI Applications Without a PhD_](https://github.com/fastai/fastbook). O'Reilly.<br>
 Koul, Anirudh, Siddha Ganju, & Meher Kasam. (2019). [_Practical Deep Learning for Cloud, Mobile, and Edge: Real-World AI and Computer Vision Projects Using Python, Keras, and TensorFlow_](https://github.com/practicalDL/Practical-Deep-Learning-Book/). O'Reilly.<br>

@@ -98,13 +98,14 @@ Matthes, Eric. (2019). _Python Crash Course: A Hands-On, Project-Based Introduct
 Mayer, Christian. (2020). _Python One-Liners: Write Concise, Eloquent Python like a Professional_. No Starch Press.<br>
 McKinney, Wes. (2017). [_Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_](https://github.com/wesm/pydata-book). O'Reilly.<br>
 Nunez-Iglesias, Juan, Stefan van der Walt, & Harriet Dashnow. (2017). [_Elegant SciPy: The Art of Scientific Python_](https://github.com/elegant-scipy/elegant-scipy). O'Reilly.<br>
-Ramalho, Luciano. (2021). _Fluent Python: Clear, Concise, and Effective Programming, 2nd Ed_. O'Reilly Media.<br>
-Sweigart, Al. (2020). _Beyond the Basic Stuff with Python: Best Practices for Writing Clean Code_. O'Reilly Media.<br>
+Ramalho, Luciano. (2021). _Fluent Python: Clear, Concise, and Effective Programming, 2nd Ed_. O'Reilly.<br>
+Sweigart, Al. (2021). _The Big Book of Small Python Projects: 81 Easy Practice Programs_. O'Reilly.<br>
+Sweigart, Al. (2020). _Beyond the Basic Stuff with Python: Best Practices for Writing Clean Code_. O'Reilly.<br>
 Sweigart, Al. (2019). _Automate the Boring Stuff with Python: Practical Programming for Total Beginners, 2nd Ed_. No Starch Press.<br>
 Sweigart, Al. (2015). [_Automate the Boring Stuff with Python: Practical Programming for Total Beginners_](https://automatetheboringstuff.com). No Starch Press.<br>
-VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly Media.<br>
-Viafore, Patrick. (2022). _Robust Python: Write Clean and Maintainable Code_. O'Reilly Media.<br>
-Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning Publications.<br>
+VanderPlas, Jake. (2016). _Python Data Science Handbook: Essential Tools for Working with Data_. O'Reilly.<br>
+Viafore, Patrick. (2022). _Robust Python: Write Clean and Maintainable Code_. O'Reilly.<br>
+Youens-Clark, Ken. (2020). _Tiny Python Projects_. Manning.<br>
 
 
 

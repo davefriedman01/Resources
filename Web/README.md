@@ -13,6 +13,9 @@ Mustache [Home](https://mustache.github.io) [Wiki](https://en.wikipedia.org/wiki
 
 ## Resources
 
+Battagline, Rick. (2021). _The Art of WebAssembly: Build Secure, Portable, High-Performance Applications_. No Starch Press.<br>
+Sletten, Brian. (2021). _WebAssembly: The Definitive Guide: Safe, Fast, and Portable Code_. O'Reilly.<br>
+
 BrowserStack [Home](https://www.browserstack.com)<br>
 CSS-Tricks [Home](https://css-tricks.com)<br>
 HTTP Status Codes [Wiki](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)<br>
