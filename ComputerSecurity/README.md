@@ -4,15 +4,32 @@
 
 ## Resources
 
+### AI Security
+
+Chio, Clarence & David Freeman. (2018). [_Machine Learning and Security: Protecting Systems with Data and Algorithms_](https://github.com/oreilly-mlsec/book-resources). O'Reilly.<br>
+Papernot, Nicolas. (2019). [_ECE1784H: Trustworthy Machine Learning_](https://www.papernot.fr/teaching/f19-trustworthy-ml).<br>
+Warr, katy. (2019). [_Strengthening Deep Neural Networks: Making AI Less Susceptible to Adversarial Trickery_](https://github.com/katywarr/strengthening-dnns). O'Reilly.<br>
+
+### Cloud Security
+
+Dotson, Chris. (2019). _Practical Cloud Security: A Guide for Secure Design and Deployment_. O'Reilly.<br>
+
+### Cybersecurity
+
+Du, Wenliang. (2019). [_Computer & Internet Security: A Hands-On Approach, 2nd Ed_](https://seedsecuritylabs.org/index.html).<br>
+Dykstra, Josiah. (2016). _Essential Cybersecurity Science: Build, Test, and Evaluate Secure Systems_. O'Reilly.<br>
+Grubb, Sam. (2021). _How Cybersecurity Really Works: A Hands-On Guide for Total Beginners_. No Starch Press.<br>
+McCarty, Ben. (2021). _Cyberjutsu: Cybersecurity for the Modern Ninja_. No Starch Press.<br>
+Stallings, William & Lawrie Brown. (2017). _Computer Security: Principles and Practice, 4th Ed_. Pearson.<br>
+Troncone, Paul & Carl Albing. (2019). [_Cybersecurity Ops with bash: Attack, Defend, and Analyze from the Command Line_](https://github.com/cybersecurityops/cyber-ops-with-bash). O'Reilly.<br>
+Van Oorschot, Paul C. (2020). _Computer Security and the Internet: Tools and Jewels_. Springer Information Security and Cryptography.<br>
+
+
 
 Arbuckle, Luk & Khaled El Emam. (2020). _Building an Anonymization Pipeline: Creating Safe Data_. O'Reilly.<br>
 Barthe, Gilles, Pedro R. D'Argenio, & Tamara Rezk. ["Secure Information Flow by Self-Composition"](https://www-sop.inria.fr/lemme/Tamara.Rezk/publication/Barthe-DArgenio-Rezk.pdf).<br>
 Bowman, Courtney et al. (2015). _The Architecture of Privacy: On Engineering Technologies that can Deliver Trustworthy Safeguards_. O'Reilly.<br>
-Du, Wenliang. (2019). [_Computer & Internet Security: A Hands-On Approach, 2nd Ed_](https://seedsecuritylabs.org/index.html).<br>
-Dotson, Chris. (2019). _Practical Cloud Security: A Guide for Secure Design and Deployment_. O'Reilly.<br>
-Dykstra, Josiah. (2016). _Essential Cybersecurity Science: Build, Test, and Evaluate Secure Systems_. O'Reilly.<br>
 ["Exploiting Format String Vulnerabilities"](https://julianor.tripod.com/bc/formatstring-1.2.pdf).<br>
-Grubb, Sam. (2021). _How Cybersecurity Really Works: A Hands-On Guide for Total Beginners_. No Starch Press.<br>
 Hoffstein, Jeffrey, Jill Pipher, & Joseph H. Silverman. (2014). _An Introduction to Mathematical Cryptography, 2nd Ed_. Springer Undergraduate Texts in Mathematics.<br>
 [Katz, Jonathan](http://www.cs.umd.edu/~jkatz/) & Yehuda Lindell. (2020). [_Introduction to Modern Cryptography, 3rd Ed_](http://www.cs.umd.edu/~jkatz/imc.html). Chapman & Hall CRC Cryptography and Network Security Series. [YouTube](https://youtube.com/playlist?list=PL2jykFOD1AWb07OLBdFI2QIHvPo3aTTeu)<br>
 Menezes, Alfred J., Paul C. van Oorschot, & Scott A. Vanstone. (1996). [_Handbook of Applied Cryptography_](http://cacr.uwaterloo.ca/hac/). CRC Press.<br>
@@ -20,16 +37,10 @@ Preston, W. Curtis. (2021). _Modern Data Protection: Ensuring Recoverability of 
 Ristic, Ivan. (2021). [_OpenSSL Cookbook: The Definitive Guide to the Most Useful Command Line Features_](https://www.feistyduck.com/books/openssl-cookbook/). Feisty Duck.<br>
 Schneider, Fred B. (2000). ["Enforceable Security Policies"](https://www.cs.cornell.edu/fbs/publications/EnfSecPols.pdf).<br>
 ["Smashing the Stack for Fun and Profit"](https://insecure.org/stf/smashstack.html).<br>
-Stallings, William & Lawrie Brown. (2017). _Computer Security: Principles and Practice, 4th Ed_. Pearson.<br>
 Stamp, Mark. (2021). _Information Security: Principles and Practice, 3rd Ed_. Wiley.<br>
 Tan, Gang. (2017). ["Principles and Implementation Techniques of Software-Based Fault Isolation"](http://www.cse.psu.edu/~gxt29/papers/sfi-final.pdf).<br>
 Thompson, Ken. (1984). ["Reflections on Trusting Trust"](https://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf).<br>
-Troncone, Paul & Carl Albing. (2019). [_Cybersecurity Ops with bash: Attack, Defend, and Analyze from the Command Line_](https://github.com/cybersecurityops/cyber-ops-with-bash). O'Reilly.<br>
-Van Oorschot, Paul C. (2020). _Computer Security and the Internet: Tools and Jewels_. Springer Information Security and Cryptography.<br>
 
-Chio, Clarence & David Freeman. (2018). [_Machine Learning and Security: Protecting Systems with Data and Algorithms_](https://github.com/oreilly-mlsec/book-resources). O'Reilly.<br>
-Papernot, Nicolas. (2019). [_ECE1784H: Trustworthy Machine Learning_](https://www.papernot.fr/teaching/f19-trustworthy-ml).<br>
-Warr, katy. (2019). [_Strengthening Deep Neural Networks: Making AI Less Susceptible to Adversarial Trickery_](https://github.com/katywarr/strengthening-dnns). O'Reilly.<br>
 
 [Browser Security Handbook](https://code.google.com/archive/p/browsersec/wikis/Part2.wiki).<br>
 Neuman, B. Clifford & Theodore Ts'o. (1994). [Kerberos: An Authentication Service for Computer Networks](http://gost.isi.edu/publications/kerberos-neuman-tso.html).<br>
