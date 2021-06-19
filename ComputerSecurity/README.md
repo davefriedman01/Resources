@@ -24,6 +24,13 @@ Stallings, William & Lawrie Brown. (2017). _Computer Security: Principles and Pr
 Troncone, Paul & Carl Albing. (2019). [_Cybersecurity Ops with bash: Attack, Defend, and Analyze from the Command Line_](https://github.com/cybersecurityops/cyber-ops-with-bash). O'Reilly.<br>
 Van Oorschot, Paul C. (2020). _Computer Security and the Internet: Tools and Jewels_. Springer Information Security and Cryptography.<br>
 
+### IoT Security
+
+Chantzis, Fotios et al. (2021). _Practical IoT Hacking: The Definitive Guide to Attacking the Internet of Things_. No Starch Press.<br>
+
+### Python for Security
+
+Seitz, Justin & Tim Arnold. (2021). _Black Hat Python: Python Programming for Hackers and Pentesters, 2nd Ed_. No Starch Press.<br>
 
 
 Arbuckle, Luk & Khaled El Emam. (2020). _Building an Anonymization Pipeline: Creating Safe Data_. O'Reilly.<br>
