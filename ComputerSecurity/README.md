@@ -4,12 +4,6 @@
 
 ## Resources
 
-Harper, Robert. (2016). [_Practical Foundations for Programming Languages_](https://www.cs.cmu.edu/~rwh/pfpl/). Cambridge University Press.<br>
-Mitchell, John C. (1996). _Foundations of Programming Languages_. MIT Press.<br>
-Peirce, Benjamin C. _Advanced Topics in Types and Programming Languages_.<br>
-Peirce, Benjamin C. _Types and Programming Languages_.<br>
-Scott, Michael. _Programming Language Pragmatics_.<br>
-Winskel, Glynn. _The Formal Semantics of Programming Languages: An Introduction_.<br>
 
 Arbuckle, Luk & Khaled El Emam. (2020). _Building an Anonymization Pipeline: Creating Safe Data_. O'Reilly.<br>
 Barthe, Gilles, Pedro R. D'Argenio, & Tamara Rezk. ["Secure Information Flow by Self-Composition"](https://www-sop.inria.fr/lemme/Tamara.Rezk/publication/Barthe-DArgenio-Rezk.pdf).<br>
@@ -18,6 +12,7 @@ Du, Wenliang. (2019). [_Computer & Internet Security: A Hands-On Approach, 2nd E
 Dotson, Chris. (2019). _Practical Cloud Security: A Guide for Secure Design and Deployment_. O'Reilly.<br>
 Dykstra, Josiah. (2016). _Essential Cybersecurity Science: Build, Test, and Evaluate Secure Systems_. O'Reilly.<br>
 ["Exploiting Format String Vulnerabilities"](https://julianor.tripod.com/bc/formatstring-1.2.pdf).<br>
+Grubb, Sam. (2021). _How Cybersecurity Really Works: A Hands-On Guide for Total Beginners_. No Starch Press.<br>
 Hoffstein, Jeffrey, Jill Pipher, & Joseph H. Silverman. (2014). _An Introduction to Mathematical Cryptography, 2nd Ed_. Springer Undergraduate Texts in Mathematics.<br>
 [Katz, Jonathan](http://www.cs.umd.edu/~jkatz/) & Yehuda Lindell. (2020). [_Introduction to Modern Cryptography, 3rd Ed_](http://www.cs.umd.edu/~jkatz/imc.html). Chapman & Hall CRC Cryptography and Network Security Series. [YouTube](https://youtube.com/playlist?list=PL2jykFOD1AWb07OLBdFI2QIHvPo3aTTeu)<br>
 Menezes, Alfred J., Paul C. van Oorschot, & Scott A. Vanstone. (1996). [_Handbook of Applied Cryptography_](http://cacr.uwaterloo.ca/hac/). CRC Press.<br>

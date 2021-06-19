@@ -2,6 +2,13 @@
 
 ## Resources
 
+Harper, Robert. (2016). [_Practical Foundations for Programming Languages_](https://www.cs.cmu.edu/~rwh/pfpl/). Cambridge University Press.<br>
+Mitchell, John C. (1996). _Foundations of Programming Languages_. MIT Press.<br>
+Peirce, Benjamin C. _Advanced Topics in Types and Programming Languages_.<br>
+Peirce, Benjamin C. _Types and Programming Languages_.<br>
+Scott, Michael. _Programming Language Pragmatics_.<br>
+Winskel, Glynn. _The Formal Semantics of Programming Languages: An Introduction_.<br>
+
 General-Purpose vs Special-Purpose<br>
 [Compiled vs Interpreted (StackOverflow)](https://stackoverflow.com/questions/3265357/compiled-vs-interpreted-languages)<br>
 High-Level vs Low-Level<br>
