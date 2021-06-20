@@ -5,11 +5,13 @@ MIT Open Courseware's Systems Biology [Fall 2014](https://ocw.mit.edu/courses/ph
 ## Resources
 
 Alon, Uri. (2019). [_An Introduction to Systems Biology: Design Principles of Biological Circuits, 2nd Ed_](https://www.weizmann.ac.il/mcb/UriAlon/introduction-systems-biology-design-principles-biological-circuits). CRC Press.<br>
+Glaser, Roland. (2012). _Biophysics: An Introduction_. Springer.<br>
 Keller, Evelyn Fox. (2002). _Making Sense of Life: Explaining Biological Development with Models, Metaphors, and Machines_. Harvard Universtiy Press.<br>
 Keller, Evelyn Fox. (2000). _The Century of the Gene_. Harvard University Press.<br>
 Nelson, Philip. (2020). [_Biological Physics: Energy, Information, Life_](https://www.physics.upenn.edu/biophys/BPse/index.html).<br>
 Nelson, Philip. (2017). [_From Photon to Neuron: Light, Imaging, Vision_](https://www.physics.upenn.edu/biophys/PtN/index.html). Princeton University Press.<br>
 Nelson, Philip. (2014). [_Physical Models of Living Systems_](https://www.physics.upenn.edu/biophys/PMLS/index.html)<br>
+Parke, William C. _Biophysics: A Student's Guide to the Physics of the Life Sciences and Medicine_. Springer.<br>
 Turing, Alan. (1952). ["The Chemical Basis of Morphogenesis"](https://www.dna.caltech.edu/courses/cs191/paperscs191/turing.pdf).<br>
 
 ## Figures
