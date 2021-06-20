@@ -41,6 +41,7 @@ Things are more sophisticated in practice, but this may serve to illustrate the 
 ## Resources
 
 Katz, Jonathan & Yehuda Lindell. [_Introduction to Modern Cryptography, 3rd Ed_](https://www.cs.umd.edu/~jkatz/imc.html).<br>
+Sweigart, Al. (2018). [_Cracking Codes with Python: An Introduction to Building and Breaking Ciphers_](http://inventwithpython.com/cracking/). No Starch Press.br<>
 
 NaCl: Networking and Cryptography Library [Home](http://nacl.cr.yp.to)<br>
 TweetNaCl: a crypto library in 100 tweets [Home](http://tweetnacl.cr.yp.to)<br>
