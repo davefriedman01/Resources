@@ -28,6 +28,7 @@ Numba [Home](https://numba.pydata.org) [Docs](https://numba.readthedocs.io/en/st
 
 Argparse [Docs](https://docs.python.org/3/library/argparse.html)<br>
 Click [Home](https://palletsprojects.com/p/click/)<br>
+Fire [GitHub](https://github.com/google/python-fire)<br>
 
 ### Performance
 
