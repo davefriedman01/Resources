@@ -1,6 +1,7 @@
 # Hardware Security
 
-
+Hak5 [Home](https://shop.hak5.org)<br>
+Outpost24 [Home](https://outpost24.com)<br>
 
 ## Terms
 

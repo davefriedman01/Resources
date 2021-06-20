@@ -44,6 +44,7 @@ Katz, Jonathan & Yehuda Lindell. [_Introduction to Modern Cryptography, 3rd Ed_]
 Sweigart, Al. (2018). [_Cracking Codes with Python: An Introduction to Building and Breaking Ciphers_](http://inventwithpython.com/cracking/). No Starch Press.br<>
 Wong, David. (2021). _Real-World Cryptography_. Manning.<br>
 
+Awesome Cryptography [GitHub](https://github.com/sobolevn/awesome-cryptography)<br>
 NaCl: Networking and Cryptography Library [Home](http://nacl.cr.yp.to)<br>
 TweetNaCl: a crypto library in 100 tweets [Home](http://tweetnacl.cr.yp.to)<br>
 TweetNaCl.js [Home](https://tweetnacl.js.org/#/)<br>
