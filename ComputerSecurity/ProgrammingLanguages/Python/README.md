@@ -24,6 +24,10 @@ Numba [Home](https://numba.pydata.org) [Docs](https://numba.readthedocs.io/en/st
 
 ## Modules and Packages
 
+### Command Line
+
+Argparse [Docs](https://docs.python.org/3/library/argparse.html)<br>
+Click [Home](https://palletsprojects.com/p/click/)<br>
 
 ### Performance
 
