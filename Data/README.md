@@ -11,4 +11,5 @@ Kleppmann, Martin. (2017). [_Designing Data-Intensive Applications: The Big Idea
 Lakshmanan, Valliappa. (2018). [_Data Science on the Google Cloud Platform: Implementing End-to-End Real-Time Data Pipelines: From Ingest to Machine Learning_](https://github.com/GoogleCloudPlatform/data-science-on-gcp). O'Reilly.<br>
 McKinney, Wes. (2017). [_Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython, 2nd Ed_](https://github.com/wesm/pydata-book). O'Reilly.<br>
 Petrov, Alex. (2019). [_Database Internals: A Deep Dive into How Distributed Data Systems Work_](https://www.databass.dev). O'Reilly.<br>
+Seldess, Jesse, Ben Darnell, & Guy Harrison. (2022). _CockroachDB: The Definitive Guide: Distributed Data at Scale_. O'Reilly.<br>
 VanderPlas, Jake. (2016). [_Python Data Science Handbook: Essential Tools for Working with Data_](https://github.com/jakevdp/PythonDataScienceHandbook). O'Reilly.<br>

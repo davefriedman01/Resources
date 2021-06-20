@@ -17,6 +17,7 @@ Birman, Ken. (2014). CS5412: Cloud Computing. [Home](http://www.cs.cornell.edu/c
 
 ## Resources
 
+Ruecker, Bernd. (2021). _Practical Process Automation: Orchestration and Integration in Microservices and Cloud Native Architectures_. O'Reilly.<br>
 Zikopoulos, Paul et al. (2021). _Cloud Without Compromise: Hybrid Cloud for the Enterprise_. O'Reilly.<br>
 
 Alipourfard, Omid et al. (2017). "CherryPick: Adaptively Unearthing the Best Cloud Configurations for Big Data Analytics".<br>
