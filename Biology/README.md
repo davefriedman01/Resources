@@ -17,12 +17,37 @@ Turing, Alan (1912-1952) [Wiki](https://en.wikipedia.org/wiki/Alan_Turing)<br>
 ## Terms
 
 Artificial Life [Wiki](https://en.wikipedia.org/wiki/Artificial_life)<br>
+Biochemsitry [Wiki](https://en.wikipedia.org/wiki/Biochemistry)<br>
+Biocybernetics [Wiki](https://en.wikipedia.org/wiki/Biocybernetics)<br>
+Bioinformatics [Wiki](https://en.wikipedia.org/wiki/Bioinformatics)<br>
+Biomimetics [Wiki](https://en.wikipedia.org/wiki/Biomimetics)<br>
+Bionics [Wiki](https://en.wikipedia.org/wiki/Bionics)<br>
+Biosemiotics [Wiki](https://en.wikipedia.org/wiki/Biosemiotics)<br>
+Biotechnology [Wiki](https://en.wikipedia.org/wiki/Biotechnology)<br>
+Cellular Senescence [Wiki](https://en.wikipedia.org/wiki/Cellular_senescence)<br>
+Collective Intelligence [Wiki](https://en.wikipedia.org/wiki/Collective_intelligence)<br>
+Complex System [Wiki](https://en.wikipedia.org/wiki/Complex_system)<br>
 Emergence [Wiki](https://en.wikipedia.org/wiki/Emergence)<br>
+Feedback [Wiki](https://en.wikipedia.org/wiki/Feedback)<br>
+Gaia Hypothesis [Wiki](https://en.wikipedia.org/wiki/Gaia_hypothesis)<br>
+Holobiont [Wiki](https://en.wikipedia.org/wiki/Holobiont)<br>
+Hologenome Theory of Evolution [Wiki](https://en.wikipedia.org/wiki/Hologenome_theory_of_evolution)<br>
+Homeostasis [Wiki](https://en.wikipedia.org/wiki/Homeostasis)<br>
 Mathematical Biology [Wiki](https://en.wikipedia.org/wiki/Mathematical_and_theoretical_biology)<br>
 Morphogenesis [Wiki](https://en.wikipedia.org/wiki/Morphogenesis)<br>
+Negligible Senescence [Wiki](https://en.wikipedia.org/wiki/Negligible_senescence)<br>
+Organismic Computing [Wiki](https://en.wikipedia.org/wiki/Organismic_computing)<br>
 Patterns in Nature [Wiki](https://en.wikipedia.org/wiki/Patterns_in_nature)<br>
 Philosophy of Biology [SEP](https://plato.stanford.edu/entries/biology-philosophy/) [Wiki](https://en.wikipedia.org/wiki/Philosophy_of_biology)<br>
+Quorum Sensing [Wiki](https://en.wikipedia.org/wiki/Quorum_sensing)<br>
 Reaction-Diffusion [Wiki](https://en.wikipedia.org/wiki/Reaction–diffusion_system)<br>
-Symmetry in Biology [Wiki](https://en.wikipedia.org/wiki/Symmetry_in_biology)<br`>
+Senescence [Wiki](https://en.wikipedia.org/wiki/Senescence)<br>
+Stigmergy [Wiki](https://en.wikipedia.org/wiki/Stigmergy)<br>
+Superorganism [Wiki](https://en.wikipedia.org/wiki/Superorganism)<br>
+Symmetry in Biology [Wiki](https://en.wikipedia.org/wiki/Symmetry_in_biology)<br>
+Synergy [Wiki](https://en.wikipedia.org/wiki/Synergy)<br>
 Systems Biology [Wiki](https://en.wikipedia.org/wiki/Systems_biology)<br>
+Systems Theory [Wiki](https://en.wikipedia.org/wiki/Systems_theory)<br>
+Swarm Intelligence [Wiki](https://en.wikipedia.org/wiki/Swarm_intelligence)<br>
+Tensegrity [Wiki](https://en.wikipedia.org/wiki/Tensegrity)<br>
 Turing Pattern [Wiki](https://en.wikipedia.org/wiki/Turing_pattern)<br>
