@@ -3,6 +3,7 @@
 ## Resources
 
 Lanham, Michael. (2020). [_Practical AI on the Google Cloud Platform: Utilizing Google's State-of-the-Art AI Cloud Services_](https://github.com/cxbxmxcx/Practical_AI_on_GCP). O'Reilly.<br>
+Nielsen, Aileen. (2020). _Practical Fairness: Achieving Fair and Secure Data Models_. O'Reilly.<br>
 Russell, Stuart & Peter Norvig. (2020). [_Artificial Intelligence: A Modern Approach, 4th Ed_](http://aima.cs.berkeley.edu). Pearson.<br>
 Thomas, Rob & Paul Zikopoulos. (2020). _The AI Ladder: Accelerate Your Journey to AI_. O'Reilly.<br>
 Vaughan, Daniel. (2020). [_Analytical Skills for AI and Data Science: Building Skills for an AI-Driven Enterprise_](https://github.com/dvaughan79/analyticalskillsbook). O'Reilly.<br>
