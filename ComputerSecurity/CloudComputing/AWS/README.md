@@ -5,6 +5,7 @@ Botocore [Docs](https://botocore.amazonaws.com/v1/documentation/api/latest/index
 
 ## Resources
 
+Armstrong, Jeff. (2020). _Migrating to AWS: A Manager's Guide_. O'Reilly.<br>
 Fregly, Chris & Antje Barth. (2021). _Data Science on AWS: Implementing End-to-End, Continuous AI and Machine Learning Pipelines_. O'Reilly.<br>
 
 ## Cloud Services

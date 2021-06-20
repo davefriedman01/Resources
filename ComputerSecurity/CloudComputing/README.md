@@ -17,6 +17,8 @@ Birman, Ken. (2014). CS5412: Cloud Computing. [Home](http://www.cs.cornell.edu/c
 
 ## Resources
 
+Zikopoulos, Paul et al. (2021). _Cloud Without Compromise: Hybrid Cloud for the Enterprise_. O'Reilly.<br>
+
 Alipourfard, Omid et al. (2017). "CherryPick: Adaptively Unearthing the Best Cloud Configurations for Big Data Analytics".<br>
 Baarzi, Ataollah Fatahi, Timothy Zhu, & Bhuvan Urgaonkar. (2019). "BurScale: Using Burstable Instances for Cost-Effective Autoscaling in the Public Cloud".<br>
 Barham, Paul et al. (2003). "Xen and the Art of Virtualization".<br>

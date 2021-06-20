@@ -14,6 +14,7 @@ Mustache [Home](https://mustache.github.io) [Wiki](https://en.wikipedia.org/wiki
 ## Resources
 
 Battagline, Rick. (2021). _The Art of WebAssembly: Build Secure, Portable, High-Performance Applications_. No Starch Press.<br>
+Griffiths, David & Dawn Griffiths. (2021). _React Cookbook: Recipes for Mastering the React Framework_. O'Reilly.<br>
 Sletten, Brian. (2021). _WebAssembly: The Definitive Guide: Safe, Fast, and Portable Code_. O'Reilly.<br>
 
 BrowserStack [Home](https://www.browserstack.com)<br>
