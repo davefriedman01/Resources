@@ -7,6 +7,27 @@ Robbins, Arnold & Nelson H. F. Beebe. (2005). [_Classic Shell Scripting_](https:
 
 ## Command Line Tools
 
+### CPU Utilities
+
+htop [Home](https://htop.dev)<br>
+top<br>
+`ps -eo pcpu,pid,user,args | sort -r | head -10`<br>
+
+### Disk Utilities
+
+blkid<br>
+dd<br>
+fdisk<br>
+fio<br>
+iostat<br>
+lsblk<br>
+parted<br>
+
+### Network Utilities
+
+ab [Docs](http://httpd.apache.org/docs/2.4/programs/ab.html)<br>
+molotov [Home](https://molotov.readthedocs.io/en/stable/)<br>
+
 awk [Wiki](https://en.wikipedia.org/wiki/AWK)<br>
 bat<br>
 bc [Docs](https://www.gnu.org/software/bc/) (Nelson 2006)<br>
