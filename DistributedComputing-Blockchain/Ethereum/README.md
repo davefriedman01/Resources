@@ -15,6 +15,10 @@ Ethereum [Home](https://ethereum.org/en/)<br>
 Ethereum Whitepaper [Paper](https://ethereum.org/whitepaper/)<br>
 Ethereum Yellow Paper [Paper](https://ethereum.github.io/yellowpaper/paper.pdf)<br>
 
+EIP Ethereum Improvement Proposal [Home](https://eips.ethereum.org)<br>
+ERC Ethereum Request for Comments [Home](https://eips.ethereum.org/erc)<br>
+
+Ethereum Foundation [Home](https://ethereum.foundation)<br>
 Enterprise Ethereum Alliance [Wiki](https://entethalliance.org)<br>
 
 Go Ethereum [Home](https://geth.ethereum.org) [GitHub](https://github.com/ethereum/go-ethereum)<br>
@@ -46,7 +50,5 @@ Murthy, Mahesh. (2017). ["Full Stack Hello World Voting Ethereum Dapp Tutorial â
 Dapp Decentralized Application<br>
 Ether<br>
 Ethereum [Binance](https://academy.binance.com/en/articles/what-is-ethereum) [Wiki](https://en.wikipedia.org/wiki/Ethereum)<br>
-EIP Ethereum Improvement Proposal [Home](https://eips.ethereum.org)<br>
-ERC Ethereum Request for Comments [Home](https://eips.ethereum.org/erc)<br>
 EVM Ethereum Virtual Machine<br>
 Smart Contract<br>
