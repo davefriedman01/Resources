@@ -14,6 +14,8 @@ Nelson, Philip. (2014). [_Physical Models of Living Systems_](https://www.physic
 Parke, William C. _Biophysics: A Student's Guide to the Physics of the Life Sciences and Medicine_. Springer.<br>
 Turing, Alan. (1952). ["The Chemical Basis of Morphogenesis"](https://www.dna.caltech.edu/courses/cs191/paperscs191/turing.pdf).<br>
 
+"The math of Living Things" [article](https://nautil.us/issue/102/hidden-truths/the-math-of-living-things)<br>
+
 ## Figures
 
 Keller, Evelyn Fox [Wiki](https://en.wikipedia.org/wiki/Evelyn_Fox_Keller)<br>
