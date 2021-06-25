@@ -16,6 +16,9 @@ Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time C
 Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Introductory Text_.<br>
 Zumstein, Felix. (2021). [_Python for Excel: A Modern Environment for Automation and Data Analysis_](https://www.xlwings.org/book). O'Reilly. [GitHub](https://github.com/fzumstein/python-for-excel).<br>
 
+Jesse.trade [Home](https://jesse.trade)<br>
+TDAmeritrade's Thinkorswim [Home](https://www.tdameritrade.com/tools-and-platforms/thinkorswim/desktop.html)<br>
+
 freeCodeCamp's APIs for Beginners [YouTube](https://www.youtube.com/watch?v=GZvSYJDk-us)<br>
 
 AlgoTrading101 [Home](https://algotrading101.com/learn/)<br>
