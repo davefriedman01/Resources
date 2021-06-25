@@ -49,6 +49,7 @@ Latch [Wiki](https://en.wikipedia.org/wiki/Flip-flop_(electronics))<br>
 Logic Block [Wiki](https://en.wikipedia.org/wiki/Logic_block)<br>
 Logic Gate [Wiki](https://en.wikipedia.org/wiki/Logic_gate)<br>
 Long Multiplication [Wiki](https://en.wikipedia.org/wiki/Multiplication_algorithm#Long_multiplication)<br>
+Machine Code [Wiki](https://en.wikipedia.org/wiki/Machine_code)<br>
 Memory Cell [Wiki](https://en.wikipedia.org/wiki/Memory_cell_(computing))<br>
 MOSFET Metal-Oxide-Semiconductor Field-Effect Transistor [Wiki](https://en.wikipedia.org/wiki/MOSFET)<br>
 Microarchitecture [Wiki](https://en.wikipedia.org/wiki/Microarchitecture)<br>
