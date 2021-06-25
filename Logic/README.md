@@ -1,5 +1,16 @@
 # Logic
 
+MATH 557 Mathematical Logic
+MATH 558 Foundations of Mathematics I
+MATH 559 Recursion Theory I
+MATH 561 Set Theory I
+MATH 565 Foundations of Mathematics II
+MATH 574 Topics in Logic and Foundations
+
+
+
+
+
 ## Figures
 
 [Aristotle (Wikipedia)](https://en.wikipedia.org/wiki/Aristotle)<br>
