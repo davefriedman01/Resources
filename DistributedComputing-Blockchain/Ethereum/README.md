@@ -7,7 +7,7 @@
 Antonopoulos, Andreas M. & Gavin Wood. (2018). [_Mastering Ethereum: Building Smart Contracts and DApps_](https://github.com/ethereumbook/ethereumbook.git). O'Reilly.<br>
 Buterin, Vitalik. (2013). ["Ethereum White Paper"](https://ethereum.org/whitepaper/).<br>
 Infante, Roberto. (2019). _Building Ethereum Dapps_. Manning.<br>
-Johnston, David et al. [_The General Theory of Decentralized Applications, Dapps_](https://github.com/DavidJohnstonCEO/DecentralizedApplications).
+Johnston, David et al. [_The General Theory of Decentralized Applications, Dapps_](https://github.com/DavidJohnstonCEO/DecentralizedApplications).<br>
 Solorio, Kevin, Randall Kanna, & David H. Hoover. (2019). _Hands-On Smart Contract Development with Solidity and Ethereum: From Fundamentals to Deployment_. O'Reilly.<br>
 Wood, Gavin. [_Ethereum: A Secure Decentralized Generalized Transaction Ledger_](https://ethereum.github.io/yellowpaper/paper.pdf).<br>
 
@@ -46,5 +46,7 @@ Murthy, Mahesh. (2017). ["Full Stack Hello World Voting Ethereum Dapp Tutorial â
 Dapp Decentralized Application<br>
 Ether<br>
 Ethereum [Binance](https://academy.binance.com/en/articles/what-is-ethereum) [Wiki](https://en.wikipedia.org/wiki/Ethereum)<br>
+EIP Ethereum Improvement Proposal [Home](https://eips.ethereum.org)<br>
+ERC Ethereum Request for Comments [Home](https://eips.ethereum.org/erc)<br>
 EVM Ethereum Virtual Machine<br>
 Smart Contract<br>
