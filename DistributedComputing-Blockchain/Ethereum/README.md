@@ -25,8 +25,10 @@ Go Ethereum [Home](https://geth.ethereum.org) [GitHub](https://github.com/ethere
 Parity [Home](https://www.parity.io)<br>
 
 Solidity [Docs](https://docs.soliditylang.org/en/latest/) [GitHub](https://github.com/ethereum/solidity.git) [Cryptozombies](https://cryptozombies.io)<br>
-Truffle Suite [Home](https://www.trufflesuite.com)<br>
+Truffle Suite [Home](https://www.trufflesuite.com) [Docs](https://www.trufflesuite.com/docs) [GitHub](https://github.com/trufflesuite/truffle)<br>
+Truffle Boxes [Home](https://www.trufflesuite.com/boxes)<br>
 Ganache [Home](https://www.trufflesuite.com/ganache)<br>
+ganache-cli [GitHub](https://github.com/trufflesuite/ganache-cli/)<br>
 
 Remix [Home](https://remix-project.org/)<br>
 MetaMask [Home](https://metamask.io/)<br>
