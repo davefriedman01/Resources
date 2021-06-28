@@ -4,9 +4,11 @@
 
 ## Resources
 
+Hellwig, Daniel, Goran Karlic, & Arnd Huckzermeier. (2020). _Build Your Own Blockchain: A Practical Guide to Distributed Ledger Technology_. Springer.<br>
 Lantz, Lorne & Daniel Cawrey. (2020). [_Mastering Blockchain: Unlocking the Power of Cryptocurrencies, Smart Contracts, and Decentralized Applications_](https://github.com/Mastering-Blockchain-Book). O’Reilly.<br>
 Ramamurthy, Bina. (2020). _Blockchain in Action_. Manning.<br>
 Shi, Elaine. (2020). [_Foundations of Distributed Consensus and Blockchains_](https://www.distributedconsensus.net).<br>
+Swan, Melanie. (2015). _Blockchain: Blueprint for a New Economy_. O'Reilly.<br>
 Werbach, Kevin. (2018). _The Blockchain and the New Architecture of Trust_. MIT Press.<br>
 
 [Brownworth, Anders](https://andersbrownworth.com). [Blockchain Demo](https://andersbrownworth.com/blockchain). [GitHub](https://github.com/anders94/blockchain-demo.git).<br>
