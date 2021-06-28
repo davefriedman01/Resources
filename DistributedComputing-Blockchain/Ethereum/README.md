@@ -7,7 +7,6 @@ Pre-Bitcoin PoW non-economic application [Paper](http://www.wisdom.weizmann.ac.i
 Pre-Bitcoin PoW economic application [Paper](https://www.cs.cornell.edu/people/egs/papers/karma.pdf)<br>
 Ethereum Consensus - Ghost Protocol [Paper](https://eprint.iacr.org/2013/881)<br>
 
-
 ## Resources
 
 Antonopoulos, Andreas M. & Gavin Wood. (2018). [_Mastering Ethereum: Building Smart Contracts and DApps_](https://github.com/ethereumbook/ethereumbook.git). O'Reilly.<br>
