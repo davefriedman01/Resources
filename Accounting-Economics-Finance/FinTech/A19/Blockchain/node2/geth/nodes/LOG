@@ -1,0 +1,73 @@
+=============== Jun 15, 2021 (EDT) ===============
+17:26:01.451646 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:26:01.505986 db@open opening
+17:26:01.508834 version@stat F·[] S·0B[] Sc·[]
+17:26:01.536051 db@janitor F·2 G·0
+17:26:01.536112 db@open done T·30.082923ms
+17:32:27.106042 db@close closing
+17:32:27.107974 db@close done T·1.930894ms
+=============== Jun 15, 2021 (EDT) ===============
+18:34:33.847062 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:34:33.847998 version@stat F·[] S·0B[] Sc·[]
+18:34:33.848097 db@open opening
+18:34:33.848331 journal@recovery F·1
+18:34:33.853277 journal@recovery recovering @1
+18:34:33.869611 memdb@flush created L0@2 N·587 S·20KiB "loc..seq,v33":"version,v1"
+18:34:33.872196 version@stat F·[1] S·20KiB[20KiB] Sc·[0.25]
+18:34:33.969184 db@janitor F·3 G·0
+18:34:33.969217 db@open done T·121.093799ms
+19:55:03.726231 memdb@flush N·34973 S·3MiB
+19:55:03.767360 memdb@flush created L0@6 N·34973 S·526KiB "loc..seq,v630":"n:\xff..ong,v32360"
+19:55:03.769276 version@stat F·[2] S·547KiB[547KiB] Sc·[0.50]
+19:55:03.805258 memdb@flush committed F·1 T·78.83999ms
+19:55:03.809882 journal@remove removed @3
+19:56:33.531203 table@compaction L0·2 -> L1·0 S·547KiB Q·36305
+19:56:33.560196 table@build created L1@7 N·2747 S·113KiB "loc..seq,v630":"version,v1"
+19:56:33.560268 version@stat F·[0 1] S·113KiB[0B 113KiB] Sc·[0.00 0.00]
+19:56:33.602677 table@compaction committed F-1 S-433KiB Ke·0 D·32813 T·71.199214ms
+19:56:33.612051 table@remove removed @6
+20:57:03.512615 memdb@flush N·35156 S·3MiB
+20:57:03.552689 memdb@flush created L0@9 N·35156 S·512KiB "n:\x01..ing,v45242":"n:\xff..ong,v68754"
+20:57:03.552800 version@stat F·[1 1] S·626KiB[512KiB 113KiB] Sc·[0.25 0.00]
+20:57:03.583221 memdb@flush committed F·1 T·70.306161ms
+20:57:03.585733 journal@remove removed @5
+21:00:17.722296 table@compaction L0·1 -> L1·1 S·626KiB Q·72475
+21:00:17.754613 table@build created L1@10 N·4241 S·172KiB "loc..seq,v630":"version,v1"
+21:00:17.754771 version@stat F·[0 1] S·172KiB[0B 172KiB] Sc·[0.00 0.00]
+21:00:17.774135 table@compaction committed F-1 S-454KiB Ke·0 D·33662 T·49.390536ms
+21:00:17.776001 table@remove removed @9
+21:00:17.776381 table@remove removed @7
+21:53:04.067250 db@close closing
+21:53:04.068013 db@close done T·762.375µs
+=============== Jun 15, 2021 (EDT) ===============
+23:40:05.386931 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:40:05.387633 version@stat F·[0 1] S·172KiB[0B 172KiB] Sc·[0.00 0.00]
+23:40:05.387674 db@open opening
+23:40:05.387764 journal@recovery F·1
+23:40:05.389612 journal@recovery recovering @8
+23:40:05.463542 memdb@flush created L0@11 N·32595 S·479KiB "n:\x03..:v4,v103282":"n:\xfe..ong,v76797"
+23:40:05.465460 version@stat F·[1 1] S·652KiB[479KiB 172KiB] Sc·[0.25 0.00]
+23:40:05.546512 db@janitor F·5 G·1
+23:40:05.546544 db@janitor removing table-2
+23:40:05.546666 db@open done T·158.984406ms
+23:40:11.358029 db@close closing
+23:40:11.358208 db@close done T·178.13µs
+=============== Jun 15, 2021 (EDT) ===============
+23:40:55.343422 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:40:55.360038 version@stat F·[1 1] S·652KiB[479KiB 172KiB] Sc·[0.25 0.00]
+23:40:55.360125 db@open opening
+23:40:55.360247 journal@recovery F·1
+23:40:55.360903 journal@recovery recovering @12
+23:40:55.407074 memdb@flush created L0@14 N·14 S·801B "loc..seq,v103314":"n:\xd7..ail,v103317"
+23:40:55.408296 version@stat F·[2 1] S·652KiB[480KiB 172KiB] Sc·[0.50 0.00]
+23:40:55.488222 db@janitor F·5 G·0
+23:40:55.488259 db@open done T·128.119187ms
+23:40:55.504527 table@compaction L0·2 -> L1·1 S·652KiB Q·103329
+23:40:55.533970 table@build created L1@17 N·5592 S·224KiB "loc..seq,v103314":"version,v1"
+23:40:55.534052 version@stat F·[0 1] S·224KiB[0B 224KiB] Sc·[0.00 0.00]
+23:40:55.549676 table@compaction committed F-2 S-428KiB Ke·0 D·31258 T·45.11091ms
+23:40:55.550674 table@remove removed @11
+23:40:55.550880 table@remove removed @10
+=============== Jun 16, 2021 (EDT) ===============
+00:18:56.679626 db@close closing
+00:18:56.680580 db@close done T·950.545µs
