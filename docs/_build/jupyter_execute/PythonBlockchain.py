@@ -62,14 +62,17 @@ from pprint import pprint
 # 
 # __Polynomial Addition__<br>
 # Let $f(x) = \sum_{k = 0}^n a_k x^k$ and $g(x) = \sum_{k = 0}^n b_k x^k$ be polynomials.<br>
+# 
 # $$(f + g)(x) = \sum_{k = 0}^n (a_k + b_k) x^k$$
 # 
 # __Polynomial Subtraction__<br>
 # Let $f(x) = \sum_{k = 0}^n a_k x^k$ and $g(x) = \sum_{k = 0}^n b_k x^k$ be polynomials.<br>
+# 
 # $$(f - g)(x) = \sum_{k = 0}^n (a_k - b_k) x^k$$
 # 
 # __Polynomial Differentiation__<br>
 # Let $f(x) = \sum_{k = 0}^n a_k x^k$ be a polynomial.<br>
+# 
 # $$f'(x) = \sum_{k = 0}^n k a_k x^{k - 1}$$
 # 
 # ### __Real Polynomial in two variables__<br>
