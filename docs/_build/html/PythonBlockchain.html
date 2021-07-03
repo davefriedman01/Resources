@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Real Polynomial in one variable &#8212; Mathematics</title>
+    <title>Python Blockchain &#8212; Mathematics</title>
     
   <link href="_static/css/theme.css" rel="stylesheet" />
   <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
@@ -98,10 +98,7 @@
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   <strong>
-    Real Polynomial in one variable
-   </strong>
-   <br/>
+   Python Blockchain
   </a>
  </li>
 </ul>
@@ -210,29 +207,36 @@
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#">
-   <strong>
-    Real Polynomial in one variable
-   </strong>
-   <br/>
+   Python Blockchain
   </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#real-polynomial-in-two-variables-br">
-   <strong>
-    Real Polynomial in two variables
-   </strong>
-   <br/>
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#real-polynomial-in-several-variables">
-   Real Polynomial in several variables
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#modular-arithmetic">
-   Modular Arithmetic
-  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#real-polynomial-in-one-variable-br">
+     <strong>
+      Real Polynomial in one variable
+     </strong>
+     <br/>
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#real-polynomial-in-two-variables-br">
+     <strong>
+      Real Polynomial in two variables
+     </strong>
+     <br/>
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#real-polynomial-in-several-variables">
+     Real Polynomial in several variables
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modular-arithmetic">
+     Modular Arithmetic
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#elliptic-curves">
@@ -262,7 +266,9 @@
         
               <div>
                 
-  <div class="cell docutils container">
+  <div class="section" id="python-blockchain">
+<h1>Python Blockchain<a class="headerlink" href="#python-blockchain" title="Permalink to this headline">¶</a></h1>
+<div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="n">np</span><span class="o">.</span><span class="n">set_printoptions</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">suppress</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -297,7 +303,7 @@
 <p>BIP44</p>
 <hr class="docutils" />
 <div class="section" id="real-polynomial-in-one-variable-br">
-<h1><strong>Real Polynomial in one variable</strong><br><a class="headerlink" href="#real-polynomial-in-one-variable-br" title="Permalink to this headline">¶</a></h1>
+<h2><strong>Real Polynomial in one variable</strong><br><a class="headerlink" href="#real-polynomial-in-one-variable-br" title="Permalink to this headline">¶</a></h2>
 <div class="math notranslate nohighlight">
 \[P(x) = \sum_{k = 0}^n a_k x^k = a_n x^n + a_{n - 1} x^{n - 1} + ... + a_2 x^2 + a_1 x + a_0\]</div>
 <p>where <span class="math notranslate nohighlight">\(n\)</span> is a nonnegative integer and <span class="math notranslate nohighlight">\(a_0, a_1, a_2, ..., a_n \in \mathbb{R}\)</span> are constants called the coefficients of the polynomial.<br>
@@ -314,7 +320,7 @@ Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)
 $<span class="math notranslate nohighlight">\(f'(x) = \sum_{k = 0}^n k a_k x^{k - 1}\)</span>$</p>
 </div>
 <div class="section" id="real-polynomial-in-two-variables-br">
-<h1><strong>Real Polynomial in two variables</strong><br><a class="headerlink" href="#real-polynomial-in-two-variables-br" title="Permalink to this headline">¶</a></h1>
+<h2><strong>Real Polynomial in two variables</strong><br><a class="headerlink" href="#real-polynomial-in-two-variables-br" title="Permalink to this headline">¶</a></h2>
 <div class="math notranslate nohighlight">
 \[P(x, y) = \sum a_{nm} x^n y^m\]</div>
 <p>where <span class="math notranslate nohighlight">\(a_i \in \mathbb{R}\)</span> is a constant and <span class="math notranslate nohighlight">\(m\)</span> and <span class="math notranslate nohighlight">\(n\)</span> are nonnegative integers.<br>
@@ -346,7 +352,7 @@ f(x, y)
 \)</span>$</p>
 </div>
 <div class="section" id="real-polynomial-in-several-variables">
-<h1>Real Polynomial in several variables<a class="headerlink" href="#real-polynomial-in-several-variables" title="Permalink to this headline">¶</a></h1>
+<h2>Real Polynomial in several variables<a class="headerlink" href="#real-polynomial-in-several-variables" title="Permalink to this headline">¶</a></h2>
 <div class="math notranslate nohighlight">
 \[P(x_1, x_2, ..., x_z) = \sum a_{n_1 n_2 ... n_z} x_1^{n_1} x_2^{n_2} ... x_z^{n_z}\]</div>
 <div class="cell docutils container">
@@ -425,7 +431,7 @@ f(x, y)
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/PythonBlockchain_5_0.png" src="_images/PythonBlockchain_5_0.png" />
+<img alt="_images/PythonBlockchain_6_0.png" src="_images/PythonBlockchain_6_0.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -475,7 +481,7 @@ f(x, y)
 -3.2x^3+6.9x^2+x+1
 </pre></div>
 </div>
-<img alt="_images/PythonBlockchain_7_1.png" src="_images/PythonBlockchain_7_1.png" />
+<img alt="_images/PythonBlockchain_8_1.png" src="_images/PythonBlockchain_8_1.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -541,7 +547,7 @@ b^{-1} &amp;= b^{-1} \cdot 1 \\
 </div>
 <hr class="docutils" />
 <div class="section" id="modular-arithmetic">
-<h1>Modular Arithmetic<a class="headerlink" href="#modular-arithmetic" title="Permalink to this headline">¶</a></h1>
+<h2>Modular Arithmetic<a class="headerlink" href="#modular-arithmetic" title="Permalink to this headline">¶</a></h2>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span>
@@ -964,6 +970,7 @@ b^{-1} &amp;= b^{-1} \cdot 1 \\
 </div>
 </div>
 </div>
+</div>
 <hr class="docutils" />
 <div class="section" id="elliptic-curves">
 <h1>Elliptic Curves<a class="headerlink" href="#elliptic-curves" title="Permalink to this headline">¶</a></h1>
@@ -1021,7 +1028,7 @@ Visually, a point and its inverse are reflected over the x-axis.<br></p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/PythonBlockchain_26_0.png" src="_images/PythonBlockchain_26_0.png" />
+<img alt="_images/PythonBlockchain_27_0.png" src="_images/PythonBlockchain_27_0.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -1034,7 +1041,7 @@ Visually, a point and its inverse are reflected over the x-axis.<br></p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/PythonBlockchain_27_0.png" src="_images/PythonBlockchain_27_0.png" />
+<img alt="_images/PythonBlockchain_28_0.png" src="_images/PythonBlockchain_28_0.png" />
 </div>
 </div>
 <p><strong>SEC P256 Koblitz 1 secp256k1 Bitcoin Elliptic Curve</strong><br>
@@ -1254,7 +1261,7 @@ The uncompressed base point begins with <span class="math notranslate nohighligh
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/PythonBlockchain_33_0.png" src="_images/PythonBlockchain_33_0.png" />
+<img alt="_images/PythonBlockchain_34_0.png" src="_images/PythonBlockchain_34_0.png" />
 </div>
 </div>
 </div>
@@ -1650,28 +1657,14 @@ OK
 </pre></div>
 </div>
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-OK
-.
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-OK
-.
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-OK
-.
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
 Ran 1 test in 0.001s
+
+OK
+.
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
+Ran 1 test in 0.000s
 
 OK
 .
@@ -1713,7 +1706,21 @@ OK
 </pre></div>
 </div>
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.001s
+Ran 1 test in 0.000s
+
+OK
+.
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
+Ran 1 test in 0.000s
 
 OK
 E
