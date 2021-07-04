@@ -1,0 +1,82 @@
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.8/site-packages/jupyter_cache/executors/utils.py", line 51, in single_nb_execution
+    executenb(
+  File "/opt/anaconda3/lib/python3.8/site-packages/nbclient/client.py", line 1112, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/opt/anaconda3/lib/python3.8/site-packages/nbclient/util.py", line 74, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/opt/anaconda3/lib/python3.8/site-packages/nbclient/util.py", line 53, in just_run
+    return loop.run_until_complete(coro)
+  File "/opt/anaconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/anaconda3/lib/python3.8/site-packages/nbclient/client.py", line 553, in async_execute
+    await self.async_execute_cell(
+  File "/opt/anaconda3/lib/python3.8/site-packages/nbclient/client.py", line 857, in async_execute_cell
+    self._check_raise_for_error(cell, exec_reply)
+  File "/opt/anaconda3/lib/python3.8/site-packages/nbclient/client.py", line 760, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+ticker = 'AAPL'
+timeframe = '1D'
+current_date = pd.Timestamp(datetime.now(), tz='America/New_York').isoformat()
+past_date = pd.Timestamp(datetime.now() - timedelta(30), tz='America/New_York').isoformat()
+df = api.get_barset(
+    ticker,
+    timeframe,
+    limit=None,
+    start=past_date,
+    end=current_date,
+    after=None,
+    until=None,
+).df
+df.head()
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mHTTPError[0m                                 Traceback (most recent call last)
+[0;32m<ipython-input-13-9b49072d8b0e>[0m in [0;36m<module>[0;34m[0m
+[1;32m      3[0m [0mcurrent_date[0m [0;34m=[0m [0mpd[0m[0;34m.[0m[0mTimestamp[0m[0;34m([0m[0mdatetime[0m[0;34m.[0m[0mnow[0m[0;34m([0m[0;34m)[0m[0;34m,[0m [0mtz[0m[0;34m=[0m[0;34m'America/New_York'[0m[0;34m)[0m[0;34m.[0m[0misoformat[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      4[0m [0mpast_date[0m [0;34m=[0m [0mpd[0m[0;34m.[0m[0mTimestamp[0m[0;34m([0m[0mdatetime[0m[0;34m.[0m[0mnow[0m[0;34m([0m[0;34m)[0m [0;34m-[0m [0mtimedelta[0m[0;34m([0m[0;36m30[0m[0;34m)[0m[0;34m,[0m [0mtz[0m[0;34m=[0m[0;34m'America/New_York'[0m[0;34m)[0m[0;34m.[0m[0misoformat[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m----> 5[0;31m df = api.get_barset(
+[0m[1;32m      6[0m     [0mticker[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      7[0m     [0mtimeframe[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/opt/anaconda3/lib/python3.8/site-packages/alpaca_trade_api/rest.py[0m in [0;36mget_barset[0;34m(self, symbols, timeframe, limit, start, end, after, until)[0m
+[1;32m    485[0m         [0;32mif[0m [0muntil[0m [0;32mis[0m [0;32mnot[0m [0;32mNone[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    486[0m             [0mparams[0m[0;34m[[0m[0;34m'until'[0m[0;34m][0m [0;34m=[0m [0muntil[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 487[0;31m         [0mresp[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0mdata_get[0m[0;34m([0m[0;34m'/bars/{}'[0m[0;34m.[0m[0mformat[0m[0;34m([0m[0mtimeframe[0m[0;34m)[0m[0;34m,[0m [0mparams[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    488[0m         [0;32mreturn[0m [0mself[0m[0;34m.[0m[0mresponse_wrapper[0m[0;34m([0m[0mresp[0m[0;34m,[0m [0mBarSet[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    489[0m [0;34m[0m[0m
+
+[0;32m/opt/anaconda3/lib/python3.8/site-packages/alpaca_trade_api/rest.py[0m in [0;36mdata_get[0;34m(self, path, data, api_version)[0m
+[1;32m    190[0m     [0;32mdef[0m [0mdata_get[0m[0;34m([0m[0mself[0m[0;34m,[0m [0mpath[0m[0;34m,[0m [0mdata[0m[0;34m=[0m[0;32mNone[0m[0;34m,[0m [0mapi_version[0m[0;34m=[0m[0;34m'v1'[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    191[0m         [0mbase_url[0m[0;34m:[0m [0mURL[0m [0;34m=[0m [0mget_data_url[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 192[0;31m         return self._request(
+[0m[1;32m    193[0m             [0;34m'GET'[0m[0;34m,[0m [0mpath[0m[0;34m,[0m [0mdata[0m[0;34m,[0m [0mbase_url[0m[0;34m=[0m[0mbase_url[0m[0;34m,[0m [0mapi_version[0m[0;34m=[0m[0mapi_version[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    194[0m         )
+
+[0;32m/opt/anaconda3/lib/python3.8/site-packages/alpaca_trade_api/rest.py[0m in [0;36m_request[0;34m(self, method, path, data, base_url, api_version)[0m
+[1;32m    137[0m         [0;32mwhile[0m [0mretry[0m [0;34m>=[0m [0;36m0[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    138[0m             [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 139[0;31m                 [0;32mreturn[0m [0mself[0m[0;34m.[0m[0m_one_request[0m[0;34m([0m[0mmethod[0m[0;34m,[0m [0murl[0m[0;34m,[0m [0mopts[0m[0;34m,[0m [0mretry[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    140[0m             [0;32mexcept[0m [0mRetryException[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    141[0m                 [0mretry_wait[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0m_retry_wait[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/opt/anaconda3/lib/python3.8/site-packages/alpaca_trade_api/rest.py[0m in [0;36m_one_request[0;34m(self, method, url, opts, retry)[0m
+[1;32m    158[0m         [0mresp[0m [0;34m=[0m [0mself[0m[0;34m.[0m[0m_session[0m[0;34m.[0m[0mrequest[0m[0;34m([0m[0mmethod[0m[0;34m,[0m [0murl[0m[0;34m,[0m [0;34m**[0m[0mopts[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    159[0m         [0;32mtry[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 160[0;31m             [0mresp[0m[0;34m.[0m[0mraise_for_status[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    161[0m         [0;32mexcept[0m [0mHTTPError[0m [0;32mas[0m [0mhttp_error[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    162[0m             [0;31m# retry if we hit Rate Limit[0m[0;34m[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m/opt/anaconda3/lib/python3.8/site-packages/requests/models.py[0m in [0;36mraise_for_status[0;34m(self)[0m
+[1;32m    941[0m [0;34m[0m[0m
+[1;32m    942[0m         [0;32mif[0m [0mhttp_error_msg[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 943[0;31m             [0;32mraise[0m [0mHTTPError[0m[0;34m([0m[0mhttp_error_msg[0m[0;34m,[0m [0mresponse[0m[0;34m=[0m[0mself[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    944[0m [0;34m[0m[0m
+[1;32m    945[0m     [0;32mdef[0m [0mclose[0m[0;34m([0m[0mself[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mHTTPError[0m: 403 Client Error: Forbidden for url: https://data.alpaca.markets/v1/bars/1D?symbols=AAPL&start=2021-06-04T19%3A26%3A09.678317-04%3A00&end=2021-07-04T19%3A26%3A09.615984-04%3A00
+HTTPError: 403 Client Error: Forbidden for url: https://data.alpaca.markets/v1/bars/1D?symbols=AAPL&start=2021-06-04T19%3A26%3A09.678317-04%3A00&end=2021-07-04T19%3A26%3A09.615984-04%3A00
+
