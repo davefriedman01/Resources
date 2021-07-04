@@ -6,11 +6,25 @@ root: intro
 parts:
   - caption: Foundations
     chapters:
-    - file: Sets
-    - file: ModularArithmetic
-    - file: Polynomials
-    - file: Structures
-    - file: Groups
+    - file: nbs/Sets
+    - file: nbs/ModularArithmetic
+    - file: nbs/Polynomials
+    - file: nbs/Structures
+    - file: nbs/Groups
+    - file: nbs/mathematical_foundations
+  - caption: Modeling
+    chapters:
+    - file: nbs/DigitalSignalProcessing
+  - caption: Artificial Intelligence
+    chapters:
+    - file: nbs/nlp
   - caption: Blockchain
     chapters:
-    - file: PythonBlockchain
+    - file: nbs/PythonBlockchain
+  - caption: Under Construction
+    chapters:
+    - file: nbs/template
+    - file: nbs/template_finance
+    - file: nbs/FinancialAnalytics
+    - file: nbs/AlgorithmicTrading
+    - file: nbs/longshort

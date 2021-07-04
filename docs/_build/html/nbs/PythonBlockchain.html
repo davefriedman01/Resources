@@ -1,0 +1,1495 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Blockchain &#8212; Mathematics</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Data Types in Python" href="template.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="nlp.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Mathematics</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Mathematics
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Foundations
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Sets.html">
+   Sets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ModularArithmetic.html">
+   Modular Arithmetic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Polynomials.html">
+   Polynomials
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Structures.html">
+   Structures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Groups.html">
+   Groups
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="mathematical_foundations.html">
+   Imports
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Blockchain
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Python Blockchain
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Under Construction
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="template.html">
+   Data Types in Python
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="template_finance.html">
+   APIs
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="FinancialAnalytics.html">
+   Data Import
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="AlgorithmicTrading.html">
+   Algorithmic Trading
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/nbs/PythonBlockchain.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/davefriedman01/Resources"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/davefriedman01/Resources/issues/new?title=Issue%20on%20page%20%2Fnbs/PythonBlockchain.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/davefriedman01/Resources/master?urlpath=tree/docs/nbs/PythonBlockchain.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Python Blockchain
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#elliptic-curves">
+   Elliptic Curves
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#elliptic-curve-arithmetic">
+     Elliptic Curve Arithmetic
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ecc-elliptic-curve-cryptography">
+   ECC Elliptic Curve Cryptography
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="python-blockchain">
+<h1>Python Blockchain<a class="headerlink" href="#python-blockchain" title="Permalink to this headline">¶</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="n">np</span><span class="o">.</span><span class="n">set_printoptions</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">suppress</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="kn">import</span> <span class="nn">numpy.random</span> <span class="k">as</span> <span class="nn">npr</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s1">&#39;seaborn-pastel&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;figure.figsize&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">product</span><span class="p">,</span> <span class="n">permutations</span><span class="p">,</span> <span class="n">combinations</span><span class="p">,</span> <span class="n">combinations_with_replacement</span><span class="p">,</span> <span class="n">zip_longest</span>
+
+<span class="kn">import</span> <span class="nn">hashlib</span>
+<span class="kn">import</span> <span class="nn">hmac</span>
+
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Field</p>
+<p>Finite Field</p>
+<p>Elliptic Curve Cryptography</p>
+<p>ECDSA Elliptic Curve Digital Signature Algorithm</p>
+<p>Fast Exponentiation</p>
+<p>ECDLP Elliptic Curve Discrete Logarithm Problem</p>
+<p>Discrete Logarithm</p>
+<p>Schnorr Signature</p>
+<p>Bitcoin</p>
+<p>BIP Bitcoin Improvement Proposal</p>
+<p>BIP32</p>
+<p>BIP39</p>
+<p>BIP44</p>
+<hr class="docutils" />
+<p><strong><span class="math notranslate nohighlight">\(n\)</span>th Root of Unity in a Field <span class="math notranslate nohighlight">\(F\)</span></strong><br>
+A number <span class="math notranslate nohighlight">\(z\)</span> satisfying the equation <span class="math notranslate nohighlight">\(z^n = 1\)</span> where <span class="math notranslate nohighlight">\(n\)</span> is a positive integer.<br>
+The roots of unity in <span class="math notranslate nohighlight">\(F\)</span> are either complex numbers if the characteristic of <span class="math notranslate nohighlight">\(F\)</span> is zero or elements of a finite field if the characteristic of <span class="math notranslate nohighlight">\(F\)</span> is prime.<br>
+Conversely, every nonzero element in a finite field is a root of unity in that field.<br></p>
+<p><strong>Characteristic</strong> of a Ring <span class="math notranslate nohighlight">\(R\)</span><br>
+The smallest number of times one must use the ring’s multiplicative identity in a sum to get the additive identity.<br>
+If this sum never reaches the additive identity, the ring has characteristic zero.<br>
+$<span class="math notranslate nohighlight">\(\text{char}(R) \,\text{is the smallest positive number n such that}\, \underbrace{1 + ... + 1}_{n \,\text{summands}} = 0\)</span>$</p>
+<p><strong>Claim</strong><br>
+Let <span class="math notranslate nohighlight">\(F\)</span> be a field.<br>
+The characteristic of <span class="math notranslate nohighlight">\(F\)</span> is either zero or a prime number.<br></p>
+<p><strong>Claim</strong><br>
+Let <span class="math notranslate nohighlight">\(F\)</span> be a field.<br>
+<span class="math notranslate nohighlight">\(F\)</span> has a unique minimal subfield (prime field).<br></p>
+<p><strong>Finite Field <span class="math notranslate nohighlight">\(GF(q = p^h)\)</span></strong><br>
+A finite field <span class="math notranslate nohighlight">\(GF(q = p^h)\)</span> is an extension of degree <span class="math notranslate nohighlight">\(h\)</span> of the prime field <span class="math notranslate nohighlight">\(GF(p)\)</span> of the same characteristic.<br>
+The finite field is generated by an element that is a root of an irreducible polynomial of degree <span class="math notranslate nohighlight">\(h\)</span>.<br></p>
+<p><strong>Prime Field <span class="math notranslate nohighlight">\(GF(p)\)</span></strong><br></p>
+<p><strong>Claim</strong><br>
+Let <span class="math notranslate nohighlight">\(GF(q)\)</span> be a finite field where <span class="math notranslate nohighlight">\(q = p^h\)</span> where <span class="math notranslate nohighlight">\(p\)</span> is a prime number and <span class="math notranslate nohighlight">\(h\)</span> is a positive integer.<br>
+<span class="math notranslate nohighlight">\(GF(q)\)</span> has characteristic <span class="math notranslate nohighlight">\(p\)</span>.<br></p>
+<p><strong>Claim about Primitive Element</strong><br>
+Let <span class="math notranslate nohighlight">\(GF(q)\)</span> be a finite field.<br>
+There is some <span class="math notranslate nohighlight">\(g \in GF(q)\)</span> called a <em>primitive element</em> such that all <span class="math notranslate nohighlight">\(f \ne 0 \in GF(q)\)</span> are <span class="math notranslate nohighlight">\(g^{q - 1} = 1, g, g^2, ..., g^{q - 2}\)</span>.<br>
+A primitive element is a generator of the field’s multiplicative group.<br>
+By Fermat’s Little Theorem, the elements of the field’s multiplicative group are the roots of the equation <span class="math notranslate nohighlight">\(x^{q - 1} - 1 = 0\)</span> (the <span class="math notranslate nohighlight">\((q - 1)\)</span>-th roots of unity).</p>
+<p>Characteristic <a class="reference external" href="https://en.wikipedia.org/wiki/Characteristic_(algebra)#prime_field">Wiki</a><br>
+Lagrange’s Theorem <a class="reference external" href="https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)">Wiki</a><br>
+Minimal Polynomial <a class="reference external" href="https://en.wikipedia.org/wiki/Minimal_polynomial_(field_theory)">Wiki</a><br>
+Monic Polynomial <a class="reference external" href="https://en.wikipedia.org/wiki/Monic_polynomial">Wiki</a><br>
+Order <a class="reference external" href="https://en.wikipedia.org/wiki/Order_(group_theory)">Wiki</a><br>
+Root of Unity <a class="reference external" href="https://en.wikipedia.org/wiki/Root_of_unity">Wiki</a><br></p>
+<p><a class="reference external" href="https://crypto.stanford.edu/pbc/notes/numbertheory/gen.html">https://crypto.stanford.edu/pbc/notes/numbertheory/gen.html</a></p>
+<p><a class="reference external" href="https://www.python-course.eu/polynomial_class_in_python.php">https://www.python-course.eu/polynomial_class_in_python.php</a></p>
+<p><strong>Fermat’s Little Theorem</strong> <a class="reference external" href="https://en.wikipedia.org/wiki/Fermat%27s_little_theorem">Wiki</a><br>
+<span class="math notranslate nohighlight">\(n^{p - 1} \,\text{mod}\, p = 1\)</span> for any prime <span class="math notranslate nohighlight">\(p\)</span> and <span class="math notranslate nohighlight">\(n \gt 0\)</span></p>
+<p><strong>Division</strong><br>
+<span class="math notranslate nohighlight">\(
+\begin{align}
+\frac{a}{b} &amp;= ab^{-1} \,\text{where}\, b \ne 0 \\
+b^{p - 1} &amp;= 1 \,\text{for prime p by Fermat's Little Theorem} \\
+b^{-1} &amp;= b^{-1} \cdot 1 \\
+&amp;= b^{-1} \cdot b^{p - 1} \\
+&amp;= b^{p - 2} \\
+\end{align}
+\)</span></p>
+<hr class="docutils" />
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">FieldElement</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot; The FieldElement class represents an element of a prime Galois field. &quot;&quot;&quot;</span>
+    
+    <span class="k">def</span> <span class="fm">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">num</span><span class="p">,</span> <span class="n">prime</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot; Initialize a new FieldElement.</span>
+<span class="sd">        </span>
+<span class="sd">        Parameters</span>
+<span class="sd">        ==========</span>
+<span class="sd">        self  [FieldElement]</span>
+<span class="sd">        num   [int]:         the finite field element</span>
+<span class="sd">        prime [int]:         the finite field order</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        
+        <span class="c1"># a prime field element must be between 0 and prime - 1 inclusive</span>
+        <span class="k">if</span> <span class="n">num</span> <span class="o">&gt;=</span> <span class="n">prime</span> <span class="ow">or</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">error</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;Num </span><span class="si">{</span><span class="n">num</span><span class="si">}</span><span class="s1"> not in field range 0 to </span><span class="si">{</span><span class="n">prime</span> <span class="o">-</span> <span class="mi">1</span><span class="si">}</span><span class="s1">&#39;</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
+            
+        <span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">=</span> <span class="n">num</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">prime</span> <span class="o">=</span> <span class="n">prime</span>
+        
+    <span class="k">def</span> <span class="fm">__repr__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot; Return a string representation of a FieldElement.</span>
+<span class="sd">        </span>
+<span class="sd">        Parameters</span>
+<span class="sd">        ==========</span>
+<span class="sd">        self [FieldElement]</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="sa">f</span><span class="s1">&#39;FieldElement_</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">prime</span><span class="si">}</span><span class="s1">(</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span><span class="si">}</span><span class="s1">)&#39;</span>
+    
+    <span class="k">def</span> <span class="fm">__eq__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot; Define FieldElement equality as equality of both the FieldElements&#39; num and prime properties.</span>
+<span class="sd">        </span>
+<span class="sd">        Parameters</span>
+<span class="sd">        ==========</span>
+<span class="sd">        self  [FieldElement]</span>
+<span class="sd">        other [FieldElement]</span>
+<span class="sd">        </span>
+<span class="sd">        Return</span>
+<span class="sd">        ======</span>
+<span class="sd">        [bool]: True if FieldElement equality holds else False</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">other</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">==</span> <span class="n">other</span><span class="o">.</span><span class="n">num</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span> <span class="o">==</span> <span class="n">other</span><span class="o">.</span><span class="n">prime</span>
+    
+    <span class="k">def</span> <span class="fm">__ne__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot; Define FieldElement inequality as inequality of either the FieldElements&#39; num or prime properties.</span>
+<span class="sd">        </span>
+<span class="sd">        Parameters</span>
+<span class="sd">        ==========</span>
+<span class="sd">        self  [FieldElement]</span>
+<span class="sd">        other [FieldElement]</span>
+<span class="sd">        </span>
+<span class="sd">        Return</span>
+<span class="sd">        ======</span>
+<span class="sd">        [bool]: True if FieldElement inequality holds else False</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">other</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">!=</span> <span class="n">other</span><span class="o">.</span><span class="n">num</span> <span class="ow">or</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span> <span class="o">!=</span> <span class="n">other</span><span class="o">.</span><span class="n">prime</span>
+        
+    <span class="k">def</span> <span class="fm">__add__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot; Define finite field addition in terms of modular arithmetic addition.</span>
+<span class="sd">        </span>
+<span class="sd">            If a and b are finite field elements and add() is finite field addition</span>
+<span class="sd">            then add(a, b) = (a + b) % p.</span>
+<span class="sd">        </span>
+<span class="sd">        Parameters</span>
+<span class="sd">        ==========</span>
+<span class="sd">        self  [FieldElement]</span>
+<span class="sd">        other [FieldElement]</span>
+<span class="sd">        </span>
+<span class="sd">        Return</span>
+<span class="sd">        ======</span>
+<span class="sd">        [FieldElement]: a FieldElement from the same field</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span> <span class="o">!=</span> <span class="n">other</span><span class="o">.</span><span class="n">prime</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Cannot add two numbers from different fields.&#39;</span><span class="p">)</span>
+            
+        <span class="n">num</span> <span class="o">=</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">+</span> <span class="n">other</span><span class="o">.</span><span class="n">num</span><span class="p">)</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span><span class="p">)</span>
+        
+    <span class="k">def</span> <span class="fm">__sub__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot; Define finite field substraction in terms of modular arithmetic subtraction.</span>
+<span class="sd">        </span>
+<span class="sd">            If a and b are finite field elements and sub() is finite field subtraction</span>
+<span class="sd">            then sub(a, b) = (a + (-b) % p where (-b) is the additive inverse of b.</span>
+<span class="sd">        </span>
+<span class="sd">        Parameters</span>
+<span class="sd">        ==========</span>
+<span class="sd">        self  [FieldElement]</span>
+<span class="sd">        other [FieldElement]</span>
+<span class="sd">        </span>
+<span class="sd">        Return</span>
+<span class="sd">        ======</span>
+<span class="sd">        [FieldElement]: a FieldElement from the same field</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span> <span class="o">!=</span> <span class="n">other</span><span class="o">.</span><span class="n">prime</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Cannot subtract two numbers from different fields.&#39;</span><span class="p">)</span>
+        
+        <span class="n">num</span> <span class="o">=</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">-</span> <span class="n">other</span><span class="o">.</span><span class="n">num</span><span class="p">)</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span><span class="p">)</span>
+        
+    <span class="k">def</span> <span class="fm">__mul__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot; Define FieldElement multiplication.</span>
+<span class="sd">        </span>
+<span class="sd">        Parameters</span>
+<span class="sd">        ==========</span>
+<span class="sd">        self  [FieldElement]</span>
+<span class="sd">        other [FieldElement]</span>
+<span class="sd">        </span>
+<span class="sd">        Return</span>
+<span class="sd">        ======</span>
+<span class="sd">        [FieldElement]: a FieldElement from the same field</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span> <span class="o">!=</span> <span class="n">other</span><span class="o">.</span><span class="n">prime</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Cannot multiply two numbers from different fields.&#39;</span><span class="p">)</span>
+        
+        <span class="n">num</span> <span class="o">=</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">*</span> <span class="n">other</span><span class="o">.</span><span class="n">num</span><span class="p">)</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span><span class="p">)</span>
+        
+    <span class="k">def</span> <span class="fm">__pow__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">exponent</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot; Define FieldElement exponentiation.</span>
+<span class="sd">        </span>
+<span class="sd">        Parameters</span>
+<span class="sd">        ==========</span>
+<span class="sd">        self  [FieldElement]</span>
+<span class="sd">        exponent</span>
+<span class="sd">        </span>
+<span class="sd">        Return</span>
+<span class="sd">        ======</span>
+<span class="sd">        [FieldElement]: a FieldElement from the same field</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">exponent</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">exponent</span> <span class="o">=</span> <span class="n">exponent</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">prime</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">num</span> <span class="o">=</span> <span class="nb">pow</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span><span class="p">,</span> <span class="n">exponent</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span><span class="p">)</span> <span class="c1"># more efficient than num = (self.num ** exponent) % self.prime</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="fm">__truediv__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot; Define finite field division in terms of Fermat&#39;s Little Theorem.</span>
+<span class="sd">        </span>
+<span class="sd">        Fermat&#39;s Little Theorem says that n^{p - 1} mod p = 1 for any prime p and n &gt; 0.</span>
+<span class="sd">        </span>
+<span class="sd">        self.num ** (p - 1) % p == 1</span>
+<span class="sd">        </span>
+<span class="sd">        Therefore</span>
+<span class="sd">        1/b == pow(b, p-2, p)</span>
+<span class="sd">        a/b == pow(b, p-2, p) * a % p</span>
+<span class="sd">        </span>
+<span class="sd">        Parameters</span>
+<span class="sd">        ==========</span>
+<span class="sd">        self  [FieldElement]</span>
+<span class="sd">        other [FieldElement]</span>
+<span class="sd">        </span>
+<span class="sd">        Return</span>
+<span class="sd">        ======</span>
+<span class="sd">        [FieldElement]: a FieldElement from the same field</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span> <span class="o">!=</span> <span class="n">other</span><span class="o">.</span><span class="n">prime</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Cannot divide two numbers from different fields.&#39;</span><span class="p">)</span>
+        
+        <span class="n">num</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">*</span> <span class="nb">pow</span><span class="p">(</span><span class="n">other</span><span class="o">.</span><span class="n">num</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span> <span class="o">-</span> <span class="mi">2</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span><span class="p">)</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span><span class="p">)</span>
+    
+    <span class="k">def</span> <span class="fm">__rmul__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">coefficient</span><span class="p">):</span>
+        <span class="n">num</span> <span class="o">=</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">*</span> <span class="n">coefficient</span><span class="p">)</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span><span class="p">)</span>
+        
+    <span class="k">def</span> <span class="fm">__lt__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">prime</span> <span class="o">!=</span> <span class="n">other</span><span class="o">.</span><span class="n">prime</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Cannot order two numbers from different fields.&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">num</span> <span class="o">&lt;</span> <span class="n">other</span><span class="o">.</span><span class="n">num</span>
+
+    
+    
+<span class="k">def</span> <span class="nf">generate_finite_field</span> <span class="p">(</span><span class="n">order</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">FieldElement</span><span class="p">(</span><span class="n">element</span><span class="p">,</span> <span class="n">order</span><span class="p">)</span> <span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">order</span><span class="p">)]</span>
+
+<span class="k">def</span> <span class="nf">find_generators</span> <span class="p">(</span><span class="n">order</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
+    <span class="n">finite_field</span> <span class="o">=</span> <span class="n">generate_finite_field</span><span class="p">(</span><span class="n">order</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[(</span><span class="n">element</span><span class="o">.</span><span class="n">num</span><span class="p">,</span> <span class="nb">set</span><span class="p">([(</span><span class="n">element</span><span class="o">**</span><span class="n">i</span><span class="p">)</span><span class="o">.</span><span class="n">num</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">order</span><span class="p">)]))</span> <span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="n">finite_field</span><span class="p">[</span><span class="mi">1</span><span class="p">:]]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">generate_finite_field</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[FieldElement_5(0),
+ FieldElement_5(1),
+ FieldElement_5(2),
+ FieldElement_5(3),
+ FieldElement_5(4)]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">fermat_little_theorem</span> <span class="p">(</span><span class="n">order</span><span class="o">=</span><span class="mi">2</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Apply the group operation p - 1 times to each nonzero element of a finite field of order p.</span>
+<span class="sd">        Fermat&#39;s Little Theorem says that n^{p - 1} mod p = 1 for any prime p and n &gt; 0.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">finite_field</span> <span class="o">=</span> <span class="n">generate_finite_field</span><span class="p">(</span><span class="n">order</span><span class="p">)</span>
+    <span class="k">return</span> <span class="p">[(</span><span class="n">element</span> <span class="o">**</span> <span class="p">(</span><span class="n">order</span> <span class="o">-</span> <span class="mi">1</span><span class="p">))</span><span class="o">.</span><span class="n">num</span> <span class="k">for</span> <span class="n">element</span> <span class="ow">in</span> <span class="n">finite_field</span><span class="p">[</span><span class="mi">1</span><span class="p">:]]</span>
+
+<span class="c1"># finite fields of orders 2 through 23</span>
+<span class="p">[</span><span class="n">fermat_little_theorem</span><span class="p">(</span><span class="n">order</span><span class="p">)</span> <span class="k">for</span> <span class="n">order</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">24</span><span class="p">)]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[[1],
+ [1, 1],
+ [1, 0, 3],
+ [1, 1, 1, 1],
+ [1, 2, 3, 4, 5],
+ [1, 1, 1, 1, 1, 1],
+ [1, 0, 3, 0, 5, 0, 7],
+ [1, 4, 0, 7, 7, 0, 4, 1],
+ [1, 2, 3, 4, 5, 6, 7, 8, 9],
+ [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+ [1, 8, 3, 4, 5, 0, 7, 8, 9, 4, 11],
+ [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+ [1, 4, 9, 1, 10, 6, 4, 4, 6, 10, 1, 9, 4, 1],
+ [1, 0, 11, 0, 13, 0, 7, 0, 9, 0, 3, 0, 5, 0, 15],
+ [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+ [1, 14, 9, 16, 11, 0, 13, 8, 9, 10, 5, 0, 7, 2, 9, 4, 17],
+ [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+ [1, 8, 7, 4, 5, 16, 3, 12, 9, 0, 11, 8, 17, 4, 15, 16, 13, 12, 19],
+ [1, 4, 9, 16, 4, 15, 7, 1, 18, 16, 16, 18, 1, 7, 15, 4, 16, 9, 4, 1],
+ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+ [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">order</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">f</span> <span class="o">=</span> <span class="n">generate_finite_field</span><span class="p">(</span><span class="n">order</span><span class="p">)</span>
+<span class="n">find_generators</span><span class="p">(</span><span class="n">order</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[(1, {1}), (2, {1, 2, 3, 4}), (3, {1, 2, 3, 4}), (4, {1, 4})]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">order</span> <span class="o">=</span> <span class="mi">19</span>
+<span class="n">f</span> <span class="o">=</span> <span class="n">generate_finite_field</span><span class="p">(</span><span class="n">order</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">f</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+    <span class="nb">print</span><span class="p">(([(</span><span class="n">k</span> <span class="o">*</span> <span class="n">elem</span><span class="p">)</span><span class="o">.</span><span class="n">num</span> <span class="k">for</span> <span class="n">elem</span> <span class="ow">in</span> <span class="n">f</span><span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 1, 3, 5, 7, 9, 11, 13, 15, 17]
+[0, 3, 6, 9, 12, 15, 18, 2, 5, 8, 11, 14, 17, 1, 4, 7, 10, 13, 16]
+[0, 4, 8, 12, 16, 1, 5, 9, 13, 17, 2, 6, 10, 14, 18, 3, 7, 11, 15]
+[0, 5, 10, 15, 1, 6, 11, 16, 2, 7, 12, 17, 3, 8, 13, 18, 4, 9, 14]
+[0, 6, 12, 18, 5, 11, 17, 4, 10, 16, 3, 9, 15, 2, 8, 14, 1, 7, 13]
+[0, 7, 14, 2, 9, 16, 4, 11, 18, 6, 13, 1, 8, 15, 3, 10, 17, 5, 12]
+[0, 8, 16, 5, 13, 2, 10, 18, 7, 15, 4, 12, 1, 9, 17, 6, 14, 3, 11]
+[0, 9, 18, 8, 17, 7, 16, 6, 15, 5, 14, 4, 13, 3, 12, 2, 11, 1, 10]
+[0, 10, 1, 11, 2, 12, 3, 13, 4, 14, 5, 15, 6, 16, 7, 17, 8, 18, 9]
+[0, 11, 3, 14, 6, 17, 9, 1, 12, 4, 15, 7, 18, 10, 2, 13, 5, 16, 8]
+[0, 12, 5, 17, 10, 3, 15, 8, 1, 13, 6, 18, 11, 4, 16, 9, 2, 14, 7]
+[0, 13, 7, 1, 14, 8, 2, 15, 9, 3, 16, 10, 4, 17, 11, 5, 18, 12, 6]
+[0, 14, 9, 4, 18, 13, 8, 3, 17, 12, 7, 2, 16, 11, 6, 1, 15, 10, 5]
+[0, 15, 11, 7, 3, 18, 14, 10, 6, 2, 17, 13, 9, 5, 1, 16, 12, 8, 4]
+[0, 16, 13, 10, 7, 4, 1, 17, 14, 11, 8, 5, 2, 18, 15, 12, 9, 6, 3]
+[0, 17, 15, 13, 11, 9, 7, 5, 3, 1, 18, 16, 14, 12, 10, 8, 6, 4, 2]
+[0, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="elliptic-curves">
+<h1>Elliptic Curves<a class="headerlink" href="#elliptic-curves" title="Permalink to this headline">¶</a></h1>
+<p><strong>General Form of an Weierstrass <a class="reference external" href="https://en.wikipedia.org/wiki/Weierstrass%27s_elliptic_functions">Wiki</a> Elliptic Curve</strong> <a class="reference external" href="https://en.wikipedia.org/wiki/Elliptic_curve">Wiki</a><br>
+$<span class="math notranslate nohighlight">\(
+\begin{align}
+y^2 &amp;= x^3 + ax + b \\
+0 &amp;= x^3 + (-1)y^2 + ax + b \\
+\end{align}
+\)</span>$</p>
+<div class="section" id="elliptic-curve-arithmetic">
+<h2>Elliptic Curve Arithmetic<a class="headerlink" href="#elliptic-curve-arithmetic" title="Permalink to this headline">¶</a></h2>
+<p><strong>Point Addition</strong><br></p>
+<p><strong>Properties of Point Addition</strong><br>
+Associativity<br>
+(A + B) + C = A + (B + C)<br>
+the reason for reflecting over the x-axis<br></p>
+<p>Commutativity<br>
+A + B = B + A<br>
+the line going through A and B will intersect the curve a third time in the same place, no matter the order<br></p>
+<p>Existence of Identity Point<br>
+I + A = A<br>
+There is some point I, called the <em>point at infinity</em>, such that when added to point A the resulting point is A.<br></p>
+<p>Existence of Inverse Points<br>
+A + (-A) = I<br>
+For all points A there is some point -A such that their point addition yields the point at infinity.<br>
+Visually, a point and its inverse are reflected over the x-axis.<br></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a_min</span><span class="p">,</span> <span class="n">a_max</span> <span class="o">=</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span>
+<span class="n">b_min</span><span class="p">,</span> <span class="n">b_max</span> <span class="o">=</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">7</span>
+<span class="n">a_ran</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="n">a_min</span><span class="p">,</span> <span class="n">a_max</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">b_ran</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="n">b_max</span><span class="p">,</span> <span class="n">b_min</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">a_len</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">a_ran</span><span class="p">)</span>
+<span class="n">b_len</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">b_ran</span><span class="p">)</span>
+
+<span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">meshgrid</span><span class="p">(</span><span class="n">a_ran</span><span class="p">,</span> <span class="n">b_ran</span><span class="p">)</span>
+<span class="n">parameters</span> <span class="o">=</span> <span class="p">[(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">ravel</span><span class="p">(),</span> <span class="n">y</span><span class="o">.</span><span class="n">ravel</span><span class="p">())]</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">axs</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">b_len</span><span class="p">,</span> <span class="n">a_len</span><span class="p">,</span> <span class="n">sharex</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">sharey</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">param</span> <span class="ow">in</span> <span class="n">parameters</span><span class="p">:</span>
+    <span class="n">a</span> <span class="o">=</span> <span class="n">param</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">b</span> <span class="o">=</span> <span class="n">param</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ogrid</span><span class="p">[</span><span class="o">-</span><span class="mi">5</span><span class="p">:</span><span class="mi">5</span><span class="p">:</span><span class="mi">100</span><span class="n">j</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">:</span><span class="mi">5</span><span class="p">:</span><span class="mi">100</span><span class="n">j</span><span class="p">]</span>
+    <span class="n">axs</span><span class="p">[</span><span class="n">b_max</span> <span class="o">-</span> <span class="n">param</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">param</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="n">a_max</span><span class="p">]</span><span class="o">.</span><span class="n">contour</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">ravel</span><span class="p">(),</span> <span class="n">y</span><span class="o">.</span><span class="n">ravel</span><span class="p">(),</span> <span class="nb">pow</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="nb">pow</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">-</span> <span class="n">x</span> <span class="o">*</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">ax</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">axs</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;$a = </span><span class="si">{</span><span class="n">i</span> <span class="o">-</span> <span class="n">a_max</span><span class="si">}</span><span class="s1">$&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">ax</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">axs</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]):</span>
+    <span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;$b = </span><span class="si">{</span><span class="n">b_max</span> <span class="o">-</span> <span class="n">i</span><span class="si">}</span><span class="s1">$&#39;</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+    
+<span class="n">fig</span><span class="o">.</span><span class="n">supxlabel</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;$</span><span class="si">{</span><span class="n">a_min</span><span class="si">}</span><span class="s1"> &lt; a &lt; </span><span class="si">{</span><span class="n">a_max</span><span class="si">}</span><span class="s1">$&#39;</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">supylabel</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;$</span><span class="si">{</span><span class="n">b_min</span><span class="si">}</span><span class="s1"> &lt; b &lt; </span><span class="si">{</span><span class="n">b_max</span><span class="si">}</span><span class="s1">$&#39;</span><span class="p">);</span><span class="c1">#, rotation=0);</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/PythonBlockchain_15_0.png" src="../_images/PythonBlockchain_15_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ogrid</span><span class="p">[</span><span class="o">-</span><span class="mi">10</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">100</span><span class="n">j</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">100</span><span class="n">j</span><span class="p">]</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">contour</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">ravel</span><span class="p">(),</span> <span class="n">y</span><span class="o">.</span><span class="n">ravel</span><span class="p">(),</span> <span class="nb">pow</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="nb">pow</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">-</span> <span class="n">x</span> <span class="o">*</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/PythonBlockchain_16_0.png" src="../_images/PythonBlockchain_16_0.png" />
+</div>
+</div>
+<p><strong>SEC P256 Koblitz 1 secp256k1 Bitcoin Elliptic Curve</strong><br>
+$<span class="math notranslate nohighlight">\(
+\begin{align}
+a &amp;= 0 \\
+b &amp;= 7 \\
+y^2 &amp;= x^3 + (0)x + (7) \\
+&amp;= x^3 + 7 \\
+\end{align}
+\)</span>$</p>
+<p>The finite field of order p = <span class="math notranslate nohighlight">\(2^{256} - 2^{32} - 977\)</span> where <span class="math notranslate nohighlight">\(p\)</span> was chosen to be relatively close to <span class="math notranslate nohighlight">\(2^{256}\)</span>, though not the largest prime smaller than <span class="math notranslate nohighlight">\(2^{256}\)</span>.</p>
+<p>The base point <span class="math notranslate nohighlight">\(g\)</span> is a pair of numbers <span class="math notranslate nohighlight">\(x, y \,\text{mod}\, p\)</span></p>
+<p><strong>Compressed Base Point</strong><br>
+<span class="math notranslate nohighlight">\(g = 02 79BE 667E F9DC BBAC 55A0 6295 CE87 0B07 029B FCDB 2DCE 28D9 59F2 815B 16F8 1798\)</span><br>
+prefix <span class="math notranslate nohighlight">\(02\)</span><br>
+<span class="math notranslate nohighlight">\(x = 79BE 667E F9DC BBAC 55A0 6295 CE87 0B07 029B FCDB 2DCE 28D9 59F2 815B 16F8 1798\)</span><br>
+The compressed base point yields the x coordinate. The y coordinate can be derived from the x coordinate.<br>
+There are two values of <span class="math notranslate nohighlight">\(y\)</span> that satisfy <span class="math notranslate nohighlight">\(y^2 = x^3 + 7\)</span><br>
+If the compressed base point begins with 02, select the root whose least significant bit is even.<br>
+If the compressed base point begins with 03, select the root whose least significant bit is odd.<br>
+The two roots sum to <span class="math notranslate nohighlight">\(p\)</span>, and <span class="math notranslate nohighlight">\(p\)</span> is odd, so one of the roots is even and the other root is odd.<br>
+The remainder of the string is the hexadecimal representation of the x coordinate.<br></p>
+<p><strong>Uncompressed Base Point</strong><br>
+<span class="math notranslate nohighlight">\(g = 040x 79BE 667E F9DC BBAC 55A0 6295 CE87 0B07 029B FCDB 2DCE 28D9 59F2 815B 16F8 1798 483A DA77 26A3 C465 5DA4 FBFC 0E11 08A8 FD17 B448 A685 5419 9C47 D08F FB10 D4B8\)</span><br>
+prefix <span class="math notranslate nohighlight">\(04 0x\)</span><br>
+<span class="math notranslate nohighlight">\(x = 79BE 667E F9DC BBAC 55A0 6295 CE87 0B07 029B FCDB 2DCE 28D9 59F2 815B 16F8 1798\)</span><br>
+<span class="math notranslate nohighlight">\(y = 483A DA77 26A3 C465 5DA4 FBFC 0E11 08A8 FD17 B448 A685 5419 9C47 D08F FB10 D4B8\)</span><br>
+The uncompressed base point begins with <span class="math notranslate nohighlight">\(04\)</span> followed by the hexadecimal representation of <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> concatenated together.<br></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">p</span> <span class="o">=</span> <span class="mi">2</span><span class="o">**</span><span class="mi">256</span> <span class="o">-</span> <span class="mi">2</span><span class="o">**</span><span class="mi">32</span> <span class="o">-</span> <span class="mi">977</span>
+<span class="n">x</span> <span class="o">=</span> <span class="s1">&#39;79BE 667E F9DC BBAC 55A0 6295 CE87 0B07 029B FCDB 2DCE 28D9 59F2 815B 16F8 1798&#39;</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+<span class="n">y</span> <span class="o">=</span> <span class="s1">&#39;483A DA77 26A3 C465 5DA4 FBFC 0E11 08A8 FD17 B448 A685 5419 9C47 D08F FB10 D4B8&#39;</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+<span class="n">g_uncomp</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+<span class="n">display</span><span class="p">(</span>
+    <span class="mi">2</span><span class="o">**</span><span class="mi">256</span><span class="p">,</span>
+    <span class="nb">hex</span><span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="mi">256</span><span class="p">),</span>
+    <span class="nb">int</span><span class="p">(</span><span class="s1">&#39;FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141&#39;</span><span class="p">,</span> <span class="mi">16</span><span class="p">),</span>
+    
+    <span class="n">p</span><span class="p">,</span>
+    <span class="nb">hex</span><span class="p">(</span><span class="n">p</span><span class="p">),</span>
+    
+    <span class="n">x</span><span class="p">,</span>
+    <span class="n">y</span><span class="p">,</span>
+    <span class="n">g_uncomp</span><span class="p">,</span>
+    
+    <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="mi">16</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">%</span> <span class="n">p</span> <span class="o">-</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">16</span><span class="p">)</span><span class="o">**</span><span class="mi">3</span> <span class="o">%</span> <span class="n">p</span> <span class="o">-</span> <span class="mi">7</span><span class="p">)</span> <span class="o">%</span> <span class="n">p</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>115792089237316195423570985008687907853269984665640564039457584007913129639936
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;0x10000000000000000000000000000000000000000000000000000000000000000&#39;
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>115792089237316195423570985008687907852837564279074904382605163141518161494337
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>115792089237316195423570985008687907853269984665640564039457584007908834671663
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f&#39;
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798&#39;
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8&#39;
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8&#39;
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">bits_per_int</span> <span class="p">(</span><span class="n">positive_integer</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">int</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">floor</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">log2</span><span class="p">(</span><span class="n">positive_integer</span><span class="p">))</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">fast_exponentiation</span> <span class="p">(</span><span class="n">num</span><span class="p">,</span> <span class="n">exp</span><span class="p">):</span>
+    <span class="n">bin_exp</span> <span class="o">=</span> <span class="nb">format</span><span class="p">(</span><span class="n">exp</span><span class="p">,</span> <span class="sa">f</span><span class="s1">&#39;0</span><span class="si">{</span><span class="n">bits_per_int</span><span class="p">(</span><span class="n">exp</span><span class="p">)</span><span class="si">}</span><span class="s1">b&#39;</span><span class="p">)</span>
+    <span class="c1">#print(bin_exp)</span>
+    <span class="n">mul</span> <span class="o">=</span> <span class="n">num</span>
+    <span class="k">for</span> <span class="n">bit</span> <span class="ow">in</span> <span class="n">bin_exp</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+        <span class="k">if</span> <span class="n">bit</span> <span class="o">==</span> <span class="s1">&#39;0&#39;</span><span class="p">:</span>
+            <span class="n">mul</span> <span class="o">=</span> <span class="n">mul</span><span class="o">**</span><span class="mi">2</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">mul</span> <span class="o">=</span> <span class="n">mul</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">num</span>
+    <span class="k">return</span> <span class="n">mul</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Point</span><span class="p">:</span>
+    
+    <span class="k">def</span> <span class="fm">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">a</span> <span class="o">=</span> <span class="n">a</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">b</span> <span class="o">=</span> <span class="n">b</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span>
+        
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span>
+        
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span><span class="o">**</span><span class="mi">2</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span><span class="o">**</span><span class="mi">3</span> <span class="o">+</span> <span class="n">a</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">b</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;(</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s1">, </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s1">) is not on the curve&#39;</span><span class="p">)</span>
+            
+    <span class="k">def</span> <span class="fm">__eq__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">==</span> <span class="n">other</span><span class="o">.</span><span class="n">x</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">==</span> <span class="n">other</span><span class="o">.</span><span class="n">y</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">a</span> <span class="o">==</span> <span class="n">other</span><span class="o">.</span><span class="n">a</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">b</span> <span class="o">==</span> <span class="n">other</span><span class="o">.</span><span class="n">b</span>
+    
+    <span class="k">def</span> <span class="fm">__ne__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">return</span> <span class="ow">not</span> <span class="p">(</span><span class="bp">self</span> <span class="o">==</span> <span class="n">other</span><span class="p">)</span>
+        <span class="c1">#return self.x != other.x or self.y != other.y or self.a != other.a or self.b != other.b</span>
+    
+    <span class="k">def</span> <span class="fm">__repr__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s1">&#39;Point(infinity)&#39;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="sa">f</span><span class="s1">&#39;Point(</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s1">, </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s1">)_</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">a</span><span class="si">}</span><span class="s1">_</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">b</span><span class="si">}</span><span class="s1">&#39;</span>
+        
+    <span class="k">def</span> <span class="fm">__add__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">a</span> <span class="o">!=</span> <span class="n">other</span><span class="o">.</span><span class="n">a</span> <span class="ow">or</span> <span class="bp">self</span><span class="o">.</span><span class="n">b</span> <span class="o">!=</span> <span class="n">other</span><span class="o">.</span><span class="n">b</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Points </span><span class="si">{</span><span class="bp">self</span><span class="si">}</span><span class="s1">, </span><span class="si">{</span><span class="n">other</span><span class="si">}</span><span class="s1"> are not on the same curve&#39;</span><span class="p">)</span>
+            
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>  <span class="c1"># if self is the point at infinity...</span>
+            <span class="k">return</span> <span class="n">other</span>    <span class="c1"># ...then self + other = other</span>
+        <span class="k">if</span> <span class="n">other</span><span class="o">.</span><span class="n">x</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span> <span class="c1"># if other is the point at infinity...</span>
+            <span class="k">return</span> <span class="bp">self</span>     <span class="c1"># ...then self + other = self</span>
+        
+        <span class="c1"># Result is point at infinity</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">==</span> <span class="n">other</span><span class="o">.</span><span class="n">x</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">!=</span> <span class="n">other</span><span class="o">.</span><span class="n">y</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">a</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">b</span><span class="p">)</span>
+        
+        <span class="c1"># Case 2: self.x != other.x</span>
+        <span class="c1"># Formula (x3,y3)==(x1,y1)+(x2,y2)</span>
+        <span class="c1"># s=(y2-y1)/(x2-x1)</span>
+        <span class="c1"># x3=s**2-x1-x2</span>
+        <span class="c1"># y3=s*(x1-x3)-y1</span>
+        
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">!=</span> <span class="n">other</span><span class="o">.</span><span class="n">x</span><span class="p">:</span>
+            <span class="n">slope</span> <span class="o">=</span> <span class="p">(</span><span class="n">other</span><span class="o">.</span><span class="n">y</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">other</span><span class="o">.</span><span class="n">x</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span><span class="p">)</span>
+            <span class="n">x</span> <span class="o">=</span> <span class="n">slope</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">-</span> <span class="n">other</span><span class="o">.</span><span class="n">x</span>
+            <span class="n">y</span> <span class="o">=</span> <span class="n">slope</span> <span class="o">*</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">-</span> <span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">a</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">b</span><span class="p">)</span>
+        
+        <span class="k">if</span> <span class="bp">self</span> <span class="o">==</span> <span class="n">other</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">a</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">b</span><span class="p">)</span>
+
+        <span class="c1"># Case 3: self == other</span>
+        <span class="c1"># Formula (x3,y3)=(x1,y1)+(x1,y1)</span>
+        <span class="c1"># s=(3*x1**2+a)/(2*y1)</span>
+        <span class="c1"># x3=s**2-2*x1</span>
+        <span class="c1"># y3=s*(x1-x3)-y1</span>
+        
+        <span class="k">if</span> <span class="bp">self</span> <span class="o">==</span> <span class="n">other</span><span class="p">:</span>
+            <span class="n">slope</span> <span class="o">=</span> <span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="bp">self</span><span class="o">.</span><span class="n">a</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span><span class="p">)</span>
+            <span class="n">x</span> <span class="o">=</span> <span class="n">slope</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="mi">2</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span>
+            <span class="n">y</span> <span class="o">=</span> <span class="n">slope</span> <span class="o">*</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">-</span> <span class="n">x</span><span class="p">)</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">y</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">a</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">b</span><span class="p">)</span>
+        
+    <span class="k">def</span> <span class="fm">__rmul__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">coefficient</span><span class="p">):</span>
+        <span class="n">coef</span> <span class="o">=</span> <span class="n">coefficient</span>
+        <span class="n">current</span> <span class="o">=</span> <span class="bp">self</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">a</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">b</span><span class="p">)</span>
+        <span class="k">while</span> <span class="n">coef</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">coef</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="n">result</span> <span class="o">+=</span> <span class="n">current</span>
+            <span class="n">current</span> <span class="o">+=</span> <span class="n">current</span>
+            <span class="n">coef</span> <span class="o">&gt;&gt;=</span> <span class="mi">1</span>
+        <span class="k">return</span> <span class="n">result</span>
+        
+<span class="k">def</span> <span class="nf">on_curve</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">y</span><span class="o">**</span><span class="mi">2</span> <span class="o">==</span> <span class="n">x</span><span class="o">**</span><span class="mi">3</span> <span class="o">+</span> <span class="mi">5</span><span class="o">*</span><span class="n">x</span> <span class="o">+</span> <span class="mi">7</span>
+        
+<span class="k">def</span> <span class="nf">plot_elliptic_curve</span> <span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">):</span>
+    <span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ogrid</span><span class="p">[</span><span class="o">-</span><span class="mi">10</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">100</span><span class="n">j</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">100</span><span class="n">j</span><span class="p">]</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">contour</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">ravel</span><span class="p">(),</span> <span class="n">y</span><span class="o">.</span><span class="n">ravel</span><span class="p">(),</span> <span class="nb">pow</span><span class="p">(</span><span class="n">y</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="nb">pow</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">-</span> <span class="n">x</span> <span class="o">*</span> <span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">,</span> <span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="k">for</span> <span class="n">point</span> <span class="ow">in</span> <span class="n">points</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">point</span><span class="p">:</span>
+            <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">point</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="n">point</span><span class="o">.</span><span class="n">y</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">p1</span> <span class="o">+</span> <span class="n">p1</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="n">ed9582f37d35</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">p1</span> <span class="o">+</span> <span class="n">p1</span>
+
+<span class="ne">NameError</span>: name &#39;p1&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">p1</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+<span class="n">p2</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+<span class="n">p3</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+<span class="n">p4</span> <span class="o">=</span> <span class="n">p1</span> <span class="o">+</span> <span class="n">p3</span>
+<span class="n">p5</span> <span class="o">=</span> <span class="n">p1</span> <span class="o">+</span> <span class="n">p1</span>
+<span class="n">inf</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+<span class="n">points</span> <span class="o">=</span> <span class="p">[</span><span class="n">p1</span><span class="p">,</span> <span class="n">p5</span><span class="p">,</span> <span class="n">inf</span><span class="p">]</span>
+<span class="n">plot_elliptic_curve</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/PythonBlockchain_22_0.png" src="../_images/PythonBlockchain_22_0.png" />
+</div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="ecc-elliptic-curve-cryptography">
+<h1>ECC Elliptic Curve Cryptography<a class="headerlink" href="#ecc-elliptic-curve-cryptography" title="Permalink to this headline">¶</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">order</span> <span class="o">=</span> <span class="mi">223</span>
+<span class="n">ff</span> <span class="o">=</span> <span class="n">generate_finite_field</span><span class="p">(</span><span class="n">order</span><span class="p">)</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="n">ff</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">ff</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span>
+
+<span class="n">x1</span> <span class="o">=</span> <span class="n">ff</span><span class="p">[</span><span class="mi">192</span><span class="p">]</span>
+<span class="n">y1</span> <span class="o">=</span> <span class="n">ff</span><span class="p">[</span><span class="mi">105</span><span class="p">]</span>
+<span class="n">p1</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+
+<span class="n">x2</span> <span class="o">=</span> <span class="n">ff</span><span class="p">[</span><span class="mi">17</span><span class="p">]</span>
+<span class="n">y2</span> <span class="o">=</span> <span class="n">ff</span><span class="p">[</span><span class="mi">56</span><span class="p">]</span>
+<span class="n">p2</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="n">x2</span><span class="p">,</span> <span class="n">y2</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+
+<span class="n">p3</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+
+<span class="n">display</span><span class="p">(</span>
+    <span class="n">p1</span><span class="p">,</span>
+    <span class="n">p2</span><span class="p">,</span>
+    <span class="n">p1</span> <span class="o">+</span> <span class="n">p2</span><span class="p">,</span>
+    <span class="n">p2</span> <span class="o">+</span> <span class="n">p1</span><span class="p">,</span>
+    <span class="n">p1</span> <span class="o">+</span> <span class="n">p1</span><span class="p">,</span>
+    <span class="n">p2</span> <span class="o">+</span> <span class="n">p2</span><span class="p">,</span>
+    <span class="n">p3</span><span class="p">,</span>
+    <span class="n">p1</span> <span class="o">+</span> <span class="n">p3</span><span class="p">,</span>
+    <span class="n">p3</span> <span class="o">+</span> <span class="n">p3</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Point(FieldElement_223(192), FieldElement_223(105))_FieldElement_223(0)_FieldElement_223(7)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Point(FieldElement_223(17), FieldElement_223(56))_FieldElement_223(0)_FieldElement_223(7)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Point(FieldElement_223(170), FieldElement_223(142))_FieldElement_223(0)_FieldElement_223(7)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Point(FieldElement_223(170), FieldElement_223(142))_FieldElement_223(0)_FieldElement_223(7)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Point(FieldElement_223(49), FieldElement_223(71))_FieldElement_223(0)_FieldElement_223(7)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Point(FieldElement_223(13), FieldElement_223(190))_FieldElement_223(0)_FieldElement_223(7)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Point(infinity)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Point(FieldElement_223(192), FieldElement_223(105))_FieldElement_223(0)_FieldElement_223(7)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Point(infinity)
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">hash256</span> <span class="p">(</span><span class="n">s</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; two rounds of sha256 &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">s</span><span class="p">)</span><span class="o">.</span><span class="n">digest</span><span class="p">())</span><span class="o">.</span><span class="n">digest</span><span class="p">()</span>
+
+<span class="n">A</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">B</span> <span class="o">=</span> <span class="mi">7</span>
+<span class="n">P</span> <span class="o">=</span> <span class="mi">2</span><span class="o">**</span><span class="mi">256</span> <span class="o">-</span> <span class="mi">2</span><span class="o">**</span><span class="mi">32</span> <span class="o">-</span> <span class="mi">977</span>
+<span class="n">N</span> <span class="o">=</span> <span class="mh">0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141</span>
+
+<span class="k">class</span> <span class="nc">S256Field</span> <span class="p">(</span><span class="n">FieldElement</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">num</span><span class="p">,</span> <span class="n">prime</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">num</span><span class="o">=</span><span class="n">num</span><span class="p">,</span> <span class="n">prime</span><span class="o">=</span><span class="n">P</span><span class="p">)</span>
+    <span class="k">def</span> <span class="fm">__repr__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;</span><span class="si">{:x}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">num</span><span class="p">)</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="mi">64</span><span class="p">)</span>
+    
+<span class="k">class</span> <span class="nc">S256Point</span> <span class="p">(</span><span class="n">Point</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">S256Field</span><span class="p">(</span><span class="n">A</span><span class="p">),</span> <span class="n">S256Field</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">==</span> <span class="nb">int</span><span class="p">:</span>
+            <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">S256Field</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">y</span><span class="o">=</span><span class="n">S256Field</span><span class="p">(</span><span class="n">y</span><span class="p">),</span> <span class="n">a</span><span class="o">=</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="n">b</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="n">b</span><span class="p">)</span>
+    <span class="k">def</span> <span class="fm">__repr__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s1">&#39;S256Point(infinity)&#39;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="sa">f</span><span class="s1">&#39;S256Point(</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">x</span><span class="si">}</span><span class="s1">, </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">y</span><span class="si">}</span><span class="s1">)&#39;</span>
+    <span class="k">def</span> <span class="fm">__rmul__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">coefficient</span><span class="p">):</span>
+        <span class="n">coef</span> <span class="o">=</span> <span class="n">coefficient</span> <span class="o">%</span> <span class="n">N</span>
+        <span class="k">return</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__rmul__</span><span class="p">(</span><span class="n">coef</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">verify</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="n">sig</span><span class="p">):</span>
+        <span class="n">s_inv</span> <span class="o">=</span> <span class="nb">pow</span><span class="p">(</span><span class="n">sig</span><span class="o">.</span><span class="n">s</span><span class="p">,</span> <span class="n">N</span> <span class="o">-</span> <span class="mi">2</span><span class="p">,</span> <span class="n">N</span><span class="p">)</span>
+        <span class="n">u</span> <span class="o">=</span> <span class="n">z</span> <span class="o">*</span> <span class="n">s_inv</span> <span class="o">%</span> <span class="n">N</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="n">sig</span><span class="o">.</span><span class="n">r</span> <span class="o">*</span> <span class="n">s_inv</span> <span class="o">%</span> <span class="n">N</span>
+        <span class="n">total</span> <span class="o">=</span> <span class="n">u</span> <span class="o">*</span> <span class="n">G</span> <span class="o">+</span> <span class="n">v</span> <span class="o">*</span> <span class="bp">self</span>
+        <span class="k">return</span> <span class="n">total</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">num</span> <span class="o">==</span> <span class="n">sig</span><span class="o">.</span><span class="n">r</span>
+    
+<span class="n">G</span> <span class="o">=</span> <span class="n">S256Point</span><span class="p">(</span>
+    <span class="mh">0x79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798</span><span class="p">,</span>
+    <span class="mh">0x483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8</span>
+<span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Signature</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">s</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">r</span> <span class="o">=</span> <span class="n">r</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">s</span> <span class="o">=</span> <span class="n">s</span>
+    <span class="k">def</span> <span class="fm">__repr__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;Signature(</span><span class="si">{:x}</span><span class="s1">,</span><span class="si">{:x}</span><span class="s1">)&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">r</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">s</span><span class="p">)</span>
+    
+<span class="k">class</span> <span class="nc">PrivateKey</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">secret</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">secret</span> <span class="o">=</span> <span class="n">secret</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">point</span> <span class="o">=</span> <span class="n">secret</span> <span class="o">*</span> <span class="n">G</span>
+    <span class="k">def</span> <span class="nf">hex</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;</span><span class="si">{:x}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">secret</span><span class="p">)</span><span class="o">.</span><span class="n">zfill</span><span class="p">(</span><span class="mi">64</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">sign</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">z</span><span class="p">):</span>
+        <span class="n">k</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">deterministic_k</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="p">(</span><span class="n">k</span> <span class="o">*</span> <span class="n">G</span><span class="p">)</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">num</span>
+        <span class="n">k_inv</span> <span class="o">=</span> <span class="nb">pow</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">N</span> <span class="o">-</span> <span class="mi">2</span><span class="p">,</span> <span class="n">N</span><span class="p">)</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="p">(</span><span class="n">z</span> <span class="o">+</span> <span class="n">r</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">secret</span><span class="p">)</span> <span class="o">*</span> <span class="n">k_inv</span> <span class="o">%</span> <span class="n">N</span>
+        <span class="k">if</span> <span class="n">s</span> <span class="o">&gt;</span> <span class="n">N</span> <span class="o">/</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="n">s</span> <span class="o">=</span> <span class="n">N</span> <span class="o">-</span> <span class="n">s</span>
+        <span class="k">return</span> <span class="n">Signature</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">deterministic_k</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">z</span><span class="p">):</span>
+        <span class="n">k</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x00</span><span class="s1">&#39;</span> <span class="o">*</span> <span class="mi">32</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x01</span><span class="s1">&#39;</span> <span class="o">*</span> <span class="mi">32</span>
+        <span class="k">if</span> <span class="n">z</span> <span class="o">&gt;</span> <span class="n">N</span><span class="p">:</span>
+            <span class="n">z</span> <span class="o">-=</span> <span class="n">N</span>
+        <span class="n">z_bytes</span> <span class="o">=</span> <span class="n">z</span><span class="o">.</span><span class="n">to_bytes</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span> <span class="s1">&#39;big&#39;</span><span class="p">)</span>
+        <span class="n">secret_bytes</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">secret</span><span class="o">.</span><span class="n">to_bytes</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span> <span class="s1">&#39;big&#39;</span><span class="p">)</span>
+        <span class="n">s256</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span>
+        <span class="n">k</span> <span class="o">=</span> <span class="n">hmac</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="o">+</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x00</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">secret_bytes</span> <span class="o">+</span> <span class="n">z_bytes</span><span class="p">,</span> <span class="n">s256</span><span class="p">)</span><span class="o">.</span><span class="n">digest</span><span class="p">()</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="n">hmac</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">s256</span><span class="p">)</span><span class="o">.</span><span class="n">digest</span><span class="p">()</span>
+        <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+            <span class="n">v</span> <span class="o">=</span> <span class="n">hmac</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">s256</span><span class="p">)</span><span class="o">.</span><span class="n">digest</span><span class="p">()</span>
+            <span class="n">candidate</span> <span class="o">=</span> <span class="nb">int</span><span class="o">.</span><span class="n">from_bytes</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="s1">&#39;big&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">candidate</span> <span class="o">&gt;=</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">candidate</span> <span class="o">&lt;</span> <span class="n">N</span><span class="p">:</span>
+                <span class="k">return</span> <span class="n">candidate</span>
+            <span class="n">k</span> <span class="o">=</span> <span class="n">hmac</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="o">+</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x00</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">s256</span><span class="p">)</span><span class="o">.</span><span class="n">digest</span><span class="p">()</span>
+            <span class="n">v</span> <span class="o">=</span> <span class="n">hmac</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">s256</span><span class="p">)</span><span class="o">.</span><span class="n">digest</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">unittest</span> <span class="kn">import</span> <span class="n">TestCase</span><span class="p">,</span> <span class="n">TestSuite</span><span class="p">,</span> <span class="n">TextTestRunner</span>
+
+<span class="k">class</span> <span class="nc">FieldElementTest</span> <span class="p">(</span><span class="n">TestCase</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">test_ne</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="n">c</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="n">a</span> <span class="o">!=</span> <span class="n">c</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertFalse</span><span class="p">(</span><span class="n">a</span> <span class="o">!=</span> <span class="n">b</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">test_add</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">,</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span> <span class="mi">31</span><span class="p">))</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">21</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">,</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">31</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">test_sub</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">29</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">,</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="mi">31</span><span class="p">))</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">30</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">,</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span> <span class="mi">31</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">test_mul</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">19</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span> <span class="o">*</span> <span class="n">b</span><span class="p">,</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">22</span><span class="p">,</span> <span class="mi">31</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">test_pow</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span><span class="o">**</span><span class="mi">3</span><span class="p">,</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">31</span><span class="p">))</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span><span class="o">**</span><span class="mi">5</span> <span class="o">*</span> <span class="n">b</span><span class="p">,</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span> <span class="mi">31</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">test_div</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span> <span class="o">/</span> <span class="n">b</span><span class="p">,</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">31</span><span class="p">))</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span><span class="o">**-</span><span class="mi">3</span><span class="p">,</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">29</span><span class="p">,</span> <span class="mi">31</span><span class="p">))</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mi">31</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span><span class="o">**-</span><span class="mi">4</span> <span class="o">*</span> <span class="n">b</span><span class="p">,</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span> <span class="mi">31</span><span class="p">))</span>
+        
+<span class="k">class</span> <span class="nc">PointTest</span> <span class="p">(</span><span class="n">TestCase</span><span class="p">):</span>
+    
+    <span class="k">def</span> <span class="nf">test_ne</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">y</span><span class="o">=-</span><span class="mi">7</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">18</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">77</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="n">a</span> <span class="o">!=</span> <span class="n">b</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertFalse</span><span class="p">(</span><span class="n">a</span> <span class="o">!=</span> <span class="n">a</span><span class="p">)</span>
+        
+    <span class="k">def</span> <span class="nf">test_on_curve</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">assertRaises</span><span class="p">(</span><span class="ne">ValueError</span><span class="p">):</span>
+            <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=-</span><span class="mi">2</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+        <span class="c1"># these should not raise an error</span>
+        <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">y</span><span class="o">=-</span><span class="mi">7</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+        <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">18</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">77</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">test_add0</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+        <span class="n">c</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">y</span><span class="o">=-</span><span class="mi">5</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">b</span> <span class="o">+</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">b</span> <span class="o">+</span> <span class="n">c</span><span class="p">,</span> <span class="n">a</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">test_add1</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">7</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">y</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">,</span> <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">y</span><span class="o">=-</span><span class="mi">5</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">test_add2</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">y</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">a</span><span class="p">,</span> <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">18</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">77</span><span class="p">,</span> <span class="n">a</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">))</span>
+        
+<span class="k">class</span> <span class="nc">ECCTest</span> <span class="p">(</span><span class="n">TestCase</span><span class="p">):</span>
+    
+    <span class="k">def</span> <span class="nf">test_on_curve</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">prime</span> <span class="o">=</span> <span class="mi">223</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+        <span class="n">valid_points</span> <span class="o">=</span> <span class="p">((</span><span class="mi">192</span><span class="p">,</span> <span class="mi">105</span><span class="p">),</span> <span class="p">(</span><span class="mi">17</span><span class="p">,</span> <span class="mi">56</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">193</span><span class="p">))</span>
+        <span class="n">invalid_points</span> <span class="o">=</span> <span class="p">((</span><span class="mi">200</span><span class="p">,</span> <span class="mi">119</span><span class="p">),</span> <span class="p">(</span><span class="mi">42</span><span class="p">,</span> <span class="mi">99</span><span class="p">))</span>
+        <span class="k">for</span> <span class="n">x_raw</span><span class="p">,</span> <span class="n">y_raw</span> <span class="ow">in</span> <span class="n">valid_points</span><span class="p">:</span>
+            <span class="n">x</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="n">x_raw</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+            <span class="n">y</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="n">y_raw</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+            <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">x_raw</span><span class="p">,</span> <span class="n">y_raw</span> <span class="ow">in</span> <span class="n">invalid_points</span><span class="p">:</span>
+            <span class="n">x</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="n">x_raw</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+            <span class="n">y</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="n">y_raw</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+            <span class="k">with</span> <span class="bp">self</span><span class="o">.</span><span class="n">assertRaises</span><span class="p">(</span><span class="ne">ValueError</span><span class="p">):</span>
+                <span class="n">Point</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+                
+    <span class="k">def</span> <span class="nf">test_add</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># tests the following additions on curve y^2=x^3-7 over F_223:</span>
+        <span class="c1"># (192,105) + (17,56)</span>
+        <span class="c1"># (47,71) + (117,141)</span>
+        <span class="c1"># (143,98) + (76,66)</span>
+        <span class="n">prime</span> <span class="o">=</span> <span class="mi">223</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+        
+        <span class="n">additions</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="c1"># (x1, y1, x2, y2, x3, y3)</span>
+            <span class="p">(</span><span class="mi">192</span><span class="p">,</span> <span class="mi">105</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">56</span><span class="p">,</span> <span class="mi">170</span><span class="p">,</span> <span class="mi">142</span><span class="p">),</span>
+            <span class="p">(</span><span class="mi">47</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="mi">117</span><span class="p">,</span> <span class="mi">141</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">139</span><span class="p">),</span>
+            <span class="p">(</span><span class="mi">143</span><span class="p">,</span> <span class="mi">98</span><span class="p">,</span> <span class="mi">76</span><span class="p">,</span> <span class="mi">66</span><span class="p">,</span> <span class="mi">47</span><span class="p">,</span> <span class="mi">71</span><span class="p">),</span>
+        <span class="p">)</span>
+        
+        <span class="c1"># loop over additions</span>
+        <span class="c1"># initialize x&#39;s and y&#39;s as FieldElements</span>
+        <span class="c1"># create p1, p2, and p3 as Points</span>
+        <span class="c1"># check p1 + p2 == p3</span>
+        <span class="k">raise</span> <span class="ne">NotImplementedError</span>
+        
+    <span class="k">def</span> <span class="nf">test_rmul</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># tests the following scalar multiplications</span>
+        <span class="c1"># 2*(192,105)</span>
+        <span class="c1"># 2*(143,98)</span>
+        <span class="c1"># 2*(47,71)</span>
+        <span class="c1"># 4*(47,71)</span>
+        <span class="c1"># 8*(47,71)</span>
+        <span class="c1"># 21*(47,71)</span>
+        <span class="n">prime</span> <span class="o">=</span> <span class="mi">223</span>
+        <span class="n">a</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+        
+        <span class="n">multiplications</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="c1"># (coefficient, x1, y1, x2, y2)</span>
+            <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">192</span><span class="p">,</span> <span class="mi">105</span><span class="p">,</span> <span class="mi">49</span><span class="p">,</span> <span class="mi">71</span><span class="p">),</span>
+            <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">143</span><span class="p">,</span> <span class="mi">98</span><span class="p">,</span> <span class="mi">64</span><span class="p">,</span> <span class="mi">168</span><span class="p">),</span>
+            <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">47</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="mi">36</span><span class="p">,</span> <span class="mi">111</span><span class="p">),</span>
+            <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">47</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="mi">194</span><span class="p">,</span> <span class="mi">51</span><span class="p">),</span>
+            <span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">47</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="mi">116</span><span class="p">,</span> <span class="mi">55</span><span class="p">),</span>
+            <span class="p">(</span><span class="mi">21</span><span class="p">,</span> <span class="mi">47</span><span class="p">,</span> <span class="mi">71</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+        <span class="p">)</span>
+        
+        <span class="k">for</span> <span class="n">s</span><span class="p">,</span> <span class="n">x1_raw</span><span class="p">,</span> <span class="n">y1_raw</span><span class="p">,</span> <span class="n">x2_raw</span><span class="p">,</span> <span class="n">y2_raw</span> <span class="ow">in</span> <span class="n">multiplications</span><span class="p">:</span>
+            <span class="n">x1</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="n">x1_raw</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+            <span class="n">y1</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="n">y1_raw</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+            <span class="n">p1</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+            <span class="c1"># initiate the second point based on whether it&#39;s the point at infinity</span>
+            <span class="k">if</span> <span class="n">x2_raw</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">p2</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">x2</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="n">x2_raw</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+                <span class="n">y2</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="n">y2_raw</span><span class="p">,</span> <span class="n">prime</span><span class="p">)</span>
+                <span class="n">p2</span> <span class="o">=</span> <span class="n">Point</span><span class="p">(</span><span class="n">x2</span><span class="p">,</span> <span class="n">y2</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+                
+            <span class="c1"># check that the product is equal to the expected point</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">s</span> <span class="o">*</span> <span class="n">p1</span><span class="p">,</span> <span class="n">p2</span><span class="p">)</span>
+            
+<span class="k">class</span> <span class="nc">S256Test</span> <span class="p">(</span><span class="n">TestCase</span><span class="p">):</span>
+    
+    <span class="k">def</span> <span class="nf">test_order</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">point</span> <span class="o">=</span> <span class="n">N</span> <span class="o">*</span> <span class="n">G</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertIsNone</span><span class="p">(</span><span class="n">point</span><span class="o">.</span><span class="n">x</span><span class="p">)</span>
+        
+    <span class="k">def</span> <span class="nf">test_pubpoint</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># write a test that tests the public point for the following</span>
+        <span class="n">points</span> <span class="o">=</span> <span class="p">(</span>
+            <span class="c1"># secret, x, y</span>
+            <span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mh">0x5cbdf0646e5db4eaa398f365f2ea7a0e3d419b7e0330e39ce92bddedcac4f9bc</span><span class="p">,</span> <span class="mh">0x6aebca40ba255960a3178d6d861a54dba813d0b813fde7b5a5082628087264da</span><span class="p">),</span>
+            <span class="p">(</span><span class="mi">1485</span><span class="p">,</span> <span class="mh">0xc982196a7466fbbbb0e27a940b6af926c1a74d5ad07128c82824a11b5398afda</span><span class="p">,</span> <span class="mh">0x7a91f9eae64438afb9ce6448a1c133db2d8fb9254e4546b6f001637d50901f55</span><span class="p">),</span>
+            <span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="mi">128</span><span class="p">,</span> <span class="mh">0x8f68b9d2f63b5f339239c1ad981f162ee88c5678723ea3351b7b444c9ec4c0da</span><span class="p">,</span> <span class="mh">0x662a9f2dba063986de1d90c2b6be215dbbea2cfe95510bfdf23cbf79501fff82</span><span class="p">),</span>
+            <span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="mi">240</span> <span class="o">+</span> <span class="mi">2</span><span class="o">**</span><span class="mi">31</span><span class="p">,</span> <span class="mh">0x9577ff57c8234558f293df502ca4f09cbc65a6572c842b39b366f21717945116</span><span class="p">,</span> <span class="mh">0x10b49c67fa9365ad7b90dab070be339a1daf9052373ec30ffae4f72d5e66d053</span><span class="p">),</span>
+        <span class="p">)</span>
+        
+        <span class="c1"># iterate over points</span>
+        <span class="k">for</span> <span class="n">secret</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">points</span><span class="p">:</span>
+            <span class="c1"># initialize the secp256k1 point (S256Point)</span>
+            <span class="n">point</span> <span class="o">=</span> <span class="n">S256Point</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+            <span class="c1"># check that the secret * G is the same as the point</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">secret</span> <span class="o">*</span> <span class="n">G</span><span class="p">,</span> <span class="n">point</span><span class="p">)</span>
+            
+    <span class="k">def</span> <span class="nf">test_verify</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">point</span> <span class="o">=</span> <span class="n">S256Point</span><span class="p">(</span>
+            <span class="mh">0x887387e452b8eacc4acfde10d9aaf7f6d9a0f975aabb10d006e4da568744d06c</span><span class="p">,</span>
+            <span class="mh">0x61de6d95231cd89026e286df3b6ae4a894a3378e393e93a0f45b666329a0ae34</span><span class="p">)</span>
+        <span class="n">z</span> <span class="o">=</span> <span class="mh">0xec208baa0fc1c19f708a9ca96fdeff3ac3f230bb4a7ba4aede4942ad003c0f60</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="mh">0xac8d1c87e51d0d441be8b3dd5b05c8795b48875dffe00b7ffcfac23010d3a395</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="mh">0x68342ceff8935ededd102dd876ffd6ba72d6a427a3edb13d26eb0781cb423c4</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="n">point</span><span class="o">.</span><span class="n">verify</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="n">Signature</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">s</span><span class="p">)))</span>
+        <span class="n">z</span> <span class="o">=</span> <span class="mh">0x7c076ff316692a3d7eb3c3bb0f8b1488cf72e1afcd929e29307032997a838a3d</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="mh">0xeff69ef2b1bd93a66ed5219add4fb51e11a840f404876325a1e8ffe0529a2c</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="mh">0xc7207fee197d27c618aea621406f6bf5ef6fca38681d82b2f06fddbdce6feab6</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="n">point</span><span class="o">.</span><span class="n">verify</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="n">Signature</span><span class="p">(</span><span class="n">r</span><span class="p">,</span> <span class="n">s</span><span class="p">)))</span>
+        
+<span class="k">class</span> <span class="nc">PrivateKeyTest</span> <span class="p">(</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">test_sign</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">pk</span> <span class="o">=</span> <span class="n">PrivateKey</span><span class="p">(</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">N</span><span class="p">))</span>
+        <span class="n">z</span> <span class="o">=</span> <span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="o">**</span><span class="mi">256</span><span class="p">)</span>
+        <span class="n">sig</span> <span class="o">=</span> <span class="n">pk</span><span class="o">.</span><span class="n">sign</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="n">pk</span><span class="o">.</span><span class="n">point</span><span class="o">.</span><span class="n">verify</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="n">sig</span><span class="p">))</span>
+    
+<span class="k">def</span> <span class="nf">run</span> <span class="p">(</span><span class="n">test</span><span class="p">):</span>
+    <span class="n">suite</span> <span class="o">=</span> <span class="n">TestSuite</span><span class="p">()</span>
+    <span class="n">suite</span><span class="o">.</span><span class="n">addTest</span><span class="p">(</span><span class="n">test</span><span class="p">)</span>
+    <span class="n">TextTestRunner</span><span class="p">()</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">suite</span><span class="p">)</span>
+
+<span class="n">run</span><span class="p">(</span><span class="n">FieldElementTest</span><span class="p">(</span><span class="s1">&#39;test_ne&#39;</span><span class="p">))</span>
+<span class="n">run</span><span class="p">(</span><span class="n">FieldElementTest</span><span class="p">(</span><span class="s1">&#39;test_add&#39;</span><span class="p">))</span>
+<span class="n">run</span><span class="p">(</span><span class="n">FieldElementTest</span><span class="p">(</span><span class="s1">&#39;test_sub&#39;</span><span class="p">))</span>
+<span class="n">run</span><span class="p">(</span><span class="n">FieldElementTest</span><span class="p">(</span><span class="s1">&#39;test_mul&#39;</span><span class="p">))</span>
+<span class="n">run</span><span class="p">(</span><span class="n">FieldElementTest</span><span class="p">(</span><span class="s1">&#39;test_pow&#39;</span><span class="p">))</span>
+<span class="n">run</span><span class="p">(</span><span class="n">FieldElementTest</span><span class="p">(</span><span class="s1">&#39;test_div&#39;</span><span class="p">))</span>
+
+<span class="n">run</span><span class="p">(</span><span class="n">PointTest</span><span class="p">(</span><span class="s1">&#39;test_ne&#39;</span><span class="p">))</span>
+<span class="n">run</span><span class="p">(</span><span class="n">PointTest</span><span class="p">(</span><span class="s1">&#39;test_add0&#39;</span><span class="p">))</span>
+<span class="n">run</span><span class="p">(</span><span class="n">PointTest</span><span class="p">(</span><span class="s1">&#39;test_add1&#39;</span><span class="p">))</span>
+<span class="n">run</span><span class="p">(</span><span class="n">PointTest</span><span class="p">(</span><span class="s1">&#39;test_add2&#39;</span><span class="p">))</span>
+
+<span class="n">run</span><span class="p">(</span><span class="n">ECCTest</span><span class="p">(</span><span class="s1">&#39;test_on_curve&#39;</span><span class="p">))</span>
+<span class="n">run</span><span class="p">(</span><span class="n">ECCTest</span><span class="p">(</span><span class="s1">&#39;test_add&#39;</span><span class="p">))</span>
+<span class="n">run</span><span class="p">(</span><span class="n">ECCTest</span><span class="p">(</span><span class="s1">&#39;test_rmul&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+E
+======================================================================
+ERROR: test_add (__main__.ECCTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;&lt;ipython-input-47-09572a148a0c&gt;&quot;, line 121, in test_add
+    raise NotImplementedError
+NotImplementedError
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./nbs"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="nlp.html" title="previous page">&lt;no title&gt;</a>
+    <a class='right-next' id="next-link" href="template.html" title="next page">Data Types in Python</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Dave Friedman<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
