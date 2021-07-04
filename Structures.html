@@ -54,7 +54,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Python Blockchain" href="PythonBlockchain.html" />
-    <link rel="prev" title="Set Theory" href="Sets.html" />
+    <link rel="prev" title="Modular Arithmetic" href="ModularArithmetic.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -94,7 +94,12 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="Sets.html">
-   Set Theory
+   Sets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ModularArithmetic.html">
+   Modular Arithmetic
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -242,13 +247,18 @@
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#existence-of-an-identity-element">
-     Existence of an Identity Element
+    <a class="reference internal nav-link" href="#identity-element">
+     Identity Element
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#existence-of-inverse-elements">
-     Existence of Inverse Elements
+    <a class="reference internal nav-link" href="#inverse-element">
+     Inverse Element
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#theorem-uniqueness-of-the-identity-element-and-of-inverse-elements">
+     Theorem: Uniqueness of the Identity Element and of Inverse Elements
     </a>
    </li>
   </ul>
@@ -256,6 +266,18 @@
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#operation-tables">
    Operation Tables
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#theorem">
+     Theorem
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-a-semigroup">
+   What is a semigroup?
   </a>
  </li>
 </ul>
@@ -396,9 +418,16 @@ For any proper subset <span class="math notranslate nohighlight">\(B\)</span> of
 </div>
 <div class="section" id="associativity">
 <h3>Associativity<a class="headerlink" href="#associativity" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/Associative_property">Wiki</a><br>
+<a class="reference external" href="https://en.wikipedia.org/wiki/Operator_associativity">Wiki</a><br></p>
 <p><span style="color: blue"><strong>DEFINITION</strong></span><br>
 Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.<br>
 <span class="math notranslate nohighlight">\(*\)</span> is associative on <span class="math notranslate nohighlight">\(A\)</span> iff for all <span class="math notranslate nohighlight">\(x, y, z \in A, (x * y) * z = x * (y * z)\)</span>.<br></p>
+<p>What are the implications of associativity?</p>
+<ul class="simple">
+<li><p>So long as factors are written in the same order, parentheses can be discarded: <span class="math notranslate nohighlight">\((ab)c = a(bc) = abc\)</span>. This can be extended inductively: <span class="math notranslate nohighlight">\(((ab)c)d = (a(bc))d = (abc)d = abcd\)</span>.<br></p></li>
+<li><p>Since <span class="math notranslate nohighlight">\((xx)x = x(xx) = xxx\)</span>, we can define powers such as <span class="math notranslate nohighlight">\(x^3\)</span>. If <span class="math notranslate nohighlight">\((xx)x \ne x(xx)\)</span>, then <span class="math notranslate nohighlight">\(x^3\)</span> doesn’t work.<br></p></li>
+</ul>
 </div>
 <div class="section" id="commutativity">
 <h3>Commutativity<a class="headerlink" href="#commutativity" title="Permalink to this headline">¶</a></h3>
@@ -406,17 +435,40 @@ Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.
 Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.<br>
 <span class="math notranslate nohighlight">\(*\)</span> is commutative on <span class="math notranslate nohighlight">\(A\)</span> iff for all <span class="math notranslate nohighlight">\(x, y \in A, x * y = y * x\)</span>.<br></p>
 </div>
-<div class="section" id="existence-of-an-identity-element">
-<h3>Existence of an Identity Element<a class="headerlink" href="#existence-of-an-identity-element" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="identity-element">
+<h3>Identity Element<a class="headerlink" href="#identity-element" title="Permalink to this headline">¶</a></h3>
 <p><span style="color: blue"><strong>DEFINITION</strong></span><br>
 Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.<br>
 An element <span class="math notranslate nohighlight">\(e\)</span> of <span class="math notranslate nohighlight">\(A\)</span> is an identity element for <span class="math notranslate nohighlight">\(*\)</span> iff for all <span class="math notranslate nohighlight">\(x \in A, x * e = e = e * x\)</span>.<br></p>
 </div>
-<div class="section" id="existence-of-inverse-elements">
-<h3>Existence of Inverse Elements<a class="headerlink" href="#existence-of-inverse-elements" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="inverse-element">
+<h3>Inverse Element<a class="headerlink" href="#inverse-element" title="Permalink to this headline">¶</a></h3>
 <p><span style="color: blue"><strong>DEFINITION</strong></span><br>
 Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.<br>
 If <span class="math notranslate nohighlight">\(A\)</span> has an identity element <span class="math notranslate nohighlight">\(e\)</span>, and <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span> are in <span class="math notranslate nohighlight">\(A\)</span>, then <span class="math notranslate nohighlight">\(b\)</span> is an inverse of <span class="math notranslate nohighlight">\(a\)</span> iff <span class="math notranslate nohighlight">\(a * b = b * a = e\)</span>. In this case, <span class="math notranslate nohighlight">\(a\)</span> would also be an inverse of <span class="math notranslate nohighlight">\(b\)</span>.<br></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="theorem-uniqueness-of-the-identity-element-and-of-inverse-elements">
+<h3>Theorem: Uniqueness of the Identity Element and of Inverse Elements<a class="headerlink" href="#theorem-uniqueness-of-the-identity-element-and-of-inverse-elements" title="Permalink to this headline">¶</a></h3>
+<p>Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.<br></p>
+<ol class="simple">
+<li><p><span class="math notranslate nohighlight">\((A, *)\)</span> has at most one identity element.</p></li>
+<li><p>Let <span class="math notranslate nohighlight">\(*\)</span> be associative with identity <span class="math notranslate nohighlight">\(e\)</span>. If <span class="math notranslate nohighlight">\(a \in A\)</span> has an inverse, then <span class="math notranslate nohighlight">\(a\)</span> has only one inverse.</p></li>
+</ol>
+<p><strong>Proof</strong><br>
+(Show that if <span class="math notranslate nohighlight">\(e\)</span> and <span class="math notranslate nohighlight">\(f\)</span> are both identities for <span class="math notranslate nohighlight">\(*\)</span>, then <span class="math notranslate nohighlight">\(e = f\)</span>.)<br>
+Assumption: Let <span class="math notranslate nohighlight">\(e\)</span> and <span class="math notranslate nohighlight">\(f\)</span> both be identities for <span class="math notranslate nohighlight">\(*\)</span>.<br>
+Since <span class="math notranslate nohighlight">\(e\)</span> is an identity for <span class="math notranslate nohighlight">\(*\)</span>, <span class="math notranslate nohighlight">\(ef = f = fe\)</span> (by the definition of an identity element).<br>
+Since <span class="math notranslate nohighlight">\(f\)</span> is an identity for <span class="math notranslate nohighlight">\(*\)</span>, <span class="math notranslate nohighlight">\(ef = e = fe\)</span> (by the definition of an identity element).<br>
+Therefore, <span class="math notranslate nohighlight">\(e = f\)</span>.<br>
+<span class="math notranslate nohighlight">\(\blacksquare\)</span><br></p>
+<p><strong>Proof</strong><br>
+(Show that if <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> are both inverses of <span class="math notranslate nohighlight">\(a\)</span> for <span class="math notranslate nohighlight">\(*\)</span>, then <span class="math notranslate nohighlight">\(x = y\)</span>.)<br>
+Assumption: Let <span class="math notranslate nohighlight">\(x\)</span> and <span class="math notranslate nohighlight">\(y\)</span> both be inverses of <span class="math notranslate nohighlight">\(a\)</span> for <span class="math notranslate nohighlight">\(*\)</span>.<br>
+Since <span class="math notranslate nohighlight">\(x\)</span> is an inverse of <span class="math notranslate nohighlight">\(a\)</span> for <span class="math notranslate nohighlight">\(*\)</span>, <span class="math notranslate nohighlight">\(ax = xa = e\)</span> (by the definition of an inverse element).<br>
+Since <span class="math notranslate nohighlight">\(y\)</span> is an inverse of <span class="math notranslate nohighlight">\(a\)</span> for <span class="math notranslate nohighlight">\(*\)</span>, <span class="math notranslate nohighlight">\(ay = ya = e\)</span> (by the definition of an inverse element).<br>
+Therefore, <span class="math notranslate nohighlight">\(x = y\)</span>.<br>
+<span class="math notranslate nohighlight">\(\blacksquare\)</span><br></p>
 </div>
 </div>
 <hr class="docutils" />
@@ -588,7 +640,7 @@ For a structure of order <span class="math notranslate nohighlight">\(n\)</span>
 </li>
 <li><p>inverse elements</p>
 <ul>
-<li><p><span class="math notranslate nohighlight">\(1\)</span> and <span class="math notranslate nohighlight">\(3\)</span> are inverses</p></li>
+<li><p><span class="math notranslate nohighlight">\(1\)</span> and <span class="math notranslate nohighlight">\(3\)</span> are inverses of each other</p></li>
 <li><p><span class="math notranslate nohighlight">\(2\)</span> is its own inverse</p></li>
 </ul>
 </li>
@@ -634,11 +686,38 @@ For a structure of order <span class="math notranslate nohighlight">\(n\)</span>
 </li>
 <li><p>inverse elements</p>
 <ul>
-<li><p><span class="math notranslate nohighlight">\(3\)</span> is its own inverse</p></li>
-<li><p><span class="math notranslate nohighlight">\(1\)</span> and <span class="math notranslate nohighlight">\(2\)</span> do not have inverses</p></li>
+<li><p><span class="math notranslate nohighlight">\(1\)</span> and <span class="math notranslate nohighlight">\(3\)</span> are their own inverses</p></li>
+<li><p><span class="math notranslate nohighlight">\(2\)</span> does not have an inverse</p></li>
 </ul>
 </li>
 </ul>
+<hr class="docutils" />
+<div class="section" id="theorem">
+<h3>Theorem<a class="headerlink" href="#theorem" title="Permalink to this headline">¶</a></h3>
+<p>Let <span class="math notranslate nohighlight">\(A\)</span> be a nonempty set and let <span class="math notranslate nohighlight">\(\mathscr{F}\)</span> be the set of all bijections <span class="math notranslate nohighlight">\(A \rightarrow A\)</span>.<br>
+The tuple <span class="math notranslate nohighlight">\((\mathscr{F}, \circ)\)</span> where <span class="math notranslate nohighlight">\(\circ\)</span> is function composition is a structure such that<br></p>
+<ol class="simple">
+<li><p><span class="math notranslate nohighlight">\(\circ\)</span> is associative</p></li>
+<li><p>the identity function <span class="math notranslate nohighlight">\(I_A\)</span> is the identity element</p></li>
+<li><p>every element in <span class="math notranslate nohighlight">\(\mathscr{F}\)</span> has an inverse <span class="math notranslate nohighlight">\(f^{-1}\)</span></p></li>
+</ol>
+<p><strong>Proof</strong><br>
+<span style="color: red;">
+<span class="math notranslate nohighlight">\(\mathscr{F}\)</span> is closed under <span class="math notranslate nohighlight">\(\circ\)</span> (proved elsewhere).<br>
+<span class="math notranslate nohighlight">\(\circ\)</span> is associative on <span class="math notranslate nohighlight">\(\mathscr{F}\)</span> (proved elsewhere).<br>
+<span class="math notranslate nohighlight">\(I_A\)</span> is the identity element (proved elsewhere).<br>
+If <span class="math notranslate nohighlight">\(f \in \mathscr{F}\)</span>, then <span class="math notranslate nohighlight">\(f^{-1} \in \mathscr{F}\)</span> (proved elsewhere).<br>
+<span class="math notranslate nohighlight">\(f^{-1}\)</span> is the inverse of <span class="math notranslate nohighlight">\(f\)</span> (proved elsewhere)<br>
+</span></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="what-is-a-semigroup">
+<h2>What is a semigroup?<a class="headerlink" href="#what-is-a-semigroup" title="Permalink to this headline">¶</a></h2>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.<br>
+<span class="math notranslate nohighlight">\((A, *)\)</span> is a semigroup iff <span class="math notranslate nohighlight">\(*\)</span> is associative over <span class="math notranslate nohighlight">\(A\)</span>.<br>
+<a class="reference external" href="https://en.wikipedia.org/wiki/Semigroup">Wiki</a><br></p>
 <hr class="docutils" />
 </div>
 </div>
@@ -668,7 +747,7 @@ For a structure of order <span class="math notranslate nohighlight">\(n\)</span>
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="Sets.html" title="previous page">Set Theory</a>
+    <a class='left-prev' id="prev-link" href="ModularArithmetic.html" title="previous page">Modular Arithmetic</a>
     <a class='right-next' id="next-link" href="PythonBlockchain.html" title="next page">Python Blockchain</a>
 
         </div>
