@@ -222,11 +222,6 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#operation-table">
-   Operation Table
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#properties-of-structures">
    Properties of Structures
   </a>
@@ -236,7 +231,32 @@
      Closure
     </a>
    </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#associativity">
+     Associativity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#commutativity">
+     Commutativity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#existence-of-an-identity-element">
+     Existence of an Identity Element
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#existence-of-inverse-elements">
+     Existence of Inverse Elements
+    </a>
+   </li>
   </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#operation-tables">
+   Operation Tables
+  </a>
  </li>
 </ul>
 
@@ -258,14 +278,14 @@
 An operation may also be called a function or a computation.</p>
 <p><span style="color: blue"><strong>DEFINITION</strong></span><br>
 Let <span class="math notranslate nohighlight">\(A\)</span> be a nonempty set.<br>
-For example, a <strong>unary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(A\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br>
+A <strong>unary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(A\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br>
 A <strong>binary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(A \times A\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br>
 A <strong>ternary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(A \times A \times A\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br>
 In general, an <strong><span class="math notranslate nohighlight">\(n\)</span>-ary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(\underbrace{A \times A \times ... \times A}_{n \,\text{times}}\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br></p>
-<p><span style="color: blue">Notation</span><br></p>
-<p><strong>Infix notation</strong> is standard in integer arithmetic <span class="math notranslate nohighlight">\(2 + 2 = 4\)</span></p>
-<p><strong>Prefix notation</strong> places the operation before its operands like this <span class="math notranslate nohighlight">\(+ \, 2 \, 2 = 4\)</span></p>
-<p><strong>Function notation</strong> is a special form of prefix notation <span class="math notranslate nohighlight">\(+(2, 2)\)</span>; or more commonly, <span class="math notranslate nohighlight">\(\text{add}(2, 2)\)</span></p>
+<p><span style="color: blue">Notation</span><br>
+<strong>Infix notation</strong> is standard in integer arithmetic <span class="math notranslate nohighlight">\(2 + 2 = 4\)</span><br>
+<strong>Prefix notation</strong> places the operation before its operands like this <span class="math notranslate nohighlight">\(+ \, 2 \, 2 = 4\)</span><br>
+<strong>Function notation</strong> is a special form of prefix notation <span class="math notranslate nohighlight">\(+(2, 2)\)</span>; or more commonly, <span class="math notranslate nohighlight">\(\text{add}(2, 2)\)</span><br></p>
 </div>
 <hr class="docutils" />
 <div class="section" id="what-is-a-structure">
@@ -276,7 +296,8 @@ A structure is a nonempty set <span class="math notranslate nohighlight">\(A\)</
 A structure may also be called an algebraic structure or an algebraic system.<br></p>
 <p><span style="color: blue"><strong>DEFINITION</strong></span><br>
 The <strong>order</strong> of a structure is the order of its set.<br></p>
-<p>Examples of structures:</p>
+<p><span style="color: green">Example</span><br>
+Examples of structures:</p>
 <p><span class="math notranslate nohighlight">\((\mathbb{R}, +, \cdot, \lt)\)</span></p>
 <ul class="simple">
 <li><p>order infinite</p></li>
@@ -288,6 +309,11 @@ The <strong>order</strong> of a structure is the order of its set.<br></p>
 <p><span class="math notranslate nohighlight">\((\mathbb{R}, +)\)</span></p>
 <ul class="simple">
 <li><p>order infinite</p></li>
+<li><p>closed under <span class="math notranslate nohighlight">\(+\)</span></p></li>
+<li><p>associative</p></li>
+<li><p>commutative</p></li>
+<li><p>identity element 0</p></li>
+<li><p>every element has an inverse: its negative</p></li>
 </ul>
 <p><span class="math notranslate nohighlight">\((\mathbb{Q}, \cdot)\)</span></p>
 <ul class="simple">
@@ -298,6 +324,15 @@ The <strong>order</strong> of a structure is the order of its set.<br></p>
 <ul class="simple">
 <li><p>order infinite</p></li>
 <li><p>closed under <span class="math notranslate nohighlight">\(+\)</span></p></li>
+</ul>
+<p><span class="math notranslate nohighlight">\((\mathbb{Z}, \cdot)\)</span></p>
+<ul class="simple">
+<li><p>order infinite</p></li>
+<li><p>closed under <span class="math notranslate nohighlight">\(\cdot\)</span></p></li>
+<li><p>associative</p></li>
+<li><p>commutative</p></li>
+<li><p>identity element <span class="math notranslate nohighlight">\(1\)</span></p></li>
+<li><p>only <span class="math notranslate nohighlight">\(\{1, -1\}\)</span> have inverses</p></li>
 </ul>
 <p><span class="math notranslate nohighlight">\((\mathbb{N}, +, \lt)\)</span></p>
 <ul class="simple">
@@ -344,27 +379,13 @@ The <strong>order</strong> of a structure is the order of its set.<br></p>
 <li><p>closed under <span class="math notranslate nohighlight">\(+\)</span></p></li>
 </ul>
 </div>
-<div class="section" id="operation-table">
-<h2>Operation Table<a class="headerlink" href="#operation-table" title="Permalink to this headline">¶</a></h2>
-<p>An operation table for a structure <span class="math notranslate nohighlight">\((A, *)\)</span> of order <span class="math notranslate nohighlight">\(n\)</span> is an <span class="math notranslate nohighlight">\(n \times n\)</span> array of products such that the product <span class="math notranslate nohighlight">\(x * y\)</span> appears in row <span class="math notranslate nohighlight">\(x\)</span> and column <span class="math notranslate nohighlight">\(y\)</span>.<br></p>
-<p><span style="color: green">Example</span><br>
-An operation table for the structure <span class="math notranslate nohighlight">\((\{1, 2, 3\}, *)\)</span> might be</p>
-<div class="math notranslate nohighlight">
-\[\begin{split}
-\begin{array}{c | c c c}
-* &amp; 1 &amp; 2 &amp; 3 \\
-\hline 
-1 &amp; 3 &amp; 2 &amp; 1 \\ 
-2 &amp; 3 &amp; 1 &amp; 3 \\ 
-3 &amp; 2 &amp; 3 &amp; 3 \\ 
-\end{array}
-\end{split}\]</div>
-</div>
+<hr class="docutils" />
 <div class="section" id="properties-of-structures">
 <h2>Properties of Structures<a class="headerlink" href="#properties-of-structures" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="closure">
 <h3>Closure<a class="headerlink" href="#closure" title="Permalink to this headline">¶</a></h3>
-<p>Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure and let <span class="math notranslate nohighlight">\(B\)</span> be a subset of <span class="math notranslate nohighlight">\(A\)</span>.<br>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure and let <span class="math notranslate nohighlight">\(B\)</span> be a subset of <span class="math notranslate nohighlight">\(A\)</span>.<br>
 <span class="math notranslate nohighlight">\(B\)</span> is <em>closed under <span class="math notranslate nohighlight">\(*\)</span></em> iff for all <span class="math notranslate nohighlight">\(x, y \in B, x * y \in B\)</span>.<br></p>
 <p><span class="math notranslate nohighlight">\(A\)</span> is closed under <span class="math notranslate nohighlight">\(*\)</span> since <span class="math notranslate nohighlight">\(*\)</span> is a function that maps to <span class="math notranslate nohighlight">\(A\)</span>.<br>
 For any proper subset <span class="math notranslate nohighlight">\(B\)</span> of <span class="math notranslate nohighlight">\(A\)</span> that is closed under <span class="math notranslate nohighlight">\(*\)</span>, the same operation <span class="math notranslate nohighlight">\(*\)</span> is used to denote the restriction of the operation to <span class="math notranslate nohighlight">\(B \times B\)</span>.<br></p>
@@ -372,8 +393,253 @@ For any proper subset <span class="math notranslate nohighlight">\(B\)</span> of
 <p><span class="math notranslate nohighlight">\(B\)</span> is closed under <span class="math notranslate nohighlight">\(*\)</span><br>
 <span class="math notranslate nohighlight">\(*\)</span> is an operation on <span class="math notranslate nohighlight">\(B\)</span><br>
 <span class="math notranslate nohighlight">\((B, *)\)</span> is a structure<br></p>
-<hr class="docutils" />
 </div>
+<div class="section" id="associativity">
+<h3>Associativity<a class="headerlink" href="#associativity" title="Permalink to this headline">¶</a></h3>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.<br>
+<span class="math notranslate nohighlight">\(*\)</span> is associative on <span class="math notranslate nohighlight">\(A\)</span> iff for all <span class="math notranslate nohighlight">\(x, y, z \in A, (x * y) * z = x * (y * z)\)</span>.<br></p>
+</div>
+<div class="section" id="commutativity">
+<h3>Commutativity<a class="headerlink" href="#commutativity" title="Permalink to this headline">¶</a></h3>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.<br>
+<span class="math notranslate nohighlight">\(*\)</span> is commutative on <span class="math notranslate nohighlight">\(A\)</span> iff for all <span class="math notranslate nohighlight">\(x, y \in A, x * y = y * x\)</span>.<br></p>
+</div>
+<div class="section" id="existence-of-an-identity-element">
+<h3>Existence of an Identity Element<a class="headerlink" href="#existence-of-an-identity-element" title="Permalink to this headline">¶</a></h3>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.<br>
+An element <span class="math notranslate nohighlight">\(e\)</span> of <span class="math notranslate nohighlight">\(A\)</span> is an identity element for <span class="math notranslate nohighlight">\(*\)</span> iff for all <span class="math notranslate nohighlight">\(x \in A, x * e = e = e * x\)</span>.<br></p>
+</div>
+<div class="section" id="existence-of-inverse-elements">
+<h3>Existence of Inverse Elements<a class="headerlink" href="#existence-of-inverse-elements" title="Permalink to this headline">¶</a></h3>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.<br>
+If <span class="math notranslate nohighlight">\(A\)</span> has an identity element <span class="math notranslate nohighlight">\(e\)</span>, and <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span> are in <span class="math notranslate nohighlight">\(A\)</span>, then <span class="math notranslate nohighlight">\(b\)</span> is an inverse of <span class="math notranslate nohighlight">\(a\)</span> iff <span class="math notranslate nohighlight">\(a * b = b * a = e\)</span>. In this case, <span class="math notranslate nohighlight">\(a\)</span> would also be an inverse of <span class="math notranslate nohighlight">\(b\)</span>.<br></p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="operation-tables">
+<h2>Operation Tables<a class="headerlink" href="#operation-tables" title="Permalink to this headline">¶</a></h2>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+An operation table for a structure <span class="math notranslate nohighlight">\((A, *)\)</span> of order <span class="math notranslate nohighlight">\(n\)</span> is an <span class="math notranslate nohighlight">\(n \times n\)</span> array of products such that the product <span class="math notranslate nohighlight">\(x * y\)</span> appears in row <span class="math notranslate nohighlight">\(x\)</span> and column <span class="math notranslate nohighlight">\(y\)</span>.<br></p>
+<p><span class="math notranslate nohighlight">\(*\)</span> is commutative on <span class="math notranslate nohighlight">\(A\)</span> if the operation table for <span class="math notranslate nohighlight">\((A, *)\)</span> is symmetric about its main diagonal.<br></p>
+<p>There is no easy way to check that <span class="math notranslate nohighlight">\(*\)</span> is associative on <span class="math notranslate nohighlight">\(A\)</span> just by visually inspecting the operation table for <span class="math notranslate nohighlight">\((A, *)\)</span>.<br>
+For a structure of order <span class="math notranslate nohighlight">\(n\)</span>, associativity requires the equivalence all <span class="math notranslate nohighlight">\(n^3\)</span> products of three elements  <span class="math notranslate nohighlight">\(x * y * z\)</span> grouped two ways  <span class="math notranslate nohighlight">\((x * y) * z\)</span> and  <span class="math notranslate nohighlight">\(x * (y * z)\)</span>.<br></p>
+<p><span style="color: green">Example</span><br>
+<span class="math notranslate nohighlight">\((\{1, 2, 3\}, *)\)</span></p>
+<p>$
+\begin{array}{c | c c c}</p>
+<ul class="simple">
+<li><p>&amp; 1 &amp; 2 &amp; 3 \
+\hline
+1 &amp; 3 &amp; 2 &amp; 1 \
+2 &amp; 3 &amp; 1 &amp; 3 \
+3 &amp; 2 &amp; 3 &amp; 3 \
+\end{array}
+$</p></li>
+</ul>
+<p>Properties<br></p>
+<ul class="simple">
+<li><p>closed under <span class="math notranslate nohighlight">\(*\)</span></p></li>
+<li><p>not commutative</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(1 * 1 = 3\)</span></p></li>
+<li><p><span style="color: red;"><span class="math notranslate nohighlight">\(1 * 2 = 2\)</span> but <span class="math notranslate nohighlight">\(2 * 1 = 3\)</span></span></p></li>
+<li><p><span style="color: red;"><span class="math notranslate nohighlight">\(1 * 3 = 1\)</span> but <span class="math notranslate nohighlight">\(3 * 1 = 2\)</span></span></p></li>
+<li><p><span class="math notranslate nohighlight">\(2 * 2 = 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(2 * 3 = 3\)</span> and <span class="math notranslate nohighlight">\(3 * 2 = 3\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(3 * 3 = 3\)</span></p></li>
+</ul>
+</li>
+<li><p>not associative</p>
+<ul>
+<li><p><span style="color: red;"><span class="math notranslate nohighlight">\((1 * 1) * 1 = 2\)</span> but <span class="math notranslate nohighlight">\(1 * (1 * 1) = 1\)</span></span></p></li>
+<li><p><span style="color: red;"><span class="math notranslate nohighlight">\((1 * 1) * 2 = 3\)</span> but <span class="math notranslate nohighlight">\(1 * (1 * 2) = 2\)</span></span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 * 1) * 3 = 3\)</span> and <span class="math notranslate nohighlight">\(1 * (1 * 3) = 3\)</span></p></li>
+<li><p><span style="color: red;"><span class="math notranslate nohighlight">\((1 * 2) * 1 = 3\)</span> but <span class="math notranslate nohighlight">\(1 * (2 * 1) = 1\)</span></span></p></li>
+<li><p><span style="color: red;"><span class="math notranslate nohighlight">\((1 * 2) * 2 = 1\)</span> but <span class="math notranslate nohighlight">\(1 * (2 * 2) = 3\)</span></span></p></li>
+<li><p><span style="color: red;"><span class="math notranslate nohighlight">\((1 * 2) * 3 = 3\)</span> but <span class="math notranslate nohighlight">\(1 * (2 * 3) = 1\)</span></span></p></li>
+<li><p><span style="color: red;"><span class="math notranslate nohighlight">\((1 * 3) * 1 = 3\)</span> but <span class="math notranslate nohighlight">\(1 * (3 * 1) = 2\)</span></span></p></li>
+<li><p><span style="color: red;"><span class="math notranslate nohighlight">\((1 * 3) * 2 = 2\)</span> but <span class="math notranslate nohighlight">\(1 * (3 * 2) = 1\)</span></span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 * 3) * 3 = 1\)</span> and <span class="math notranslate nohighlight">\(1 * (3 * 3) = 1\)</span></p></li>
+<li><p>…</p></li>
+</ul>
+</li>
+<li><p>no identity element</p></li>
+</ul>
+<p><span style="color: green">Example</span><br>
+<span class="math notranslate nohighlight">\((\{1, 2, 3\}, \circ)\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\begin{array}{c | c c c}
+\circ &amp; 1 &amp; 2 &amp; 3 \\
+\hline 
+1 &amp; 1 &amp; 2 &amp; 3 \\ 
+2 &amp; 1 &amp; 2 &amp; 3 \\ 
+3 &amp; 1 &amp; 2 &amp; 3 \\ 
+\end{array}
+\)</span></p>
+<p>Properties<br></p>
+<ul class="simple">
+<li><p>closed under <span class="math notranslate nohighlight">\(\circ\)</span></p></li>
+<li><p>not commutative</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(1 \circ 1 = 1\)</span></p></li>
+<li><p><span style="color: red;"><span class="math notranslate nohighlight">\(1 \circ 2 = 2\)</span> but <span class="math notranslate nohighlight">\(2 \circ 1 = 1\)</span></span></p></li>
+<li><p>…</p></li>
+</ul>
+</li>
+<li><p>associative</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\((1 \circ 1) \circ 1 = 1\)</span> and <span class="math notranslate nohighlight">\(1 \circ (1 \circ 1) = 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \circ 1) \circ 2 = 2\)</span> and <span class="math notranslate nohighlight">\(1 \circ (1 \circ 2) = 2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \circ 1) \circ 3 = 3\)</span> and <span class="math notranslate nohighlight">\(1 \circ (1 \circ 3) = 3\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \circ 2) \circ 1 = 1\)</span> and <span class="math notranslate nohighlight">\(1 \circ (2 \circ 1) = 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \circ 2) \circ 2 = 2\)</span> and <span class="math notranslate nohighlight">\(1 \circ (2 \circ 2) = 2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \circ 2) \circ 3 = 3\)</span> and <span class="math notranslate nohighlight">\(1 \circ (2 \circ 3) = 3\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \circ 3) \circ 1 = 1\)</span> and <span class="math notranslate nohighlight">\(1 \circ (3 \circ 1) = 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \circ 3) \circ 2 = 2\)</span> and <span class="math notranslate nohighlight">\(1 \circ (3 \circ 2) = 2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \circ 3) \circ 3\)</span> and <span class="math notranslate nohighlight">\(1 \circ (3 \circ 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \circ 1) \circ 1\)</span> and <span class="math notranslate nohighlight">\(2 \circ (1 \circ 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \circ 1) \circ 2\)</span> and <span class="math notranslate nohighlight">\(2 \circ (1 \circ 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \circ 1) \circ 3\)</span> and <span class="math notranslate nohighlight">\(2 \circ (1 \circ 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \circ 2) \circ 1\)</span> and <span class="math notranslate nohighlight">\(2 \circ (2 \circ 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \circ 2) \circ 2\)</span> and <span class="math notranslate nohighlight">\(2 \circ (2 \circ 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \circ 2) \circ 3\)</span> and <span class="math notranslate nohighlight">\(2 \circ (2 \circ 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \circ 3) \circ 1\)</span> and <span class="math notranslate nohighlight">\(2 \circ (3 \circ 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \circ 3) \circ 2\)</span> and <span class="math notranslate nohighlight">\(2 \circ (3 \circ 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \circ 3) \circ 3\)</span> and <span class="math notranslate nohighlight">\(2 \circ (3 \circ 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \circ 1) \circ 1\)</span> and <span class="math notranslate nohighlight">\(3 \circ (1 \circ 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \circ 1) \circ 2\)</span> and <span class="math notranslate nohighlight">\(3 \circ (1 \circ 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \circ 1) \circ 3\)</span> and <span class="math notranslate nohighlight">\(3 \circ (1 \circ 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \circ 2) \circ 1\)</span> and <span class="math notranslate nohighlight">\(3 \circ (2 \circ 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \circ 2) \circ 2\)</span> and <span class="math notranslate nohighlight">\(3 \circ (2 \circ 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \circ 2) \circ 3\)</span> and <span class="math notranslate nohighlight">\(3 \circ (2 \circ 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \circ 3) \circ 1\)</span> and <span class="math notranslate nohighlight">\(3 \circ (3 \circ 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \circ 3) \circ 2\)</span> and <span class="math notranslate nohighlight">\(3 \circ (3 \circ 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \circ 3) \circ 3\)</span> and <span class="math notranslate nohighlight">\(3 \circ (3 \circ 3)\)</span></p></li>
+</ul>
+</li>
+<li><p>no identity element</p></li>
+</ul>
+<p><span style="color: green">Example</span><br>
+<span class="math notranslate nohighlight">\((\{1, 2, 3\}, \cdot)\)</span></p>
+<p><span class="math notranslate nohighlight">\(
+\begin{array}{c | c c c}
+\cdot &amp; 1 &amp; 2 &amp; 3 \\
+\hline 
+1 &amp; 3 &amp; 1 &amp; 2 \\ 
+2 &amp; 1 &amp; 2 &amp; 3 \\ 
+3 &amp; 2 &amp; 3 &amp; 1 \\ 
+\end{array}
+\)</span></p>
+<p>Properties<br></p>
+<ul class="simple">
+<li><p>closed under <span class="math notranslate nohighlight">\(\cdot\)</span></p></li>
+<li><p>commutative</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(1 \cdot 1 = 3\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(1 \cdot 2 = 1\)</span> and <span class="math notranslate nohighlight">\(2 \cdot 1 = 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(1 \cdot 3 = 2\)</span> and <span class="math notranslate nohighlight">\(3 \cdot 1 = 2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(2 \cdot 2 = 2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(2 \cdot 3 = 3\)</span> and <span class="math notranslate nohighlight">\(3 \cdot 2 = 3\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(3 \cdot 3 = 1\)</span></p></li>
+</ul>
+</li>
+<li><p>associative</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\((1 \cdot 1) \cdot 1\)</span> and <span class="math notranslate nohighlight">\(1 \cdot (1 \cdot 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \cdot 1) \cdot 2\)</span> and <span class="math notranslate nohighlight">\(1 \cdot (1 \cdot 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \cdot 1) \cdot 3\)</span> and <span class="math notranslate nohighlight">\(1 \cdot (1 \cdot 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \cdot 2) \cdot 1\)</span> and <span class="math notranslate nohighlight">\(1 \cdot (2 \cdot 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \cdot 2) \cdot 2\)</span> and <span class="math notranslate nohighlight">\(1 \cdot (2 \cdot 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \cdot 2) \cdot 3\)</span> and <span class="math notranslate nohighlight">\(1 \cdot (2 \cdot 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \cdot 3) \cdot 1\)</span> and <span class="math notranslate nohighlight">\(1 \cdot (3 \cdot 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \cdot 3) \cdot 2\)</span> and <span class="math notranslate nohighlight">\(1 \cdot (3 \cdot 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((1 \cdot 3) \cdot 3\)</span> and <span class="math notranslate nohighlight">\(1 \cdot (3 \cdot 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \cdot 1) \cdot 1\)</span> and <span class="math notranslate nohighlight">\(2 \cdot (1 \cdot 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \cdot 1) \cdot 2\)</span> and <span class="math notranslate nohighlight">\(2 \cdot (1 \cdot 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \cdot 1) \cdot 3\)</span> and <span class="math notranslate nohighlight">\(2 \cdot (1 \cdot 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \cdot 2) \cdot 1\)</span> and <span class="math notranslate nohighlight">\(2 \cdot (2 \cdot 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \cdot 2) \cdot 2\)</span> and <span class="math notranslate nohighlight">\(2 \cdot (2 \cdot 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \cdot 2) \cdot 3\)</span> and <span class="math notranslate nohighlight">\(2 \cdot (2 \cdot 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \cdot 3) \cdot 1\)</span> and <span class="math notranslate nohighlight">\(2 \cdot (3 \cdot 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \cdot 3) \cdot 2\)</span> and <span class="math notranslate nohighlight">\(2 \cdot (3 \cdot 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((2 \cdot 3) \cdot 3\)</span> and <span class="math notranslate nohighlight">\(2 \cdot (3 \cdot 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \cdot 1) \cdot 1\)</span> and <span class="math notranslate nohighlight">\(3 \cdot (1 \cdot 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \cdot 1) \cdot 2\)</span> and <span class="math notranslate nohighlight">\(3 \cdot (1 \cdot 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \cdot 1) \cdot 3\)</span> and <span class="math notranslate nohighlight">\(3 \cdot (1 \cdot 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \cdot 2) \cdot 1\)</span> and <span class="math notranslate nohighlight">\(3 \cdot (2 \cdot 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \cdot 2) \cdot 2\)</span> and <span class="math notranslate nohighlight">\(3 \cdot (2 \cdot 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \cdot 2) \cdot 3\)</span> and <span class="math notranslate nohighlight">\(3 \cdot (2 \cdot 3)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \cdot 3) \cdot 1\)</span> and <span class="math notranslate nohighlight">\(3 \cdot (3 \cdot 1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \cdot 3) \cdot 2\)</span> and <span class="math notranslate nohighlight">\(3 \cdot (3 \cdot 2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((3 \cdot 3) \cdot 3\)</span> and <span class="math notranslate nohighlight">\(3 \cdot (3 \cdot 3)\)</span></p></li>
+</ul>
+</li>
+<li><p>identity element 2</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(1 \cdot 2 = 1 = 2 \cdot 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(2 \cdot 2 = 2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(3 \cdot 2 = 3 = 2 \cdot 3\)</span></p></li>
+</ul>
+</li>
+<li><p>inverse elements</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(1\)</span> and <span class="math notranslate nohighlight">\(3\)</span> are inverses</p></li>
+<li><p><span class="math notranslate nohighlight">\(2\)</span> is its own inverse</p></li>
+</ul>
+</li>
+</ul>
+<p><span style="color: green">Example</span><br>
+<span class="math notranslate nohighlight">\((\{1, 2, 3\}, +)\)</span></p>
+<p>$
+\begin{array}{c | c c c}</p>
+<ul class="simple">
+<li><p>&amp; 1 &amp; 2 &amp; 3 \
+\hline
+1 &amp; 3 &amp; 3 &amp; 1 \
+2 &amp; 1 &amp; 1 &amp; 2 \
+3 &amp; 1 &amp; 2 &amp; 3 \
+\end{array}
+$</p></li>
+</ul>
+<p>Properties<br></p>
+<ul class="simple">
+<li><p>closed under <span class="math notranslate nohighlight">\(+\)</span></p></li>
+<li><p>not commutative</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(1 + 1 = 3\)</span></p></li>
+<li><p><span style="color: red;"><span class="math notranslate nohighlight">\(1 + 2 = 3\)</span> but <span class="math notranslate nohighlight">\(2 + 1 = 1\)</span></span></p></li>
+<li><p><span class="math notranslate nohighlight">\(1 + 3 = 1\)</span> and <span class="math notranslate nohighlight">\(3 + 1 = 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(2 + 2 = 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(2 + 3 = 2\)</span> and <span class="math notranslate nohighlight">\(3 + 2 = 2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(3 + 3 = 3\)</span></p></li>
+</ul>
+</li>
+<li><p>not associative</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\((1 + 1) + 1 = 1\)</span> and <span class="math notranslate nohighlight">\(1 + (1 + 1) = 1\)</span></p></li>
+<li><p><span style="color: red;"><span class="math notranslate nohighlight">\((1 + 1) + 2 = 2\)</span> but <span class="math notranslate nohighlight">\(1 + (1 + 2) = 1\)</span></span></p></li>
+<li><p>…</p></li>
+</ul>
+</li>
+<li><p>identity element 3</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(1 + 3 = 1 = 3 + 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(2 + 3 = 2 = 3 + 2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(3 + 3 = 3\)</span></p></li>
+</ul>
+</li>
+<li><p>inverse elements</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(3\)</span> is its own inverse</p></li>
+<li><p><span class="math notranslate nohighlight">\(1\)</span> and <span class="math notranslate nohighlight">\(2\)</span> do not have inverses</p></li>
+</ul>
+</li>
+</ul>
+<hr class="docutils" />
 </div>
 </div>
 
