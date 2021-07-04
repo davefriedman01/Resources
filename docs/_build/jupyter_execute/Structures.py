@@ -123,10 +123,17 @@
 # $(B, *)$ is a structure<br>
 
 # ### Associativity
+# [Wiki](https://en.wikipedia.org/wiki/Associative_property)<br>
+# [Wiki](https://en.wikipedia.org/wiki/Operator_associativity)<br>
 # 
 # <span style="color: blue">**DEFINITION**</span><br>
 # Let $(A, *)$ be a structure.<br>
 # $*$ is associative on $A$ iff for all $x, y, z \in A, (x * y) * z = x * (y * z)$.<br>
+
+# What are the implications of associativity?
+# 
+# * So long as factors are written in the same order, parentheses can be discarded: $(ab)c = a(bc) = abc$. This can be extended inductively: $((ab)c)d = (a(bc))d = (abc)d = abcd$.<br>
+# * Since $(xx)x = x(xx) = xxx$, we can define powers such as $x^3$. If $(xx)x \ne x(xx)$, then $x^3$ doesn't work.<br>
 
 # ### Commutativity
 # 
@@ -134,17 +141,41 @@
 # Let $(A, *)$ be a structure.<br>
 # $*$ is commutative on $A$ iff for all $x, y \in A, x * y = y * x$.<br>
 
-# ### Existence of an Identity Element
+# ### Identity Element
 # 
 # <span style="color: blue">**DEFINITION**</span><br>
 # Let $(A, *)$ be a structure.<br>
 # An element $e$ of $A$ is an identity element for $*$ iff for all $x \in A, x * e = e = e * x$.<br>
 
-# ### Existence of Inverse Elements
+# ### Inverse Element
 # 
 # <span style="color: blue">**DEFINITION**</span><br>
 # Let $(A, *)$ be a structure.<br>
 # If $A$ has an identity element $e$, and $a$ and $b$ are in $A$, then $b$ is an inverse of $a$ iff $a * b = b * a = e$. In this case, $a$ would also be an inverse of $b$.<br>
+
+# ---
+
+# ### Theorem: Uniqueness of the Identity Element and of Inverse Elements
+# 
+# Let $(A, *)$ be a structure.<br>
+# 1. $(A, *)$ has at most one identity element.
+# 2. Let $*$ be associative with identity $e$. If $a \in A$ has an inverse, then $a$ has only one inverse.
+
+# __Proof__<br>
+# (Show that if $e$ and $f$ are both identities for $*$, then $e = f$.)<br>
+# Assumption: Let $e$ and $f$ both be identities for $*$.<br>
+# Since $e$ is an identity for $*$, $ef = f = fe$ (by the definition of an identity element).<br>
+# Since $f$ is an identity for $*$, $ef = e = fe$ (by the definition of an identity element).<br>
+# Therefore, $e = f$.<br>
+# $\blacksquare$<br>
+
+# __Proof__<br>
+# (Show that if $x$ and $y$ are both inverses of $a$ for $*$, then $x = y$.)<br>
+# Assumption: Let $x$ and $y$ both be inverses of $a$ for $*$.<br>
+# Since $x$ is an inverse of $a$ for $*$, $ax = xa = e$ (by the definition of an inverse element).<br>
+# Since $y$ is an inverse of $a$ for $*$, $ay = ya = e$ (by the definition of an inverse element).<br>
+# Therefore, $x = y$.<br>
+# $\blacksquare$<br>
 
 # ---
 
@@ -297,7 +328,7 @@
 #   * $2 \cdot 2 = 2$
 #   * $3 \cdot 2 = 3 = 2 \cdot 3$
 # * inverse elements
-#   * $1$ and $3$ are inverses
+#   * $1$ and $3$ are inverses of each other
 #   * $2$ is its own inverse
 
 # <span style="color: green">Example</span><br>
@@ -331,7 +362,35 @@
 #   * $2 + 3 = 2 = 3 + 2$
 #   * $3 + 3 = 3$
 # * inverse elements
-#   * $3$ is its own inverse
-#   * $1$ and $2$ do not have inverses
+#   * $1$ and $3$ are their own inverses
+#   * $2$ does not have an inverse
+
+# ---
+
+# ### Theorem
+# 
+# Let $A$ be a nonempty set and let $\mathscr{F}$ be the set of all bijections $A \rightarrow A$.<br>
+# The tuple $(\mathscr{F}, \circ)$ where $\circ$ is function composition is a structure such that<br>
+# 1. $\circ$ is associative
+# 2. the identity function $I_A$ is the identity element
+# 3. every element in $\mathscr{F}$ has an inverse $f^{-1}$
+
+# __Proof__<br>
+# <span style="color: red;">
+# $\mathscr{F}$ is closed under $\circ$ (proved elsewhere).<br>
+# $\circ$ is associative on $\mathscr{F}$ (proved elsewhere).<br>
+# $I_A$ is the identity element (proved elsewhere).<br>
+# If $f \in \mathscr{F}$, then $f^{-1} \in \mathscr{F}$ (proved elsewhere).<br>
+# $f^{-1}$ is the inverse of $f$ (proved elsewhere)<br>
+# </span>
+
+# ---
+
+# ## What is a semigroup?
+# 
+# <span style="color: blue">**DEFINITION**</span><br>
+# Let $(A, *)$ be a structure.<br>
+# $(A, *)$ is a semigroup iff $*$ is associative over $A$.<br>
+# [Wiki](https://en.wikipedia.org/wiki/Semigroup)<br>
 
 # ---
