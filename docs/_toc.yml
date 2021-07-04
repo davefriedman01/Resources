@@ -4,5 +4,6 @@
 format: jb-book
 root: intro
 chapters:
-- file: Operation
+- file: Sets
+- file: Structures
 - file: PythonBlockchain
