@@ -53,8 +53,8 @@
     <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Python Blockchain" href="PythonBlockchain.html" />
-    <link rel="prev" title="Modular Arithmetic" href="ModularArithmetic.html" />
+    <link rel="next" title="Groups" href="Groups.html" />
+    <link rel="prev" title="Polynomials" href="Polynomials.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -91,6 +91,11 @@
   </a>
  </li>
 </ul>
+<p class="caption">
+ <span class="caption-text">
+  Foundations
+ </span>
+</p>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="Sets.html">
@@ -102,11 +107,28 @@
    Modular Arithmetic
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Polynomials.html">
+   Polynomials
+  </a>
+ </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Structures
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Groups.html">
+   Groups
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Blockchain
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="PythonBlockchain.html">
    Python Blockchain
@@ -300,11 +322,12 @@
 An operation may also be called a function or a computation.</p>
 <p><span style="color: blue"><strong>DEFINITION</strong></span><br>
 Let <span class="math notranslate nohighlight">\(A\)</span> be a nonempty set.<br>
+A <strong>nullary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a constant <span class="math notranslate nohighlight">\(a \in A\)</span>.<br>
 A <strong>unary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(A\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br>
 A <strong>binary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(A \times A\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br>
 A <strong>ternary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(A \times A \times A\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br>
 In general, an <strong><span class="math notranslate nohighlight">\(n\)</span>-ary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(\underbrace{A \times A \times ... \times A}_{n \,\text{times}}\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br></p>
-<p><span style="color: blue">Notation</span><br>
+<p><span style="color: blue">Notation: Binary Operations</span><br>
 <strong>Infix notation</strong> is standard in integer arithmetic <span class="math notranslate nohighlight">\(2 + 2 = 4\)</span><br>
 <strong>Prefix notation</strong> places the operation before its operands like this <span class="math notranslate nohighlight">\(+ \, 2 \, 2 = 4\)</span><br>
 <strong>Function notation</strong> is a special form of prefix notation <span class="math notranslate nohighlight">\(+(2, 2)\)</span>; or more commonly, <span class="math notranslate nohighlight">\(\text{add}(2, 2)\)</span><br></p>
@@ -315,7 +338,7 @@ In general, an <strong><span class="math notranslate nohighlight">\(n\)</span>-a
 <p><span style="color: blue"><strong>DEFINITION</strong></span><br>
 A structure is a nonempty set <span class="math notranslate nohighlight">\(A\)</span> with a collection of one or more operations on <span class="math notranslate nohighlight">\(A\)</span> and a possibly empty collection of relations on <span class="math notranslate nohighlight">\(A\)</span>.<br></p>
 <p><span style="color: blue">Note:</span><br>
-A structure may also be called an algebraic structure or an algebraic system.<br></p>
+A structure may also be called a model, an algebraic structure, an algebraic system, or, simply, an algebra.<br></p>
 <p><span style="color: blue"><strong>DEFINITION</strong></span><br>
 The <strong>order</strong> of a structure is the order of its set.<br></p>
 <p><span style="color: green">Example</span><br>
@@ -453,7 +476,7 @@ If <span class="math notranslate nohighlight">\(A\)</span> has an identity eleme
 <p>Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.<br></p>
 <ol class="simple">
 <li><p><span class="math notranslate nohighlight">\((A, *)\)</span> has at most one identity element.</p></li>
-<li><p>Let <span class="math notranslate nohighlight">\(*\)</span> be associative with identity <span class="math notranslate nohighlight">\(e\)</span>. If <span class="math notranslate nohighlight">\(a \in A\)</span> has an inverse, then <span class="math notranslate nohighlight">\(a\)</span> has only one inverse.</p></li>
+<li><p>Let <span class="math notranslate nohighlight">\(*\)</span> be associative on <span class="math notranslate nohighlight">\(A\)</span> with identity <span class="math notranslate nohighlight">\(e\)</span>. If <span class="math notranslate nohighlight">\(a \in A\)</span> has an inverse, then <span class="math notranslate nohighlight">\(a\)</span> has only one inverse.</p></li>
 </ol>
 <p><strong>Proof</strong><br>
 (Show that if <span class="math notranslate nohighlight">\(e\)</span> and <span class="math notranslate nohighlight">\(f\)</span> are both identities for <span class="math notranslate nohighlight">\(*\)</span>, then <span class="math notranslate nohighlight">\(e = f\)</span>.)<br>
@@ -747,8 +770,8 @@ Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure.
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="ModularArithmetic.html" title="previous page">Modular Arithmetic</a>
-    <a class='right-next' id="next-link" href="PythonBlockchain.html" title="next page">Python Blockchain</a>
+    <a class='left-prev' id="prev-link" href="Polynomials.html" title="previous page">Polynomials</a>
+    <a class='right-next' id="next-link" href="Groups.html" title="next page">Groups</a>
 
         </div>
         

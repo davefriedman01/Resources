@@ -54,173 +54,6 @@ from pprint import pprint
 
 # ---
 
-# ### __Real Polynomial in one variable__<br>
-# $$P(x) = \sum_{k = 0}^n a_k x^k = a_n x^n + a_{n - 1} x^{n - 1} + ... + a_2 x^2 + a_1 x + a_0$$
-# where $n$ is a nonnegative integer and $a_0, a_1, a_2, ..., a_n \in \mathbb{R}$ are constants called the coefficients of the polynomial.<br>
-# If the leading coefficient $a_n \ne 0$, then the degree of the polynomial is $n$.<br>
-# $\text{dom}(P(x)) = \mathbb{R}$<br>
-# 
-# __Polynomial Addition__<br>
-# Let $f(x) = \sum_{k = 0}^n a_k x^k$ and $g(x) = \sum_{k = 0}^n b_k x^k$ be polynomials.<br>
-# 
-# $$(f + g)(x) = \sum_{k = 0}^n (a_k + b_k) x^k$$
-# 
-# __Polynomial Subtraction__<br>
-# Let $f(x) = \sum_{k = 0}^n a_k x^k$ and $g(x) = \sum_{k = 0}^n b_k x^k$ be polynomials.<br>
-# 
-# $$(f - g)(x) = \sum_{k = 0}^n (a_k - b_k) x^k$$
-# 
-# __Polynomial Differentiation__<br>
-# Let $f(x) = \sum_{k = 0}^n a_k x^k$ be a polynomial.<br>
-# 
-# $$f'(x) = \sum_{k = 0}^n k a_k x^{k - 1}$$
-# 
-# ### __Real Polynomial in two variables__<br>
-# $$P(x, y) = \sum a_{nm} x^n y^m$$
-# where $a_i \in \mathbb{R}$ is a constant and $m$ and $n$ are nonnegative integers.<br>
-# If the leading coefficient $a_{nm} \ne 0$, then the degree of the polynomial is $n + m$.<br>
-# $\text{dom}(P(x)) = \mathbb{R}^2$<br>
-# 
-# __General Linear Function in two variables__<br>
-# $$
-# \begin{align}
-# f(x, y)
-# &= a_{10} x + a_{01} y + a_{00} \\
-# &= A x + B y + C \\
-# \end{align}
-# $$
-# 
-# __General Quadratic Function in two variables__<br>
-# $$
-# \begin{align}
-# f(x, y)
-# &= a_{20} x^2 + a_{11} x y + a_{02} y^2 + a_{10} x + a_{01} y + a_{00} \\
-# &= A x^2 + B x y + C y^2 + D x + E y + F \\
-# \end{align}
-# $$
-# 
-# __General Cubic Function in two variables__<br>
-# $$
-# \begin{align}
-# f(x, y)
-# &= a_{30} x^3 + a_{21} x^2 y + a_{12} x y^2 + a_{03} y^3 + a_{20} x^2 + a_{11} x y + a_{02} y^2 + a_{10} x + a_{01} y + a_{00} \\
-# &= A x^3 + B x^2 y + C x y^2 + D y^3 + E x^2 + F x y + G y^2 + H x + I y + J \\
-# \end{align}
-# $$
-# 
-# ### Real Polynomial in several variables
-# $$P(x_1, x_2, ..., x_z) = \sum a_{n_1 n_2 ... n_z} x_1^{n_1} x_2^{n_2} ... x_z^{n_z}$$
-
-# In[2]:
-
-
-class Polynomial:
-    def __init__ (self, *coefficients):
-        self.coefficients = list(coefficients)
-        
-    def __repr__ (self):
-        return f"Polynomial {str(tuple(self.coefficients))}"
-    
-    def __str__ (self):
-        def x_expr (degree):
-            if degree == 0:
-                out = ''
-            elif degree == 1:
-                out = 'x'
-            else:
-                out = f'x^{str(degree)}'
-            return out
-        degree = len(self.coefficients) - 1
-        out = ''
-        for i in range(len(self.coefficients)):
-            coef = self.coefficients[i]
-            if abs(coef) == 1 and i < degree:
-                out += f"{'+' if coef > 0 else '-'}{x_expr(degree - i)}"
-            elif coef != 0:
-                out += f"{coef:+g}{x_expr(degree - i)}"
-        return out.lstrip('+')
-    
-    def __call__ (self, x):
-        #return [0 * x + coef for coef in self.coefficients]
-        return sum([coef * x ** index for index, coef in enumerate(self.coefficients[::-1])])
-    
-    def degree (self):
-        return len(self.coefficients)
-    
-    def __add__ (self, other):
-        P1 = self.coefficients[::-1]
-        P2 = other.coefficients[::-1]
-        return self.__class__(*[sum(t) for t in zip_longest(P1, P2, fillvalue=0)][::-1])
-    
-    def __sub__ (self, other):
-        P1 = self.coefficients[::-1]
-        P2 = other.coefficients[::-1]
-        return self.__class__(*[t1 - t2 for t1, t2 in zip_longest(P1, P2, fillvalue=0)][::-1])
-    
-    def derivative (self):
-        derived_coefs = []
-        exponent = len(self.coefficients) - 1
-        for i in range(len(self.coefficients) - 1):
-            derived_coefs.append(self.coefficients[i] * exponent)
-            exponent -= 1
-        return self.__class__(*derived_coefs)
-
-
-# In[3]:
-
-
-p1 = Polynomial(4, 0, -4, 3, 0)
-p2 = Polynomial(-0.8, 2.3, 0.5, 1, 0.2)
-p_sum = p1 + p2
-p_dif = p1 - p2
-x = np.linspace(-3, 3, 51)
-y1 = p1(x)
-y2 = p2(x)
-y_sum = p_sum(x)
-y_dif = p_dif(x)
-plt.plot(x, y1, label='y1')
-plt.plot(x, y2, label='y2')
-plt.plot(x, y_sum, label='y_sum')
-plt.plot(x, y_dif, label='y_dif')
-plt.legend();
-
-
-# In[4]:
-
-
-n = 5
-display(
-    (n + 1)**2,
-    (n + 1)**2 - sum(range(n + 1)),
-    sum(range(n + 2)),
-    sum(range(n + 1)),
-)
-
-
-# In[5]:
-
-
-p = Polynomial(-0.8, 2.3, 0.5, 1, 0.2)
-dp = p.derivative()
-x = np.linspace(-2, 3, 51)
-y = p(x)
-df = dp(x)
-plt.plot(x, y, label='y')
-plt.plot(x, df, label='dy')
-plt.legend();
-print(p)
-print(dp)
-
-
-# In[6]:
-
-
-for count, poly in enumerate([p]):
-    print(f'$p_{count} = {str(poly)}$')
-
-
-# ---
-
 # __$n$th Root of Unity in a Field $F$__<br>
 # A number $z$ satisfying the equation $z^n = 1$ where $n$ is a positive integer.<br>
 # The roots of unity in $F$ are either complex numbers if the characteristic of $F$ is zero or elements of a finite field if the characteristic of $F$ is prime.<br>
@@ -282,63 +115,7 @@ for count, poly in enumerate([p]):
 
 # ---
 
-# ### Modular Arithmetic
-
-# In[7]:
-
-
-display(
-    (44 + 33) % 57,
-    (44 % 57 + 33 % 57) % 57,
-    
-    (9 - 29) % 57,
-    (9 + (-29)) % 57,
-    (9 % 57 + (-29) % 57) % 57,
-    
-    (17 + 42 + 49) % 57,
-    (17 % 57 + 42 % 57 + 49 % 57) % 57,
-    
-    (52 - 30 - 38) % 57,
-    (52 % 57 - 30 % 57 - 38 % 57) % 57,
-)
-
-
-# In[8]:
-
-
-display(
-    (95 * 45 * 31),
-    (95 * 45 * 31) % 13,
-    (95 % 13 * 45 % 13 * 31 % 13) % 13,
-    
-    (17 * 13 * 19 * 44),
-    (17 * 13 * 19 * 44) % 13,
-    (17 % 13 * 13 % 13 * 19 % 13 * 44 % 13) % 13,
-    
-    (12**7 * 77**49),
-    (12**7 * 77**49) % 13,
-    (12**7 % 13 * 77**49 % 13) % 13,
-    (12 * 77) % 13,
-)
-
-
-# In[9]:
-
-
-p = 31
-display(
-    # 3/24
-    pow(24, p-2, p) * 3 % p,
-    # 17^-3
-    pow(17, p-4, p),
-    # 4^-4 * 11
-    pow(4, p-5, p) * 11 % p
-)
-
-
-# ---
-
-# In[10]:
+# In[2]:
 
 
 class FieldElement:
@@ -527,13 +304,13 @@ def find_generators (order=2):
     return [(element.num, set([(element**i).num for i in range(1, order)])) for element in finite_field[1:]]
 
 
-# In[11]:
+# In[3]:
 
 
 generate_finite_field(5)
 
 
-# In[12]:
+# In[4]:
 
 
 def fermat_little_theorem (order=2):
@@ -547,7 +324,7 @@ def fermat_little_theorem (order=2):
 [fermat_little_theorem(order) for order in range(2, 24)]
 
 
-# In[13]:
+# In[5]:
 
 
 order = 5
@@ -555,7 +332,7 @@ f = generate_finite_field(order)
 find_generators(order)
 
 
-# In[14]:
+# In[6]:
 
 
 order = 19
@@ -598,7 +375,7 @@ for k in f[1:]:
 # For all points A there is some point -A such that their point addition yields the point at infinity.<br>
 # Visually, a point and its inverse are reflected over the x-axis.<br>
 
-# In[15]:
+# In[7]:
 
 
 a_min, a_max = -2, 2
@@ -627,7 +404,7 @@ fig.supxlabel(f'${a_min} < a < {a_max}$')
 fig.supylabel(f'${b_min} < b < {b_max}$');#, rotation=0);
 
 
-# In[16]:
+# In[8]:
 
 
 a = 0
@@ -668,7 +445,7 @@ plt.contour(x.ravel(), y.ravel(), pow(y, 2) - pow(x, 3) - x * a - b, [0]);
 # $y = 483A DA77 26A3 C465 5DA4 FBFC 0E11 08A8 FD17 B448 A685 5419 9C47 D08F FB10 D4B8$<br>
 # The uncompressed base point begins with $04$ followed by the hexadecimal representation of $x$ and $y$ concatenated together.<br>
 
-# In[17]:
+# In[9]:
 
 
 p = 2**256 - 2**32 - 977
@@ -691,7 +468,7 @@ display(
 )
 
 
-# In[18]:
+# In[10]:
 
 
 def bits_per_int (positive_integer):
@@ -708,7 +485,7 @@ def fast_exponentiation (num, exp):
     return mul
 
 
-# In[19]:
+# In[11]:
 
 
 class Point:
@@ -800,7 +577,7 @@ def plot_elliptic_curve (points, a=0, b=7):
             plt.scatter(point.x, point.y);
 
 
-# In[20]:
+# In[12]:
 
 
 p1 + p1
@@ -823,7 +600,7 @@ plot_elliptic_curve(points, 5, 7)
 
 # # ECC Elliptic Curve Cryptography
 
-# In[22]:
+# In[60]:
 
 
 order = 223
@@ -855,7 +632,7 @@ display(
 )
 
 
-# In[23]:
+# In[46]:
 
 
 def hash256 (s):
@@ -942,7 +719,7 @@ class PrivateKey:
 
 # ---
 
-# In[24]:
+# In[47]:
 
 
 from unittest import TestCase, TestSuite, TextTestRunner

@@ -3,8 +3,14 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: Sets
-- file: ModularArithmetic
-- file: Structures
-- file: PythonBlockchain
+parts:
+  - caption: Foundations
+    chapters:
+    - file: Sets
+    - file: ModularArithmetic
+    - file: Polynomials
+    - file: Structures
+    - file: Groups
+  - caption: Blockchain
+    chapters:
+    - file: PythonBlockchain

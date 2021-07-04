@@ -12,12 +12,13 @@
 
 # <span style="color: blue">**DEFINITION**</span><br>
 # Let $A$ be a nonempty set.<br>
+# A __nullary operation__ on $A$ is a constant $a \in A$.<br>
 # A __unary operation__ on $A$ is a function from $A$ to $A$.<br>
 # A __binary operation__ on $A$ is a function from $A \times A$ to $A$.<br>
 # A __ternary operation__ on $A$ is a function from $A \times A \times A$ to $A$.<br>
 # In general, an __$n$-ary operation__ on $A$ is a function from $\underbrace{A \times A \times ... \times A}_{n \,\text{times}}$ to $A$.<br>
 
-# <span style="color: blue">Notation</span><br>
+# <span style="color: blue">Notation: Binary Operations</span><br>
 # __Infix notation__ is standard in integer arithmetic $2 + 2 = 4$<br>
 # __Prefix notation__ places the operation before its operands like this $+ \, 2 \, 2 = 4$<br>
 # __Function notation__ is a special form of prefix notation $+(2, 2)$; or more commonly, $\text{add}(2, 2)$<br>
@@ -30,7 +31,7 @@
 # A structure is a nonempty set $A$ with a collection of one or more operations on $A$ and a possibly empty collection of relations on $A$.<br>
 
 # <span style="color: blue">Note:</span><br>
-# A structure may also be called an algebraic structure or an algebraic system.<br>
+# A structure may also be called a model, an algebraic structure, an algebraic system, or, simply, an algebra.<br>
 
 # <span style="color: blue">**DEFINITION**</span><br>
 # The __order__ of a structure is the order of its set.<br>
@@ -159,7 +160,7 @@
 # 
 # Let $(A, *)$ be a structure.<br>
 # 1. $(A, *)$ has at most one identity element.
-# 2. Let $*$ be associative with identity $e$. If $a \in A$ has an inverse, then $a$ has only one inverse.
+# 2. Let $*$ be associative on $A$ with identity $e$. If $a \in A$ has an inverse, then $a$ has only one inverse.
 
 # __Proof__<br>
 # (Show that if $e$ and $f$ are both identities for $*$, then $e = f$.)<br>
