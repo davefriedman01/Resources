@@ -53,7 +53,7 @@
     <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Structures" href="Structures.html" />
+    <link rel="prev" title="Groups" href="Groups.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -90,7 +90,12 @@
   </a>
  </li>
 </ul>
-<ul class="current nav bd-sidenav">
+<p class="caption">
+ <span class="caption-text">
+  Foundations
+ </span>
+</p>
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="Sets.html">
    Sets
@@ -102,10 +107,27 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="Polynomials.html">
+   Polynomials
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="Structures.html">
    Structures
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Groups.html">
+   Groups
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Blockchain
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Python Blockchain
@@ -219,34 +241,6 @@
   <a class="reference internal nav-link" href="#">
    Python Blockchain
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#real-polynomial-in-one-variable-br">
-     <strong>
-      Real Polynomial in one variable
-     </strong>
-     <br/>
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#real-polynomial-in-two-variables-br">
-     <strong>
-      Real Polynomial in two variables
-     </strong>
-     <br/>
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#real-polynomial-in-several-variables">
-     Real Polynomial in several variables
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#modular-arithmetic">
-     Modular Arithmetic
-    </a>
-   </li>
-  </ul>
  </li>
  <li class="toc-h1 nav-item toc-entry">
   <a class="reference internal nav-link" href="#elliptic-curves">
@@ -312,205 +306,6 @@
 <p>BIP39</p>
 <p>BIP44</p>
 <hr class="docutils" />
-<div class="section" id="real-polynomial-in-one-variable-br">
-<h2><strong>Real Polynomial in one variable</strong><br><a class="headerlink" href="#real-polynomial-in-one-variable-br" title="Permalink to this headline">¶</a></h2>
-<div class="math notranslate nohighlight">
-\[P(x) = \sum_{k = 0}^n a_k x^k = a_n x^n + a_{n - 1} x^{n - 1} + ... + a_2 x^2 + a_1 x + a_0\]</div>
-<p>where <span class="math notranslate nohighlight">\(n\)</span> is a nonnegative integer and <span class="math notranslate nohighlight">\(a_0, a_1, a_2, ..., a_n \in \mathbb{R}\)</span> are constants called the coefficients of the polynomial.<br>
-If the leading coefficient <span class="math notranslate nohighlight">\(a_n \ne 0\)</span>, then the degree of the polynomial is <span class="math notranslate nohighlight">\(n\)</span>.<br>
-<span class="math notranslate nohighlight">\(\text{dom}(P(x)) = \mathbb{R}\)</span><br></p>
-<p><strong>Polynomial Addition</strong><br>
-Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> and <span class="math notranslate nohighlight">\(g(x) = \sum_{k = 0}^n b_k x^k\)</span> be polynomials.<br></p>
-<div class="math notranslate nohighlight">
-\[(f + g)(x) = \sum_{k = 0}^n (a_k + b_k) x^k\]</div>
-<p><strong>Polynomial Subtraction</strong><br>
-Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> and <span class="math notranslate nohighlight">\(g(x) = \sum_{k = 0}^n b_k x^k\)</span> be polynomials.<br></p>
-<div class="math notranslate nohighlight">
-\[(f - g)(x) = \sum_{k = 0}^n (a_k - b_k) x^k\]</div>
-<p><strong>Polynomial Differentiation</strong><br>
-Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> be a polynomial.<br></p>
-<div class="math notranslate nohighlight">
-\[f'(x) = \sum_{k = 0}^n k a_k x^{k - 1}\]</div>
-</div>
-<div class="section" id="real-polynomial-in-two-variables-br">
-<h2><strong>Real Polynomial in two variables</strong><br><a class="headerlink" href="#real-polynomial-in-two-variables-br" title="Permalink to this headline">¶</a></h2>
-<div class="math notranslate nohighlight">
-\[P(x, y) = \sum a_{nm} x^n y^m\]</div>
-<p>where <span class="math notranslate nohighlight">\(a_i \in \mathbb{R}\)</span> is a constant and <span class="math notranslate nohighlight">\(m\)</span> and <span class="math notranslate nohighlight">\(n\)</span> are nonnegative integers.<br>
-If the leading coefficient <span class="math notranslate nohighlight">\(a_{nm} \ne 0\)</span>, then the degree of the polynomial is <span class="math notranslate nohighlight">\(n + m\)</span>.<br>
-<span class="math notranslate nohighlight">\(\text{dom}(P(x)) = \mathbb{R}^2\)</span><br></p>
-<p><strong>General Linear Function in two variables</strong><br>
-$<span class="math notranslate nohighlight">\(
-\begin{align}
-f(x, y)
-&amp;= a_{10} x + a_{01} y + a_{00} \\
-&amp;= A x + B y + C \\
-\end{align}
-\)</span>$</p>
-<p><strong>General Quadratic Function in two variables</strong><br>
-$<span class="math notranslate nohighlight">\(
-\begin{align}
-f(x, y)
-&amp;= a_{20} x^2 + a_{11} x y + a_{02} y^2 + a_{10} x + a_{01} y + a_{00} \\
-&amp;= A x^2 + B x y + C y^2 + D x + E y + F \\
-\end{align}
-\)</span>$</p>
-<p><strong>General Cubic Function in two variables</strong><br>
-$<span class="math notranslate nohighlight">\(
-\begin{align}
-f(x, y)
-&amp;= a_{30} x^3 + a_{21} x^2 y + a_{12} x y^2 + a_{03} y^3 + a_{20} x^2 + a_{11} x y + a_{02} y^2 + a_{10} x + a_{01} y + a_{00} \\
-&amp;= A x^3 + B x^2 y + C x y^2 + D y^3 + E x^2 + F x y + G y^2 + H x + I y + J \\
-\end{align}
-\)</span>$</p>
-</div>
-<div class="section" id="real-polynomial-in-several-variables">
-<h2>Real Polynomial in several variables<a class="headerlink" href="#real-polynomial-in-several-variables" title="Permalink to this headline">¶</a></h2>
-<div class="math notranslate nohighlight">
-\[P(x_1, x_2, ..., x_z) = \sum a_{n_1 n_2 ... n_z} x_1^{n_1} x_2^{n_2} ... x_z^{n_z}\]</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Polynomial</span><span class="p">:</span>
-    <span class="k">def</span> <span class="fm">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">coefficients</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">coefficients</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">coefficients</span><span class="p">)</span>
-        
-    <span class="k">def</span> <span class="fm">__repr__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;Polynomial </span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="nb">tuple</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">coefficients</span><span class="p">))</span><span class="si">}</span><span class="s2">&quot;</span>
-    
-    <span class="k">def</span> <span class="fm">__str__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">def</span> <span class="nf">x_expr</span> <span class="p">(</span><span class="n">degree</span><span class="p">):</span>
-            <span class="k">if</span> <span class="n">degree</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-                <span class="n">out</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
-            <span class="k">elif</span> <span class="n">degree</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-                <span class="n">out</span> <span class="o">=</span> <span class="s1">&#39;x&#39;</span>
-            <span class="k">else</span><span class="p">:</span>
-                <span class="n">out</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;x^</span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">degree</span><span class="p">)</span><span class="si">}</span><span class="s1">&#39;</span>
-            <span class="k">return</span> <span class="n">out</span>
-        <span class="n">degree</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">coefficients</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
-        <span class="n">out</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
-        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">coefficients</span><span class="p">)):</span>
-            <span class="n">coef</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">coefficients</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-            <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="n">coef</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">degree</span><span class="p">:</span>
-                <span class="n">out</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="s1">&#39;+&#39;</span> <span class="k">if</span> <span class="n">coef</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="s1">&#39;-&#39;</span><span class="si">}{</span><span class="n">x_expr</span><span class="p">(</span><span class="n">degree</span> <span class="o">-</span> <span class="n">i</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
-            <span class="k">elif</span> <span class="n">coef</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
-                <span class="n">out</span> <span class="o">+=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">coef</span><span class="si">:</span><span class="s2">+g</span><span class="si">}{</span><span class="n">x_expr</span><span class="p">(</span><span class="n">degree</span> <span class="o">-</span> <span class="n">i</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
-        <span class="k">return</span> <span class="n">out</span><span class="o">.</span><span class="n">lstrip</span><span class="p">(</span><span class="s1">&#39;+&#39;</span><span class="p">)</span>
-    
-    <span class="k">def</span> <span class="fm">__call__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
-        <span class="c1">#return [0 * x + coef for coef in self.coefficients]</span>
-        <span class="k">return</span> <span class="nb">sum</span><span class="p">([</span><span class="n">coef</span> <span class="o">*</span> <span class="n">x</span> <span class="o">**</span> <span class="n">index</span> <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">coef</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">coefficients</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">])])</span>
-    
-    <span class="k">def</span> <span class="nf">degree</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">coefficients</span><span class="p">)</span>
-    
-    <span class="k">def</span> <span class="fm">__add__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
-        <span class="n">P1</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">coefficients</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        <span class="n">P2</span> <span class="o">=</span> <span class="n">other</span><span class="o">.</span><span class="n">coefficients</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="o">*</span><span class="p">[</span><span class="nb">sum</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">zip_longest</span><span class="p">(</span><span class="n">P1</span><span class="p">,</span> <span class="n">P2</span><span class="p">,</span> <span class="n">fillvalue</span><span class="o">=</span><span class="mi">0</span><span class="p">)][::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-    
-    <span class="k">def</span> <span class="fm">__sub__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
-        <span class="n">P1</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">coefficients</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        <span class="n">P2</span> <span class="o">=</span> <span class="n">other</span><span class="o">.</span><span class="n">coefficients</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="o">*</span><span class="p">[</span><span class="n">t1</span> <span class="o">-</span> <span class="n">t2</span> <span class="k">for</span> <span class="n">t1</span><span class="p">,</span> <span class="n">t2</span> <span class="ow">in</span> <span class="n">zip_longest</span><span class="p">(</span><span class="n">P1</span><span class="p">,</span> <span class="n">P2</span><span class="p">,</span> <span class="n">fillvalue</span><span class="o">=</span><span class="mi">0</span><span class="p">)][::</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
-    
-    <span class="k">def</span> <span class="nf">derivative</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-        <span class="n">derived_coefs</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="n">exponent</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">coefficients</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
-        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">coefficients</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">):</span>
-            <span class="n">derived_coefs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">coefficients</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="n">exponent</span><span class="p">)</span>
-            <span class="n">exponent</span> <span class="o">-=</span> <span class="mi">1</span>
-        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="vm">__class__</span><span class="p">(</span><span class="o">*</span><span class="n">derived_coefs</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">p1</span> <span class="o">=</span> <span class="n">Polynomial</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-<span class="n">p2</span> <span class="o">=</span> <span class="n">Polynomial</span><span class="p">(</span><span class="o">-</span><span class="mf">0.8</span><span class="p">,</span> <span class="mf">2.3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">)</span>
-<span class="n">p_sum</span> <span class="o">=</span> <span class="n">p1</span> <span class="o">+</span> <span class="n">p2</span>
-<span class="n">p_dif</span> <span class="o">=</span> <span class="n">p1</span> <span class="o">-</span> <span class="n">p2</span>
-<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">51</span><span class="p">)</span>
-<span class="n">y1</span> <span class="o">=</span> <span class="n">p1</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">y2</span> <span class="o">=</span> <span class="n">p2</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">y_sum</span> <span class="o">=</span> <span class="n">p_sum</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">y_dif</span> <span class="o">=</span> <span class="n">p_dif</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;y1&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y2</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;y2&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y_sum</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;y_sum&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y_dif</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;y_dif&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">();</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<img alt="_images/PythonBlockchain_6_0.png" src="_images/PythonBlockchain_6_0.png" />
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">n</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">display</span><span class="p">(</span>
-    <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span>
-    <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="nb">sum</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)),</span>
-    <span class="nb">sum</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)),</span>
-    <span class="nb">sum</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)),</span>
-<span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>36
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>21
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>21
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>15
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">p</span> <span class="o">=</span> <span class="n">Polynomial</span><span class="p">(</span><span class="o">-</span><span class="mf">0.8</span><span class="p">,</span> <span class="mf">2.3</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">)</span>
-<span class="n">dp</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">derivative</span><span class="p">()</span>
-<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">51</span><span class="p">)</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">p</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">dp</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;y&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;dy&#39;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">();</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">dp</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>-0.8x^4+2.3x^3+0.5x^2+x+0.2
--3.2x^3+6.9x^2+x+1
-</pre></div>
-</div>
-<img alt="_images/PythonBlockchain_8_1.png" src="_images/PythonBlockchain_8_1.png" />
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">count</span><span class="p">,</span> <span class="n">poly</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">([</span><span class="n">p</span><span class="p">]):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;$p_</span><span class="si">{</span><span class="n">count</span><span class="si">}</span><span class="s1"> = </span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">poly</span><span class="p">)</span><span class="si">}</span><span class="s1">$&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>$p_0 = -0.8x^4+2.3x^3+0.5x^2+x+0.2$
-</pre></div>
-</div>
-</div>
-</div>
-<hr class="docutils" />
 <p><strong><span class="math notranslate nohighlight">\(n\)</span>th Root of Unity in a Field <span class="math notranslate nohighlight">\(F\)</span></strong><br>
 A number <span class="math notranslate nohighlight">\(z\)</span> satisfying the equation <span class="math notranslate nohighlight">\(z^n = 1\)</span> where <span class="math notranslate nohighlight">\(n\)</span> is a positive integer.<br>
 The roots of unity in <span class="math notranslate nohighlight">\(F\)</span> are either complex numbers if the characteristic of <span class="math notranslate nohighlight">\(F\)</span> is zero or elements of a finite field if the characteristic of <span class="math notranslate nohighlight">\(F\)</span> is prime.<br>
@@ -557,137 +352,6 @@ b^{-1} &amp;= b^{-1} \cdot 1 \\
 &amp;= b^{p - 2} \\
 \end{align}
 \)</span></p>
-</div>
-<hr class="docutils" />
-<div class="section" id="modular-arithmetic">
-<h2>Modular Arithmetic<a class="headerlink" href="#modular-arithmetic" title="Permalink to this headline">¶</a></h2>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span>
-    <span class="p">(</span><span class="mi">44</span> <span class="o">+</span> <span class="mi">33</span><span class="p">)</span> <span class="o">%</span> <span class="mi">57</span><span class="p">,</span>
-    <span class="p">(</span><span class="mi">44</span> <span class="o">%</span> <span class="mi">57</span> <span class="o">+</span> <span class="mi">33</span> <span class="o">%</span> <span class="mi">57</span><span class="p">)</span> <span class="o">%</span> <span class="mi">57</span><span class="p">,</span>
-    
-    <span class="p">(</span><span class="mi">9</span> <span class="o">-</span> <span class="mi">29</span><span class="p">)</span> <span class="o">%</span> <span class="mi">57</span><span class="p">,</span>
-    <span class="p">(</span><span class="mi">9</span> <span class="o">+</span> <span class="p">(</span><span class="o">-</span><span class="mi">29</span><span class="p">))</span> <span class="o">%</span> <span class="mi">57</span><span class="p">,</span>
-    <span class="p">(</span><span class="mi">9</span> <span class="o">%</span> <span class="mi">57</span> <span class="o">+</span> <span class="p">(</span><span class="o">-</span><span class="mi">29</span><span class="p">)</span> <span class="o">%</span> <span class="mi">57</span><span class="p">)</span> <span class="o">%</span> <span class="mi">57</span><span class="p">,</span>
-    
-    <span class="p">(</span><span class="mi">17</span> <span class="o">+</span> <span class="mi">42</span> <span class="o">+</span> <span class="mi">49</span><span class="p">)</span> <span class="o">%</span> <span class="mi">57</span><span class="p">,</span>
-    <span class="p">(</span><span class="mi">17</span> <span class="o">%</span> <span class="mi">57</span> <span class="o">+</span> <span class="mi">42</span> <span class="o">%</span> <span class="mi">57</span> <span class="o">+</span> <span class="mi">49</span> <span class="o">%</span> <span class="mi">57</span><span class="p">)</span> <span class="o">%</span> <span class="mi">57</span><span class="p">,</span>
-    
-    <span class="p">(</span><span class="mi">52</span> <span class="o">-</span> <span class="mi">30</span> <span class="o">-</span> <span class="mi">38</span><span class="p">)</span> <span class="o">%</span> <span class="mi">57</span><span class="p">,</span>
-    <span class="p">(</span><span class="mi">52</span> <span class="o">%</span> <span class="mi">57</span> <span class="o">-</span> <span class="mi">30</span> <span class="o">%</span> <span class="mi">57</span> <span class="o">-</span> <span class="mi">38</span> <span class="o">%</span> <span class="mi">57</span><span class="p">)</span> <span class="o">%</span> <span class="mi">57</span><span class="p">,</span>
-<span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>20
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>20
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>37
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>37
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>37
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>51
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>51
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>41
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>41
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span>
-    <span class="p">(</span><span class="mi">95</span> <span class="o">*</span> <span class="mi">45</span> <span class="o">*</span> <span class="mi">31</span><span class="p">),</span>
-    <span class="p">(</span><span class="mi">95</span> <span class="o">*</span> <span class="mi">45</span> <span class="o">*</span> <span class="mi">31</span><span class="p">)</span> <span class="o">%</span> <span class="mi">13</span><span class="p">,</span>
-    <span class="p">(</span><span class="mi">95</span> <span class="o">%</span> <span class="mi">13</span> <span class="o">*</span> <span class="mi">45</span> <span class="o">%</span> <span class="mi">13</span> <span class="o">*</span> <span class="mi">31</span> <span class="o">%</span> <span class="mi">13</span><span class="p">)</span> <span class="o">%</span> <span class="mi">13</span><span class="p">,</span>
-    
-    <span class="p">(</span><span class="mi">17</span> <span class="o">*</span> <span class="mi">13</span> <span class="o">*</span> <span class="mi">19</span> <span class="o">*</span> <span class="mi">44</span><span class="p">),</span>
-    <span class="p">(</span><span class="mi">17</span> <span class="o">*</span> <span class="mi">13</span> <span class="o">*</span> <span class="mi">19</span> <span class="o">*</span> <span class="mi">44</span><span class="p">)</span> <span class="o">%</span> <span class="mi">13</span><span class="p">,</span>
-    <span class="p">(</span><span class="mi">17</span> <span class="o">%</span> <span class="mi">13</span> <span class="o">*</span> <span class="mi">13</span> <span class="o">%</span> <span class="mi">13</span> <span class="o">*</span> <span class="mi">19</span> <span class="o">%</span> <span class="mi">13</span> <span class="o">*</span> <span class="mi">44</span> <span class="o">%</span> <span class="mi">13</span><span class="p">)</span> <span class="o">%</span> <span class="mi">13</span><span class="p">,</span>
-    
-    <span class="p">(</span><span class="mi">12</span><span class="o">**</span><span class="mi">7</span> <span class="o">*</span> <span class="mi">77</span><span class="o">**</span><span class="mi">49</span><span class="p">),</span>
-    <span class="p">(</span><span class="mi">12</span><span class="o">**</span><span class="mi">7</span> <span class="o">*</span> <span class="mi">77</span><span class="o">**</span><span class="mi">49</span><span class="p">)</span> <span class="o">%</span> <span class="mi">13</span><span class="p">,</span>
-    <span class="p">(</span><span class="mi">12</span><span class="o">**</span><span class="mi">7</span> <span class="o">%</span> <span class="mi">13</span> <span class="o">*</span> <span class="mi">77</span><span class="o">**</span><span class="mi">49</span> <span class="o">%</span> <span class="mi">13</span><span class="p">)</span> <span class="o">%</span> <span class="mi">13</span><span class="p">,</span>
-    <span class="p">(</span><span class="mi">12</span> <span class="o">*</span> <span class="mi">77</span><span class="p">)</span> <span class="o">%</span> <span class="mi">13</span><span class="p">,</span>
-<span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>132525
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>3
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>184756
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>9824585935875405405873621046934295249373163345274197996543779245714472948044575493508622853379178496
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">p</span> <span class="o">=</span> <span class="mi">31</span>
-<span class="n">display</span><span class="p">(</span>
-    <span class="c1"># 3/24</span>
-    <span class="nb">pow</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span> <span class="n">p</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="n">p</span><span class="p">)</span> <span class="o">*</span> <span class="mi">3</span> <span class="o">%</span> <span class="n">p</span><span class="p">,</span>
-    <span class="c1"># 17^-3</span>
-    <span class="nb">pow</span><span class="p">(</span><span class="mi">17</span><span class="p">,</span> <span class="n">p</span><span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="n">p</span><span class="p">),</span>
-    <span class="c1"># 4^-4 * 11</span>
-    <span class="nb">pow</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="n">p</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="n">p</span><span class="p">)</span> <span class="o">*</span> <span class="mi">11</span> <span class="o">%</span> <span class="n">p</span>
-<span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>4
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>29
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>13
-</pre></div>
-</div>
-</div>
-</div>
 <hr class="docutils" />
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -983,7 +647,6 @@ b^{-1} &amp;= b^{-1} \cdot 1 \\
 </div>
 </div>
 </div>
-</div>
 <hr class="docutils" />
 <div class="section" id="elliptic-curves">
 <h1>Elliptic Curves<a class="headerlink" href="#elliptic-curves" title="Permalink to this headline">¶</a></h1>
@@ -1041,7 +704,7 @@ Visually, a point and its inverse are reflected over the x-axis.<br></p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/PythonBlockchain_27_0.png" src="_images/PythonBlockchain_27_0.png" />
+<img alt="_images/PythonBlockchain_15_0.png" src="_images/PythonBlockchain_15_0.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -1054,7 +717,7 @@ Visually, a point and its inverse are reflected over the x-axis.<br></p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/PythonBlockchain_28_0.png" src="_images/PythonBlockchain_28_0.png" />
+<img alt="_images/PythonBlockchain_16_0.png" src="_images/PythonBlockchain_16_0.png" />
 </div>
 </div>
 <p><strong>SEC P256 Koblitz 1 secp256k1 Bitcoin Elliptic Curve</strong><br>
@@ -1255,7 +918,12 @@ The uncompressed base point begins with <span class="math notranslate nohighligh
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Polynomial (8, 0, -8, 6, 0)
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="n">ed9582f37d35</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">p1</span> <span class="o">+</span> <span class="n">p1</span>
+
+<span class="ne">NameError</span>: name &#39;p1&#39; is not defined
 </pre></div>
 </div>
 </div>
@@ -1274,7 +942,7 @@ The uncompressed base point begins with <span class="math notranslate nohighligh
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/PythonBlockchain_34_0.png" src="_images/PythonBlockchain_34_0.png" />
+<img alt="_images/PythonBlockchain_22_0.png" src="_images/PythonBlockchain_22_0.png" />
 </div>
 </div>
 </div>
@@ -1660,90 +1328,66 @@ The uncompressed base point begins with <span class="math notranslate nohighligh
 </div>
 <div class="cell_output docutils container">
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>.
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
+----------------------------------------------------------------------
 Ran 1 test in 0.001s
 
 OK
 .
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-OK
-.
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.000s
-
-OK
-.
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
+----------------------------------------------------------------------
 Ran 1 test in 0.001s
 
 OK
 .
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.000s
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
 
 OK
 .
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.000s
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
 
 OK
 .
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.000s
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
 
 OK
 .
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.000s
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
 
 OK
 .
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.000s
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
 
 OK
 .
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.000s
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
 
 OK
 .
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
-Ran 1 test in 0.000s
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
 
 OK
 E
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>======================================================================
+======================================================================
 ERROR: test_add (__main__.ECCTest)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File &quot;&lt;ipython-input-24-09572a148a0c&gt;&quot;, line 121, in test_add
+  File &quot;&lt;ipython-input-47-09572a148a0c&gt;&quot;, line 121, in test_add
     raise NotImplementedError
 NotImplementedError
 
@@ -1752,9 +1396,7 @@ Ran 1 test in 0.001s
 
 FAILED (errors=1)
 .
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>----------------------------------------------------------------------
+----------------------------------------------------------------------
 Ran 1 test in 0.001s
 
 OK
@@ -1790,7 +1432,7 @@ OK
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="Structures.html" title="previous page">Structures</a>
+    <a class='left-prev' id="prev-link" href="Groups.html" title="previous page">Groups</a>
 
         </div>
         
