@@ -212,9 +212,31 @@
             <nav id="bd-toc-nav">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#closure">
-   Closure
+  <a class="reference internal nav-link" href="#what-is-an-operation">
+   What is an operation?
   </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-is-a-structure">
+   What is a structure?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#operation-table">
+   Operation Table
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#properties-of-structures">
+   Properties of Structures
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#closure">
+     Closure
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -230,22 +252,30 @@
   <div class="section" id="structures">
 <h1>Structures<a class="headerlink" href="#structures" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<p><span style="color: blue; font-size: 20px;"><strong>Operation</strong></span></p>
-<p>An operation may also be called a function or a computation.</p>
-<p>Let <span class="math notranslate nohighlight">\(A\)</span> be a nonempty set.<br>
+<div class="section" id="what-is-an-operation">
+<h2>What is an operation?<a class="headerlink" href="#what-is-an-operation" title="Permalink to this headline">¶</a></h2>
+<p><span style="color: blue">Note:</span><br>
+An operation may also be called a function or a computation.</p>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+Let <span class="math notranslate nohighlight">\(A\)</span> be a nonempty set.<br>
 For example, a <strong>unary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(A\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br>
 A <strong>binary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(A \times A\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br>
 A <strong>ternary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(A \times A \times A\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br>
 In general, an <strong><span class="math notranslate nohighlight">\(n\)</span>-ary operation</strong> on <span class="math notranslate nohighlight">\(A\)</span> is a function from <span class="math notranslate nohighlight">\(\underbrace{A \times A \times ... \times A}_{n \,\text{times}}\)</span> to <span class="math notranslate nohighlight">\(A\)</span>.<br></p>
-<p>A note on notation:</p>
+<p><span style="color: blue">Notation</span><br></p>
 <p><strong>Infix notation</strong> is standard in integer arithmetic <span class="math notranslate nohighlight">\(2 + 2 = 4\)</span></p>
 <p><strong>Prefix notation</strong> places the operation before its operands like this <span class="math notranslate nohighlight">\(+ \, 2 \, 2 = 4\)</span></p>
 <p><strong>Function notation</strong> is a special form of prefix notation <span class="math notranslate nohighlight">\(+(2, 2)\)</span>; or more commonly, <span class="math notranslate nohighlight">\(\text{add}(2, 2)\)</span></p>
+</div>
 <hr class="docutils" />
-<p><span style="color: blue; font-size: 20px;"><strong>Structure</strong></span></p>
-<p>A structure is a nonempty set <span class="math notranslate nohighlight">\(A\)</span> with a collection of one or more operations on <span class="math notranslate nohighlight">\(A\)</span> and a possibly empty collection of relations on <span class="math notranslate nohighlight">\(A\)</span>.<br>
+<div class="section" id="what-is-a-structure">
+<h2>What is a structure?<a class="headerlink" href="#what-is-a-structure" title="Permalink to this headline">¶</a></h2>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+A structure is a nonempty set <span class="math notranslate nohighlight">\(A\)</span> with a collection of one or more operations on <span class="math notranslate nohighlight">\(A\)</span> and a possibly empty collection of relations on <span class="math notranslate nohighlight">\(A\)</span>.<br></p>
+<p><span style="color: blue">Note:</span><br>
 A structure may also be called an algebraic structure or an algebraic system.<br></p>
-<p>The <strong>order</strong> of a structure is the order of its set.<br></p>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+The <strong>order</strong> of a structure is the order of its set.<br></p>
 <p>Examples of structures:</p>
 <p><span class="math notranslate nohighlight">\((\mathbb{R}, +, \cdot, \lt)\)</span></p>
 <ul class="simple">
@@ -313,9 +343,27 @@ A structure may also be called an algebraic structure or an algebraic system.<br
 <li><p>order 1</p></li>
 <li><p>closed under <span class="math notranslate nohighlight">\(+\)</span></p></li>
 </ul>
-<p><span style="color: blue; font-size: 20px;"><strong>Properties of Structures</strong></span></p>
+</div>
+<div class="section" id="operation-table">
+<h2>Operation Table<a class="headerlink" href="#operation-table" title="Permalink to this headline">¶</a></h2>
+<p>An operation table for a structure <span class="math notranslate nohighlight">\((A, *)\)</span> of order <span class="math notranslate nohighlight">\(n\)</span> is an <span class="math notranslate nohighlight">\(n \times n\)</span> array of products such that the product <span class="math notranslate nohighlight">\(x * y\)</span> appears in row <span class="math notranslate nohighlight">\(x\)</span> and column <span class="math notranslate nohighlight">\(y\)</span>.<br></p>
+<p><span style="color: green">Example</span><br>
+An operation table for the structure <span class="math notranslate nohighlight">\((\{1, 2, 3\}, *)\)</span> might be</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{array}{c | c c c}
+* &amp; 1 &amp; 2 &amp; 3 \\
+\hline 
+1 &amp; 3 &amp; 2 &amp; 1 \\ 
+2 &amp; 3 &amp; 1 &amp; 3 \\ 
+3 &amp; 2 &amp; 3 &amp; 3 \\ 
+\end{array}
+\end{split}\]</div>
+</div>
+<div class="section" id="properties-of-structures">
+<h2>Properties of Structures<a class="headerlink" href="#properties-of-structures" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="closure">
-<h2>Closure<a class="headerlink" href="#closure" title="Permalink to this headline">¶</a></h2>
+<h3>Closure<a class="headerlink" href="#closure" title="Permalink to this headline">¶</a></h3>
 <p>Let <span class="math notranslate nohighlight">\((A, *)\)</span> be a structure and let <span class="math notranslate nohighlight">\(B\)</span> be a subset of <span class="math notranslate nohighlight">\(A\)</span>.<br>
 <span class="math notranslate nohighlight">\(B\)</span> is <em>closed under <span class="math notranslate nohighlight">\(*\)</span></em> iff for all <span class="math notranslate nohighlight">\(x, y \in B, x * y \in B\)</span>.<br></p>
 <p><span class="math notranslate nohighlight">\(A\)</span> is closed under <span class="math notranslate nohighlight">\(*\)</span> since <span class="math notranslate nohighlight">\(*\)</span> is a function that maps to <span class="math notranslate nohighlight">\(A\)</span>.<br>
@@ -325,6 +373,7 @@ For any proper subset <span class="math notranslate nohighlight">\(B\)</span> of
 <span class="math notranslate nohighlight">\(*\)</span> is an operation on <span class="math notranslate nohighlight">\(B\)</span><br>
 <span class="math notranslate nohighlight">\((B, *)\)</span> is a structure<br></p>
 <hr class="docutils" />
+</div>
 </div>
 </div>
 

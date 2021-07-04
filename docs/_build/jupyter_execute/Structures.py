@@ -5,17 +5,19 @@
 
 # ---
 
-# <span style="color: blue; font-size: 20px;">**Operation**</span>
+# ## What is an operation?
 
+# <span style="color: blue">Note:</span><br>
 # An operation may also be called a function or a computation.
 
+# <span style="color: blue">**DEFINITION**</span><br>
 # Let $A$ be a nonempty set.<br>
 # For example, a __unary operation__ on $A$ is a function from $A$ to $A$.<br>
 # A __binary operation__ on $A$ is a function from $A \times A$ to $A$.<br>
 # A __ternary operation__ on $A$ is a function from $A \times A \times A$ to $A$.<br>
 # In general, an __$n$-ary operation__ on $A$ is a function from $\underbrace{A \times A \times ... \times A}_{n \,\text{times}}$ to $A$.<br>
 
-# A note on notation:
+# <span style="color: blue">Notation</span><br>
 # 
 # __Infix notation__ is standard in integer arithmetic $2 + 2 = 4$
 # 
@@ -25,11 +27,15 @@
 
 # ---
 
-# <span style="color: blue; font-size: 20px;">**Structure**</span>
+# ## What is a structure?
 
+# <span style="color: blue">**DEFINITION**</span><br>
 # A structure is a nonempty set $A$ with a collection of one or more operations on $A$ and a possibly empty collection of relations on $A$.<br>
+
+# <span style="color: blue">Note:</span><br>
 # A structure may also be called an algebraic structure or an algebraic system.<br>
 
+# <span style="color: blue">**DEFINITION**</span><br>
 # The __order__ of a structure is the order of its set.<br>
 
 # Examples of structures:
@@ -86,7 +92,24 @@
 # * order 1
 # * closed under $+$
 
-# <span style="color: blue; font-size: 20px;">**Properties of Structures**</span>
+# ## Operation Table
+
+# An operation table for a structure $(A, *)$ of order $n$ is an $n \times n$ array of products such that the product $x * y$ appears in row $x$ and column $y$.<br>
+
+# <span style="color: green">Example</span><br>
+# An operation table for the structure $(\{1, 2, 3\}, *)$ might be
+# 
+# $$
+# \begin{array}{c | c c c}
+# * & 1 & 2 & 3 \\
+# \hline 
+# 1 & 3 & 2 & 1 \\ 
+# 2 & 3 & 1 & 3 \\ 
+# 3 & 2 & 3 & 3 \\ 
+# \end{array}
+# $$
+
+# ## Properties of Structures
 
 # ### Closure
 
