@@ -26,3 +26,19 @@ Coding Tech. (2018). ["Blockchain Technology Explained (2 Hour Course)"](https:/
 Coding Tech. (2017). ["Developing Blockchain Software"](https://www.youtube.com/watch?v=RRP65VvIgGg). YouTube.<br>
 Edureka. (2019). ["Blockchain Full Course - 4 Hours | Blockchain Tutorial | Blockchain Technology Explained | Edureka"](https://www.youtube.com/watch?v=QCvL-DWcojc). YouTube.<br>
 Edureka. (2017). ["Blockchain Tutorial | Blockchain Technology | Blockchain Explained | Blockchain Training | Edureka"](https://www.youtube.com/watch?v=jKYhLpHJv8U). YouTube. <br>
+
+
+
+## Terms
+
+Block<br>
+Chain<br>
+Cryptocurrency<br>
+Dapp<br>
+DAO Decentralized Autonomous Organization<br>
+EOS<br>
+ICO Initial Coin Offering<br>
+Node<br>
+STO Security Token Offering<br>
+Smart Contract<br>
+Token<br>

@@ -64,6 +64,7 @@ Naor, Moni [Wiki](https://en.wikipedia.org/wiki/Moni_Naor)<br>
 ## Terms
 
 Adversary [Wiki](https://en.wikipedia.org/wiki/Adversary_(cryptography))<br>
+Birthday Attack [Wiki](https://en.wikipedia.org/wiki/Birthday_attack)<br>
 Blind Signature [Wiki](https://en.wikipedia.org/wiki/Blind_signature)<br>
 Ciphertext [Wiki](https://en.wikipedia.org/wiki/Ciphertext)<br>
 Code [Wiki](https://en.wikipedia.org/wiki/Code_(cryptography))<br>
