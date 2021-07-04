@@ -230,17 +230,6 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#mathbb-z-m-the-set-of-congruence-classes-modulo-m">
-   <span class="math notranslate nohighlight">
-    \(\mathbb{Z}_m\)
-   </span>
-   the set of congruence classes modulo
-   <span class="math notranslate nohighlight">
-    \(m\)
-   </span>
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#theorem">
    Theorem
   </a>
@@ -263,32 +252,31 @@
 <h2>Equivalence Class<a class="headerlink" href="#equivalence-class" title="Permalink to this headline">¶</a></h2>
 <p><span style="color: blue"><strong>DEFINITION</strong></span><br>
 Let <span class="math notranslate nohighlight">\(R\)</span> be an equivalence relation on <span class="math notranslate nohighlight">\(A\)</span>.<br>
-For <span class="math notranslate nohighlight">\(x \in A\)</span>, the equivalence class of <span class="math notranslate nohighlight">\(x\)</span> determined by <span class="math notranslate nohighlight">\(R\)</span> is the set <span class="math notranslate nohighlight">\(x/R = \{y \in A : x R y\}\)</span> which is read “x mod R”.<br></p>
-<p>The set of all equivalence classes <span class="math notranslate nohighlight">\(A/R = \{x/R : x \in A\}\)</span> which is read “A mod R”.<br></p>
+The equivalence class of <span class="math notranslate nohighlight">\(x \in A\)</span> determined by <span class="math notranslate nohighlight">\(R\)</span> is the set <span class="math notranslate nohighlight">\(x/R = \{y \in A : x R y\}\)</span> which is read “x mod R”.<br>
+The set of all equivalence classes determined by <span class="math notranslate nohighlight">\(R\)</span> is <span class="math notranslate nohighlight">\(A/R = \{x/R : x \in A\}\)</span> which is read “A mod R”.<br></p>
 </div>
 <hr class="docutils" />
 <div class="section" id="congruence-modulo-m">
 <h2>Congruence modulo <span class="math notranslate nohighlight">\(m\)</span><a class="headerlink" href="#congruence-modulo-m" title="Permalink to this headline">¶</a></h2>
 <p><span style="color: blue"><strong>DEFINITION</strong></span><br>
-Let <span class="math notranslate nohighlight">\(\equiv_m\)</span> for a fixed integer <span class="math notranslate nohighlight">\(m \ne 0\)</span> be the relation on <span class="math notranslate nohighlight">\(\mathbb{Z}\)</span> given by</p>
+Let <span class="math notranslate nohighlight">\(\equiv_m\)</span> (for a fixed integer <span class="math notranslate nohighlight">\(m \ne 0\)</span>) be the relation (not necessarily the <em>equivalence</em> relation, which will be proved later) on <span class="math notranslate nohighlight">\(\mathbb{Z}\)</span> given by</p>
 <div class="math notranslate nohighlight">
 \[
 x \equiv_m y\,\,\text{iff}\,\, m \,\,\text{divides}\,\, (x - y)
 \]</div>
+<p>The equivalence class of <span class="math notranslate nohighlight">\(x \in \mathbb{Z}\)</span> determined by <span class="math notranslate nohighlight">\(\equiv_m\)</span> is the set <span class="math notranslate nohighlight">\(\bar{x} = \{y \in \mathbb{Z} : x \equiv_m y\}\)</span>.<br>
+The set of equivalence classes determined by <span class="math notranslate nohighlight">\(\equiv_m\)</span> is <span class="math notranslate nohighlight">\(\mathbb{Z}_m = \{\bar{0}, \bar{1}, \bar{2}, ..., \overline{(m - 1)}\}\)</span>.<br></p>
 <p><span style="color: blue">Notation</span><br>
-<span class="math notranslate nohighlight">\(x \equiv_m y\)</span> may be written <span class="math notranslate nohighlight">\(x \equiv y \,(\text{mod}\, m)\)</span> or <span class="math notranslate nohighlight">\(x = y \,(\text{mod}\, m)\)</span><br></p>
-</div>
-<hr class="docutils" />
-<div class="section" id="mathbb-z-m-the-set-of-congruence-classes-modulo-m">
-<h2><span class="math notranslate nohighlight">\(\mathbb{Z}_m\)</span> the set of congruence classes modulo <span class="math notranslate nohighlight">\(m\)</span><a class="headerlink" href="#mathbb-z-m-the-set-of-congruence-classes-modulo-m" title="Permalink to this headline">¶</a></h2>
-<p>In this context, we write <span class="math notranslate nohighlight">\(\bar{x}\)</span> for the equivalence class of <span class="math notranslate nohighlight">\(x\)</span> instead of <span class="math notranslate nohighlight">\(x/\equiv_m\)</span>.<br></p>
-<p>The equivalence class of <span class="math notranslate nohighlight">\(x \in \mathbb{Z}\)</span> is <span class="math notranslate nohighlight">\(\bar{x} = \{y \in \mathbb{Z} : x \equiv_m y\}\)</span></p>
+<span class="math notranslate nohighlight">\(x \equiv_m y\)</span> may be written <span class="math notranslate nohighlight">\(x \equiv y \,(\text{mod}\, m)\)</span> or <span class="math notranslate nohighlight">\(x = y \,(\text{mod}\, m)\)</span><br>
+In this context, we write <span class="math notranslate nohighlight">\(\bar{x}\)</span> for the equivalence class of <span class="math notranslate nohighlight">\(x\)</span> instead of <span class="math notranslate nohighlight">\(x/\equiv_m\)</span>.<br>
+An equivalence class may be called a congruence class or a residue, since <span class="math notranslate nohighlight">\(0, 1, 2, ..., (m - 1)\)</span> are exactly all the possible remainders when integers are divided by <span class="math notranslate nohighlight">\(m\)</span>.<br></p>
 </div>
 <hr class="docutils" />
 <div class="section" id="theorem">
 <h2>Theorem<a class="headerlink" href="#theorem" title="Permalink to this headline">¶</a></h2>
-<p>There are exactly <span class="math notranslate nohighlight">\(m\)</span> different equivalence classes for the relation <span class="math notranslate nohighlight">\(\equiv_m\)</span>.<br>
-The set <span class="math notranslate nohighlight">\(\mathbb{Z}_m\)</span> is always <span class="math notranslate nohighlight">\({\bar{0}, \bar{1}, \bar{2}, ..., \overline{(m - 1)}}\)</span>.<br></p>
+<p><span class="math notranslate nohighlight">\(\equiv_m\)</span> is an equivalence relation on <span class="math notranslate nohighlight">\(\mathbb{Z}\)</span>.<br>
+The set <span class="math notranslate nohighlight">\(\mathbb{Z}_m\)</span> has <span class="math notranslate nohighlight">\(m\)</span> distinct elements <span class="math notranslate nohighlight">\(\{\bar{0}, \bar{1}, \bar{2}, ..., \overline{(m - 1)}\}\)</span>.<br></p>
+<hr class="docutils" />
 </div>
 </div>
 
