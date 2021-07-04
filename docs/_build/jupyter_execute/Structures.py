@@ -161,7 +161,7 @@
 # <span style="color: green">Example</span><br>
 # $(\{1, 2, 3\}, *)$
 # 
-# $
+# $$
 # \begin{array}{c | c c c}
 # * & 1 & 2 & 3 \\
 # \hline 
@@ -169,7 +169,7 @@
 # 2 & 3 & 1 & 3 \\ 
 # 3 & 2 & 3 & 3 \\ 
 # \end{array}
-# $
+# $$
 
 # Properties<br>
 # * closed under $*$
@@ -196,7 +196,7 @@
 # <span style="color: green">Example</span><br>
 # $(\{1, 2, 3\}, \circ)$
 # 
-# $
+# $$
 # \begin{array}{c | c c c}
 # \circ & 1 & 2 & 3 \\
 # \hline 
@@ -204,7 +204,7 @@
 # 2 & 1 & 2 & 3 \\ 
 # 3 & 1 & 2 & 3 \\ 
 # \end{array}
-# $
+# $$
 
 # Properties<br>
 # * closed under $\circ$
@@ -245,7 +245,7 @@
 # <span style="color: green">Example</span><br>
 # $(\{1, 2, 3\}, \cdot)$
 # 
-# $
+# $$
 # \begin{array}{c | c c c}
 # \cdot & 1 & 2 & 3 \\
 # \hline 
@@ -253,7 +253,7 @@
 # 2 & 1 & 2 & 3 \\ 
 # 3 & 2 & 3 & 1 \\ 
 # \end{array}
-# $
+# $$
 
 # Properties<br>
 # * closed under $\cdot$
@@ -303,7 +303,7 @@
 # <span style="color: green">Example</span><br>
 # $(\{1, 2, 3\}, +)$
 # 
-# $
+# $$
 # \begin{array}{c | c c c}
 # + & 1 & 2 & 3 \\
 # \hline 
@@ -311,7 +311,7 @@
 # 2 & 1 & 1 & 2 \\ 
 # 3 & 1 & 2 & 3 \\ 
 # \end{array}
-# $
+# $$
 
 # Properties<br>
 # * closed under $+$
