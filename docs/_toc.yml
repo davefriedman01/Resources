@@ -17,7 +17,7 @@ parts:
     - file: nbs/Groups
     - file: nbs/Fields
       sections:
-        - file: nbs/galois_field/galois_fields.md
+        - file: nbs/galois_fields/galois_fields.md
     - file: nbs/LinearAlgebra
     - file: nbs/mathematical_foundations
   - caption: Modeling
