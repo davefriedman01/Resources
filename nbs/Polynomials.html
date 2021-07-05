@@ -53,7 +53,7 @@
     <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Structures" href="Structures.html" />
+    <link rel="next" title="Conic Sections" href="ConicSections.html" />
     <link rel="prev" title="Modular Arithmetic" href="ModularArithmetic.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -125,6 +125,11 @@
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Polynomials
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ConicSections.html">
+   Conic Sections
   </a>
  </li>
  <li class="toctree-l1">
@@ -291,25 +296,100 @@
             <nav id="bd-toc-nav">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#real-polynomial-in-one-variable-br">
-   <strong>
-    Real Polynomial in one variable
-   </strong>
-   <br/>
+  <a class="reference internal nav-link" href="#real-polynomial-in-one-variable">
+   Real Polynomial in one variable
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#degree">
+     Degree
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#domain">
+     Domain
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#polynomial-addition">
+     Polynomial Addition
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#polynomial-subtraction">
+     Polynomial Subtraction
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#polynomial-differentiation">
+     Polynomial Differentiation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#general-form-of-a-linear-function-in-one-variable">
+     General form of a linear function in one variable
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#general-form-of-a-quadratic-function-in-one-variable">
+     General form of a quadratic function in one variable
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#general-form-of-a-cubic-function-in-one-variable">
+     General form of a cubic function in one variable
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#real-polynomial-in-two-variables-br">
-   <strong>
-    Real Polynomial in two variables
-   </strong>
-   <br/>
+  <a class="reference internal nav-link" href="#real-polynomial-in-two-variables">
+   Real Polynomial in two variables
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Degree
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Domain
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#general-form-of-a-linear-function-in-two-variables">
+     General form of a linear function in two variables
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#general-form-of-a-quadratic-function-in-two-variables">
+     General form of a quadratic function in two variables
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#general-form-of-a-cubic-function-in-two-variables">
+     General form of a cubic function in two variables
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#real-polynomial-in-several-variables">
    Real Polynomial in several variables
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Degree
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Domain
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -324,62 +404,146 @@
                 
   <div class="section" id="polynomials">
 <h1>Polynomials<a class="headerlink" href="#polynomials" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="real-polynomial-in-one-variable-br">
-<h2><strong>Real Polynomial in one variable</strong><br><a class="headerlink" href="#real-polynomial-in-one-variable-br" title="Permalink to this headline">¶</a></h2>
+<hr class="docutils" />
+<div class="section" id="real-polynomial-in-one-variable">
+<h2>Real Polynomial in one variable<a class="headerlink" href="#real-polynomial-in-one-variable" title="Permalink to this headline">¶</a></h2>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+A real polynomial function in one variable has the form</p>
 <div class="math notranslate nohighlight">
 \[P(x) = \sum_{k = 0}^n a_k x^k = a_n x^n + a_{n - 1} x^{n - 1} + ... + a_2 x^2 + a_1 x + a_0\]</div>
-<p>where <span class="math notranslate nohighlight">\(n\)</span> is a nonnegative integer and <span class="math notranslate nohighlight">\(a_0, a_1, a_2, ..., a_n \in \mathbb{R}\)</span> are constants called the coefficients of the polynomial.<br>
-If the leading coefficient <span class="math notranslate nohighlight">\(a_n \ne 0\)</span>, then the degree of the polynomial is <span class="math notranslate nohighlight">\(n\)</span>.<br>
-<span class="math notranslate nohighlight">\(\text{dom}(P(x)) = \mathbb{R}\)</span><br></p>
-<p><strong>Polynomial Addition</strong><br>
-Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> and <span class="math notranslate nohighlight">\(g(x) = \sum_{k = 0}^n b_k x^k\)</span> be polynomials.<br></p>
+<p>where <span class="math notranslate nohighlight">\(n\)</span> is a nonnegative integer and <span class="math notranslate nohighlight">\(a_0, a_1, a_2, ..., a_n \in \mathbb{R}\)</span> are constants called the coefficients of the polynomial.<br></p>
+<div class="section" id="degree">
+<h3>Degree<a class="headerlink" href="#degree" title="Permalink to this headline">¶</a></h3>
+<p>If the leading coefficient <span class="math notranslate nohighlight">\(a_n \ne 0\)</span>, then the degree of the polynomial is <span class="math notranslate nohighlight">\(n\)</span>.<br></p>
+</div>
+<div class="section" id="domain">
+<h3>Domain<a class="headerlink" href="#domain" title="Permalink to this headline">¶</a></h3>
+<p><span class="math notranslate nohighlight">\(\text{dom}(P(x)) = \mathbb{R}\)</span><br></p>
+</div>
+<div class="section" id="polynomial-addition">
+<h3>Polynomial Addition<a class="headerlink" href="#polynomial-addition" title="Permalink to this headline">¶</a></h3>
+<p>Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> and <span class="math notranslate nohighlight">\(g(x) = \sum_{k = 0}^n b_k x^k\)</span> be polynomials.<br></p>
 <div class="math notranslate nohighlight">
 \[(f + g)(x) = \sum_{k = 0}^n (a_k + b_k) x^k\]</div>
-<p><strong>Polynomial Subtraction</strong><br>
-Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> and <span class="math notranslate nohighlight">\(g(x) = \sum_{k = 0}^n b_k x^k\)</span> be polynomials.<br></p>
+</div>
+<div class="section" id="polynomial-subtraction">
+<h3>Polynomial Subtraction<a class="headerlink" href="#polynomial-subtraction" title="Permalink to this headline">¶</a></h3>
+<p>Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> and <span class="math notranslate nohighlight">\(g(x) = \sum_{k = 0}^n b_k x^k\)</span> be polynomials.<br></p>
 <div class="math notranslate nohighlight">
 \[(f - g)(x) = \sum_{k = 0}^n (a_k - b_k) x^k\]</div>
-<p><strong>Polynomial Differentiation</strong><br>
-Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> be a polynomial.<br></p>
+</div>
+<div class="section" id="polynomial-differentiation">
+<h3>Polynomial Differentiation<a class="headerlink" href="#polynomial-differentiation" title="Permalink to this headline">¶</a></h3>
+<p>Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> be a polynomial.<br></p>
 <div class="math notranslate nohighlight">
 \[f'(x) = \sum_{k = 0}^n k a_k x^{k - 1}\]</div>
 </div>
-<div class="section" id="real-polynomial-in-two-variables-br">
-<h2><strong>Real Polynomial in two variables</strong><br><a class="headerlink" href="#real-polynomial-in-two-variables-br" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="general-form-of-a-linear-function-in-one-variable">
+<h3>General form of a linear function in one variable<a class="headerlink" href="#general-form-of-a-linear-function-in-one-variable" title="Permalink to this headline">¶</a></h3>
+<p>A linear function is a polynomial function of degree 1.<br></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+f(x)
+&amp;= a_1 x + a_0 \\
+&amp;= A x + B \\
+y &amp;= mx + b &amp; \text{the familiar slope-intecept expression where}\, m \,\text{is the slope and}\, b \,\text{is the y-intercept} \\
+\end{align}
+\end{split}\]</div>
+</div>
+<div class="section" id="general-form-of-a-quadratic-function-in-one-variable">
+<h3>General form of a quadratic function in one variable<a class="headerlink" href="#general-form-of-a-quadratic-function-in-one-variable" title="Permalink to this headline">¶</a></h3>
+<p>A quadratic function is a polynomial function of degree 2.<br></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+f(x)
+&amp;= a_2 x^2 + a_1 x + a_0 \\
+&amp;= A x^2 + B x + C \\
+\end{align}
+\end{split}\]</div>
+</div>
+<div class="section" id="general-form-of-a-cubic-function-in-one-variable">
+<h3>General form of a cubic function in one variable<a class="headerlink" href="#general-form-of-a-cubic-function-in-one-variable" title="Permalink to this headline">¶</a></h3>
+<p>A cubic function is a polynomial function of degree 3.<br></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+f(x)
+&amp;= a_3 x^3 + a_2 x^2 + a_1 x + a_0 \\
+&amp;= A x^3 + B x^2 + C x + D \\
+\end{align}
+\end{split}\]</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="real-polynomial-in-two-variables">
+<h2>Real Polynomial in two variables<a class="headerlink" href="#real-polynomial-in-two-variables" title="Permalink to this headline">¶</a></h2>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+A real polynomial in two variables has the form</p>
 <div class="math notranslate nohighlight">
 \[P(x, y) = \sum a_{nm} x^n y^m\]</div>
-<p>where <span class="math notranslate nohighlight">\(a_i \in \mathbb{R}\)</span> is a constant and <span class="math notranslate nohighlight">\(m\)</span> and <span class="math notranslate nohighlight">\(n\)</span> are nonnegative integers.<br>
-If the leading coefficient <span class="math notranslate nohighlight">\(a_{nm} \ne 0\)</span>, then the degree of the polynomial is <span class="math notranslate nohighlight">\(n + m\)</span>.<br>
-<span class="math notranslate nohighlight">\(\text{dom}(P(x)) = \mathbb{R}^2\)</span><br></p>
-<p><strong>General Linear Function in two variables</strong><br>
-$<span class="math notranslate nohighlight">\(
+<p>where <span class="math notranslate nohighlight">\(a_{ij} \in \mathbb{R}\)</span> is a constant and <span class="math notranslate nohighlight">\(m\)</span> and <span class="math notranslate nohighlight">\(n\)</span> are nonnegative integers.<br></p>
+<div class="section" id="id1">
+<h3>Degree<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>If the leading coefficient <span class="math notranslate nohighlight">\(a_{nm} \ne 0\)</span>, then the degree of the polynomial is <span class="math notranslate nohighlight">\(n + m\)</span>.<br></p>
+</div>
+<div class="section" id="id2">
+<h3>Domain<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p><span class="math notranslate nohighlight">\(\text{dom}(P(x)) = \mathbb{R}^2\)</span><br></p>
+</div>
+<div class="section" id="general-form-of-a-linear-function-in-two-variables">
+<h3>General form of a linear function in two variables<a class="headerlink" href="#general-form-of-a-linear-function-in-two-variables" title="Permalink to this headline">¶</a></h3>
+<p>A linear function is a polynomial function of degree 1.<br></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
 \begin{align}
 f(x, y)
 &amp;= a_{10} x + a_{01} y + a_{00} \\
 &amp;= A x + B y + C \\
 \end{align}
-\)</span>$</p>
-<p><strong>General Quadratic Function in two variables</strong><br>
-$<span class="math notranslate nohighlight">\(
+\end{split}\]</div>
+</div>
+<div class="section" id="general-form-of-a-quadratic-function-in-two-variables">
+<h3>General form of a quadratic function in two variables<a class="headerlink" href="#general-form-of-a-quadratic-function-in-two-variables" title="Permalink to this headline">¶</a></h3>
+<p>A quadratic function is a polynomial function of degree 2.<br></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
 \begin{align}
 f(x, y)
 &amp;= a_{20} x^2 + a_{11} x y + a_{02} y^2 + a_{10} x + a_{01} y + a_{00} \\
 &amp;= A x^2 + B x y + C y^2 + D x + E y + F \\
 \end{align}
-\)</span>$</p>
-<p><strong>General Cubic Function in two variables</strong><br>
-$<span class="math notranslate nohighlight">\(
+\end{split}\]</div>
+<p>The conic sections are special cases of the general form of a quadratic function in two variables.<br></p>
+</div>
+<div class="section" id="general-form-of-a-cubic-function-in-two-variables">
+<h3>General form of a cubic function in two variables<a class="headerlink" href="#general-form-of-a-cubic-function-in-two-variables" title="Permalink to this headline">¶</a></h3>
+<p>A cubic function is a polynomial function of degree 3.<br></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
 \begin{align}
 f(x, y)
 &amp;= a_{30} x^3 + a_{21} x^2 y + a_{12} x y^2 + a_{03} y^3 + a_{20} x^2 + a_{11} x y + a_{02} y^2 + a_{10} x + a_{01} y + a_{00} \\
 &amp;= A x^3 + B x^2 y + C x y^2 + D y^3 + E x^2 + F x y + G y^2 + H x + I y + J \\
 \end{align}
-\)</span>$</p>
+\end{split}\]</div>
 </div>
+</div>
+<hr class="docutils" />
 <div class="section" id="real-polynomial-in-several-variables">
 <h2>Real Polynomial in several variables<a class="headerlink" href="#real-polynomial-in-several-variables" title="Permalink to this headline">¶</a></h2>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+A real polynomial in k variables has the form</p>
 <div class="math notranslate nohighlight">
-\[P(x_1, x_2, ..., x_z) = \sum a_{n_1 n_2 ... n_z} x_1^{n_1} x_2^{n_2} ... x_z^{n_z}\]</div>
+\[P(x_1, x_2, ..., x_k) = \sum a_{n_1 n_2 ... n_k} x_1^{n_1} x_2^{n_2} ... x_k^{n_k}\]</div>
+<div class="section" id="id3">
+<h3>Degree<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>If the leading coefficient <span class="math notranslate nohighlight">\(a_{n_1...n_k} \ne 0\)</span>, then the degree of the polynomial is <span class="math notranslate nohighlight">\(\sum n_i\)</span>.<br></p>
+</div>
+<div class="section" id="id4">
+<h3>Domain<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p><span class="math notranslate nohighlight">\(\text{dom}(P(x)) = \mathbb{R}^k\)</span><br></p>
 <hr class="docutils" />
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -469,7 +633,7 @@ f(x, y)
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/Polynomials_5_0.png" src="../_images/Polynomials_5_0.png" />
+<img alt="../_images/Polynomials_26_0.png" src="../_images/Polynomials_26_0.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -519,7 +683,7 @@ f(x, y)
 -3.2x^3+6.9x^2+x+1
 </pre></div>
 </div>
-<img alt="../_images/Polynomials_7_1.png" src="../_images/Polynomials_7_1.png" />
+<img alt="../_images/Polynomials_28_1.png" src="../_images/Polynomials_28_1.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -536,6 +700,7 @@ f(x, y)
 </div>
 </div>
 <hr class="docutils" />
+</div>
 </div>
 </div>
 
@@ -565,7 +730,7 @@ f(x, y)
         <div class='prev-next-bottom'>
             
     <a class='left-prev' id="prev-link" href="ModularArithmetic.html" title="previous page">Modular Arithmetic</a>
-    <a class='right-next' id="next-link" href="Structures.html" title="next page">Structures</a>
+    <a class='right-next' id="next-link" href="ConicSections.html" title="next page">Conic Sections</a>
 
         </div>
         
