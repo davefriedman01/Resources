@@ -1,0 +1,1675 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Long-Short Equity &#8212; Mathematics</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">Mathematics</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../index.html">
+   Thank you for visiting!
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Foundations
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/Sets.html">
+   Sets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/ComplexNumbers.html">
+   Complex Numbers
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/NumberTheory.html">
+   Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/AlgorithmicNumberTheory.html">
+   Algorithmic Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/ModularArithmetic.html">
+   Modular Arithmetic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/Polynomials.html">
+   Polynomials
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/ConicSections.html">
+   Conic Sections
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/Structures.html">
+   Structures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/Groups.html">
+   Groups
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/Fields.html">
+   Fields
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/LinearAlgebra.html">
+   Linear Algebra
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Modeling
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/RandomWalks.html">
+   Random Walks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/DigitalSignalProcessing.html">
+   Digital Signal Processing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/DifferentialEquations.html">
+   Differential Equations
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Blockchain
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../nbs/PythonBlockchain.html">
+   Python Blockchain
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/notebooks/long-short.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/davefriedman01/Resources"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/davefriedman01/Resources/master?urlpath=tree/docs/notebooks/long-short.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">numpy.random</span> <span class="k">as</span> <span class="nn">npr</span>
+<span class="kn">import</span> <span class="nn">numpy_financial</span> <span class="k">as</span> <span class="nn">npf</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="o">%</span><span class="k">matplotlib</span> inline
+<span class="kn">from</span> <span class="nn">pylab</span> <span class="kn">import</span> <span class="n">mpl</span><span class="p">,</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="n">mpl</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s1">&#39;seaborn&#39;</span><span class="p">)</span>
+<span class="n">mpl</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;figure.figsize&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span>
+
+<span class="kn">import</span>\
+    <span class="nn">datetime</span> <span class="k">as</span> <span class="nn">dt</span><span class="o">,</span>\
+    <span class="n">json</span><span class="p">,</span>\
+    <span class="n">requests</span><span class="p">,</span>\
+    <span class="n">threading</span><span class="p">,</span>\
+    <span class="n">time</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
+
+<span class="kn">import</span> <span class="nn">panel</span> <span class="k">as</span> <span class="nn">pn</span>
+<span class="n">pn</span><span class="o">.</span><span class="n">extension</span><span class="p">(</span><span class="s1">&#39;plotly&#39;</span><span class="p">)</span>
+<span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
+<span class="kn">import</span> <span class="nn">hvplot.pandas</span>
+
+
+
+<span class="kn">from</span> <span class="nn">dotenv</span> <span class="kn">import</span> <span class="n">find_dotenv</span><span class="p">,</span> <span class="n">get_key</span>
+
+<span class="kn">import</span> <span class="nn">quandl</span>
+<span class="n">quandl</span><span class="o">.</span><span class="n">ApiConfig</span><span class="o">.</span><span class="n">api_key</span> <span class="o">=</span> <span class="n">get_key</span><span class="p">(</span><span class="n">find_dotenv</span><span class="p">(),</span> <span class="s1">&#39;QUANDL_API_KEY&#39;</span><span class="p">)</span>
+
+<span class="n">API_KEY</span> <span class="o">=</span> <span class="n">get_key</span><span class="p">(</span><span class="n">find_dotenv</span><span class="p">(),</span> <span class="s1">&#39;ALPACA_API_KEY&#39;</span><span class="p">)</span>
+<span class="n">API_SECRET</span> <span class="o">=</span> <span class="n">get_key</span><span class="p">(</span><span class="n">find_dotenv</span><span class="p">(),</span> <span class="s1">&#39;ALPACA_SECRET_KEY&#39;</span><span class="p">)</span>
+<span class="n">APCA_API_BASE_URL</span> <span class="o">=</span> <span class="s1">&#39;https://paper-api.alpaca.markets&#39;</span>
+<span class="kn">import</span> <span class="nn">alpaca_trade_api</span> <span class="k">as</span> <span class="nn">tradeapi</span>
+<span class="kn">from</span> <span class="nn">alpaca_trade_api.rest</span> <span class="kn">import</span> <span class="n">REST</span><span class="p">,</span> <span class="n">TimeFrame</span>
+<span class="n">api</span> <span class="o">=</span> <span class="n">REST</span><span class="p">(</span>
+    <span class="n">API_KEY</span><span class="p">,</span>
+    <span class="n">API_SECRET</span><span class="p">,</span>
+    <span class="n">api_version</span><span class="o">=</span><span class="s1">&#39;v2&#39;</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">feature</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">]),</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="mi">499</span><span class="p">])])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">feature</span><span class="p">[:</span><span class="mi">5</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">feature</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">feature</span><span class="o">.</span><span class="n">std</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(((</span><span class="n">feature</span> <span class="o">-</span> <span class="n">feature</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span> <span class="o">/</span> <span class="n">feature</span><span class="o">.</span><span class="n">std</span><span class="p">())[:</span><span class="mi">5</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[1. 0. 0. 0. 0.]
+0.002
+0.044676615807377355
+[22.3383079  -0.04476615 -0.04476615 -0.04476615 -0.04476615]
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<p><a class="reference external" href="http://Alternative.me">Alternative.me</a>’s Free Crypto API (<a class="reference external" href="https://alternative.me/crypto/api/">https://alternative.me/crypto/api/</a>)</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">BASE_URL</span> <span class="o">=</span> <span class="s1">&#39;https://api.alternative.me/v2/&#39;</span>
+
+<span class="k">def</span> <span class="nf">get_crypto_listing</span> <span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    From the website: Overview of all available crypto currencies,</span>
+<span class="sd">    use the returned id to retrieve more data on a specific crypto currency on the ticker endpoint.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># pull json-formatted API data</span>
+    <span class="n">json_response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s1">listings/&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+    
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">json_response</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">])</span>
+    
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span>                <span class="c1"># reorder columns</span>
+        <span class="s1">&#39;name&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;symbol&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;website_slug&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;id&#39;</span><span class="p">,</span>
+    <span class="p">]]</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span> <span class="c1"># rename columns</span>
+        <span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="s1">&#39;api_id&#39;</span><span class="p">,</span>
+    <span class="p">})</span>
+    
+    <span class="k">return</span> <span class="n">df</span><span class="p">,</span> <span class="n">json_response</span><span class="p">[</span><span class="s1">&#39;metadata&#39;</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">get_crypto_tickers</span> <span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    From the website: Coin and token prices updated every 5 minutes.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># pull json-formatted API data</span>
+    <span class="n">json_response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s1">ticker/?limit=0&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+    
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">json_response</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">])</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">T</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">RangeIndex</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">json_response</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">])))</span>
+    
+    <span class="n">quotes_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">json_normalize</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;quotes&#39;</span><span class="p">])</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df</span><span class="p">,</span> <span class="n">quotes_df</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span>                               <span class="c1"># reorder columns</span>
+        <span class="s1">&#39;name&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;symbol&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;rank&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;USD.market_cap&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;last_updated&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;USD.price&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;USD.volume_24h&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;USD.percent_change_1h&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;USD.percent_change_24h&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;USD.percent_change_7d&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;id&#39;</span><span class="p">,</span>
+    <span class="p">]]</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span>                <span class="c1"># rename columns</span>
+        <span class="s1">&#39;rank&#39;</span><span class="p">:</span> <span class="s1">&#39;market_cap_rank&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;last_updated&#39;</span><span class="p">:</span> <span class="s1">&#39;last_updated_UTC&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;id&#39;</span><span class="p">:</span> <span class="s1">&#39;api_id&#39;</span><span class="p">,</span>
+    <span class="p">})</span>
+    
+    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;last_updated_UTC&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;last_updated_UTC&#39;</span><span class="p">],</span> <span class="n">unit</span><span class="o">=</span><span class="s1">&#39;s&#39;</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">df</span><span class="p">,</span> <span class="n">json_response</span><span class="p">[</span><span class="s1">&#39;metadata&#39;</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">get_crypto_global</span> <span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    From the website: Get global market information at a glance.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># pull json-formatted API data</span>
+    <span class="n">json_response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s1">global/&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+    
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">json_response</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">])</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">RangeIndex</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+    
+    <span class="n">quotes_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">json_normalize</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;quotes&#39;</span><span class="p">])</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df</span><span class="p">,</span> <span class="n">quotes_df</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+    
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span>                               <span class="c1"># reorder columns</span>
+        <span class="s1">&#39;active_cryptocurrencies&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;active_markets&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;bitcoin_percentage_of_market_cap&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;last_updated&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;total_market_cap&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;total_volume_24h&#39;</span><span class="p">,</span>
+    <span class="p">]]</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span>                <span class="c1"># rename columns</span>
+        <span class="s1">&#39;last_updated&#39;</span><span class="p">:</span> <span class="s1">&#39;last_updated_UTC&#39;</span><span class="p">,</span>
+    <span class="p">})</span>
+    
+    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;last_updated_UTC&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;last_updated_UTC&#39;</span><span class="p">],</span> <span class="n">unit</span><span class="o">=</span><span class="s1">&#39;s&#39;</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">df</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">json_response</span><span class="p">[</span><span class="s1">&#39;metadata&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">listings_df</span><span class="p">,</span> <span class="n">listings_meta</span> <span class="o">=</span> <span class="n">get_crypto_listing</span><span class="p">()</span>
+<span class="n">listings_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>symbol</th>
+      <th>website_slug</th>
+      <th>api_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Bitcoin</td>
+      <td>BTC</td>
+      <td>bitcoin</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Litecoin</td>
+      <td>LTC</td>
+      <td>litecoin</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Namecoin</td>
+      <td>NMC</td>
+      <td>namecoin</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Terracoin</td>
+      <td>TRC</td>
+      <td>terracoin</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Peercoin</td>
+      <td>PPC</td>
+      <td>peercoin</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">tickers_df</span><span class="p">,</span> <span class="n">tickers_meta</span> <span class="o">=</span> <span class="n">get_crypto_tickers</span><span class="p">()</span>
+<span class="n">tickers_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>symbol</th>
+      <th>market_cap_rank</th>
+      <th>USD.market_cap</th>
+      <th>last_updated_UTC</th>
+      <th>USD.price</th>
+      <th>USD.volume_24h</th>
+      <th>USD.percent_change_1h</th>
+      <th>USD.percent_change_24h</th>
+      <th>USD.percent_change_7d</th>
+      <th>api_id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Bitcoin</td>
+      <td>BTC</td>
+      <td>1</td>
+      <td>937272048119</td>
+      <td>2021-05-14 01:59:08</td>
+      <td>50096.000000</td>
+      <td>86828738177</td>
+      <td>-0.249226</td>
+      <td>-0.392915</td>
+      <td>-11.346894</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Ethereum</td>
+      <td>ETH</td>
+      <td>2</td>
+      <td>449470923144</td>
+      <td>2021-05-14 01:59:27</td>
+      <td>3872.520000</td>
+      <td>89755564212</td>
+      <td>1.254746</td>
+      <td>-3.463906</td>
+      <td>10.799448</td>
+      <td>1027</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Binance Coin</td>
+      <td>BNB</td>
+      <td>3</td>
+      <td>90863926464</td>
+      <td>2021-05-14 01:59:58</td>
+      <td>587.060000</td>
+      <td>7017783890</td>
+      <td>1.191369</td>
+      <td>-4.927154</td>
+      <td>-7.628071</td>
+      <td>1839</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Dogecoin</td>
+      <td>DOGE</td>
+      <td>4</td>
+      <td>62493586660</td>
+      <td>2021-05-14 01:59:02</td>
+      <td>0.482267</td>
+      <td>19816759861</td>
+      <td>0.382125</td>
+      <td>11.793540</td>
+      <td>-17.011904</td>
+      <td>74</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>XRP</td>
+      <td>XRP</td>
+      <td>5</td>
+      <td>62307495992</td>
+      <td>2021-05-14 01:58:43</td>
+      <td>1.350000</td>
+      <td>10678520159</td>
+      <td>-0.745434</td>
+      <td>0.678605</td>
+      <td>-15.565325</td>
+      <td>52</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">ax</span> <span class="o">=</span> <span class="n">tickers_df</span><span class="p">[</span><span class="s1">&#39;USD.price&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">9</span><span class="p">));</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xticklabels</span><span class="p">(</span><span class="n">tickers_df</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">25</span><span class="p">));</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/long-short_7_0.png" src="../_images/long-short_7_0.png" />
+</div>
+</div>
+<hr class="docutils" />
+<p>Alpaca Markets Client SDK<br>
+GitHub: <a class="reference external" href="https://github.com/alpacahq/alpaca-trade-api-python">https://github.com/alpacahq/alpaca-trade-api-python</a><br>
+PyPI: <a class="reference external" href="https://pypi.org/project/alpaca-trade-api/">https://pypi.org/project/alpaca-trade-api/</a><br></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">get_bars_sdk</span> <span class="p">(</span><span class="n">symbol</span><span class="p">):</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">alpaca</span><span class="o">.</span><span class="n">get_bars</span><span class="p">(</span>
+        <span class="n">symbol</span><span class="p">,</span>
+        <span class="n">TimeFrame</span><span class="o">.</span><span class="n">Day</span><span class="p">,</span>
+        <span class="s1">&#39;2021-04-01&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;2021-04-01&#39;</span><span class="p">,</span>
+        <span class="n">limit</span><span class="o">=</span><span class="mi">10_000</span><span class="p">,</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">df</span>
+    <span class="n">df</span><span class="p">[</span><span class="s1">&#39;symbol&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">symbol</span>
+    <span class="k">return</span> <span class="n">df</span>
+
+<span class="c1"># Alpaca Markets API</span>
+<span class="n">BASE_URL_HIST</span> <span class="o">=</span> <span class="s1">&#39;https://data.alpaca.markets/v2/&#39;</span>
+<span class="n">BASE_URL_PAPR</span> <span class="o">=</span> <span class="s1">&#39;https://paper-api.alpaca.markets/v2/&#39;</span>
+<span class="n">KEYS</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;APCA-API-KEY-ID&#39;</span><span class="p">:</span> <span class="n">alpaca_api_key</span><span class="p">,</span> <span class="s1">&#39;APCA-API-SECRET-KEY&#39;</span><span class="p">:</span> <span class="n">alpaca_secret_key</span><span class="p">,}</span>
+
+<span class="n">start</span> <span class="o">=</span> <span class="s1">&#39;2016-05-01&#39;</span>
+<span class="n">end</span>   <span class="o">=</span> <span class="s1">&#39;2021-04-01&#39;</span>
+<span class="n">today</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Timestamp</span><span class="p">(</span><span class="n">dt</span><span class="o">.</span><span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">(),</span> <span class="n">tz</span><span class="o">=</span><span class="s1">&#39;America/New_York&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span>
+<span class="n">now</span>   <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Timestamp</span><span class="p">(</span><span class="n">dt</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">(),</span> <span class="n">tz</span><span class="o">=</span><span class="s1">&#39;America/New_York&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">isoformat</span><span class="p">()</span>
+<span class="c1"># (datetime.datetime(2016, 5, 1) - datetime.datetime(2021, 3, 1)).days / 365.25</span>
+
+<span class="k">def</span> <span class="nf">get_account</span> <span class="p">():</span>
+    <span class="n">json_response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">BASE_URL_PAPR</span><span class="si">}</span><span class="s1">account&#39;</span><span class="p">,</span>
+        <span class="n">headers</span><span class="o">=</span><span class="n">KEYS</span><span class="p">,</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">json_response</span>
+<span class="k">def</span> <span class="nf">create_order</span> <span class="p">(</span><span class="n">symbol</span><span class="p">,</span> <span class="n">qty</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">typ</span><span class="p">,</span> <span class="n">time_in_force</span><span class="p">):</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;symbol&#39;</span><span class="p">:</span> <span class="n">symbol</span><span class="p">,</span>
+        <span class="s1">&#39;qty&#39;</span><span class="p">:</span> <span class="n">qty</span><span class="p">,</span>
+        <span class="s1">&#39;side&#39;</span><span class="p">:</span> <span class="n">side</span><span class="p">,</span>
+        <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="n">typ</span><span class="p">,</span>
+        <span class="s1">&#39;time_in_force&#39;</span><span class="p">:</span> <span class="n">time_in_force</span><span class="p">,</span>
+    <span class="p">}</span>
+    <span class="n">json_response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">BASE_URL_PAPR</span><span class="si">}</span><span class="s1">orders&#39;</span><span class="p">,</span>
+        <span class="n">json</span><span class="o">=</span><span class="n">data</span><span class="p">,</span>
+        <span class="n">headers</span><span class="o">=</span><span class="n">KEYS</span><span class="p">,</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">json_response</span>
+<span class="c1">#create_order(&#39;MSFT&#39;, 1000, &#39;buy&#39;, &#39;market&#39;, &#39;gtc&#39;)</span>
+<span class="k">def</span> <span class="nf">get_orders</span> <span class="p">():</span>
+    <span class="n">json_response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">BASE_URL_PAPR</span><span class="si">}</span><span class="s1">orders&#39;</span><span class="p">,</span>
+        <span class="n">headers</span><span class="o">=</span><span class="n">KEYS</span><span class="p">,</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">json_response</span>
+
+
+<span class="k">def</span> <span class="nf">get_historical_trades</span> <span class="p">(</span><span class="n">symbol</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="n">end</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">10_000</span><span class="p">):</span>
+    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;start&#39;</span><span class="p">:</span> <span class="n">start</span><span class="p">,</span>
+        <span class="s1">&#39;end&#39;</span><span class="p">:</span> <span class="n">now</span><span class="p">,</span>
+        <span class="s1">&#39;limit&#39;</span><span class="p">:</span> <span class="n">limit</span><span class="p">,</span>
+    <span class="p">}</span>
+    <span class="n">json_response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">BASE_URL_HIST</span><span class="si">}</span><span class="s1">stocks/</span><span class="si">{</span><span class="n">symbol</span><span class="si">}</span><span class="s1">/trades&#39;</span><span class="p">,</span>
+        <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">,</span>
+        <span class="n">headers</span><span class="o">=</span><span class="n">KEYS</span><span class="p">,</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">json_response</span>
+
+<span class="k">def</span> <span class="nf">get_historical_quotes</span> <span class="p">(</span><span class="n">symbol</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="n">end</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">10_000</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    From the website: The quotes API provides NBBO quotes for a given ticker symbol at a specified date.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;start&#39;</span><span class="p">:</span> <span class="n">start</span><span class="p">,</span>
+        <span class="s1">&#39;end&#39;</span><span class="p">:</span> <span class="n">now</span><span class="p">,</span>
+        <span class="s1">&#39;limit&#39;</span><span class="p">:</span> <span class="n">limit</span><span class="p">,</span>
+    <span class="p">}</span>
+    <span class="n">json_response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">BASE_URL_HIST</span><span class="si">}</span><span class="s1">stocks/</span><span class="si">{</span><span class="n">symbol</span><span class="si">}</span><span class="s1">/quotes&#39;</span><span class="p">,</span>
+        <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">,</span>
+        <span class="n">headers</span><span class="o">=</span><span class="n">KEYS</span><span class="p">,</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">json_response</span>
+
+<span class="k">def</span> <span class="nf">get_historical_bars</span> <span class="p">(</span><span class="n">symbol</span><span class="o">=</span><span class="s1">&#39;AAPL&#39;</span><span class="p">,</span>
+                         <span class="n">start</span><span class="o">=</span><span class="n">start</span><span class="p">,</span>
+                         <span class="n">end</span><span class="o">=</span><span class="n">now</span><span class="p">,</span>
+                         <span class="n">limit</span><span class="o">=</span><span class="mi">10_000</span><span class="p">,</span>
+                         <span class="n">timeframe</span><span class="o">=</span><span class="s1">&#39;1Day&#39;</span><span class="p">,</span>
+                         <span class="n">page_token</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    The bars API returns aggregate historical data for the requested securities.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">params</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;start&#39;</span><span class="p">:</span> <span class="n">start</span><span class="p">,</span>
+        <span class="s1">&#39;end&#39;</span><span class="p">:</span> <span class="n">end</span><span class="p">,</span>
+        <span class="s1">&#39;limit&#39;</span><span class="p">:</span> <span class="n">limit</span><span class="p">,</span>
+        <span class="s1">&#39;timeframe&#39;</span><span class="p">:</span> <span class="n">timeframe</span><span class="p">,</span>
+        <span class="s1">&#39;page_token&#39;</span><span class="p">:</span> <span class="n">page_token</span><span class="p">,</span>
+    <span class="p">}</span>
+    <span class="n">json_response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">BASE_URL_HIST</span><span class="si">}</span><span class="s1">stocks/</span><span class="si">{</span><span class="n">symbol</span><span class="si">}</span><span class="s1">/bars&#39;</span><span class="p">,</span>
+        <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">,</span>
+        <span class="n">headers</span><span class="o">=</span><span class="n">KEYS</span><span class="p">,</span>
+    <span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+    
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">json_response</span><span class="p">[</span><span class="s1">&#39;bars&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span>
+        <span class="s1">&#39;t&#39;</span><span class="p">:</span> <span class="s1">&#39;Datetime&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;o&#39;</span><span class="p">:</span> <span class="s1">&#39;Open Price&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;h&#39;</span><span class="p">:</span> <span class="s1">&#39;High Price&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;l&#39;</span><span class="p">:</span> <span class="s1">&#39;Low Price&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;c&#39;</span><span class="p">:</span> <span class="s1">&#39;Close Price&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;v&#39;</span><span class="p">:</span> <span class="s1">&#39;Volume&#39;</span><span class="p">,</span>
+    <span class="p">})</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;Datetime&#39;</span><span class="p">)</span>
+    <span class="n">df</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DatetimeIndex</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
+    
+    <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span>
+        <span class="n">pd</span><span class="o">.</span><span class="n">MultiIndex</span><span class="o">.</span><span class="n">from_arrays</span><span class="p">(</span>
+            <span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">year</span><span class="p">,</span> <span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">month</span><span class="p">,</span> <span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">day</span><span class="p">],</span>
+            <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;year&#39;</span><span class="p">,</span> <span class="s1">&#39;month&#39;</span><span class="p">,</span> <span class="s1">&#39;day&#39;</span><span class="p">]</span>
+        <span class="p">)</span>
+    <span class="p">)</span>
+    <span class="c1">#df = df.groupby([df.index.year, df.index.month, df.index.day]).first()</span>
+    
+    <span class="k">return</span> <span class="n">df</span>
+
+<span class="k">def</span> <span class="nf">get_assets</span> <span class="p">():</span>
+    <span class="n">json_response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">BASE_URL_PAPR</span><span class="si">}</span><span class="s1">assets&#39;</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">KEYS</span><span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">json_response</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">df</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">get_assets</span><span class="p">()</span>
+<span class="n">df</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>class</th>
+      <th>exchange</th>
+      <th>symbol</th>
+      <th>name</th>
+      <th>status</th>
+      <th>tradable</th>
+      <th>marginable</th>
+      <th>shortable</th>
+      <th>easy_to_borrow</th>
+      <th>fractionable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>fd7ecda8-13ff-43e3-81cd-50a95a5f3bc9</td>
+      <td>us_equity</td>
+      <td>NYSE</td>
+      <td>ABG</td>
+      <td>Asbury Automotive Group, Inc.</td>
+      <td>active</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>29f8c27e-3284-4f6d-8f56-9713b020ecdc</td>
+      <td>us_equity</td>
+      <td>NYSE</td>
+      <td>ACV</td>
+      <td>Virtus AllianzGI Diversified Income &amp; Converti...</td>
+      <td>active</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2f6c684e-6f06-4db7-8776-bac9a7093601</td>
+      <td>us_equity</td>
+      <td>NASDAQ</td>
+      <td>ACWI</td>
+      <td>iShares MSCI ACWI ETF</td>
+      <td>active</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8ece6223-c699-4d88-b50f-4170ed6fd724</td>
+      <td>us_equity</td>
+      <td>NASDAQ</td>
+      <td>ADMA</td>
+      <td>ADMA Biologics Inc Common Stock</td>
+      <td>active</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1099a725-d87f-4e76-916c-2121e03bd592</td>
+      <td>us_equity</td>
+      <td>NASDAQ</td>
+      <td>ADUS</td>
+      <td>Addus HomeCare Corporation Common Stock</td>
+      <td>active</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>11754</th>
+      <td>ef9adcc6-6bce-452b-af5f-4a87e7f19131</td>
+      <td>us_equity</td>
+      <td>NYSE</td>
+      <td>JNJ</td>
+      <td>Johnson &amp; Johnson</td>
+      <td>active</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>11755</th>
+      <td>6c20a838-99dc-48d7-a907-90d8b69759b2</td>
+      <td>us_equity</td>
+      <td>NASDAQ</td>
+      <td>KCAPL</td>
+      <td>KCAP Financial, Inc. 6.125% Notes due 2022</td>
+      <td>active</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>11756</th>
+      <td>75c9e191-bf26-4eed-891a-b9c862189c96</td>
+      <td>us_equity</td>
+      <td>NASDAQ</td>
+      <td>MBIN</td>
+      <td>Merchants Bancorp Common Stock</td>
+      <td>active</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>11757</th>
+      <td>abc8f93b-8f15-4018-b86a-c98b2d1dca4c</td>
+      <td>us_equity</td>
+      <td>NASDAQ</td>
+      <td>MDIA</td>
+      <td>Mediaco Holding Inc. Class A Common Stock</td>
+      <td>active</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+      <td>False</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>11758</th>
+      <td>542013b0-b73c-492b-adf4-5c65e49da576</td>
+      <td>us_equity</td>
+      <td>NASDAQ</td>
+      <td>METC</td>
+      <td>Ramaco Resources, Inc. Common Stock</td>
+      <td>active</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+<p>11759 rows × 11 columns</p>
+</div></div></div>
+</div>
+<hr class="docutils" />
+<div class="section" id="long-short-equity">
+<h1>Long-Short Equity<a class="headerlink" href="#long-short-equity" title="Permalink to this headline">¶</a></h1>
+<p>This trading algorithm implements the long-short equity strategy. This means that the algorithm will rank a given universe of stocks based on a certain metric, and long the top ranked stocks and short the lower ranked stocks. More specifically, the algorithm uses the frequently used 130/30 percent equity split between longs and shorts (130% of equity used for longs, 30% of equity used for shorts). The algorithm will then grab the top and bottom 25% of stocks, and long or short them accordingly. The algorithm will purchase equal quantities across a bucket of stocks, so all stocks in the long bucket are ordered with the same quantity (same with the short bucket). After every minute, the algorithm will re-rank the stocks and make adjustments to the position if necessary. For more information on this strategy, read this link here <a class="reference external" href="https://www.investopedia.com/terms/l/long-shortequity.asp">https://www.investopedia.com/terms/l/long-shortequity.asp</a>.</p>
+<p>Some stocks cannot be shorted. In this case, the algorithm uses the leftover equity from the stocks that could not be shorted and shorts the stocks have already been shorted.</p>
+<p>The algorithm uses percent change in stock price over the past 10 minutes to rank the stocks, where the stocks that rose the most are longed and the ones that sunk the most are shorted.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">LongShort</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span> <span class="o">=</span> <span class="n">tradeapi</span><span class="o">.</span><span class="n">REST</span><span class="p">(</span><span class="n">API_KEY</span><span class="p">,</span> <span class="n">API_SECRET</span><span class="p">,</span> <span class="n">APCA_API_BASE_URL</span><span class="p">,</span> <span class="s1">&#39;v2&#39;</span><span class="p">)</span>
+        
+        <span class="n">stockUniverse</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;DOMO&#39;</span><span class="p">,</span> <span class="s1">&#39;TLRY&#39;</span><span class="p">,</span> <span class="s1">&#39;SQ&#39;</span><span class="p">,</span> <span class="s1">&#39;MRO&#39;</span><span class="p">,</span> <span class="s1">&#39;AAPL&#39;</span><span class="p">,</span> <span class="s1">&#39;GM&#39;</span><span class="p">,</span> <span class="s1">&#39;SNAP&#39;</span><span class="p">,</span> <span class="s1">&#39;SHOP&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;SPLK&#39;</span><span class="p">,</span> <span class="s1">&#39;BA&#39;</span><span class="p">,</span> <span class="s1">&#39;AMZN&#39;</span><span class="p">,</span> <span class="s1">&#39;SUI&#39;</span><span class="p">,</span> <span class="s1">&#39;SUN&#39;</span><span class="p">,</span> <span class="s1">&#39;TSLA&#39;</span><span class="p">,</span> <span class="s1">&#39;CGC&#39;</span><span class="p">,</span> <span class="s1">&#39;SPWR&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;NIO&#39;</span><span class="p">,</span> <span class="s1">&#39;CAT&#39;</span><span class="p">,</span> <span class="s1">&#39;MSFT&#39;</span><span class="p">,</span> <span class="s1">&#39;PANW&#39;</span><span class="p">,</span> <span class="s1">&#39;OKTA&#39;</span><span class="p">,</span> <span class="s1">&#39;TWTR&#39;</span><span class="p">,</span> <span class="s1">&#39;TM&#39;</span><span class="p">,</span> <span class="s1">&#39;RTN&#39;</span><span class="p">,</span>
+                     <span class="s1">&#39;ATVI&#39;</span><span class="p">,</span> <span class="s1">&#39;GS&#39;</span><span class="p">,</span> <span class="s1">&#39;BAC&#39;</span><span class="p">,</span> <span class="s1">&#39;MS&#39;</span><span class="p">,</span> <span class="s1">&#39;TWLO&#39;</span><span class="p">,</span> <span class="s1">&#39;QCOM&#39;</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">allStocks</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">stock</span> <span class="ow">in</span> <span class="n">stockUniverse</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">allStocks</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">stock</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+            
+        <span class="bp">self</span><span class="o">.</span><span class="n">long</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">short</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">qShort</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">qLong</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">adjustedQLong</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">adjustedQShort</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">blacklist</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">longAmount</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">shortAmount</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">timeToClose</span> <span class="o">=</span> <span class="kc">None</span>
+        
+    <span class="k">def</span> <span class="nf">run</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># First, cancel any existing orders so they don&#39;t impact our buying power.</span>
+        <span class="n">orders</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">list_orders</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s1">&#39;open&#39;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">order</span> <span class="ow">in</span> <span class="n">orders</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">cancel_order</span><span class="p">(</span><span class="n">order</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+            
+        <span class="c1"># Wait for the market to open.</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Waiting for the market to open...&#39;</span><span class="p">)</span>
+        <span class="n">tAMO</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">awaitMarketOpen</span><span class="p">)</span>
+        <span class="n">tAMO</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+        <span class="n">tAMO</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Market opened.&#39;</span><span class="p">)</span>
+        
+        <span class="c1"># Rebalance the portfolio every minute, making necessary trades.</span>
+        <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+            <span class="c1"># Figure out when the market will close so we can prepare to sell beforehand.</span>
+            <span class="n">clock</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">get_clock</span><span class="p">()</span>
+            <span class="n">closingTime</span> <span class="o">=</span> <span class="n">clock</span><span class="o">.</span><span class="n">next_close</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">tzinfo</span><span class="o">=</span><span class="n">dt</span><span class="o">.</span><span class="n">timezone</span><span class="o">.</span><span class="n">utc</span><span class="p">)</span><span class="o">.</span><span class="n">timestamp</span><span class="p">()</span>
+            <span class="n">currTime</span> <span class="o">=</span> <span class="n">clock</span><span class="o">.</span><span class="n">timestamp</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">tzinfo</span><span class="o">=</span><span class="n">dt</span><span class="o">.</span><span class="n">timezone</span><span class="o">.</span><span class="n">utc</span><span class="p">)</span><span class="o">.</span><span class="n">timestamp</span><span class="p">()</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">timeToClose</span> <span class="o">=</span> <span class="n">closingTime</span> <span class="o">-</span> <span class="n">currTime</span>
+            
+            <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">timeToClose</span> <span class="o">&lt;</span> <span class="p">(</span><span class="mi">60</span> <span class="o">*</span> <span class="mi">15</span><span class="p">)):</span>
+                <span class="c1"># Close all positions when 15 minutes til market close.</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Market closing soon. Closing positions.&#39;</span><span class="p">)</span>
+                
+                <span class="n">positions</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">list_positions</span><span class="p">()</span>
+                <span class="k">for</span> <span class="n">position</span> <span class="ow">in</span> <span class="n">positions</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">side</span> <span class="o">==</span> <span class="s1">&#39;long&#39;</span><span class="p">):</span>
+                        <span class="n">orderSide</span> <span class="o">=</span> <span class="s1">&#39;sell&#39;</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="n">orderSide</span> <span class="o">=</span> <span class="s1">&#39;buy&#39;</span>
+                    <span class="n">qty</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">qty</span><span class="p">)))</span>
+                    <span class="n">respS0</span> <span class="o">=</span> <span class="p">[]</span>
+                    <span class="n">tSubmitOrder</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">submitOrder</span><span class="p">(</span><span class="n">qty</span><span class="p">,</span> <span class="n">position</span><span class="o">.</span><span class="n">symbol</span><span class="p">,</span> <span class="n">orderSide</span><span class="p">,</span> <span class="n">respS0</span><span class="p">))</span>
+                    <span class="n">tSubmitOrder</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+                    <span class="n">tSubmitOrder</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+                    
+                <span class="c1"># Run the script again after the market close for next trading day.</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Sleeping until market close (15 minutes).&#39;</span><span class="p">)</span>
+                <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">60</span> <span class="o">*</span> <span class="mi">15</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># Rebalance the portfolio.</span>
+                <span class="n">tRebalance</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">rebalance</span><span class="p">)</span>
+                <span class="n">tRebalance</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+                <span class="n">tRebalance</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+                <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+                
+    <span class="c1"># Wait for the market to open.</span>
+    <span class="k">def</span> <span class="nf">awaitMarketOpen</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">isOpen</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">get_clock</span><span class="p">()</span><span class="o">.</span><span class="n">is_open</span>
+        <span class="k">while</span> <span class="p">(</span><span class="ow">not</span> <span class="n">isOpen</span><span class="p">):</span>
+            <span class="n">clock</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">get_clock</span><span class="p">()</span>
+            <span class="n">openingTime</span> <span class="o">=</span> <span class="n">clock</span><span class="o">.</span><span class="n">next_open</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">tzinfo</span><span class="o">=</span><span class="n">dt</span><span class="o">.</span><span class="n">timezone</span><span class="o">.</span><span class="n">utc</span><span class="p">)</span><span class="o">.</span><span class="n">timestamp</span><span class="p">()</span>
+            <span class="n">currTime</span> <span class="o">=</span> <span class="n">clock</span><span class="o">.</span><span class="n">timestamp</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">tzinfo</span><span class="o">=</span><span class="n">dt</span><span class="o">.</span><span class="n">timezone</span><span class="o">.</span><span class="n">utc</span><span class="p">)</span><span class="o">.</span><span class="n">timestamp</span><span class="p">()</span>
+            <span class="n">timeToOpen</span> <span class="o">=</span> <span class="nb">int</span><span class="p">((</span><span class="n">openingTime</span> <span class="o">-</span> <span class="n">currTime</span><span class="p">)</span> <span class="o">/</span> <span class="mi">60</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">timeToOpen</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39; minutes til market open.&#39;</span><span class="p">)</span>
+            <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+            <span class="n">isOpen</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">get_clock</span><span class="p">()</span><span class="o">.</span><span class="n">is_open</span>
+            
+    <span class="k">def</span> <span class="nf">rebalance</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">tRerank</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">rerank</span><span class="p">)</span>
+        <span class="n">tRerank</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+        <span class="n">tRerank</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+        
+        <span class="c1"># Clear existing orders again.</span>
+        <span class="n">orders</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">list_orders</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s1">&#39;open&#39;</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">order</span> <span class="ow">in</span> <span class="n">orders</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">cancel_order</span><span class="p">(</span><span class="n">order</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+            
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;We are taking a long position in: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">long</span><span class="p">))</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;We are taking a short position in: &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">short</span><span class="p">))</span>
+        <span class="c1"># Remove positions that are no longer in the short or long list,</span>
+        <span class="c1"># and make a list of positions that do not need to change.</span>
+        <span class="c1"># Adjust position quantities if needed.</span>
+        <span class="n">executed</span> <span class="o">=</span> <span class="p">[[],</span> <span class="p">[]]</span>
+        <span class="n">positions</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">list_positions</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">blacklist</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">position</span> <span class="ow">in</span> <span class="n">positions</span><span class="p">:</span>
+            <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">long</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">symbol</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+                <span class="c1"># Position is not in long list.</span>
+                <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">short</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">symbol</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">):</span>
+                    <span class="c1"># Position not in short list either. Clear position.</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">side</span> <span class="o">==</span> <span class="s1">&#39;long&#39;</span><span class="p">):</span>
+                        <span class="n">side</span> <span class="o">=</span> <span class="s1">&#39;sell&#39;</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="n">side</span> <span class="o">=</span> <span class="s1">&#39;buy&#39;</span>
+                    <span class="n">respS0</span> <span class="o">=</span> <span class="p">[]</span>
+                    <span class="n">tS0</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">submitOrder</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="nb">abs</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">qty</span><span class="p">))),</span> <span class="n">position</span><span class="o">.</span><span class="n">symbol</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">respS0</span><span class="p">])</span>
+                    <span class="n">tS0</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+                    <span class="n">tS0</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="c1"># Position in short list.</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">side</span> <span class="o">==</span> <span class="s1">&#39;long&#39;</span><span class="p">):</span>
+                        <span class="c1"># Position changed from long to short. Clear long position to prepare for short position.</span>
+                        <span class="n">side</span> <span class="o">=</span> <span class="s1">&#39;sell&#39;</span>
+                        <span class="n">respS0</span> <span class="o">=</span> <span class="p">[]</span>
+                        <span class="n">tS0</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">submitOrder</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="nb">int</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">qty</span><span class="p">)),</span> <span class="n">position</span><span class="o">.</span><span class="n">symbol</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">respS0</span><span class="p">])</span>
+                        <span class="n">tS0</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+                        <span class="n">tS0</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="k">if</span> <span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">qty</span><span class="p">)))</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">qShort</span><span class="p">):</span>
+                            <span class="c1"># Position is where we want it. Pass for now.</span>
+                            <span class="k">pass</span>
+                        <span class="k">else</span><span class="p">:</span>
+                            <span class="c1"># Need to adjust position amount</span>
+                            <span class="n">diff</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">qty</span><span class="p">)))</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">qShort</span>
+                            <span class="k">if</span> <span class="p">(</span><span class="n">diff</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+                                <span class="c1"># Too many short positions. Buy some back to rebalance.</span>
+                                <span class="n">side</span> <span class="o">=</span> <span class="s1">&#39;buy&#39;</span>
+                            <span class="k">else</span><span class="p">:</span>
+                                <span class="c1"># Too little short positions. Sell some more.</span>
+                                <span class="n">side</span> <span class="o">=</span> <span class="s1">&#39;sell&#39;</span>
+                            <span class="n">respS0</span> <span class="o">=</span> <span class="p">[]</span>
+                            <span class="n">tS0</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">submitOrder</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="nb">abs</span><span class="p">(</span><span class="n">diff</span><span class="p">),</span> <span class="n">position</span><span class="o">.</span><span class="n">symbol</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">respS0</span><span class="p">])</span>
+                            <span class="n">tS0</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+                            <span class="n">tS0</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+                        <span class="n">executed</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">symbol</span><span class="p">)</span>
+                        <span class="bp">self</span><span class="o">.</span><span class="n">blacklist</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">symbol</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># Position in long list.</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">side</span> <span class="o">==</span> <span class="s1">&#39;short&#39;</span><span class="p">):</span>
+                    <span class="c1"># Position changed from short to long. Clear short position to preapre for long position.</span>
+                    <span class="n">respS0</span> <span class="o">=</span> <span class="p">[]</span>
+                    <span class="n">tS0</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">submitOrder</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="nb">abs</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">qty</span><span class="p">))),</span> <span class="n">position</span><span class="o">.</span><span class="n">symbol</span><span class="p">,</span> <span class="s1">&#39;buy&#39;</span><span class="p">,</span> <span class="n">respS0</span><span class="p">])</span>
+                    <span class="n">tS0</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+                    <span class="n">tS0</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">qty</span><span class="p">))</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">qLong</span><span class="p">):</span>
+                        <span class="c1"># Position is where we want it. Pass for now.</span>
+                        <span class="k">pass</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="c1"># Need to adjust position amount.</span>
+                        <span class="n">diff</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">qty</span><span class="p">)))</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">qLong</span>
+                        <span class="k">if</span> <span class="p">(</span><span class="n">diff</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+                            <span class="c1"># Too many long positions. Sell some to rebalance.</span>
+                            <span class="n">side</span> <span class="o">=</span> <span class="s1">&#39;sell&#39;</span>
+                        <span class="k">else</span><span class="p">:</span>
+                            <span class="c1"># Too little long positions. Buy some more.</span>
+                            <span class="n">side</span> <span class="o">=</span> <span class="s1">&#39;buy&#39;</span>
+                        <span class="n">respS0</span> <span class="o">=</span> <span class="p">[]</span>
+                        <span class="n">tS0</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">submitOrder</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="nb">abs</span><span class="p">(</span><span class="n">diff</span><span class="p">),</span> <span class="n">position</span><span class="o">.</span><span class="n">symbol</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">respS0</span><span class="p">])</span>
+                        <span class="n">tS0</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+                        <span class="n">tS0</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+                    <span class="n">executed</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">symbol</span><span class="p">)</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">blacklist</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">position</span><span class="o">.</span><span class="n">symbol</span><span class="p">)</span>
+                    
+        <span class="c1"># Send orders to all remaining stocks in the long and short list.</span>
+        <span class="n">respSendBOLong</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">tSendBOLong</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">sendBatchOrder</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">qLong</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">long</span><span class="p">,</span> <span class="s1">&#39;buy&#39;</span><span class="p">,</span> <span class="n">respSendBOLong</span><span class="p">])</span>
+        <span class="n">tSendBOLong</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+        <span class="n">tSendBOLong</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+        <span class="n">respSendBOLong</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">+=</span> <span class="n">executed</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">respSendBOLong</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="c1"># Handle rejected/incomplete orders and determine new quantities to purchase.</span>
+            <span class="n">respGetTPLong</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="n">tGetTPLong</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">getTotalPrice</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="n">respSendBOLong</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">respGetTPLong</span><span class="p">])</span>
+            <span class="n">tGetTPLong</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+            <span class="n">tGetTPLong</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">respGetTPLong</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">adjustedQLong</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">longAmount</span> <span class="o">//</span> <span class="n">respGetTPLong</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">adjustedQLong</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">adjustedQLong</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+            
+        <span class="n">respSendBOShort</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">tSendBOShort</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">sendBatchOrder</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">qShort</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">short</span><span class="p">,</span> <span class="s1">&#39;sell&#39;</span><span class="p">,</span> <span class="n">respSendBOShort</span><span class="p">])</span>
+        <span class="n">tSendBOShort</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+        <span class="n">tSendBOShort</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+        <span class="n">respSendBOShort</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">+=</span> <span class="n">executed</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">respSendBOShort</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="c1"># Handle rejected/incomplete orders and determine new quantities to purchase.</span>
+            <span class="n">respGetTPShort</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="n">tGetTPShort</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">getTotalPrice</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="n">respSendBOShort</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">respGetTPShort</span><span class="p">])</span>
+            <span class="n">tGetTPShort</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+            <span class="n">tGetTPShort</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">respGetTPShort</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">adjustedQShort</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">shortAmount</span> <span class="o">//</span> <span class="n">respGetTPShort</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">adjustedQShort</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">adjustedQShort</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+            
+        <span class="c1"># Reorder stocks that didn&#39;t throw an error so that the equity quota is reached.</span>
+        <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">adjustedQLong</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">qLong</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">adjustedQLong</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">qLong</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">stock</span> <span class="ow">in</span> <span class="n">respSendBOLong</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]:</span>
+                <span class="n">respResendBOLong</span> <span class="o">=</span> <span class="p">[]</span>
+                <span class="n">tResendBOLong</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">submitOrder</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">qLong</span><span class="p">,</span> <span class="n">stock</span><span class="p">,</span> <span class="s1">&#39;buy&#39;</span><span class="p">,</span> <span class="n">respResendBOLong</span><span class="p">])</span>
+                <span class="n">tResendBOLong</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+                <span class="n">tResendBOLong</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+                
+        <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">adjustedQShort</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">qShort</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">adjustedQShort</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">qShort</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">stock</span> <span class="ow">in</span> <span class="n">respSendBOShort</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]:</span>
+                <span class="n">respResendBOShort</span> <span class="o">=</span> <span class="p">[]</span>
+                <span class="n">tResendBOShort</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">submitOrder</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">qShort</span><span class="p">,</span> <span class="n">stock</span><span class="p">,</span> <span class="s1">&#39;sell&#39;</span><span class="p">,</span> <span class="n">respResendBOShort</span><span class="p">])</span>
+                <span class="n">tResendBOShort</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+                <span class="n">tResendBOShort</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+                
+    <span class="c1"># Re-rank all stocks to adjust longs and shorts.</span>
+    <span class="k">def</span> <span class="nf">rerank</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">tRank</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">rank</span><span class="p">)</span>
+        <span class="n">tRank</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+        <span class="n">tRank</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+        
+        <span class="c1"># Grabs the top and bottom quarter of the sorted stock list to get the long and short lists.</span>
+        <span class="n">longShortAmount</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">allStocks</span><span class="p">)</span> <span class="o">//</span> <span class="mi">4</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">long</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">short</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">stockField</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">allStocks</span><span class="p">):</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">longShortAmount</span><span class="p">):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">short</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">stockField</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="k">elif</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">allStocks</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span> <span class="o">-</span> <span class="n">longShortAmount</span><span class="p">)):</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">long</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">stockField</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">continue</span>
+                
+        <span class="c1"># Determine amount to long/short based on total stock price of each bucket.</span>
+        <span class="n">equity</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">get_account</span><span class="p">()</span><span class="o">.</span><span class="n">equity</span><span class="p">))</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">shortAmount</span> <span class="o">=</span> <span class="n">equity</span> <span class="o">*</span> <span class="mf">0.30</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">longAmount</span> <span class="o">=</span> <span class="n">equity</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">shortAmount</span>
+        
+        <span class="n">respGetTPLong</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">tGetTPLong</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">getTotalPrice</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">long</span><span class="p">,</span> <span class="n">respGetTPLong</span><span class="p">])</span>
+        <span class="n">tGetTPLong</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+        <span class="n">tGetTPLong</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+        
+        <span class="n">respGetTPShort</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">tGetTPShort</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">getTotalPrice</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">short</span><span class="p">,</span> <span class="n">respGetTPShort</span><span class="p">])</span>
+        <span class="n">tGetTPShort</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+        <span class="n">tGetTPShort</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">qLong</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">longAmount</span> <span class="o">//</span> <span class="n">respGetTPLong</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">qShort</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">shortAmount</span> <span class="o">//</span> <span class="n">respGetTPShort</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        
+    <span class="c1"># Get the total price of the array of input stocks.</span>
+    <span class="k">def</span> <span class="nf">getTotalPrice</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">stocks</span><span class="p">,</span> <span class="n">resp</span><span class="p">):</span>
+        <span class="n">totalprice</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">for</span> <span class="n">stock</span> <span class="ow">in</span> <span class="n">stocks</span><span class="p">:</span>
+            <span class="n">bars</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">get_bars</span><span class="p">(</span><span class="n">stock</span><span class="p">,</span> <span class="n">TimeFrame</span><span class="o">.</span><span class="n">Minute</span><span class="p">,</span>
+                                       <span class="n">pd</span><span class="o">.</span><span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;now&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">date</span><span class="p">(),</span>
+                                       <span class="n">pd</span><span class="o">.</span><span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;now&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">date</span><span class="p">(),</span> <span class="n">limit</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+                                       <span class="n">adjustment</span><span class="o">=</span><span class="s1">&#39;raw&#39;</span><span class="p">)</span>
+            <span class="n">totalPrice</span> <span class="o">+=</span> <span class="n">bars</span><span class="p">[</span><span class="n">stock</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">c</span>
+        <span class="n">resp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">totalPrice</span><span class="p">)</span>
+        
+    <span class="c1"># Submit a batch order that returns completed and uncompleted orders.</span>
+    <span class="k">def</span> <span class="nf">sendBatchOrder</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">qty</span><span class="p">,</span> <span class="n">stocks</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">resp</span><span class="p">):</span>
+        <span class="n">executed</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">incomplete</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">stock</span> <span class="ow">in</span> <span class="n">stocks</span><span class="p">:</span>
+            <span class="k">if</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">blacklist</span><span class="o">.</span><span class="n">isdisjoint</span><span class="p">({</span><span class="n">stock</span><span class="p">})):</span>
+                <span class="n">respS0</span> <span class="o">=</span> <span class="p">[]</span>
+                <span class="n">tSubmitOrder</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">submitOrder</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">[</span><span class="n">qty</span><span class="p">,</span> <span class="n">stock</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">respS0</span><span class="p">])</span>
+                <span class="n">tSubmitOrder</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+                <span class="n">tSubmitOrder</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+                <span class="k">if</span> <span class="p">(</span><span class="ow">not</span> <span class="n">respS0</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
+                    <span class="c1"># Stock order did not go through, add it to incomplete.</span>
+                    <span class="n">incomplete</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">stock</span><span class="p">)</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">executed</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">stock</span><span class="p">)</span>
+                <span class="n">respS0</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+        <span class="n">resp</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">executed</span><span class="p">,</span> <span class="n">incomplete</span><span class="p">])</span>
+        
+    <span class="c1"># Submit an order if quantity is above 0.</span>
+    <span class="k">def</span> <span class="nf">submitOrder</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">qty</span><span class="p">,</span> <span class="n">stock</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="n">resp</span><span class="p">):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">qty</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">submit_order</span><span class="p">(</span><span class="n">stock</span><span class="p">,</span> <span class="n">qty</span><span class="p">,</span> <span class="n">side</span><span class="p">,</span> <span class="s1">&#39;market&#39;</span><span class="p">,</span> <span class="s1">&#39;day&#39;</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Market order of | &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">qty</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">stock</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">side</span> <span class="o">+</span> <span class="s1">&#39; | completed.&#39;</span><span class="p">)</span>
+                <span class="n">resp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+            <span class="k">except</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Order of | &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">qty</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">stock</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">side</span> <span class="o">+</span> <span class="s1">&#39; | did not go through.&#39;</span><span class="p">)</span>
+                <span class="n">resp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Quantity is 0, order of | &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">qty</span><span class="p">)</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">stock</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">side</span> <span class="o">+</span> <span class="s1">&#39; | not completed.&#39;</span><span class="p">)</span>
+            <span class="n">resp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+            
+    <span class="c1"># Get percent changes of the stock prices over the past 10 minutes.</span>
+    <span class="k">def</span> <span class="nf">getPercentChanges</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">length</span> <span class="o">=</span> <span class="mi">10</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">stock</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">allStocks</span><span class="p">):</span>
+            <span class="n">bars</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">get_bars</span><span class="p">(</span><span class="n">stock</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">TimeFrame</span><span class="o">.</span><span class="n">Minute</span><span class="p">,</span>
+                                       <span class="n">pd</span><span class="o">.</span><span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;now&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">date</span><span class="p">(),</span>
+                                       <span class="n">pd</span><span class="o">.</span><span class="n">Timestamp</span><span class="p">(</span><span class="s1">&#39;now&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">date</span><span class="p">(),</span> <span class="n">limit</span><span class="o">=</span><span class="n">length</span><span class="p">,</span>
+                                       <span class="n">adjustment</span><span class="o">=</span><span class="s1">&#39;raw&#39;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">allStocks</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">bars</span><span class="p">[</span><span class="n">stock</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="nb">len</span><span class="p">(</span><span class="n">bars</span><span class="p">[</span><span class="n">stock</span><span class="p">[</span><span class="mi">0</span><span class="p">]])</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">c</span> <span class="o">-</span> <span class="n">bars</span><span class="p">[</span><span class="n">stock</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">o</span><span class="p">)</span> <span class="o">/</span> <span class="n">bars</span><span class="p">[</span><span class="n">stock</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">o</span>
+            
+    <span class="c1"># Mechanism used to rank the stocks, the basis of the Long-Short Equity Strategy.</span>
+    <span class="k">def</span> <span class="nf">rank</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># Ranks all stocks by percent change over the past 10 minutes (higher is better).</span>
+        <span class="n">tGetPC</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">getPercentChanges</span><span class="p">)</span>
+        <span class="n">tGetPC</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+        <span class="n">tGetPC</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+        
+        <span class="c1"># Sort the stocks in place by the percent change field (marked by pc).</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">allStocks</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        
+<span class="c1"># Run the LongShort class</span>
+<span class="n">ls</span> <span class="o">=</span> <span class="n">LongShort</span><span class="p">()</span>
+<span class="n">ls</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Waiting for the market to open...
+3717 minutes til market open.
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Exception in thread Thread-5:
+Traceback (most recent call last):
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py&quot;, line 597, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py&quot;, line 384, in _make_request
+    six.raise_from(e, None)
+  File &quot;&lt;string&gt;&quot;, line 2, in raise_from
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py&quot;, line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File &quot;/opt/anaconda3/lib/python3.8/http/client.py&quot;, line 1322, in getresponse
+    response.begin()
+  File &quot;/opt/anaconda3/lib/python3.8/http/client.py&quot;, line 303, in begin
+    version, status, reason = self._read_status()
+  File &quot;/opt/anaconda3/lib/python3.8/http/client.py&quot;, line 272, in _read_status
+    raise RemoteDisconnected(&quot;Remote end closed connection without&quot;
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/requests/adapters.py&quot;, line 439, in send
+    resp = conn.urlopen(
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py&quot;, line 637, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/urllib3/util/retry.py&quot;, line 368, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/urllib3/packages/six.py&quot;, line 685, in reraise
+    raise value.with_traceback(tb)
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py&quot;, line 597, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py&quot;, line 384, in _make_request
+    six.raise_from(e, None)
+  File &quot;&lt;string&gt;&quot;, line 2, in raise_from
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py&quot;, line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File &quot;/opt/anaconda3/lib/python3.8/http/client.py&quot;, line 1322, in getresponse
+    response.begin()
+  File &quot;/opt/anaconda3/lib/python3.8/http/client.py&quot;, line 303, in begin
+    version, status, reason = self._read_status()
+  File &quot;/opt/anaconda3/lib/python3.8/http/client.py&quot;, line 272, in _read_status
+    raise RemoteDisconnected(&quot;Remote end closed connection without&quot;
+urllib3.exceptions.ProtocolError: (&#39;Connection aborted.&#39;, RemoteDisconnected(&#39;Remote end closed connection without response&#39;))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 932, in _bootstrap_inner
+    self.run()
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File &quot;&lt;ipython-input-5-49771a317126&gt;&quot;, line 81, in awaitMarketOpen
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/alpaca_trade_api/rest.py&quot;, line 635, in get_clock
+    resp = self.get(&#39;/clock&#39;)
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/alpaca_trade_api/rest.py&quot;, line 176, in get
+    return self._request(&#39;GET&#39;, path, data)
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/alpaca_trade_api/rest.py&quot;, line 139, in _request
+    return self._one_request(method, url, opts, retry)
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/alpaca_trade_api/rest.py&quot;, line 158, in _one_request
+    resp = self._session.request(method, url, **opts)
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/requests/sessions.py&quot;, line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/requests/sessions.py&quot;, line 646, in send
+    r = adapter.send(request, **kwargs)
+  File &quot;/opt/anaconda3/lib/python3.8/site-packages/requests/adapters.py&quot;, line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: (&#39;Connection aborted.&#39;, RemoteDisconnected(&#39;Remote end closed connection without response&#39;))
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Market opened.
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Exception in thread Thread-9:
+Traceback (most recent call last):
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 932, in _bootstrap_inner
+    self.run()
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File &quot;&lt;ipython-input-5-49771a317126&gt;&quot;, line 312, in getPercentChanges
+TypeError: list indices must be integers or slices, not str
+Exception in thread Thread-10:
+Traceback (most recent call last):
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 932, in _bootstrap_inner
+    self.run()
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File &quot;&lt;ipython-input-5-49771a317126&gt;&quot;, line 269, in getTotalPrice
+UnboundLocalError: local variable &#39;totalPrice&#39; referenced before assignment
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 932, in _bootstrap_inner
+    self.run()
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File &quot;&lt;ipython-input-5-49771a317126&gt;&quot;, line 269, in getTotalPrice
+UnboundLocalError: local variable &#39;totalPrice&#39; referenced before assignment
+Exception in thread Thread-7:
+Traceback (most recent call last):
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 932, in _bootstrap_inner
+    self.run()
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File &quot;&lt;ipython-input-5-49771a317126&gt;&quot;, line 258, in rerank
+IndexError: list index out of range
+Exception in thread Thread-15:
+Traceback (most recent call last):
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 932, in _bootstrap_inner
+    self.run()
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File &quot;&lt;ipython-input-5-49771a317126&gt;&quot;, line 292, in submitOrder
+TypeError: &#39;&gt;&#39; not supported between instances of &#39;NoneType&#39; and &#39;int&#39;
+Exception in thread Thread-14:
+Traceback (most recent call last):
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 932, in _bootstrap_inner
+    self.run()
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File &quot;&lt;ipython-input-5-49771a317126&gt;&quot;, line 282, in sendBatchOrder
+IndexError: list index out of range
+Exception in thread Thread-6:
+Traceback (most recent call last):
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 932, in _bootstrap_inner
+    self.run()
+  File &quot;/opt/anaconda3/lib/python3.8/threading.py&quot;, line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File &quot;&lt;ipython-input-5-49771a317126&gt;&quot;, line 175, in rebalance
+IndexError: list index out of range
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>We are taking a long position in: [&#39;RTN&#39;, &#39;ATVI&#39;, &#39;GS&#39;, &#39;BAC&#39;, &#39;MS&#39;, &#39;TWLO&#39;, &#39;QCOM&#39;]
+We are taking a short position in: [&#39;DOMO&#39;, &#39;TLRY&#39;, &#39;SQ&#39;, &#39;MRO&#39;, &#39;AAPL&#39;, &#39;GM&#39;, &#39;SNAP&#39;]
+Market order of | 1000 MSFT sell | completed.
+Market order of | 200 AAPL sell | completed.
+</pre></div>
+</div>
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">RemoteDisconnected</span><span class="g g-Whitespace">                        </span>Traceback (most recent call last)
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py</span> in <span class="ni">urlopen</span><span class="nt">(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)</span>
+<span class="g g-Whitespace">    </span><span class="mi">596</span>             <span class="c1"># Make the request on the httplib connection object.</span>
+<span class="ne">--&gt; </span><span class="mi">597</span>             <span class="n">httplib_response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span> <span class="n">method</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">598</span>                                                   <span class="n">timeout</span><span class="o">=</span><span class="n">timeout_obj</span><span class="p">,</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py</span> in <span class="ni">_make_request</span><span class="nt">(self, conn, method, url, timeout, chunked, **httplib_request_kw)</span>
+<span class="g g-Whitespace">    </span><span class="mi">383</span>                     <span class="c1"># otherwise it looks like a programming error was the cause.</span>
+<span class="ne">--&gt; </span><span class="mi">384</span>                     <span class="n">six</span><span class="o">.</span><span class="n">raise_from</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">385</span>         <span class="k">except</span> <span class="p">(</span><span class="n">SocketTimeout</span><span class="p">,</span> <span class="n">BaseSSLError</span><span class="p">,</span> <span class="n">SocketError</span><span class="p">)</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/urllib3/packages/six.py</span> in <span class="ni">raise_from</span><span class="nt">(value, from_value)</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py</span> in <span class="ni">_make_request</span><span class="nt">(self, conn, method, url, timeout, chunked, **httplib_request_kw)</span>
+<span class="g g-Whitespace">    </span><span class="mi">379</span>                 <span class="k">try</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">380</span>                     <span class="n">httplib_response</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">getresponse</span><span class="p">()</span>
+<span class="g g-Whitespace">    </span><span class="mi">381</span>                 <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/http/client.py</span> in <span class="ni">getresponse</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1321</span>             <span class="k">try</span><span class="p">:</span>
+<span class="ne">-&gt; </span><span class="mi">1322</span>                 <span class="n">response</span><span class="o">.</span><span class="n">begin</span><span class="p">()</span>
+<span class="g g-Whitespace">   </span><span class="mi">1323</span>             <span class="k">except</span> <span class="ne">ConnectionError</span><span class="p">:</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/http/client.py</span> in <span class="ni">begin</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">    </span><span class="mi">302</span>         <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">303</span>             <span class="n">version</span><span class="p">,</span> <span class="n">status</span><span class="p">,</span> <span class="n">reason</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_read_status</span><span class="p">()</span>
+<span class="g g-Whitespace">    </span><span class="mi">304</span>             <span class="k">if</span> <span class="n">status</span> <span class="o">!=</span> <span class="n">CONTINUE</span><span class="p">:</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/http/client.py</span> in <span class="ni">_read_status</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">    </span><span class="mi">271</span>             <span class="c1"># sending a valid response.</span>
+<span class="ne">--&gt; </span><span class="mi">272</span>             <span class="k">raise</span> <span class="n">RemoteDisconnected</span><span class="p">(</span><span class="s2">&quot;Remote end closed connection without&quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">273</span>                                      <span class="s2">&quot; response&quot;</span><span class="p">)</span>
+
+<span class="ne">RemoteDisconnected</span>: Remote end closed connection without response
+
+<span class="n">During</span> <span class="n">handling</span> <span class="n">of</span> <span class="n">the</span> <span class="n">above</span> <span class="n">exception</span><span class="p">,</span> <span class="n">another</span> <span class="n">exception</span> <span class="n">occurred</span><span class="p">:</span>
+
+<span class="ne">ProtocolError</span><span class="g g-Whitespace">                             </span>Traceback (most recent call last)
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/requests/adapters.py</span> in <span class="ni">send</span><span class="nt">(self, request, stream, timeout, verify, cert, proxies)</span>
+<span class="g g-Whitespace">    </span><span class="mi">438</span>             <span class="k">if</span> <span class="ow">not</span> <span class="n">chunked</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">439</span>                 <span class="n">resp</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">urlopen</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">440</span>                     <span class="n">method</span><span class="o">=</span><span class="n">request</span><span class="o">.</span><span class="n">method</span><span class="p">,</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py</span> in <span class="ni">urlopen</span><span class="nt">(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)</span>
+<span class="g g-Whitespace">    </span><span class="mi">636</span> 
+<span class="ne">--&gt; </span><span class="mi">637</span>             <span class="n">retries</span> <span class="o">=</span> <span class="n">retries</span><span class="o">.</span><span class="n">increment</span><span class="p">(</span><span class="n">method</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">error</span><span class="o">=</span><span class="n">e</span><span class="p">,</span> <span class="n">_pool</span><span class="o">=</span><span class="bp">self</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">638</span>                                         <span class="n">_stacktrace</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">exc_info</span><span class="p">()[</span><span class="mi">2</span><span class="p">])</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/urllib3/util/retry.py</span> in <span class="ni">increment</span><span class="nt">(self, method, url, response, error, _pool, _stacktrace)</span>
+<span class="g g-Whitespace">    </span><span class="mi">367</span>             <span class="k">if</span> <span class="n">read</span> <span class="ow">is</span> <span class="kc">False</span> <span class="ow">or</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_is_method_retryable</span><span class="p">(</span><span class="n">method</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">368</span>                 <span class="k">raise</span> <span class="n">six</span><span class="o">.</span><span class="n">reraise</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">error</span><span class="p">),</span> <span class="n">error</span><span class="p">,</span> <span class="n">_stacktrace</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">369</span>             <span class="k">elif</span> <span class="n">read</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/urllib3/packages/six.py</span> in <span class="ni">reraise</span><span class="nt">(tp, value, tb)</span>
+<span class="g g-Whitespace">    </span><span class="mi">684</span>         <span class="k">if</span> <span class="n">value</span><span class="o">.</span><span class="n">__traceback__</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">tb</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">685</span>             <span class="k">raise</span> <span class="n">value</span><span class="o">.</span><span class="n">with_traceback</span><span class="p">(</span><span class="n">tb</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">686</span>         <span class="k">raise</span> <span class="n">value</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py</span> in <span class="ni">urlopen</span><span class="nt">(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)</span>
+<span class="g g-Whitespace">    </span><span class="mi">596</span>             <span class="c1"># Make the request on the httplib connection object.</span>
+<span class="ne">--&gt; </span><span class="mi">597</span>             <span class="n">httplib_response</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_request</span><span class="p">(</span><span class="n">conn</span><span class="p">,</span> <span class="n">method</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">598</span>                                                   <span class="n">timeout</span><span class="o">=</span><span class="n">timeout_obj</span><span class="p">,</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py</span> in <span class="ni">_make_request</span><span class="nt">(self, conn, method, url, timeout, chunked, **httplib_request_kw)</span>
+<span class="g g-Whitespace">    </span><span class="mi">383</span>                     <span class="c1"># otherwise it looks like a programming error was the cause.</span>
+<span class="ne">--&gt; </span><span class="mi">384</span>                     <span class="n">six</span><span class="o">.</span><span class="n">raise_from</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">385</span>         <span class="k">except</span> <span class="p">(</span><span class="n">SocketTimeout</span><span class="p">,</span> <span class="n">BaseSSLError</span><span class="p">,</span> <span class="n">SocketError</span><span class="p">)</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/urllib3/packages/six.py</span> in <span class="ni">raise_from</span><span class="nt">(value, from_value)</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/urllib3/connectionpool.py</span> in <span class="ni">_make_request</span><span class="nt">(self, conn, method, url, timeout, chunked, **httplib_request_kw)</span>
+<span class="g g-Whitespace">    </span><span class="mi">379</span>                 <span class="k">try</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">380</span>                     <span class="n">httplib_response</span> <span class="o">=</span> <span class="n">conn</span><span class="o">.</span><span class="n">getresponse</span><span class="p">()</span>
+<span class="g g-Whitespace">    </span><span class="mi">381</span>                 <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/http/client.py</span> in <span class="ni">getresponse</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1321</span>             <span class="k">try</span><span class="p">:</span>
+<span class="ne">-&gt; </span><span class="mi">1322</span>                 <span class="n">response</span><span class="o">.</span><span class="n">begin</span><span class="p">()</span>
+<span class="g g-Whitespace">   </span><span class="mi">1323</span>             <span class="k">except</span> <span class="ne">ConnectionError</span><span class="p">:</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/http/client.py</span> in <span class="ni">begin</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">    </span><span class="mi">302</span>         <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">303</span>             <span class="n">version</span><span class="p">,</span> <span class="n">status</span><span class="p">,</span> <span class="n">reason</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_read_status</span><span class="p">()</span>
+<span class="g g-Whitespace">    </span><span class="mi">304</span>             <span class="k">if</span> <span class="n">status</span> <span class="o">!=</span> <span class="n">CONTINUE</span><span class="p">:</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/http/client.py</span> in <span class="ni">_read_status</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">    </span><span class="mi">271</span>             <span class="c1"># sending a valid response.</span>
+<span class="ne">--&gt; </span><span class="mi">272</span>             <span class="k">raise</span> <span class="n">RemoteDisconnected</span><span class="p">(</span><span class="s2">&quot;Remote end closed connection without&quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">273</span>                                      <span class="s2">&quot; response&quot;</span><span class="p">)</span>
+
+<span class="ne">ProtocolError</span>: (&#39;Connection aborted.&#39;, RemoteDisconnected(&#39;Remote end closed connection without response&#39;))
+
+<span class="n">During</span> <span class="n">handling</span> <span class="n">of</span> <span class="n">the</span> <span class="n">above</span> <span class="n">exception</span><span class="p">,</span> <span class="n">another</span> <span class="n">exception</span> <span class="n">occurred</span><span class="p">:</span>
+
+<span class="ne">ConnectionError</span><span class="g g-Whitespace">                           </span>Traceback (most recent call last)
+<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">5</span><span class="o">-</span><span class="mi">49771</span><span class="n">a317126</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">    </span><span class="mi">324</span> <span class="c1"># Run the LongShort class</span>
+<span class="g g-Whitespace">    </span><span class="mi">325</span> <span class="n">ls</span> <span class="o">=</span> <span class="n">LongShort</span><span class="p">()</span>
+<span class="ne">--&gt; </span><span class="mi">326</span> <span class="n">ls</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+
+<span class="nn">&lt;ipython-input-5-49771a317126&gt;</span> in <span class="ni">run</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">     </span><span class="mi">38</span>         <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+<span class="g g-Whitespace">     </span><span class="mi">39</span>             <span class="c1"># Figure out when the market will close so we can prepare to sell beforehand.</span>
+<span class="ne">---&gt; </span><span class="mi">40</span>             <span class="n">clock</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">alpaca</span><span class="o">.</span><span class="n">get_clock</span><span class="p">()</span>
+<span class="g g-Whitespace">     </span><span class="mi">41</span>             <span class="n">closingTime</span> <span class="o">=</span> <span class="n">clock</span><span class="o">.</span><span class="n">next_close</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">tzinfo</span><span class="o">=</span><span class="n">dt</span><span class="o">.</span><span class="n">timezone</span><span class="o">.</span><span class="n">utc</span><span class="p">)</span><span class="o">.</span><span class="n">timestamp</span><span class="p">()</span>
+<span class="g g-Whitespace">     </span><span class="mi">42</span>             <span class="n">currTime</span> <span class="o">=</span> <span class="n">clock</span><span class="o">.</span><span class="n">timestamp</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">tzinfo</span><span class="o">=</span><span class="n">dt</span><span class="o">.</span><span class="n">timezone</span><span class="o">.</span><span class="n">utc</span><span class="p">)</span><span class="o">.</span><span class="n">timestamp</span><span class="p">()</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/alpaca_trade_api/rest.py</span> in <span class="ni">get_clock</span><span class="nt">(self)</span>
+<span class="g g-Whitespace">    </span><span class="mi">633</span> 
+<span class="g g-Whitespace">    </span><span class="mi">634</span>     <span class="k">def</span> <span class="nf">get_clock</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Clock</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">635</span>         <span class="n">resp</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;/clock&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">636</span>         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">response_wrapper</span><span class="p">(</span><span class="n">resp</span><span class="p">,</span> <span class="n">Clock</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">637</span> 
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/alpaca_trade_api/rest.py</span> in <span class="ni">get</span><span class="nt">(self, path, data)</span>
+<span class="g g-Whitespace">    </span><span class="mi">174</span> 
+<span class="g g-Whitespace">    </span><span class="mi">175</span>     <span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">176</span>         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_request</span><span class="p">(</span><span class="s1">&#39;GET&#39;</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">177</span> 
+<span class="g g-Whitespace">    </span><span class="mi">178</span>     <span class="k">def</span> <span class="nf">post</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/alpaca_trade_api/rest.py</span> in <span class="ni">_request</span><span class="nt">(self, method, path, data, base_url, api_version)</span>
+<span class="g g-Whitespace">    </span><span class="mi">137</span>         <span class="k">while</span> <span class="n">retry</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">138</span>             <span class="k">try</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">139</span>                 <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_one_request</span><span class="p">(</span><span class="n">method</span><span class="p">,</span> <span class="n">url</span><span class="p">,</span> <span class="n">opts</span><span class="p">,</span> <span class="n">retry</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">140</span>             <span class="k">except</span> <span class="n">RetryException</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">141</span>                 <span class="n">retry_wait</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_retry_wait</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/alpaca_trade_api/rest.py</span> in <span class="ni">_one_request</span><span class="nt">(self, method, url, opts, retry)</span>
+<span class="g g-Whitespace">    </span><span class="mi">156</span>         <span class="s2">&quot;&quot;&quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">157</span><span class="s2">         retry_codes = self._retry_codes</span>
+<span class="ne">--&gt; </span><span class="mi">158</span><span class="s2">         resp = self._session.request(method, url, **opts)</span>
+<span class="g g-Whitespace">    </span><span class="mi">159</span><span class="s2">         try:</span>
+<span class="g g-Whitespace">    </span><span class="mi">160</span><span class="s2">             resp.raise_for_status()</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/requests/sessions.py</span> in <span class="ni">request</span><span class="nt">(self, method, url, params, data, headers, cookies, files, auth, timeout, allow_redirects, proxies, hooks, stream, verify, cert, json)</span>
+<span class="g g-Whitespace">    </span><span class="mi">531</span><span class="s2">         }</span>
+<span class="g g-Whitespace">    </span><span class="mi">532</span><span class="s2">         send_kwargs.update(settings)</span>
+<span class="ne">--&gt; </span><span class="mi">533</span><span class="s2">         resp = self.send(prep, **send_kwargs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">534</span><span class="s2"> </span>
+<span class="g g-Whitespace">    </span><span class="mi">535</span><span class="s2">         return resp</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/requests/sessions.py</span> in <span class="ni">send</span><span class="nt">(self, request, **kwargs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">644</span><span class="s2"> </span>
+<span class="g g-Whitespace">    </span><span class="mi">645</span><span class="s2">         # Send the request</span>
+<span class="ne">--&gt; </span><span class="mi">646</span><span class="s2">         r = adapter.send(request, **kwargs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">647</span><span class="s2"> </span>
+<span class="g g-Whitespace">    </span><span class="mi">648</span><span class="s2">         # Total elapsed time of the request (approximately)</span>
+
+<span class="nn">/opt/anaconda3/lib/python3.8/site-packages/requests/adapters.py</span> in <span class="ni">send</span><span class="nt">(self, request, stream, timeout, verify, cert, proxies)</span>
+<span class="g g-Whitespace">    </span><span class="mi">496</span><span class="s2"> </span>
+<span class="g g-Whitespace">    </span><span class="mi">497</span><span class="s2">         except (ProtocolError, socket.error) as err:</span>
+<span class="ne">--&gt; </span><span class="mi">498</span><span class="s2">             raise ConnectionError(err, request=request)</span>
+<span class="g g-Whitespace">    </span><span class="mi">499</span><span class="s2"> </span>
+<span class="g g-Whitespace">    </span><span class="mi">500</span><span class="s2">         except MaxRetryError as e:</span>
+
+<span class="ne">ConnectionError</span>: (&#39;Connection aborted.&#39;, RemoteDisconnected(&#39;Remote end closed connection without response&#39;))
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./notebooks"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Dave Friedman<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
