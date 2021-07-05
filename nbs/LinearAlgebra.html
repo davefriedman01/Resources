@@ -1,0 +1,2855 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linear Algebra &#8212; Mathematics</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Imports" href="mathematical_foundations.html" />
+    <link rel="prev" title="Fields" href="Fields.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Mathematics</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../README.html">
+   Mathematics
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Foundations
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Sets.html">
+   Sets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ComplexNumbers.html">
+   Complex Numbers
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="NumberTheory.html">
+   Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="AlgorithmicNumberTheory.html">
+   Algorithmic Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ModularArithmetic.html">
+   Modular Arithmetic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Polynomials.html">
+   Polynomials
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Structures.html">
+   Structures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Groups.html">
+   Groups
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Fields.html">
+   Fields
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Linear Algebra
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="mathematical_foundations.html">
+   Imports
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Modeling
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="RandomWalks.html">
+   Random Walks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DigitalSignalProcessing.html">
+   Digital Signal Processing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DifferentialEquations.html">
+   Differential Equations
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Blockchain
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="PythonBlockchain.html">
+   Python Blockchain
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/nbs/LinearAlgebra.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/davefriedman01/Resources"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/davefriedman01/Resources/issues/new?title=Issue%20on%20page%20%2Fnbs/LinearAlgebra.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/davefriedman01/Resources/master?urlpath=tree/docs/nbs/LinearAlgebra.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="linear-algebra">
+<h1>Linear Algebra<a class="headerlink" href="#linear-algebra" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
+<p>Linear algebra is the study of linear maps on finite-dimensional vector spaces.</p>
+<hr class="docutils" />
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">scipy</span>
+<span class="kn">from</span> <span class="nn">sympy</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="n">init_printing</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<p>Solve the linear system
+$<span class="math notranslate nohighlight">\(
+\begin{align}
+3x_1-2x_2+18x_3-19x_4&amp;=5\\
+2x_1+3x_2-x_3-4x_4&amp;=-1\\
+4x_1+5x_2+x_3-10x_4&amp;=-1\\
+\end{align}
+\text{.}
+\)</span>$</p>
+<hr class="docutils" />
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+3 &amp; -2 &amp; 18 &amp; -19 &amp; 5\\
+2 &amp; 3 &amp; -1 &amp; -4 &amp; -1\\
+4 &amp; 5 &amp; 1 &amp; -10 &amp; -1\\
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+1 &amp; -\frac{2}{3} &amp; 6 &amp; -\frac{19}{3} &amp; \frac{5}{3}\\
+2 &amp; 3 &amp; -1 &amp; -4 &amp; -1\\
+4 &amp; 5 &amp; 1 &amp; -10 &amp; -1\\
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+1 &amp; -\frac{2}{3} &amp; 6 &amp; -\frac{19}{3} &amp; \frac{5}{3}\\
+0 &amp; \frac{13}{3} &amp; -13 &amp; \frac{26}{3} &amp; -\frac{13}{3}\\
+4 &amp; 5 &amp; 1 &amp; -10 &amp; -1\\
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+1 &amp; -\frac{2}{3} &amp; 6 &amp; -\frac{19}{3} &amp; \frac{5}{3}\\
+0 &amp; 1 &amp; -3 &amp; 2 &amp; -1\\
+4 &amp; 5 &amp; 1 &amp; -10 &amp; -1\\
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+1 &amp; -\frac{2}{3} &amp; 6 &amp; -\frac{19}{3} &amp; \frac{5}{3}\\
+0 &amp; 1 &amp; -3 &amp; 2 &amp; -1\\
+0 &amp; \frac{23}{3} &amp; -23 &amp; \frac{46}{3} &amp; -\frac{23}{3}\\
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+1 &amp; -\frac{2}{3} &amp; 6 &amp; -\frac{19}{3} &amp; \frac{5}{3}\\
+0 &amp; 1 &amp; -3 &amp; 2 &amp; -1\\
+0 &amp; 1 &amp; -3 &amp; 2 &amp; -1\\
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+1 &amp; -\frac{2}{3} &amp; 6 &amp; -\frac{19}{3} &amp; \frac{5}{3}\\
+0 &amp; 1 &amp; -3 &amp; 2 &amp; -1\\
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
+\end{bmatrix}
+\rightarrow
+\begin{bmatrix}
+1 &amp; 0 &amp; 4 &amp; -5 &amp; 1\\
+0 &amp; 1 &amp; -3 &amp; 2 &amp; -1\\
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{split}
+x_1&amp;=-4s+5t+1\\
+x_2&amp;=3s-2t-1\\
+x_3&amp;=s\\
+x_4&amp;=t\\
+\end{split}
+\rightarrow
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3\\
+x_4\\
+\end{bmatrix}
+=
+s
+\begin{bmatrix}
+-4\\
+3\\
+1\\
+0\\
+\end{bmatrix}
++
+t
+\begin{bmatrix}
+5\\
+-2\\
+0\\
+1\\
+\end{bmatrix}
++
+\begin{bmatrix}
+1\\
+-1\\
+0\\
+0\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M</span> <span class="o">=</span> <span class="n">Matrix</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">18</span><span class="p">,</span> <span class="o">-</span><span class="mi">19</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">10</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">M</span><span class="o">.</span><span class="n">rref</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_10_0.png" src="../_images/LinearAlgebra_10_0.png" />
+</div>
+</div>
+<hr class="docutils" />
+<p>Find a <span class="math notranslate nohighlight">\(3\times 3\)</span> matrix <span class="math notranslate nohighlight">\(T\)</span> satisfying the following properties:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\begin{bmatrix}1\\0\\0\\\end{bmatrix}\)</span> is an eigenvector of <span class="math notranslate nohighlight">\(T\)</span> associated with the eigenvalue <span class="math notranslate nohighlight">\(1\)</span>;</p></li>
+<li><p><span class="math notranslate nohighlight">\(\begin{bmatrix}1\\1\\0\\\end{bmatrix}\)</span> is an eigenvector of <span class="math notranslate nohighlight">\(T\)</span> associated with the eigenvalue <span class="math notranslate nohighlight">\(2\)</span>;</p></li>
+<li><p><span class="math notranslate nohighlight">\(\begin{bmatrix}1\\1\\1\\\end{bmatrix}\)</span> is an eigenvector of <span class="math notranslate nohighlight">\(T\)</span> associated with the eigenvalue <span class="math notranslate nohighlight">\(3\)</span>.</p></li>
+</ul>
+<hr class="docutils" />
+<div class="math notranslate nohighlight">
+\[\begin{split}
+T
+=
+\begin{bmatrix}
+1 &amp; 1 &amp; 1\\
+0 &amp; 2 &amp; 1\\
+0 &amp; 0 &amp; 3\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+T\mathbf{v_1}=
+\begin{bmatrix}
+1 &amp; 1 &amp; 1\\
+0 &amp; 2 &amp; 1\\
+0 &amp; 0 &amp; 3\\
+\end{bmatrix}
+\begin{bmatrix}1\\0\\0\\\end{bmatrix}
+=
+\begin{bmatrix}1\\0\\0\\\end{bmatrix}
+=
+1\begin{bmatrix}1\\0\\0\\\end{bmatrix}
+=
+\lambda_1\mathbf{v_1}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+T\mathbf{v_2}=
+\begin{bmatrix}
+1 &amp; 1 &amp; 1\\
+0 &amp; 2 &amp; 1\\
+0 &amp; 0 &amp; 3\\
+\end{bmatrix}
+\begin{bmatrix}1\\1\\0\\\end{bmatrix}
+=
+\begin{bmatrix}2\\2\\0\\\end{bmatrix}
+=
+2\begin{bmatrix}1\\1\\0\\\end{bmatrix}
+=
+\lambda_2\mathbf{v_2}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+T\mathbf{v_3}=
+\begin{bmatrix}
+1 &amp; 1 &amp; 1\\
+0 &amp; 2 &amp; 1\\
+0 &amp; 0 &amp; 3\\
+\end{bmatrix}
+\begin{bmatrix}1\\1\\1\\\end{bmatrix}
+=
+\begin{bmatrix}3\\3\\3\\\end{bmatrix}
+=
+3\begin{bmatrix}1\\1\\1\\\end{bmatrix}
+=
+\lambda_3\mathbf{v_3}
+\end{split}\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">T</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">v1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+<span class="n">v2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+<span class="n">v3</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">T</span><span class="p">,</span> <span class="n">v1</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">T</span><span class="p">,</span> <span class="n">v2</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">T</span><span class="p">,</span> <span class="n">v3</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[1 0 0]
+[2 2 0]
+[3 3 3]
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<p>The volume of the parallelotope built on the columns of a matrix <span class="math notranslate nohighlight">\(M\)</span> is <span class="math notranslate nohighlight">\(\sqrt{det(M^TM)}\)</span>. Compute <span class="math notranslate nohighlight">\(\sqrt{det(M^TM)}\)</span> for
+$<span class="math notranslate nohighlight">\(
+M=
+\begin{bmatrix}
+3 &amp; 5 &amp; -1\\
+-1 &amp; -2 &amp; 1\\
+2 &amp; 4 &amp; -2\\
+-4 &amp; 1 &amp; 5\\
+\end{bmatrix}
+\text{.}
+\)</span>$</p>
+<hr class="docutils" />
+<div class="math notranslate nohighlight">
+\[\begin{split}
+M^TM
+=
+\begin{bmatrix}
+3 &amp; -1 &amp; 2 &amp; -4\\
+5 &amp; -2 &amp; 4 &amp; 1\\
+-1 &amp; 1 &amp; -2 &amp; 5\\
+\end{bmatrix}
+\begin{bmatrix}
+3 &amp; 5 &amp; -1\\
+-1 &amp; -2 &amp; 1\\
+2 &amp; 4 &amp; -2\\
+-4 &amp; 1 &amp; 5\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+(3)(3)+(-1)(-1)+(2)(2)+(-4)(-4) &amp;= 30\\
+(3)(5)+(-1)(-2)+(2)(4)+(-4)(1) &amp;= 21\\
+(3)(-1)+(-1)(1)+(2)(-2)+(-4)(5) &amp;= -28\\
+(5)(3)+(-2)(-1)+(4)(2)+(1)(-4) &amp;= 21\\
+(5)(5)+(-2)(-2)+(4)(4)+(1)(1) &amp;= 46\\
+(5)(-1)+(-2)(1)+(4)(-2)+(1)(5) &amp;= -10\\
+(-1)(3)+(1)(-1)+(-2)(2)+(5)(-4) &amp;= -28\\
+(-1)(5)+(1)(-2)+(-2)(4)+(5)(1) &amp;= -10\\
+(-1)(-1)+(1)(1)+(-2)(-2)+(5)(5) &amp;= 31\\
+\end{align}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+30 &amp; 21 &amp; -28\\
+21 &amp; 46 &amp; -10\\
+-28 &amp; -10 &amp; 31\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{vmatrix}
+30 &amp; 21 &amp; -28\\
+21 &amp; 46 &amp; -10\\
+-28 &amp; -10 &amp; 31\\
+\end{vmatrix}
+=
+30
+\begin{vmatrix}
+46 &amp; -10\\
+-10 &amp; 31\\
+\end{vmatrix}
+-
+21
+\begin{vmatrix}
+21 &amp; -10\\
+-28 &amp; 31\\
+\end{vmatrix}
++
+-28
+\begin{vmatrix}
+21 &amp; 46\\
+-28 &amp; -10\\
+\end{vmatrix}\\
+=
+30((46)(31)-(-10)(-10))-21((21)(31)-(-10)(-28))-28((21)(-10)-(46)(-28))\\
+=
+30(1426-100)-21(651-280)-28(-210+1288)\\
+=
+30(1326)-21(371)-28(1078)\\
+=
+1805\\
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+\sqrt{1805}\approx 42.5
+\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M3</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">M3TM3</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">M3</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">M3</span><span class="p">)</span>
+<span class="n">M3TM3</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[ 30,  21, -28],
+       [ 21,  46, -10],
+       [-28, -10,  31]])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">det</span><span class="p">(</span><span class="n">M3TM3</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_24_0.png" src="../_images/LinearAlgebra_24_0.png" />
+</div>
+</div>
+<hr class="docutils" />
+<p>Compute the orthogonal projection of the vector <span class="math notranslate nohighlight">\(\begin{bmatrix}17\\3\\-14\\6\\\end{bmatrix}\)</span> onto the linear subspace <span class="math notranslate nohighlight">\(\mathbb{R}^4\)</span> spanned by the vectors <span class="math notranslate nohighlight">\(\begin{bmatrix}2\\3\\-1\\-4\\\end{bmatrix}\)</span> and <span class="math notranslate nohighlight">\(\begin{bmatrix}4\\5\\-2\\1\\\end{bmatrix}\)</span>.</p>
+<hr class="docutils" />
+<p>See attached</p>
+<hr class="docutils" />
+<p>Find the matrix representing the linear transformation <span class="math notranslate nohighlight">\(L : \mathbb{R}^3\rightarrow\mathbb{R}^3\)</span> which reflects the points of <span class="math notranslate nohighlight">\(\mathbb{R}^3\)</span> through the plane <span class="math notranslate nohighlight">\(2x-y+3z=0\)</span>.</p>
+<hr class="docutils" />
+<div class="math notranslate nohighlight">
+\[\begin{split}
+2x-y+3z=0
+\rightarrow
+\left\{
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3\\
+\end{bmatrix}
+\text{s.t.}
+\begin{bmatrix}
+2\\
+-1\\
+3\\
+\end{bmatrix}
+\perp
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3\\
+\end{bmatrix}
+\right\}
+\end{split}\]</div>
+<p>Norm of the vector normal to the plane of reflection.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\Vert
+\begin{bmatrix}
+2\\
+-1\\
+3\\
+\end{bmatrix}
+\right\Vert
+=\sqrt{2^2+(-1)^2+3^2}
+=\sqrt{4+1+9}
+=\sqrt{14}
+\end{split}\]</div>
+<p>Unit vector of the vector normal to the plane of reflection.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\frac{
+\begin{bmatrix}
+2\\
+-1\\
+3\\
+\end{bmatrix}
+}
+{
+\left\Vert
+\begin{bmatrix}
+2\\
+-1\\
+3\\
+\end{bmatrix}
+\right\Vert
+}
+=
+\frac{1}{\sqrt{14}}
+\begin{bmatrix}
+2\\
+-1\\
+3\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac{2}{\sqrt{14}}\\
+-\frac{1}{\sqrt{14}}\\
+\frac{3}{\sqrt{14}}\\
+\end{bmatrix}
+\end{split}\]</div>
+<p><strong>Orthogonal Decomposition Theorem</strong> Given a two-dimensional linear subspace <span class="math notranslate nohighlight">\(W\)</span> in <span class="math notranslate nohighlight">\(\mathbb{R}^3\)</span> (i.e., a plane), a point <span class="math notranslate nohighlight">\(\mathbf{y}\in\mathbb{R}^3\)</span> consists of the sum of a unique orthogonal projection <span class="math notranslate nohighlight">\(\mathbf{y_{||}}\)</span> of <span class="math notranslate nohighlight">\(\mathbf{y}\)</span> onto <span class="math notranslate nohighlight">\(W\)</span> and the unique component <span class="math notranslate nohighlight">\(\mathbf{y_{\perp}}\)</span> of <span class="math notranslate nohighlight">\(\mathbf{y}\)</span> orthogonal to <span class="math notranslate nohighlight">\(W\)</span>. In other words, <span class="math notranslate nohighlight">\(\mathbf{y}=\mathbf{y_{||}}+\mathbf{y_{\perp}}\)</span></p>
+<p><span class="math notranslate nohighlight">\(L\)</span> reverses the orthogonal component of a point <span class="math notranslate nohighlight">\(\mathbf{y}\in\mathbb{R}^3\)</span>.</p>
+<div class="math notranslate nohighlight">
+\[
+M\mathbf{y}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=I(\mathbf{y_{||}}-\mathbf{y_{\perp}})
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=I\mathbf{y_{||}}-I\mathbf{y_{\perp}}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=I(\mathbf{y}-\mathbf{y_{\perp}})-I\mathbf{y_{\perp}}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=I\mathbf{y}-I\mathbf{y_{\perp}}-I\mathbf{y_{\perp}}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=I\mathbf{y}-2I\mathbf{y_{\perp}}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\mathbf{y_{\perp}}
+=r\mathbf{n}\,\text{where}\,\mathbf{n}\,\text{is the unit vector normal to the plane of reflection and}\,r\,\text{is some scalar}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+(\mathbf{y}-r\mathbf{n})\cdot\mathbf{n}=0
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\mathbf{y}\cdot\mathbf{n}-(r\mathbf{n})\cdot\mathbf{n}=0
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\mathbf{y}\cdot\mathbf{n}=r(\mathbf{n}\cdot\mathbf{n})
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+r=\frac{\mathbf{y}\cdot\mathbf{n}}{\mathbf{n}\cdot\mathbf{n}}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=I\mathbf{y}-2I\mathbf{y_{\perp}}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=I\mathbf{y}-2I(r\mathbf{n})
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=I\mathbf{y}-2I\left(\frac{\mathbf{y}\cdot\mathbf{n}}{\mathbf{n}\cdot\mathbf{n}}\mathbf{n}\right)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=I\mathbf{y}-2I(\mathbf{y}\cdot\mathbf{n})\mathbf{n}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=I\mathbf{y}-2I\mathbf{y}\mathbf{n^T}\mathbf{n}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=(I-2I\mathbf{n^T}\mathbf{n})\mathbf{y}
+\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+I-2
+\begin{bmatrix}
+\frac{2}{\sqrt{14}}\\
+-\frac{1}{\sqrt{14}}\\
+\frac{3}{\sqrt{14}}\\
+\end{bmatrix}
+\begin{bmatrix}
+\frac{2}{\sqrt{14}} &amp; -\frac{1}{\sqrt{14}} &amp; \frac{3}{\sqrt{14}}\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+I-2
+\begin{bmatrix}
+\frac{2}{\sqrt{14}}\frac{2}{\sqrt{14}} &amp; \frac{2}{\sqrt{14}}\left(-\frac{1}{\sqrt{14}}\right) &amp; \frac{2}{\sqrt{14}}\frac{3}{\sqrt{14}}\\
+\left(-\frac{1}{\sqrt{14}}\right)\frac{2}{\sqrt{14}} &amp; \left(-\frac{1}{\sqrt{14}}\right)\left(-\frac{1}{\sqrt{14}}\right) &amp; \left(-\frac{1}{\sqrt{14}}\right)\frac{3}{\sqrt{14}}\\
+\frac{3}{\sqrt{14}}\frac{2}{\sqrt{14}} &amp; \frac{3}{\sqrt{14}}\left(-\frac{1}{\sqrt{14}}\right) &amp; \frac{3}{\sqrt{14}}\frac{3}{\sqrt{14}}\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+I-2
+\begin{bmatrix}
+\frac{4}{14} &amp; -\frac{2}{14} &amp; \frac{6}{14}\\
+-\frac{2}{14} &amp; \frac{1}{14} &amp; -\frac{3}{14}\\
+\frac{6}{14} &amp; -\frac{3}{14} &amp; \frac{9}{14}\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+I-
+\begin{bmatrix}
+\frac{8}{14} &amp; -\frac{4}{14} &amp; \frac{12}{14}\\
+-\frac{4}{14} &amp; \frac{2}{14} &amp; -\frac{6}{14}\\
+\frac{12}{14} &amp; -\frac{6}{14} &amp; \frac{18}{14}\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+1 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+-
+\begin{bmatrix}
+\frac{8}{14} &amp; -\frac{4}{14} &amp; \frac{12}{14}\\
+-\frac{4}{14} &amp; \frac{2}{14} &amp; -\frac{6}{14}\\
+\frac{12}{14} &amp; -\frac{6}{14} &amp; \frac{18}{14}\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+1-\frac{8}{14} &amp; \frac{4}{14} &amp; -\frac{12}{14}\\
+\frac{4}{14} &amp; 1-\frac{2}{14} &amp; \frac{6}{14}\\
+-\frac{12}{14} &amp; \frac{6}{14} &amp; 1-\frac{18}{14}\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+\frac{6}{14} &amp; \frac{4}{14} &amp; -\frac{12}{14}\\
+\frac{4}{14} &amp; \frac{12}{14} &amp; \frac{6}{14}\\
+-\frac{12}{14} &amp; \frac{6}{14} &amp; -\frac{4}{14}\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+\frac{3}{7} &amp; \frac{2}{7} &amp; -\frac{6}{7}\\
+\frac{2}{7} &amp; \frac{6}{7} &amp; \frac{3}{7}\\
+-\frac{6}{7} &amp; \frac{3}{7} &amp; -\frac{2}{7}\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">N</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">]])</span>
+<span class="n">n</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">divide</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">square</span><span class="p">(</span><span class="n">N</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">())),</span> <span class="n">N</span><span class="p">)</span>
+<span class="k">assert</span> <span class="n">np</span><span class="o">.</span><span class="n">divide</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">n</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()))</span> <span class="o">==</span> <span class="mi">1</span>
+<span class="k">assert</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">n</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">n</span><span class="p">)</span>
+<span class="n">n</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[ 0.53452248],
+       [-0.26726124],
+       [ 0.80178373]])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">3</span><span class="o">/</span><span class="mi">7</span><span class="p">,</span> <span class="mi">2</span><span class="o">/</span><span class="mi">7</span><span class="p">,</span> <span class="o">-</span><span class="mi">6</span><span class="o">/</span><span class="mi">7</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="o">/</span><span class="mi">7</span><span class="p">,</span> <span class="mi">6</span><span class="o">/</span><span class="mi">7</span><span class="p">,</span> <span class="mi">3</span><span class="o">/</span><span class="mi">7</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">6</span><span class="o">/</span><span class="mi">7</span><span class="p">,</span> <span class="mi">3</span><span class="o">/</span><span class="mi">7</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="o">/</span><span class="mi">7</span><span class="p">]])</span>
+<span class="n">M</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[ 0.42857143,  0.28571429, -0.85714286],
+       [ 0.28571429,  0.85714286,  0.42857143],
+       [-0.85714286,  0.42857143, -0.28571429]])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">]])</span>
+<span class="n">ref</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">M</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="n">ref</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[-1.57142857],
+       [ 3.28571429],
+       [-0.85714286]])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">y_orth</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">multiply</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">y</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">n</span><span class="p">),</span> <span class="n">n</span><span class="p">)</span>
+<span class="n">y_orth</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[ 1.28571429],
+       [-0.64285714],
+       [ 1.92857143]])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">y</span><span class="o">-</span><span class="mi">2</span><span class="o">*</span><span class="n">y_orth</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[-1.57142857],
+       [ 3.28571429],
+       [-0.85714286]])
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<p>Consider the matrix
+$<span class="math notranslate nohighlight">\(
+H=
+\begin{bmatrix}
+2 &amp; -1 &amp; 1 &amp; -3 &amp; -3\\
+-3 &amp; 1 &amp; -2 &amp; 2 &amp; 1\\
+0 &amp; 2 &amp; 2 &amp; 2 &amp; 6\\
+\end{bmatrix}
+\text{.}
+\)</span><span class="math notranslate nohighlight">\(
+(a) Find the reduced row echelon matrix which is row equivalent to \)</span>H<span class="math notranslate nohighlight">\(.&lt;br&gt;
+(b) Obtain a basis for the nullspace of \)</span>H<span class="math notranslate nohighlight">\(.&lt;br&gt;
+(c) Compute the rank of \)</span>H$.<br></p>
+<hr class="docutils" />
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+2 &amp; -1 &amp; 1 &amp; -3 &amp; -3\\
+-3 &amp; 1 &amp; -2 &amp; 2 &amp; 1\\
+0 &amp; 2 &amp; 2 &amp; 2 &amp; 6\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+1 &amp; -\frac{1}{2} &amp; \frac{1}{2} &amp; -\frac{3}{2} &amp; -\frac{3}{2}\\
+-3 &amp; 1 &amp; -2 &amp; 2 &amp; 1\\
+0 &amp; 2 &amp; 2 &amp; 2 &amp; 6\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+1 &amp; -\frac{1}{2} &amp; \frac{1}{2} &amp; -\frac{3}{2} &amp; -\frac{3}{2}\\
+0 &amp; -\frac{1}{2} &amp; -\frac{1}{2} &amp; -\frac{5}{2} &amp; -\frac{7}{2}\\
+0 &amp; 2 &amp; 2 &amp; 2 &amp; 6\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+1 &amp; -\frac{1}{2} &amp; \frac{1}{2} &amp; -\frac{3}{2} &amp; -\frac{3}{2}\\
+0 &amp; 1 &amp; 1 &amp; 5 &amp; 7\\
+0 &amp; 2 &amp; 2 &amp; 2 &amp; 6\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+1 &amp; -\frac{1}{2} &amp; \frac{1}{2} &amp; -\frac{3}{2} &amp; -\frac{3}{2}\\
+0 &amp; 1 &amp; 1 &amp; 5 &amp; 7\\
+0 &amp; 0 &amp; 0 &amp; -8 &amp; -8\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+1 &amp; -\frac{1}{2} &amp; \frac{1}{2} &amp; -\frac{3}{2} &amp; -\frac{3}{2}\\
+0 &amp; 1 &amp; 1 &amp; 5 &amp; 7\\
+0 &amp; 0 &amp; 0 &amp; 1 &amp; 1\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+1 &amp; -\frac{1}{2} &amp; \frac{1}{2} &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 1 &amp; 0 &amp; 2\\
+0 &amp; 0 &amp; 0 &amp; 1 &amp; 1\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+1 &amp; 0 &amp; 1 &amp; 0 &amp; 1\\
+0 &amp; 1 &amp; 1 &amp; 0 &amp; 2\\
+0 &amp; 0 &amp; 0 &amp; 1 &amp; 1\\
+\end{bmatrix}
+\end{split}\]</div>
+<p><span class="math notranslate nohighlight">\(Nul(H)\)</span> is found by solving the homogeneous system <span class="math notranslate nohighlight">\(H\mathbf{x}=\mathbf{0}\)</span> which is done by row reduction of the augmented matrix.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+x_1+x_3+x_5=0\rightarrow x_1=-x_3-x_5\\
+x_2+x_3+2x_5=0\rightarrow x_2=-x_3-2x_5\\
+x_4+x_5=0\rightarrow x_4=-x_5
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{split}
+x_1&amp;=-s-t\\
+x_2&amp;=-s-2t\\
+x_4&amp;=-t\\
+x_3&amp;=s\\
+x_5&amp;=t\\
+\end{split}
+\rightarrow
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3\\
+x_4\\
+x_5\\
+\end{bmatrix}
+=
+s
+\begin{bmatrix}
+-1\\
+-1\\
+0\\
+1\\
+0\\
+\end{bmatrix}
++
+t
+\begin{bmatrix}
+-1\\
+-2\\
+-1\\
+0\\
+1\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+Nul(H)=span
+\left\{
+\begin{bmatrix}
+-1\\
+-1\\
+0\\
+1\\
+0\\
+\end{bmatrix}
+,
+\begin{bmatrix}
+-1\\
+-2\\
+-1\\
+0\\
+1\\
+\end{bmatrix}
+\right\}
+\rightarrow
+basis(H)=
+\left\{
+\begin{bmatrix}
+-1\\
+-1\\
+0\\
+1\\
+0\\
+\end{bmatrix}
+,
+\begin{bmatrix}
+-1\\
+-2\\
+-1\\
+0\\
+1\\
+\end{bmatrix}
+\right\}
+\end{split}\]</div>
+<p>By the rank theorem,
+<span class="math notranslate nohighlight">\(
+rk(H)+dim(Nul(H))=num\_cols(H)
+\rightarrow rk(H)=num\_cols(H)-dim(Nul(H))
+=5-2
+=3
+\)</span></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M6</span> <span class="o">=</span> <span class="n">Matrix</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">])</span>
+<span class="n">M6</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_55_0.png" src="../_images/LinearAlgebra_55_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M6</span><span class="o">.</span><span class="n">rref</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_56_0.png" src="../_images/LinearAlgebra_56_0.png" />
+</div>
+</div>
+<hr class="docutils" />
+<p>Consider the matrix
+$<span class="math notranslate nohighlight">\(
+F=
+\begin{bmatrix}
+-6 &amp; 3 &amp; -2 &amp; 2\\
+-1 &amp; 2 &amp; 0 &amp; 1\\
+-3 &amp; 0 &amp; -1 &amp; 1\\
+5 &amp; 8 &amp; 3 &amp; -3\\
+\end{bmatrix}
+\)</span><span class="math notranslate nohighlight">\(
+(a) Compute \)</span>F^{-1}<span class="math notranslate nohighlight">\(, the inverse of \)</span>F<span class="math notranslate nohighlight">\(.&lt;br&gt;
+(b) Compute \)</span>det(F)$.<br></p>
+<hr class="docutils" />
+<p><span class="math notranslate nohighlight">\(F\rightarrow I\)</span> and <span class="math notranslate nohighlight">\(I\rightarrow F^{-1}\)</span></p>
+<ol class="simple">
+<li><p><span class="math notranslate nohighlight">\(r_1,r_2\leftarrow r_2,r_1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_1\leftarrow -r_1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_2\leftarrow r_2+6r_1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_3\leftarrow r_3+3r_1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_4\leftarrow r_4-5r_1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_2\leftarrow -\frac{1}{9}r_2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_3\leftarrow r_3+6r_2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_4\leftarrow r_4-18r_2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_3\leftarrow 3r_3\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_4\leftarrow r_4+r_3\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_4\leftarrow -\frac{1}{4}r_4\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_3\leftarrow r_3-2r_4\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_2\leftarrow r_2-\frac{4}{9}r_4\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_1\leftarrow r_1+r_4\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_2\leftarrow r_2-\frac{2}{9}r_3\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(r_1\leftarrow r_1+2r_2\)</span></p></li>
+</ol>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+-6 &amp; 3 &amp; -2 &amp; 2\\
+-1 &amp; 2 &amp; 0 &amp; 1\\
+-3 &amp; 0 &amp; -1 &amp; 1\\
+5 &amp; 8 &amp; 3 &amp; -3\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+-1 &amp; 2 &amp; 0 &amp; 1\\
+-6 &amp; 3 &amp; -2 &amp; 2\\
+-3 &amp; 0 &amp; -1 &amp; 1\\
+5 &amp; 8 &amp; 3 &amp; -3\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; -1\\
+-6 &amp; 3 &amp; -2 &amp; 2\\
+-3 &amp; 0 &amp; -1 &amp; 1\\
+5 &amp; 8 &amp; 3 &amp; -3\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; -1\\
+0 &amp; -9 &amp; -2 &amp; -4\\
+-3 &amp; 0 &amp; -1 &amp; 1\\
+5 &amp; 8 &amp; 3 &amp; -3\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; -1\\
+0 &amp; -9 &amp; -2 &amp; -4\\
+0 &amp; -6 &amp; -1 &amp; -2\\
+5 &amp; 8 &amp; 3 &amp; -3\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; -1\\
+0 &amp; -9 &amp; -2 &amp; -4\\
+0 &amp; -6 &amp; -1 &amp; -2\\
+0 &amp; 18 &amp; 3 &amp; 2\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; -1\\
+0 &amp; 1 &amp; \frac{2}{9} &amp; \frac{4}{9}\\
+0 &amp; -6 &amp; -1 &amp; -2\\
+0 &amp; 18 &amp; 3 &amp; 2\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; -1\\
+0 &amp; 1 &amp; \frac{2}{9} &amp; \frac{4}{9}\\
+0 &amp; 0 &amp; \frac{1}{3} &amp; \frac{2}{3}\\
+0 &amp; 18 &amp; 3 &amp; 2\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; -1\\
+0 &amp; 1 &amp; \frac{2}{9} &amp; \frac{4}{9}\\
+0 &amp; 0 &amp; \frac{1}{3} &amp; \frac{2}{3}\\
+0 &amp; 0 &amp; -1 &amp; -6\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; -1\\
+0 &amp; 1 &amp; \frac{2}{9} &amp; \frac{4}{9}\\
+0 &amp; 0 &amp; 1 &amp; 2\\
+0 &amp; 0 &amp; -1 &amp; -6\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; -1\\
+0 &amp; 1 &amp; \frac{2}{9} &amp; \frac{4}{9}\\
+0 &amp; 0 &amp; 1 &amp; 2\\
+0 &amp; 0 &amp; 0 &amp; -4\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; -1\\
+0 &amp; 1 &amp; \frac{2}{9} &amp; \frac{4}{9}\\
+0 &amp; 0 &amp; 1 &amp; 2\\
+0 &amp; 0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; -1\\
+0 &amp; 1 &amp; \frac{2}{9} &amp; \frac{4}{9}\\
+0 &amp; 0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; -1\\
+0 &amp; 1 &amp; \frac{2}{9} &amp; 0\\
+0 &amp; 0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; \frac{2}{9} &amp; 0\\
+0 &amp; 0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; -2 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+1 &amp; 0 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+1 &amp; 0 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; 1 &amp; 0 &amp; 0\\
+1 &amp; 0 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; -1 &amp; 0 &amp; 0\\
+1 &amp; 0 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; -1 &amp; 0 &amp; 0\\
+1 &amp; -6 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; -1 &amp; 0 &amp; 0\\
+1 &amp; -6 &amp; 0 &amp; 0\\
+0 &amp; -3 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; -1 &amp; 0 &amp; 0\\
+1 &amp; -6 &amp; 0 &amp; 0\\
+0 &amp; -3 &amp; 1 &amp; 0\\
+0 &amp; 5 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; -1 &amp; 0 &amp; 0\\
+-\frac{1}{9} &amp; \frac{2}{3} &amp; 0 &amp; 0\\
+0 &amp; -3 &amp; 1 &amp; 0\\
+0 &amp; 5 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; -1 &amp; 0 &amp; 0\\
+-\frac{1}{9} &amp; \frac{2}{3} &amp; 0 &amp; 0\\
+-\frac{2}{3} &amp; 1 &amp; 1 &amp; 0\\
+0 &amp; 5 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; -1 &amp; 0 &amp; 0\\
+-\frac{1}{9} &amp; \frac{2}{3} &amp; 0 &amp; 0\\
+-\frac{2}{3} &amp; 1 &amp; 1 &amp; 0\\
+2 &amp; -7 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; -1 &amp; 0 &amp; 0\\
+-\frac{1}{9} &amp; \frac{2}{3} &amp; 0 &amp; 0\\
+-2 &amp; 3 &amp; 3 &amp; 0\\
+2 &amp; -7 &amp; 0 &amp; 1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; -1 &amp; 0 &amp; 0\\
+-\frac{1}{9} &amp; \frac{2}{3} &amp; 0 &amp; 0\\
+-2 &amp; 3 &amp; 3 &amp; 0\\
+0 &amp; 1 &amp; -\frac{3}{4} &amp; -\frac{1}{4}\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; -1 &amp; 0 &amp; 0\\
+-\frac{1}{9} &amp; \frac{2}{3} &amp; 0 &amp; 0\\
+-2 &amp; 1 &amp; \frac{9}{2} &amp; \frac{1}{2}\\
+0 &amp; 1 &amp; -\frac{3}{4} &amp; -\frac{1}{4}\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; -1 &amp; 0 &amp; 0\\
+-\frac{1}{9} &amp; \frac{2}{9} &amp; \frac{1}{3} &amp; \frac{1}{9}\\
+-2 &amp; 1 &amp; \frac{9}{2} &amp; \frac{1}{2}\\
+0 &amp; 1 &amp; -\frac{3}{4} &amp; -\frac{1}{4}\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; 0 &amp; -\frac{3}{4} &amp; -\frac{1}{4}\\
+-\frac{1}{9} &amp; \frac{2}{9} &amp; \frac{1}{3} &amp; \frac{1}{9}\\
+-2 &amp; 1 &amp; \frac{9}{2} &amp; \frac{1}{2}\\
+0 &amp; 1 &amp; -\frac{3}{4} &amp; -\frac{1}{4}\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 &amp; 0 &amp; -\frac{3}{4} &amp; -\frac{1}{4}\\
+\frac{1}{3} &amp; 0 &amp; -\frac{2}{3} &amp; 0\\
+-2 &amp; 1 &amp; \frac{9}{2} &amp; \frac{1}{2}\\
+0 &amp; 1 &amp; -\frac{3}{4} &amp; -\frac{1}{4}\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac{2}{3} &amp; 0 &amp; -\frac{25}{12} &amp; -\frac{1}{4}\\
+\frac{1}{3} &amp; 0 &amp; -\frac{2}{3} &amp; 0\\
+-2 &amp; 1 &amp; \frac{9}{2} &amp; \frac{1}{2}\\
+0 &amp; 1 &amp; -\frac{3}{4} &amp; -\frac{1}{4}\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{vmatrix}
+-6 &amp; 3 &amp; -2 &amp; 2\\
+-1 &amp; 2 &amp; 0 &amp; 1\\
+-3 &amp; 0 &amp; -1 &amp; 1\\
+5 &amp; 8 &amp; 3 &amp; -3\\
+\end{vmatrix}
+=
+-6
+\begin{vmatrix}
+2 &amp; 0 &amp; 1\\
+0 &amp; -1 &amp; 1\\
+8 &amp; 3 &amp; -3\\
+\end{vmatrix}
+-
+3
+\begin{vmatrix}
+-1 &amp; 0 &amp; 1\\
+-3 &amp; -1 &amp; 1\\
+5 &amp; 3 &amp; -3\\
+\end{vmatrix}
++
+-2
+\begin{vmatrix}
+-1 &amp; 2 &amp; 1\\
+-3 &amp; 0 &amp; 1\\
+5 &amp; 8 &amp; -3\\
+\end{vmatrix}
+-
+2
+\begin{vmatrix}
+-1 &amp; 2 &amp; 0\\
+-3 &amp; 0 &amp; -1\\
+5 &amp; 8 &amp; 3\\
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+=-6[(2)(-1)(-3)+(0)(1)(8)+(1)(0)(-3)-(1)(-1)(8)-(2)(1)(3)-(0)(0)(-3)]
+-3[(-1)(-1)(-3)+(0)(1)(5)+(1)(-3)(3)-(1)(-1)(5)-(-1)(1)(3)-(0)(-3)(-3)]
+-2[(-1)(0)(-3)+(2)(1)(5)+(1)(-3)(8)-(1)(0)(5)-(-1)(1)(8)-(2)(-3)(-3)]
+-2[(-1)(0)(3)+(2)(-1)(5)+(0)(-3)(8)-(0)(0)(5)-(-1)(-1)(8)-(2)(-3)(3)]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=-6[6+0+0+8-6+0]
+-3[-3+0-9+5+3+0]
+-2[0+10-24+0+8-18]
+-2[0-10+0+0-8+18]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=-6[8]
+-3[-4]
+-2[-24]
+-2[0]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=-48+12+48
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=12
+\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M7</span> <span class="o">=</span> <span class="n">Matrix</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="p">[</span><span class="o">-</span><span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">])</span>
+<span class="n">M7</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_65_0.png" src="../_images/LinearAlgebra_65_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M7</span><span class="o">.</span><span class="n">rref</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_66_0.png" src="../_images/LinearAlgebra_66_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M7</span><span class="o">.</span><span class="n">inv</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_67_0.png" src="../_images/LinearAlgebra_67_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M7</span><span class="o">.</span><span class="n">det</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_68_0.png" src="../_images/LinearAlgebra_68_0.png" />
+</div>
+</div>
+<hr class="docutils" />
+<p>Consider the symmetric matrix
+$<span class="math notranslate nohighlight">\(
+S=
+\begin{bmatrix}
+-3 &amp; 6 &amp; -2 &amp; 0\\
+6 &amp; 3 &amp; 0 &amp; 2\\
+-2 &amp; 0 &amp; 3 &amp; 6\\
+0 &amp; 2 &amp; 6 &amp; -3\\
+\end{bmatrix}
+\)</span><span class="math notranslate nohighlight">\(
+(a) Compute the characteristic polynomial of \)</span>S<span class="math notranslate nohighlight">\(.&lt;br&gt;
+(b) Find the eigenvalues of \)</span>S<span class="math notranslate nohighlight">\( and their algebraic multiplicities.&lt;br&gt;
+(c) Obtain an orthonormal basis for each eigenspace of \)</span>S<span class="math notranslate nohighlight">\(.&lt;br&gt;
+(d) Find an orthogonal matrix \)</span>Q<span class="math notranslate nohighlight">\( such that \)</span>Q^TSQ<span class="math notranslate nohighlight">\( is diagonal.&lt;br&gt;
+(e) Write the vector \)</span>\begin{bmatrix}-8\10\0\9\end{bmatrix}$ as a sum of eigenvectors of S.<br></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">S</span> <span class="o">=</span> <span class="n">Matrix</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">])</span>
+<span class="n">S</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_71_0.png" src="../_images/LinearAlgebra_71_0.png" />
+</div>
+</div>
+<hr class="docutils" />
+<div class="math notranslate nohighlight">
+\[\begin{split}
+det(S-\lambda I)
+=
+\begin{vmatrix}
+-3-\lambda &amp; 6 &amp; -2 &amp; 0\\
+6 &amp; 3-\lambda &amp; 0 &amp; 2\\
+-2 &amp; 0 &amp; 3-\lambda &amp; 6\\
+0 &amp; 2 &amp; 6 &amp; -3-\lambda\\
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+(-3-\lambda)
+\begin{vmatrix}
+3-\lambda &amp; 0 &amp; 2\\
+0 &amp; 3-\lambda &amp; 6\\
+2 &amp; 6 &amp; -3-\lambda\\
+\end{vmatrix}
+-
+6
+\begin{vmatrix}
+6 &amp; 0 &amp; 2\\
+-2 &amp; 3-\lambda &amp; 6\\
+0 &amp; 6 &amp; -3-\lambda\\
+\end{vmatrix}
++
+-2
+\begin{vmatrix}
+6 &amp; 3-\lambda &amp; 2\\
+-2 &amp; 0 &amp; 6\\
+0 &amp; 2 &amp; -3-\lambda\\
+\end{vmatrix}
+-
+0
+\begin{vmatrix}
+6 &amp; 3-\lambda &amp; 0\\
+-2 &amp; 0 &amp; 3-\lambda\\
+0 &amp; 2 &amp; 6\\
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+(-3-\lambda)
+\begin{vmatrix}
+3-\lambda &amp; 0 &amp; 2\\
+0 &amp; 3-\lambda &amp; 6\\
+2 &amp; 6 &amp; -3-\lambda\\
+\end{vmatrix}
+-
+6
+\begin{vmatrix}
+6 &amp; 0 &amp; 2\\
+-2 &amp; 3-\lambda &amp; 6\\
+0 &amp; 6 &amp; -3-\lambda\\
+\end{vmatrix}
++
+-2
+\begin{vmatrix}
+6 &amp; 3-\lambda &amp; 2\\
+-2 &amp; 0 &amp; 6\\
+0 &amp; 2 &amp; -3-\lambda\\
+\end{vmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[
+=
+(-3-\lambda)[(3-\lambda)^2(-3-\lambda)-4(3-\lambda)-36(3-\lambda)]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+-6[6(3-\lambda)(-3-\lambda)-24-216]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+-2[-8-72+2(3-\lambda)(-3-\lambda)]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=
+(-3-\lambda)[(9-6\lambda+\lambda^2)(-3-\lambda)-4(3-\lambda)-36(3-\lambda)]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+-6[6(-9+\lambda^2)-240]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+-2[-80+2(-9+\lambda^2)]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=
+(-3-\lambda)[-27-9\lambda+18\lambda+6\lambda^2-3\lambda^2-\lambda^3-12+4\lambda-108+36\lambda]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+-6[-54+6\lambda^2-240]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+-2[-80-18+2\lambda^2]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=
+(-3-\lambda)[-\lambda^3+3\lambda^2+49\lambda-147]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+-6[6\lambda^2-298]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+-2[2\lambda^2-98]
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=
+\lambda^4-3\lambda^3-49\lambda^2+147\lambda+3\lambda^3-9\lambda^2-147\lambda+441
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+-36\lambda^2+1788
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+-4\lambda^2+196
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=
+\lambda^4-58\lambda^2+441
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+-36\lambda^2+1788
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+-4\lambda^2+196
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+=
+\lambda^4-98\lambda^2+2425
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+0
+=
+(\lambda^2-49)^2
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+0
+=
+(\lambda^2-49)(\lambda^2-49)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\lambda^2
+=
+49
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\lambda
+=
+\sqrt{49}
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\lambda
+=
+\pm 7
+\]</div>
+<p><span class="math notranslate nohighlight">\(7\)</span> has multiplicity <span class="math notranslate nohighlight">\(2\)</span> and <span class="math notranslate nohighlight">\(-7\)</span> has multiplicity <span class="math notranslate nohighlight">\(2\)</span>.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">p</span> <span class="o">=</span> <span class="n">S</span><span class="o">.</span><span class="n">charpoly</span><span class="p">()</span><span class="o">.</span><span class="n">as_expr</span><span class="p">()</span>
+<span class="n">factor</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_84_0.png" src="../_images/LinearAlgebra_84_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">S</span><span class="o">.</span><span class="n">eigenvals</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_85_0.png" src="../_images/LinearAlgebra_85_0.png" />
+</div>
+</div>
+<p><span class="math notranslate nohighlight">\(\lambda=7\)</span></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+-3-7 &amp; 6 &amp; -2 &amp; 0 &amp; 0\\
+6 &amp; 3-7 &amp; 0 &amp; 2 &amp; 0\\
+-2 &amp; 0 &amp; 3-7 &amp; 6 &amp; 0\\
+0 &amp; 2 &amp; 6 &amp; -3-7 &amp; 0\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+-10 &amp; 6 &amp; -2 &amp; 0 &amp; 0\\
+6 &amp; -4 &amp; 0 &amp; 2 &amp; 0\\
+-2 &amp; 0 &amp; -4 &amp; 6 &amp; 0\\
+0 &amp; 2 &amp; 6 &amp; -10 &amp; 0\\
+\end{bmatrix}
+=
+...
+=
+\begin{bmatrix}
+1 &amp; 0 &amp; 2 &amp; -3 &amp; 0\\
+0 &amp; 1 &amp; 3 &amp; -5 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+x_1+2x_3-3x_4=0\rightarrow x_1=-2x_3+3x_4\\
+x_2+3x_3-5x_4=0\rightarrow x_2=-3x_3+5x_4\\
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{split}
+x_1&amp;=-2s+3t\\
+x_2&amp;=-3s+5t\\
+x_3&amp;=s\\
+x_4&amp;=t\\
+\end{split}
+\rightarrow
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3\\
+x_4\\
+\end{bmatrix}
+=
+s
+\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0\\
+\end{bmatrix}
++
+t
+\begin{bmatrix}
+3\\
+5\\
+0\\
+1\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+Nul(S-\lambda I)=span
+\left\{
+\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0\\
+\end{bmatrix}
+,
+\begin{bmatrix}
+3\\
+5\\
+0\\
+1\\
+\end{bmatrix}
+\right\}
+\rightarrow
+basis(S-\lambda I)=
+\left\{
+\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0\\
+\end{bmatrix}
+,
+\begin{bmatrix}
+3\\
+5\\
+0\\
+1\\
+\end{bmatrix}
+\right\}
+\end{split}\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">S</span><span class="o">-</span><span class="mi">7</span><span class="o">*</span><span class="n">eye</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span><span class="o">.</span><span class="n">nullspace</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_87_0.png" src="../_images/LinearAlgebra_87_0.png" />
+</div>
+</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\mathbf{v_1}
+=
+\mathbf{x_1}
+=
+\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\mathbf{v_2}
+=
+\mathbf{x_2}-\frac{\mathbf{x_2}\cdot\mathbf{v_1}}{\mathbf{v_1}\cdot\mathbf{v_1}}\mathbf{v_1}
+=
+\begin{bmatrix}
+3\\
+5\\
+0\\
+1\\
+\end{bmatrix}
+-
+\frac{\begin{bmatrix}
+3\\
+5\\
+0\\
+1\\
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0
+\end{bmatrix}}
+{\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0
+\end{bmatrix}}
+\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+3\\
+5\\
+0\\
+1\\
+\end{bmatrix}
++
+\frac{3}{2}
+\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+3\\
+5\\
+0\\
+1\\
+\end{bmatrix}
++
+\begin{bmatrix}
+-3\\
+-\frac{9}{2}\\
+\frac{3}{2}\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+0\\
+\frac{1}{2}\\
+\frac{3}{2}\\
+1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0\\
+1\\
+3\\
+2\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">GramSchmidt</span><span class="p">((</span><span class="n">S</span><span class="o">-</span><span class="mi">7</span><span class="o">*</span><span class="n">eye</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span><span class="o">.</span><span class="n">nullspace</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_89_0.png" src="../_images/LinearAlgebra_89_0.png" />
+</div>
+</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\Vert
+\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0
+\end{bmatrix}
+\right\Vert
+=
+\sqrt{(-2)^2+(-3)^2+1^2+0^2}
+=
+\sqrt{4+9+1}
+=
+\sqrt{14}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\frac{
+\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0
+\end{bmatrix}}{
+\left\Vert
+\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0
+\end{bmatrix}
+\right\Vert}
+=
+\frac{1}{\sqrt{14}}
+\begin{bmatrix}
+-2\\
+-3\\
+1\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac{2}{\sqrt{14}}\\
+-\frac{3}{\sqrt{14}}\\
+\frac{1}{\sqrt{14}}\\
+0
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\Vert
+\begin{bmatrix}
+0\\
+\frac{1}{2}\\
+\frac{3}{2}\\
+1\\
+\end{bmatrix}
+\right\Vert
+=
+\sqrt{0^2+\left(\frac{1}{2}\right)^2+\left(\frac{3}{2}\right)^2+1^2}
+=
+\sqrt{\frac{1}{4}+\frac{9}{4}+1}
+=
+\sqrt{\frac{14}{4}}
+=
+\sqrt{\frac{7}{2}}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\frac{
+\begin{bmatrix}
+0\\
+\frac{1}{2}\\
+\frac{3}{2}\\
+1\\
+\end{bmatrix}}{
+\left\Vert
+\begin{bmatrix}
+0\\
+\frac{1}{2}\\
+\frac{3}{2}\\
+1\\
+\end{bmatrix}
+\right\Vert}
+=
+\frac{1}{\sqrt{\frac{7}{2}}}
+\begin{bmatrix}
+0\\
+\frac{1}{2}\\
+\frac{3}{2}\\
+1\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+0\\
+\frac{1}{2\sqrt{\frac{7}{2}}}\\
+\frac{3}{2\sqrt{\frac{7}{2}}}\\
+\frac{1}{\sqrt{\frac{7}{2}}}\\
+\end{bmatrix}
+\end{split}\]</div>
+<p>Therefore, an orthonormal basis for the eigenspace of <span class="math notranslate nohighlight">\(S\)</span> associatd with the eigenvalue <span class="math notranslate nohighlight">\(\lambda=7\)</span> is</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\{
+\begin{bmatrix}
+-\frac{2}{\sqrt{14}}\\
+-\frac{3}{\sqrt{14}}\\
+\frac{1}{\sqrt{14}}\\
+0
+\end{bmatrix}
+,
+\begin{bmatrix}
+0\\
+\frac{1}{2\sqrt{\frac{7}{2}}}\\
+\frac{3}{2\sqrt{\frac{7}{2}}}\\
+\frac{1}{\sqrt{\frac{7}{2}}}\\
+\end{bmatrix}
+\right\}
+\end{split}\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">v1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+<span class="n">x2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+<span class="n">v2</span> <span class="o">=</span> <span class="n">x2</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">((</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">x2</span><span class="p">,</span> <span class="n">v1</span><span class="p">)</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">v1</span><span class="p">,</span> <span class="n">v1</span><span class="p">)),</span> <span class="n">v1</span><span class="p">)</span>
+
+<span class="n">v1u</span> <span class="o">=</span> <span class="n">v1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">v1</span><span class="p">)</span>
+<span class="n">v2u</span> <span class="o">=</span> <span class="n">v2</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">v2</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">v1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">v1u</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">v2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">v2u</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">v1u</span><span class="p">,</span> <span class="n">v1u</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">v2u</span><span class="p">,</span> <span class="n">v2u</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">v1u</span><span class="p">,</span> <span class="n">v2u</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[-2 -3  1  0]
+[-0.53452248 -0.80178373  0.26726124  0.        ]
+[0.  0.5 1.5 1. ]
+[0.         0.26726124 0.80178373 0.53452248]
+1.0
+1.0
+0.0
+</pre></div>
+</div>
+</div>
+</div>
+<p><span class="math notranslate nohighlight">\(\lambda=-7\)</span></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{bmatrix}
+-3+7 &amp; 6 &amp; -2 &amp; 0 &amp; 0\\
+6 &amp; 3+7 &amp; 0 &amp; 2 &amp; 0\\
+-2 &amp; 0 &amp; 3+7 &amp; 6 &amp; 0\\
+0 &amp; 2 &amp; 6 &amp; -3+7 &amp; 0\\
+\end{bmatrix}
+=
+\begin{bmatrix}
+4 &amp; 6 &amp; -2 &amp; 0 &amp; 0\\
+6 &amp; 10 &amp; 0 &amp; 2 &amp; 0\\
+-2 &amp; 0 &amp; 10 &amp; 6 &amp; 0\\
+0 &amp; 2 &amp; 6 &amp; 4 &amp; 0\\
+\end{bmatrix}
+=
+...
+=
+\begin{bmatrix}
+1 &amp; 0 &amp; -5 &amp; -3 &amp; 0\\
+0 &amp; 1 &amp; 3 &amp; 2 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 0 &amp; 0\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+x_1-5x_3-3x_4=0\rightarrow x_1=5x_3+3x_4\\
+x_2+3x_3+2x_4=0\rightarrow x_2=-3x_3-2x_4\\
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{split}
+x_1&amp;=5s+3t\\
+x_2&amp;=-3s-2t\\
+x_3&amp;=s\\
+x_4&amp;=t\\
+\end{split}
+\rightarrow
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3\\
+x_4\\
+\end{bmatrix}
+=
+s
+\begin{bmatrix}
+5\\
+-3\\
+1\\
+0\\
+\end{bmatrix}
++
+t
+\begin{bmatrix}
+3\\
+-2\\
+0\\
+1\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+Nul(S-\lambda I)=span
+\left\{
+\begin{bmatrix}
+5\\
+-3\\
+1\\
+0\\
+\end{bmatrix}
+,
+\begin{bmatrix}
+3\\
+-2\\
+0\\
+1\\
+\end{bmatrix}
+\right\}
+\rightarrow
+basis(S-\lambda I)=
+\left\{
+\begin{bmatrix}
+5\\
+-3\\
+1\\
+0\\
+\end{bmatrix}
+,
+\begin{bmatrix}
+3\\
+-2\\
+0\\
+1\\
+\end{bmatrix}
+\right\}
+\end{split}\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">S</span><span class="o">+</span><span class="mi">7</span><span class="o">*</span><span class="n">eye</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span><span class="o">.</span><span class="n">nullspace</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_94_0.png" src="../_images/LinearAlgebra_94_0.png" />
+</div>
+</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\mathbf{v_1}
+=
+\mathbf{x_1}
+=
+\begin{bmatrix}
+5\\
+-3\\
+1\\
+0
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\mathbf{v_2}
+=
+\mathbf{x_2}-\frac{\mathbf{x_2}\cdot\mathbf{v_1}}{\mathbf{v_1}\cdot\mathbf{v_1}}\mathbf{v_1}
+=
+\begin{bmatrix}
+3\\
+-2\\
+0\\
+1\\
+\end{bmatrix}
+-
+\frac{\begin{bmatrix}
+3\\
+-2\\
+0\\
+1\\
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+5\\
+-3\\
+1\\
+0
+\end{bmatrix}}
+{\begin{bmatrix}
+5\\
+-3\\
+1\\
+0
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+5\\
+-3\\
+1\\
+0
+\end{bmatrix}}
+\begin{bmatrix}
+5\\
+-3\\
+1\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+3\\
+-2\\
+0\\
+1\\
+\end{bmatrix}
+-
+\frac{3}{5}
+\begin{bmatrix}
+5\\
+-3\\
+1\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+3\\
+-2\\
+0\\
+1\\
+\end{bmatrix}
+-
+\begin{bmatrix}
+3\\
+-\frac{9}{5}\\
+\frac{3}{5}\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+0\\
+-\frac{1}{5}\\
+-\frac{3}{5}\\
+1
+\end{bmatrix}
+\end{split}\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">GramSchmidt</span><span class="p">((</span><span class="n">S</span><span class="o">+</span><span class="mi">7</span><span class="o">*</span><span class="n">eye</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span><span class="o">.</span><span class="n">nullspace</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_96_0.png" src="../_images/LinearAlgebra_96_0.png" />
+</div>
+</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\Vert
+\begin{bmatrix}
+5\\
+-3\\
+1\\
+0
+\end{bmatrix}
+\right\Vert
+=
+\sqrt{(5)^2+(-3)^2+1^2+0^2}
+=
+\sqrt{25+9+1}
+=
+\sqrt{35}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\frac{
+\begin{bmatrix}
+5\\
+-3\\
+1\\
+0
+\end{bmatrix}}{
+\left\Vert
+\begin{bmatrix}
+5\\
+-3\\
+1\\
+0
+\end{bmatrix}
+\right\Vert}
+=
+\frac{1}{\sqrt{35}}
+\begin{bmatrix}
+5\\
+-3\\
+1\\
+0
+\end{bmatrix}
+=
+\begin{bmatrix}
+\frac{5}{\sqrt{35}}\\
+-\frac{3}{\sqrt{35}}\\
+\frac{1}{\sqrt{35}}\\
+0
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\Vert
+\begin{bmatrix}
+0\\
+-\frac{1}{5}\\
+-\frac{3}{5}\\
+1
+\end{bmatrix}
+\right\Vert
+=
+\sqrt{0^2+\left(-\frac{1}{5}\right)^2+\left(-\frac{3}{5}\right)^2+1^2}
+=
+\sqrt{0+\frac{1}{25}+\frac{9}{25}+1}
+=
+\sqrt{\frac{7}{5}}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\frac{
+\begin{bmatrix}
+0\\
+-\frac{1}{5}\\
+-\frac{3}{5}\\
+1
+\end{bmatrix}}{
+\left\Vert
+\begin{bmatrix}
+0\\
+-\frac{1}{5}\\
+-\frac{3}{5}\\
+1
+\end{bmatrix}
+\right\Vert}
+=
+\frac{1}{\sqrt{\frac{7}{5}}}
+\begin{bmatrix}
+0\\
+-\frac{1}{5}\\
+-\frac{3}{5}\\
+1
+\end{bmatrix}
+=
+\begin{bmatrix}
+0\\
+-\frac{1}{5\sqrt{\frac{7}{5}}}\\
+-\frac{3}{5\sqrt{\frac{7}{5}}}\\
+\frac{1}{\sqrt{\frac{7}{5}}}
+\end{bmatrix}
+\end{split}\]</div>
+<p>Therefore, an orthonormal basis for the eigenspace of <span class="math notranslate nohighlight">\(S\)</span> associated with the eigenvalue <span class="math notranslate nohighlight">\(\lambda=-7\)</span> is</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\left\{
+\begin{bmatrix}
+\frac{5}{\sqrt{35}}\\
+-\frac{3}{\sqrt{35}}\\
+\frac{1}{\sqrt{35}}\\
+0
+\end{bmatrix}
+,
+\begin{bmatrix}
+0\\
+-\frac{1}{5\sqrt{\frac{7}{5}}}\\
+-\frac{3}{5\sqrt{\frac{7}{5}}}\\
+\frac{1}{\sqrt{\frac{7}{5}}}
+\end{bmatrix}
+\right\}
+\end{split}\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">v1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+<span class="n">x2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+<span class="n">v2</span> <span class="o">=</span> <span class="n">x2</span> <span class="o">-</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">((</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">x2</span><span class="p">,</span> <span class="n">v1</span><span class="p">)</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">v1</span><span class="p">,</span> <span class="n">v1</span><span class="p">)),</span> <span class="n">v1</span><span class="p">)</span>
+
+<span class="n">v1u</span> <span class="o">=</span> <span class="n">v1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">v1</span><span class="p">)</span>
+<span class="n">v2u</span> <span class="o">=</span> <span class="n">v2</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">v2</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">v1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">v1u</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">v2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">v2u</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">v1u</span><span class="p">,</span> <span class="n">v1u</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">v2u</span><span class="p">,</span> <span class="n">v2u</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">isclose</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">v1u</span><span class="p">,</span> <span class="n">v2u</span><span class="p">),</span> <span class="mi">0</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[ 5 -3  1  0]
+[ 0.84515425 -0.50709255  0.16903085  0.        ]
+[ 0.  -0.2 -0.6  1. ]
+[ 0.         -0.16903085 -0.50709255  0.84515425]
+1.0
+1.0000000000000002
+True
+</pre></div>
+</div>
+</div>
+</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+Q^TQ
+=
+\begin{bmatrix}
+-\frac{2}{\sqrt{14}} &amp; -\frac{3}{\sqrt{14}} &amp; \frac{1}{\sqrt{14}} &amp; 0\\
+0 &amp; \frac{1}{2\sqrt{\frac{7}{2}}} &amp; \frac{3}{2\sqrt{\frac{7}{2}}} &amp; \frac{1}{\sqrt{\frac{7}{2}}}\\
+\frac{5}{\sqrt{35}} &amp; -\frac{3}{\sqrt{35}} &amp; \frac{1}{\sqrt{35}} &amp; 0\\
+0 &amp; -\frac{1}{5\sqrt{\frac{7}{5}}} &amp; -\frac{3}{5\sqrt{\frac{7}{5}}} &amp; \frac{1}{\sqrt{\frac{7}{5}}}\\
+\end{bmatrix}
+\begin{bmatrix}
+-\frac{2}{\sqrt{14}} &amp; 0 &amp; \frac{5}{\sqrt{35}} &amp; 0\\
+-\frac{3}{\sqrt{14}} &amp; \frac{1}{2\sqrt{\frac{7}{2}}} &amp; -\frac{3}{\sqrt{35}} &amp; -\frac{1}{5\sqrt{\frac{7}{5}}}\\
+\frac{1}{\sqrt{14}} &amp; \frac{3}{2\sqrt{\frac{7}{2}}} &amp; \frac{1}{\sqrt{35}} &amp; -\frac{3}{5\sqrt{\frac{7}{5}}}\\
+0 &amp; \frac{1}{\sqrt{\frac{7}{2}}} &amp; 0 &amp; \frac{1}{\sqrt{\frac{7}{5}}}\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+\left(-\frac{2}{\sqrt{14}}\right)\left(-\frac{2}{\sqrt{14}}\right)+\left(-\frac{3}{\sqrt{14}}\right)\left(-\frac{3}{\sqrt{14}}\right)+\frac{1}{\sqrt{14}}\frac{1}{\sqrt{14}}+0 &amp;= 1\\
+0+\left(-\frac{3}{\sqrt{14}}\right)\frac{1}{2\sqrt{\frac{7}{2}}}+\frac{1}{\sqrt{14}}\frac{3}{2\sqrt{\frac{7}{2}}}+0 &amp;= 0\\
+\left(-\frac{2}{\sqrt{14}}\right)\frac{5}{\sqrt{35}}+\left(-\frac{3}{\sqrt{14}}\right)\left(-\frac{3}{\sqrt{35}}\right)+\frac{1}{\sqrt{14}}\frac{1}{\sqrt{35}}+0 &amp;= 0\\
+0+\left(-\frac{3}{\sqrt{14}}\right)\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)+\frac{1}{\sqrt{14}}\left(-\frac{3}{5\sqrt{\frac{7}{5}}}\right)+0 &amp;= 0\\
+0+\frac{1}{2\sqrt{\frac{7}{2}}}\left(-\frac{3}{\sqrt{14}}\right)+\frac{3}{2\sqrt{\frac{7}{2}}}\frac{1}{\sqrt{14}}+0 &amp;= 0\\
+0+\frac{1}{2\sqrt{\frac{7}{2}}}\frac{1}{2\sqrt{\frac{7}{2}}}+\frac{3}{2\sqrt{\frac{7}{2}}}\frac{3}{2\sqrt{\frac{7}{2}}}+\frac{1}{\sqrt{\frac{7}{2}}}\frac{1}{\sqrt{\frac{7}{2}}} &amp;= 1\\
+0+\frac{1}{2\sqrt{\frac{7}{2}}}\left(-\frac{3}{\sqrt{35}}\right)+\frac{3}{2\sqrt{\frac{7}{2}}}\frac{1}{\sqrt{35}}+0 &amp;= 0\\
+0+\frac{1}{2\sqrt{\frac{7}{2}}}\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)+\frac{3}{2\sqrt{\frac{7}{2}}}\left(-\frac{3}{5\sqrt{\frac{7}{5}}}\right)+\frac{1}{\sqrt{\frac{7}{2}}}\frac{1}{\sqrt{\frac{7}{5}}} &amp;= 0\\
+\end{align}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+\frac{5}{\sqrt{35}}\left(-\frac{2}{\sqrt{14}}\right)+\left(-\frac{3}{\sqrt{35}}\right)\left(-\frac{3}{\sqrt{14}}\right)+\frac{1}{\sqrt{35}}\frac{1}{\sqrt{14}}+0 &amp;= 0\\
+0+\left(-\frac{3}{\sqrt{35}}\right)\frac{1}{2\sqrt{\frac{7}{2}}}+\frac{1}{\sqrt{35}}\frac{3}{2\sqrt{\frac{7}{2}}}+0 &amp;= 0\\
+\frac{5}{\sqrt{35}}\frac{5}{\sqrt{35}}+\left(-\frac{3}{\sqrt{35}}\right)\left(-\frac{3}{\sqrt{35}}\right)+\frac{1}{\sqrt{35}}\frac{1}{\sqrt{35}}+0 &amp;= 1\\
+0+\left(-\frac{3}{\sqrt{35}}\right)\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)+\frac{1}{\sqrt{35}}\left(-\frac{3}{5\sqrt{\frac{7}{5}}}\right)+0 &amp;= 0\\
+0+\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)\left(-\frac{3}{\sqrt{14}}\right)+\left(-\frac{3}{5\sqrt{\frac{7}{5}}}\right)\frac{1}{\sqrt{14}}+0 &amp;= 0\\
+0+\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)\frac{1}{2\sqrt{\frac{7}{2}}}+\left(-\frac{3}{5\sqrt{\frac{7}{5}}}\right)\frac{3}{2\sqrt{\frac{7}{2}}}+\frac{1}{\sqrt{\frac{7}{5}}}\frac{1}{\sqrt{\frac{7}{2}}} &amp;= 0\\
+0+\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)\left(-\frac{3}{\sqrt{35}}\right)+\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)\frac{1}{\sqrt{35}}+0 &amp;= 0\\
+0+\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)+\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)\left(-\frac{3}{5\sqrt{\frac{7}{5}}}\right)+\frac{1}{\sqrt{\frac{7}52}}\frac{1}{\sqrt{\frac{7}{5}}} &amp;= 1\\
+\end{align}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+1 &amp; 0 &amp; 0 &amp; 0\\
+0 &amp; 1 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; 1 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; 1\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+Q^TSQ
+=
+\begin{bmatrix}
+-\frac{2}{\sqrt{14}} &amp; -\frac{3}{\sqrt{14}} &amp; \frac{1}{\sqrt{14}} &amp; 0\\
+0 &amp; \frac{1}{2\sqrt{\frac{7}{2}}} &amp; \frac{3}{2\sqrt{\frac{7}{2}}} &amp; \frac{1}{\sqrt{\frac{7}{2}}}\\
+\frac{5}{\sqrt{35}} &amp; -\frac{3}{\sqrt{35}} &amp; \frac{1}{\sqrt{35}} &amp; 0\\
+0 &amp; -\frac{1}{5\sqrt{\frac{7}{5}}} &amp; -\frac{3}{5\sqrt{\frac{7}{5}}} &amp; \frac{1}{\sqrt{\frac{7}{5}}}\\
+\end{bmatrix}
+\begin{bmatrix}
+-3 &amp; 6 &amp; -2 &amp; 0\\
+6 &amp; 3 &amp; 0 &amp; 2\\
+-2 &amp; 0 &amp; 3 &amp; 6\\
+0 &amp; 2 &amp; 6 &amp; -3\\
+\end{bmatrix}
+\begin{bmatrix}
+-\frac{2}{\sqrt{14}} &amp; 0 &amp; \frac{5}{\sqrt{35}} &amp; 0\\
+-\frac{3}{\sqrt{14}} &amp; \frac{1}{2\sqrt{\frac{7}{2}}} &amp; -\frac{3}{\sqrt{35}} &amp; -\frac{1}{5\sqrt{\frac{7}{5}}}\\
+\frac{1}{\sqrt{14}} &amp; \frac{3}{2\sqrt{\frac{7}{2}}} &amp; \frac{1}{\sqrt{35}} &amp; -\frac{3}{5\sqrt{\frac{7}{5}}}\\
+0 &amp; \frac{1}{\sqrt{\frac{7}{2}}} &amp; 0 &amp; \frac{1}{\sqrt{\frac{7}{5}}}\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+(-3)\left(- \frac{2}{\sqrt{14}}\right)+6\left(-\frac{3}{\sqrt{14}}\right)+(-2)\frac{1}{\sqrt{14}}+0 &amp;= \left(-\frac{14}{\sqrt{14}}\right)\\
+6\left(-\frac{2}{\sqrt{14}}\right)+3\left(-\frac{3}{\sqrt{14}}\right)+0+0 &amp;= \left(-\frac{21}{\sqrt{14}}\right)\\
+(-2)\left(-\frac{2}{\sqrt{14}}\right)+0+3\frac{1}{\sqrt{14}}+0 &amp;= \frac{7}{\sqrt{14}}\\
+0+2\left(-\frac{3}{\sqrt{14}}\right)+6\frac{1}{\sqrt{14}}+0 &amp;= 0\\
+0+6\frac{1}{2\sqrt{\frac{7}{2}}}+(-2)\frac{3}{2\sqrt{\frac{7}{2}}}+0 &amp;= 0\\
+0+3\frac{1}{2\sqrt{\frac{7}{2}}}+0+2\frac{1}{\sqrt{\frac{7}{2}}} &amp;= \frac{7}{2\sqrt{\frac{7}{2}}}\\
+0+0+3\frac{3}{2\sqrt{\frac{7}{2}}}+6\frac{1}{\sqrt{\frac{7}{2}}} &amp;= \frac{21}{2\sqrt{\frac{7}{2}}}\\
+0+2\frac{1}{2\sqrt{\frac{7}{2}}}+6\frac{3}{2\sqrt{\frac{7}{2}}}+(-3)\frac{1}{\sqrt{\frac{7}{2}}} &amp;= \frac{7}{\sqrt{\frac{7}{2}}}\\
+(-3)\frac{5}{\sqrt{35}}+6\left(-\frac{3}{\sqrt{35}}\right)+(-2)\frac{1}{\sqrt{35}}+0 &amp;= \left(-\frac{35}{\sqrt{35}}\right)\\
+6\frac{5}{\sqrt{35}}+3\left(-\frac{3}{\sqrt{35}}\right)+0+0 &amp;= \frac{21}{\sqrt{35}}\\
+(-2)\frac{5}{\sqrt{35}}+0+3\frac{1}{\sqrt{35}}+0 &amp;= \left(-\frac{7}{\sqrt{35}}\right)\\
+0+2\left(-\frac{3}{\sqrt{35}}\right)+6\frac{1}{\sqrt{35}}+0 &amp;= 0\\
+0+6\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)+(-2)\left(-\frac{3}{5\sqrt{\frac{7}{5}}}\right)+0 &amp;= 0\\
+0+3\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)+0+2\frac{1}{\sqrt{\frac{7}{5}}} &amp;= \frac{7}{5\sqrt{\frac{7}{5}}}\\
+0+0+3\left(-\frac{3}{5\sqrt{\frac{7}{5}}}\right)+6\frac{1}{\sqrt{\frac{7}{5}}} &amp;= \frac{21}{5\sqrt{\frac{7}{5}}}\\
+0+2\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)+6\left(-\frac{3}{5\sqrt{\frac{7}{5}}}\right)+(-3)\frac{1}{\sqrt{\frac{7}{5}}} &amp;= \left(-\frac{7}{\sqrt{\frac{7}{5}}}\right)\\
+\end{align}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+-\frac{14}{\sqrt{14}} &amp; -\frac{21}{\sqrt{14}} &amp; \frac{7}{\sqrt{14}} &amp; 0\\
+0 &amp; \frac{7}{2\sqrt{\frac{7}{2}}} &amp; \frac{21}{2\sqrt{\frac{7}{2}}} &amp; \frac{7}{\sqrt{\frac{7}{2}}}\\
+-\frac{35}{\sqrt{35}} &amp; \frac{21}{\sqrt{35}} &amp; -\frac{7}{\sqrt{35}} &amp; 0\\
+0 &amp; \frac{7}{5\sqrt{\frac{7}{5}}} &amp; \frac{21}{5\sqrt{\frac{7}{5}}} &amp; -\frac{7}{\sqrt{\frac{7}{5}}}\\
+\end{bmatrix}
+\begin{bmatrix}
+-\frac{2}{\sqrt{14}} &amp; 0 &amp; \frac{5}{\sqrt{35}} &amp; 0\\
+-\frac{3}{\sqrt{14}} &amp; \frac{1}{2\sqrt{\frac{7}{2}}} &amp; -\frac{3}{\sqrt{35}} &amp; -\frac{1}{5\sqrt{\frac{7}{5}}}\\
+\frac{1}{\sqrt{14}} &amp; \frac{3}{2\sqrt{\frac{7}{2}}} &amp; \frac{1}{\sqrt{35}} &amp; -\frac{3}{5\sqrt{\frac{7}{5}}}\\
+0 &amp; \frac{1}{\sqrt{\frac{7}{2}}} &amp; 0 &amp; \frac{1}{\sqrt{\frac{7}{5}}}\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+\left(-\frac{14}{\sqrt{14}}\right)\left(-\frac{2}{\sqrt{14}}\right)+\left(-\frac{21}{\sqrt{14}}\right)\left(-\frac{3}{\sqrt{14}}\right)+\frac{7}{\sqrt{14}}\frac{1}{\sqrt{14}}+0 &amp;= 7\\
+0+\left(-\frac{21}{\sqrt{14}}\right)\frac{1}{2\sqrt{\frac{7}{2}}}+\frac{7}{\sqrt{14}}\frac{3}{2\sqrt{\frac{7}{2}}}+0 &amp;= 0\\
+\left(-\frac{14}{\sqrt{14}}\right)\frac{5}{\sqrt{35}}+\left(-\frac{21}{\sqrt{14}}\right)\left(-\frac{3}{\sqrt{35}}\right)+\frac{7}{\sqrt{14}}\frac{1}{\sqrt{35}}+0 &amp;= 0\\
+0+\left(-\frac{21}{\sqrt{14}}\right)\left(-\frac{1}{5\sqrt{\frac{7}{5}}}\right)+\frac{7}{\sqrt{14}}\left(-\frac{3}{5\sqrt{\frac{7}{5}}}\right)+0 &amp;= 0\\
+0+\frac{7}{2\sqrt{\frac{7}{2}}}+\frac{21}{2\sqrt{\frac{7}{2}}}+0 &amp;= 0\\
+0+\frac{7}{2\sqrt{\frac{7}{2}}}+\frac{21}{2\sqrt{\frac{7}{2}}}+\frac{7}{\sqrt{\frac{7}{2}}} &amp;= 7\\
+0+\frac{7}{2\sqrt{\frac{7}{2}}}+\frac{21}{2\sqrt{\frac{7}{2}}}+0 &amp;= 0\\
+0+\frac{7}{2\sqrt{\frac{7}{2}}}+\frac{21}{2\sqrt{\frac{7}{2}}}+\frac{7}{\sqrt{\frac{7}{2}}} &amp;= 0\\
+... &amp;= 0\\
+... &amp;= 0\\
+... &amp;= -7\\
+... &amp;= 0\\
+... &amp;= 0\\
+... &amp;= 0\\
+... &amp;= 0\\
+... &amp;= -7\\
+\end{align}
+\end{split}\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+=
+\begin{bmatrix}
+7 &amp; 0 &amp; 0 &amp; 0\\
+0 &amp; 7 &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; -7 &amp; 0\\
+0 &amp; 0 &amp; 0 &amp; -7\\
+\end{bmatrix}
+\end{split}\]</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">Q</span> <span class="o">=</span> <span class="n">Matrix</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="p">[</span>
+    <span class="o">-</span><span class="mi">2</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">14</span><span class="p">),</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">35</span><span class="p">),</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="o">-</span><span class="mi">3</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">14</span><span class="p">),</span> <span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">7</span><span class="o">/</span><span class="mi">2</span><span class="p">)),</span> <span class="o">-</span><span class="mi">3</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">35</span><span class="p">),</span> <span class="o">-</span><span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="mi">5</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">7</span><span class="o">/</span><span class="mi">5</span><span class="p">)),</span>
+    <span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">14</span><span class="p">),</span> <span class="mi">3</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">7</span><span class="o">/</span><span class="mi">2</span><span class="p">)),</span> <span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">35</span><span class="p">),</span> <span class="o">-</span><span class="mi">3</span><span class="o">/</span><span class="p">(</span><span class="mi">5</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">7</span><span class="o">/</span><span class="mi">5</span><span class="p">)),</span>
+    <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">7</span><span class="o">/</span><span class="mi">2</span><span class="p">),</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">7</span><span class="o">/</span><span class="mi">5</span><span class="p">)</span>
+<span class="p">])</span>
+<span class="n">Q</span><span class="o">*</span><span class="n">Q</span><span class="o">.</span><span class="n">transpose</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_109_0.png" src="../_images/LinearAlgebra_109_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">Sn</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="p">])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+<span class="n">Qn</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="o">-</span><span class="mi">2</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">14</span><span class="p">),</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">35</span><span class="p">),</span> <span class="mi">0</span><span class="p">,</span>
+              <span class="o">-</span><span class="mi">3</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">14</span><span class="p">),</span> <span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">7</span><span class="o">/</span><span class="mi">2</span><span class="p">)),</span> <span class="o">-</span><span class="mi">3</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">35</span><span class="p">),</span> <span class="o">-</span><span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="mi">5</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">7</span><span class="o">/</span><span class="mi">5</span><span class="p">)),</span>
+              <span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">14</span><span class="p">),</span> <span class="mi">3</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">7</span><span class="o">/</span><span class="mi">2</span><span class="p">)),</span> <span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">35</span><span class="p">),</span> <span class="o">-</span><span class="mi">3</span><span class="o">/</span><span class="p">(</span><span class="mi">5</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">7</span><span class="o">/</span><span class="mi">5</span><span class="p">)),</span>
+              <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">7</span><span class="o">/</span><span class="mi">2</span><span class="p">),</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="o">/</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">7</span><span class="o">/</span><span class="mi">5</span><span class="p">),</span>
+             <span class="p">])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+<span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">Qn</span><span class="p">,</span> <span class="n">Qn</span><span class="o">.</span><span class="n">transpose</span><span class="p">()))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[ 1.,  0., -0.,  0.],
+       [ 0.,  1.,  0.,  0.],
+       [-0.,  0.,  1.,  0.],
+       [ 0.,  0.,  0.,  1.]])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">Qn</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">Sn</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[-3.74165739, -5.61248608,  1.87082869,  0.        ],
+       [ 0.        ,  1.87082869,  5.61248608,  3.74165739],
+       [-5.91607978,  3.54964787, -1.18321596,  0.        ],
+       [ 0.        ,  1.18321596,  3.54964787, -5.91607978]])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">Qn</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">Sn</span><span class="p">),</span> <span class="n">Qn</span><span class="p">),</span> <span class="mi">0</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[ 7.,  0.,  0., -0.],
+       [-0.,  7., -0.,  0.],
+       [ 0.,  0., -7.,  0.],
+       [ 0.,  0.,  0., -7.]])
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">S</span><span class="o">.</span><span class="n">eigenvects</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_114_0.png" src="../_images/LinearAlgebra_114_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">P</span><span class="p">,</span> <span class="n">D</span> <span class="o">=</span> <span class="n">S</span><span class="o">.</span><span class="n">diagonalize</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">P</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_116_0.png" src="../_images/LinearAlgebra_116_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">D</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_117_0.png" src="../_images/LinearAlgebra_117_0.png" />
+</div>
+</div>
+<hr class="docutils" />
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">l</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;l&#39;</span><span class="p">)</span>
+<span class="n">M</span> <span class="o">=</span> <span class="n">Matrix</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="o">-</span><span class="n">l</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="o">-</span><span class="n">l</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="o">-</span><span class="n">l</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="o">-</span><span class="n">l</span><span class="p">])</span>
+<span class="n">M</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_119_0.png" src="../_images/LinearAlgebra_119_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M</span><span class="o">.</span><span class="n">det</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_120_0.png" src="../_images/LinearAlgebra_120_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">roots</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">98</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2401</span><span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([-7.00000007+0.00000000e+00j, -6.99999993+0.00000000e+00j,
+        7.        +9.13956908e-08j,  7.        -9.13956908e-08j])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M8_p7</span> <span class="o">=</span> <span class="n">Matrix</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="o">-</span><span class="mi">7</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+<span class="n">M8_p7</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_122_0.png" src="../_images/LinearAlgebra_122_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M8_p7</span><span class="o">.</span><span class="n">rref</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_123_0.png" src="../_images/LinearAlgebra_123_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M8_n7</span> <span class="o">=</span> <span class="n">Matrix</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="o">+</span><span class="mi">7</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">3</span><span class="o">+</span><span class="mi">7</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="o">+</span><span class="mi">7</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="o">-</span><span class="mi">3</span><span class="o">+</span><span class="mi">7</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+<span class="n">M8_n7</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_124_0.png" src="../_images/LinearAlgebra_124_0.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">M8_n7</span><span class="o">.</span><span class="n">rref</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/LinearAlgebra_125_0.png" src="../_images/LinearAlgebra_125_0.png" />
+</div>
+</div>
+<hr class="docutils" />
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./nbs"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="Fields.html" title="previous page">Fields</a>
+    <a class='right-next' id="next-link" href="mathematical_foundations.html" title="next page">Imports</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Dave Friedman<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
