@@ -17,7 +17,7 @@
 
 # ---
 
-# In[1]:
+# In[79]:
 
 
 import numpy as np
@@ -34,7 +34,7 @@ import itertools as it
 import networkx as nx
 
 
-# In[2]:
+# In[44]:
 
 
 def walk ():
@@ -60,7 +60,7 @@ def nwalk (limit=500):
     return n
 
 
-# In[3]:
+# In[7]:
 
 
 fig, ax = plt.subplots()
@@ -75,7 +75,7 @@ ax.set_title('Probability of reaching $x=1$ from $x=0$', fontsize=16);
 ax.grid();
 
 
-# In[4]:
+# In[41]:
 
 
 npr.seed(123)
@@ -89,7 +89,7 @@ ax.set_xlabel('step index k', fontsize=16);
 ax.set_title('Example of random walk', fontsize=16);
 
 
-# In[5]:
+# In[42]:
 
 
 s = [list(walk()) for i in range(50)]
@@ -103,7 +103,7 @@ ax.set_xlabel('step index k', fontsize=16);
 ax.set_title(f'average length={np.mean(list(len_walk)):0.2f}');
 
 
-# In[6]:
+# In[72]:
 
 
 len_walk = [nwalk() for i in range(500)]
@@ -117,7 +117,7 @@ ax.set_title('Estimated Cumulative Distribution', fontsize=16);
 ax.grid();
 
 
-# In[7]:
+# In[78]:
 
 
 def estimate_std (limit=10, ncount=50):
@@ -130,7 +130,7 @@ for limit in [10, 20, 50, 100, 200, 300, 500, 1000]:
     print(f'limit = {l}\taverage = {a:0.2f}\tstd = {s:0.2f}')
 
 
-# In[8]:
+# In[ ]:
 
 
 class Graph (nx.Graph):

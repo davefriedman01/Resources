@@ -22,24 +22,6 @@
 # 
 # $\text{dom}(P(x)) = \mathbb{R}$<br>
 
-# ### Polynomial Addition
-# 
-# Let $f(x) = \sum_{k = 0}^n a_k x^k$ and $g(x) = \sum_{k = 0}^n b_k x^k$ be polynomials.<br>
-# 
-# $$(f + g)(x) = \sum_{k = 0}^n (a_k + b_k) x^k$$
-
-# ### Polynomial Subtraction
-# 
-# Let $f(x) = \sum_{k = 0}^n a_k x^k$ and $g(x) = \sum_{k = 0}^n b_k x^k$ be polynomials.<br>
-# 
-# $$(f - g)(x) = \sum_{k = 0}^n (a_k - b_k) x^k$$
-
-# ### Polynomial Differentiation
-# 
-# Let $f(x) = \sum_{k = 0}^n a_k x^k$ be a polynomial.<br>
-# 
-# $$f'(x) = \sum_{k = 0}^n k a_k x^{k - 1}$$
-
 # ### General form of a linear function in one variable
 # A linear function is a polynomial function of degree 1.<br>
 # 
@@ -73,6 +55,24 @@
 # &= A x^3 + B x^2 + C x + D \\
 # \end{align}
 # $$
+
+# ### Polynomial Addition
+# 
+# Let $f(x) = \sum_{k = 0}^n a_k x^k$ and $g(x) = \sum_{k = 0}^n b_k x^k$ be polynomials.<br>
+# 
+# $$(f + g)(x) = \sum_{k = 0}^n (a_k + b_k) x^k$$
+
+# ### Polynomial Subtraction
+# 
+# Let $f(x) = \sum_{k = 0}^n a_k x^k$ and $g(x) = \sum_{k = 0}^n b_k x^k$ be polynomials.<br>
+# 
+# $$(f - g)(x) = \sum_{k = 0}^n (a_k - b_k) x^k$$
+
+# ### Polynomial Differentiation
+# 
+# Let $f(x) = \sum_{k = 0}^n a_k x^k$ be a polynomial.<br>
+# 
+# $$f'(x) = \sum_{k = 0}^n k a_k x^{k - 1}$$
 
 # ---
 
@@ -114,8 +114,6 @@
 # &= A x^2 + B x y + C y^2 + D x + E y + F \\
 # \end{align}
 # $$
-
-# The conic sections are special cases of the general form of a quadratic function in two variables.<br>
 
 # ### General form of a cubic function in two variables
 # A cubic function is a polynomial function of degree 3.<br>

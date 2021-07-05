@@ -3,7 +3,7 @@
 
 # # Python Blockchain
 
-# In[1]:
+# In[38]:
 
 
 import numpy as np
@@ -115,7 +115,7 @@ from pprint import pprint
 
 # ---
 
-# In[2]:
+# In[39]:
 
 
 class FieldElement:
@@ -304,13 +304,13 @@ def find_generators (order=2):
     return [(element.num, set([(element**i).num for i in range(1, order)])) for element in finite_field[1:]]
 
 
-# In[3]:
+# In[11]:
 
 
 generate_finite_field(5)
 
 
-# In[4]:
+# In[12]:
 
 
 def fermat_little_theorem (order=2):
@@ -324,7 +324,7 @@ def fermat_little_theorem (order=2):
 [fermat_little_theorem(order) for order in range(2, 24)]
 
 
-# In[5]:
+# In[13]:
 
 
 order = 5
@@ -332,7 +332,7 @@ f = generate_finite_field(order)
 find_generators(order)
 
 
-# In[6]:
+# In[14]:
 
 
 order = 19
@@ -375,7 +375,7 @@ for k in f[1:]:
 # For all points A there is some point -A such that their point addition yields the point at infinity.<br>
 # Visually, a point and its inverse are reflected over the x-axis.<br>
 
-# In[7]:
+# In[15]:
 
 
 a_min, a_max = -2, 2
@@ -404,7 +404,7 @@ fig.supxlabel(f'${a_min} < a < {a_max}$')
 fig.supylabel(f'${b_min} < b < {b_max}$');#, rotation=0);
 
 
-# In[8]:
+# In[16]:
 
 
 a = 0
@@ -445,7 +445,7 @@ plt.contour(x.ravel(), y.ravel(), pow(y, 2) - pow(x, 3) - x * a - b, [0]);
 # $y = 483A DA77 26A3 C465 5DA4 FBFC 0E11 08A8 FD17 B448 A685 5419 9C47 D08F FB10 D4B8$<br>
 # The uncompressed base point begins with $04$ followed by the hexadecimal representation of $x$ and $y$ concatenated together.<br>
 
-# In[9]:
+# In[17]:
 
 
 p = 2**256 - 2**32 - 977
@@ -468,7 +468,7 @@ display(
 )
 
 
-# In[10]:
+# In[18]:
 
 
 def bits_per_int (positive_integer):
@@ -485,7 +485,7 @@ def fast_exponentiation (num, exp):
     return mul
 
 
-# In[11]:
+# In[40]:
 
 
 class Point:
@@ -577,7 +577,7 @@ def plot_elliptic_curve (points, a=0, b=7):
             plt.scatter(point.x, point.y);
 
 
-# In[12]:
+# In[20]:
 
 
 p1 + p1

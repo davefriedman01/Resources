@@ -17,12 +17,28 @@
 # Examples of sets:
 # 
 # * $\mathbb{N}$ the set of natural numbers
-# * $\mathbb{Z}$ the set of integers
-# * $\mathbb{Z}^+$ the set of positive integers
-# * $\mathbb{E}$ the set of even integers
-# * $\mathbb{Q}$ the set of rational numbers
+#   * $\mathbb{N} \cup \{0\} \overset{\text{def}}= \{0, 1, 2, ...\}$ the set of natural numbers including zero
+#   * $\mathbb{N} - \{0\} \overset{\text{def}}= \{1, 2, ...\}$ the set of natural numbers excluding zero
+# * $\mathbb{Z} \overset{\text{def}}= \{..., -2, -1, 0, 1, 2, ...\}$ the set of integers
+#   * $\mathbb{Z}^+$ the set of positive integers (equivalent to $\mathbb{N} - \{0\}$)
+#   * $\mathbb{Z}^+ \cup \{0\}$ the set of nonnegative integers (equivalent to $\mathbb{N} \cup \{0\}$)
+#   * $\mathbb{E} \overset{\text{def}}= \{..., -2, 0, 2 ...\}$ the set of even integers
+# * $\mathbb{Q} \overset{\text{def}}= \{\frac{p}{q} : p, q \in \mathbb{Z}, q \ne 0\}$ the set of rational numbers
 # * $\mathbb{R}$ the set of real numbers
-# * $\mathbb{C}$ the set of complex numbers
+#   * $\mathbb{R}^-$ the set of negative numbers
+# * $\mathbb{C} \overset{\text{def}}= \{a + bi : a, b \in \mathbb{R}, i \overset{\text{def}}= \sqrt{-1}\}$ the set of complex numbers
 # * $\{0, 1\}^n$ the set of $n$-bit binary strings
+
+# $$
+# \mathbb{N}
+# \subset
+# \mathbb{Z}
+# \subset
+# \mathbb{Q}
+# \subset
+# \mathbb{R}
+# \subset
+# \mathbb{C}
+# $$
 
 # ---

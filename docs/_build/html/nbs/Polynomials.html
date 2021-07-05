@@ -73,8 +73,6 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
-      <img src="../_static/logo.png" class="logo" alt="logo">
-      
       
       <h1 class="site-logo" id="site-title">Mathematics</h1>
       
@@ -86,8 +84,8 @@
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../README.html">
-   Mathematics
+  <a class="reference internal" href="../index.html">
+   Thank you for visiting!
   </a>
  </li>
 </ul>
@@ -150,11 +148,6 @@
  <li class="toctree-l1">
   <a class="reference internal" href="LinearAlgebra.html">
    Linear Algebra
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="mathematical_foundations.html">
-   Imports
   </a>
  </li>
 </ul>
@@ -251,10 +244,7 @@
             href="https://github.com/davefriedman01/Resources"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/davefriedman01/Resources/issues/new?title=Issue%20on%20page%20%2Fnbs/Polynomials.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
         
     </div>
 </div>
@@ -311,21 +301,6 @@
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#polynomial-addition">
-     Polynomial Addition
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#polynomial-subtraction">
-     Polynomial Subtraction
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#polynomial-differentiation">
-     Polynomial Differentiation
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#general-form-of-a-linear-function-in-one-variable">
      General form of a linear function in one variable
     </a>
@@ -338,6 +313,21 @@
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#general-form-of-a-cubic-function-in-one-variable">
      General form of a cubic function in one variable
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#polynomial-addition">
+     Polynomial Addition
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#polynomial-subtraction">
+     Polynomial Subtraction
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#polynomial-differentiation">
+     Polynomial Differentiation
     </a>
    </li>
   </ul>
@@ -420,24 +410,6 @@ A real polynomial function in one variable has the form</p>
 <h3>Domain<a class="headerlink" href="#domain" title="Permalink to this headline">¶</a></h3>
 <p><span class="math notranslate nohighlight">\(\text{dom}(P(x)) = \mathbb{R}\)</span><br></p>
 </div>
-<div class="section" id="polynomial-addition">
-<h3>Polynomial Addition<a class="headerlink" href="#polynomial-addition" title="Permalink to this headline">¶</a></h3>
-<p>Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> and <span class="math notranslate nohighlight">\(g(x) = \sum_{k = 0}^n b_k x^k\)</span> be polynomials.<br></p>
-<div class="math notranslate nohighlight">
-\[(f + g)(x) = \sum_{k = 0}^n (a_k + b_k) x^k\]</div>
-</div>
-<div class="section" id="polynomial-subtraction">
-<h3>Polynomial Subtraction<a class="headerlink" href="#polynomial-subtraction" title="Permalink to this headline">¶</a></h3>
-<p>Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> and <span class="math notranslate nohighlight">\(g(x) = \sum_{k = 0}^n b_k x^k\)</span> be polynomials.<br></p>
-<div class="math notranslate nohighlight">
-\[(f - g)(x) = \sum_{k = 0}^n (a_k - b_k) x^k\]</div>
-</div>
-<div class="section" id="polynomial-differentiation">
-<h3>Polynomial Differentiation<a class="headerlink" href="#polynomial-differentiation" title="Permalink to this headline">¶</a></h3>
-<p>Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> be a polynomial.<br></p>
-<div class="math notranslate nohighlight">
-\[f'(x) = \sum_{k = 0}^n k a_k x^{k - 1}\]</div>
-</div>
 <div class="section" id="general-form-of-a-linear-function-in-one-variable">
 <h3>General form of a linear function in one variable<a class="headerlink" href="#general-form-of-a-linear-function-in-one-variable" title="Permalink to this headline">¶</a></h3>
 <p>A linear function is a polynomial function of degree 1.<br></p>
@@ -474,6 +446,24 @@ f(x)
 &amp;= A x^3 + B x^2 + C x + D \\
 \end{align}
 \end{split}\]</div>
+</div>
+<div class="section" id="polynomial-addition">
+<h3>Polynomial Addition<a class="headerlink" href="#polynomial-addition" title="Permalink to this headline">¶</a></h3>
+<p>Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> and <span class="math notranslate nohighlight">\(g(x) = \sum_{k = 0}^n b_k x^k\)</span> be polynomials.<br></p>
+<div class="math notranslate nohighlight">
+\[(f + g)(x) = \sum_{k = 0}^n (a_k + b_k) x^k\]</div>
+</div>
+<div class="section" id="polynomial-subtraction">
+<h3>Polynomial Subtraction<a class="headerlink" href="#polynomial-subtraction" title="Permalink to this headline">¶</a></h3>
+<p>Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> and <span class="math notranslate nohighlight">\(g(x) = \sum_{k = 0}^n b_k x^k\)</span> be polynomials.<br></p>
+<div class="math notranslate nohighlight">
+\[(f - g)(x) = \sum_{k = 0}^n (a_k - b_k) x^k\]</div>
+</div>
+<div class="section" id="polynomial-differentiation">
+<h3>Polynomial Differentiation<a class="headerlink" href="#polynomial-differentiation" title="Permalink to this headline">¶</a></h3>
+<p>Let <span class="math notranslate nohighlight">\(f(x) = \sum_{k = 0}^n a_k x^k\)</span> be a polynomial.<br></p>
+<div class="math notranslate nohighlight">
+\[f'(x) = \sum_{k = 0}^n k a_k x^{k - 1}\]</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -515,7 +505,6 @@ f(x, y)
 &amp;= A x^2 + B x y + C y^2 + D x + E y + F \\
 \end{align}
 \end{split}\]</div>
-<p>The conic sections are special cases of the general form of a quadratic function in two variables.<br></p>
 </div>
 <div class="section" id="general-form-of-a-cubic-function-in-two-variables">
 <h3>General form of a cubic function in two variables<a class="headerlink" href="#general-form-of-a-cubic-function-in-two-variables" title="Permalink to this headline">¶</a></h3>
@@ -633,7 +622,7 @@ A real polynomial in k variables has the form</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="../_images/Polynomials_26_0.png" src="../_images/Polynomials_26_0.png" />
+<img alt="../_images/Polynomials_25_0.png" src="../_images/Polynomials_25_0.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -683,7 +672,7 @@ A real polynomial in k variables has the form</p>
 -3.2x^3+6.9x^2+x+1
 </pre></div>
 </div>
-<img alt="../_images/Polynomials_28_1.png" src="../_images/Polynomials_28_1.png" />
+<img alt="../_images/Polynomials_27_1.png" src="../_images/Polynomials_27_1.png" />
 </div>
 </div>
 <div class="cell docutils container">

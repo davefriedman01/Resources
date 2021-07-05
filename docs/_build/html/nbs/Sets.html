@@ -54,7 +54,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Complex Numbers" href="ComplexNumbers.html" />
-    <link rel="prev" title="Mathematics" href="../README.html" />
+    <link rel="prev" title="Thank you for visiting!" href="../index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -73,8 +73,6 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="../index.html">
       
-      <img src="../_static/logo.png" class="logo" alt="logo">
-      
       
       <h1 class="site-logo" id="site-title">Mathematics</h1>
       
@@ -86,8 +84,8 @@
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../README.html">
-   Mathematics
+  <a class="reference internal" href="../index.html">
+   Thank you for visiting!
   </a>
  </li>
 </ul>
@@ -150,11 +148,6 @@
  <li class="toctree-l1">
   <a class="reference internal" href="LinearAlgebra.html">
    Linear Algebra
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="mathematical_foundations.html">
-   Imports
   </a>
  </li>
 </ul>
@@ -251,10 +244,7 @@
             href="https://github.com/davefriedman01/Resources"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/davefriedman01/Resources/issues/new?title=Issue%20on%20page%20%2Fnbs/Sets.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
         
     </div>
 </div>
@@ -322,15 +312,40 @@ A set is a collection of objects called elements (or members, points, etc.).<br>
 <hr class="docutils" />
 <p>Examples of sets:</p>
 <ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(\mathbb{N}\)</span> the set of natural numbers</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{Z}\)</span> the set of integers</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{Z}^+\)</span> the set of positive integers</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{E}\)</span> the set of even integers</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> the set of rational numbers</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{R}\)</span> the set of real numbers</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{C}\)</span> the set of complex numbers</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{N}\)</span> the set of natural numbers</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{N} \cup \{0\} \overset{\text{def}}= \{0, 1, 2, ...\}\)</span> the set of natural numbers including zero</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{N} - \{0\} \overset{\text{def}}= \{1, 2, ...\}\)</span> the set of natural numbers excluding zero</p></li>
+</ul>
+</li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{Z} \overset{\text{def}}= \{..., -2, -1, 0, 1, 2, ...\}\)</span> the set of integers</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{Z}^+\)</span> the set of positive integers (equivalent to <span class="math notranslate nohighlight">\(\mathbb{N} - \{0\}\)</span>)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{Z}^+ \cup \{0\}\)</span> the set of nonnegative integers (equivalent to <span class="math notranslate nohighlight">\(\mathbb{N} \cup \{0\}\)</span>)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{E} \overset{\text{def}}= \{..., -2, 0, 2 ...\}\)</span> the set of even integers</p></li>
+</ul>
+</li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{Q} \overset{\text{def}}= \{\frac{p}{q} : p, q \in \mathbb{Z}, q \ne 0\}\)</span> the set of rational numbers</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{R}\)</span> the set of real numbers</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{R}^-\)</span> the set of negative numbers</p></li>
+</ul>
+</li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{C} \overset{\text{def}}= \{a + bi : a, b \in \mathbb{R}, i \overset{\text{def}}= \sqrt{-1}\}\)</span> the set of complex numbers</p></li>
 <li><p><span class="math notranslate nohighlight">\(\{0, 1\}^n\)</span> the set of <span class="math notranslate nohighlight">\(n\)</span>-bit binary strings</p></li>
 </ul>
+<div class="math notranslate nohighlight">
+\[
+\mathbb{N}
+\subset
+\mathbb{Z}
+\subset
+\mathbb{Q}
+\subset
+\mathbb{R}
+\subset
+\mathbb{C}
+\]</div>
 <hr class="docutils" />
 </div>
 </div>
@@ -360,7 +375,7 @@ A set is a collection of objects called elements (or members, points, etc.).<br>
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="../README.html" title="previous page">Mathematics</a>
+    <a class='left-prev' id="prev-link" href="../index.html" title="previous page">Thank you for visiting!</a>
     <a class='right-next' id="next-link" href="ComplexNumbers.html" title="next page">Complex Numbers</a>
 
         </div>

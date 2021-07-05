@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: README
+root: index
 parts:
   - caption: Foundations
     chapters:
@@ -23,16 +23,6 @@ parts:
     - file: nbs/RandomWalks
     - file: nbs/DigitalSignalProcessing
     - file: nbs/DifferentialEquations
-      #- caption: Artificial Intelligence
-      #chapters:
-      #- file: nbs/nlp
   - caption: Blockchain
     chapters:
     - file: nbs/PythonBlockchain
-      #- caption: Under Construction
-      #chapters:
-      #- file: nbs/template
-      #- file: nbs/template_finance
-      #- file: nbs/FinancialAnalytics
-      #- file: nbs/AlgorithmicTrading
-      #- file: nbs/longshort
