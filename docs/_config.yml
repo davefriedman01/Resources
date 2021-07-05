@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Mathematics
+title: Mathematics and its Applications
 author: Dave Friedman
 
 # Force re-execution of notebooks on each build.
@@ -22,7 +22,6 @@ bibtex_bibfiles:
 repository:
   url: https://github.com/davefriedman01/Resources  # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
