@@ -115,6 +115,159 @@
 
 # ---
 
+# #### Modular Additive Identity
+# The sum of an integer $a$ mod $m$ and the additive identity element is congruent to the integer $a$ mod $m$.<br>
+# 
+# $$
+# \exists 0 \in Z_m, \forall a \in Z_m, a + 0 \equiv a \,(\text{mod}\, m)
+# $$
+# 
+# #### Modular Addition
+# Modular addition is defined as the principal remainder when $a + b$ is divided by $m$.<br>
+# 
+# $$
+# \begin{align}
+# a \oplus b &\overset{\text{def}}{=} (a + b) \,\text{mod}\, m \\
+# &= (a' + km + b' + lm) \,\text{mod}\, m \\
+# &= ((k + l)m + (a' + b')) \,\text{mod}\, m \\
+# &= (a' + b') \,\text{mod}\, m \\
+# &= (a \,\text{mod}\, m + b \,\text{mod}\, m) \,\text{mod}\, m \\
+# \end{align}
+# $$
+# 
+# #### Modular Additive Inverse
+# The sum of an integer $a$ mod $m$ and its additive inverse is congruent to the additive identity element.<br>
+# 
+# $$
+# \forall a \in Z_m, \exists (-a) \in Z_m, a + (-a) \equiv 0 \,(\text{mod}\, m)
+# $$
+# 
+# #### Modular Subtraction
+# The difference of two integers $a, b$ mod $m$ is the sum of the first integer $a$ mod $m$ and the additive inverse of the second integer $b$ mod $m$.<br>
+# 
+# $$
+# \begin{align}
+# a \ominus b &\overset{\text{def}}{=} (a - b) \,\text{mod}\, m \\
+# &= (a' + km - (b' + lm)) \,\text{mod}\, m \\
+# &= ((k - l)m + (a' - b')) \,\text{mod}\, m \\
+# &= (a' - b') \,\text{mod}\, m \\
+# &= (a \,\text{mod}\, m - b \,\text{mod}\, m) \,\text{mod}\, m \\
+# \end{align}
+# $$
+# 
+# #### Modular Multiplicative Identity
+# The product of an integer $a$ mod $m$ and the multiplicative identity element is congruent to the integer $a$ mod $m$.<br>
+# 
+# $$
+# \exists 1 \in Z_m, \forall a \in Z_m, a \cdot 1 \equiv a \,(\text{mod}\, m)
+# $$
+# 
+# #### Modular Multiplication
+# Modular multiplication is defined as the principal remainder when $ab$ is divided by $m$.<br>
+# 
+# $$
+# \begin{align}
+# a \otimes b &\overset{\text{def}}{=} ab \,\text{mod}\, m \\
+# \end{align}
+# $$
+# 
+# #### Modular Multiplicative Inverse
+# The product of an integer $a$ mod $m$ and its multiplicative inverse is congruent to the multiplicative identity element.<br>
+# The additive identity element does not have a multiplicative inverse.<br>
+# The remaining elements may or may not have multiplicative inverses.<br>
+# 
+# $$
+# a \cdot a^{-1} \equiv 1 \,(\text{mod}\, m)
+# $$
+# 
+# #### Determine whether an integer mod $m$ has a multiplicative inverse
+# Any nonzero integer $a$ has a multiplicative inverse $a^{-1}$ iff it is relatively prime to $n$.<br>
+# 
+# Let an integer $a = cb$ and the modulus $m = cn$ share a common factor $c$.<br>
+# $aa^{-1} \equiv 1 \,(\text{mod}\, m)$<br>
+# $(cb)a^{-1} \equiv 1 \,(\text{mod}\, m)$<br>
+# $(ncb)a^{-1} \equiv n \,(\text{mod}\, m)$<br>
+# $(mb)a^{-1} \equiv n \,(\text{mod}\, m)$<br>
+# Since $mb$ is a multiple of the modulus, the lefthand side is congruent to 0.<br>
+# If $n$ is not congruent to 0, the relation and original expression are false: there is no value for $a^{-1}$ which can serve as the multiplicative inverse for $a$.<br>
+# The relation and original expression are true when $n$ is congruent to 0.<br>
+# $n$ can't be 0 since that would mean $m$ is 0.<br>
+# $n$ can't be larger than $m$ since $c$ must be an integer and that would make $m$ greater than $m$.<br>
+# $n$ must be equal to $m$ which means that $c$ must be equal to 1.<br>
+# Since $c = 1$ is the common factor of $a$ and $m$, $a$ and $m$ are relatively prime.<br>
+# 
+# #### Modular Division
+# The division of two integers $a, b$ mod $m$ is the product of the first integer $a$ mod $m$ and the multiplicative inverse of the second integer $b \ne 0$ mod $m$.<br>
+# 
+# $$
+# \begin{align}
+# a \oslash b &\overset{\text{def}}{=} (ab^{-1}) \,\text{mod}\, m \\
+# \end{align}
+# $$
+# 
+# #### Modular Exponentiation
+# 
+# $$a^b a^c \equiv a^{b + c} \,(\text{mod}\, m)$$
+# 
+# $$(a^b)^c \equiv a^{bc} \,(\text{mod}\, m)$$
+# 
+# $$
+# \begin{align}
+# a^2 \,\text{mod}\, m &= (aa) \,\text{mod}\, m \\
+# &= ((a \,\text{mod}\, m)(a \,\text{mod}\, m)) \,\text{mod}\, m \\
+# &= (a \,\text{mod}\, m)^2 \,\text{mod}\, m \\
+# \end{align}
+# $$
+# 
+# We can reduce the exponent mod $n$ where $n$ is the number of positive integers less than $m$ that are relatively prime to $m$.<br>
+# 
+# $$
+# a^e \equiv a^{e \,\text{mod}\, n} \,(\text{mod}\, m)
+# $$
+# 
+# #### Examples
+# 
+# Evaluate integer arithmetic first, modulo operator last.
+# $$
+# \begin{align}
+# & (((4^2 + 20) - 45) \times 6 + 50) \,\text{mod}\, 7 \\
+# &= (((16 + 20) - 45) \times 6 + 50) \,\text{mod}\, 7 \\
+# &= ((36 - 45) \times 6 + 50) \,\text{mod}\, 7 \\
+# &= (-9 \times 6 + 50) \,\text{mod}\, 7 \\
+# &= (-54 + 50) \,\text{mod}\, 7 \\
+# &= (-4) \,\text{mod}\, 7 \\
+# &= 3
+# \end{align}
+# $$
+# 
+# "Distribute" modulo operator, then evaluate all modular expressions.
+# $$
+# \begin{align}
+# & (((4^2 + 20) - 45) \times 6 + 50) \,\text{mod}\, 7 \\
+# &= (((((16 + 20) - 45) \times 6) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+# &= ((((((16 + 20) - 45) \,\text{mod}\, 7) \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+# &= (((((((16 + 20) \,\text{mod}\, 7) - ((45) \,\text{mod}\, 7)) \,\text{mod}\, 7) \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+# &= (((((((((16) \,\text{mod}\, 7) + ((20) \,\text{mod}\, 7)) \,\text{mod}\, 7) - ((45) \,\text{mod}\, 7)) \,\text{mod}\, 7) \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+# &= (((((((2 + 6) \,\text{mod}\, 7) - ((45) \,\text{mod}\, 7)) \,\text{mod}\, 7) \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+# &= (((((1 - ((45) \,\text{mod}\, 7)) \,\text{mod}\, 7) \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+# &= (((((1 - 3) \,\text{mod}\, 7) \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+# &= (((5 \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+# &= (((5 \times 6) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+# &= (2 + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+# &= (2 + 1) \,\text{mod}\, 7 \\
+# &= 3 \\
+# \end{align}
+# $$
+# 
+# $$
+# \begin{align}
+# & 9^{11} \,\text{mod}\, m \\
+# &= 31381059609 \,\text{mod}\, m \\
+# \end{align}
+# $$
+
+# ---
+
 # In[1]:
 
 
@@ -167,8 +320,4 @@ display(
 )
 
 
-# In[ ]:
-
-
-
-
+# ---

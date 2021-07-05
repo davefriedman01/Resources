@@ -49,9 +49,11 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Modular Arithmetic" href="ModularArithmetic.html" />
+    <link rel="next" title="Complex Numbers" href="ComplexNumbers.html" />
     <link rel="prev" title="Mathematics" href="../README.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -101,6 +103,21 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="ComplexNumbers.html">
+   Complex Numbers
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="NumberTheory.html">
+   Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="AlgorithmicNumberTheory.html">
+   Algorithmic Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="ModularArithmetic.html">
    Modular Arithmetic
   </a>
@@ -121,8 +138,40 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="Fields.html">
+   Fields
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="LinearAlgebra.html">
+   Linear Algebra
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="mathematical_foundations.html">
    Imports
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Modeling
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="RandomWalks.html">
+   Random Walks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DigitalSignalProcessing.html">
+   Digital Signal Processing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DifferentialEquations.html">
+   Differential Equations
   </a>
  </li>
 </ul>
@@ -242,8 +291,8 @@
             <nav id="bd-toc-nav">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#set">
-   Set
+  <a class="reference internal nav-link" href="#id1">
+   Sets
   </a>
  </li>
 </ul>
@@ -259,10 +308,24 @@
                 
   <div class="section" id="sets">
 <h1>Sets<a class="headerlink" href="#sets" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="set">
-<h2>Set<a class="headerlink" href="#set" title="Permalink to this headline">¶</a></h2>
-<p>A set is a collection of objects called elements (or members, points, etc.)<br></p>
+<hr class="docutils" />
+<div class="section" id="id1">
+<h2>Sets<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p><span style="color: blue"><strong>DEFINITION</strong></span><br>
+A set is a collection of objects called elements (or members, points, etc.).<br></p>
 <p>The <strong>order</strong> of a set is the number of elements in the set if the set is finite or infinite if the number of elements in the set is infinite.</p>
+<hr class="docutils" />
+<p>Examples of sets:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\mathbb{N}\)</span> the set of natural numbers</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{Z}\)</span> the set of integers</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{Z}^+\)</span> the set of positive integers</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{E}\)</span> the set of even integers</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> the set of rational numbers</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{R}\)</span> the set of real numbers</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{C}\)</span> the set of complex numbers</p></li>
+<li><p><span class="math notranslate nohighlight">\(\{0, 1\}^n\)</span> the set of <span class="math notranslate nohighlight">\(n\)</span>-bit binary strings</p></li>
+</ul>
 <hr class="docutils" />
 </div>
 </div>
@@ -293,7 +356,7 @@
         <div class='prev-next-bottom'>
             
     <a class='left-prev' id="prev-link" href="../README.html" title="previous page">Mathematics</a>
-    <a class='right-next' id="next-link" href="ModularArithmetic.html" title="next page">Modular Arithmetic</a>
+    <a class='right-next' id="next-link" href="ComplexNumbers.html" title="next page">Complex Numbers</a>
 
         </div>
         

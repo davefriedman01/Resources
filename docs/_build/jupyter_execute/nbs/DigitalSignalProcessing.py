@@ -1,6 +1,22 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# # Digital Signal Processing
+
+# ---
+
+# A __signal__ represents a quantity that varies in time.
+# 
+# A __periodic signal__ is a signal that repeats itself after some period of time.
+# 
+# A __transducer__ converts a signal from one form to another.
+# 
+# The __period__ is the duration of a cycle.
+# 
+# The __frequency__ is the number of cycles per second.
+
+# ---
+
 # In[1]:
 
 

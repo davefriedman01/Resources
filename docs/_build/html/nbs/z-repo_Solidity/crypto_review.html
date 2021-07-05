@@ -1,0 +1,1119 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Large Numbers &#8212; Mathematics</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Mathematics</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../README.html">
+   Mathematics
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Foundations
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Sets.html">
+   Sets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../NumberTheory.html">
+   Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../AlgorithmicNumberTheory.html">
+   Algorithmic Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../ModularArithmetic.html">
+   Modular Arithmetic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Polynomials.html">
+   Polynomials
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Structures.html">
+   Structures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Groups.html">
+   Groups
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../Fields.html">
+   Fields
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../mathematical_foundations.html">
+   Imports
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Modeling
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../RandomWalks.html">
+   Random Walks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DigitalSignalProcessing.html">
+   Digital Signal Processing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../DifferentialEquations.html">
+   Differential Equations
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Blockchain
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../PythonBlockchain.html">
+   Python Blockchain
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/nbs/z-repo_Solidity/crypto_review.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/davefriedman01/Resources"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/davefriedman01/Resources/issues/new?title=Issue%20on%20page%20%2Fnbs/z-repo_Solidity/crypto_review.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/davefriedman01/Resources/master?urlpath=tree/docs/nbs/z-repo_Solidity/crypto_review.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Large Numbers
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-does-hashlib-sha256-do">
+     What does hashlib.sha256 do?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cryptographic-hash">
+   Cryptographic Hash
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#python-blockchain">
+   Python Blockchain
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">hashlib</span><span class="o">,</span> <span class="nn">json</span>
+
+<span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">dir</span><span class="p">(</span><span class="n">hashlib</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;__all__&#39;,
+ &#39;__block_openssl_constructor&#39;,
+ &#39;__builtin_constructor_cache&#39;,
+ &#39;__builtins__&#39;,
+ &#39;__cached__&#39;,
+ &#39;__doc__&#39;,
+ &#39;__file__&#39;,
+ &#39;__get_builtin_constructor&#39;,
+ &#39;__loader__&#39;,
+ &#39;__name__&#39;,
+ &#39;__package__&#39;,
+ &#39;__spec__&#39;,
+ &#39;_hashlib&#39;,
+ &#39;algorithms_available&#39;,
+ &#39;algorithms_guaranteed&#39;,
+ &#39;blake2b&#39;,
+ &#39;blake2s&#39;,
+ &#39;md5&#39;,
+ &#39;new&#39;,
+ &#39;pbkdf2_hmac&#39;,
+ &#39;scrypt&#39;,
+ &#39;sha1&#39;,
+ &#39;sha224&#39;,
+ &#39;sha256&#39;,
+ &#39;sha384&#39;,
+ &#39;sha3_224&#39;,
+ &#39;sha3_256&#39;,
+ &#39;sha3_384&#39;,
+ &#39;sha3_512&#39;,
+ &#39;sha512&#39;,
+ &#39;shake_128&#39;,
+ &#39;shake_256&#39;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">help</span><span class="p">(</span><span class="n">hashlib</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Help on module hashlib:
+
+NAME
+    hashlib - hashlib module - A common interface to many hash functions.
+
+MODULE REFERENCE
+    https://docs.python.org/3.8/library/hashlib
+    
+    The following documentation is automatically generated from the Python
+    source files.  It may be incomplete, incorrect or include features that
+    are considered implementation detail and may vary between Python
+    implementations.  When in doubt, consult the module reference at the
+    location listed above.
+
+DESCRIPTION
+    new(name, data=b&#39;&#39;, **kwargs) - returns a new hash object implementing the
+                                    given hash function; initializing the hash
+                                    using the given binary data.
+    
+    Named constructor functions are also available, these are faster
+    than using new(name):
+    
+    md5(), sha1(), sha224(), sha256(), sha384(), sha512(), blake2b(), blake2s(),
+    sha3_224, sha3_256, sha3_384, sha3_512, shake_128, and shake_256.
+    
+    More algorithms may be available on your platform but the above are guaranteed
+    to exist.  See the algorithms_guaranteed and algorithms_available attributes
+    to find out what algorithm names can be passed to new().
+    
+    NOTE: If you want the adler32 or crc32 hash functions they are available in
+    the zlib module.
+    
+    Choose your hash function wisely.  Some have known collision weaknesses.
+    sha384 and sha512 will be slow on 32 bit platforms.
+    
+    Hash objects have these methods:
+     - update(data): Update the hash object with the bytes in data. Repeated calls
+                     are equivalent to a single call with the concatenation of all
+                     the arguments.
+     - digest():     Return the digest of the bytes passed to the update() method
+                     so far as a bytes object.
+     - hexdigest():  Like digest() except the digest is returned as a string
+                     of double length, containing only hexadecimal digits.
+     - copy():       Return a copy (clone) of the hash object. This can be used to
+                     efficiently compute the digests of datas that share a common
+                     initial substring.
+    
+    For example, to obtain the digest of the byte string &#39;Nobody inspects the
+    spammish repetition&#39;:
+    
+        &gt;&gt;&gt; import hashlib
+        &gt;&gt;&gt; m = hashlib.md5()
+        &gt;&gt;&gt; m.update(b&quot;Nobody inspects&quot;)
+        &gt;&gt;&gt; m.update(b&quot; the spammish repetition&quot;)
+        &gt;&gt;&gt; m.digest()
+        b&#39;\xbbd\x9c\x83\xdd\x1e\xa5\xc9\xd9\xde\xc9\xa1\x8d\xf0\xff\xe9&#39;
+    
+    More condensed:
+    
+        &gt;&gt;&gt; hashlib.sha224(b&quot;Nobody inspects the spammish repetition&quot;).hexdigest()
+        &#39;a4337bc45a8fc544c03f52dc550cd6e1e87021bc896588bd79e901e2&#39;
+
+CLASSES
+    builtins.object
+        _blake2.blake2b
+        _blake2.blake2s
+        _sha3.sha3_224
+        _sha3.sha3_256
+        _sha3.sha3_384
+        _sha3.sha3_512
+        _sha3.shake_128
+        _sha3.shake_256
+    
+    class blake2b(builtins.object)
+     |  blake2b(data=b&#39;&#39;, /, *, digest_size=64, key=b&#39;&#39;, salt=b&#39;&#39;, person=b&#39;&#39;, fanout=1, depth=1, leaf_size=0, node_offset=0, node_depth=0, inner_size=0, last_node=False)
+     |  
+     |  Return a new BLAKE2b hash object.
+     |  
+     |  Methods defined here:
+     |  
+     |  copy(self, /)
+     |      Return a copy of the hash object.
+     |  
+     |  digest(self, /)
+     |      Return the digest value as a bytes object.
+     |  
+     |  hexdigest(self, /)
+     |      Return the digest value as a string of hexadecimal digits.
+     |  
+     |  update(self, data, /)
+     |      Update this hash object&#39;s state with the provided bytes-like object.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  block_size
+     |  
+     |  digest_size
+     |  
+     |  name
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  MAX_DIGEST_SIZE = 64
+     |  
+     |  MAX_KEY_SIZE = 64
+     |  
+     |  PERSON_SIZE = 16
+     |  
+     |  SALT_SIZE = 16
+    
+    class blake2s(builtins.object)
+     |  blake2s(data=b&#39;&#39;, /, *, digest_size=32, key=b&#39;&#39;, salt=b&#39;&#39;, person=b&#39;&#39;, fanout=1, depth=1, leaf_size=0, node_offset=0, node_depth=0, inner_size=0, last_node=False)
+     |  
+     |  Return a new BLAKE2s hash object.
+     |  
+     |  Methods defined here:
+     |  
+     |  copy(self, /)
+     |      Return a copy of the hash object.
+     |  
+     |  digest(self, /)
+     |      Return the digest value as a bytes object.
+     |  
+     |  hexdigest(self, /)
+     |      Return the digest value as a string of hexadecimal digits.
+     |  
+     |  update(self, data, /)
+     |      Update this hash object&#39;s state with the provided bytes-like object.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  block_size
+     |  
+     |  digest_size
+     |  
+     |  name
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data and other attributes defined here:
+     |  
+     |  MAX_DIGEST_SIZE = 32
+     |  
+     |  MAX_KEY_SIZE = 32
+     |  
+     |  PERSON_SIZE = 8
+     |  
+     |  SALT_SIZE = 8
+    
+    class sha3_224(builtins.object)
+     |  sha3_224([data]) -&gt; SHA3 object
+     |  
+     |  Return a new SHA3 hash object with a hashbit length of 28 bytes.
+     |  
+     |  Methods defined here:
+     |  
+     |  copy(self, /)
+     |      Return a copy of the hash object.
+     |  
+     |  digest(self, /)
+     |      Return the digest value as a bytes object.
+     |  
+     |  hexdigest(self, /)
+     |      Return the digest value as a string of hexadecimal digits.
+     |  
+     |  update(self, data, /)
+     |      Update this hash object&#39;s state with the provided bytes-like object.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  block_size
+     |  
+     |  digest_size
+     |  
+     |  name
+    
+    class sha3_256(builtins.object)
+     |  sha3_256([data]) -&gt; SHA3 object
+     |  
+     |  Return a new SHA3 hash object with a hashbit length of 32 bytes.
+     |  
+     |  Methods defined here:
+     |  
+     |  copy(self, /)
+     |      Return a copy of the hash object.
+     |  
+     |  digest(self, /)
+     |      Return the digest value as a bytes object.
+     |  
+     |  hexdigest(self, /)
+     |      Return the digest value as a string of hexadecimal digits.
+     |  
+     |  update(self, data, /)
+     |      Update this hash object&#39;s state with the provided bytes-like object.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  block_size
+     |  
+     |  digest_size
+     |  
+     |  name
+    
+    class sha3_384(builtins.object)
+     |  sha3_384([data]) -&gt; SHA3 object
+     |  
+     |  Return a new SHA3 hash object with a hashbit length of 48 bytes.
+     |  
+     |  Methods defined here:
+     |  
+     |  copy(self, /)
+     |      Return a copy of the hash object.
+     |  
+     |  digest(self, /)
+     |      Return the digest value as a bytes object.
+     |  
+     |  hexdigest(self, /)
+     |      Return the digest value as a string of hexadecimal digits.
+     |  
+     |  update(self, data, /)
+     |      Update this hash object&#39;s state with the provided bytes-like object.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  block_size
+     |  
+     |  digest_size
+     |  
+     |  name
+    
+    class sha3_512(builtins.object)
+     |  sha3_512([data]) -&gt; SHA3 object
+     |  
+     |  Return a new SHA3 hash object with a hashbit length of 64 bytes.
+     |  
+     |  Methods defined here:
+     |  
+     |  copy(self, /)
+     |      Return a copy of the hash object.
+     |  
+     |  digest(self, /)
+     |      Return the digest value as a bytes object.
+     |  
+     |  hexdigest(self, /)
+     |      Return the digest value as a string of hexadecimal digits.
+     |  
+     |  update(self, data, /)
+     |      Update this hash object&#39;s state with the provided bytes-like object.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  block_size
+     |  
+     |  digest_size
+     |  
+     |  name
+    
+    class shake_128(builtins.object)
+     |  shake_128([data]) -&gt; SHAKE object
+     |  
+     |  Return a new SHAKE hash object.
+     |  
+     |  Methods defined here:
+     |  
+     |  copy(self, /)
+     |      Return a copy of the hash object.
+     |  
+     |  digest(self, length, /)
+     |      Return the digest value as a bytes object.
+     |  
+     |  hexdigest(self, length, /)
+     |      Return the digest value as a string of hexadecimal digits.
+     |  
+     |  update(self, data, /)
+     |      Update this hash object&#39;s state with the provided bytes-like object.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  block_size
+     |  
+     |  digest_size
+     |  
+     |  name
+    
+    class shake_256(builtins.object)
+     |  shake_256([data]) -&gt; SHAKE object
+     |  
+     |  Return a new SHAKE hash object.
+     |  
+     |  Methods defined here:
+     |  
+     |  copy(self, /)
+     |      Return a copy of the hash object.
+     |  
+     |  digest(self, length, /)
+     |      Return the digest value as a bytes object.
+     |  
+     |  hexdigest(self, length, /)
+     |      Return the digest value as a string of hexadecimal digits.
+     |  
+     |  update(self, data, /)
+     |      Update this hash object&#39;s state with the provided bytes-like object.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Static methods defined here:
+     |  
+     |  __new__(*args, **kwargs) from builtins.type
+     |      Create and return a new object.  See help(type) for accurate signature.
+     |  
+     |  ----------------------------------------------------------------------
+     |  Data descriptors defined here:
+     |  
+     |  block_size
+     |  
+     |  digest_size
+     |  
+     |  name
+
+FUNCTIONS
+    md5 = openssl_md5(string=b&#39;&#39;)
+        Returns a md5 hash object; optionally initialized with a string
+    
+    new = __hash_new(name, data=b&#39;&#39;, **kwargs)
+        new(name, data=b&#39;&#39;) - Return a new hashing object using the named algorithm;
+        optionally initialized with data (which must be a bytes-like object).
+    
+    pbkdf2_hmac(hash_name, password, salt, iterations, dklen=None)
+        Password based key derivation function 2 (PKCS #5 v2.0) with HMAC as pseudorandom function.
+    
+    sha1 = openssl_sha1(string=b&#39;&#39;)
+        Returns a sha1 hash object; optionally initialized with a string
+    
+    sha224 = openssl_sha224(string=b&#39;&#39;)
+        Returns a sha224 hash object; optionally initialized with a string
+    
+    sha256 = openssl_sha256(string=b&#39;&#39;)
+        Returns a sha256 hash object; optionally initialized with a string
+    
+    sha384 = openssl_sha384(string=b&#39;&#39;)
+        Returns a sha384 hash object; optionally initialized with a string
+    
+    sha512 = openssl_sha512(string=b&#39;&#39;)
+        Returns a sha512 hash object; optionally initialized with a string
+
+DATA
+    __all__ = (&#39;md5&#39;, &#39;sha1&#39;, &#39;sha224&#39;, &#39;sha256&#39;, &#39;sha384&#39;, &#39;sha512&#39;, &#39;bla...
+    algorithms_available = {&#39;blake2b&#39;, &#39;blake2s&#39;, &#39;md4&#39;, &#39;md5&#39;, &#39;md5-sha1&#39;...
+    algorithms_guaranteed = {&#39;blake2b&#39;, &#39;blake2s&#39;, &#39;md5&#39;, &#39;sha1&#39;, &#39;sha224&#39;...
+
+FILE
+    /opt/anaconda3/lib/python3.8/hashlib.py
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="large-numbers">
+<h1>Large Numbers<a class="headerlink" href="#large-numbers" title="Permalink to this headline">¶</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">atoms_in_the_universe</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="mi">80</span>
+<span class="n">googol</span> <span class="o">=</span> <span class="mf">1e100</span>
+<span class="n">myoglobin</span> <span class="o">=</span> <span class="mf">2e153</span>
+<span class="n">display</span><span class="p">(</span>
+    <span class="n">atoms_in_the_universe</span><span class="p">,</span>
+    <span class="n">googol</span><span class="p">,</span>
+    <span class="n">googol</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span>
+    <span class="n">myoglobin</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>100000000000000000000000000000000000000000000000000000000000000000000000000000000
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1e+100
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1e+200
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2e+153
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="what-does-hashlib-sha256-do">
+<h2>What does hashlib.sha256 do?<a class="headerlink" href="#what-does-hashlib-sha256-do" title="Permalink to this headline">¶</a></h2>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">digest</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="sa">b</span><span class="s1">&#39;Hello world&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+<span class="n">digest</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;64ec88ca00b268e5ba1a35678a1b5316d212f4f366b2477232534a8aeca37f3c&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">format</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">digest</span><span class="p">,</span> <span class="mi">16</span><span class="p">),</span> <span class="s1">&#39;0256b&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;0110010011101100100010001100101000000000101100100110100011100101101110100001101000110101011001111000101000011011010100110001011011010010000100101111010011110011011001101011001001000111011100100011001001010011010010101000101011101100101000110111111100111100&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="nb">format</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">digest</span><span class="p">,</span> <span class="mi">16</span><span class="p">),</span> <span class="s1">&#39;0256b&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>256
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="cryptographic-hash">
+<h1>Cryptographic Hash<a class="headerlink" href="#cryptographic-hash" title="Permalink to this headline">¶</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># How many SHA256 hashes?</span>
+<span class="mi">2</span><span class="o">**</span><span class="mi">256</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>115792089237316195423570985008687907853269984665640564039457584007913129639936
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># How many SHA512 hashes?</span>
+<span class="mi">2</span><span class="o">**</span><span class="mi">512</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="python-blockchain">
+<h1>Python Blockchain<a class="headerlink" href="#python-blockchain" title="Permalink to this headline">¶</a></h1>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Block</span><span class="p">:</span>
+    <span class="n">bid</span>    <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">pid</span>    <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">blocks</span> <span class="o">=</span> <span class="p">[</span><span class="kc">None</span><span class="p">]</span>
+    
+    <span class="k">def</span> <span class="fm">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">bid</span>                <span class="o">=</span> <span class="n">Block</span><span class="o">.</span><span class="n">bid</span>               <span class="c1"># current block id</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">data</span>               <span class="o">=</span> <span class="n">data</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">pid</span><span class="p">,</span> <span class="n">Block</span><span class="o">.</span><span class="n">pid</span>     <span class="o">=</span> <span class="n">Block</span><span class="o">.</span><span class="n">pid</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">bid</span>     <span class="c1"># previous block id</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">phash</span>              <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">Block</span><span class="o">.</span><span class="n">blocks</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">))</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span> <span class="k">if</span> <span class="n">Block</span><span class="o">.</span><span class="n">blocks</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="k">else</span> <span class="kc">None</span>
+        
+        <span class="n">Block</span><span class="o">.</span><span class="n">blocks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+        <span class="n">Block</span><span class="o">.</span><span class="n">bid</span>              <span class="o">+=</span> <span class="mi">1</span>                       <span class="c1"># increment the block number for the next block</span>
+        
+<span class="k">def</span> <span class="nf">bhash</span> <span class="p">(</span><span class="n">block</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">block</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">))</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">print_all_blocks</span> <span class="p">():</span>
+    <span class="k">for</span> <span class="n">block</span> <span class="ow">in</span> <span class="n">Block</span><span class="o">.</span><span class="n">blocks</span><span class="p">:</span>
+        <span class="n">pprint</span><span class="p">((</span><span class="n">block</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">,</span> <span class="n">bhash</span><span class="p">(</span><span class="n">block</span><span class="p">))</span> <span class="k">if</span> <span class="n">block</span> <span class="k">else</span> <span class="kc">None</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># genesis block</span>
+<span class="n">bG</span> <span class="o">=</span> <span class="n">Block</span><span class="p">(</span><span class="s1">&#39;Nelson likes cat&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span>
+    <span class="n">bG</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">,</span>
+    <span class="n">bhash</span><span class="p">(</span><span class="n">bG</span><span class="p">),</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;bid&#39;: 0, &#39;data&#39;: &#39;Nelson likes cat&#39;, &#39;pid&#39;: None, &#39;phash&#39;: None}
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;0563977f0775c9c6e168d7646ae7aad8871e230fbb97c969d4a48d824904e002&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">b1</span> <span class="o">=</span> <span class="n">Block</span><span class="p">(</span><span class="s1">&#39;Marie likes dog&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span>
+    <span class="n">b1</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">,</span>
+    <span class="n">bhash</span><span class="p">(</span><span class="n">b1</span><span class="p">),</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;bid&#39;: 1,
+ &#39;data&#39;: &#39;Marie likes dog&#39;,
+ &#39;pid&#39;: 0,
+ &#39;phash&#39;: &#39;0563977f0775c9c6e168d7646ae7aad8871e230fbb97c969d4a48d824904e002&#39;}
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;8f8e00d4d9a847dd1e1ba69538cccb759a592a62aa91cc01d5d8cb2905509f1e&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">b2</span> <span class="o">=</span> <span class="n">Block</span><span class="p">(</span><span class="s1">&#39;Marie likes dog&#39;</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span>
+    <span class="n">b2</span><span class="o">.</span><span class="vm">__dict__</span><span class="p">,</span>
+    <span class="n">bhash</span><span class="p">(</span><span class="n">b2</span><span class="p">),</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;bid&#39;: 2,
+ &#39;data&#39;: &#39;Marie likes dog&#39;,
+ &#39;pid&#39;: 1,
+ &#39;phash&#39;: &#39;8f8e00d4d9a847dd1e1ba69538cccb759a592a62aa91cc01d5d8cb2905509f1e&#39;}
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;73aef616eb8e27cc4921d96a7e1863ce03c7b9098adccf495ced5234f573e287&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">print_all_blocks</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>None
+({&#39;bid&#39;: 0, &#39;data&#39;: &#39;Nelson likes cat&#39;, &#39;phash&#39;: None, &#39;pid&#39;: None},
+ &#39;0563977f0775c9c6e168d7646ae7aad8871e230fbb97c969d4a48d824904e002&#39;)
+({&#39;bid&#39;: 1,
+  &#39;data&#39;: &#39;Marie likes dog&#39;,
+  &#39;phash&#39;: &#39;0563977f0775c9c6e168d7646ae7aad8871e230fbb97c969d4a48d824904e002&#39;,
+  &#39;pid&#39;: 0},
+ &#39;8f8e00d4d9a847dd1e1ba69538cccb759a592a62aa91cc01d5d8cb2905509f1e&#39;)
+({&#39;bid&#39;: 2,
+  &#39;data&#39;: &#39;Marie likes dog&#39;,
+  &#39;phash&#39;: &#39;8f8e00d4d9a847dd1e1ba69538cccb759a592a62aa91cc01d5d8cb2905509f1e&#39;,
+  &#39;pid&#39;: 1},
+ &#39;73aef616eb8e27cc4921d96a7e1863ce03c7b9098adccf495ced5234f573e287&#39;)
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># How many atoms in the visible universe (i.e., a 46 billion lightyear sphere)?</span>
+<span class="mi">10</span><span class="o">**</span><span class="mi">78</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1000000000000000000000000000000000000000000000000000000000000000000000000000000
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># How old is the universe in seconds?</span>
+<span class="mi">10</span><span class="o">**</span><span class="mi">17</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>100000000000000000
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Blockchain</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span> <span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">block_genesis</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s1">&#39;prev_hash&#39;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+            <span class="s1">&#39;transactions&#39;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="p">}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">block_number</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">blocks</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">block_genesis</span><span class="p">)</span>
+    <span class="k">def</span> <span class="nf">block</span> <span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">block</span><span class="p">):</span>
+        
+        <span class="bp">self</span><span class="o">.</span><span class="n">blocks</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">block</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">block_genesis</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;prev_hash&#39;</span><span class="p">:</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="s1">&#39;transactions&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+<span class="p">}</span>
+<span class="n">block_genesis_serialized</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">block_genesis</span><span class="p">,</span> <span class="n">sort_keys</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+<span class="n">block_genesis_hash</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">block_genesis_serialized</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+
+<span class="n">block_2</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;prev_hash&#39;</span><span class="p">:</span> <span class="n">block_genesis_hash</span><span class="p">,</span>
+    <span class="s1">&#39;transactions&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">12</span><span class="p">]</span>
+<span class="p">}</span>
+<span class="n">block_2_serialized</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">block_2</span><span class="p">,</span> <span class="n">sort_keys</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+<span class="n">block_2_hash</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">block_2_serialized</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+
+<span class="n">block_3</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;prev_hash&#39;</span><span class="p">:</span> <span class="n">block_2_hash</span><span class="p">,</span>
+    <span class="s1">&#39;transactions&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">34</span><span class="p">]</span>
+<span class="p">}</span>
+<span class="n">block_3_serialized</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">block_3</span><span class="p">,</span> <span class="n">sort_keys</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span>
+<span class="n">block_3_hash</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">block_3_serialized</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./nbs/z-repo_Solidity"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Dave Friedman<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>

@@ -1,0 +1,570 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algorithmic Number Theory &#8212; Mathematics</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Modular Arithmetic" href="ModularArithmetic.html" />
+    <link rel="prev" title="Number Theory" href="NumberTheory.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Mathematics</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../README.html">
+   Mathematics
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Foundations
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Sets.html">
+   Sets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ComplexNumbers.html">
+   Complex Numbers
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="NumberTheory.html">
+   Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Algorithmic Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ModularArithmetic.html">
+   Modular Arithmetic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Polynomials.html">
+   Polynomials
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Structures.html">
+   Structures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Groups.html">
+   Groups
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Fields.html">
+   Fields
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="LinearAlgebra.html">
+   Linear Algebra
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="mathematical_foundations.html">
+   Imports
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Modeling
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="RandomWalks.html">
+   Random Walks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DigitalSignalProcessing.html">
+   Digital Signal Processing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DifferentialEquations.html">
+   Differential Equations
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Blockchain
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="PythonBlockchain.html">
+   Python Blockchain
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/nbs/AlgorithmicNumberTheory.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/davefriedman01/Resources"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/davefriedman01/Resources/issues/new?title=Issue%20on%20page%20%2Fnbs/AlgorithmicNumberTheory.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/davefriedman01/Resources/master?urlpath=tree/docs/nbs/AlgorithmicNumberTheory.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id1">
+   Algorithmic Number Theory
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#integer-arithmetic">
+     Integer Arithmetic
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#addition">
+       Addition
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#subtraction">
+       Subtraction
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#multiplication">
+       Multiplication
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#division-with-remainder">
+       Division with Remainder
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#euclid-s-algorithm">
+       Euclid’s Algorithm
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#extended-euclid-s-algorithm">
+       Extended Euclid’s Algorithm
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modular-arithmetic">
+     Modular Arithmetic
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#modular-reduction">
+       Modular Reduction
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#modular-addition">
+       Modular Addition
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#modular-subtraction">
+       Modular Subtraction
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#modular-multiplication">
+       Modular Multiplication
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#modular-inversion">
+       Modular Inversion
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#montgomery-multiplication">
+       Montgomery Multiplication
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#exponentiation-modulo-n">
+       Exponentiation Modulo N
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#group-exponentiation">
+       Group Exponentiation
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#choosing-a-uniform-element-of-mathbb-z-n-or-mathbb-z-n">
+       Choosing a uniform element of
+       <span class="math notranslate nohighlight">
+        \(\mathbb{Z}_N\)
+       </span>
+       or
+       <span class="math notranslate nohighlight">
+        \(\mathbb{Z}_N^*\)
+       </span>
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#choosing-a-uniform-element-from-a-finite-group">
+       Choosing a uniform element from a finite group
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#testing-and-finding-generators">
+       Testing and Finding Generators
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="algorithmic-number-theory">
+<h1>Algorithmic Number Theory<a class="headerlink" href="#algorithmic-number-theory" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id1">
+<h2>Algorithmic Number Theory<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>An algorithm’s running time is measured as a function of the length(s) of its input(s).<br>
+Integer inputs are always assumed to be represented in binary.<br>
+An algorithm’s running time taking as input an integer <span class="math notranslate nohighlight">\(N\)</span> is therefore measured in terms of <span class="math notranslate nohighlight">\(\vert\vert N \vert\vert = \lfloor\log N \rfloor + 1\)</span>, the <em>length of the binary representation of</em> <span class="math notranslate nohighlight">\(N\)</span>.<br></p>
+<p>An integer <span class="math notranslate nohighlight">\(a\)</span> provided as input is written using exactly <span class="math notranslate nohighlight">\(\vert\vert a \vert\vert\)</span> bits; i.e., the high-order bit is 1.<br></p>
+<div class="section" id="integer-arithmetic">
+<h3>Integer Arithmetic<a class="headerlink" href="#integer-arithmetic" title="Permalink to this headline">¶</a></h3>
+<p>Given integers <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(b\)</span>, it is possible to perform the following operations in time polynomial in <span class="math notranslate nohighlight">\(\vert\vert a \vert\vert\)</span> and <span class="math notranslate nohighlight">\(\vert\vert b \vert\vert\)</span>:</p>
+<div class="section" id="addition">
+<h4>Addition<a class="headerlink" href="#addition" title="Permalink to this headline">¶</a></h4>
+<p>Compute the sum <span class="math notranslate nohighlight">\(a + b\)</span></p>
+</div>
+<div class="section" id="subtraction">
+<h4>Subtraction<a class="headerlink" href="#subtraction" title="Permalink to this headline">¶</a></h4>
+<p>Compute the difference <span class="math notranslate nohighlight">\(a - b\)</span></p>
+</div>
+<div class="section" id="multiplication">
+<h4>Multiplication<a class="headerlink" href="#multiplication" title="Permalink to this headline">¶</a></h4>
+<p>Compute the product <span class="math notranslate nohighlight">\(ab\)</span></p>
+</div>
+<div class="section" id="division-with-remainder">
+<h4>Division with Remainder<a class="headerlink" href="#division-with-remainder" title="Permalink to this headline">¶</a></h4>
+<p>Compute the positive integers <span class="math notranslate nohighlight">\(q\)</span> and <span class="math notranslate nohighlight">\(r \lt b\)</span> s.t. <span class="math notranslate nohighlight">\(a = qb + r\)</span></p>
+</div>
+<div class="section" id="euclid-s-algorithm">
+<h4>Euclid’s Algorithm<a class="headerlink" href="#euclid-s-algorithm" title="Permalink to this headline">¶</a></h4>
+<p>Compute <span class="math notranslate nohighlight">\(\gcd(a, b)\)</span></p>
+</div>
+<div class="section" id="extended-euclid-s-algorithm">
+<h4>Extended Euclid’s Algorithm<a class="headerlink" href="#extended-euclid-s-algorithm" title="Permalink to this headline">¶</a></h4>
+<p>Compute <span class="math notranslate nohighlight">\(x, y\)</span>, where <span class="math notranslate nohighlight">\(xa + yb = \gcd(a, b)\)</span></p>
+</div>
+</div>
+<div class="section" id="modular-arithmetic">
+<h3>Modular Arithmetic<a class="headerlink" href="#modular-arithmetic" title="Permalink to this headline">¶</a></h3>
+<p>Given integers <span class="math notranslate nohighlight">\(N \gt 1\)</span>, <span class="math notranslate nohighlight">\(a\)</span>, and <span class="math notranslate nohighlight">\(b\)</span>, it is possible to perform the following operations in time polynomial in <span class="math notranslate nohighlight">\(\vert\vert a \vert\vert\)</span>, <span class="math notranslate nohighlight">\(\vert\vert b \vert\vert\)</span>, and <span class="math notranslate nohighlight">\(\vert\vert N \vert\vert\)</span>:</p>
+<div class="section" id="modular-reduction">
+<h4>Modular Reduction<a class="headerlink" href="#modular-reduction" title="Permalink to this headline">¶</a></h4>
+<p>Compute the modular reduction <span class="math notranslate nohighlight">\([a \mod N]\)</span></p>
+</div>
+<div class="section" id="modular-addition">
+<h4>Modular Addition<a class="headerlink" href="#modular-addition" title="Permalink to this headline">¶</a></h4>
+<p>Compute the sum <span class="math notranslate nohighlight">\([(a + b) \mod N]\)</span></p>
+</div>
+<div class="section" id="modular-subtraction">
+<h4>Modular Subtraction<a class="headerlink" href="#modular-subtraction" title="Permalink to this headline">¶</a></h4>
+<p>Compute the difference <span class="math notranslate nohighlight">\([(a - b) \mod N]\)</span></p>
+</div>
+<div class="section" id="modular-multiplication">
+<h4>Modular Multiplication<a class="headerlink" href="#modular-multiplication" title="Permalink to this headline">¶</a></h4>
+<p>Compute the product <span class="math notranslate nohighlight">\([(ab) \mod N]\)</span></p>
+</div>
+<div class="section" id="modular-inversion">
+<h4>Modular Inversion<a class="headerlink" href="#modular-inversion" title="Permalink to this headline">¶</a></h4>
+<p>Determine whether <span class="math notranslate nohighlight">\(a\)</span> is invertible modulo <span class="math notranslate nohighlight">\(N\)</span></p>
+</div>
+<div class="section" id="montgomery-multiplication">
+<h4>Montgomery Multiplication<a class="headerlink" href="#montgomery-multiplication" title="Permalink to this headline">¶</a></h4>
+<p>Compute the multiplicative inverse <span class="math notranslate nohighlight">\([a^{-1} \mod N]\)</span>, assuming <span class="math notranslate nohighlight">\(a\)</span> is invertible modulo <span class="math notranslate nohighlight">\(N\)</span></p>
+</div>
+<div class="section" id="exponentiation-modulo-n">
+<h4>Exponentiation Modulo N<a class="headerlink" href="#exponentiation-modulo-n" title="Permalink to this headline">¶</a></h4>
+<p>Compute the exponentiation <span class="math notranslate nohighlight">\([a^b \mod N]\)</span></p>
+</div>
+<div class="section" id="group-exponentiation">
+<h4>Group Exponentiation<a class="headerlink" href="#group-exponentiation" title="Permalink to this headline">¶</a></h4>
+<p>Let <span class="math notranslate nohighlight">\(\mathbb{G}\)</span> be a group, written multiplicatively.<br>
+Let <span class="math notranslate nohighlight">\(g\)</span> be an element of the group.<br>
+Let <span class="math notranslate nohighlight">\(b\)</span> be a non negative integer.<br>
+Then <span class="math notranslate nohighlight">\(g^b\)</span> can be computed using <span class="math notranslate nohighlight">\(\text{poly}(\vert\vert b \vert\vert)\)</span> group operations.<br></p>
+</div>
+<div class="section" id="choosing-a-uniform-element-of-mathbb-z-n-or-mathbb-z-n">
+<h4>Choosing a uniform element of <span class="math notranslate nohighlight">\(\mathbb{Z}_N\)</span> or <span class="math notranslate nohighlight">\(\mathbb{Z}_N^*\)</span><a class="headerlink" href="#choosing-a-uniform-element-of-mathbb-z-n-or-mathbb-z-n" title="Permalink to this headline">¶</a></h4>
+<p>There exists a randomized algorithm with the following properties: on input <span class="math notranslate nohighlight">\(N\)</span></p>
+<ul class="simple">
+<li><p>The algorithm runs in time polynomial in <span class="math notranslate nohighlight">\(\vert\vert N \vert\vert\)</span></p></li>
+<li><p>The algorithm outputs <span class="math notranslate nohighlight">\(\text{fail}\)</span> with probability negligible in <span class="math notranslate nohighlight">\(\vert\vert N \vert\vert\)</span></p></li>
+<li><p>Conditioned on not outputting <span class="math notranslate nohighlight">\(\text{fail}\)</span>, the algorithm outputs a uniformly distributed element of <span class="math notranslate nohighlight">\(\mathbb{Z}_N\)</span></p></li>
+</ul>
+<p>An algorithm with analogous properties exists for <span class="math notranslate nohighlight">\(\mathbb{Z}_N^*\)</span> as well.<br></p>
+</div>
+<div class="section" id="choosing-a-uniform-element-from-a-finite-group">
+<h4>Choosing a uniform element from a finite group<a class="headerlink" href="#choosing-a-uniform-element-from-a-finite-group" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="testing-and-finding-generators">
+<h4>Testing and Finding Generators<a class="headerlink" href="#testing-and-finding-generators" title="Permalink to this headline">¶</a></h4>
+<p>Let <span class="math notranslate nohighlight">\(\mathbb{G}\)</span> be a cyclic group of order <span class="math notranslate nohighlight">\(q\)</span>.<br>
+Assume that the group operation and selection of a uniform group element can be carried out in unit time.<br></p>
+<ol class="simple">
+<li><p>There is an algorithm that on input <span class="math notranslate nohighlight">\(q\)</span>, the prime factorization of <span class="math notranslate nohighlight">\(q\)</span>, and an element <span class="math notranslate nohighlight">\(g \in \mathbb{G}\)</span>, runs in <span class="math notranslate nohighlight">\(\text{poly}(\vert\vert q \vert\vert)\)</span> time and decides whether <span class="math notranslate nohighlight">\(g\)</span> is a generator of <span class="math notranslate nohighlight">\(\mathbb{G}\)</span>.</p></li>
+<li><p>There is a randomzied algorithm that on input <span class="math notranslate nohighlight">\(q\)</span> and the prime factorization of <span class="math notranslate nohighlight">\(q\)</span>, runs in <span class="math notranslate nohighlight">\(\text{poly}(\vert\vert q \vert\vert)\)</span> time and outputs a generator of <span class="math notranslate nohighlight">\(\mathbb{G}\)</span> except with probability negligible in <span class="math notranslate nohighlight">\(\vert\vert q \vert\vert\)</span>. Conditioned on the output being a generator, it is uniformly distributed among the generators of <span class="math notranslate nohighlight">\(\mathbb{G}\)</span>.</p></li>
+</ol>
+<hr class="docutils" />
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./nbs"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="NumberTheory.html" title="previous page">Number Theory</a>
+    <a class='right-next' id="next-link" href="ModularArithmetic.html" title="next page">Modular Arithmetic</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Dave Friedman<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
