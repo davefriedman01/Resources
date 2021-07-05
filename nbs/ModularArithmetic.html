@@ -54,7 +54,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Polynomials" href="Polynomials.html" />
-    <link rel="prev" title="Sets" href="Sets.html" />
+    <link rel="prev" title="Algorithmic Number Theory" href="AlgorithmicNumberTheory.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
     
@@ -102,6 +102,16 @@
    Sets
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="NumberTheory.html">
+   Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="AlgorithmicNumberTheory.html">
+   Algorithmic Number Theory
+  </a>
+ </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Modular Arithmetic
@@ -123,8 +133,35 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="Fields.html">
+   Fields
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="mathematical_foundations.html">
    Imports
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Modeling
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="RandomWalks.html">
+   Random Walks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DigitalSignalProcessing.html">
+   Digital Signal Processing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DifferentialEquations.html">
+   Differential Equations
   </a>
  </li>
 </ul>
@@ -270,6 +307,67 @@
   <a class="reference internal nav-link" href="#id2">
    Theorem
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modular-additive-identity">
+     Modular Additive Identity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modular-addition">
+     Modular Addition
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modular-additive-inverse">
+     Modular Additive Inverse
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modular-subtraction">
+     Modular Subtraction
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modular-multiplicative-identity">
+     Modular Multiplicative Identity
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modular-multiplication">
+     Modular Multiplication
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modular-multiplicative-inverse">
+     Modular Multiplicative Inverse
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#determine-whether-an-integer-mod-m-has-a-multiplicative-inverse">
+     Determine whether an integer mod
+     <span class="math notranslate nohighlight">
+      \(m\)
+     </span>
+     has a multiplicative inverse
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modular-division">
+     Modular Division
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modular-exponentiation">
+     Modular Exponentiation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#examples">
+     Examples
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -375,6 +473,164 @@ Thus <span class="math notranslate nohighlight">\(m\)</span> divides <span class
 But <span class="math notranslate nohighlight">\(0 \le k - r \le m - 1\)</span>, so <span class="math notranslate nohighlight">\(k - r = 0\)</span>.<br>
 Therefore, <span class="math notranslate nohighlight">\(k = r\)</span> and the <span class="math notranslate nohighlight">\(m\)</span> equivalence classes are distinct.<br>
 <span class="math notranslate nohighlight">\(\blacksquare\)</span><br></p>
+<hr class="docutils" />
+<div class="section" id="modular-additive-identity">
+<h3>Modular Additive Identity<a class="headerlink" href="#modular-additive-identity" title="Permalink to this headline">¶</a></h3>
+<p>The sum of an integer <span class="math notranslate nohighlight">\(a\)</span> mod <span class="math notranslate nohighlight">\(m\)</span> and the additive identity element is congruent to the integer <span class="math notranslate nohighlight">\(a\)</span> mod <span class="math notranslate nohighlight">\(m\)</span>.<br></p>
+<div class="math notranslate nohighlight">
+\[
+\exists 0 \in Z_m, \forall a \in Z_m, a + 0 \equiv a \,(\text{mod}\, m)
+\]</div>
+</div>
+<div class="section" id="modular-addition">
+<h3>Modular Addition<a class="headerlink" href="#modular-addition" title="Permalink to this headline">¶</a></h3>
+<p>Modular addition is defined as the principal remainder when <span class="math notranslate nohighlight">\(a + b\)</span> is divided by <span class="math notranslate nohighlight">\(m\)</span>.<br></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+a \oplus b &amp;\overset{\text{def}}{=} (a + b) \,\text{mod}\, m \\
+&amp;= (a' + km + b' + lm) \,\text{mod}\, m \\
+&amp;= ((k + l)m + (a' + b')) \,\text{mod}\, m \\
+&amp;= (a' + b') \,\text{mod}\, m \\
+&amp;= (a \,\text{mod}\, m + b \,\text{mod}\, m) \,\text{mod}\, m \\
+\end{align}
+\end{split}\]</div>
+</div>
+<div class="section" id="modular-additive-inverse">
+<h3>Modular Additive Inverse<a class="headerlink" href="#modular-additive-inverse" title="Permalink to this headline">¶</a></h3>
+<p>The sum of an integer <span class="math notranslate nohighlight">\(a\)</span> mod <span class="math notranslate nohighlight">\(m\)</span> and its additive inverse is congruent to the additive identity element.<br></p>
+<div class="math notranslate nohighlight">
+\[
+\forall a \in Z_m, \exists (-a) \in Z_m, a + (-a) \equiv 0 \,(\text{mod}\, m)
+\]</div>
+</div>
+<div class="section" id="modular-subtraction">
+<h3>Modular Subtraction<a class="headerlink" href="#modular-subtraction" title="Permalink to this headline">¶</a></h3>
+<p>The difference of two integers <span class="math notranslate nohighlight">\(a, b\)</span> mod <span class="math notranslate nohighlight">\(m\)</span> is the sum of the first integer <span class="math notranslate nohighlight">\(a\)</span> mod <span class="math notranslate nohighlight">\(m\)</span> and the additive inverse of the second integer <span class="math notranslate nohighlight">\(b\)</span> mod <span class="math notranslate nohighlight">\(m\)</span>.<br></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+a \ominus b &amp;\overset{\text{def}}{=} (a - b) \,\text{mod}\, m \\
+&amp;= (a' + km - (b' + lm)) \,\text{mod}\, m \\
+&amp;= ((k - l)m + (a' - b')) \,\text{mod}\, m \\
+&amp;= (a' - b') \,\text{mod}\, m \\
+&amp;= (a \,\text{mod}\, m - b \,\text{mod}\, m) \,\text{mod}\, m \\
+\end{align}
+\end{split}\]</div>
+</div>
+<div class="section" id="modular-multiplicative-identity">
+<h3>Modular Multiplicative Identity<a class="headerlink" href="#modular-multiplicative-identity" title="Permalink to this headline">¶</a></h3>
+<p>The product of an integer <span class="math notranslate nohighlight">\(a\)</span> mod <span class="math notranslate nohighlight">\(m\)</span> and the multiplicative identity element is congruent to the integer <span class="math notranslate nohighlight">\(a\)</span> mod <span class="math notranslate nohighlight">\(m\)</span>.<br></p>
+<div class="math notranslate nohighlight">
+\[
+\exists 1 \in Z_m, \forall a \in Z_m, a \cdot 1 \equiv a \,(\text{mod}\, m)
+\]</div>
+</div>
+<div class="section" id="modular-multiplication">
+<h3>Modular Multiplication<a class="headerlink" href="#modular-multiplication" title="Permalink to this headline">¶</a></h3>
+<p>Modular multiplication is defined as the principal remainder when <span class="math notranslate nohighlight">\(ab\)</span> is divided by <span class="math notranslate nohighlight">\(m\)</span>.<br></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+a \otimes b &amp;\overset{\text{def}}{=} ab \,\text{mod}\, m \\
+\end{align}
+\end{split}\]</div>
+</div>
+<div class="section" id="modular-multiplicative-inverse">
+<h3>Modular Multiplicative Inverse<a class="headerlink" href="#modular-multiplicative-inverse" title="Permalink to this headline">¶</a></h3>
+<p>The product of an integer <span class="math notranslate nohighlight">\(a\)</span> mod <span class="math notranslate nohighlight">\(m\)</span> and its multiplicative inverse is congruent to the multiplicative identity element.<br>
+The additive identity element does not have a multiplicative inverse.<br>
+The remaining elements may or may not have multiplicative inverses.<br></p>
+<div class="math notranslate nohighlight">
+\[
+a \cdot a^{-1} \equiv 1 \,(\text{mod}\, m)
+\]</div>
+</div>
+<div class="section" id="determine-whether-an-integer-mod-m-has-a-multiplicative-inverse">
+<h3>Determine whether an integer mod <span class="math notranslate nohighlight">\(m\)</span> has a multiplicative inverse<a class="headerlink" href="#determine-whether-an-integer-mod-m-has-a-multiplicative-inverse" title="Permalink to this headline">¶</a></h3>
+<p>Any nonzero integer <span class="math notranslate nohighlight">\(a\)</span> has a multiplicative inverse <span class="math notranslate nohighlight">\(a^{-1}\)</span> iff it is relatively prime to <span class="math notranslate nohighlight">\(n\)</span>.<br></p>
+<p>Let an integer <span class="math notranslate nohighlight">\(a = cb\)</span> and the modulus <span class="math notranslate nohighlight">\(m = cn\)</span> share a common factor <span class="math notranslate nohighlight">\(c\)</span>.<br>
+<span class="math notranslate nohighlight">\(aa^{-1} \equiv 1 \,(\text{mod}\, m)\)</span><br>
+<span class="math notranslate nohighlight">\((cb)a^{-1} \equiv 1 \,(\text{mod}\, m)\)</span><br>
+<span class="math notranslate nohighlight">\((ncb)a^{-1} \equiv n \,(\text{mod}\, m)\)</span><br>
+<span class="math notranslate nohighlight">\((mb)a^{-1} \equiv n \,(\text{mod}\, m)\)</span><br>
+Since <span class="math notranslate nohighlight">\(mb\)</span> is a multiple of the modulus, the lefthand side is congruent to 0.<br>
+If <span class="math notranslate nohighlight">\(n\)</span> is not congruent to 0, the relation and original expression are false: there is no value for <span class="math notranslate nohighlight">\(a^{-1}\)</span> which can serve as the multiplicative inverse for <span class="math notranslate nohighlight">\(a\)</span>.<br>
+The relation and original expression are true when <span class="math notranslate nohighlight">\(n\)</span> is congruent to 0.<br>
+<span class="math notranslate nohighlight">\(n\)</span> can’t be 0 since that would mean <span class="math notranslate nohighlight">\(m\)</span> is 0.<br>
+<span class="math notranslate nohighlight">\(n\)</span> can’t be larger than <span class="math notranslate nohighlight">\(m\)</span> since <span class="math notranslate nohighlight">\(c\)</span> must be an integer and that would make <span class="math notranslate nohighlight">\(m\)</span> greater than <span class="math notranslate nohighlight">\(m\)</span>.<br>
+<span class="math notranslate nohighlight">\(n\)</span> must be equal to <span class="math notranslate nohighlight">\(m\)</span> which means that <span class="math notranslate nohighlight">\(c\)</span> must be equal to 1.<br>
+Since <span class="math notranslate nohighlight">\(c = 1\)</span> is the common factor of <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(m\)</span>, <span class="math notranslate nohighlight">\(a\)</span> and <span class="math notranslate nohighlight">\(m\)</span> are relatively prime.<br></p>
+</div>
+<div class="section" id="modular-division">
+<h3>Modular Division<a class="headerlink" href="#modular-division" title="Permalink to this headline">¶</a></h3>
+<p>The division of two integers <span class="math notranslate nohighlight">\(a, b\)</span> mod <span class="math notranslate nohighlight">\(m\)</span> is the product of the first integer <span class="math notranslate nohighlight">\(a\)</span> mod <span class="math notranslate nohighlight">\(m\)</span> and the multiplicative inverse of the second integer <span class="math notranslate nohighlight">\(b \ne 0\)</span> mod <span class="math notranslate nohighlight">\(m\)</span>.<br></p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+a \oslash b &amp;\overset{\text{def}}{=} (ab^{-1}) \,\text{mod}\, m \\
+\end{align}
+\end{split}\]</div>
+</div>
+<div class="section" id="modular-exponentiation">
+<h3>Modular Exponentiation<a class="headerlink" href="#modular-exponentiation" title="Permalink to this headline">¶</a></h3>
+<div class="math notranslate nohighlight">
+\[a^b a^c \equiv a^{b + c} \,(\text{mod}\, m)\]</div>
+<div class="math notranslate nohighlight">
+\[(a^b)^c \equiv a^{bc} \,(\text{mod}\, m)\]</div>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+a^2 \,\text{mod}\, m &amp;= (aa) \,\text{mod}\, m \\
+&amp;= ((a \,\text{mod}\, m)(a \,\text{mod}\, m)) \,\text{mod}\, m \\
+&amp;= (a \,\text{mod}\, m)^2 \,\text{mod}\, m \\
+\end{align}
+\end{split}\]</div>
+<p>We can reduce the exponent mod <span class="math notranslate nohighlight">\(n\)</span> where <span class="math notranslate nohighlight">\(n\)</span> is the number of positive integers less than <span class="math notranslate nohighlight">\(m\)</span> that are relatively prime to <span class="math notranslate nohighlight">\(m\)</span>.<br></p>
+<div class="math notranslate nohighlight">
+\[
+a^e \equiv a^{e \,\text{mod}\, n} \,(\text{mod}\, m)
+\]</div>
+</div>
+<div class="section" id="examples">
+<h3>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h3>
+<p>Evaluate integer arithmetic first, modulo operator last.
+$<span class="math notranslate nohighlight">\(
+\begin{align}
+&amp; (((4^2 + 20) - 45) \times 6 + 50) \,\text{mod}\, 7 \\
+&amp;= (((16 + 20) - 45) \times 6 + 50) \,\text{mod}\, 7 \\
+&amp;= ((36 - 45) \times 6 + 50) \,\text{mod}\, 7 \\
+&amp;= (-9 \times 6 + 50) \,\text{mod}\, 7 \\
+&amp;= (-54 + 50) \,\text{mod}\, 7 \\
+&amp;= (-4) \,\text{mod}\, 7 \\
+&amp;= 3
+\end{align}
+\)</span>$</p>
+<p>“Distribute” modulo operator, then evaluate all modular expressions.
+$<span class="math notranslate nohighlight">\(
+\begin{align}
+&amp; (((4^2 + 20) - 45) \times 6 + 50) \,\text{mod}\, 7 \\
+&amp;= (((((16 + 20) - 45) \times 6) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+&amp;= ((((((16 + 20) - 45) \,\text{mod}\, 7) \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+&amp;= (((((((16 + 20) \,\text{mod}\, 7) - ((45) \,\text{mod}\, 7)) \,\text{mod}\, 7) \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+&amp;= (((((((((16) \,\text{mod}\, 7) + ((20) \,\text{mod}\, 7)) \,\text{mod}\, 7) - ((45) \,\text{mod}\, 7)) \,\text{mod}\, 7) \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+&amp;= (((((((2 + 6) \,\text{mod}\, 7) - ((45) \,\text{mod}\, 7)) \,\text{mod}\, 7) \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+&amp;= (((((1 - ((45) \,\text{mod}\, 7)) \,\text{mod}\, 7) \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+&amp;= (((((1 - 3) \,\text{mod}\, 7) \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+&amp;= (((5 \times ((6) \,\text{mod}\, 7) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+&amp;= (((5 \times 6) \,\text{mod}\, 7) + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+&amp;= (2 + ((50) \,\text{mod}\, 7)) \,\text{mod}\, 7 \\
+&amp;= (2 + 1) \,\text{mod}\, 7 \\
+&amp;= 3 \\
+\end{align}
+\)</span>$</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+&amp; 9^{11} \,\text{mod}\, m \\
+&amp;= 31381059609 \,\text{mod}\, m \\
+\end{align}
+\end{split}\]</div>
 <hr class="docutils" />
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -503,6 +759,8 @@ Therefore, <span class="math notranslate nohighlight">\(k = r\)</span> and the <
 </div>
 </div>
 </div>
+<hr class="docutils" />
+</div>
 </div>
 </div>
 
@@ -531,7 +789,7 @@ Therefore, <span class="math notranslate nohighlight">\(k = r\)</span> and the <
         
         <div class='prev-next-bottom'>
             
-    <a class='left-prev' id="prev-link" href="Sets.html" title="previous page">Sets</a>
+    <a class='left-prev' id="prev-link" href="AlgorithmicNumberTheory.html" title="previous page">Algorithmic Number Theory</a>
     <a class='right-next' id="next-link" href="Polynomials.html" title="next page">Polynomials</a>
 
         </div>
