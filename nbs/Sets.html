@@ -322,15 +322,40 @@ A set is a collection of objects called elements (or members, points, etc.).<br>
 <hr class="docutils" />
 <p>Examples of sets:</p>
 <ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(\mathbb{N}\)</span> the set of natural numbers</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{Z}\)</span> the set of integers</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{Z}^+\)</span> the set of positive integers</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{E}\)</span> the set of even integers</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> the set of rational numbers</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{R}\)</span> the set of real numbers</p></li>
-<li><p><span class="math notranslate nohighlight">\(\mathbb{C}\)</span> the set of complex numbers</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{N}\)</span> the set of natural numbers</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{N} \cup \{0\} \overset{\text{def}}= \{0, 1, 2, ...\}\)</span> the set of natural numbers including zero</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{N} - \{0\} \overset{\text{def}}= \{1, 2, ...\}\)</span> the set of natural numbers excluding zero</p></li>
+</ul>
+</li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{Z} \overset{\text{def}}= \{..., -2, -1, 0, 1, 2, ...\}\)</span> the set of integers</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{Z}^+\)</span> the set of positive integers (equivalent to <span class="math notranslate nohighlight">\(\mathbb{N} - \{0\}\)</span>)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{Z}^+ \cup \{0\}\)</span> the set of nonnegative integers (equivalent to <span class="math notranslate nohighlight">\(\mathbb{N} \cup \{0\}\)</span>)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{E} \overset{\text{def}}= \{..., -2, 0, 2 ...\}\)</span> the set of even integers</p></li>
+</ul>
+</li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{Q} \overset{\text{def}}= \{\frac{p}{q} : p, q \in \mathbb{Z}, q \ne 0\}\)</span> the set of rational numbers</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{R}\)</span> the set of real numbers</p>
+<ul>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{R}^-\)</span> the set of negative numbers</p></li>
+</ul>
+</li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{C} \overset{\text{def}}= \{a + bi : a, b \in \mathbb{R}, i \overset{\text{def}}= \sqrt{-1}\}\)</span> the set of complex numbers</p></li>
 <li><p><span class="math notranslate nohighlight">\(\{0, 1\}^n\)</span> the set of <span class="math notranslate nohighlight">\(n\)</span>-bit binary strings</p></li>
 </ul>
+<div class="math notranslate nohighlight">
+\[
+\mathbb{N}
+\subset
+\mathbb{Z}
+\subset
+\mathbb{Q}
+\subset
+\mathbb{R}
+\subset
+\mathbb{C}
+\]</div>
 <hr class="docutils" />
 </div>
 </div>
