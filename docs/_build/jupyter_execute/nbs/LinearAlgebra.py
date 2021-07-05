@@ -7,6 +7,20 @@
 
 # Linear algebra is the study of linear maps on finite-dimensional vector spaces.
 
+# #### Examples of Vector Spaces
+# $\mathbb{R}^n$<br>
+# $\mathbb{C}^n$<br>
+# $\mathbb{F}^n$<br>
+
+# #### Subspaces
+# Analogous to subsets.<br>
+# 
+# #### Sum of Subspaces
+# Analogous to unions of subsets.<br>
+# 
+# #### Direct Sum of Subspaces
+# Analogous to unions of disjoint sets.<br>
+
 # ---
 
 # In[1]:

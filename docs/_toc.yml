@@ -12,6 +12,7 @@ parts:
     - file: nbs/AlgorithmicNumberTheory
     - file: nbs/ModularArithmetic
     - file: nbs/Polynomials
+    - file: nbs/ConicSections
     - file: nbs/Structures
     - file: nbs/Groups
     - file: nbs/Fields

@@ -3,34 +3,99 @@
 
 # # Polynomials
 
-# ### __Real Polynomial in one variable__<br>
-# $$P(x) = \sum_{k = 0}^n a_k x^k = a_n x^n + a_{n - 1} x^{n - 1} + ... + a_2 x^2 + a_1 x + a_0$$
-# where $n$ is a nonnegative integer and $a_0, a_1, a_2, ..., a_n \in \mathbb{R}$ are constants called the coefficients of the polynomial.<br>
-# If the leading coefficient $a_n \ne 0$, then the degree of the polynomial is $n$.<br>
-# $\text{dom}(P(x)) = \mathbb{R}$<br>
+# ---
+
+# ## Real Polynomial in one variable
 # 
-# __Polynomial Addition__<br>
+# <span style="color: blue">**DEFINITION**</span><br>
+# A real polynomial function in one variable has the form
+# 
+# $$P(x) = \sum_{k = 0}^n a_k x^k = a_n x^n + a_{n - 1} x^{n - 1} + ... + a_2 x^2 + a_1 x + a_0$$
+# 
+# where $n$ is a nonnegative integer and $a_0, a_1, a_2, ..., a_n \in \mathbb{R}$ are constants called the coefficients of the polynomial.<br>
+
+# ### Degree
+# 
+# If the leading coefficient $a_n \ne 0$, then the degree of the polynomial is $n$.<br>
+
+# ### Domain
+# 
+# $\text{dom}(P(x)) = \mathbb{R}$<br>
+
+# ### Polynomial Addition
+# 
 # Let $f(x) = \sum_{k = 0}^n a_k x^k$ and $g(x) = \sum_{k = 0}^n b_k x^k$ be polynomials.<br>
 # 
 # $$(f + g)(x) = \sum_{k = 0}^n (a_k + b_k) x^k$$
+
+# ### Polynomial Subtraction
 # 
-# __Polynomial Subtraction__<br>
 # Let $f(x) = \sum_{k = 0}^n a_k x^k$ and $g(x) = \sum_{k = 0}^n b_k x^k$ be polynomials.<br>
 # 
 # $$(f - g)(x) = \sum_{k = 0}^n (a_k - b_k) x^k$$
+
+# ### Polynomial Differentiation
 # 
-# __Polynomial Differentiation__<br>
 # Let $f(x) = \sum_{k = 0}^n a_k x^k$ be a polynomial.<br>
 # 
 # $$f'(x) = \sum_{k = 0}^n k a_k x^{k - 1}$$
+
+# ### General form of a linear function in one variable
+# A linear function is a polynomial function of degree 1.<br>
 # 
-# ### __Real Polynomial in two variables__<br>
+# $$
+# \begin{align}
+# f(x)
+# &= a_1 x + a_0 \\
+# &= A x + B \\
+# y &= mx + b & \text{the familiar slope-intecept expression where}\, m \,\text{is the slope and}\, b \,\text{is the y-intercept} \\
+# \end{align}
+# $$
+
+# ### General form of a quadratic function in one variable
+# A quadratic function is a polynomial function of degree 2.<br>
+# 
+# $$
+# \begin{align}
+# f(x)
+# &= a_2 x^2 + a_1 x + a_0 \\
+# &= A x^2 + B x + C \\
+# \end{align}
+# $$
+
+# ### General form of a cubic function in one variable
+# A cubic function is a polynomial function of degree 3.<br>
+# 
+# $$
+# \begin{align}
+# f(x)
+# &= a_3 x^3 + a_2 x^2 + a_1 x + a_0 \\
+# &= A x^3 + B x^2 + C x + D \\
+# \end{align}
+# $$
+
+# ---
+
+# ## Real Polynomial in two variables
+# 
+# <span style="color: blue">**DEFINITION**</span><br>
+# A real polynomial in two variables has the form
+# 
 # $$P(x, y) = \sum a_{nm} x^n y^m$$
-# where $a_i \in \mathbb{R}$ is a constant and $m$ and $n$ are nonnegative integers.<br>
-# If the leading coefficient $a_{nm} \ne 0$, then the degree of the polynomial is $n + m$.<br>
-# $\text{dom}(P(x)) = \mathbb{R}^2$<br>
 # 
-# __General Linear Function in two variables__<br>
+# where $a_{ij} \in \mathbb{R}$ is a constant and $m$ and $n$ are nonnegative integers.<br>
+
+# ### Degree
+# 
+# If the leading coefficient $a_{nm} \ne 0$, then the degree of the polynomial is $n + m$.<br>
+
+# ### Domain
+# 
+# $\text{dom}(P(x)) = \mathbb{R}^2$<br>
+
+# ### General form of a linear function in two variables
+# A linear function is a polynomial function of degree 1.<br>
+# 
 # $$
 # \begin{align}
 # f(x, y)
@@ -38,8 +103,10 @@
 # &= A x + B y + C \\
 # \end{align}
 # $$
+
+# ### General form of a quadratic function in two variables
+# A quadratic function is a polynomial function of degree 2.<br>
 # 
-# __General Quadratic Function in two variables__<br>
 # $$
 # \begin{align}
 # f(x, y)
@@ -47,8 +114,12 @@
 # &= A x^2 + B x y + C y^2 + D x + E y + F \\
 # \end{align}
 # $$
+
+# The conic sections are special cases of the general form of a quadratic function in two variables.<br>
+
+# ### General form of a cubic function in two variables
+# A cubic function is a polynomial function of degree 3.<br>
 # 
-# __General Cubic Function in two variables__<br>
 # $$
 # \begin{align}
 # f(x, y)
@@ -56,9 +127,23 @@
 # &= A x^3 + B x^2 y + C x y^2 + D y^3 + E x^2 + F x y + G y^2 + H x + I y + J \\
 # \end{align}
 # $$
+
+# ---
+
+# ## Real Polynomial in several variables
 # 
-# ### Real Polynomial in several variables
-# $$P(x_1, x_2, ..., x_z) = \sum a_{n_1 n_2 ... n_z} x_1^{n_1} x_2^{n_2} ... x_z^{n_z}$$
+# <span style="color: blue">**DEFINITION**</span><br>
+# A real polynomial in k variables has the form
+# 
+# $$P(x_1, x_2, ..., x_k) = \sum a_{n_1 n_2 ... n_k} x_1^{n_1} x_2^{n_2} ... x_k^{n_k}$$
+
+# ### Degree
+# 
+# If the leading coefficient $a_{n_1...n_k} \ne 0$, then the degree of the polynomial is $\sum n_i$.<br>
+
+# ### Domain
+# 
+# $\text{dom}(P(x)) = \mathbb{R}^k$<br>
 
 # ---
 

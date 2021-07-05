@@ -5,6 +5,13 @@
 
 # ---
 
+# $\alpha^m = \alpha...\alpha$ $\}m$ times, where $\alpha \in \mathbb{F}$ and $m$ a positive integer, denotes the group operation applied to $\alpha$ $m$ times<br>
+# $(\alpha^m)^n = a^{mn}$<br>
+# $(\alpha\beta)^m = \alpha^m\beta^m$<br>
+# $\forall \alpha, \beta \in \mathbb{F}$ and all positive integers $m, n$<br>
+
+# ---
+
 # In[1]:
 
 
