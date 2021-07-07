@@ -44,6 +44,7 @@ Truffle Suite [Home](https://www.trufflesuite.com) [Docs](https://www.trufflesui
 Truffle Boxes [Home](https://www.trufflesuite.com/boxes)<br>
 Ganache [Home](https://www.trufflesuite.com/ganache)<br>
 ganache-cli [GitHub](https://github.com/trufflesuite/ganache-cli/)<br>
+OpenZeppelin [Docs](https://docs.openzeppelin.com/openzeppelin/)<br>
 
 Remix [Home](https://remix-project.org/)<br>
 MetaMask [Home](https://metamask.io/)<br>
