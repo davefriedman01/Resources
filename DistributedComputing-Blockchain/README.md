@@ -204,6 +204,7 @@ Mining [Investopedia](https://www.investopedia.com/tech/how-does-bitcoin-mining-
 Mining Pool [Wiki](https://en.wikipedia.org/wiki/Mining_pool)<br>
 Nakamoto Consensus<br>
 MapReduce [Wiki](https://en.wikipedia.org/wiki/MapReduce)<br>
+Metcalfe's Law [Wiki](https://en.wikipedia.org/wiki/Metcalfe%27s_law)<br>
 Network Calculus [Wiki](https://en.wikipedia.org/wiki/Network_calculus)<br>
 NFT Non-Fungible Token or Cryptocollectible [Binance](https://academy.binance.com/en/glossary/non-fungible-token-nft) [Wiki](https://en.wikipedia.org/wiki/Non-fungible_token)<br>
 Obelisk Consensus [Investopedia](https://www.investopedia.com/terms/o/obelisk-consensus-algorithm.asp)<br>
