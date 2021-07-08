@@ -18,6 +18,9 @@ Zumstein, Felix. (2021). [_Python for Excel: A Modern Environment for Automation
 
 Jesse.trade [Home](https://jesse.trade)<br>
 TDAmeritrade's Thinkorswim [Home](https://www.tdameritrade.com/tools-and-platforms/thinkorswim/desktop.html)<br>
+Quantitative Finance Stack Exchange [Home](https://quant.stackexchange.com)<br>
+
+
 
 freeCodeCamp's APIs for Beginners [YouTube](https://www.youtube.com/watch?v=GZvSYJDk-us)<br>
 
@@ -134,6 +137,24 @@ NFA National Futures Association [Home](https://www.nfa.futures.org) [Wiki](http
 SEC Securities and Exchange Commission [Home](https://www.sec.gov) [Wiki](https://en.wikipedia.org/wiki/U.S._Securities_and_Exchange_Commission)<br>
 
 Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 [Wiki](https://en.wikipedia.org/wiki/Dodd–Frank_Wall_Street_Reform_and_Consumer_Protection_Act)<br>
+
+
+
+## To Review
+
+George Gammon [YouTube](https://www.youtube.com/c/GeorgeGammon/about)<br>
+Hedgeye [YouTube](https://www.youtube.com/user/Hedgeye)<br>
+Real Vision Finance [YouTube](https://www.youtube.com/c/RealVisionFinance/about)<br>
+["Introduction to Investing and Finance - Lesson 1 by Martin Shkreli"](https://www.youtube.com/watch?v=VI_riscmviI)<br>
+
+
+
+## Companies
+
+AQR [Home](https://www.aqr.com)<br>
+Hudson River Trading [Home](https://www.hudsonrivertrading.com)<br>
+Jane Street [Home](https://www.janestreet.com)<br>
+SIG Susquehanna [Home](https://www.sig.com)<br>
 
 
 
