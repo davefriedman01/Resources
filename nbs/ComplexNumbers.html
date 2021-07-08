@@ -124,7 +124,7 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="Polynomials.html">
-   Polynomials
+   Real Polynomial in one variable
   </a>
  </li>
  <li class="toctree-l1">
@@ -336,55 +336,27 @@
        Commutativity
       </a>
      </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#associativity">
+       Associativity
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#existence-of-identity-element">
+       Existence of Identity Element
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#existence-of-inverse-elements">
+       Existence of Inverse Elements
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#distributivity">
+       Distributivity
+      </a>
+     </li>
     </ul>
-   </li>
-  </ul>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#alpha-beta">
-   $
-\alpha\beta
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#a-bi-c-di">
-   (a + bi)(c + di)
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ac-adi-bci-bdi-2">
-   ac + adi + bci + bdi^2
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#c-di-a-c-di-bi">
-   (c + di)a + (c + di)bi
-  </a>
- </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#c-di-a-bi">
-   (c + di)(a + bi)
-  </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#associativity">
-     Associativity
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#existence-of-identity-element">
-     Existence of Identity Element
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#existence-of-inverse-elements">
-     Existence of Inverse Elements
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#distributivity">
-     Distributivity
-    </a>
    </li>
    <li class="toc-h2 nav-item toc-entry">
     <a class="reference internal nav-link" href="#operations-on-complex-numbers">
@@ -401,7 +373,7 @@
   </ul>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id1">
+  <a class="reference internal nav-link" href="#a-bi-c-di">
    $
 (a + bi) + (c + di)
   </a>
@@ -419,13 +391,13 @@
   </ul>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id2">
+  <a class="reference internal nav-link" href="#id1">
    $
 (a + bi)(c + di)
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#id3">
+  <a class="reference internal nav-link" href="#ac-adi-bci-bdi-2">
    ac + adi + bci + bdi^2
   </a>
  </li>
@@ -596,49 +568,40 @@ The imaginary part of <span class="math notranslate nohighlight">\(z\)</span>, d
 <span class="math notranslate nohighlight">\(\forall \alpha, \beta \in \mathbb{C}\)</span><br></p>
 <p>Proof of Multiplicative Commutativity<br>
 Let <span class="math notranslate nohighlight">\(\alpha = a + bi\)</span> and <span class="math notranslate nohighlight">\(\beta = c + di\)</span> where <span class="math notranslate nohighlight">\(a, b, c, d \in \mathbb{R}\)</span>.<br></p>
+<p><span class="math notranslate nohighlight">\(
+\begin{align}
+\alpha\beta &amp;= (a + bi)(c + di) \\
+&amp;= ac + adi + bci + bdi^2 \\
+&amp;= (c + di)a + (c + di)bi \\
+&amp;= (c + di)(a + bi) \\
+&amp;= \beta\alpha \\
+\end{align}
+\)</span></p>
 </div>
-</div>
-</div>
-<div class="section" id="alpha-beta">
-<h1>$
-\alpha\beta<a class="headerlink" href="#alpha-beta" title="Permalink to this headline">¶</a></h1>
-</div>
-<div class="section" id="a-bi-c-di">
-<h1>(a + bi)(c + di)<a class="headerlink" href="#a-bi-c-di" title="Permalink to this headline">¶</a></h1>
-</div>
-<div class="section" id="ac-adi-bci-bdi-2">
-<h1>ac + adi + bci + bdi^2<a class="headerlink" href="#ac-adi-bci-bdi-2" title="Permalink to this headline">¶</a></h1>
-</div>
-<div class="section" id="c-di-a-c-di-bi">
-<h1>(c + di)a + (c + di)bi<a class="headerlink" href="#c-di-a-c-di-bi" title="Permalink to this headline">¶</a></h1>
-</div>
-<div class="section" id="c-di-a-bi">
-<h1>(c + di)(a + bi)<a class="headerlink" href="#c-di-a-bi" title="Permalink to this headline">¶</a></h1>
-<p>\beta\alpha
-$</p>
 <div class="section" id="associativity">
-<h2>Associativity<a class="headerlink" href="#associativity" title="Permalink to this headline">¶</a></h2>
+<h3>Associativity<a class="headerlink" href="#associativity" title="Permalink to this headline">¶</a></h3>
 <p><span class="math notranslate nohighlight">\((\alpha + \beta) + \lambda = \alpha + (\beta + \lambda)\)</span><br>
 <span class="math notranslate nohighlight">\((\alpha\beta)\lambda = \alpha(\beta\lambda)\)</span><br>
 <span class="math notranslate nohighlight">\(\forall \alpha, \beta, \lambda \in \mathbb{C}\)</span><br></p>
 </div>
 <div class="section" id="existence-of-identity-element">
-<h2>Existence of Identity Element<a class="headerlink" href="#existence-of-identity-element" title="Permalink to this headline">¶</a></h2>
+<h3>Existence of Identity Element<a class="headerlink" href="#existence-of-identity-element" title="Permalink to this headline">¶</a></h3>
 <p><span class="math notranslate nohighlight">\(\lambda + 0 = \lambda\)</span><br>
 <span class="math notranslate nohighlight">\(\lambda 1 = \lambda\)</span><br>
 <span class="math notranslate nohighlight">\(\forall \lambda \in \mathbb{C}\)</span><br></p>
 </div>
 <div class="section" id="existence-of-inverse-elements">
-<h2>Existence of Inverse Elements<a class="headerlink" href="#existence-of-inverse-elements" title="Permalink to this headline">¶</a></h2>
+<h3>Existence of Inverse Elements<a class="headerlink" href="#existence-of-inverse-elements" title="Permalink to this headline">¶</a></h3>
 <p><span class="math notranslate nohighlight">\(\forall \alpha \in \mathbb{C}\)</span>, <span class="math notranslate nohighlight">\(\exists \beta \in \mathbb{C}\)</span> s.t. <span class="math notranslate nohighlight">\(\alpha + \beta = 0\)</span><br>
 The additive inverse of an element <span class="math notranslate nohighlight">\(\alpha\)</span> is denoted <span class="math notranslate nohighlight">\(-\alpha\)</span>.<br>
 <span class="math notranslate nohighlight">\(\forall \alpha \in \mathbb{C}\)</span> with <span class="math notranslate nohighlight">\(\alpha \neq 0\)</span>, <span class="math notranslate nohighlight">\(\exists \beta \in \mathbb{C}\)</span> s.t. <span class="math notranslate nohighlight">\(\alpha\beta = 1\)</span><br>
 The multiplicative inverse of an element <span class="math notranslate nohighlight">\(\alpha \neq 0\)</span> is denoted <span class="math notranslate nohighlight">\(\alpha^{-1}\)</span>.<br></p>
 </div>
 <div class="section" id="distributivity">
-<h2>Distributivity<a class="headerlink" href="#distributivity" title="Permalink to this headline">¶</a></h2>
+<h3>Distributivity<a class="headerlink" href="#distributivity" title="Permalink to this headline">¶</a></h3>
 <p><span class="math notranslate nohighlight">\(\lambda(\alpha + \beta) = \lambda\alpha + \lambda\beta\)</span><br>
 <span class="math notranslate nohighlight">\(\forall \lambda, \alpha, \beta \in \mathbb{C}\)</span><br></p>
+</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="operations-on-complex-numbers">
@@ -650,9 +613,9 @@ The multiplicative inverse of an element <span class="math notranslate nohighlig
 </div>
 </div>
 </div>
-<div class="section" id="id1">
+<div class="section" id="a-bi-c-di">
 <h1>$
-(a + bi) + (c + di)<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+(a + bi) + (c + di)<a class="headerlink" href="#a-bi-c-di" title="Permalink to this headline">¶</a></h1>
 </div>
 <div class="section" id="a-c-bi-di">
 <h1>a + c + bi + di<a class="headerlink" href="#a-c-bi-di" title="Permalink to this headline">¶</a></h1>
@@ -664,12 +627,12 @@ $</p>
 <p>Derivation<br></p>
 </div>
 </div>
-<div class="section" id="id2">
+<div class="section" id="id1">
 <h1>$
-(a + bi)(c + di)<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h1>
+(a + bi)(c + di)<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 </div>
-<div class="section" id="id3">
-<h1>ac + adi + bci + bdi^2<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="ac-adi-bci-bdi-2">
+<h1>ac + adi + bci + bdi^2<a class="headerlink" href="#ac-adi-bci-bdi-2" title="Permalink to this headline">¶</a></h1>
 </div>
 <div class="section" id="ac-bdi-2-adi-bci">
 <h1>ac + bdi^2 + adi + bci<a class="headerlink" href="#ac-bdi-2-adi-bci" title="Permalink to this headline">¶</a></h1>
@@ -841,7 +804,7 @@ w z
 </div>
 <div class="section" id="absolute-value-of-the-complex-conjugate">
 <h3>Absolute value of the complex conjugate<a class="headerlink" href="#absolute-value-of-the-complex-conjugate" title="Permalink to this headline">¶</a></h3>
-<p>Let <span class="math notranslate nohighlight">\(z \in \mathbb{Z}\)</span>.<br>
+<p>Let <span class="math notranslate nohighlight">\(z \in \mathbb{C}\)</span>.<br>
 <span class="math notranslate nohighlight">\(|\bar{z}| = |z|\)</span><br></p>
 <p><strong>Proof</strong><br></p>
 <p><span class="math notranslate nohighlight">\(
@@ -859,7 +822,7 @@ w z
 </div>
 <div class="section" id="multiplicativity-of-the-absolute-value">
 <h3>Multiplicativity of the absolute value<a class="headerlink" href="#multiplicativity-of-the-absolute-value" title="Permalink to this headline">¶</a></h3>
-<p>Let <span class="math notranslate nohighlight">\(w, z \in \mathbb{Z}\)</span>.<br>
+<p>Let <span class="math notranslate nohighlight">\(w, z \in \mathbb{C}\)</span>.<br>
 <span class="math notranslate nohighlight">\(|w||z| = |wz|\)</span><br></p>
 <p><strong>Proof</strong><br></p>
 <p><span class="math notranslate nohighlight">\(
@@ -883,7 +846,7 @@ wz
 </div>
 <div class="section" id="triangle-inequality">
 <h3>Triangle Inequality<a class="headerlink" href="#triangle-inequality" title="Permalink to this headline">¶</a></h3>
-<p>Let <span class="math notranslate nohighlight">\(w, z \in \mathbb{Z}\)</span>.<br>
+<p>Let <span class="math notranslate nohighlight">\(w, z \in \mathbb{C}\)</span>.<br>
 <span class="math notranslate nohighlight">\(|w + z| \le |w| + |z|\)</span><br></p>
 <p><strong>Proof</strong><br></p>
 <p><span class="math notranslate nohighlight">\(
