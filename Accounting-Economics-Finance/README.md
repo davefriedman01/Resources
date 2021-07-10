@@ -193,6 +193,7 @@ Behavioral Economics [Wiki](https://en.wikipedia.org/wiki/Behavioral_economics)<
 [Blank Check Company (Investopedia)](https://www.investopedia.com/terms/b/blankcheckcompany.asp)<br>
 [Block Trade (Investopedia)](https://www.investopedia.com/terms/b/blocktrade.asp)<br>
 [AGG Bloomberg Barclays Aggregate Bond Index](https://www.investopedia.com/terms/l/lehmanaggregatebondindex.asp)<br>
+Bid-Ask Spread [Investopedia](https://www.investopedia.com/terms/b/bid-askspread.asp)<br>
 [Bond (Investopedia)](https://www.investopedia.com/terms/b/bond.asp)<br>
 [Book Value (Investopedia)](https://www.investopedia.com/terms/b/bookvalue.asp)<br>
 Bottom [Wiki](https://en.wikipedia.org/wiki/Bottom_(technical_analysis))<br>
@@ -292,6 +293,7 @@ Financial Model [Investopedia](https://www.investopedia.com/terms/f/financialmod
 [FTSE Financial Times Stock Exchange Group (Investopedia)](https://www.investopedia.com/terms/f/ftse.asp)<br>
 [Financing (Investopedia)](https://www.investopedia.com/terms/f/financing.asp)<br>
 [Fixed Income (Investopedia)](https://www.investopedia.com/terms/f/fixedincome.asp)<br>
+Flow Derivative [Investopedia](https://www.investopedia.com/terms/f/flow-derivative.asp)<br>
 Forward P/E Price-to-Earnings Ratio [Investopedia](https://www.investopedia.com/terms/f/forwardpe.asp)<br>
 [Fund (Investopedia)](https://www.investopedia.com/terms/f/fund.asp)<br>
 FA Fundamental Analysis [Investopedia](https://www.investopedia.com/terms/f/fundamentalanalysis.asp) [Wiki](https://en.wikipedia.org/wiki/Fundamental_analysis)<br>
@@ -338,6 +340,7 @@ Look-Ahead Bias [Investopedia](https://www.investopedia.com/terms/l/lookaheadbia
 [Market Depth (Investopedia)](https://www.investopedia.com/terms/m/marketdepth.asp)<br>
 [Market Index (Investopedia)](https://www.investopedia.com/terms/m/marketindex.asp)<br>
 [Market Maker (Investopedia)](https://www.investopedia.com/terms/m/marketmaker.asp)<br>
+Market Microstructure [Wiki](https://en.wikipedia.org/wiki/Market_microstructure)<br>
 [Market Order (Investopedia)](https://www.investopedia.com/terms/m/marketorder.asp)<br>
 [Market Risk (Investopedia)](https://www.investopedia.com/terms/m/marketrisk.asp)<br>
 [Market Segment (Investopedia)](https://www.investopedia.com/terms/m/market-segment.asp)<br>
