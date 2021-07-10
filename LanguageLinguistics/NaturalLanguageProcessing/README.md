@@ -31,6 +31,7 @@ HuggingFace [Home](https://huggingface.co)<br>
 Hunspell [Home](http://hunspell.github.io)<br>
 IBM's Tone Analyzer [Home](https://www.ibm.com/watson/services/tone-analyzer/)<br>
 Plasticity [Home](https://www.plasticity.ai)<br>
+NLP-progress [Home](http://nlpprogress.com)<br>
 spaCy [Home](https://spacy.io)<br>
 SparkNLP [Home](https://nlp.johnsnowlabs.com)<br>
 Unicode [Home](https://home.unicode.org)<br>
