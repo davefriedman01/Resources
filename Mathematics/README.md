@@ -48,4 +48,5 @@ Fourier, Jean-Baptiste Joseph (1768-1830)<br>
 
 ## Terms
 
+Catastrophe Theory [Wiki](https://en.wikipedia.org/wiki/Catastrophe_theory)<br>
 Symbolic Dynamics [Wiki](https://en.wikipedia.org/wiki/Symbolic_dynamics)<br>
