@@ -50,6 +50,7 @@
 ## Investopedia
 
 * [Corporate Finance and Accounting](https://www.investopedia.com/corporate-finance-and-accounting-4689821)
+* [Financial Technology and Automated Investing](https://www.investopedia.com/financial-technology-and-automated-investing-4689759)
 * [Fundamental Analysis](https://www.investopedia.com/fundamental-analysis-4689757)
 * [Government and Policy](https://www.investopedia.com/government-and-policy-4689793)
 * [Guide to Accounting](https://www.investopedia.com/terms/a/accounting.asp)
@@ -348,6 +349,7 @@ Game Theory [Wiki](https://en.wikipedia.org/wiki/Game_theory)<br>
 Head-and-Shoulders [Wiki](https://en.wikipedia.org/wiki/Head_and_shoulders_(chart_pattern))<br>
 [Hedge (Investopedia)](https://www.investopedia.com/terms/h/hedge.asp)<br>
 Heteroskedasticity [Investopedia](https://www.investopedia.com/terms/h/heteroskedasticity.asp)<br>
+HD Hierarchical Deterministic Wallet [Investopedia](https://www.investopedia.com/terms/h/hd-wallet-hierarchical-deterministic-wallet.asp)<br>
 HFT High-Frequency Trading [Investopedia](https://www.investopedia.com/terms/h/high-frequency-trading.asp)<br>
 [Hypothesis Testing (Investopedia)](https://www.investopedia.com/terms/h/hypothesistesting.asp)<br>
 [Index (Investopedia)](https://www.investopedia.com/terms/i/index.asp)<br>
