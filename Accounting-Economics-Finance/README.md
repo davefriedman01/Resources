@@ -4,6 +4,39 @@
 
 ## Resources
 
+* Alexander, Carol. (2008). _Market Risk Analysis I: Quantitative Methods in Finance_. Wiley.
+* Alexander, Carol. (2008). _Market Risk Analysis II: Practical Financial Econometrics_. Wiley.
+* Alexander, Carol. (2008). _Market Risk Analysis III: Pricing, Hedging, and Trading Financial Instruments_. Wiley.
+* Alexander, Carol. (2008). _Market Risk Analysis IV:Value-at-Risk Models_. Wiley.
+* Baxter, Martin & Andrew Rennie. (1996). _Financial Calculus: An Introduction to Derivative Pricing_. Cambridge University Press.
+* Björk, Tomas. (2004). _Arbitrage Theory in Continuous Time, 2nd Ed_. Oxford University Press.
+* Black, Fischer & Myron Scholes. (1973). "The Pricing of Options and Corporate Liabilities".
+* Boyle, Phelim. (1977). "Options: A Monte Carlo Approach".
+* Copeland, Thomas, Fred Weston, & Kuldepp Shastri. (2005). _Financial Theory and Corporate Policy, 4th Ed_. Addison-Wesley.
+* Cox, John & Stephen Ross. (1976). "The Valuation of Options for Alternative Stochastic Processes".
+* Cox, John, Jonathan Ingersoll, & Stephen Ross. (1985). "A Theory of the Term Structure of Interest Rates".
+* Cox, John, Stephen Ross, & Mark Rubinstein. (1979). "Option Pricing: A Simplified Approach".
+* Delbaen, Freddy & Walter Schachermayer. (2006). _The Mathematics of Arbitrage_. Springer.
+* Duffie, Darrell. (2001). _Dynamic Asset Pricing Theory, 3rd Ed._ Princeton University Press.
+* Duffie, Darrell. (1988). _Security Markets: Stochastic Models_. Academic Press.
+* Duffie, Darrell. (1986). "Stochastic Equilibria: Existence, Spanning Number, and the 'No Expected Gains from Financial Trade' Hypothesis".
+* Eichberger, Jürgen & Ian Harper. (1997). _Financial Economics_. Oxford University Press.
+* Elliot, Robert & Ekkehard Kopp. (2005). _Mathematics of Financial Markets, 2nd Ed_. Springer.
+* Harrison, Michael & David Kreps. (1979). "Martingales and Arbitrage in Multiperiod Securities Markets".
+* Harrison, Michael & Stanley Pliska. (1981). "Martingales and Stochastic Integrals in the Theory of Continuous Trading".
+* Heston, Steven. (1993). "A Closed-Form Solution for Options with Stochastic Volatility with Applications to Bond and Currency Options".
+* Longstaff, Francis & Eduardo Schwartz. (2001). "Valuing American Options by Simulation: A Simple Least Squares Approach".
+* Markowitz, Harry. (1959). _Portfolio Selection: Efficient Diversification of Investments_. Wiley.
+* Markowitz, Harry. (1952). "Portfolio Selection".
+* Merton, Robert. (1976). "Option Pricing when the Underlying Stock Returns are Discontinuous".
+* Milne, Frank. (1995). _Finance Theory and Asset Pricing_. Oxford University Press.
+* Perold, André. (2004). "The Capital Asset Pricing Model".
+* Pliska, Stanley. (1997). _Introduction to Mathematical Finance_. Blackwell.
+* Protter, Philip. (2001). "A Partial Introduction to Financial Asset Pricing Theory".
+* Rubinstein, Mark. (2006). _A History of the Theory of Investements_. Wiley.
+* Sharpe, William. (1964). "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk".
+* Varian, Hal. (1992). _Microeconomic Analysis, 3rd Ed_. W.W. Norton and Company.
+
 [Benninga, Simon](http://simonbenninga.com). (2014). _Financial Modeling, 4th Ed_. [MIT Press](https://mitpress.mit.edu/books/financial-modeling-fourth-edition).<br>
 Bodie, Zvi, Alex Kane, & Alan Marcus. (2018). _Essentials of Investments, 11th Ed_.<br>
 Duffie, D. & H. Zhu. (2011). "Does a Central Clearing Counterparty Reduce Counterparty Risk?". Review of Asset Pricing Studies.<br>
