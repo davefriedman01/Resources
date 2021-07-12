@@ -9,8 +9,10 @@
 * Alexander, Carol. (2008). _Market Risk Analysis III: Pricing, Hedging, and Trading Financial Instruments_. Wiley.
 * Alexander, Carol. (2008). _Market Risk Analysis IV:Value-at-Risk Models_. Wiley.
 * Baxter, Martin & Andrew Rennie. (1996). _Financial Calculus: An Introduction to Derivative Pricing_. Cambridge University Press.
+* [Benninga, Simon](http://simonbenninga.com). (2014). _Financial Modeling, 4th Ed_. [MIT Press](https://mitpress.mit.edu/books/financial-modeling-fourth-edition).<br>
 * Björk, Tomas. (2004). _Arbitrage Theory in Continuous Time, 2nd Ed_. Oxford University Press.
 * Black, Fischer & Myron Scholes. (1973). "The Pricing of Options and Corporate Liabilities".
+* Bodie, Zvi, Alex Kane, & Alan Marcus. (2018). _Essentials of Investments, 11th Ed_.<br>
 * Boyle, Phelim. (1977). "Options: A Monte Carlo Approach".
 * Copeland, Thomas, Fred Weston, & Kuldepp Shastri. (2005). _Financial Theory and Corporate Policy, 4th Ed_. Addison-Wesley.
 * Cox, John & Stephen Ross. (1976). "The Valuation of Options for Alternative Stochastic Processes".
@@ -20,14 +22,18 @@
 * Duffie, Darrell. (2001). _Dynamic Asset Pricing Theory, 3rd Ed._ Princeton University Press.
 * Duffie, Darrell. (1988). _Security Markets: Stochastic Models_. Academic Press.
 * Duffie, Darrell. (1986). "Stochastic Equilibria: Existence, Spanning Number, and the 'No Expected Gains from Financial Trade' Hypothesis".
+* Duffie, D. & H. Zhu. (2011). "Does a Central Clearing Counterparty Reduce Counterparty Risk?". Review of Asset Pricing Studies.<br>
 * Eichberger, Jürgen & Ian Harper. (1997). _Financial Economics_. Oxford University Press.
 * Elliot, Robert & Ekkehard Kopp. (2005). _Mathematics of Financial Markets, 2nd Ed_. Springer.
+* Fawcett, Tom & Foster Provost. (2013). _Data Science for Business: What You Need to Know About Data Mining and Data-Analytic Thinking_. O'Reilly.<br>
 * Harrison, Michael & David Kreps. (1979). "Martingales and Arbitrage in Multiperiod Securities Markets".
 * Harrison, Michael & Stanley Pliska. (1981). "Martingales and Stochastic Integrals in the Theory of Continuous Trading".
 * Heston, Steven. (1993). "A Closed-Form Solution for Options with Stochastic Volatility with Applications to Bond and Currency Options".
+* Hull, John C. (2020). [_Machine Learning in Business: An Introduction to the World of Data Science, 2nd Ed_](https://www-2.rotman.utoronto.ca/~hull/Second%20edition%20Online%20Files/index2ndEd.html). Self published.<br>
+* Hull, John C. (2017). [_Options, Futures, and Other Derivatives, 10th Ed_](https://www-2.rotman.utoronto.ca/~hull/ofod/index.html). Pearson.<br>
 * Longstaff, Francis & Eduardo Schwartz. (2001). "Valuing American Options by Simulation: A Simple Least Squares Approach".
 * Markowitz, Harry. (1959). _Portfolio Selection: Efficient Diversification of Investments_. Wiley.
-* Markowitz, Harry. (1952). "Portfolio Selection".
+* Markowitz, Harry M. (1952). ["Portfolio Selection: Efficient Diversification of Investments"](https://cowles.yale.edu/sites/default/files/files/pub/mon/m16-all.pdf). Journal of Finance.<br>
 * Merton, Robert. (1976). "Option Pricing when the Underlying Stock Returns are Discontinuous".
 * Milne, Frank. (1995). _Finance Theory and Asset Pricing_. Oxford University Press.
 * Perold, André. (2004). "The Capital Asset Pricing Model".
@@ -35,25 +41,25 @@
 * Protter, Philip. (2001). "A Partial Introduction to Financial Asset Pricing Theory".
 * Rubinstein, Mark. (2006). _A History of the Theory of Investements_. Wiley.
 * Sharpe, William. (1964). "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk".
+* Silver, Nate. (2015). _The Signal and the Noise: Why So Many Predictions Fail--but Some Don't_. Penguin. <br>
+* Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time Cloud Financial Management_. O'Reilly.<br>
 * Varian, Hal. (1992). _Microeconomic Analysis, 3rd Ed_. W.W. Norton and Company.
+* Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Introductory Text_.<br>
+* Zumstein, Felix. (2021). [_Python for Excel: A Modern Environment for Automation and Data Analysis_](https://www.xlwings.org/book). O'Reilly. [GitHub](https://github.com/fzumstein/python-for-excel).<br>
 
-[Benninga, Simon](http://simonbenninga.com). (2014). _Financial Modeling, 4th Ed_. [MIT Press](https://mitpress.mit.edu/books/financial-modeling-fourth-edition).<br>
-Bodie, Zvi, Alex Kane, & Alan Marcus. (2018). _Essentials of Investments, 11th Ed_.<br>
-Duffie, D. & H. Zhu. (2011). "Does a Central Clearing Counterparty Reduce Counterparty Risk?". Review of Asset Pricing Studies.<br>
-Fawcett, Tom & Foster Provost. (2013). _Data Science for Business: What You Need to Know About Data Mining and Data-Analytic Thinking_. O'Reilly.<br>
-Hull, John C. (2020). [_Machine Learning in Business: An Introduction to the World of Data Science, 2nd Ed_](https://www-2.rotman.utoronto.ca/~hull/Second%20edition%20Online%20Files/index2ndEd.html). Self published.<br>
-Hull, John C. (2017). [_Options, Futures, and Other Derivatives, 10th Ed_](https://www-2.rotman.utoronto.ca/~hull/ofod/index.html). Pearson.<br>
-Markowitz, Harry M. (1952). ["Portfolio Selection: Efficient Diversification of Investments"](https://cowles.yale.edu/sites/default/files/files/pub/mon/m16-all.pdf). Journal of Finance.<br>
-Silver, Nate. (2015). _The Signal and the Noise: Why So Many Predictions Fail--but Some Don't_. Penguin. <br>
-Storment, J. R. & Mike Fuller. (2020). _Cloud FinOps: Collaborative, Real-Time Cloud Financial Management_. O'Reilly.<br>
-Woolridge, J. Randall & Gary Gray. (2011). _Basic Principles of Finance: An Introductory Text_.<br>
-Zumstein, Felix. (2021). [_Python for Excel: A Modern Environment for Automation and Data Analysis_](https://www.xlwings.org/book). O'Reilly. [GitHub](https://github.com/fzumstein/python-for-excel).<br>
+## Investopedia
 
+* [Corporate Finance and Accounting](https://www.investopedia.com/corporate-finance-and-accounting-4689821)
+* [Fundamental Analysis](https://www.investopedia.com/fundamental-analysis-4689757)
+* [Government and Policy](https://www.investopedia.com/government-and-policy-4689793)
+* [Guide to Accounting](https://www.investopedia.com/terms/a/accounting.asp)
+* [Guide to Economics](https://www.investopedia.com/terms/e/economics.asp)
+
+Interactive Brokers [Home](https://www.interactivebrokers.com/en/home.php)<br>
 Jesse.trade [Home](https://jesse.trade)<br>
+TastyTrade [Home](https://www.tastytrade.com)<br>
 TDAmeritrade's Thinkorswim [Home](https://www.tdameritrade.com/tools-and-platforms/thinkorswim/desktop.html)<br>
 Quantitative Finance Stack Exchange [Home](https://quant.stackexchange.com)<br>
-
-
 
 freeCodeCamp's APIs for Beginners [YouTube](https://www.youtube.com/watch?v=GZvSYJDk-us)<br>
 
@@ -227,7 +233,7 @@ Behavioral Economics [Wiki](https://en.wikipedia.org/wiki/Behavioral_economics)<
 [Block Trade (Investopedia)](https://www.investopedia.com/terms/b/blocktrade.asp)<br>
 [AGG Bloomberg Barclays Aggregate Bond Index](https://www.investopedia.com/terms/l/lehmanaggregatebondindex.asp)<br>
 Bid-Ask Spread [Investopedia](https://www.investopedia.com/terms/b/bid-askspread.asp)<br>
-[Bond (Investopedia)](https://www.investopedia.com/terms/b/bond.asp)<br>
+Bond [Investopedia](https://www.investopedia.com/terms/b/bond.asp)<br>
 [Book Value (Investopedia)](https://www.investopedia.com/terms/b/bookvalue.asp)<br>
 Bottom [Wiki](https://en.wikipedia.org/wiki/Bottom_(technical_analysis))<br>
 [Broad-Based Index (Investopedia)](https://www.investopedia.com/terms/b/broad-basedindex.asp)<br>
@@ -254,6 +260,7 @@ Candlestick [Wiki](https://en.wikipedia.org/wiki/Candlestick_chart)<br>
 [CGE Capital Gains Exposure (Investopedia)](https://www.investopedia.com/terms/c/cge.asp)<br>
 [Capital Loss (Investopedia)](https://www.investopedia.com/terms/c/capitalloss.asp)<br>
 [Capital Structure (Investopedia)](https://www.investopedia.com/terms/c/capitalstructure.asp)<br>
+Capitalism [Investopedia](https://www.investopedia.com/terms/c/capitalism.asp)<br>
 [CCE Cash and Cash Equivalents (Investopedia)](https://www.investopedia.com/terms/c/cashandcashequivalents.asp)<br>
 [Cash Equivalents (Investopedia)](https://www.investopedia.com/terms/c/cashequivalents.asp)<br>
 [Cboe Options Exchange (Investopedia)](https://www.investopedia.com/terms/c/cboe.asp)<br>
@@ -425,6 +432,7 @@ Random Walk Hypothesis [Wiki](https://en.wikipedia.org/wiki/Random_walk_hypothes
 [Raw Materials (Investopedia)](https://www.investopedia.com/terms/r/rawmaterials.asp)<br>
 [Real Asset (Investopedia)](https://www.investopedia.com/terms/r/realasset.asp)<br>
 [Real Estate (Investopedia)](https://www.investopedia.com/terms/r/realestate.asp)<br>
+Real Option [Investopedia](https://www.investopedia.com/terms/r/realoption.asp)<br>
 [Real Property (Investopedia)](https://www.investopedia.com/terms/r/real-property.asp)<br>
 [Real Rate of Return (Investopedia)](https://www.investopedia.com/terms/r/realrateofreturn.asp)<br>
 [Real-Time Quote (Investopedia)](https://www.investopedia.com/terms/r/real-time-quote.asp)<br>
@@ -453,6 +461,7 @@ Sample Selection Bias [Investopedia](https://www.investopedia.com/terms/s/sample
 [Security (Investopedia)](https://www.investopedia.com/terms/s/security.asp)<br>
 Sensitivity Analysis [Investopedia](https://www.investopedia.com/terms/s/sensitivityanalysis.asp)<br>
 [Shareholder (Investopedia)](https://www.investopedia.com/terms/s/shareholder.asp)<br>
+SE Shareholder Equity [Investopedia](https://www.investopedia.com/terms/s/shareholdersequity.asp)<br>
 [Shares (Investopedia)](https://www.investopedia.com/terms/s/shares.asp)<br>
 [Sharpe Ratio (Investopedia)](https://www.investopedia.com/terms/s/sharperatio.asp)<br>
 [Short Selling (Investopedia)](https://www.investopedia.com/terms/s/shortselling.asp)<br>
