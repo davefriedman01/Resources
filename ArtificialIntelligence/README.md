@@ -9,8 +9,10 @@ Thomas, Rob & Paul Zikopoulos. (2020). _The AI Ladder: Accelerate Your Journey t
 Vaughan, Daniel. (2020). [_Analytical Skills for AI and Data Science: Building Skills for an AI-Driven Enterprise_](https://github.com/dvaughan79/analyticalskillsbook). O'Reilly.<br>
 Zhang, Xian-Da. (2020). _A Matrix Algebra Approach to Artificial Intelligence_. Springer.<br>
 
-[Numerai](https://numer.ai)<br>
-[OpenAI](https://openai.com)<br>
+Numerai [Home](https://numer.ai)<br>
+
+OpenAI [Home](https://openai.com)<br>
+OpenAI Gym [Home](https://gym.openai.com) [GitHub](https://github.com/openai/gym)<br>
 
 ## Figures
 

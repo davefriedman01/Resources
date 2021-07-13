@@ -407,6 +407,7 @@ MPT Modern (Mean-Variance) Portfolio Theory [Investopedia](https://www.investope
 [NPV Net Present Value (Investopedia)](https://www.investopedia.com/terms/n/npv.asp)<br>
 [Net Worth (Investopedia)](https://www.investopedia.com/terms/n/networth.asp)<br>
 [NYSE New York Stock Exchange (Investopedia)](https://www.investopedia.com/terms/n/nyse.asp)<br>
+Numeraire [Investopedia](https://www.investopedia.com/terms/n/numeraire.asp)<br>
 [Numismatics (Wikipedia)](https://en.wikipedia.org/wiki/Numismatics)<br>
 [One-Tailed Test (Investopedia)](https://www.investopedia.com/terms/o/one-tailed-test.asp)<br>
 [Open Order (Investopedia)](https://www.investopedia.com/terms/o/openorder.asp)<br>
