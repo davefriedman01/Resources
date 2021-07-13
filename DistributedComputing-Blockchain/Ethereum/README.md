@@ -57,6 +57,8 @@ State of the Dapps [Home](https://www.stateofthedapps.com)<br>
 ENS Ethereum Name Service [Home](https://ens.domains)<br>
 Ethereum Alarm Clock [Home](https://www.ethereum-alarm-clock.com)<br>
 
+IPFS InterPlanetary File System [Home](https://ipfs.io)<br>
+
 Dapp University. (2018). ["Create an ICO Presale with Smart Contracts - #9 Real World ICO on Ethereum"](https://www.youtube.com/watch?v=uPeRwDvkuCs). YouTube.<br>
 freeCodeCamp. (2019). ["Solidity Tutorial - A Full Course on Ethereum, Blockchain Development, Smart Contracts, and the EVM"](https://www.youtube.com/watch?v=ipwxYa-F1uY). YouTube.<br>
 
