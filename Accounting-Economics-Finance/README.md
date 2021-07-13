@@ -55,7 +55,10 @@
 * [Government and Policy](https://www.investopedia.com/government-and-policy-4689793)
 * [Guide to Accounting](https://www.investopedia.com/terms/a/accounting.asp)
 * [Guide to Economics](https://www.investopedia.com/terms/e/economics.asp)
+* [Investing](https://www.investopedia.com/investing-4427685)
+* [Trading Strategies](https://www.investopedia.com/trading-strategies-4689646)
 
+FinViz [Home](https://finviz.com)<br>
 Interactive Brokers [Home](https://www.interactivebrokers.com/en/home.php)<br>
 Jesse.trade [Home](https://jesse.trade)<br>
 TastyTrade [Home](https://www.tastytrade.com)<br>
