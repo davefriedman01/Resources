@@ -224,6 +224,7 @@ Alpha [Investopedia](https://www.investopedia.com/terms/a/alpha.asp)<br>
 [Arithmetic Mean (Investopedia)](https://www.investopedia.com/terms/a/arithmeticmean.asp)<br>
 [Asset (Investopedia)](https://www.investopedia.com/terms/a/asset.asp)<br>
 [Asset Class (Investopedia)](https://www.investopedia.com/terms/a/assetclasses.asp)<br>
+Automated Clearing House [Investopedia](https://en.wikipedia.org/wiki/Ouroboros_(protocol))<br>
 Automated Trading System [Investopedia](https://www.investopedia.com/articles/trading/11/automated-trading-systems.asp)<br>
 Backtesting [Investopedia](https://www.investopedia.com/terms/b/backtesting.asp)<br>
 [Balance Sheet or Statement of Financial Position (Investopedia)](https://www.investopedia.com/terms/b/balancesheet.asp)<br>
@@ -302,6 +303,7 @@ Cup and Handle [Wiki](https://en.wikipedia.org/wiki/Cup_and_handle)<br>
 Decision Making [Wiki](https://en.wikipedia.org/wiki/Decision-making)<br>
 Decision Theory [Wiki](https://en.wikipedia.org/wiki/Decision_theory)<br>
 [Depreciation (Investopedia)](https://www.investopedia.com/terms/d/depreciation.asp)<br>
+Directional Trading [Investopedia](https://www.investopedia.com/terms/d/directionaltrading.asp)<br>
 [DCF Discounted Cash Flow Analysis (Wikipedia)](https://en.wikipedia.org/wiki/Discounted_cash_flow)<br>
 [DCF Discounted Cash Flow (Investopedia)](https://www.investopedia.com/terms/d/dcf.asp)<br>
 [Dispersion (Investopedia)](https://www.investopedia.com/terms/d/dispersion.asp)<br>
