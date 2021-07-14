@@ -58,12 +58,24 @@
 * [Investing](https://www.investopedia.com/investing-4427685)
 * [Trading Strategies](https://www.investopedia.com/trading-strategies-4689646)
 
-FinViz [Home](https://finviz.com)<br>
-Interactive Brokers [Home](https://www.interactivebrokers.com/en/home.php)<br>
-Jesse.trade [Home](https://jesse.trade)<br>
-TastyTrade [Home](https://www.tastytrade.com)<br>
-TDAmeritrade's Thinkorswim [Home](https://www.tdameritrade.com/tools-and-platforms/thinkorswim/desktop.html)<br>
-Quantitative Finance Stack Exchange [Home](https://quant.stackexchange.com)<br>
+## Platforms
+
+* Alpaca [Docs](https://alpaca.markets/docs/)
+* Coinbase [Home](https://www.coinbase.com)
+* CoinGecko [Home](https://www.coingecko.com/en)
+* CoinMarketCap [Home](https://coinmarketcap.com)
+* FinViz [Home](https://finviz.com)
+* Interactive Brokers [Home](https://www.interactivebrokers.com/en/home.php)
+* TastyTrade [Home](https://www.tastytrade.com)
+* TastyWorks [Home](https://tastyworks.com)
+* Thinkorswim [Home](https://www.tdameritrade.com/tools-and-platforms/thinkorswim/desktop.html)
+* Trade Ideas [Home](https://www.trade-ideas.com)
+* TradingView [Home](https://www.tradingview.com)
+
+## Other Tools
+
+* Jesse.trade [Home](https://jesse.trade)<br>
+* Quantitative Finance Stack Exchange [Home](https://quant.stackexchange.com)<br>
 
 freeCodeCamp's APIs for Beginners [YouTube](https://www.youtube.com/watch?v=GZvSYJDk-us)<br>
 
@@ -73,11 +85,6 @@ The Finance Storyteller [YouTube](https://www.youtube.com/c/TheFinanceStorytelle
 One Minute Economics [YouTube](https://www.youtube.com/c/OneMinuteEconomics/)<br>
 Part Time Larry [YouTube](https://www.youtube.com/c/parttimelarry/)<br>
 
-
-
-## APIs and Platforms
-
-Alpaca [Docs](https://alpaca.markets/docs/)
 
 Alpha Vantage [Docs](https://www.alphavantage.co/documentation/) [PyPI](https://pypi.org/project/alpha-vantage/)<br>
 
@@ -112,8 +119,6 @@ AlgoTrading101's Quandl: A Step-by-Step Guide [Page](https://algotrading101.com/
 
 Refinitiv [Wiki](https://en.wikipedia.org/wiki/Refinitiv)<br>
 Refinitiv Eikon [Tutorial](https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api/tutorials) [GitHub](https://github.com/yhilpisch/eikondataapi) [Wiki](https://en.wikipedia.org/wiki/Eikon)<br>
-
-TradingView [Home](https://www.tradingview.com)<br>
 
 The Wall Street Journal [Home](https://www.wsj.com)<br>
 
