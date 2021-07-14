@@ -58,12 +58,8 @@
 * [Investing](https://www.investopedia.com/investing-4427685)
 * [Trading Strategies](https://www.investopedia.com/trading-strategies-4689646)
 
-## Platforms
-
+## Equities Platforms and Exchanges
 * Alpaca [Docs](https://alpaca.markets/docs/)
-* Coinbase [Home](https://www.coinbase.com)
-* CoinGecko [Home](https://www.coingecko.com/en)
-* CoinMarketCap [Home](https://coinmarketcap.com)
 * FinViz [Home](https://finviz.com)
 * Interactive Brokers [Home](https://www.interactivebrokers.com/en/home.php)
 * TastyTrade [Home](https://www.tastytrade.com)
@@ -72,10 +68,20 @@
 * Trade Ideas [Home](https://www.trade-ideas.com)
 * TradingView [Home](https://www.tradingview.com)
 
-## Other Tools
+## Cryptocurrency Platforms and Exchanges
+* Binance
+* Coinbase [Home](https://www.coinbase.com)
+* CoinGecko [Home](https://www.coingecko.com/en)
+* CoinMarketCap [Home](https://coinmarketcap.com)
+* Kraken [Home](https://www.kraken.com)
+* Uphold [Home](https://uphold.com/en-us)
 
-* Jesse.trade [Home](https://jesse.trade)<br>
-* Quantitative Finance Stack Exchange [Home](https://quant.stackexchange.com)<br>
+## Other Tools
+* FMP Financial Modeling Prep [Home](https://financialmodelingprep.com) [Docs](https://financialmodelingprep.com/developer/docs/)
+* Jesse.trade [Home](https://jesse.trade)
+* Quantitative Finance Stack Exchange [Home](https://quant.stackexchange.com)
+* The Wall Street Journal [Home](https://www.wsj.com)
+* Wolfram Finance Platform [Home](https://www.wolfram.com/finance-platform/?source=nav)
 
 freeCodeCamp's APIs for Beginners [YouTube](https://www.youtube.com/watch?v=GZvSYJDk-us)<br>
 
@@ -91,12 +97,9 @@ Alpha Vantage [Docs](https://www.alphavantage.co/documentation/) [PyPI](https://
 Bloomberg [Home](https://www.bloomberg.com)<br>
 Bloomberg's OpenFIGI [Home](https://www.openfigi.com)<br>
 
-Coinbase [Home](https://developers.coinbase.com)
-
 Data.world [Home](https://data.world)<br>
 Data.world Finance [Page](https://data.world/datasets/finance)<br>
 
-financial modeling prep API [Page](https://financialmodelingprep.com/developer/docs/)<br>
 
 FXCM [Home](https://www.fxcm.com/uk/)<br>
 
@@ -120,9 +123,6 @@ AlgoTrading101's Quandl: A Step-by-Step Guide [Page](https://algotrading101.com/
 Refinitiv [Wiki](https://en.wikipedia.org/wiki/Refinitiv)<br>
 Refinitiv Eikon [Tutorial](https://developers.refinitiv.com/en/api-catalog/eikon/eikon-data-api/tutorials) [GitHub](https://github.com/yhilpisch/eikondataapi) [Wiki](https://en.wikipedia.org/wiki/Eikon)<br>
 
-The Wall Street Journal [Home](https://www.wsj.com)<br>
-
-Wolfram Finance Platform [Home](https://www.wolfram.com/finance-platform/?source=nav)<br>
 
 WrapAPI [Home](https://wrapapi.com/docs/GettingStarted)
 
