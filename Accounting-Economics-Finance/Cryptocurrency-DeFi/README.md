@@ -24,6 +24,8 @@
   * [Ledger](https://www.ledger.com/)
   * [Trezor](https://trezor.io/)
 
+---
+
 * DeFi Pulse [Home](https://defipulse.com)
 * State of the Dapps [Home](https://www.stateofthedapps.com)
 
