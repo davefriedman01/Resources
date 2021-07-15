@@ -8,6 +8,7 @@
   * [Exodus](https://www.exodus.com/)
   * [Metamask](https://metamask.io/)
 * Cold Wallets
+  * [KeepKey](https://shapeshift.com/keepkey)
   * [Ledger](https://www.ledger.com/)
   * [Trezor](https://trezor.io/)
 
