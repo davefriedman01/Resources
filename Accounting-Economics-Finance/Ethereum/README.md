@@ -25,15 +25,14 @@ Vishnumurthy, Vivek, Sangeeth Chandrakumar, & Emin Gün Sirer. ["KARMA: A Secure
 Ethereum [Home](https://ethereum.org/en/)<br>
 Ethereum Whitepaper [Paper](https://ethereum.org/whitepaper/)<br>
 Ethereum Yellow Paper [Paper](https://ethereum.github.io/yellowpaper/paper.pdf)<br>
-
 EIP Ethereum Improvement Proposal [Home](https://eips.ethereum.org)<br>
 ERC Ethereum Request for Comments [Home](https://eips.ethereum.org/erc)<br>
-
 Ethereum Foundation [Home](https://ethereum.foundation)<br>
 Enterprise Ethereum Alliance [Wiki](https://entethalliance.org)<br>
-
 Go Ethereum [Home](https://geth.ethereum.org) [GitHub](https://github.com/ethereum/go-ethereum)<br>
 OpenEthereum [Home](https://openethereum.org)<br>
+Remix [Home](https://remix-project.org/)<br>
+Etherscan [Home](https://etherscan.io/)
 
 Parity [Home](https://www.parity.io)<br>
 Parity Substrate [Home](https://www.parity.io/technologies/substrate/)<br>
@@ -45,9 +44,6 @@ Truffle Boxes [Home](https://www.trufflesuite.com/boxes)<br>
 Ganache [Home](https://www.trufflesuite.com/ganache)<br>
 ganache-cli [GitHub](https://github.com/trufflesuite/ganache-cli/)<br>
 OpenZeppelin [Docs](https://docs.openzeppelin.com/openzeppelin/)<br>
-
-Remix [Home](https://remix-project.org/)<br>
-MetaMask [Home](https://metamask.io/)<br>
 
 Web3.js [Docs](https://web3js.readthedocs.io/en/v1.3.4/) [GitHub](https://github.com/ChainSafe/web3.js)<br>
 Web3.py [GitHub](https://github.com/ethereum/web3.py.git)<br>
