@@ -1,12 +1,5 @@
 # Ethereum & Solidity
 
-
-## Ethereum Yellow Paper Summary
-
-Pre-Bitcoin PoW non-economic application [Paper](http://www.wisdom.weizmann.ac.il/~naor/PAPERS/pvp.pdf)<br>
-Pre-Bitcoin PoW economic application [Paper](https://www.cs.cornell.edu/people/egs/papers/karma.pdf)<br>
-Ethereum Consensus - Ghost Protocol [Paper](https://eprint.iacr.org/2013/881)<br>
-
 ## Resources
 
 Antonopoulos, Andreas M. & Gavin Wood. (2018). [_Mastering Ethereum: Building Smart Contracts and DApps_](https://github.com/ethereumbook/ethereumbook.git). O'Reilly.<br>
@@ -22,38 +15,35 @@ Back, Adam. (2002). ["Hashcash - Amortizable Publicly Auditable Cost-Functions"]
 Dwork, Cynthia & Moni Naor. ["Pricing via Processing or Combatting Junk Mail"](http://www.wisdom.weizmann.ac.il/~naor/PAPERS/pvp.pdf).<br>
 Vishnumurthy, Vivek, Sangeeth Chandrakumar, & Emin Gün Sirer. ["KARMA: A Secure Economic Framework for Peer-to-Peer Resource Sharing"](https://www.cs.cornell.edu/people/egs/papers/karma.pdf).<br>
 
-Ethereum [Home](https://ethereum.org/en/)<br>
-Ethereum Whitepaper [Paper](https://ethereum.org/whitepaper/)<br>
-Ethereum Yellow Paper [Paper](https://ethereum.github.io/yellowpaper/paper.pdf)<br>
-EIP Ethereum Improvement Proposal [Home](https://eips.ethereum.org)<br>
-ERC Ethereum Request for Comments [Home](https://eips.ethereum.org/erc)<br>
-Ethereum Foundation [Home](https://ethereum.foundation)<br>
-Enterprise Ethereum Alliance [Wiki](https://entethalliance.org)<br>
-Go Ethereum [Home](https://geth.ethereum.org) [GitHub](https://github.com/ethereum/go-ethereum)<br>
-OpenEthereum [Home](https://openethereum.org)<br>
-Remix [Home](https://remix-project.org/)<br>
-Etherscan [Home](https://etherscan.io/)
+Pre-Bitcoin PoW non-economic application [Paper](http://www.wisdom.weizmann.ac.il/~naor/PAPERS/pvp.pdf)<br>
+Pre-Bitcoin PoW economic application [Paper](https://www.cs.cornell.edu/people/egs/papers/karma.pdf)<br>
+Ethereum Consensus - Ghost Protocol [Paper](https://eprint.iacr.org/2013/881)<br>
 
-Parity [Home](https://www.parity.io)<br>
-Parity Substrate [Home](https://www.parity.io/technologies/substrate/)<br>
-Parity Polkadot [Home](https://polkadot.network)<br>
+* Ethereum [Home](https://ethereum.org/en/) [Wiki](https://en.wikipedia.org/wiki/Ethereum)
+  * Ethereum Whitepaper [Paper](https://ethereum.org/whitepaper/)
+  * Ethereum Yellow Paper [Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
+  * EIP Ethereum Improvement Proposal [Home](https://eips.ethereum.org)
+    * ERC Ethereum Request for Comments [Home](https://eips.ethereum.org/erc)
+  * Ethereum Foundation [Home](https://ethereum.foundation)
+  * Enterprise Ethereum Alliance [Wiki](https://entethalliance.org)
+  * Go Ethereum node implementation [Home](https://geth.ethereum.org) [GitHub](https://github.com/ethereum/go-ethereum)
+  * OpenEthereum node implementation [Home](https://openethereum.org)
+  * Remix IDE [Home](https://remix-project.org/)
+  * Etherscan Block Explorer [Home](https://etherscan.io/)
+  * Ethereum Alarm Clock [Home](https://www.ethereum-alarm-clock.com)
+  * ENS Ethereum Name Service [Home](https://ens.domains)
 
-Solidity [Docs](https://docs.soliditylang.org/en/latest/) [GitHub](https://github.com/ethereum/solidity.git) [Cryptozombies](https://cryptozombies.io)<br>
-Truffle Suite [Home](https://www.trufflesuite.com) [Docs](https://www.trufflesuite.com/docs) [GitHub](https://github.com/trufflesuite/truffle)<br>
-Truffle Boxes [Home](https://www.trufflesuite.com/boxes)<br>
-Ganache [Home](https://www.trufflesuite.com/ganache)<br>
-ganache-cli [GitHub](https://github.com/trufflesuite/ganache-cli/)<br>
-OpenZeppelin [Docs](https://docs.openzeppelin.com/openzeppelin/)<br>
+* Solidity [Docs](https://docs.soliditylang.org/en/latest/) [GitHub](https://github.com/ethereum/solidity.git) [Cryptozombies](https://cryptozombies.io)
+* Truffle Suite [Home](https://www.trufflesuite.com) [Docs](https://www.trufflesuite.com/docs) [GitHub](https://github.com/trufflesuite/truffle)
+  * Truffle Boxes [Home](https://www.trufflesuite.com/boxes)
+  * Ganache [Home](https://www.trufflesuite.com/ganache)
+  * Ganache-CLI [GitHub](https://github.com/trufflesuite/ganache-cli/)
+* [OpenZeppelin](https://openzeppelin.com) [Docs](https://docs.openzeppelin.com/openzeppelin/)
 
-Web3.js [Docs](https://web3js.readthedocs.io/en/v1.3.4/) [GitHub](https://github.com/ChainSafe/web3.js)<br>
-Web3.py [GitHub](https://github.com/ethereum/web3.py.git)<br>
+* Web3.js [Docs](https://web3js.readthedocs.io/en/v1.3.4/) [GitHub](https://github.com/ChainSafe/web3.js)
+* Web3.py [GitHub](https://github.com/ethereum/web3.py.git)
 
-State of the Dapps [Home](https://www.stateofthedapps.com)<br>
 
-ENS Ethereum Name Service [Home](https://ens.domains)<br>
-Ethereum Alarm Clock [Home](https://www.ethereum-alarm-clock.com)<br>
-
-IPFS InterPlanetary File System [Home](https://ipfs.io)<br>
 
 Dapp University. (2018). ["Create an ICO Presale with Smart Contracts - #9 Real World ICO on Ethereum"](https://www.youtube.com/watch?v=uPeRwDvkuCs). YouTube.<br>
 freeCodeCamp. (2019). ["Solidity Tutorial - A Full Course on Ethereum, Blockchain Development, Smart Contracts, and the EVM"](https://www.youtube.com/watch?v=ipwxYa-F1uY). YouTube.<br>
@@ -69,3 +59,5 @@ Ether<br>
 Ethereum [Binance](https://academy.binance.com/en/articles/what-is-ethereum) [Wiki](https://en.wikipedia.org/wiki/Ethereum)<br>
 EVM Ethereum Virtual Machine<br>
 Smart Contract<br>
+Token<br>
+Tokenomics<br>
