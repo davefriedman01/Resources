@@ -25,8 +25,14 @@
   * [Trezor](https://trezor.io/)
 
 * DeFi Pulse [Home](https://defipulse.com)
+* State of the Dapps [Home](https://www.stateofthedapps.com)
+
 * [IPFS InterPlanetary File System](https://ipfs.io/)
   * IPFS Companion [GitHub](https://github.com/ipfs/ipfs-companion)
+
+* Parity [Home](https://www.parity.io)
+  * Parity Substrate [Home](https://www.parity.io/technologies/substrate/)
+  * Parity Polkadot [Home](https://polkadot.network)
 
 ## To Review
 * [Chainlink](https://data.chain.link)
