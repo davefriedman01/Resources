@@ -23,4 +23,6 @@
 ## To Review
 * [CryptoTrader.Tax](https://cryptotrader.tax/)
 * CryptoTrader.Tax's The Ultimate Crypto Tax Guide (2021) [Page](https://cryptotrader.tax/blog/the-traders-guide-to-cryptocurrency-taxes)
+* [Infura](https://infura.io/)
 * [MyCrypto](https://www.mycrypto.com/)
+* [MEW MyEtherWallet](https://www.myetherwallet.com/)
