@@ -42,9 +42,11 @@
 * [Consensys](https://www.consensys.net)
 * [CryptoTrader.Tax](https://cryptotrader.tax/)
 * CryptoTrader.Tax's The Ultimate Crypto Tax Guide (2021) [Page](https://cryptotrader.tax/blog/the-traders-guide-to-cryptocurrency-taxes)
+* [Gitcoin](https://gitcoin.co)
 * [Infura](https://infura.io/)
 * [MyCrypto](https://www.mycrypto.com/) [GitHub](https://github.com/MyCryptoHQ/MyCrypto)
 * [MEW MyEtherWallet](https://www.myetherwallet.com/)
+* [One Click Dapp](https://oneclickdapp.com)
 
 ## Terms
 * Cryptocurrency
