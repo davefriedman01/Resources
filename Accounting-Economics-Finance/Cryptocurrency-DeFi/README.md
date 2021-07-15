@@ -31,6 +31,7 @@
 
 * [IPFS InterPlanetary File System](https://ipfs.io/)
   * IPFS Companion [GitHub](https://github.com/ipfs/ipfs-companion)
+* [Pinata](https://pinata.cloud)
 
 * Parity [Home](https://www.parity.io)
   * Parity Substrate [Home](https://www.parity.io/technologies/substrate/)
@@ -44,3 +45,11 @@
 * [Infura](https://infura.io/)
 * [MyCrypto](https://www.mycrypto.com/) [GitHub](https://github.com/MyCryptoHQ/MyCrypto)
 * [MEW MyEtherWallet](https://www.myetherwallet.com/)
+
+## Terms
+* Cryptocurrency
+* DeFi Decentralized Finance
+* Distributed Ledger
+* Fungibility
+* Token
+* Tokenomics
