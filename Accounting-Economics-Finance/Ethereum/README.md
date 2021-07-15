@@ -24,9 +24,9 @@ Ethereum Consensus - Ghost Protocol [Paper](https://eprint.iacr.org/2013/881)<br
   * Ethereum Yellow Paper [Paper](https://ethereum.github.io/yellowpaper/paper.pdf)
   * EIP Ethereum Improvement Proposal [Home](https://eips.ethereum.org)
     * ERC Ethereum Request for Comments [Home](https://eips.ethereum.org/erc)
-      * ERC20 https://eips.ethereum.org/EIPS/eip-20
-      * ERC777 https://eips.ethereum.org/EIPS/eip-777
-      * ERC721 https://docs.openzeppelin.com/contracts/2.x/api/token/erc721
+      * [ERC20](https://eips.ethereum.org/EIPS/eip-20)
+      * [ERC777](https://eips.ethereum.org/EIPS/eip-777)
+      * [ERC721](https://docs.openzeppelin.com/contracts/2.x/api/token/erc721)
   * Ethereum Foundation [Home](https://ethereum.foundation)
   * Enterprise Ethereum Alliance [Wiki](https://entethalliance.org)
   * Go Ethereum node implementation [Home](https://geth.ethereum.org) [GitHub](https://github.com/ethereum/go-ethereum)
