@@ -2,7 +2,7 @@
 
 ![](../images/logo.png)
 
-Thank you to those who have made a lasting impact on me and my experience, understanding, and personal growth, and who continue to inspire and teach me.
+Thank you to those who have made a lasting impact on me and my experience, understanding, and personal growth, and who continue to inspire me.
 * my parents and family
 * [David Agler](http://davidagler.com)
 * Chris Byrne
