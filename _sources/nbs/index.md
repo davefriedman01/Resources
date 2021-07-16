@@ -1,9 +1,10 @@
-## This project is currently under construction
+### This project is currently under construction
 
 ![](../images/logo.png)
 
-I would like to express my gratitude to those teachers and mentors who have contributed to my experience, understanding, and personal growth.
+Thank you to those who have made a lasting impact on me and my experience, understanding, and personal growth, and who continue to inspire and teach me.
+* my parents and family
 * [David Agler](http://davidagler.com)
-* Christopher Byrne
-* [Christopher Moore](https://sites.psu.edu/moore/)
+* Chris Byrne
 * [Emily Grosholz](http://emilygrosholz.com)
+* [Christ Moore](https://sites.psu.edu/moore/)
