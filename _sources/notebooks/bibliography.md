@@ -1,5 +1,3 @@
 # Bibliography
 
-```
-{bibliography}
-```
+.. bibliography::
