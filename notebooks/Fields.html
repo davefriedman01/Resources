@@ -1,0 +1,1032 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fields &#8212; Mathematics and its Applications</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="GF(16)" href="galois_fields/galois_fields.html" />
+    <link rel="prev" title="Groups" href="Groups.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Mathematics and its Applications</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   This project is currently under construction
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Foundations
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Sets.html">
+   Sets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ComplexNumbers.html">
+   Complex Numbers
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="NumberTheory.html">
+   Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="AlgorithmicNumberTheory.html">
+   Algorithmic Number Theory
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ModularArithmetic.html">
+   Modular Arithmetic
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Polynomials.html">
+   Real Polynomial in one variable
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ConicSections.html">
+   Conic Sections
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Structures.html">
+   Structures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Groups.html">
+   Groups
+  </a>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="current reference internal" href="#">
+   Fields
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="galois_fields/galois_fields.html">
+     GF(16)
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="LinearAlgebra.html">
+   Linear Algebra
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Modeling
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="RandomWalks.html">
+   Random Walks
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DigitalSignalProcessing.html">
+   Digital Signal Processing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="DifferentialEquations.html">
+   Differential Equations
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Blockchain
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="PythonBlockchain.html">
+   Python Blockchain
+  </a>
+ </li>
+</ul>
+<p class="caption">
+ <span class="caption-text">
+  Bibliography
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="bibliography.html">
+   Bibliography
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/notebooks/Fields.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/davefriedman01/Resources"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/davefriedman01/Resources/master?urlpath=tree/docs/notebooks/Fields.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#abelian-ring-with-identity">
+   Abelian Ring with Identity
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#field">
+   Field
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#theorem">
+   Theorem
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#finite-field-f-q-or-galois-field-text-gf-q">
+   Finite Field
+   <span class="math notranslate nohighlight">
+    \(F_q\)
+   </span>
+   or Galois Field
+   <span class="math notranslate nohighlight">
+    \(\text{GF}(q)\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#text-gf-2-mathbb-z-2-0-1">
+   <span class="math notranslate nohighlight">
+    \(\text{GF}(2) = \mathbb{Z}_2 = \{0, 1\}\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#text-gf-3-mathbb-z-3-0-1-2">
+   <span class="math notranslate nohighlight">
+    \(\text{GF}(3) = \mathbb{Z}_3 = \{0, 1, 2\}\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mathbb-z-4-0-1-2-3-not-a-field">
+   <span class="math notranslate nohighlight">
+    \(\mathbb{Z}_4 = \{0, 1, 2, 3\}\)
+   </span>
+   not a field
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#text-gf-4-2-2-0-1-x-x-1">
+   <span class="math notranslate nohighlight">
+    \(\text{GF}(4 = 2^2) = \{0, 1, x, x + 1\}\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#text-gf-5-mathbb-z-5-0-1-2-3-4">
+   <span class="math notranslate nohighlight">
+    \(\text{GF}(5) = \mathbb{Z}_5 = \{0, 1, 2, 3, 4\}\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#text-gf-7-mathbb-z-7-0-1-2-3-4-5-6">
+   <span class="math notranslate nohighlight">
+    \(\text{GF}(7) = \mathbb{Z}_7 = \{0, 1, 2, 3, 4, 5, 6\}\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mathbb-z-8-not-a-field">
+   <span class="math notranslate nohighlight">
+    \(\mathbb{Z}_8\)
+   </span>
+   not a field
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#text-gf-8-2-3-0-1-x-x-1-x-2-x-2-1-x-2-x-x-2-x-1">
+   <span class="math notranslate nohighlight">
+    \(\text{GF}(8 = 2^3) = \{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mathbb-z-9-not-a-field">
+   <span class="math notranslate nohighlight">
+    \(\mathbb{Z}_9\)
+   </span>
+   not a field
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#text-gf-9-3-2-0-1-2-x-x-1-x-2-2x-2x-1-2x-2">
+   <span class="math notranslate nohighlight">
+    \(\text{GF}(9 = 3^2) = \{0, 1, 2, x, x + 1, x + 2, 2x, 2x + 1, 2x + 2\}\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#text-gf-11-0-1-2-3-4-5-6-7-8-9-10">
+   <span class="math notranslate nohighlight">
+    \(\text{GF}(11) = \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#text-gf-13-0-1-2-3-4-5-6-7-8-9-10-11-12">
+   <span class="math notranslate nohighlight">
+    \(\text{GF}(13)= \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\}\)
+   </span>
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#text-gf-16-2-4">
+   <span class="math notranslate nohighlight">
+    \(\text{GF}(16 = 2^4)\)
+   </span>
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="fields">
+<h1>Fields<a class="headerlink" href="#fields" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
+<div class="section" id="abelian-ring-with-identity">
+<h2>Abelian Ring with Identity<a class="headerlink" href="#abelian-ring-with-identity" title="Permalink to this headline">¶</a></h2>
+<p>An abelian ring with identity that is not also a field satisfies all the properties of a field except for the existence of multiplicative inverse elements.<br></p>
+<p>Infinite Rings</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\mathbb{Z}\)</span> the set of integers (is not a field because, for example, 2 does not have a multiplicative inverse in Z)</p></li>
+<li><p><span class="math notranslate nohighlight">\(F[x]\)</span> the set of polynomials in x with coefficients belonging to a field F</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="field">
+<h2>Field<a class="headerlink" href="#field" title="Permalink to this headline">¶</a></h2>
+<p>A field is a tuple <span class="math notranslate nohighlight">\((F, +, \cdot)\)</span> that consists of a set and two operations called <em>addition</em> and <em>multiplication</em> satisfying the following properties:<br></p>
+<ul class="simple">
+<li><p>Additive Closure
+<span class="math notranslate nohighlight">\(a, b \in F \rightarrow a + b \in F\)</span></p></li>
+<li><p>Additive Commutativity
+<span class="math notranslate nohighlight">\(a + b = b + a\)</span></p></li>
+<li><p>Additive Associativity
+<span class="math notranslate nohighlight">\(a + (b + c) = (a + b) + c\)</span></p></li>
+<li><p>Existence of the Additive Identity Element
+<span class="math notranslate nohighlight">\(\exists 0 \in F, \forall a \in F, a + 0 = a\)</span></p></li>
+<li><p>Existence of Additive Inverse Elements
+<span class="math notranslate nohighlight">\(\forall a \in F, \exists -a \in F, a + (-a) = 0\)</span></p></li>
+<li><p>Multiplicative Closure
+<span class="math notranslate nohighlight">\(a, b \in F \rightarrow a \cdot b \in F\)</span></p></li>
+<li><p>Multiplicative Commutativity
+<span class="math notranslate nohighlight">\(a \cdot b = b \cdot a\)</span></p></li>
+<li><p>Multiplicative Associativity
+<span class="math notranslate nohighlight">\(a \cdot (b \cdot c) = (a \cdot b) \cdot c\)</span></p></li>
+<li><p>Existence of the Multiplicative Identity Element
+<span class="math notranslate nohighlight">\(\exists 1 \in F, \forall a \in F, a \cdot 1 = a\)</span></p></li>
+<li><p>Existence of Multiplicative Inverse Elements
+<span class="math notranslate nohighlight">\(\forall a \ne 0 \in F, \exists a^{-1} \in F, a \cdot a^{-1} = 1\)</span></p></li>
+<li><p>Distributivity
+<span class="math notranslate nohighlight">\(a \cdot (b + c) = a \cdot b + a \cdot c\)</span></p></li>
+</ul>
+<p>In other words, a field</p>
+<ul class="simple">
+<li><p>is an abelian group under addition</p></li>
+<li><p>the nonzero elements are an abelian group under multiplication</p></li>
+<li><p>the distributive law holds</p></li>
+</ul>
+<p>Subtraction<br>
+<span class="math notranslate nohighlight">\(a - b \equiv a + (-b)\)</span><br></p>
+<p>Division<br>
+<span class="math notranslate nohighlight">\(a \div b \equiv a \cdot b^{-1}\)</span><br></p>
+<p>Additional properties of fields:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(a0 = 0 \,\,\,\forall a \in F\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((ab = 0) \rightarrow (a = 0 \lor b = 0)\)</span> (if the product ab is zero, then at least one of a or b is zero)</p></li>
+<li><p><span class="math notranslate nohighlight">\((a \ne 0 \land b \ne 0) \rightarrow (ab \ne 0)\)</span> (the product of two nonzero elements is nonzero)</p></li>
+</ul>
+<p>Infinite Fields</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\mathbb{R}\)</span> the set of real numbers</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathbb{C}\)</span> the set of complex numbers</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="theorem">
+<h2>Theorem<a class="headerlink" href="#theorem" title="Permalink to this headline">¶</a></h2>
+<p><span class="math notranslate nohighlight">\(\mathbb{Z}_m\)</span> is a field iff <span class="math notranslate nohighlight">\(m\)</span> is prime.<br></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="finite-field-f-q-or-galois-field-text-gf-q">
+<h2>Finite Field <span class="math notranslate nohighlight">\(F_q\)</span> or Galois Field <span class="math notranslate nohighlight">\(\text{GF}(q)\)</span><a class="headerlink" href="#finite-field-f-q-or-galois-field-text-gf-q" title="Permalink to this headline">¶</a></h2>
+<p>A finite field <span class="math notranslate nohighlight">\(F_q\)</span> is a field with a finite number of elements <span class="math notranslate nohighlight">\(q\)</span>, called the order of the field.<br></p>
+<p>Galois’ Theorem<br>
+There exists a field of order <span class="math notranslate nohighlight">\(q\)</span> iff <span class="math notranslate nohighlight">\(q\)</span> is a prime power <span class="math notranslate nohighlight">\(q = p^h\)</span> where <span class="math notranslate nohighlight">\(p\)</span> is prime and <span class="math notranslate nohighlight">\(h\)</span> is a positive integer. Further, if <span class="math notranslate nohighlight">\(q\)</span> is a prime power then there is, up to relabelling, only one field of that order.<br></p>
+<p><strong>Prime Field</strong> <span class="math notranslate nohighlight">\(\text{GF}(p) = \{0, 1, ..., p - 1\}\)</span> is a Galois field of order <span class="math notranslate nohighlight">\(q = p\)</span> (i.e., where <span class="math notranslate nohighlight">\(h = 1\)</span>) that consists of the set <span class="math notranslate nohighlight">\(\{0, 1, ..., p - 1\}\)</span> with arithmetic carried out modulo <span class="math notranslate nohighlight">\(p\)</span>.<br></p>
+</div>
+<div class="section" id="text-gf-2-mathbb-z-2-0-1">
+<h2><span class="math notranslate nohighlight">\(\text{GF}(2) = \mathbb{Z}_2 = \{0, 1\}\)</span><a class="headerlink" href="#text-gf-2-mathbb-z-2-0-1" title="Permalink to this headline">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+&amp; f_0x^0 &amp; \\
+&amp; 0x^0 &amp; 0 \\
+&amp; 1x^0 &amp; 1 \\
+\end{align}
+\end{split}\]</div>
+<table>
+    <tr>
+        <td>+</td><td>0</td><td>1</td>
+    </tr>
+    <tr>
+        <td>0</td><td>0</td><td>1</td>
+    </tr>
+    <tr>
+        <td>1</td><td>1</td><td>0</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>$\cdot$</td><td>0</td><td>1</td>
+    </tr>
+    <tr>
+        <td>0</td><td>0</td><td>0</td>
+    </tr>
+    <tr>
+        <td>1</td><td>0</td><td>1</td>
+    </tr>
+</table><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">zer</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">one</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="n">display</span><span class="p">(</span>
+    <span class="n">zer</span> <span class="o">+</span> <span class="n">zer</span><span class="p">,</span>
+    <span class="n">zer</span> <span class="o">+</span> <span class="n">one</span><span class="p">,</span>
+    <span class="n">one</span> <span class="o">+</span> <span class="n">zer</span><span class="p">,</span>
+    <span class="n">one</span> <span class="o">+</span> <span class="n">one</span><span class="p">,</span>
+    <span class="n">zer</span> <span class="o">*</span> <span class="n">zer</span><span class="p">,</span>
+    <span class="n">zer</span> <span class="o">*</span> <span class="n">one</span><span class="p">,</span>
+    <span class="n">one</span> <span class="o">*</span> <span class="n">zer</span><span class="p">,</span>
+    <span class="n">one</span> <span class="o">*</span> <span class="n">one</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_2(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_2(1)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_2(1)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_2(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_2(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_2(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_2(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_2(1)
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="text-gf-3-mathbb-z-3-0-1-2">
+<h2><span class="math notranslate nohighlight">\(\text{GF}(3) = \mathbb{Z}_3 = \{0, 1, 2\}\)</span><a class="headerlink" href="#text-gf-3-mathbb-z-3-0-1-2" title="Permalink to this headline">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+&amp; f_0x^0 &amp; \\
+&amp; 0x^0 &amp; 0 \\
+&amp; 1x^0 &amp; 1 \\
+&amp; 2x^0 &amp; 2 \\
+\end{align}
+\end{split}\]</div>
+<table>
+    <tr>
+        <td>+</td><td>0</td><td>1</td><td>2</td>
+    </tr>
+    <tr>
+        <td>0</td><td>0</td><td>1</td><td>2</td>
+    </tr>
+    <tr>
+        <td>1</td><td>1</td><td>2</td><td>0</td>
+    </tr>
+    <tr>
+        <td>2</td><td>2</td><td>0</td><td>1</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>$\cdot$</td><td>0</td><td>1</td><td>2</td>
+    </tr>
+    <tr>
+        <td>0</td><td>0</td><td>0</td><td>0</td>
+    </tr>
+    <tr>
+        <td>1</td><td>0</td><td>1</td><td>2</td>
+    </tr>
+    <tr>
+        <td>2</td><td>0</td><td>2</td><td>1</td>
+    </tr>
+</table><div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">zer</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">one</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">two</span> <span class="o">=</span> <span class="n">FieldElement</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+
+<span class="n">display</span><span class="p">(</span>
+    <span class="n">zer</span> <span class="o">+</span> <span class="n">zer</span><span class="p">,</span>
+    <span class="n">zer</span> <span class="o">+</span> <span class="n">one</span><span class="p">,</span>
+    <span class="n">zer</span> <span class="o">+</span> <span class="n">two</span><span class="p">,</span>
+    <span class="n">one</span> <span class="o">+</span> <span class="n">zer</span><span class="p">,</span>
+    <span class="n">one</span> <span class="o">+</span> <span class="n">one</span><span class="p">,</span>
+    <span class="n">one</span> <span class="o">+</span> <span class="n">two</span><span class="p">,</span>
+    <span class="n">two</span> <span class="o">+</span> <span class="n">zer</span><span class="p">,</span>
+    <span class="n">two</span> <span class="o">+</span> <span class="n">one</span><span class="p">,</span>
+    <span class="n">two</span> <span class="o">+</span> <span class="n">two</span><span class="p">,</span>
+    <span class="n">zer</span> <span class="o">*</span> <span class="n">zer</span><span class="p">,</span>
+    <span class="n">zer</span> <span class="o">*</span> <span class="n">one</span><span class="p">,</span>
+    <span class="n">zer</span> <span class="o">*</span> <span class="n">two</span><span class="p">,</span>
+    <span class="n">one</span> <span class="o">*</span> <span class="n">zer</span><span class="p">,</span>
+    <span class="n">one</span> <span class="o">*</span> <span class="n">one</span><span class="p">,</span>
+    <span class="n">one</span> <span class="o">*</span> <span class="n">two</span><span class="p">,</span>
+    <span class="n">two</span> <span class="o">*</span> <span class="n">zer</span><span class="p">,</span>
+    <span class="n">two</span> <span class="o">*</span> <span class="n">one</span><span class="p">,</span>
+    <span class="n">two</span> <span class="o">*</span> <span class="n">two</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(1)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(2)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(1)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(2)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(2)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(1)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(1)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(2)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(0)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(2)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>FieldElement_3(1)
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="mathbb-z-4-0-1-2-3-not-a-field">
+<h2><span class="math notranslate nohighlight">\(\mathbb{Z}_4 = \{0, 1, 2, 3\}\)</span> not a field<a class="headerlink" href="#mathbb-z-4-0-1-2-3-not-a-field" title="Permalink to this headline">¶</a></h2>
+<table>
+    <tr>
+        <td>+</td><td>0</td><td>1</td><td>2</td><td>3</td>
+    </tr>
+    <tr>
+        <td>0</td><td>0</td><td>1</td><td>2</td><td>3</td>
+    </tr>
+    <tr>
+        <td>1</td><td>1</td><td>2</td><td>3</td><td>0</td>
+    </tr>
+    <tr>
+        <td>2</td><td>2</td><td>3</td><td>0</td><td>1</td>
+    </tr>
+    <tr>
+        <td>3</td><td>3</td><td>0</td><td>1</td><td>2</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>$\cdot$</td><td>0</td><td>1</td><td>2</td><td>3</td>
+    </tr>
+    <tr>
+        <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+    </tr>
+    <tr>
+        <td>1</td><td>0</td><td>1</td><td>2</td><td>3</td>
+    </tr>
+    <tr>
+        <td>2</td><td>0</td><td>2</td><td>0</td><td>2</td>
+    </tr>
+    <tr>
+        <td>3</td><td>0</td><td>3</td><td>2</td><td>1</td>
+    </tr>
+</table></div>
+<div class="section" id="text-gf-4-2-2-0-1-x-x-1">
+<h2><span class="math notranslate nohighlight">\(\text{GF}(4 = 2^2) = \{0, 1, x, x + 1\}\)</span><a class="headerlink" href="#text-gf-4-2-2-0-1-x-x-1" title="Permalink to this headline">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+f_0x^0 + f_1x^1 &amp; \\
+0x^0 + 0x^1     &amp;&amp; 0      &amp;&amp; 0 \\
+0x^0 + 1x^1     &amp;&amp; x      &amp;&amp; a \\
+1x^0 + 0x^1     &amp;&amp; 1      &amp;&amp; 1 \\
+1x^0 + 1x^1     &amp;&amp; 1 + x  &amp;&amp; b \\
+\end{align}
+\end{split}\]</div>
+<table>
+    <tr>
+        <td>+</td><td>0</td><td>1</td><td>a</td><td>b</td>
+    </tr>
+    <tr>
+        <td>0</td><td>0</td><td>1</td><td>a</td><td>b</td>
+    </tr>
+    <tr>
+        <td>1</td><td>1</td><td>0</td><td>b</td><td>a</td>
+    </tr>
+    <tr>
+        <td>a</td><td>a</td><td>b</td><td>0</td><td>1</td>
+    </tr>
+    <tr>
+        <td>b</td><td>b</td><td>a</td><td>1</td><td>0</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>$\cdot$</td><td>0</td><td>1</td><td>a</td><td>b</td>
+    </tr>
+    <tr>
+        <td>0</td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>1</td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>a</td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>b</td><td></td><td></td><td></td><td></td>
+    </tr>
+</table></div>
+<div class="section" id="text-gf-5-mathbb-z-5-0-1-2-3-4">
+<h2><span class="math notranslate nohighlight">\(\text{GF}(5) = \mathbb{Z}_5 = \{0, 1, 2, 3, 4\}\)</span><a class="headerlink" href="#text-gf-5-mathbb-z-5-0-1-2-3-4" title="Permalink to this headline">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+&amp; f_0x^0 &amp; \\
+&amp; 0x^0 &amp; 0 \\
+&amp; 1x^0 &amp; 1 \\
+&amp; 2x^0 &amp; 2 \\
+&amp; 3x^0 &amp; 3 \\
+&amp; 4x^0 &amp; 4 \\
+\end{align}
+\end{split}\]</div>
+<table>
+    <tr>
+        <td>+</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td>
+    </tr>
+    <tr>
+        <td>0</td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>1</td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>2</td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>3</td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>4</td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>$\cdot$</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td>
+    </tr>
+    <tr>
+        <td>0</td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>1</td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>2</td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>3</td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>4</td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+</table></div>
+<div class="section" id="text-gf-7-mathbb-z-7-0-1-2-3-4-5-6">
+<h2><span class="math notranslate nohighlight">\(\text{GF}(7) = \mathbb{Z}_7 = \{0, 1, 2, 3, 4, 5, 6\}\)</span><a class="headerlink" href="#text-gf-7-mathbb-z-7-0-1-2-3-4-5-6" title="Permalink to this headline">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+&amp; f_0x^0 &amp; \\
+&amp; 0x^0 &amp; 0 \\
+&amp; 1x^0 &amp; 1 \\
+&amp; 2x^0 &amp; 2 \\
+&amp; 3x^0 &amp; 3 \\
+&amp; 4x^0 &amp; 4 \\
+&amp; 5x^0 &amp; 5 \\
+&amp; 6x^0 &amp; 6 \\
+\end{align}
+\end{split}\]</div>
+<table>
+    <tr>
+        <td>+</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+    </tr>
+    <tr>
+        <td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>6</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>$\cdot$</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+    </tr>
+    <tr>
+        <td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+        <td>6</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+    </tr>
+</table></div>
+<div class="section" id="mathbb-z-8-not-a-field">
+<h2><span class="math notranslate nohighlight">\(\mathbb{Z}_8\)</span> not a field<a class="headerlink" href="#mathbb-z-8-not-a-field" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="text-gf-8-2-3-0-1-x-x-1-x-2-x-2-1-x-2-x-x-2-x-1">
+<h2><span class="math notranslate nohighlight">\(\text{GF}(8 = 2^3) = \{0, 1, x, x + 1, x^2, x^2 + 1, x^2 + x, x^2 + x + 1\}\)</span><a class="headerlink" href="#text-gf-8-2-3-0-1-x-x-1-x-2-x-2-1-x-2-x-x-2-x-1" title="Permalink to this headline">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+&amp; f_0x^0 + f_1x^1 + f_2x^2 &amp; \\
+&amp; 0x^0 + 0x^1 + 0x^2       &amp; 0 \\
+&amp; 0x^0 + 0x^1 + 1x^2       &amp; x^2 \\
+&amp; 0x^0 + 1x^1 + 0x^2       &amp; x \\
+&amp; 0x^0 + 1x^1 + 1x^2       &amp; x + x^2 \\
+&amp; 1x^0 + 0x^1 + 0x^2       &amp; 1 \\
+&amp; 1x^0 + 0x^1 + 1x^2       &amp; 1 + x^2 \\
+&amp; 1x^0 + 1x^1 + 0x^2       &amp; 1 + x \\
+&amp; 1x^0 + 1x^1 + 1x^2       &amp; 1 + x + x^2 \\
+\end{align}
+\end{split}\]</div>
+</div>
+<div class="section" id="mathbb-z-9-not-a-field">
+<h2><span class="math notranslate nohighlight">\(\mathbb{Z}_9\)</span> not a field<a class="headerlink" href="#mathbb-z-9-not-a-field" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="text-gf-9-3-2-0-1-2-x-x-1-x-2-2x-2x-1-2x-2">
+<h2><span class="math notranslate nohighlight">\(\text{GF}(9 = 3^2) = \{0, 1, 2, x, x + 1, x + 2, 2x, 2x + 1, 2x + 2\}\)</span><a class="headerlink" href="#text-gf-9-3-2-0-1-2-x-x-1-x-2-2x-2x-1-2x-2" title="Permalink to this headline">¶</a></h2>
+<div class="math notranslate nohighlight">
+\[\begin{split}
+\begin{align}
+&amp; f_0x^0 + f_1x^1 &amp; \\
+&amp; 0x^0 + 0x^1     &amp; 0 \\
+&amp; 0x^0 + 1x^1     &amp; x \\
+&amp; 0x^0 + 2x^1     &amp; 2x \\
+&amp; 1x^0 + 0x^1     &amp; 1 \\
+&amp; 1x^0 + 1x^1     &amp; 1 + x \\
+&amp; 1x^0 + 2x^1     &amp; 1 + 2x \\
+&amp; 2x^0 + 0x^1     &amp; 2 \\
+&amp; 2x^0 + 1x^1     &amp; 2 + x \\
+&amp; 2x^0 + 2x^1     &amp; 2 + 2x \\
+\end{align}
+\end{split}\]</div>
+</div>
+<div class="section" id="text-gf-11-0-1-2-3-4-5-6-7-8-9-10">
+<h2><span class="math notranslate nohighlight">\(\text{GF}(11) = \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\}\)</span><a class="headerlink" href="#text-gf-11-0-1-2-3-4-5-6-7-8-9-10" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="text-gf-13-0-1-2-3-4-5-6-7-8-9-10-11-12">
+<h2><span class="math notranslate nohighlight">\(\text{GF}(13)= \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\}\)</span><a class="headerlink" href="#text-gf-13-0-1-2-3-4-5-6-7-8-9-10-11-12" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="text-gf-16-2-4">
+<h2><span class="math notranslate nohighlight">\(\text{GF}(16 = 2^4)\)</span><a class="headerlink" href="#text-gf-16-2-4" title="Permalink to this headline">¶</a></h2>
+</div>
+<hr class="docutils" />
+<div class="toctree-wrapper compound">
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./notebooks"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="Groups.html" title="previous page">Groups</a>
+    <a class='right-next' id="next-link" href="galois_fields/galois_fields.html" title="next page">GF(16)</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Dave Friedman<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
