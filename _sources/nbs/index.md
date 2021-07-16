@@ -7,4 +7,4 @@ Thank you to those who have made a lasting impact on me and my experience, under
 * [David Agler](http://davidagler.com)
 * Chris Byrne
 * [Emily Grosholz](http://emilygrosholz.com)
-* [Christ Moore](https://sites.psu.edu/moore/)
+* [Chris Moore](https://sites.psu.edu/moore/)
